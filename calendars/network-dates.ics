@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//CommDDL//Communications Calendar//ZH
+CALSCALE:GREGORIAN
+X-WR-CALNAME:CommDDL · 网络与移动系统（日期提示）
+BEGIN:VEVENT
+UID:wcm-orbit-2026-paper@commddl
+DTSTAMP:20261017T080000Z
+LAST-MODIFIED:20261017T080000Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20261101
+DTEND;VALUE=DATE:20261102
+SUMMARY:IEEE WCM · 在轨计算：迈向空间智能时代 · 稿件提交
+ （日期提示）
+DESCRIPTION:日期提示：官网未明确具体钟点或时区，此全天
+ 事件不代表当天任何时间均可投稿。\n\n来源：https://www.c
+ omsoc.org/publications/magazines/ieee-wireless-communications/cfp/orbit-co
+ mputing-striding-era-space-centric-intelligence
+URL:https://www.comsoc.org/publications/magazines/ieee-wireless-communicati
+ ons/cfp/orbit-computing-striding-era-space-centric-intelligence
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,148 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//CommDDL//Communications Calendar//ZH
+CALSCALE:GREGORIAN
+X-WR-CALNAME:CommDDL · 无线通信（日期提示）
+BEGIN:VEVENT
+UID:jsac-flexible-2026-paper@commddl
+DTSTAMP:20261017T080000Z
+LAST-MODIFIED:20261017T080000Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20261030
+DTEND;VALUE=DATE:20261031
+SUMMARY:JSAC · 可移动与夹持天线：面向下一代无线网络 · 
+ 初稿提交（日期提示）
+DESCRIPTION:日期提示：官网未明确具体钟点或时区，此全天
+ 事件不代表当天任何时间均可投稿。\n官方注明截止已延
+ 期；本版未核实原截止日期，不填推测值。\n来源：https:
+ //www.comsoc.org/publications/journals/ieee-jsac/cfp/exploiting-flexible-p
+ ositioning-movable-and-pinching-antennas-next-generation-wireless-networks
+URL:https://www.comsoc.org/publications/journals/ieee-jsac/cfp/exploiting-f
+ lexible-positioning-movable-and-pinching-antennas-next-generation-wireless
+ -networks
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:jsac-underwater-2027-paper@commddl
+DTSTAMP:20261017T080000Z
+LAST-MODIFIED:20261017T080000Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20270331
+DTEND;VALUE=DATE:20270401
+SUMMARY:JSAC · 下一代水声通信系统 · 稿件提交（日期提示
+ ）
+DESCRIPTION:日期提示：官网未明确具体钟点或时区，此全天
+ 事件不代表当天任何时间均可投稿。\n\n来源：https://www.c
+ omsoc.org/publications/journals/ieee-jsac/cfp/next-generation-underwater-a
+ coustic-communication-systems
+URL:https://www.comsoc.org/publications/journals/ieee-jsac/cfp/next-generat
+ ion-underwater-acoustic-communication-systems
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:wcm-underwater-optical-2026-paper@commddl
+DTSTAMP:20261017T080000Z
+LAST-MODIFIED:20261017T080000Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20261101
+DTEND;VALUE=DATE:20261102
+SUMMARY:IEEE WCM · 人工智能赋能水下无线光通信 · 稿件提交
+ （日期提示）
+DESCRIPTION:日期提示：官网未明确具体钟点或时区，此全天
+ 事件不代表当天任何时间均可投稿。\n官方页面的首次决
+ 定年份出现早于投稿截止的异常。本版只录入与官方总
+ 表一致的投稿日期，后续通知时间待复核。\n来源：https:
+ //www.comsoc.org/publications/magazines/ieee-wireless-communications/cfp/a
+ i-empowered-underwater-wireless-optical-communications-science-exploration
+ -and-defense-applications
+URL:https://www.comsoc.org/publications/magazines/ieee-wireless-communicati
+ ons/cfp/ai-empowered-underwater-wireless-optical-communications-science-ex
+ ploration-and-defense-applications
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:wcm-metasurface-2027-paper@commddl
+DTSTAMP:20261017T080000Z
+LAST-MODIFIED:20261017T080000Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20270101
+DTEND;VALUE=DATE:20270102
+SUMMARY:IEEE WCM · 三维超表面辅助无线通信：从模型到智能
+ 方法 · 稿件提交（日期提示）
+DESCRIPTION:日期提示：官网未明确具体钟点或时区，此全天
+ 事件不代表当天任何时间均可投稿。\n\n来源：https://www.c
+ omsoc.org/publications/magazines/ieee-wireless-communications/cfp/3d-metas
+ urface-assisted-wireless-communications-model-based-designs-ai-driven-appr
+ oaches
+URL:https://www.comsoc.org/publications/magazines/ieee-wireless-communicati
+ ons/cfp/3d-metasurface-assisted-wireless-communications-model-based-design
+ s-ai-driven-approaches
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:wcm-quantum-radio-2027-paper@commddl
+DTSTAMP:20261017T080000Z
+LAST-MODIFIED:20261017T080000Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20270301
+DTEND;VALUE=DATE:20270302
+SUMMARY:IEEE WCM · 从原子到网络：6G 量子射频前端 · 稿件提
+ 交（日期提示）
+DESCRIPTION:日期提示：官网未明确具体钟点或时区，此全天
+ 事件不代表当天任何时间均可投稿。\n\n来源：https://www.c
+ omsoc.org/publications/magazines/ieee-wireless-communications/cfp/atomic-n
+ etwork-quantum-radio-front-ends-6g-wireless-communications-and-sensing
+URL:https://www.comsoc.org/publications/magazines/ieee-wireless-communicati
+ ons/cfp/atomic-network-quantum-radio-front-ends-6g-wireless-communications
+ -and-sensing
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:vtc-2027-spring-main-paper@commddl
+DTSTAMP:20261017T080000Z
+LAST-MODIFIED:20261017T080000Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20261014
+DTEND;VALUE=DATE:20261015
+SUMMARY:VTC · VTC 2027 春季 · 主会常规论文 · 常规论文提交
+ （日期提示）
+DESCRIPTION:日期提示：官网未明确具体钟点或时区，此全天
+ 事件不代表当天任何时间均可投稿。\n官网公布最终延期
+ 日期；没有从页面中确认具体钟点和时区。\n来源：https:
+ //events.vtsociety.org/vtc2027-spring/
+URL:https://events.vtsociety.org/vtc2027-spring/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:vtc-2027-spring-workshops-paper@commddl
+DTSTAMP:20261017T080000Z
+LAST-MODIFIED:20261017T080000Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20261220
+DTEND;VALUE=DATE:20261221
+SUMMARY:VTC · VTC 2027 春季 · 附属研讨会总入口 · 研讨会论
+ 文提交（日期提示）
+DESCRIPTION:日期提示：官网未明确具体钟点或时区，此全天
+ 事件不代表当天任何时间均可投稿。\n这是大会总入口，
+ 不代表每个附属研讨会必然采用同一日期；不继承主会
+ 的学校认定。\n来源：https://events.vtsociety.org/vtc2027-spring/
+URL:https://events.vtsociety.org/vtc2027-spring/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:icassp-2027-main-paper@commddl
+DTSTAMP:20261017T080000Z
+LAST-MODIFIED:20261017T080000Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20260923
+DTEND;VALUE=DATE:20260924
+SUMMARY:ICASSP · ICASSP 2027 · 主会论文 · 全文提交（日期提
+ 示）
+DESCRIPTION:日期提示：官网未明确具体钟点或时区，此全天
+ 事件不代表当天任何时间均可投稿。\n列表中的 CMS 显示
+ 时刻不作为投稿截止钟点。\n来源：https://2027.ieeeicassp.org
+ /eventtype/important-dates/
+URL:https://2027.ieeeicassp.org/eventtype/important-dates/
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

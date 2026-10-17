@@ -1,0 +1,38 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//CommDDL//Communications Calendar//ZH
+CALSCALE:GREGORIAN
+X-WR-CALNAME:CommDDL · 物联网与车联网（日期提示）
+BEGIN:VEVENT
+UID:vtc-2027-spring-main-paper@commddl
+DTSTAMP:20261017T080000Z
+LAST-MODIFIED:20261017T080000Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20261014
+DTEND;VALUE=DATE:20261015
+SUMMARY:VTC · VTC 2027 春季 · 主会常规论文 · 常规论文提交
+ （日期提示）
+DESCRIPTION:日期提示：官网未明确具体钟点或时区，此全天
+ 事件不代表当天任何时间均可投稿。\n官网公布最终延期
+ 日期；没有从页面中确认具体钟点和时区。\n来源：https:
+ //events.vtsociety.org/vtc2027-spring/
+URL:https://events.vtsociety.org/vtc2027-spring/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:vtc-2027-spring-workshops-paper@commddl
+DTSTAMP:20261017T080000Z
+LAST-MODIFIED:20261017T080000Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20261220
+DTEND;VALUE=DATE:20261221
+SUMMARY:VTC · VTC 2027 春季 · 附属研讨会总入口 · 研讨会论
+ 文提交（日期提示）
+DESCRIPTION:日期提示：官网未明确具体钟点或时区，此全天
+ 事件不代表当天任何时间均可投稿。\n这是大会总入口，
+ 不代表每个附属研讨会必然采用同一日期；不继承主会
+ 的学校认定。\n来源：https://events.vtsociety.org/vtc2027-spring/
+URL:https://events.vtsociety.org/vtc2027-spring/
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

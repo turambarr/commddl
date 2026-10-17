@@ -1,0 +1,43 @@
+const fs = require('node:fs');
+const path = require('node:path');
+const C = require('../assets/core.js');
+const data = JSON.parse(fs.readFileSync(path.join(__dirname,'../data/catalog.json'),'utf8'));
+const errors=[];
+const requireThat=(condition,message)=>{if(!condition)errors.push(message);};
+const url=value=>{try{const u=new URL(value);return ['https:','http:'].includes(u.protocol)&&!/[\r\n]/.test(value);}catch{return false;}};
+const ids=new Set(), venueIds=new Set(data.venues.map(v=>v.id)), areas=new Set(data.areas.map(a=>a.id));
+for(const item of [...data.venues,...data.calls]){
+  requireThat(/^[a-z0-9-]+$/.test(item.id),`Invalid ID: ${item.id}`);
+  requireThat(!ids.has(item.id),`Duplicate ID: ${item.id}`);ids.add(item.id);
+  requireThat(url(item.url)&&url(item.sourceUrl),`${item.id}: invalid official/source URL`);
+  requireThat(item.areas?.length>0&&item.areas.every(a=>areas.has(a)),`${item.id}: unknown research area`);
+  requireThat(['verified','pending'].includes(item.verification),`${item.id}: missing verification status`);
+  if(item.verification==='verified') requireThat(C.validDate(item.verifiedAt),`${item.id}: missing verification date`);
+}
+for(const v of data.venues){
+  requireThat(['journal','conference'].includes(v.kind),`${v.id}: invalid venue kind`);
+  requireThat(v.short&&v.nameZh&&v.nameEn&&v.summary,`${v.id}: missing identity fields`);
+  requireThat(Array.isArray(v.articleTypes)&&v.articleTypes.length,`${v.id}: missing article types`);
+  for(const a of v.assessments||[]){requireThat(a.year&&url(a.sourceUrl)&&a.note,`${v.id}: assessment needs year, source and scope`);}
+}
+for(const call of data.calls){
+  requireThat(venueIds.has(call.venueId),`${call.id}: missing parent venue`);
+  requireThat(['conference','workshop','special','series'].includes(call.kind),`${call.id}: invalid activity kind`);
+  requireThat(call.title&&call.titleEn,`${call.id}: missing title`);
+  requireThat(Array.isArray(call.nodes),`${call.id}: missing timeline`);
+  requireThat((call.nodes||[]).filter(n=>n.primary).length<=1,`${call.id}: multiple primary nodes`);
+  const nodeIds=new Set();
+  for(const node of call.nodes||[]){
+    requireThat(/^[a-z0-9-]+$/.test(node.id)&&!nodeIds.has(node.id),`${call.id}: duplicate/invalid stable node ID`);nodeIds.add(node.id);
+    requireThat(node.label&&node.original,`${call.id}/${node.id}: missing label or source wording`);
+    requireThat(['instant','date','unknown'].includes(node.precision),`${call.id}/${node.id}: invalid precision`);
+    if(node.precision==='date')requireThat(C.validDate(node.date)&&!node.instant&&!node.timezone,`${call.id}/${node.id}: date-only node must not invent a timezone/instant`);
+    if(node.precision==='instant')requireThat(C.parseInstant(node.instant)!==null&&node.timezone,`${call.id}/${node.id}: exact instant needs explicit offset and source timezone`);
+    requireThat(Number.isInteger(node.revision)&&node.revision>=0,`${call.id}/${node.id}: invalid revision`);
+    if(node.precision!=='unknown')requireThat(call.verification==='verified',`${call.id}/${node.id}: unverified date must not be published as a verified node`);
+  }
+  for(const node of call.nodes||[]) for(const id of node.requires||[])requireThat(nodeIds.has(id)&&id!==node.id,`${call.id}/${node.id}: invalid prerequisite`);
+  if(call.kind==='special')requireThat(data.venues.find(v=>v.id===call.venueId)?.kind==='journal',`${call.id}: special issue parent must be a journal`);
+}
+if(errors.length){console.error(errors.join('\n'));process.exit(1);}
+console.log(`数据校验通过：${data.venues.length} 个载体，${data.calls.length} 项活动。格式检查不替代官方事实核验。`);

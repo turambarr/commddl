@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//CommDDL//Communications Calendar//ZH
+CALSCALE:GREGORIAN
+X-WR-CALNAME:CommDDL · 信息论与编码（日期提示）
+BEGIN:VEVENT
+UID:jsac-underwater-2027-paper@commddl
+DTSTAMP:20261017T080000Z
+LAST-MODIFIED:20261017T080000Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20270331
+DTEND;VALUE=DATE:20270401
+SUMMARY:JSAC · 下一代水声通信系统 · 稿件提交（日期提示
+ ）
+DESCRIPTION:日期提示：官网未明确具体钟点或时区，此全天
+ 事件不代表当天任何时间均可投稿。\n\n来源：https://www.c
+ omsoc.org/publications/journals/ieee-jsac/cfp/next-generation-underwater-a
+ coustic-communication-systems
+URL:https://www.comsoc.org/publications/journals/ieee-jsac/cfp/next-generat
+ ion-underwater-acoustic-communication-systems
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

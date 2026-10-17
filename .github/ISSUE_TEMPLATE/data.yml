@@ -1,0 +1,24 @@
+name: 数据纠错与建议收录
+description: 请提供官方来源，帮助修订日期或补充投稿渠道。
+title: "[数据] "
+body:
+  - type: input
+    id: venue
+    attributes:
+      label: 会议、期刊或专题名称
+    validations:
+      required: true
+  - type: input
+    id: official
+    attributes:
+      label: 官方来源网址
+      placeholder: https://...
+    validations:
+      required: true
+  - type: textarea
+    id: change
+    attributes:
+      label: 需要修改或补充的内容
+      description: 请保留官网的原始日期、钟点、时区、稿件类型；不明确的内容请注明。
+    validations:
+      required: true

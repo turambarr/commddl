@@ -1,0 +1,27 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//CommDDL//Communications Calendar//ZH
+CALSCALE:GREGORIAN
+X-WR-CALNAME:CommDDL · 光通信与光网络（日期提示）
+BEGIN:VEVENT
+UID:wcm-underwater-optical-2026-paper@commddl
+DTSTAMP:20261017T080000Z
+LAST-MODIFIED:20261017T080000Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20261101
+DTEND;VALUE=DATE:20261102
+SUMMARY:IEEE WCM · 人工智能赋能水下无线光通信 · 稿件提交
+ （日期提示）
+DESCRIPTION:日期提示：官网未明确具体钟点或时区，此全天
+ 事件不代表当天任何时间均可投稿。\n官方页面的首次决
+ 定年份出现早于投稿截止的异常。本版只录入与官方总
+ 表一致的投稿日期，后续通知时间待复核。\n来源：https:
+ //www.comsoc.org/publications/magazines/ieee-wireless-communications/cfp/a
+ i-empowered-underwater-wireless-optical-communications-science-exploration
+ -and-defense-applications
+URL:https://www.comsoc.org/publications/magazines/ieee-wireless-communicati
+ ons/cfp/ai-empowered-underwater-wireless-optical-communications-science-ex
+ ploration-and-defense-applications
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

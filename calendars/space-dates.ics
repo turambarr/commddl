@@ -1,0 +1,41 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//CommDDL//Communications Calendar//ZH
+CALSCALE:GREGORIAN
+X-WR-CALNAME:CommDDL · 卫星与空天地通信（日期提示）
+BEGIN:VEVENT
+UID:wcm-orbit-2026-paper@commddl
+DTSTAMP:20261017T080000Z
+LAST-MODIFIED:20261017T080000Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20261101
+DTEND;VALUE=DATE:20261102
+SUMMARY:IEEE WCM · 在轨计算：迈向空间智能时代 · 稿件提交
+ （日期提示）
+DESCRIPTION:日期提示：官网未明确具体钟点或时区，此全天
+ 事件不代表当天任何时间均可投稿。\n\n来源：https://www.c
+ omsoc.org/publications/magazines/ieee-wireless-communications/cfp/orbit-co
+ mputing-striding-era-space-centric-intelligence
+URL:https://www.comsoc.org/publications/magazines/ieee-wireless-communicati
+ ons/cfp/orbit-computing-striding-era-space-centric-intelligence
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:wcm-quantum-radio-2027-paper@commddl
+DTSTAMP:20261017T080000Z
+LAST-MODIFIED:20261017T080000Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20270301
+DTEND;VALUE=DATE:20270302
+SUMMARY:IEEE WCM · 从原子到网络：6G 量子射频前端 · 稿件提
+ 交（日期提示）
+DESCRIPTION:日期提示：官网未明确具体钟点或时区，此全天
+ 事件不代表当天任何时间均可投稿。\n\n来源：https://www.c
+ omsoc.org/publications/magazines/ieee-wireless-communications/cfp/atomic-n
+ etwork-quantum-radio-front-ends-6g-wireless-communications-and-sensing
+URL:https://www.comsoc.org/publications/magazines/ieee-wireless-communicati
+ ons/cfp/atomic-network-quantum-radio-front-ends-6g-wireless-communications
+ -and-sensing
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

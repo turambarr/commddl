@@ -1,0 +1,16 @@
+{
+  "name": "commddl",
+  "version": "0.1.0",
+  "private": true,
+  "description": "通信科研投稿日历：会议、期刊与专题征稿导航",
+  "scripts": {
+    "build": "node scripts/build.cjs",
+    "check": "node scripts/validate.cjs",
+    "test": "node --test tests/core.test.cjs",
+    "serve": "node scripts/serve.cjs"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "license": "MIT"
+}

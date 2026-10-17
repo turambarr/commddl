@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="CommDDL 通信科研投稿日历：按研究方向查找会议、期刊和专题征稿，查看官方来源、时间与个人收藏。">
+  <meta name="theme-color" content="#112c31">
+  <title>CommDDL · 通信科研投稿日历</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">跳到内容</a>
+  <aside class="sidebar" id="sidebar">
+    <a href="#deadlines" class="brand" aria-label="CommDDL 首页"><span class="brand-symbol" aria-hidden="true"><i></i><i></i><i></i><i></i></span><span>Comm<span class="brand-ddl">DDL</span><small>通信科研投稿日历</small></span></a>
+    <div class="workspace-label">研究工作台 <span>HTML · v0.1</span></div>
+    <nav aria-label="主要导航" id="main-nav">
+      <button data-view="deadlines" class="nav-item active"><span data-icon="clock"></span>截稿日历 <span class="nav-count" id="nav-call-count"></span></button>
+      <button data-view="conferences" class="nav-item"><span data-icon="globe"></span>会议目录 <span class="nav-count" id="nav-conf-count"></span></button>
+      <button data-view="journals" class="nav-item"><span data-icon="book"></span>期刊目录 <span class="nav-count" id="nav-journal-count"></span></button>
+      <button data-view="favorites" class="nav-item"><span data-icon="bookmark"></span>我的关注 <span class="nav-count" id="nav-favorite-count">0</span></button>
+    </nav>
+    <div class="sidebar-divider"></div>
+    <div class="section-label">研究方向 <button id="reset-area" title="清除方向筛选">全部</button></div>
+    <div id="area-nav" class="area-nav" role="group" aria-label="研究方向"></div>
+    <div class="sidebar-bottom">
+      <button data-view="about" class="nav-item"><span data-icon="shield"></span>来源与维护说明</button>
+      <a class="github-link" id="github-link" href="https://github.com/turambarr/commddl" target="_blank" rel="noopener noreferrer"><span data-icon="github"></span>GitHub 项目 <span data-icon="external"></span></a>
+      <p>为通信研究生整理<br>让下一次投稿，更有准备。</p>
+    </div>
+  </aside>
+  <div class="sidebar-backdrop" id="sidebar-backdrop"></div>
+  <div class="app-shell">
+    <header class="topbar">
+      <div class="breadcrumb"><button class="icon-button mobile-menu" id="mobile-menu" aria-label="展开导航" aria-expanded="false"><span data-icon="menu"></span></button><span>CommDDL</span><span class="breadcrumb-slash">/</span><strong id="breadcrumb-title">截稿日历</strong></div>
+      <div class="topbar-actions"><span class="local-clock" id="local-clock"></span><button class="button button-subtle" id="subscribe-button"><span data-icon="rss"></span><span>日历订阅</span></button><button class="avatar" data-view="favorites" title="本地个人收藏" aria-label="打开我的关注">研</button></div>
+    </header>
+    <main id="main" tabindex="-1">
+      <section class="page-heading">
+        <div><div class="eyebrow"><span class="live-dot"></span> COMMUNICATIONS RESEARCH · 通信研究</div><h1 id="page-title">把握下一次投稿机会<span class="heading-period">。</span></h1><p id="page-description">会议、期刊与专题征稿，按你的研究方向聚合。</p></div>
+        <div class="heading-actions"><span class="data-stamp" id="data-stamp"></span><button id="export-button" class="button button-primary"><span data-icon="download"></span>导出日历</button></div>
+      </section>
+      <section class="stats" id="stats" aria-label="数据概览"></section>
+      <section id="about-content" hidden></section>
+      <section id="workspace-content">
+        <div class="content-tabs" id="content-tabs" role="group" aria-label="活动类型"></div>
+        <div class="toolbar">
+          <label class="search-field"><span data-icon="search"></span><input id="search" type="search" autocomplete="off" placeholder="搜索会议、期刊、主题或简称…" aria-label="搜索会议、期刊或主题"><kbd>/</kbd></label>
+          <div class="toolbar-selects"><label class="sr-only" for="time-window">日期范围</label><select id="time-window"><option value="">全部时间</option><option value="7">未来 7 天</option><option value="30">未来 30 天</option><option value="90">未来 90 天</option><option value="180">未来 180 天</option></select><label class="sr-only" for="sort">排序</label><select id="sort"><option value="deadline">按截止日期</option><option value="name">按名称</option></select><div class="view-switch" id="view-switch" role="group" aria-label="显示方式"><button id="list-view" class="selected" aria-label="列表视图" aria-pressed="true"><span data-icon="list"></span></button><button id="calendar-view" aria-label="月历视图" aria-pressed="false"><span data-icon="calendar"></span></button></div></div>
+        </div>
+        <div class="filter-line"><div class="filter-options"><label id="past-filter-label"><input type="checkbox" id="show-past"> 显示已过日期</label><label id="history-filter-label"><input type="checkbox" id="historical-only"> 2018 信通学科历史目录</label></div><label class="timezone-label"><span data-icon="globe"></span><span class="sr-only">显示时区</span><select id="timezone"><option value="Asia/Shanghai">北京时间 UTC+8</option><option value="UTC">协调世界时 UTC</option><option value="America/Los_Angeles">美国太平洋时间</option><option value="Europe/London">英国当地时间</option></select></label></div>
+        <div id="active-filters" class="active-filters"></div>
+        <div id="date-note" class="notice"><span data-icon="info"></span><p>仅公布日期的活动显示为<strong>日期提示</strong>；具体关闭时刻请查看官方征稿页。</p><button data-view="about">了解数据规则 <span aria-hidden="true">↗</span></button></div>
+        <div class="results-heading"><h2 id="results-title">全部投稿机会 <span id="result-count"></span></h2><span id="result-caption"></span></div>
+        <div id="calendar-container" hidden></div>
+        <div id="results" class="results-grid" aria-live="polite"></div>
+        <div class="favorites-tools" id="favorites-tools" hidden><button class="button button-subtle" id="backup-favorites"><span data-icon="download"></span>备份收藏</button><button class="button button-subtle" id="import-favorites"><span data-icon="upload"></span>导入收藏</button><input type="file" accept="application/json,.json" id="import-file" hidden><p>收藏保存在当前浏览器。备份后可以在另一台设备导入。</p></div>
+      </section>
+      <footer class="footer"><span>CommDDL <span class="footer-dot">·</span> 为通信研究而整理</span><span><button data-view="about">来源与覆盖范围</button><span class="footer-dot">·</span><a id="feedback-link" href="https://github.com/turambarr/commddl/issues/new?template=data.yml" target="_blank" rel="noopener noreferrer">纠错 / 建议收录 ↗</a></span></footer>
+    </main>
+  </div>
+  <dialog id="detail-dialog" class="detail-dialog" aria-labelledby="detail-heading"><div id="detail-content"></div></dialog>
+  <dialog id="export-dialog" class="small-dialog" aria-labelledby="export-heading"><div class="dialog-top"><span class="eyebrow">CALENDAR EXPORT · 日历导出</span><button class="icon-button" data-close="export-dialog" aria-label="关闭"><span data-icon="close"></span></button></div><h2 id="export-heading">把投稿计划带进日历</h2><p id="export-description"></p><label class="export-choice"><input type="checkbox" id="include-date-only"><span><strong>包含仅公布日期的全天提示</strong><small>这类事件没有确认的关闭时刻，不能当作精确投稿截止。</small></span></label><p class="muted">下载后导入为一次性快照。后续更新请使用“日历订阅”。</p><button class="button button-primary full-width" id="confirm-export">下载 .ics 日历文件</button><div id="export-message" role="status"></div></dialog>
+  <dialog id="subscribe-dialog" class="small-dialog" aria-labelledby="subscribe-heading"><div class="dialog-top"><span class="eyebrow">CALENDAR FEEDS · 日历订阅</span><button class="icon-button" data-close="subscribe-dialog" aria-label="关闭"><span data-icon="close"></span></button></div><h2 id="subscribe-heading">订阅你关心的研究方向</h2><p>将订阅地址添加到日历客户端。网站发布新数据后，客户端会按自己的频率刷新。</p><div class="notice dialog-notice"><span data-icon="info"></span><p>本版提供<strong>日期提示订阅</strong>，以全天事件呈现官网公布日期，不表示具体关闭时刻。</p></div><div id="feed-list"></div><p class="muted" id="subscribe-local-note"></p></dialog>
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+  <noscript><p class="noscript">请启用 JavaScript（网页交互脚本）以使用搜索和日历。原始数据可在项目 data/catalog.json 中查看。</p></noscript>
+  <script src="assets/data.js"></script>
+  <script src="assets/core.js"></script>
+  <script src="assets/app.js"></script>
+</body>
+</html>
