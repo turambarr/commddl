@@ -180,13 +180,14 @@
     $('list-view').setAttribute('aria-pressed',state.layout==='list');$('calendar-view').setAttribute('aria-pressed',state.layout==='calendar');
     renderActiveFilters();
     currentCalls=C.filterCalls(D.calls,D.venues,{...state,favoriteOnly:state.view==='favorites',favorites:[...favorites]});
-    currentVenues=vv?filterVenues():[];
-    const count=vv?currentVenues.length:currentCalls.length;
-    $('results-title').innerHTML=esc(vv?(state.view==='conferences'?'会议系列':'期刊目录'):(state.area?areaLabels.get(state.area):state.view==='favorites'?'关注的投稿机会':'全部投稿机会'))+` <span>${count} ${vv?(state.view==='conferences'?'个系列':'本期刊'):'项'}</span>`;
+    const mixedFavorites=state.view==='favorites'&&state.kind==='all';
+    currentVenues=vv||mixedFavorites?filterVenues():[];
+    const count=vv?currentVenues.length:currentCalls.length+(mixedFavorites?currentVenues.length:0);
+    $('results-title').innerHTML=esc(vv?(state.view==='conferences'?'会议系列':'期刊目录'):(state.area?areaLabels.get(state.area):state.view==='favorites'?'关注清单':'全部投稿机会'))+` <span>${count} ${vv?(state.view==='conferences'?'个系列':'本期刊'):'项'}</span>`;
     $('result-caption').textContent=vv?'收录 / 分区请在详情核验':'具体时间与要求以官方征稿页为准';
     const calendar=!vv&&state.layout==='calendar';
     $('calendar-container').hidden=!calendar;$('results').hidden=calendar;
-    if(calendar)renderCalendar();else $('results').innerHTML=count?(vv?currentVenues.map(venueCard):currentCalls.map(callCard)).join(''):emptyHTML(vv);
+    if(calendar)renderCalendar();else $('results').innerHTML=count?(vv?currentVenues.map(venueCard):[...currentCalls.map(callCard),...(mixedFavorites?currentVenues.map(venueCard):[])]).join(''):emptyHTML(vv);
   }
   function renderCalendar() {
     const [year,month]=state.month.split('-').map(Number);
@@ -257,7 +258,7 @@
     else if(b.dataset.close)$(b.dataset.close).close();
     else if(b.dataset.exportCall)beginExport([D.calls.find(c=>c.id===b.dataset.exportCall)]);
     else if(b.dataset.copyFeed)copyText(b.dataset.copyFeed);
-    else if(b.dataset.copyDetail){const url=new URL(location.href);url.hash=state.view+'?'+new URLSearchParams({item:b.dataset.copyDetail});copyText(url.href);}
+    else if(b.dataset.copyDetail){const url=new URL(D.meta.homepage||location.href);url.hash=state.view+'?'+new URLSearchParams({item:b.dataset.copyDetail});copyText(url.href);}
     else if(b.dataset.clear){state[b.dataset.clear]=b.dataset.clear==='historical'?false:'';syncHash();render();}
     else if(b.dataset.reset){state.query='';state.area='';state.window='';state.historical=false;state.kind='all';state.journalType='all';syncHash();render();}
     else if(b.dataset.month){if(b.dataset.month==='today')state.month=C.dateInZone(Date.now(),state.zone).slice(0,7);else{const[y,m]=state.month.split('-').map(Number);state.month=new Date(Date.UTC(y,m-1+Number(b.dataset.month),1)).toISOString().slice(0,7);}syncHash();renderCalendar();}
