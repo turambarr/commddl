@@ -1,59 +1,69 @@
 {
   "meta": {
-    "version": "0.1.0",
-    "updatedAt": "2026-10-17",
+    "version": "0.2.0",
+    "updatedAt": "2026-10-18",
     "siteName": "CommDDL",
     "repository": "https://github.com/turambarr/commddl",
-    "description": "首批官方目录与征稿样本；范围持续扩充。",
+    "description": "通信期刊、会议与征稿导航；按研究方向及具体主题分类，范围持续扩充。",
     "policySource": "https://xxgk.bupt.edu.cn/__local/F/65/92/3A361334F005A224CD3C6C215B7_43DF8061_C1241.pdf?e=.pdf",
     "sourceNote": "载体身份来自学会官方目录；征稿时间来自对应官方页面。部分官网无法读取，明确标注待核验。",
-    "homepage": "https://turambarr.github.io/commddl/"
+    "homepage": "https://turambarr.github.io/commddl/",
+    "classificationNote": "CommDDL 编辑分类，用于发现相关载体；多选主题匹配任一项。分类不表示 CCF 等级、学校认定或某届已开放投稿。"
   },
   "areas": [
     {
       "id": "wireless",
       "label": "无线通信",
-      "short": "无线"
+      "short": "无线",
+      "code": "WC"
     },
     {
       "id": "signal",
       "label": "信号处理与通感",
-      "short": "信号"
+      "short": "信号",
+      "code": "SP"
     },
     {
       "id": "theory",
       "label": "信息论与编码",
-      "short": "理论"
+      "short": "理论",
+      "code": "IT"
     },
     {
       "id": "network",
       "label": "网络与移动系统",
-      "short": "网络"
+      "short": "网络",
+      "code": "NET"
     },
     {
       "id": "optical",
       "label": "光通信与光网络",
-      "short": "光学"
+      "short": "光学",
+      "code": "OPT"
     },
     {
       "id": "rf",
       "label": "天线射频与电磁",
-      "short": "射频"
+      "short": "射频",
+      "code": "EM"
     },
     {
       "id": "space",
       "label": "卫星与空天地通信",
-      "short": "卫星"
+      "short": "卫星",
+      "code": "SAT"
     },
     {
       "id": "iot",
       "label": "物联网与车联网",
-      "short": "物联"
+      "short": "物联",
+      "code": "IoT"
     },
     {
       "id": "ai",
       "label": "人工智能交叉",
-      "short": "智能"
+      "short": "智能",
+      "code": "AI"
     }
   ],
   "venues": [
@@ -89,7 +99,20 @@
           "sourceUrl": "https://xxgk.bupt.edu.cn/__local/F/65/92/3A361334F005A224CD3C6C215B7_43DF8061_C1241.pdf?e=.pdf",
           "note": "历史文件中列有该会议系列；当前适用性待核验，附属活动不自动继承。"
         }
-      ]
+      ],
+      "topics": [
+        "physical",
+        "mimo",
+        "access",
+        "resources",
+        "protocols",
+        "ai-communications",
+        "isac",
+        "channel-coding",
+        "satellite-ntn",
+        "security"
+      ],
+      "topicReviewedAt": "2026-10-18"
     },
     {
       "id": "globecom",
@@ -123,7 +146,20 @@
           "sourceUrl": "https://xxgk.bupt.edu.cn/__local/F/65/92/3A361334F005A224CD3C6C215B7_43DF8061_C1241.pdf?e=.pdf",
           "note": "历史文件中列有该会议系列；当前适用性待核验，附属活动不自动继承。"
         }
-      ]
+      ],
+      "topics": [
+        "physical",
+        "mimo",
+        "access",
+        "protocols",
+        "optical-networks",
+        "satellite-ntn",
+        "isac",
+        "channel-coding",
+        "ai-communications",
+        "security"
+      ],
+      "topicReviewedAt": "2026-10-18"
     },
     {
       "id": "wcnc",
@@ -156,7 +192,18 @@
           "sourceUrl": "https://xxgk.bupt.edu.cn/__local/F/65/92/3A361334F005A224CD3C6C215B7_43DF8061_C1241.pdf?e=.pdf",
           "note": "历史文件中列有该会议系列；当前适用性待核验，附属活动不自动继承。"
         }
-      ]
+      ],
+      "topics": [
+        "physical",
+        "mimo",
+        "access",
+        "resources",
+        "mobile-systems",
+        "isac",
+        "satellite-ntn",
+        "ai-communications"
+      ],
+      "topicReviewedAt": "2026-10-18"
     },
     {
       "id": "pimrc",
@@ -189,7 +236,17 @@
           "sourceUrl": "https://xxgk.bupt.edu.cn/__local/F/65/92/3A361334F005A224CD3C6C215B7_43DF8061_C1241.pdf?e=.pdf",
           "note": "历史文件中列有该会议系列；当前适用性待核验，附属活动不自动继承。"
         }
-      ]
+      ],
+      "topics": [
+        "physical",
+        "mimo",
+        "propagation",
+        "resources",
+        "mobile-systems",
+        "isac",
+        "satellite-ntn"
+      ],
+      "topicReviewedAt": "2026-10-18"
     },
     {
       "id": "vtc",
@@ -214,7 +271,17 @@
       "sourceUrl": "https://events.vtsociety.org/vtc2027-spring/",
       "verifiedAt": "2026-10-17",
       "verification": "verified",
-      "assessments": []
+      "assessments": [],
+      "topics": [
+        "physical",
+        "mobile-systems",
+        "vehicular",
+        "satellite-ntn",
+        "mimo",
+        "isac",
+        "resources"
+      ],
+      "topicReviewedAt": "2026-10-18"
     },
     {
       "id": "isit",
@@ -247,7 +314,14 @@
           "sourceUrl": "https://xxgk.bupt.edu.cn/__local/F/65/92/3A361334F005A224CD3C6C215B7_43DF8061_C1241.pdf?e=.pdf",
           "note": "历史文件中列有该会议系列；当前适用性待核验，附属活动不自动继承。"
         }
-      ]
+      ],
+      "topics": [
+        "information-theory",
+        "channel-coding",
+        "source-coding",
+        "quantum"
+      ],
+      "topicReviewedAt": "2026-10-18"
     },
     {
       "id": "itw",
@@ -279,7 +353,13 @@
           "sourceUrl": "https://xxgk.bupt.edu.cn/__local/F/65/92/3A361334F005A224CD3C6C215B7_43DF8061_C1241.pdf?e=.pdf",
           "note": "历史文件中列有该会议系列；当前适用性待核验，附属活动不自动继承。"
         }
-      ]
+      ],
+      "topics": [
+        "information-theory",
+        "channel-coding",
+        "source-coding"
+      ],
+      "topicReviewedAt": "2026-10-18"
     },
     {
       "id": "icassp",
@@ -313,7 +393,17 @@
           "sourceUrl": "https://xxgk.bupt.edu.cn/__local/F/65/92/3A361334F005A224CD3C6C215B7_43DF8061_C1241.pdf?e=.pdf",
           "note": "历史文件中列有该会议系列；当前适用性待核验，附属活动不自动继承。"
         }
-      ]
+      ],
+      "topics": [
+        "estimation-sync",
+        "arrays",
+        "speech",
+        "imaging",
+        "ai-communications",
+        "isac",
+        "physical"
+      ],
+      "topicReviewedAt": "2026-10-18"
     },
     {
       "id": "spawc",
@@ -338,7 +428,14 @@
       "sourceUrl": "https://signalprocessingsociety.org/events/conferences",
       "verifiedAt": "2026-10-17",
       "verification": "verified",
-      "assessments": []
+      "assessments": [],
+      "topics": [
+        "estimation-sync",
+        "mimo",
+        "physical",
+        "isac"
+      ],
+      "topicReviewedAt": "2026-10-18"
     },
     {
       "id": "icip",
@@ -371,7 +468,12 @@
           "sourceUrl": "https://xxgk.bupt.edu.cn/__local/F/65/92/3A361334F005A224CD3C6C215B7_43DF8061_C1241.pdf?e=.pdf",
           "note": "历史文件中列有该会议系列；当前适用性待核验，附属活动不自动继承。"
         }
-      ]
+      ],
+      "topics": [
+        "imaging",
+        "source-coding"
+      ],
+      "topicReviewedAt": "2026-10-18"
     },
     {
       "id": "infocom",
@@ -404,7 +506,14 @@
           "sourceUrl": "https://xxgk.bupt.edu.cn/__local/F/65/92/3A361334F005A224CD3C6C215B7_43DF8061_C1241.pdf?e=.pdf",
           "note": "历史文件中列有该会议系列；当前适用性待核验，附属活动不自动继承。"
         }
-      ]
+      ],
+      "topics": [
+        "protocols",
+        "measurement",
+        "security",
+        "edge-cloud"
+      ],
+      "topicReviewedAt": "2026-10-18"
     },
     {
       "id": "ofc",
@@ -437,7 +546,13 @@
           "sourceUrl": "https://xxgk.bupt.edu.cn/__local/F/65/92/3A361334F005A224CD3C6C215B7_43DF8061_C1241.pdf?e=.pdf",
           "note": "历史文件中列有该会议系列；当前适用性待核验，附属活动不自动继承。"
         }
-      ]
+      ],
+      "topics": [
+        "fiber",
+        "optical-networks",
+        "photonics"
+      ],
+      "topicReviewedAt": "2026-10-18"
     },
     {
       "id": "iccc",
@@ -471,7 +586,17 @@
           "sourceUrl": "https://xxgk.bupt.edu.cn/__local/F/65/92/3A361334F005A224CD3C6C215B7_43DF8061_C1241.pdf?e=.pdf",
           "note": "历史文件中列有该会议系列；当前适用性待核验，附属活动不自动继承。"
         }
-      ]
+      ],
+      "topics": [
+        "physical",
+        "mimo",
+        "protocols",
+        "ai-communications",
+        "isac",
+        "satellite-ntn",
+        "channel-coding"
+      ],
+      "topicReviewedAt": "2026-10-18"
     },
     {
       "id": "noms",
@@ -504,7 +629,13 @@
           "sourceUrl": "https://xxgk.bupt.edu.cn/__local/F/65/92/3A361334F005A224CD3C6C215B7_43DF8061_C1241.pdf?e=.pdf",
           "note": "历史文件中列有该会议系列；当前适用性待核验，附属活动不自动继承。"
         }
-      ]
+      ],
+      "topics": [
+        "network-management",
+        "measurement",
+        "protocols"
+      ],
+      "topicReviewedAt": "2026-10-18"
     },
     {
       "id": "cns",
@@ -529,7 +660,12 @@
       "sourceUrl": "https://www.comsoc.org/conferences-events/portfolio-conferences-events",
       "verifiedAt": "2026-10-17",
       "verification": "verified",
-      "assessments": []
+      "assessments": [],
+      "topics": [
+        "security",
+        "protocols"
+      ],
+      "topicReviewedAt": "2026-10-18"
     },
     {
       "id": "dyspan",
@@ -562,7 +698,12 @@
           "sourceUrl": "https://xxgk.bupt.edu.cn/__local/F/65/92/3A361334F005A224CD3C6C215B7_43DF8061_C1241.pdf?e=.pdf",
           "note": "历史文件中列有该会议系列；当前适用性待核验，附属活动不自动继承。"
         }
-      ]
+      ],
+      "topics": [
+        "resources",
+        "physical"
+      ],
+      "topicReviewedAt": "2026-10-18"
     },
     {
       "id": "milcom",
@@ -596,7 +737,13 @@
           "sourceUrl": "https://xxgk.bupt.edu.cn/__local/F/65/92/3A361334F005A224CD3C6C215B7_43DF8061_C1241.pdf?e=.pdf",
           "note": "历史文件中列有该会议系列；当前适用性待核验，附属活动不自动继承。"
         }
-      ]
+      ],
+      "topics": [
+        "physical",
+        "security",
+        "satellite-ntn"
+      ],
+      "topicReviewedAt": "2026-10-18"
     },
     {
       "id": "icmlcn",
@@ -622,7 +769,12 @@
       "sourceUrl": "https://www.comsoc.org/conferences-events/portfolio-conferences-events",
       "verifiedAt": "2026-10-17",
       "verification": "verified",
-      "assessments": []
+      "assessments": [],
+      "topics": [
+        "ai-communications",
+        "distributed-learning"
+      ],
+      "topicReviewedAt": "2026-10-18"
     },
     {
       "id": "jcns",
@@ -648,7 +800,13 @@
       "sourceUrl": "https://www.comsoc.org/conferences-events/portfolio-conferences-events",
       "verifiedAt": "2026-10-17",
       "verification": "verified",
-      "assessments": []
+      "assessments": [],
+      "topics": [
+        "isac",
+        "radar",
+        "mimo"
+      ],
+      "topicReviewedAt": "2026-10-18"
     },
     {
       "id": "ccnc",
@@ -674,7 +832,13 @@
       "sourceUrl": "https://www.comsoc.org/conferences-events/portfolio-conferences-events",
       "verifiedAt": "2026-10-17",
       "verification": "verified",
-      "assessments": []
+      "assessments": [],
+      "topics": [
+        "mobile-systems",
+        "iot-sensing",
+        "edge-cloud"
+      ],
+      "topicReviewedAt": "2026-10-18"
     },
     {
       "id": "secon",
@@ -700,7 +864,13 @@
       "sourceUrl": "https://www.comsoc.org/conferences-events/portfolio-conferences-events",
       "verifiedAt": "2026-10-17",
       "verification": "verified",
-      "assessments": []
+      "assessments": [],
+      "topics": [
+        "iot-sensing",
+        "mobile-systems",
+        "protocols"
+      ],
+      "topicReviewedAt": "2026-10-18"
     },
     {
       "id": "icme",
@@ -734,7 +904,12 @@
           "sourceUrl": "https://xxgk.bupt.edu.cn/__local/F/65/92/3A361334F005A224CD3C6C215B7_43DF8061_C1241.pdf?e=.pdf",
           "note": "历史文件中列有该会议系列；当前适用性待核验，附属活动不自动继承。"
         }
-      ]
+      ],
+      "topics": [
+        "imaging",
+        "source-coding"
+      ],
+      "topicReviewedAt": "2026-10-18"
     },
     {
       "id": "cloudnet",
@@ -759,7 +934,12 @@
       "sourceUrl": "https://www.comsoc.org/conferences-events/portfolio-conferences-events",
       "verifiedAt": "2026-10-17",
       "verification": "verified",
-      "assessments": []
+      "assessments": [],
+      "topics": [
+        "edge-cloud",
+        "network-management"
+      ],
+      "topicReviewedAt": "2026-10-18"
     },
     {
       "id": "iwqos",
@@ -783,7 +963,13 @@
       "sourceUrl": "https://www.comsoc.org/conferences-events/portfolio-conferences-events",
       "verifiedAt": "2026-10-17",
       "verification": "verified",
-      "assessments": []
+      "assessments": [],
+      "topics": [
+        "measurement",
+        "protocols",
+        "edge-cloud"
+      ],
+      "topicReviewedAt": "2026-10-18"
     },
     {
       "id": "twc",
@@ -803,12 +989,28 @@
         "研究论文"
       ],
       "submissionMode": "作者指南中核实",
-      "sourceUrl": "https://www.comsoc.org/publications/journals",
-      "verifiedAt": "2026-10-17",
+      "sourceUrl": "https://www.comsoc.org/publications/journals/ieee-twc",
+      "verifiedAt": "2026-10-18",
       "verification": "verified",
       "assessments": [],
       "indexStatus": "待核验",
-      "metricNote": "最新 SCIE 收录、JCR 和中科院分区尚未核验；请分别查看有年份的可靠依据。"
+      "metricNote": "最新 SCIE 收录、JCR 和中科院分区尚未核验；请分别查看有年份的可靠依据。",
+      "topics": [
+        "physical",
+        "mimo",
+        "access",
+        "resources",
+        "propagation",
+        "isac",
+        "semantic-task",
+        "estimation-sync",
+        "channel-coding",
+        "satellite-ntn",
+        "ai-communications",
+        "navigation-pnt"
+      ],
+      "topicReviewedAt": "2026-10-18",
+      "authorGuideUrl": "https://www.comsoc.org/publications/journals/ieee-twc/policies-guidelines"
     },
     {
       "id": "tcom",
@@ -834,7 +1036,21 @@
       "verification": "verified",
       "assessments": [],
       "indexStatus": "待核验",
-      "metricNote": "最新 SCIE 收录、JCR 和中科院分区尚未核验；请分别查看有年份的可靠依据。"
+      "metricNote": "最新 SCIE 收录、JCR 和中科院分区尚未核验；请分别查看有年份的可靠依据。",
+      "topics": [
+        "physical",
+        "channel-coding",
+        "source-coding",
+        "estimation-sync",
+        "mimo",
+        "access",
+        "propagation",
+        "satellite-ntn",
+        "optical-wireless",
+        "fiber"
+      ],
+      "topicReviewedAt": "2026-10-18",
+      "authorGuideUrl": "https://www.comsoc.org/publications/journals/ieee-tcom/policies-and-guidelines"
     },
     {
       "id": "jsac",
@@ -862,7 +1078,21 @@
       "verification": "verified",
       "assessments": [],
       "indexStatus": "待核验",
-      "metricNote": "最新 SCIE 收录、JCR 和中科院分区尚未核验；请分别查看有年份的可靠依据。"
+      "metricNote": "最新 SCIE 收录、JCR 和中科院分区尚未核验；请分别查看有年份的可靠依据。",
+      "topics": [
+        "physical",
+        "protocols",
+        "optical-networks",
+        "ai-communications",
+        "mimo",
+        "isac",
+        "satellite-ntn",
+        "quantum",
+        "semantic-task"
+      ],
+      "topicReviewedAt": "2026-10-18",
+      "authorGuideUrl": "https://www.comsoc.org/publications/journals/ieee-jsac/policies-guidelines",
+      "cfpUrl": "https://www.comsoc.org/publications/journals/ieee-jsac/cfp"
     },
     {
       "id": "comst",
@@ -888,7 +1118,19 @@
       "verification": "verified",
       "assessments": [],
       "indexStatus": "待核验",
-      "metricNote": "最新 SCIE 收录、JCR 和中科院分区尚未核验；请分别查看有年份的可靠依据。"
+      "metricNote": "最新 SCIE 收录、JCR 和中科院分区尚未核验；请分别查看有年份的可靠依据。",
+      "topics": [
+        "physical",
+        "protocols",
+        "security",
+        "ai-communications",
+        "isac",
+        "satellite-ntn",
+        "iot-sensing",
+        "semantic-task"
+      ],
+      "topicReviewedAt": "2026-10-18",
+      "authorGuideUrl": "https://www.comsoc.org/publications/journals/ieee-comst/policies-guidelines"
     },
     {
       "id": "cl",
@@ -913,7 +1155,18 @@
       "verification": "verified",
       "assessments": [],
       "indexStatus": "待核验",
-      "metricNote": "最新 SCIE 收录、JCR 和中科院分区尚未核验；请分别查看有年份的可靠依据。"
+      "metricNote": "最新 SCIE 收录、JCR 和中科院分区尚未核验；请分别查看有年份的可靠依据。",
+      "topics": [
+        "physical",
+        "channel-coding",
+        "protocols",
+        "mimo",
+        "access",
+        "estimation-sync",
+        "optical-wireless",
+        "satellite-ntn"
+      ],
+      "topicReviewedAt": "2026-10-18"
     },
     {
       "id": "wcl",
@@ -938,7 +1191,18 @@
       "verification": "verified",
       "assessments": [],
       "indexStatus": "待核验",
-      "metricNote": "最新 SCIE 收录、JCR 和中科院分区尚未核验；请分别查看有年份的可靠依据。"
+      "metricNote": "最新 SCIE 收录、JCR 和中科院分区尚未核验；请分别查看有年份的可靠依据。",
+      "topics": [
+        "physical",
+        "mimo",
+        "access",
+        "estimation-sync",
+        "isac",
+        "resources",
+        "satellite-ntn",
+        "ai-communications"
+      ],
+      "topicReviewedAt": "2026-10-18"
     },
     {
       "id": "tccn",
@@ -964,7 +1228,12 @@
       "verification": "verified",
       "assessments": [],
       "indexStatus": "待核验",
-      "metricNote": "最新 SCIE 收录、JCR 和中科院分区尚未核验；请分别查看有年份的可靠依据。"
+      "metricNote": "最新 SCIE 收录、JCR 和中科院分区尚未核验；请分别查看有年份的可靠依据。",
+      "topics": [
+        "resources",
+        "ai-communications"
+      ],
+      "topicReviewedAt": "2026-10-18"
     },
     {
       "id": "tgcn",
@@ -989,7 +1258,13 @@
       "verification": "verified",
       "assessments": [],
       "indexStatus": "待核验",
-      "metricNote": "最新 SCIE 收录、JCR 和中科院分区尚未核验；请分别查看有年份的可靠依据。"
+      "metricNote": "最新 SCIE 收录、JCR 和中科院分区尚未核验；请分别查看有年份的可靠依据。",
+      "topics": [
+        "resources",
+        "protocols",
+        "edge-cloud"
+      ],
+      "topicReviewedAt": "2026-10-18"
     },
     {
       "id": "tmlcn",
@@ -1015,7 +1290,12 @@
       "verification": "verified",
       "assessments": [],
       "indexStatus": "待核验",
-      "metricNote": "最新 SCIE 收录、JCR 和中科院分区尚未核验；请分别查看有年份的可靠依据。"
+      "metricNote": "最新 SCIE 收录、JCR 和中科院分区尚未核验；请分别查看有年份的可靠依据。",
+      "topics": [
+        "ai-communications",
+        "distributed-learning"
+      ],
+      "topicReviewedAt": "2026-10-18"
     },
     {
       "id": "tnsm",
@@ -1040,7 +1320,12 @@
       "verification": "verified",
       "assessments": [],
       "indexStatus": "待核验",
-      "metricNote": "最新 SCIE 收录、JCR 和中科院分区尚未核验；请分别查看有年份的可靠依据。"
+      "metricNote": "最新 SCIE 收录、JCR 和中科院分区尚未核验；请分别查看有年份的可靠依据。",
+      "topics": [
+        "network-management",
+        "measurement"
+      ],
+      "topicReviewedAt": "2026-10-18"
     },
     {
       "id": "tnse",
@@ -1065,7 +1350,13 @@
       "verification": "verified",
       "assessments": [],
       "indexStatus": "待核验",
-      "metricNote": "最新 SCIE 收录、JCR 和中科院分区尚未核验；请分别查看有年份的可靠依据。"
+      "metricNote": "最新 SCIE 收录、JCR 和中科院分区尚未核验；请分别查看有年份的可靠依据。",
+      "topics": [
+        "protocols",
+        "measurement",
+        "distributed-learning"
+      ],
+      "topicReviewedAt": "2026-10-18"
     },
     {
       "id": "tnet",
@@ -1092,7 +1383,13 @@
       "verification": "verified",
       "assessments": [],
       "indexStatus": "待核验",
-      "metricNote": "最新 SCIE 收录、JCR 和中科院分区尚未核验；请分别查看有年份的可靠依据。"
+      "metricNote": "最新 SCIE 收录、JCR 和中科院分区尚未核验；请分别查看有年份的可靠依据。",
+      "topics": [
+        "protocols",
+        "measurement",
+        "security"
+      ],
+      "topicReviewedAt": "2026-10-18"
     },
     {
       "id": "lnet",
@@ -1116,7 +1413,12 @@
       "verification": "verified",
       "assessments": [],
       "indexStatus": "待核验",
-      "metricNote": "最新 SCIE 收录、JCR 和中科院分区尚未核验；请分别查看有年份的可靠依据。"
+      "metricNote": "最新 SCIE 收录、JCR 和中科院分区尚未核验；请分别查看有年份的可靠依据。",
+      "topics": [
+        "protocols",
+        "measurement"
+      ],
+      "topicReviewedAt": "2026-10-18"
     },
     {
       "id": "ojcoms",
@@ -1141,7 +1443,18 @@
       "verification": "verified",
       "assessments": [],
       "indexStatus": "待核验",
-      "metricNote": "最新 SCIE 收录、JCR 和中科院分区尚未核验；请分别查看有年份的可靠依据。"
+      "metricNote": "最新 SCIE 收录、JCR 和中科院分区尚未核验；请分别查看有年份的可靠依据。",
+      "topics": [
+        "physical",
+        "protocols",
+        "optical-networks",
+        "mimo",
+        "isac",
+        "access",
+        "ai-communications",
+        "satellite-ntn"
+      ],
+      "topicReviewedAt": "2026-10-18"
     },
     {
       "id": "tmbmc",
@@ -1166,7 +1479,13 @@
       "verification": "verified",
       "assessments": [],
       "indexStatus": "待核验",
-      "metricNote": "最新 SCIE 收录、JCR 和中科院分区尚未核验；请分别查看有年份的可靠依据。"
+      "metricNote": "最新 SCIE 收录、JCR 和中科院分区尚未核验；请分别查看有年份的可靠依据。",
+      "topics": [
+        "physical",
+        "propagation",
+        "iot-sensing"
+      ],
+      "topicReviewedAt": "2026-10-18"
     },
     {
       "id": "iotj",
@@ -1192,7 +1511,14 @@
       "verification": "verified",
       "assessments": [],
       "indexStatus": "待核验",
-      "metricNote": "最新 SCIE 收录、JCR 和中科院分区尚未核验；请分别查看有年份的可靠依据。"
+      "metricNote": "最新 SCIE 收录、JCR 和中科院分区尚未核验；请分别查看有年份的可靠依据。",
+      "topics": [
+        "iot-sensing",
+        "industrial",
+        "edge-cloud",
+        "vehicular"
+      ],
+      "topicReviewedAt": "2026-10-18"
     },
     {
       "id": "tmc",
@@ -1217,7 +1543,13 @@
       "verification": "verified",
       "assessments": [],
       "indexStatus": "待核验",
-      "metricNote": "最新 SCIE 收录、JCR 和中科院分区尚未核验；请分别查看有年份的可靠依据。"
+      "metricNote": "最新 SCIE 收录、JCR 和中科院分区尚未核验；请分别查看有年份的可靠依据。",
+      "topics": [
+        "mobile-systems",
+        "edge-cloud",
+        "iot-sensing"
+      ],
+      "topicReviewedAt": "2026-10-18"
     },
     {
       "id": "jocn",
@@ -1242,7 +1574,12 @@
       "verification": "verified",
       "assessments": [],
       "indexStatus": "待核验",
-      "metricNote": "最新 SCIE 收录、JCR 和中科院分区尚未核验；请分别查看有年份的可靠依据。"
+      "metricNote": "最新 SCIE 收录、JCR 和中科院分区尚未核验；请分别查看有年份的可靠依据。",
+      "topics": [
+        "optical-networks",
+        "quantum"
+      ],
+      "topicReviewedAt": "2026-10-18"
     },
     {
       "id": "jlt",
@@ -1266,7 +1603,13 @@
       "verification": "verified",
       "assessments": [],
       "indexStatus": "待核验",
-      "metricNote": "最新 SCIE 收录、JCR 和中科院分区尚未核验；请分别查看有年份的可靠依据。"
+      "metricNote": "最新 SCIE 收录、JCR 和中科院分区尚未核验；请分别查看有年份的可靠依据。",
+      "topics": [
+        "fiber",
+        "optical-networks",
+        "photonics"
+      ],
+      "topicReviewedAt": "2026-10-18"
     },
     {
       "id": "jcin",
@@ -1291,7 +1634,12 @@
       "verification": "verified",
       "assessments": [],
       "indexStatus": "待核验",
-      "metricNote": "最新 SCIE 收录、JCR 和中科院分区尚未核验；请分别查看有年份的可靠依据。"
+      "metricNote": "最新 SCIE 收录、JCR 和中科院分区尚未核验；请分别查看有年份的可靠依据。",
+      "topics": [
+        "protocols",
+        "edge-cloud"
+      ],
+      "topicReviewedAt": "2026-10-18"
     },
     {
       "id": "tsp",
@@ -1316,7 +1664,18 @@
       "verification": "verified",
       "assessments": [],
       "indexStatus": "待核验",
-      "metricNote": "最新 SCIE 收录、JCR 和中科院分区尚未核验；请分别查看有年份的可靠依据。"
+      "metricNote": "最新 SCIE 收录、JCR 和中科院分区尚未核验；请分别查看有年份的可靠依据。",
+      "topics": [
+        "estimation-sync",
+        "arrays",
+        "radar",
+        "ai-communications",
+        "isac",
+        "mimo",
+        "physical"
+      ],
+      "topicReviewedAt": "2026-10-18",
+      "authorGuideUrl": "https://signalprocessingsociety.org/publications-resources/information-authors"
     },
     {
       "id": "spl",
@@ -1340,7 +1699,15 @@
       "verification": "verified",
       "assessments": [],
       "indexStatus": "待核验",
-      "metricNote": "最新 SCIE 收录、JCR 和中科院分区尚未核验；请分别查看有年份的可靠依据。"
+      "metricNote": "最新 SCIE 收录、JCR 和中科院分区尚未核验；请分别查看有年份的可靠依据。",
+      "topics": [
+        "estimation-sync",
+        "arrays",
+        "speech",
+        "imaging"
+      ],
+      "topicReviewedAt": "2026-10-18",
+      "authorGuideUrl": "https://signalprocessingsociety.org/publications-resources/information-authors"
     },
     {
       "id": "jstsp",
@@ -1365,7 +1732,17 @@
       "verification": "verified",
       "assessments": [],
       "indexStatus": "待核验",
-      "metricNote": "最新 SCIE 收录、JCR 和中科院分区尚未核验；请分别查看有年份的可靠依据。"
+      "metricNote": "最新 SCIE 收录、JCR 和中科院分区尚未核验；请分别查看有年份的可靠依据。",
+      "topics": [
+        "estimation-sync",
+        "arrays",
+        "imaging",
+        "ai-communications",
+        "isac",
+        "speech"
+      ],
+      "topicReviewedAt": "2026-10-18",
+      "authorGuideUrl": "https://signalprocessingsociety.org/publications-resources/information-authors"
     },
     {
       "id": "ojsp",
@@ -1389,7 +1766,15 @@
       "verification": "verified",
       "assessments": [],
       "indexStatus": "待核验",
-      "metricNote": "最新 SCIE 收录、JCR 和中科院分区尚未核验；请分别查看有年份的可靠依据。"
+      "metricNote": "最新 SCIE 收录、JCR 和中科院分区尚未核验；请分别查看有年份的可靠依据。",
+      "topics": [
+        "estimation-sync",
+        "arrays",
+        "speech",
+        "imaging"
+      ],
+      "topicReviewedAt": "2026-10-18",
+      "authorGuideUrl": "https://signalprocessingsociety.org/publications-resources/information-authors"
     },
     {
       "id": "tip",
@@ -1414,7 +1799,13 @@
       "verification": "verified",
       "assessments": [],
       "indexStatus": "待核验",
-      "metricNote": "最新 SCIE 收录、JCR 和中科院分区尚未核验；请分别查看有年份的可靠依据。"
+      "metricNote": "最新 SCIE 收录、JCR 和中科院分区尚未核验；请分别查看有年份的可靠依据。",
+      "topics": [
+        "imaging",
+        "source-coding"
+      ],
+      "topicReviewedAt": "2026-10-18",
+      "authorGuideUrl": "https://signalprocessingsociety.org/publications-resources/information-authors"
     },
     {
       "id": "tifs",
@@ -1439,7 +1830,13 @@
       "verification": "verified",
       "assessments": [],
       "indexStatus": "待核验",
-      "metricNote": "最新 SCIE 收录、JCR 和中科院分区尚未核验；请分别查看有年份的可靠依据。"
+      "metricNote": "最新 SCIE 收录、JCR 和中科院分区尚未核验；请分别查看有年份的可靠依据。",
+      "topics": [
+        "security",
+        "imaging"
+      ],
+      "topicReviewedAt": "2026-10-18",
+      "authorGuideUrl": "https://signalprocessingsociety.org/publications-resources/information-authors"
     },
     {
       "id": "tmm",
@@ -1465,7 +1862,14 @@
       "verification": "verified",
       "assessments": [],
       "indexStatus": "待核验",
-      "metricNote": "最新 SCIE 收录、JCR 和中科院分区尚未核验；请分别查看有年份的可靠依据。"
+      "metricNote": "最新 SCIE 收录、JCR 和中科院分区尚未核验；请分别查看有年份的可靠依据。",
+      "topics": [
+        "imaging",
+        "source-coding",
+        "edge-cloud"
+      ],
+      "topicReviewedAt": "2026-10-18",
+      "authorGuideUrl": "https://signalprocessingsociety.org/publications-resources/information-authors"
     },
     {
       "id": "tsipn",
@@ -1490,7 +1894,14 @@
       "verification": "verified",
       "assessments": [],
       "indexStatus": "待核验",
-      "metricNote": "最新 SCIE 收录、JCR 和中科院分区尚未核验；请分别查看有年份的可靠依据。"
+      "metricNote": "最新 SCIE 收录、JCR 和中科院分区尚未核验；请分别查看有年份的可靠依据。",
+      "topics": [
+        "protocols",
+        "arrays",
+        "distributed-learning"
+      ],
+      "topicReviewedAt": "2026-10-18",
+      "authorGuideUrl": "https://signalprocessingsociety.org/publications-resources/information-authors"
     },
     {
       "id": "wireless-mag",
@@ -1517,7 +1928,18 @@
       "verification": "verified",
       "assessments": [],
       "indexStatus": "待核验",
-      "metricNote": "最新 SCIE 收录、JCR 和中科院分区尚未核验；请分别查看有年份的可靠依据。"
+      "metricNote": "最新 SCIE 收录、JCR 和中科院分区尚未核验；请分别查看有年份的可靠依据。",
+      "topics": [
+        "physical",
+        "mobile-systems",
+        "resources",
+        "isac",
+        "satellite-ntn",
+        "semantic-task",
+        "ai-communications"
+      ],
+      "topicReviewedAt": "2026-10-18",
+      "authorGuideUrl": "https://www.comsoc.org/publications/magazines/ieee-wireless-communications/policies-guidelines"
     },
     {
       "id": "tit",
@@ -1542,7 +1964,2129 @@
       "verification": "verified",
       "assessments": [],
       "indexStatus": "待核验",
-      "metricNote": "最新 SCIE 收录、JCR 和中科院分区尚未核验；请分别查看有年份的可靠依据。"
+      "metricNote": "最新 SCIE 收录、JCR 和中科院分区尚未核验；请分别查看有年份的可靠依据。",
+      "topics": [
+        "information-theory",
+        "channel-coding",
+        "source-coding",
+        "quantum"
+      ],
+      "topicReviewedAt": "2026-10-18"
+    },
+    {
+      "id": "tvt",
+      "kind": "journal",
+      "short": "TVT",
+      "nameZh": "IEEE 车载技术汇刊",
+      "nameEn": "IEEE Transactions on Vehicular Technology",
+      "aliases": [],
+      "areas": [
+        "wireless",
+        "iot",
+        "space"
+      ],
+      "url": "https://vtsociety.org/publication/ieee-transactions-vehicular-technology",
+      "topics": [
+        "physical",
+        "vehicular",
+        "satellite-ntn",
+        "mimo",
+        "isac",
+        "resources",
+        "propagation"
+      ],
+      "topicReviewedAt": "2026-10-18",
+      "summary": "主要面向调制、波形与物理层、车联网与移动载体、卫星通信与非地面网络相关研究。",
+      "publicationType": "研究型期刊",
+      "articleTypes": [
+        "研究论文"
+      ],
+      "submissionMode": "以作者指南及对应栏目要求为准",
+      "sourceUrl": "https://vtsociety.org/publications",
+      "verifiedAt": "2026-10-18",
+      "verification": "verified",
+      "assessments": [],
+      "indexStatus": "待核验",
+      "metricNote": "收录与分区需按体系、年份另行核验；目录收录不代表 SCI 或学校认定。"
+    },
+    {
+      "id": "ojvt",
+      "kind": "journal",
+      "short": "OJVT",
+      "nameZh": "IEEE 车载技术开放期刊",
+      "nameEn": "IEEE Open Journal of Vehicular Technology",
+      "aliases": [],
+      "areas": [
+        "wireless",
+        "iot"
+      ],
+      "url": "https://vtsociety.org/publication/ieee-ojvt",
+      "topics": [
+        "vehicular",
+        "physical",
+        "mobile-systems"
+      ],
+      "topicReviewedAt": "2026-10-18",
+      "summary": "主要面向车联网与移动载体、调制、波形与物理层、移动计算与无线系统相关研究。",
+      "publicationType": "研究型期刊",
+      "articleTypes": [
+        "研究论文"
+      ],
+      "submissionMode": "以作者指南及对应栏目要求为准",
+      "sourceUrl": "https://vtsociety.org/publications",
+      "verifiedAt": "2026-10-18",
+      "verification": "verified",
+      "assessments": [],
+      "indexStatus": "待核验",
+      "metricNote": "收录与分区需按体系、年份另行核验；目录收录不代表 SCI 或学校认定。"
+    },
+    {
+      "id": "vtmag",
+      "kind": "journal",
+      "short": "IEEE VTM",
+      "nameZh": "IEEE 车载技术杂志",
+      "nameEn": "IEEE Vehicular Technology Magazine",
+      "aliases": [],
+      "areas": [
+        "wireless",
+        "iot",
+        "space"
+      ],
+      "url": "https://vtsociety.org/publication/vtmagazine",
+      "topics": [
+        "vehicular",
+        "mobile-systems",
+        "satellite-ntn"
+      ],
+      "topicReviewedAt": "2026-10-18",
+      "summary": "主要面向车联网与移动载体、移动计算与无线系统、卫星通信与非地面网络相关研究。",
+      "publicationType": "学术杂志",
+      "articleTypes": [
+        "教程",
+        "综述"
+      ],
+      "submissionMode": "以作者指南及对应栏目要求为准",
+      "sourceUrl": "https://vtsociety.org/publications",
+      "verifiedAt": "2026-10-18",
+      "verification": "verified",
+      "assessments": [],
+      "indexStatus": "待核验",
+      "metricNote": "收录与分区需按体系、年份另行核验；目录收录不代表 SCI 或学校认定。"
+    },
+    {
+      "id": "tap",
+      "kind": "journal",
+      "short": "TAP",
+      "nameZh": "IEEE 天线与传播汇刊",
+      "nameEn": "IEEE Transactions on Antennas and Propagation",
+      "aliases": [],
+      "areas": [
+        "rf"
+      ],
+      "url": "https://ieeeaps.org/ieee-tap/home",
+      "topics": [
+        "antennas",
+        "propagation",
+        "arrays"
+      ],
+      "topicReviewedAt": "2026-10-18",
+      "summary": "主要面向天线、超表面与电磁计算、信道建模与传播、阵列与多通道处理相关研究。",
+      "publicationType": "研究型期刊",
+      "articleTypes": [
+        "研究论文"
+      ],
+      "submissionMode": "以作者指南及对应栏目要求为准",
+      "sourceUrl": "https://ieeeaps.org/publications-overview/",
+      "verifiedAt": "2026-10-18",
+      "verification": "verified",
+      "assessments": [],
+      "indexStatus": "待核验",
+      "metricNote": "收录与分区需按体系、年份另行核验；目录收录不代表 SCI 或学校认定。"
+    },
+    {
+      "id": "awpl",
+      "kind": "journal",
+      "short": "AWPL",
+      "nameZh": "IEEE 天线与无线传播快报",
+      "nameEn": "IEEE Antennas and Wireless Propagation Letters",
+      "aliases": [],
+      "areas": [
+        "rf"
+      ],
+      "url": "https://awpl.ee.cuhk.edu.hk/",
+      "topics": [
+        "antennas",
+        "propagation"
+      ],
+      "topicReviewedAt": "2026-10-18",
+      "summary": "主要面向天线、超表面与电磁计算、信道建模与传播相关研究。",
+      "publicationType": "快报期刊",
+      "articleTypes": [
+        "快报"
+      ],
+      "submissionMode": "以作者指南及对应栏目要求为准",
+      "sourceUrl": "https://ieeeaps.org/publications-overview/",
+      "verifiedAt": "2026-10-18",
+      "verification": "verified",
+      "assessments": [],
+      "indexStatus": "待核验",
+      "metricNote": "收录与分区需按体系、年份另行核验；目录收录不代表 SCI 或学校认定。"
+    },
+    {
+      "id": "ojap",
+      "kind": "journal",
+      "short": "OJAP",
+      "nameZh": "IEEE 天线与传播开放期刊",
+      "nameEn": "IEEE Open Journal of Antennas and Propagation",
+      "aliases": [],
+      "areas": [
+        "rf"
+      ],
+      "url": "https://ieeeaps.org/ieee-ojap",
+      "topics": [
+        "antennas",
+        "propagation",
+        "arrays"
+      ],
+      "topicReviewedAt": "2026-10-18",
+      "summary": "主要面向天线、超表面与电磁计算、信道建模与传播、阵列与多通道处理相关研究。",
+      "publicationType": "研究型期刊",
+      "articleTypes": [
+        "研究论文"
+      ],
+      "submissionMode": "以作者指南及对应栏目要求为准",
+      "sourceUrl": "https://ieeeaps.org/publications-overview/",
+      "verifiedAt": "2026-10-18",
+      "verification": "verified",
+      "assessments": [],
+      "indexStatus": "待核验",
+      "metricNote": "收录与分区需按体系、年份另行核验；目录收录不代表 SCI 或学校认定。"
+    },
+    {
+      "id": "apmag",
+      "kind": "journal",
+      "short": "IEEE APM",
+      "nameZh": "IEEE 天线与传播杂志",
+      "nameEn": "IEEE Antennas and Propagation Magazine",
+      "aliases": [],
+      "areas": [
+        "rf"
+      ],
+      "url": "https://ieeeaps.org/publications/ieee-antennas-and-propagation-magazine",
+      "topics": [
+        "antennas",
+        "propagation"
+      ],
+      "topicReviewedAt": "2026-10-18",
+      "summary": "主要面向天线、超表面与电磁计算、信道建模与传播相关研究。",
+      "publicationType": "学术杂志",
+      "articleTypes": [
+        "教程",
+        "综述"
+      ],
+      "submissionMode": "以作者指南及对应栏目要求为准",
+      "sourceUrl": "https://ieeeaps.org/publications-overview/",
+      "verifiedAt": "2026-10-18",
+      "verification": "verified",
+      "assessments": [],
+      "indexStatus": "待核验",
+      "metricNote": "收录与分区需按体系、年份另行核验；目录收录不代表 SCI 或学校认定。"
+    },
+    {
+      "id": "tmtt",
+      "kind": "journal",
+      "short": "T-MTT",
+      "nameZh": "IEEE 微波理论与技术汇刊",
+      "nameEn": "IEEE Transactions on Microwave Theory and Techniques",
+      "aliases": [],
+      "areas": [
+        "rf"
+      ],
+      "url": "https://mtt.org/publications/t-mtt/",
+      "topics": [
+        "microwave",
+        "thz",
+        "antennas"
+      ],
+      "topicReviewedAt": "2026-10-18",
+      "summary": "主要面向射频、微波与电路、毫米波与太赫兹、天线、超表面与电磁计算相关研究。",
+      "publicationType": "研究型期刊",
+      "articleTypes": [
+        "研究论文"
+      ],
+      "submissionMode": "以作者指南及对应栏目要求为准",
+      "sourceUrl": "https://mtt.org/publications/",
+      "verifiedAt": "2026-10-18",
+      "verification": "verified",
+      "assessments": [],
+      "indexStatus": "待核验",
+      "metricNote": "收录与分区需按体系、年份另行核验；目录收录不代表 SCI 或学校认定。",
+      "authorGuideUrl": "https://mtt.org/publications/t-mtt/information-for-authors/"
+    },
+    {
+      "id": "mwtl",
+      "kind": "journal",
+      "short": "MWTL",
+      "nameZh": "IEEE 微波与无线技术快报",
+      "nameEn": "IEEE Microwave and Wireless Technology Letters",
+      "aliases": [
+        "MWCL",
+        "IEEE Microwave and Wireless Components Letters"
+      ],
+      "areas": [
+        "rf"
+      ],
+      "url": "https://mtt.org/publications/mwtl/",
+      "topics": [
+        "microwave",
+        "thz"
+      ],
+      "topicReviewedAt": "2026-10-18",
+      "summary": "射频、微波和无线硬件的短篇研究；旧刊名 MWCL 保留为检索别名。",
+      "publicationType": "快报期刊",
+      "articleTypes": [
+        "快报"
+      ],
+      "submissionMode": "以作者指南及对应栏目要求为准",
+      "sourceUrl": "https://mtt.org/publications/",
+      "verifiedAt": "2026-10-18",
+      "verification": "verified",
+      "assessments": [],
+      "indexStatus": "待核验",
+      "metricNote": "收录与分区需按体系、年份另行核验；目录收录不代表 SCI 或学校认定。",
+      "authorGuideUrl": "https://mtt.org/publications/mwtl/information-for-authors/"
+    },
+    {
+      "id": "tthz",
+      "kind": "journal",
+      "short": "T-THz",
+      "nameZh": "IEEE 太赫兹科学与技术汇刊",
+      "nameEn": "IEEE Transactions on Terahertz Science and Technology",
+      "aliases": [],
+      "areas": [
+        "rf",
+        "optical"
+      ],
+      "url": "https://mtt.org/publications/terahertz-science-technology/",
+      "topics": [
+        "thz",
+        "microwave",
+        "photonics"
+      ],
+      "topicReviewedAt": "2026-10-18",
+      "summary": "主要面向毫米波与太赫兹、射频、微波与电路、光子器件与集成光学相关研究。",
+      "publicationType": "研究型期刊",
+      "articleTypes": [
+        "研究论文"
+      ],
+      "submissionMode": "以作者指南及对应栏目要求为准",
+      "sourceUrl": "https://mtt.org/publications/",
+      "verifiedAt": "2026-10-18",
+      "verification": "verified",
+      "assessments": [],
+      "indexStatus": "待核验",
+      "metricNote": "收录与分区需按体系、年份另行核验；目录收录不代表 SCI 或学校认定。",
+      "authorGuideUrl": "https://mtt.org/publications/terahertz-science-technology/information-for-authors/"
+    },
+    {
+      "id": "jmw",
+      "kind": "journal",
+      "short": "JMW",
+      "nameZh": "IEEE 微波学报",
+      "nameEn": "IEEE Journal of Microwaves",
+      "aliases": [],
+      "areas": [
+        "rf"
+      ],
+      "url": "https://mtt.org/publications/journal-of-microwaves/",
+      "topics": [
+        "microwave",
+        "thz",
+        "antennas"
+      ],
+      "topicReviewedAt": "2026-10-18",
+      "summary": "主要面向射频、微波与电路、毫米波与太赫兹、天线、超表面与电磁计算相关研究。",
+      "publicationType": "研究型期刊",
+      "articleTypes": [
+        "研究论文"
+      ],
+      "submissionMode": "以作者指南及对应栏目要求为准",
+      "sourceUrl": "https://mtt.org/publications/",
+      "verifiedAt": "2026-10-18",
+      "verification": "verified",
+      "assessments": [],
+      "indexStatus": "待核验",
+      "metricNote": "收录与分区需按体系、年份另行核验；目录收录不代表 SCI 或学校认定。",
+      "authorGuideUrl": "https://mtt.org/publications/journal-of-microwaves/information-for-authors/"
+    },
+    {
+      "id": "mwmag",
+      "kind": "journal",
+      "short": "IEEE MWM",
+      "nameZh": "IEEE 微波杂志",
+      "nameEn": "IEEE Microwave Magazine",
+      "aliases": [],
+      "areas": [
+        "rf"
+      ],
+      "url": "https://mtt.org/publications/ieee-microwave-magazine/",
+      "topics": [
+        "microwave",
+        "thz"
+      ],
+      "topicReviewedAt": "2026-10-18",
+      "summary": "主要面向射频、微波与电路、毫米波与太赫兹相关研究。",
+      "publicationType": "学术杂志",
+      "articleTypes": [
+        "教程",
+        "综述"
+      ],
+      "submissionMode": "以作者指南及对应栏目要求为准",
+      "sourceUrl": "https://mtt.org/publications/",
+      "verifiedAt": "2026-10-18",
+      "verification": "verified",
+      "assessments": [],
+      "indexStatus": "待核验",
+      "metricNote": "收录与分区需按体系、年份另行核验；目录收录不代表 SCI 或学校认定。",
+      "authorGuideUrl": "https://mtt.org/publications/ieee-microwave-magazine/guidelines-for-authors/"
+    },
+    {
+      "id": "taes",
+      "kind": "journal",
+      "short": "TAES",
+      "nameZh": "IEEE 航空航天与电子系统汇刊",
+      "nameEn": "IEEE Transactions on Aerospace and Electronic Systems",
+      "aliases": [],
+      "areas": [
+        "space",
+        "signal",
+        "rf"
+      ],
+      "url": "https://ieee-aess.org/publications/taes",
+      "topics": [
+        "aerospace",
+        "radar",
+        "navigation-pnt",
+        "satellite-ntn",
+        "isac"
+      ],
+      "topicReviewedAt": "2026-10-18",
+      "summary": "主要面向航空航天电子与系统、雷达、声呐与目标跟踪、定位、导航与授时相关研究。",
+      "publicationType": "研究型期刊",
+      "articleTypes": [
+        "研究论文"
+      ],
+      "submissionMode": "以作者指南及对应栏目要求为准",
+      "sourceUrl": "https://ieee-aess.org/publications",
+      "verifiedAt": "2026-10-18",
+      "verification": "verified",
+      "assessments": [],
+      "indexStatus": "待核验",
+      "metricNote": "收录与分区需按体系、年份另行核验；目录收录不代表 SCI 或学校认定。"
+    },
+    {
+      "id": "trs",
+      "kind": "journal",
+      "short": "TRS",
+      "nameZh": "IEEE 雷达系统汇刊",
+      "nameEn": "IEEE Transactions on Radar Systems",
+      "aliases": [],
+      "areas": [
+        "signal",
+        "rf"
+      ],
+      "url": "https://ieee-trs.org/",
+      "topics": [
+        "radar",
+        "arrays",
+        "isac"
+      ],
+      "topicReviewedAt": "2026-10-18",
+      "summary": "主要面向雷达、声呐与目标跟踪、阵列与多通道处理、通感一体化相关研究。",
+      "publicationType": "研究型期刊",
+      "articleTypes": [
+        "研究论文"
+      ],
+      "submissionMode": "以作者指南及对应栏目要求为准",
+      "sourceUrl": "https://ieee-aess.org/publications",
+      "verifiedAt": "2026-10-18",
+      "verification": "verified",
+      "assessments": [],
+      "indexStatus": "待核验",
+      "metricNote": "收录与分区需按体系、年份另行核验；目录收录不代表 SCI 或学校认定。"
+    },
+    {
+      "id": "jqe",
+      "kind": "journal",
+      "short": "JQE",
+      "nameZh": "IEEE 量子电子学报",
+      "nameEn": "IEEE Journal of Quantum Electronics",
+      "aliases": [],
+      "areas": [
+        "optical"
+      ],
+      "url": "https://ieeephotonics.org/publications/journal-of-quantum-electronics/",
+      "topics": [
+        "photonics"
+      ],
+      "topicReviewedAt": "2026-10-18",
+      "summary": "光子学与量子电子学中的理论、器件及实验研究；刊名中的量子电子学不等同于量子通信。",
+      "publicationType": "研究型期刊",
+      "articleTypes": [
+        "研究论文"
+      ],
+      "submissionMode": "以作者指南及对应栏目要求为准",
+      "sourceUrl": "https://ieeephotonics.org/publications/journal-of-quantum-electronics/",
+      "verifiedAt": "2026-10-18",
+      "verification": "verified",
+      "assessments": [],
+      "indexStatus": "待核验",
+      "metricNote": "收录与分区需按体系、年份另行核验；目录收录不代表 SCI 或学校认定。"
+    },
+    {
+      "id": "jstqe",
+      "kind": "journal",
+      "short": "JSTQE",
+      "nameZh": "IEEE 量子电子学专题选刊",
+      "nameEn": "IEEE Journal of Selected Topics in Quantum Electronics",
+      "aliases": [],
+      "areas": [
+        "optical"
+      ],
+      "url": "https://ieeephotonics.org/publications/",
+      "topics": [
+        "photonics",
+        "quantum"
+      ],
+      "topicReviewedAt": "2026-10-18",
+      "summary": "主要面向光子器件与集成光学、量子通信与量子信息相关研究。",
+      "publicationType": "专题期刊",
+      "articleTypes": [
+        "研究论文"
+      ],
+      "submissionMode": "以作者指南及对应栏目要求为准",
+      "sourceUrl": "https://ieeephotonics.org/publications/publication-calls-for-papers/",
+      "verifiedAt": "2026-10-18",
+      "verification": "verified",
+      "assessments": [],
+      "indexStatus": "待核验",
+      "metricNote": "收录与分区需按体系、年份另行核验；目录收录不代表 SCI 或学校认定。",
+      "cfpUrl": "https://ieeephotonics.org/publications/publication-calls-for-papers/"
+    },
+    {
+      "id": "ptl",
+      "kind": "journal",
+      "short": "PTL",
+      "nameZh": "IEEE 光子技术快报",
+      "nameEn": "IEEE Photonics Technology Letters",
+      "aliases": [],
+      "areas": [
+        "optical"
+      ],
+      "url": "https://ieeephotonics.org/publications/photonics-technology-letters/",
+      "topics": [
+        "photonics",
+        "fiber",
+        "optical-wireless"
+      ],
+      "topicReviewedAt": "2026-10-18",
+      "summary": "主要面向光子器件与集成光学、光纤通信与相干处理、无线光与可见光通信相关研究。",
+      "publicationType": "快报期刊",
+      "articleTypes": [
+        "快报"
+      ],
+      "submissionMode": "以作者指南及对应栏目要求为准",
+      "sourceUrl": "https://ieeephotonics.org/publications/photonics-technology-letters/",
+      "verifiedAt": "2026-10-18",
+      "verification": "verified",
+      "assessments": [],
+      "indexStatus": "待核验",
+      "metricNote": "收录与分区需按体系、年份另行核验；目录收录不代表 SCI 或学校认定。"
+    },
+    {
+      "id": "pj",
+      "kind": "journal",
+      "short": "IEEE PJ",
+      "nameZh": "IEEE 光子学期刊",
+      "nameEn": "IEEE Photonics Journal",
+      "aliases": [],
+      "areas": [
+        "optical"
+      ],
+      "url": "https://ieeephotonics.org/publications/photonics-journal/",
+      "topics": [
+        "photonics",
+        "fiber",
+        "thz"
+      ],
+      "topicReviewedAt": "2026-10-18",
+      "summary": "主要面向光子器件与集成光学、光纤通信与相干处理、毫米波与太赫兹相关研究。",
+      "publicationType": "研究型期刊",
+      "articleTypes": [
+        "研究论文"
+      ],
+      "submissionMode": "以作者指南及对应栏目要求为准",
+      "sourceUrl": "https://ieeephotonics.org/publications/photonics-journal/",
+      "verifiedAt": "2026-10-18",
+      "verification": "verified",
+      "assessments": [],
+      "indexStatus": "待核验",
+      "metricNote": "收录与分区需按体系、年份另行核验；目录收录不代表 SCI 或学校认定。"
+    },
+    {
+      "id": "sensors-j",
+      "kind": "journal",
+      "short": "IEEE Sensors J",
+      "nameZh": "IEEE 传感器期刊",
+      "nameEn": "IEEE Sensors Journal",
+      "aliases": [],
+      "areas": [
+        "iot",
+        "signal"
+      ],
+      "url": "https://ieee-sensors.org/ieee-sensors-journal/",
+      "topics": [
+        "iot-sensing",
+        "arrays",
+        "navigation-pnt"
+      ],
+      "topicReviewedAt": "2026-10-18",
+      "summary": "传感器、传感接口和系统研究；导航分类侧重传感与定位相关内容。",
+      "publicationType": "研究型期刊",
+      "articleTypes": [
+        "研究论文"
+      ],
+      "submissionMode": "以作者指南及对应栏目要求为准",
+      "sourceUrl": "https://ieee-sensors.org/ieee-sensors-journal/",
+      "verifiedAt": "2026-10-18",
+      "verification": "verified",
+      "assessments": [],
+      "indexStatus": "待核验",
+      "metricNote": "收录与分区需按体系、年份另行核验；目录收录不代表 SCI 或学校认定。"
+    },
+    {
+      "id": "sensors-l",
+      "kind": "journal",
+      "short": "IEEE Sensors L",
+      "nameZh": "IEEE 传感器快报",
+      "nameEn": "IEEE Sensors Letters",
+      "aliases": [],
+      "areas": [
+        "iot"
+      ],
+      "url": "https://ieee-sensorsletters.org/",
+      "topics": [
+        "iot-sensing"
+      ],
+      "topicReviewedAt": "2026-10-18",
+      "summary": "主要面向传感器与物联网相关研究。",
+      "publicationType": "快报期刊",
+      "articleTypes": [
+        "快报"
+      ],
+      "submissionMode": "以作者指南及对应栏目要求为准",
+      "sourceUrl": "https://ieee-sensorsletters.org/",
+      "verifiedAt": "2026-10-18",
+      "verification": "verified",
+      "assessments": [],
+      "indexStatus": "待核验",
+      "metricNote": "收录与分区需按体系、年份另行核验；目录收录不代表 SCI 或学校认定。"
+    },
+    {
+      "id": "taslp",
+      "kind": "journal",
+      "short": "TASLP",
+      "nameZh": "IEEE 音频、语音与语言处理汇刊",
+      "nameEn": "IEEE Transactions on Audio, Speech, and Language Processing",
+      "aliases": [
+        "IEEE/ACM Transactions on Audio, Speech, and Language Processing",
+        "TASLPRO"
+      ],
+      "areas": [
+        "signal",
+        "ai"
+      ],
+      "url": "https://signalprocessingsociety.org/publications-resources/ieee-transactions-audio-speech-and-language-processing",
+      "topics": [
+        "speech",
+        "ai-communications"
+      ],
+      "topicReviewedAt": "2026-10-18",
+      "summary": "音频、语音与语言处理研究；旧 IEEE/ACM 刊名保留检索。机器学习分类侧重信号处理方法。",
+      "publicationType": "研究型期刊",
+      "articleTypes": [
+        "研究论文"
+      ],
+      "submissionMode": "以作者指南及对应栏目要求为准",
+      "sourceUrl": "https://signalprocessingsociety.org/publications-resources/publications",
+      "verifiedAt": "2026-10-18",
+      "verification": "verified",
+      "assessments": [],
+      "indexStatus": "待核验",
+      "metricNote": "收录与分区需按体系、年份另行核验；目录收录不代表 SCI 或学校认定。",
+      "authorGuideUrl": "https://signalprocessingsociety.org/publications-resources/information-authors"
+    },
+    {
+      "id": "spmag",
+      "kind": "journal",
+      "short": "IEEE SPM",
+      "nameZh": "IEEE 信号处理杂志",
+      "nameEn": "IEEE Signal Processing Magazine",
+      "aliases": [],
+      "areas": [
+        "signal"
+      ],
+      "url": "https://signalprocessingsociety.org/publications-resources/ieee-signal-processing-magazine",
+      "topics": [
+        "estimation-sync",
+        "arrays",
+        "speech",
+        "imaging"
+      ],
+      "topicReviewedAt": "2026-10-18",
+      "summary": "主要面向检测、估计与同步、阵列与多通道处理、语音、音频与声学相关研究。",
+      "publicationType": "学术杂志",
+      "articleTypes": [
+        "教程",
+        "综述"
+      ],
+      "submissionMode": "以作者指南及对应栏目要求为准",
+      "sourceUrl": "https://signalprocessingsociety.org/publications-resources/publications",
+      "verifiedAt": "2026-10-18",
+      "verification": "verified",
+      "assessments": [],
+      "indexStatus": "待核验",
+      "metricNote": "收录与分区需按体系、年份另行核验；目录收录不代表 SCI 或学校认定。",
+      "authorGuideUrl": "https://signalprocessingsociety.org/publications-resources/information-authors"
+    },
+    {
+      "id": "tci",
+      "kind": "journal",
+      "short": "TCI",
+      "nameZh": "IEEE 计算成像汇刊",
+      "nameEn": "IEEE Transactions on Computational Imaging",
+      "aliases": [],
+      "areas": [
+        "signal"
+      ],
+      "url": "https://signalprocessingsociety.org/publications-resources/ieee-transactions-computational-imaging",
+      "topics": [
+        "imaging",
+        "estimation-sync"
+      ],
+      "topicReviewedAt": "2026-10-18",
+      "summary": "主要面向图像、视频与计算成像、检测、估计与同步相关研究。",
+      "publicationType": "研究型期刊",
+      "articleTypes": [
+        "研究论文"
+      ],
+      "submissionMode": "以作者指南及对应栏目要求为准",
+      "sourceUrl": "https://signalprocessingsociety.org/publications-resources/publications",
+      "verifiedAt": "2026-10-18",
+      "verification": "verified",
+      "assessments": [],
+      "indexStatus": "待核验",
+      "metricNote": "收录与分区需按体系、年份另行核验；目录收录不代表 SCI 或学校认定。",
+      "authorGuideUrl": "https://signalprocessingsociety.org/publications-resources/information-authors"
+    },
+    {
+      "id": "commag",
+      "kind": "journal",
+      "short": "IEEE ComMag",
+      "nameZh": "IEEE 通信杂志",
+      "nameEn": "IEEE Communications Magazine",
+      "aliases": [],
+      "areas": [
+        "wireless",
+        "network",
+        "ai"
+      ],
+      "url": "https://www.comsoc.org/publications/magazines/ieee-communications-magazine",
+      "topics": [
+        "physical",
+        "protocols",
+        "ai-communications"
+      ],
+      "topicReviewedAt": "2026-10-18",
+      "summary": "通信技术与系统的教程性文章，覆盖无线、网络及智能通信；具体栏目要求见官网。",
+      "publicationType": "学术杂志",
+      "articleTypes": [
+        "教程",
+        "综述"
+      ],
+      "submissionMode": "以作者指南及对应栏目要求为准",
+      "sourceUrl": "https://www.comsoc.org/publications/magazines/ieee-communications-magazine",
+      "verifiedAt": "2026-10-18",
+      "verification": "verified",
+      "assessments": [],
+      "indexStatus": "待核验",
+      "metricNote": "收录与分区需按体系、年份另行核验；目录收录不代表 SCI 或学校认定。"
+    },
+    {
+      "id": "network-mag",
+      "kind": "journal",
+      "short": "IEEE Network",
+      "nameZh": "IEEE 网络杂志",
+      "nameEn": "IEEE Network",
+      "aliases": [],
+      "areas": [
+        "network"
+      ],
+      "url": "https://www.comsoc.org/publications/magazines/ieee-network",
+      "topics": [
+        "protocols",
+        "network-management",
+        "edge-cloud"
+      ],
+      "topicReviewedAt": "2026-10-18",
+      "summary": "主要面向网络协议与体系结构、网络管理与虚拟化、边缘计算与云网络相关研究。",
+      "publicationType": "学术杂志",
+      "articleTypes": [
+        "教程",
+        "综述"
+      ],
+      "submissionMode": "以作者指南及对应栏目要求为准",
+      "sourceUrl": "https://www.comsoc.org/publications/magazines/ieee-network",
+      "verifiedAt": "2026-10-18",
+      "verification": "verified",
+      "assessments": [],
+      "indexStatus": "待核验",
+      "metricNote": "收录与分区需按体系、年份另行核验；目录收录不代表 SCI 或学校认定。"
+    },
+    {
+      "id": "standards-mag",
+      "kind": "journal",
+      "short": "IEEE CSM",
+      "nameZh": "IEEE 通信标准杂志",
+      "nameEn": "IEEE Communications Standards Magazine",
+      "aliases": [],
+      "areas": [
+        "wireless",
+        "network",
+        "iot"
+      ],
+      "url": "https://www.comsoc.org/publications/magazines/ieee-communications-standards-magazine",
+      "topics": [
+        "physical",
+        "protocols",
+        "industrial"
+      ],
+      "topicReviewedAt": "2026-10-18",
+      "summary": "通信与网络标准、标准化方法及相关技术创新。",
+      "publicationType": "学术杂志",
+      "articleTypes": [
+        "教程",
+        "综述"
+      ],
+      "submissionMode": "以作者指南及对应栏目要求为准",
+      "sourceUrl": "https://www.comsoc.org/publications/magazines/ieee-communications-standards-magazine",
+      "verifiedAt": "2026-10-18",
+      "verification": "verified",
+      "assessments": [],
+      "indexStatus": "待核验",
+      "metricNote": "收录与分区需按体系、年份另行核验；目录收录不代表 SCI 或学校认定。"
+    },
+    {
+      "id": "iot-mag",
+      "kind": "journal",
+      "short": "IEEE IoTM",
+      "nameZh": "IEEE 物联网杂志",
+      "nameEn": "IEEE Internet of Things Magazine",
+      "aliases": [],
+      "areas": [
+        "iot",
+        "network"
+      ],
+      "url": "https://www.comsoc.org/publications/magazines/ieee-internet-things-magazine",
+      "topics": [
+        "iot-sensing",
+        "industrial",
+        "vehicular"
+      ],
+      "topicReviewedAt": "2026-10-18",
+      "summary": "主要面向传感器与物联网、工业通信与控制网络、车联网与移动载体相关研究。",
+      "publicationType": "学术杂志",
+      "articleTypes": [
+        "应用与系统实践论文"
+      ],
+      "submissionMode": "以作者指南及对应栏目要求为准",
+      "sourceUrl": "https://www.comsoc.org/publications/magazines/ieee-internet-things-magazine",
+      "verifiedAt": "2026-10-18",
+      "verification": "verified",
+      "assessments": [],
+      "indexStatus": "待核验",
+      "metricNote": "收录与分区需按体系、年份另行核验；目录收录不代表 SCI 或学校认定。"
+    },
+    {
+      "id": "tcas1",
+      "kind": "journal",
+      "short": "TCAS-I",
+      "nameZh": "IEEE 电路与系统汇刊 I：常规论文",
+      "nameEn": "IEEE Transactions on Circuits and Systems I: Regular Papers",
+      "aliases": [],
+      "areas": [
+        "rf",
+        "signal"
+      ],
+      "url": "https://ieee-cas.org/publication/TCAS-I",
+      "topics": [
+        "microwave"
+      ],
+      "topicReviewedAt": "2026-10-18",
+      "summary": "主要面向射频、微波与电路、调制、波形与物理层相关研究。",
+      "publicationType": "研究型期刊",
+      "articleTypes": [
+        "研究论文"
+      ],
+      "submissionMode": "以作者指南及对应栏目要求为准",
+      "sourceUrl": "https://ieee-cas.org/publications",
+      "verifiedAt": "2026-10-18",
+      "verification": "verified",
+      "assessments": [],
+      "indexStatus": "待核验",
+      "metricNote": "收录与分区需按体系、年份另行核验；目录收录不代表 SCI 或学校认定。"
+    },
+    {
+      "id": "tcas2",
+      "kind": "journal",
+      "short": "TCAS-II",
+      "nameZh": "IEEE 电路与系统汇刊 II：短篇快报",
+      "nameEn": "IEEE Transactions on Circuits and Systems II: Express Briefs",
+      "aliases": [],
+      "areas": [
+        "rf",
+        "signal"
+      ],
+      "url": "https://ieee-cas.org/publication/TCAS-II",
+      "topics": [
+        "microwave"
+      ],
+      "topicReviewedAt": "2026-10-18",
+      "summary": "主要面向射频、微波与电路、调制、波形与物理层相关研究。",
+      "publicationType": "快报期刊",
+      "articleTypes": [
+        "快报"
+      ],
+      "submissionMode": "以作者指南及对应栏目要求为准",
+      "sourceUrl": "https://ieee-cas.org/publications",
+      "verifiedAt": "2026-10-18",
+      "verification": "verified",
+      "assessments": [],
+      "indexStatus": "待核验",
+      "metricNote": "收录与分区需按体系、年份另行核验；目录收录不代表 SCI 或学校认定。"
+    },
+    {
+      "id": "tcsvt",
+      "kind": "journal",
+      "short": "TCSVT",
+      "nameZh": "IEEE 视频技术电路与系统汇刊",
+      "nameEn": "IEEE Transactions on Circuits and Systems for Video Technology",
+      "aliases": [],
+      "areas": [
+        "signal"
+      ],
+      "url": "https://ieee-cas.org/publication/tcsvt",
+      "topics": [
+        "imaging",
+        "source-coding"
+      ],
+      "topicReviewedAt": "2026-10-18",
+      "summary": "主要面向图像、视频与计算成像、信源编码与压缩相关研究。",
+      "publicationType": "研究型期刊",
+      "articleTypes": [
+        "研究论文"
+      ],
+      "submissionMode": "以作者指南及对应栏目要求为准",
+      "sourceUrl": "https://ieee-cas.org/publications",
+      "verifiedAt": "2026-10-18",
+      "verification": "verified",
+      "assessments": [],
+      "indexStatus": "待核验",
+      "metricNote": "收录与分区需按体系、年份另行核验；目录收录不代表 SCI 或学校认定。"
+    },
+    {
+      "id": "jetcas",
+      "kind": "journal",
+      "short": "JETCAS",
+      "nameZh": "IEEE 电路与系统新兴专题选刊",
+      "nameEn": "IEEE Journal on Emerging and Selected Topics in Circuits and Systems",
+      "aliases": [],
+      "areas": [
+        "rf",
+        "signal",
+        "ai"
+      ],
+      "url": "https://ieee-cas.org/publication/JETCAS",
+      "topics": [
+        "microwave",
+        "ai-communications"
+      ],
+      "topicReviewedAt": "2026-10-18",
+      "summary": "围绕电路与系统的新兴主题组织专题征稿，含智能处理硬件等方向。",
+      "publicationType": "专题期刊",
+      "articleTypes": [
+        "研究论文"
+      ],
+      "submissionMode": "以作者指南及对应栏目要求为准",
+      "sourceUrl": "https://ieee-cas.org/publications",
+      "verifiedAt": "2026-10-18",
+      "verification": "verified",
+      "assessments": [],
+      "indexStatus": "待核验",
+      "metricNote": "收录与分区需按体系、年份另行核验；目录收录不代表 SCI 或学校认定。"
+    },
+    {
+      "id": "oe",
+      "kind": "journal",
+      "short": "Optics Express",
+      "nameZh": "光学快报（Optics Express）",
+      "nameEn": "Optics Express",
+      "aliases": [],
+      "areas": [
+        "optical"
+      ],
+      "url": "https://opg.optica.org/oe",
+      "topics": [
+        "photonics",
+        "fiber",
+        "optical-wireless"
+      ],
+      "topicReviewedAt": "2026-10-18",
+      "summary": "主要面向光子器件与集成光学、光纤通信与相干处理、无线光与可见光通信相关研究。",
+      "publicationType": "研究型期刊",
+      "articleTypes": [
+        "研究论文"
+      ],
+      "submissionMode": "以作者指南及对应栏目要求为准",
+      "sourceUrl": "https://opg.optica.org/",
+      "verifiedAt": "2026-10-18",
+      "verification": "verified",
+      "assessments": [],
+      "indexStatus": "待核验",
+      "metricNote": "收录与分区需按体系、年份另行核验；目录收录不代表 SCI 或学校认定。"
+    },
+    {
+      "id": "ol",
+      "kind": "journal",
+      "short": "Optics Letters",
+      "nameZh": "光学快讯（Optics Letters）",
+      "nameEn": "Optics Letters",
+      "aliases": [],
+      "areas": [
+        "optical"
+      ],
+      "url": "https://opg.optica.org/ol",
+      "topics": [
+        "photonics",
+        "fiber"
+      ],
+      "topicReviewedAt": "2026-10-18",
+      "summary": "主要面向光子器件与集成光学、光纤通信与相干处理相关研究。",
+      "publicationType": "快报期刊",
+      "articleTypes": [
+        "快报"
+      ],
+      "submissionMode": "以作者指南及对应栏目要求为准",
+      "sourceUrl": "https://opg.optica.org/",
+      "verifiedAt": "2026-10-18",
+      "verification": "verified",
+      "assessments": [],
+      "indexStatus": "待核验",
+      "metricNote": "收录与分区需按体系、年份另行核验；目录收录不代表 SCI 或学校认定。"
+    },
+    {
+      "id": "pr",
+      "kind": "journal",
+      "short": "Photonics Research",
+      "nameZh": "光子学研究",
+      "nameEn": "Photonics Research",
+      "aliases": [],
+      "areas": [
+        "optical"
+      ],
+      "url": "https://opg.optica.org/prj",
+      "topics": [
+        "photonics",
+        "optical-wireless"
+      ],
+      "topicReviewedAt": "2026-10-18",
+      "summary": "主要面向光子器件与集成光学、无线光与可见光通信相关研究。",
+      "publicationType": "研究型期刊",
+      "articleTypes": [
+        "研究论文"
+      ],
+      "submissionMode": "以作者指南及对应栏目要求为准",
+      "sourceUrl": "https://opg.optica.org/",
+      "verifiedAt": "2026-10-18",
+      "verification": "verified",
+      "assessments": [],
+      "indexStatus": "待核验",
+      "metricNote": "收录与分区需按体系、年份另行核验；目录收录不代表 SCI 或学校认定。"
+    },
+    {
+      "id": "wireless-networks",
+      "kind": "journal",
+      "short": "Wireless Networks",
+      "nameZh": "无线网络",
+      "nameEn": "Wireless Networks",
+      "aliases": [],
+      "areas": [
+        "network",
+        "wireless"
+      ],
+      "url": "https://link.springer.com/journal/11276",
+      "topics": [
+        "mobile-systems",
+        "protocols",
+        "resources"
+      ],
+      "topicReviewedAt": "2026-10-18",
+      "summary": "主要面向移动计算与无线系统、网络协议与体系结构、频谱与无线资源管理相关研究。",
+      "publicationType": "研究型期刊",
+      "articleTypes": [
+        "研究论文"
+      ],
+      "submissionMode": "以作者指南及对应栏目要求为准",
+      "sourceUrl": "https://link.springer.com/journal/11276",
+      "verifiedAt": "2026-10-18",
+      "verification": "verified",
+      "assessments": [],
+      "indexStatus": "待核验",
+      "metricNote": "收录与分区需按体系、年份另行核验；目录收录不代表 SCI 或学校认定。",
+      "authorGuideUrl": "https://link.springer.com/journal/11276/submission-guidelines",
+      "cfpUrl": "https://link.springer.com/journal/11276/updates"
+    },
+    {
+      "id": "gps-solutions",
+      "kind": "journal",
+      "short": "GPS Solutions",
+      "nameZh": "全球导航卫星系统技术与应用",
+      "nameEn": "GPS Solutions",
+      "aliases": [],
+      "areas": [
+        "space",
+        "signal"
+      ],
+      "url": "https://link.springer.com/journal/10291",
+      "topics": [
+        "navigation-pnt",
+        "estimation-sync"
+      ],
+      "topicReviewedAt": "2026-10-18",
+      "summary": "主要面向定位、导航与授时、检测、估计与同步相关研究。",
+      "publicationType": "研究型期刊",
+      "articleTypes": [
+        "研究论文"
+      ],
+      "submissionMode": "以作者指南及对应栏目要求为准",
+      "sourceUrl": "https://link.springer.com/journal/10291",
+      "verifiedAt": "2026-10-18",
+      "verification": "verified",
+      "assessments": [],
+      "indexStatus": "待核验",
+      "metricNote": "收录与分区需按体系、年份另行核验；目录收录不代表 SCI 或学校认定。",
+      "authorGuideUrl": "https://link.springer.com/journal/10291/submission-guidelines"
+    },
+    {
+      "id": "navigation",
+      "kind": "journal",
+      "short": "NAVIGATION",
+      "nameZh": "导航：导航学会期刊",
+      "nameEn": "NAVIGATION: Journal of the Institute of Navigation",
+      "aliases": [],
+      "areas": [
+        "space",
+        "signal"
+      ],
+      "url": "https://www.ion.org/navi/index.cfm",
+      "topics": [
+        "navigation-pnt",
+        "estimation-sync"
+      ],
+      "topicReviewedAt": "2026-10-18",
+      "summary": "主要面向定位、导航与授时、检测、估计与同步相关研究。",
+      "publicationType": "研究型期刊",
+      "articleTypes": [
+        "研究论文"
+      ],
+      "submissionMode": "以作者指南及对应栏目要求为准",
+      "sourceUrl": "https://www.ion.org/navi/index.cfm",
+      "verifiedAt": "2026-10-18",
+      "verification": "verified",
+      "assessments": [],
+      "indexStatus": "待核验",
+      "metricNote": "收录与分区需按体系、年份另行核验；目录收录不代表 SCI 或学校认定。"
+    },
+    {
+      "id": "china-communications",
+      "kind": "journal",
+      "short": "China Communications",
+      "nameZh": "中国通信（英文）",
+      "nameEn": "China Communications",
+      "aliases": [],
+      "areas": [
+        "wireless",
+        "network",
+        "space"
+      ],
+      "url": "https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=6245522",
+      "topics": [
+        "physical",
+        "protocols",
+        "satellite-ntn"
+      ],
+      "topicReviewedAt": "2026-10-18",
+      "summary": "信息通信技术领域的英文研究刊物；不能与中文《通信学报》混同。",
+      "publicationType": "研究型期刊",
+      "articleTypes": [
+        "研究论文"
+      ],
+      "submissionMode": "以作者指南及对应栏目要求为准",
+      "sourceUrl": "https://www.comsoc.org/publications/magazines",
+      "verifiedAt": "2026-10-18",
+      "verification": "verified",
+      "assessments": [],
+      "indexStatus": "待核验",
+      "metricNote": "收录与分区需按体系、年份另行核验；目录收录不代表 SCI 或学校认定。"
+    },
+    {
+      "id": "txxb",
+      "kind": "journal",
+      "short": "通信学报",
+      "nameZh": "通信学报",
+      "nameEn": "Journal on Communications",
+      "aliases": [],
+      "areas": [
+        "wireless",
+        "theory",
+        "network"
+      ],
+      "url": "https://www.joconline.com.cn/",
+      "topics": [
+        "physical",
+        "protocols",
+        "channel-coding"
+      ],
+      "topicReviewedAt": "2026-10-18",
+      "summary": "通信领域中文期刊，设学术论文、综述、学术通信等栏目；收录和学校认定另行核验。",
+      "publicationType": "研究型期刊",
+      "articleTypes": [
+        "研究论文"
+      ],
+      "submissionMode": "以作者指南及对应栏目要求为准",
+      "sourceUrl": "https://www.joconline.com.cn/zh/info/15275/",
+      "verifiedAt": "2026-10-18",
+      "verification": "verified",
+      "assessments": [],
+      "indexStatus": "待核验",
+      "metricNote": "收录与分区需按体系、年份另行核验；目录收录不代表 SCI 或学校认定。"
+    },
+    {
+      "id": "signal-processing",
+      "kind": "journal",
+      "short": "Signal Processing",
+      "nameZh": "信号处理（英文）",
+      "nameEn": "Signal Processing",
+      "aliases": [],
+      "areas": [
+        "signal"
+      ],
+      "url": "https://www.sciencedirect.com/journal/signal-processing",
+      "topics": [
+        "estimation-sync",
+        "arrays",
+        "radar",
+        "imaging"
+      ],
+      "topicReviewedAt": "2026-10-18",
+      "summary": "主要面向检测、估计与同步、阵列与多通道处理、雷达、声呐与目标跟踪相关研究。",
+      "publicationType": "研究型期刊",
+      "articleTypes": [
+        "研究论文"
+      ],
+      "submissionMode": "以作者指南及对应栏目要求为准",
+      "sourceUrl": "https://shop.elsevier.com/journals/signal-processing/0165-1684",
+      "verifiedAt": "2026-10-18",
+      "verification": "verified",
+      "assessments": [],
+      "indexStatus": "待核验",
+      "metricNote": "收录与分区需按体系、年份另行核验；目录收录不代表 SCI 或学校认定。"
+    },
+    {
+      "id": "phycom",
+      "kind": "journal",
+      "short": "PHYCOM",
+      "nameZh": "物理通信",
+      "nameEn": "Physical Communication",
+      "aliases": [],
+      "areas": [
+        "wireless",
+        "signal",
+        "theory"
+      ],
+      "url": "https://www.sciencedirect.com/journal/physical-communication",
+      "topics": [
+        "physical",
+        "estimation-sync",
+        "channel-coding",
+        "mimo"
+      ],
+      "topicReviewedAt": "2026-10-18",
+      "summary": "主要面向调制、波形与物理层、检测、估计与同步、信道编码与译码相关研究。",
+      "publicationType": "研究型期刊",
+      "articleTypes": [
+        "研究论文"
+      ],
+      "submissionMode": "以作者指南及对应栏目要求为准",
+      "sourceUrl": "https://shop.elsevier.com/journals/physical-communication/1874-4907",
+      "verifiedAt": "2026-10-18",
+      "verification": "verified",
+      "assessments": [],
+      "indexStatus": "待核验",
+      "metricNote": "收录与分区需按体系、年份另行核验；目录收录不代表 SCI 或学校认定。"
+    },
+    {
+      "id": "computer-networks",
+      "kind": "journal",
+      "short": "Computer Networks",
+      "nameZh": "计算机网络",
+      "nameEn": "Computer Networks",
+      "aliases": [],
+      "areas": [
+        "network"
+      ],
+      "url": "https://www.sciencedirect.com/journal/computer-networks",
+      "topics": [
+        "protocols",
+        "measurement",
+        "network-management",
+        "security"
+      ],
+      "topicReviewedAt": "2026-10-18",
+      "summary": "主要面向网络协议与体系结构、网络测量与性能分析、网络管理与虚拟化相关研究。",
+      "publicationType": "研究型期刊",
+      "articleTypes": [
+        "研究论文"
+      ],
+      "submissionMode": "以作者指南及对应栏目要求为准",
+      "sourceUrl": "https://shop.elsevier.com/journals/computer-networks/1389-1286",
+      "verifiedAt": "2026-10-18",
+      "verification": "verified",
+      "assessments": [],
+      "indexStatus": "待核验",
+      "metricNote": "收录与分区需按体系、年份另行核验；目录收录不代表 SCI 或学校认定。"
+    },
+    {
+      "id": "sam",
+      "kind": "conference",
+      "short": "SAM",
+      "nameZh": "IEEE 传感器阵列与多通道信号处理研讨会",
+      "nameEn": "IEEE Sensor Array and Multichannel Signal Processing Workshop",
+      "aliases": [],
+      "areas": [
+        "signal",
+        "rf"
+      ],
+      "topics": [
+        "arrays",
+        "estimation-sync",
+        "radar"
+      ],
+      "topicReviewedAt": "2026-10-18",
+      "url": "https://signalprocessingsociety.org/events/conferences",
+      "summary": "重点覆盖阵列与多通道处理、检测、估计与同步、雷达、声呐与目标跟踪。",
+      "publicationType": "独立专题研讨会系列",
+      "articleTypes": [
+        "会议论文"
+      ],
+      "submissionMode": "按具体届次征稿",
+      "sourceUrl": "https://signalprocessingsociety.org/events/conferences",
+      "verifiedAt": "2026-10-18",
+      "verification": "verified",
+      "assessments": []
+    },
+    {
+      "id": "camsap",
+      "kind": "conference",
+      "short": "CAMSAP",
+      "nameZh": "IEEE 多传感器自适应处理计算进展国际研讨会",
+      "nameEn": "IEEE International Workshop on Computational Advances in Multi-Sensor Adaptive Processing",
+      "aliases": [],
+      "areas": [
+        "signal"
+      ],
+      "topics": [
+        "arrays",
+        "estimation-sync"
+      ],
+      "topicReviewedAt": "2026-10-18",
+      "url": "https://signalprocessingsociety.org/events/conferences",
+      "summary": "重点覆盖阵列与多通道处理、检测、估计与同步。",
+      "publicationType": "独立专题研讨会系列",
+      "articleTypes": [
+        "会议论文"
+      ],
+      "submissionMode": "按具体届次征稿",
+      "sourceUrl": "https://signalprocessingsociety.org/events/conferences",
+      "verifiedAt": "2026-10-18",
+      "verification": "verified",
+      "assessments": []
+    },
+    {
+      "id": "ssp",
+      "kind": "conference",
+      "short": "SSP",
+      "nameZh": "IEEE 统计信号处理研讨会",
+      "nameEn": "IEEE Workshop on Statistical Signal Processing",
+      "aliases": [],
+      "areas": [
+        "signal"
+      ],
+      "topics": [
+        "estimation-sync",
+        "arrays"
+      ],
+      "topicReviewedAt": "2026-10-18",
+      "url": "https://signalprocessingsociety.org/events/conferences",
+      "summary": "重点覆盖检测、估计与同步、阵列与多通道处理。",
+      "publicationType": "独立专题研讨会系列",
+      "articleTypes": [
+        "会议论文"
+      ],
+      "submissionMode": "按具体届次征稿",
+      "sourceUrl": "https://signalprocessingsociety.org/events/conferences",
+      "verifiedAt": "2026-10-18",
+      "verification": "verified",
+      "assessments": []
+    },
+    {
+      "id": "mlsp",
+      "kind": "conference",
+      "short": "MLSP",
+      "nameZh": "IEEE 机器学习信号处理研讨会",
+      "nameEn": "IEEE Workshop on Machine Learning for Signal Processing",
+      "aliases": [],
+      "areas": [
+        "ai",
+        "signal"
+      ],
+      "topics": [
+        "ai-communications",
+        "estimation-sync",
+        "imaging"
+      ],
+      "topicReviewedAt": "2026-10-18",
+      "url": "https://signalprocessingsociety.org/events/conferences",
+      "summary": "重点覆盖通信中的机器学习、检测、估计与同步、图像、视频与计算成像。",
+      "publicationType": "独立专题研讨会系列",
+      "articleTypes": [
+        "会议论文"
+      ],
+      "submissionMode": "按具体届次征稿",
+      "sourceUrl": "https://signalprocessingsociety.org/events/conferences",
+      "verifiedAt": "2026-10-18",
+      "verification": "verified",
+      "assessments": []
+    },
+    {
+      "id": "wifs",
+      "kind": "conference",
+      "short": "WIFS",
+      "nameZh": "IEEE 信息取证与安全国际研讨会",
+      "nameEn": "IEEE International Workshop on Information Forensics and Security",
+      "aliases": [],
+      "areas": [
+        "signal",
+        "network"
+      ],
+      "topics": [
+        "security",
+        "imaging"
+      ],
+      "topicReviewedAt": "2026-10-18",
+      "url": "https://signalprocessingsociety.org/events/conferences",
+      "summary": "重点覆盖通信与网络安全、图像、视频与计算成像。",
+      "publicationType": "独立专题研讨会系列",
+      "articleTypes": [
+        "会议论文"
+      ],
+      "submissionMode": "按具体届次征稿",
+      "sourceUrl": "https://signalprocessingsociety.org/events/conferences",
+      "verifiedAt": "2026-10-18",
+      "verification": "verified",
+      "assessments": []
+    },
+    {
+      "id": "sips",
+      "kind": "conference",
+      "short": "SiPS",
+      "nameZh": "IEEE 信号处理系统研讨会",
+      "nameEn": "IEEE Workshop on Signal Processing Systems",
+      "aliases": [],
+      "areas": [
+        "signal",
+        "rf"
+      ],
+      "topics": [
+        "microwave",
+        "estimation-sync",
+        "imaging"
+      ],
+      "topicReviewedAt": "2026-10-18",
+      "url": "https://signalprocessingsociety.org/events/conferences",
+      "summary": "重点覆盖射频、微波与电路、检测、估计与同步、图像、视频与计算成像。",
+      "publicationType": "独立专题研讨会系列",
+      "articleTypes": [
+        "会议论文"
+      ],
+      "submissionMode": "按具体届次征稿",
+      "sourceUrl": "https://signalprocessingsociety.org/events/conferences",
+      "verifiedAt": "2026-10-18",
+      "verification": "verified",
+      "assessments": []
+    },
+    {
+      "id": "eusipco",
+      "kind": "conference",
+      "short": "EUSIPCO",
+      "nameZh": "欧洲信号处理会议",
+      "nameEn": "European Signal Processing Conference",
+      "aliases": [],
+      "areas": [
+        "signal",
+        "wireless",
+        "space",
+        "rf",
+        "ai"
+      ],
+      "topics": [
+        "estimation-sync",
+        "arrays",
+        "speech",
+        "imaging"
+      ],
+      "topicReviewedAt": "2026-10-18",
+      "url": "https://eurasip.org/eusipco-conferences/",
+      "summary": "重点覆盖检测、估计与同步、阵列与多通道处理、语音、音频与声学。",
+      "publicationType": "学术会议系列",
+      "articleTypes": [
+        "会议论文"
+      ],
+      "submissionMode": "按具体届次征稿",
+      "sourceUrl": "https://eurasip.org/",
+      "verifiedAt": "2026-10-18",
+      "verification": "verified",
+      "assessments": []
+    },
+    {
+      "id": "sigcomm",
+      "kind": "conference",
+      "short": "SIGCOMM",
+      "nameZh": "ACM 数据通信大会",
+      "nameEn": "ACM SIGCOMM Conference",
+      "aliases": [],
+      "areas": [
+        "network"
+      ],
+      "topics": [
+        "protocols",
+        "measurement",
+        "network-management"
+      ],
+      "topicReviewedAt": "2026-10-18",
+      "url": "https://www.sigcomm.org/events/sigcomm-conference",
+      "summary": "重点覆盖网络协议与体系结构、网络测量与性能分析、网络管理与虚拟化。",
+      "publicationType": "学术会议系列",
+      "articleTypes": [
+        "会议论文"
+      ],
+      "submissionMode": "按具体届次征稿",
+      "sourceUrl": "https://www.sigcomm.org/events/sigcomm-conference",
+      "verifiedAt": "2026-10-18",
+      "verification": "verified",
+      "assessments": []
+    },
+    {
+      "id": "conext",
+      "kind": "conference",
+      "short": "CoNEXT",
+      "nameZh": "ACM 新兴网络实验与技术国际会议",
+      "nameEn": "ACM International Conference on emerging Networking EXperiments and Technologies",
+      "aliases": [],
+      "areas": [
+        "network",
+        "iot",
+        "ai"
+      ],
+      "topics": [
+        "protocols",
+        "measurement",
+        "edge-cloud"
+      ],
+      "topicReviewedAt": "2026-10-18",
+      "url": "https://www.sigcomm.org/events/conext-conference",
+      "summary": "重点覆盖网络协议与体系结构、网络测量与性能分析、边缘计算与云网络。",
+      "publicationType": "学术会议系列",
+      "articleTypes": [
+        "会议论文"
+      ],
+      "submissionMode": "按具体届次征稿",
+      "sourceUrl": "https://www.sigcomm.org/events/conext-conference",
+      "verifiedAt": "2026-10-18",
+      "verification": "verified",
+      "assessments": []
+    },
+    {
+      "id": "imc",
+      "kind": "conference",
+      "short": "IMC",
+      "nameZh": "ACM 互联网测量会议",
+      "nameEn": "ACM Internet Measurement Conference",
+      "aliases": [],
+      "areas": [
+        "network",
+        "wireless",
+        "theory"
+      ],
+      "topics": [
+        "measurement",
+        "security",
+        "protocols"
+      ],
+      "topicReviewedAt": "2026-10-18",
+      "url": "https://www.sigcomm.org/events/imc-conference",
+      "summary": "重点覆盖网络测量与性能分析、通信与网络安全、网络协议与体系结构。",
+      "publicationType": "学术会议系列",
+      "articleTypes": [
+        "会议论文"
+      ],
+      "submissionMode": "按具体届次征稿",
+      "sourceUrl": "https://www.sigcomm.org/events/imc-conference",
+      "verifiedAt": "2026-10-18",
+      "verification": "verified",
+      "assessments": []
+    },
+    {
+      "id": "mobicom",
+      "kind": "conference",
+      "short": "MobiCom",
+      "nameZh": "ACM 移动计算与网络国际会议",
+      "nameEn": "ACM International Conference on Mobile Computing and Networking",
+      "aliases": [],
+      "areas": [
+        "network",
+        "wireless",
+        "iot",
+        "theory",
+        "signal"
+      ],
+      "topics": [
+        "mobile-systems",
+        "physical",
+        "iot-sensing"
+      ],
+      "topicReviewedAt": "2026-10-18",
+      "url": "https://www.sigmobile.org/mobicom/2026/",
+      "summary": "重点覆盖移动计算与无线系统、调制、波形与物理层、传感器与物联网。",
+      "publicationType": "学术会议系列",
+      "articleTypes": [
+        "会议论文"
+      ],
+      "submissionMode": "按具体届次征稿",
+      "sourceUrl": "https://www.sigmobile.org/mobicom/2026/",
+      "verifiedAt": "2026-10-18",
+      "verification": "verified",
+      "assessments": []
+    },
+    {
+      "id": "mobisys",
+      "kind": "conference",
+      "short": "MobiSys",
+      "nameZh": "ACM 移动系统、应用与服务国际会议",
+      "nameEn": "ACM International Conference on Mobile Systems, Applications, and Services",
+      "aliases": [],
+      "areas": [
+        "network",
+        "wireless",
+        "iot",
+        "ai",
+        "signal"
+      ],
+      "topics": [
+        "mobile-systems",
+        "edge-cloud",
+        "iot-sensing"
+      ],
+      "topicReviewedAt": "2026-10-18",
+      "url": "https://www.sigmobile.org/mobisys/2026/",
+      "summary": "重点覆盖移动计算与无线系统、边缘计算与云网络、传感器与物联网。",
+      "publicationType": "学术会议系列",
+      "articleTypes": [
+        "会议论文"
+      ],
+      "submissionMode": "按具体届次征稿",
+      "sourceUrl": "https://www.sigmobile.org/mobisys/2026/",
+      "verifiedAt": "2026-10-18",
+      "verification": "verified",
+      "assessments": []
+    },
+    {
+      "id": "mobihoc",
+      "kind": "conference",
+      "short": "MobiHoc",
+      "nameZh": "ACM 移动网络与移动计算理论、算法基础及协议设计国际研讨会",
+      "nameEn": "ACM International Symposium on Theory, Algorithmic Foundations, and Protocol Design for Mobile Networks and Mobile Computing",
+      "aliases": [
+        "ACM International Symposium on Mobile Ad Hoc Networking and Computing"
+      ],
+      "areas": [
+        "network",
+        "wireless",
+        "iot"
+      ],
+      "topics": [
+        "protocols",
+        "mobile-systems",
+        "resources"
+      ],
+      "topicReviewedAt": "2026-10-18",
+      "url": "https://www.sigmobile.org/mobihoc/2026/",
+      "summary": "重点覆盖网络协议与体系结构、移动计算与无线系统、频谱与无线资源管理。",
+      "publicationType": "学术会议系列",
+      "articleTypes": [
+        "会议论文"
+      ],
+      "submissionMode": "按具体届次征稿",
+      "sourceUrl": "https://www.sigmobile.org/mobihoc/2026/",
+      "verifiedAt": "2026-10-18",
+      "verification": "verified",
+      "assessments": []
+    },
+    {
+      "id": "nsdi",
+      "kind": "conference",
+      "short": "NSDI",
+      "nameZh": "USENIX 网络系统设计与实现研讨会",
+      "nameEn": "USENIX Symposium on Networked Systems Design and Implementation",
+      "aliases": [],
+      "areas": [
+        "network",
+        "iot",
+        "ai"
+      ],
+      "topics": [
+        "protocols",
+        "edge-cloud",
+        "network-management"
+      ],
+      "topicReviewedAt": "2026-10-18",
+      "url": "https://www.usenix.org/conference/nsdi27",
+      "summary": "重点覆盖网络协议与体系结构、边缘计算与云网络、网络管理与虚拟化。",
+      "publicationType": "学术会议系列",
+      "articleTypes": [
+        "会议论文"
+      ],
+      "submissionMode": "按具体届次征稿",
+      "sourceUrl": "https://www.usenix.org/conference/nsdi27",
+      "verifiedAt": "2026-10-18",
+      "verification": "verified",
+      "assessments": []
+    },
+    {
+      "id": "sensys",
+      "kind": "conference",
+      "short": "SenSys",
+      "nameZh": "ACM/IEEE 嵌入式人工智能与感知系统国际会议",
+      "nameEn": "ACM/IEEE International Conference on Embedded Artificial Intelligence and Sensing Systems",
+      "aliases": [
+        "IPSN",
+        "IoTDI",
+        "ACM Conference on Embedded Networked Sensor Systems"
+      ],
+      "areas": [
+        "iot",
+        "network",
+        "signal",
+        "wireless",
+        "ai"
+      ],
+      "topics": [
+        "iot-sensing",
+        "mobile-systems",
+        "distributed-learning"
+      ],
+      "topicReviewedAt": "2026-10-18",
+      "url": "https://sensys.acm.org/",
+      "summary": "已整合原 SenSys、IPSN 与 IoTDI 社群；2026 年采用统一会议名称。原系列名可检索，不分别重复计数。",
+      "publicationType": "学术会议系列",
+      "articleTypes": [
+        "会议论文"
+      ],
+      "submissionMode": "按具体届次征稿",
+      "sourceUrl": "https://sensys.acm.org/",
+      "verifiedAt": "2026-10-18",
+      "verification": "verified",
+      "assessments": []
+    },
+    {
+      "id": "ecoc",
+      "kind": "conference",
+      "short": "ECOC",
+      "nameZh": "欧洲光通信会议",
+      "nameEn": "European Conference on Optical Communication",
+      "aliases": [],
+      "areas": [
+        "optical",
+        "signal",
+        "network"
+      ],
+      "topics": [
+        "fiber",
+        "optical-networks",
+        "photonics"
+      ],
+      "topicReviewedAt": "2026-10-18",
+      "url": "https://www.ecoc2026.org/",
+      "summary": "重点覆盖光纤通信与相干处理、光网络与光互连、光子器件与集成光学。",
+      "publicationType": "学术会议系列",
+      "articleTypes": [
+        "会议论文"
+      ],
+      "submissionMode": "按具体届次征稿",
+      "sourceUrl": "https://www.ecoc2026.org/",
+      "verifiedAt": "2026-10-18",
+      "verification": "verified",
+      "assessments": []
+    },
+    {
+      "id": "cleo",
+      "kind": "conference",
+      "short": "CLEO",
+      "nameZh": "激光与光电子会议",
+      "nameEn": "Conference on Lasers and Electro-Optics",
+      "aliases": [],
+      "areas": [
+        "optical",
+        "signal",
+        "theory"
+      ],
+      "topics": [
+        "photonics",
+        "fiber",
+        "quantum"
+      ],
+      "topicReviewedAt": "2026-10-18",
+      "url": "https://www.cleoconference.org/",
+      "summary": "重点覆盖光子器件与集成光学、光纤通信与相干处理、量子通信与量子信息。",
+      "publicationType": "学术会议系列",
+      "articleTypes": [
+        "会议论文"
+      ],
+      "submissionMode": "按具体届次征稿",
+      "sourceUrl": "https://www.cleoconference.org/",
+      "verifiedAt": "2026-10-18",
+      "verification": "verified",
+      "assessments": []
+    },
+    {
+      "id": "aps-ursi",
+      "kind": "conference",
+      "short": "AP-S/URSI",
+      "nameZh": "IEEE 天线与传播国际研讨会及联合无线电科学会议",
+      "nameEn": "IEEE International Symposium on Antennas and Propagation and Joint Radio Science Meeting",
+      "aliases": [],
+      "areas": [
+        "rf",
+        "wireless",
+        "signal"
+      ],
+      "topics": [
+        "antennas",
+        "propagation",
+        "arrays"
+      ],
+      "topicReviewedAt": "2026-10-18",
+      "url": "https://2027.apsursi.org/",
+      "summary": "年度 AP-S 国际研讨会与联合 URSI 会议；联合会议名称随届次变化，不能与独立地区会议混同。",
+      "publicationType": "学术会议系列",
+      "articleTypes": [
+        "会议论文"
+      ],
+      "submissionMode": "按具体届次征稿",
+      "sourceUrl": "https://ieeeaps.org/conferences/upcoming-conferences",
+      "verifiedAt": "2026-10-18",
+      "verification": "verified",
+      "assessments": []
+    },
+    {
+      "id": "eucap",
+      "kind": "conference",
+      "short": "EuCAP",
+      "nameZh": "欧洲天线与传播会议",
+      "nameEn": "European Conference on Antennas and Propagation",
+      "aliases": [],
+      "areas": [
+        "rf",
+        "wireless",
+        "signal"
+      ],
+      "topics": [
+        "antennas",
+        "propagation",
+        "arrays"
+      ],
+      "topicReviewedAt": "2026-10-18",
+      "url": "https://www.eucap.org/",
+      "summary": "重点覆盖天线、超表面与电磁计算、信道建模与传播、阵列与多通道处理。",
+      "publicationType": "学术会议系列",
+      "articleTypes": [
+        "会议论文"
+      ],
+      "submissionMode": "按具体届次征稿",
+      "sourceUrl": "https://ieeeaps.org/conferences/upcoming-conferences",
+      "verifiedAt": "2026-10-18",
+      "verification": "verified",
+      "assessments": []
+    },
+    {
+      "id": "ims",
+      "kind": "conference",
+      "short": "IMS",
+      "nameZh": "IEEE 国际微波研讨会",
+      "nameEn": "IEEE International Microwave Symposium",
+      "aliases": [],
+      "areas": [
+        "rf",
+        "wireless",
+        "optical"
+      ],
+      "topics": [
+        "microwave",
+        "thz",
+        "antennas"
+      ],
+      "topicReviewedAt": "2026-10-18",
+      "url": "https://ims-ieee.org/",
+      "summary": "微波技术年度学术交流系列；与同周举办的其他会议分别核对征稿和稿件类型。",
+      "publicationType": "学术会议系列",
+      "articleTypes": [
+        "会议论文"
+      ],
+      "submissionMode": "按具体届次征稿",
+      "sourceUrl": "https://mtt.org/publications/",
+      "verifiedAt": "2026-10-18",
+      "verification": "verified",
+      "assessments": []
+    },
+    {
+      "id": "apmc",
+      "kind": "conference",
+      "short": "APMC",
+      "nameZh": "亚太微波会议",
+      "nameEn": "Asia-Pacific Microwave Conference",
+      "aliases": [],
+      "areas": [
+        "rf",
+        "wireless",
+        "optical"
+      ],
+      "topics": [
+        "microwave",
+        "antennas",
+        "thz"
+      ],
+      "topicReviewedAt": "2026-10-18",
+      "url": "https://www.apmc2026.org/",
+      "summary": "重点覆盖射频、微波与电路、天线、超表面与电磁计算、毫米波与太赫兹。",
+      "publicationType": "学术会议系列",
+      "articleTypes": [
+        "会议论文"
+      ],
+      "submissionMode": "按具体届次征稿",
+      "sourceUrl": "https://www.apmc2026.org/",
+      "verifiedAt": "2026-10-18",
+      "verification": "verified",
+      "assessments": []
+    },
+    {
+      "id": "irmmw-thz",
+      "kind": "conference",
+      "short": "IRMMW-THz",
+      "nameZh": "国际红外、毫米波与太赫兹波会议",
+      "nameEn": "International Conference on Infrared, Millimeter, and Terahertz Waves",
+      "aliases": [],
+      "areas": [
+        "rf",
+        "wireless",
+        "optical"
+      ],
+      "topics": [
+        "thz",
+        "microwave",
+        "photonics"
+      ],
+      "topicReviewedAt": "2026-10-18",
+      "url": "https://www.irmmw-thz.org/",
+      "summary": "重点覆盖毫米波与太赫兹、射频、微波与电路、光子器件与集成光学。",
+      "publicationType": "学术会议系列",
+      "articleTypes": [
+        "会议论文"
+      ],
+      "submissionMode": "按具体届次征稿",
+      "sourceUrl": "https://www.irmmw-thz.org/",
+      "verifiedAt": "2026-10-18",
+      "verification": "verified",
+      "assessments": []
+    },
+    {
+      "id": "radarconf",
+      "kind": "conference",
+      "short": "RadarConf",
+      "nameZh": "IEEE 雷达会议",
+      "nameEn": "IEEE Radar Conference",
+      "aliases": [],
+      "areas": [
+        "signal",
+        "rf",
+        "space",
+        "wireless"
+      ],
+      "topics": [
+        "radar",
+        "arrays",
+        "isac"
+      ],
+      "topicReviewedAt": "2026-10-18",
+      "url": "https://ieee-aess.org/conferences",
+      "summary": "AESS 雷达会议入口；具体 IEEE Radar Conference 与 International Radar Conference 的名称和届次需分别核对。",
+      "publicationType": "学术会议系列",
+      "articleTypes": [
+        "会议论文"
+      ],
+      "submissionMode": "按具体届次征稿",
+      "sourceUrl": "https://ieee-aess.org/conferences",
+      "verifiedAt": "2026-10-18",
+      "verification": "verified",
+      "assessments": []
+    },
+    {
+      "id": "ion-gnss",
+      "kind": "conference",
+      "short": "ION GNSS+",
+      "nameZh": "导航学会全球导航卫星系统大会",
+      "nameEn": "ION GNSS+",
+      "aliases": [],
+      "areas": [
+        "space",
+        "signal",
+        "wireless"
+      ],
+      "topics": [
+        "navigation-pnt",
+        "estimation-sync"
+      ],
+      "topicReviewedAt": "2026-10-18",
+      "url": "https://www.ion.org/gnss/index.cfm",
+      "summary": "重点覆盖定位、导航与授时、检测、估计与同步。",
+      "publicationType": "学术会议系列",
+      "articleTypes": [
+        "会议论文"
+      ],
+      "submissionMode": "按具体届次征稿",
+      "sourceUrl": "https://www.ion.org/meetings/",
+      "verifiedAt": "2026-10-18",
+      "verification": "verified",
+      "assessments": []
+    },
+    {
+      "id": "plans",
+      "kind": "conference",
+      "short": "IEEE/ION PLANS",
+      "nameZh": "IEEE/ION 定位与导航研讨会",
+      "nameEn": "IEEE/ION Position, Location and Navigation Symposium",
+      "aliases": [],
+      "areas": [
+        "space",
+        "signal",
+        "wireless"
+      ],
+      "topics": [
+        "navigation-pnt",
+        "estimation-sync"
+      ],
+      "topicReviewedAt": "2026-10-18",
+      "url": "https://www.ion.org/plans/index.cfm",
+      "summary": "重点覆盖定位、导航与授时、检测、估计与同步。",
+      "publicationType": "学术会议系列",
+      "articleTypes": [
+        "会议论文"
+      ],
+      "submissionMode": "按具体届次征稿",
+      "sourceUrl": "https://www.ion.org/meetings/",
+      "verifiedAt": "2026-10-18",
+      "verification": "verified",
+      "assessments": []
+    },
+    {
+      "id": "ptti",
+      "kind": "conference",
+      "short": "PTTI",
+      "nameZh": "精密时间与时间间隔系统及应用会议",
+      "nameEn": "Precise Time and Time Interval Systems and Applications Meeting",
+      "aliases": [],
+      "areas": [
+        "space",
+        "signal",
+        "wireless"
+      ],
+      "topics": [
+        "navigation-pnt",
+        "estimation-sync"
+      ],
+      "topicReviewedAt": "2026-10-18",
+      "url": "https://www.ion.org/meetings/",
+      "summary": "精密时间、频率和授时系统交流；稿件与参会形式以当届要求为准。",
+      "publicationType": "学术会议系列",
+      "articleTypes": [
+        "会议论文"
+      ],
+      "submissionMode": "按具体届次征稿",
+      "sourceUrl": "https://www.ion.org/meetings/",
+      "verifiedAt": "2026-10-18",
+      "verification": "verified",
+      "assessments": []
+    },
+    {
+      "id": "aeroconf",
+      "kind": "conference",
+      "short": "IEEE Aerospace",
+      "nameZh": "IEEE 航空航天会议",
+      "nameEn": "IEEE Aerospace Conference",
+      "aliases": [],
+      "areas": [
+        "space",
+        "rf",
+        "wireless",
+        "network",
+        "signal"
+      ],
+      "topics": [
+        "aerospace",
+        "satellite-ntn",
+        "navigation-pnt"
+      ],
+      "topicReviewedAt": "2026-10-18",
+      "url": "https://www.aeroconf.org/",
+      "summary": "重点覆盖航空航天电子与系统、卫星通信与非地面网络、定位、导航与授时。",
+      "publicationType": "学术会议系列",
+      "articleTypes": [
+        "会议论文"
+      ],
+      "submissionMode": "按具体届次征稿",
+      "sourceUrl": "https://www.aeroconf.org/",
+      "verifiedAt": "2026-10-18",
+      "verification": "verified",
+      "assessments": []
     }
   ],
   "calls": [
@@ -1630,6 +4174,11 @@
           "date": "2026-10-17",
           "note": "官方标注 Deadline Extended（已延期），当前日期为 2026-10-30。"
         }
+      ],
+      "topics": [
+        "antennas",
+        "mimo",
+        "isac"
       ]
     },
     {
@@ -1675,7 +4224,11 @@
       "location": null,
       "eventDates": null,
       "publication": "2028 年第二 / 第三季度",
-      "history": []
+      "history": [],
+      "topics": [
+        "physical",
+        "estimation-sync"
+      ]
     },
     {
       "id": "wcm-underwater-optical-2026",
@@ -1719,7 +4272,10 @@
       "location": null,
       "eventDates": null,
       "publication": "2027 年 8 月",
-      "history": []
+      "history": [],
+      "topics": [
+        "optical-wireless"
+      ]
     },
     {
       "id": "wcm-orbit-2026",
@@ -1764,7 +4320,10 @@
       "location": null,
       "eventDates": null,
       "publication": "2027 年 8 月",
-      "history": []
+      "history": [],
+      "topics": [
+        "satellite-ntn"
+      ]
     },
     {
       "id": "wcm-metasurface-2027",
@@ -1810,7 +4369,11 @@
       "location": null,
       "eventDates": null,
       "publication": "2027 年 10 月",
-      "history": []
+      "history": [],
+      "topics": [
+        "antennas",
+        "mimo"
+      ]
     },
     {
       "id": "wcm-quantum-radio-2027",
@@ -1856,7 +4419,10 @@
       "location": null,
       "eventDates": null,
       "publication": "2027 年 12 月",
-      "history": []
+      "history": [],
+      "topics": [
+        "quantum"
+      ]
     },
     {
       "id": "jsac-quantum-series",
@@ -1884,7 +4450,10 @@
       "location": null,
       "eventDates": null,
       "publication": null,
-      "history": []
+      "history": [],
+      "topics": [
+        "quantum"
+      ]
     },
     {
       "id": "vtc-2027-spring-main",
@@ -1949,7 +4518,16 @@
       "location": "德国 · 汉堡",
       "eventDates": "2027-06-20 / 2027-06-23",
       "publication": null,
-      "history": []
+      "history": [],
+      "topics": [
+        "physical",
+        "mobile-systems",
+        "vehicular",
+        "satellite-ntn",
+        "mimo",
+        "isac",
+        "resources"
+      ]
     },
     {
       "id": "vtc-2027-spring-workshops",
@@ -1990,7 +4568,16 @@
       "location": "德国 · 汉堡",
       "eventDates": "2027-06-20 / 2027-06-23",
       "publication": null,
-      "history": []
+      "history": [],
+      "topics": [
+        "physical",
+        "mobile-systems",
+        "vehicular",
+        "satellite-ntn",
+        "mimo",
+        "isac",
+        "resources"
+      ]
     },
     {
       "id": "icassp-2027-main",
@@ -2057,7 +4644,16 @@
       "location": "加拿大 · 多伦多",
       "eventDates": "2027-05-16 / 2027-05-21",
       "publication": null,
-      "history": []
+      "history": [],
+      "topics": [
+        "estimation-sync",
+        "arrays",
+        "speech",
+        "imaging",
+        "ai-communications",
+        "isac",
+        "physical"
+      ]
     },
     {
       "id": "isit-2027-main",
@@ -2086,7 +4682,13 @@
       "location": "意大利 · 索伦托",
       "eventDates": "2027-06-27 / 2027-07-02",
       "publication": null,
-      "history": []
+      "history": [],
+      "topics": [
+        "information-theory",
+        "channel-coding",
+        "source-coding",
+        "quantum"
+      ]
     },
     {
       "id": "icc-latest",
@@ -2112,7 +4714,19 @@
       "location": null,
       "eventDates": null,
       "publication": null,
-      "history": []
+      "history": [],
+      "topics": [
+        "physical",
+        "mimo",
+        "access",
+        "resources",
+        "protocols",
+        "ai-communications",
+        "isac",
+        "channel-coding",
+        "satellite-ntn",
+        "security"
+      ]
     },
     {
       "id": "globecom-latest",
@@ -2138,7 +4752,19 @@
       "location": null,
       "eventDates": null,
       "publication": null,
-      "history": []
+      "history": [],
+      "topics": [
+        "physical",
+        "mimo",
+        "access",
+        "protocols",
+        "optical-networks",
+        "satellite-ntn",
+        "isac",
+        "channel-coding",
+        "ai-communications",
+        "security"
+      ]
     },
     {
       "id": "wcnc-latest",
@@ -2163,7 +4789,17 @@
       "location": null,
       "eventDates": null,
       "publication": null,
-      "history": []
+      "history": [],
+      "topics": [
+        "physical",
+        "mimo",
+        "access",
+        "resources",
+        "mobile-systems",
+        "isac",
+        "satellite-ntn",
+        "ai-communications"
+      ]
     },
     {
       "id": "pimrc-latest",
@@ -2188,7 +4824,16 @@
       "location": null,
       "eventDates": null,
       "publication": null,
-      "history": []
+      "history": [],
+      "topics": [
+        "physical",
+        "mimo",
+        "propagation",
+        "resources",
+        "mobile-systems",
+        "isac",
+        "satellite-ntn"
+      ]
     },
     {
       "id": "itw-latest",
@@ -2212,7 +4857,12 @@
       "location": null,
       "eventDates": null,
       "publication": null,
-      "history": []
+      "history": [],
+      "topics": [
+        "information-theory",
+        "channel-coding",
+        "source-coding"
+      ]
     },
     {
       "id": "spawc-latest",
@@ -2237,7 +4887,13 @@
       "location": null,
       "eventDates": null,
       "publication": null,
-      "history": []
+      "history": [],
+      "topics": [
+        "estimation-sync",
+        "mimo",
+        "physical",
+        "isac"
+      ]
     },
     {
       "id": "icip-latest",
@@ -2262,7 +4918,11 @@
       "location": null,
       "eventDates": null,
       "publication": null,
-      "history": []
+      "history": [],
+      "topics": [
+        "imaging",
+        "source-coding"
+      ]
     },
     {
       "id": "infocom-latest",
@@ -2287,7 +4947,13 @@
       "location": null,
       "eventDates": null,
       "publication": null,
-      "history": []
+      "history": [],
+      "topics": [
+        "protocols",
+        "measurement",
+        "security",
+        "edge-cloud"
+      ]
     },
     {
       "id": "ofc-latest",
@@ -2312,7 +4978,12 @@
       "location": null,
       "eventDates": null,
       "publication": null,
-      "history": []
+      "history": [],
+      "topics": [
+        "fiber",
+        "optical-networks",
+        "photonics"
+      ]
     },
     {
       "id": "iccc-latest",
@@ -2338,7 +5009,16 @@
       "location": null,
       "eventDates": null,
       "publication": null,
-      "history": []
+      "history": [],
+      "topics": [
+        "physical",
+        "mimo",
+        "protocols",
+        "ai-communications",
+        "isac",
+        "satellite-ntn",
+        "channel-coding"
+      ]
     },
     {
       "id": "noms-latest",
@@ -2363,7 +5043,12 @@
       "location": null,
       "eventDates": null,
       "publication": null,
-      "history": []
+      "history": [],
+      "topics": [
+        "network-management",
+        "measurement",
+        "protocols"
+      ]
     },
     {
       "id": "cns-latest",
@@ -2388,7 +5073,11 @@
       "location": null,
       "eventDates": null,
       "publication": null,
-      "history": []
+      "history": [],
+      "topics": [
+        "security",
+        "protocols"
+      ]
     },
     {
       "id": "dyspan-latest",
@@ -2413,7 +5102,11 @@
       "location": null,
       "eventDates": null,
       "publication": null,
-      "history": []
+      "history": [],
+      "topics": [
+        "resources",
+        "physical"
+      ]
     },
     {
       "id": "milcom-latest",
@@ -2439,7 +5132,12 @@
       "location": null,
       "eventDates": null,
       "publication": null,
-      "history": []
+      "history": [],
+      "topics": [
+        "physical",
+        "security",
+        "satellite-ntn"
+      ]
     },
     {
       "id": "icmlcn-latest",
@@ -2465,7 +5163,11 @@
       "location": null,
       "eventDates": null,
       "publication": null,
-      "history": []
+      "history": [],
+      "topics": [
+        "ai-communications",
+        "distributed-learning"
+      ]
     },
     {
       "id": "jcns-latest",
@@ -2491,7 +5193,12 @@
       "location": null,
       "eventDates": null,
       "publication": null,
-      "history": []
+      "history": [],
+      "topics": [
+        "isac",
+        "radar",
+        "mimo"
+      ]
     },
     {
       "id": "ccnc-latest",
@@ -2517,7 +5224,12 @@
       "location": null,
       "eventDates": null,
       "publication": null,
-      "history": []
+      "history": [],
+      "topics": [
+        "mobile-systems",
+        "iot-sensing",
+        "edge-cloud"
+      ]
     },
     {
       "id": "secon-latest",
@@ -2543,7 +5255,12 @@
       "location": null,
       "eventDates": null,
       "publication": null,
-      "history": []
+      "history": [],
+      "topics": [
+        "iot-sensing",
+        "mobile-systems",
+        "protocols"
+      ]
     },
     {
       "id": "icme-latest",
@@ -2569,7 +5286,11 @@
       "location": null,
       "eventDates": null,
       "publication": null,
-      "history": []
+      "history": [],
+      "topics": [
+        "imaging",
+        "source-coding"
+      ]
     },
     {
       "id": "cloudnet-latest",
@@ -2594,7 +5315,11 @@
       "location": null,
       "eventDates": null,
       "publication": null,
-      "history": []
+      "history": [],
+      "topics": [
+        "edge-cloud",
+        "network-management"
+      ]
     },
     {
       "id": "iwqos-latest",
@@ -2618,7 +5343,12 @@
       "location": null,
       "eventDates": null,
       "publication": null,
-      "history": []
+      "history": [],
+      "topics": [
+        "measurement",
+        "protocols",
+        "edge-cloud"
+      ]
     }
   ],
   "sources": [
@@ -2666,6 +5396,474 @@
       "title": "ISIT 官方学会目录",
       "url": "https://www.itsoc.org/conferences/isit",
       "verifiedAt": "2026-10-17"
+    },
+    {
+      "title": "IEEE 车载技术学会出版物",
+      "url": "https://vtsociety.org/publications",
+      "verifiedAt": "2026-10-18"
+    },
+    {
+      "title": "IEEE 天线与传播学会出版物",
+      "url": "https://ieeeaps.org/publications-overview/",
+      "verifiedAt": "2026-10-18"
+    },
+    {
+      "title": "IEEE 微波学会出版物",
+      "url": "https://mtt.org/publications/",
+      "verifiedAt": "2026-10-18"
+    },
+    {
+      "title": "IEEE 航空航天电子系统学会出版物",
+      "url": "https://ieee-aess.org/publications",
+      "verifiedAt": "2026-10-18"
+    },
+    {
+      "title": "IEEE 电路与系统学会出版物",
+      "url": "https://ieee-cas.org/publications",
+      "verifiedAt": "2026-10-18"
+    },
+    {
+      "title": "Optica 光学出版目录",
+      "url": "https://opg.optica.org/",
+      "verifiedAt": "2026-10-18"
+    },
+    {
+      "title": "ACM SIGMOBILE 会议日历",
+      "url": "https://www.sigmobile.org/grav/events/calendar",
+      "verifiedAt": "2026-10-18"
+    },
+    {
+      "title": "ACM SIGCOMM 会议入口",
+      "url": "https://www.sigcomm.org/events",
+      "verifiedAt": "2026-10-18"
+    },
+    {
+      "title": "导航学会会议目录",
+      "url": "https://www.ion.org/meetings/",
+      "verifiedAt": "2026-10-18"
+    },
+    {
+      "title": "SenSys 合并说明",
+      "url": "https://sensys.acm.org/",
+      "verifiedAt": "2026-10-18"
+    }
+  ],
+  "topics": [
+    {
+      "id": "physical",
+      "label": "调制、波形与物理层",
+      "areas": [
+        "wireless",
+        "theory"
+      ],
+      "aliases": [
+        "PHY OFDM 多载波"
+      ]
+    },
+    {
+      "id": "mimo",
+      "label": "多天线与波束成形",
+      "areas": [
+        "wireless",
+        "signal",
+        "rf"
+      ],
+      "aliases": [
+        "MIMO beamforming RIS 智能反射面"
+      ]
+    },
+    {
+      "id": "access",
+      "label": "多址接入与短包通信",
+      "areas": [
+        "wireless",
+        "theory",
+        "iot"
+      ],
+      "aliases": [
+        "random access NOMA URA 随机接入"
+      ]
+    },
+    {
+      "id": "resources",
+      "label": "频谱与无线资源管理",
+      "areas": [
+        "wireless",
+        "network"
+      ],
+      "aliases": [
+        "spectrum resource allocation 认知无线电"
+      ]
+    },
+    {
+      "id": "propagation",
+      "label": "信道建模与传播",
+      "areas": [
+        "wireless",
+        "rf"
+      ],
+      "aliases": [
+        "channel propagation"
+      ]
+    },
+    {
+      "id": "information-theory",
+      "label": "信息论与容量",
+      "areas": [
+        "theory"
+      ],
+      "aliases": [
+        "information theory capacity 有限码长"
+      ]
+    },
+    {
+      "id": "channel-coding",
+      "label": "信道编码与译码",
+      "areas": [
+        "theory",
+        "wireless"
+      ],
+      "aliases": [
+        "channel coding decoding LDPC Polar 极化码"
+      ]
+    },
+    {
+      "id": "source-coding",
+      "label": "信源编码与压缩",
+      "areas": [
+        "theory",
+        "signal"
+      ],
+      "aliases": [
+        "source coding compression"
+      ]
+    },
+    {
+      "id": "quantum",
+      "label": "量子通信与量子信息",
+      "areas": [
+        "theory",
+        "optical"
+      ],
+      "aliases": [
+        "quantum communication QKD 量子密钥分发"
+      ]
+    },
+    {
+      "id": "estimation-sync",
+      "label": "检测、估计与同步",
+      "areas": [
+        "signal",
+        "wireless",
+        "space"
+      ],
+      "aliases": [
+        "estimation synchronization detection 载波相位恢复"
+      ]
+    },
+    {
+      "id": "arrays",
+      "label": "阵列与多通道处理",
+      "areas": [
+        "signal",
+        "rf"
+      ],
+      "aliases": [
+        "array multichannel DOA 到达角"
+      ]
+    },
+    {
+      "id": "isac",
+      "label": "通感一体化",
+      "areas": [
+        "signal",
+        "wireless",
+        "space"
+      ],
+      "aliases": [
+        "ISAC integrated sensing and communication 联合通信感知"
+      ]
+    },
+    {
+      "id": "radar",
+      "label": "雷达、声呐与目标跟踪",
+      "areas": [
+        "signal",
+        "rf",
+        "space"
+      ],
+      "aliases": [
+        "radar sonar tracking"
+      ]
+    },
+    {
+      "id": "imaging",
+      "label": "图像、视频与计算成像",
+      "areas": [
+        "signal",
+        "ai"
+      ],
+      "aliases": [
+        "image video computational imaging"
+      ]
+    },
+    {
+      "id": "speech",
+      "label": "语音、音频与声学",
+      "areas": [
+        "signal",
+        "ai"
+      ],
+      "aliases": [
+        "speech audio acoustics"
+      ]
+    },
+    {
+      "id": "protocols",
+      "label": "网络协议与体系结构",
+      "areas": [
+        "network"
+      ],
+      "aliases": [
+        "protocol architecture routing 路由"
+      ]
+    },
+    {
+      "id": "mobile-systems",
+      "label": "移动计算与无线系统",
+      "areas": [
+        "network",
+        "wireless",
+        "iot"
+      ],
+      "aliases": [
+        "mobile computing wireless systems"
+      ]
+    },
+    {
+      "id": "measurement",
+      "label": "网络测量与性能分析",
+      "areas": [
+        "network"
+      ],
+      "aliases": [
+        "measurement performance QoS 服务质量"
+      ]
+    },
+    {
+      "id": "network-management",
+      "label": "网络管理与虚拟化",
+      "areas": [
+        "network"
+      ],
+      "aliases": [
+        "SDN NFV network management 网络功能虚拟化"
+      ]
+    },
+    {
+      "id": "security",
+      "label": "通信与网络安全",
+      "areas": [
+        "network",
+        "wireless",
+        "theory"
+      ],
+      "aliases": [
+        "security privacy secrecy 隐私 物理层安全"
+      ]
+    },
+    {
+      "id": "edge-cloud",
+      "label": "边缘计算与云网络",
+      "areas": [
+        "network",
+        "iot",
+        "ai"
+      ],
+      "aliases": [
+        "edge cloud MEC 移动边缘计算"
+      ]
+    },
+    {
+      "id": "fiber",
+      "label": "光纤通信与相干处理",
+      "areas": [
+        "optical",
+        "signal"
+      ],
+      "aliases": [
+        "fiber coherent optical DSP 相干光通信"
+      ]
+    },
+    {
+      "id": "optical-networks",
+      "label": "光网络与光互连",
+      "areas": [
+        "optical",
+        "network"
+      ],
+      "aliases": [
+        "optical networks interconnect"
+      ]
+    },
+    {
+      "id": "optical-wireless",
+      "label": "无线光与可见光通信",
+      "areas": [
+        "optical",
+        "wireless"
+      ],
+      "aliases": [
+        "FSO VLC LiFi 水下光通信"
+      ]
+    },
+    {
+      "id": "photonics",
+      "label": "光子器件与集成光学",
+      "areas": [
+        "optical"
+      ],
+      "aliases": [
+        "photonics laser integrated optics 激光"
+      ]
+    },
+    {
+      "id": "antennas",
+      "label": "天线、超表面与电磁计算",
+      "areas": [
+        "rf"
+      ],
+      "aliases": [
+        "antenna metasurface computational electromagnetics"
+      ]
+    },
+    {
+      "id": "microwave",
+      "label": "射频、微波与电路",
+      "areas": [
+        "rf",
+        "wireless"
+      ],
+      "aliases": [
+        "RF microwave circuits 集成电路"
+      ]
+    },
+    {
+      "id": "thz",
+      "label": "毫米波与太赫兹",
+      "areas": [
+        "rf",
+        "wireless",
+        "optical"
+      ],
+      "aliases": [
+        "THz terahertz mmWave"
+      ]
+    },
+    {
+      "id": "satellite-ntn",
+      "label": "卫星通信与非地面网络",
+      "areas": [
+        "space",
+        "wireless",
+        "network"
+      ],
+      "aliases": [
+        "satellite NTN LEO UAV 低轨 空天地 无人机"
+      ]
+    },
+    {
+      "id": "navigation-pnt",
+      "label": "定位、导航与授时",
+      "areas": [
+        "space",
+        "signal",
+        "wireless"
+      ],
+      "aliases": [
+        "PNT GNSS GPS positioning navigation timing"
+      ]
+    },
+    {
+      "id": "aerospace",
+      "label": "航空航天电子与系统",
+      "areas": [
+        "space",
+        "rf"
+      ],
+      "aliases": [
+        "aerospace avionics"
+      ]
+    },
+    {
+      "id": "iot-sensing",
+      "label": "传感器与物联网",
+      "areas": [
+        "iot",
+        "network",
+        "signal"
+      ],
+      "aliases": [
+        "IoT sensors sensing 传感网"
+      ]
+    },
+    {
+      "id": "vehicular",
+      "label": "车联网与移动载体",
+      "areas": [
+        "iot",
+        "wireless"
+      ],
+      "aliases": [
+        "V2X vehicular connected vehicles"
+      ]
+    },
+    {
+      "id": "industrial",
+      "label": "工业通信与控制网络",
+      "areas": [
+        "iot",
+        "network"
+      ],
+      "aliases": [
+        "IIoT industrial control networks"
+      ]
+    },
+    {
+      "id": "ai-communications",
+      "label": "机器学习与智能通信",
+      "areas": [
+        "ai",
+        "wireless",
+        "network"
+      ],
+      "aliases": [
+        "AI ML machine learning deep learning"
+      ]
+    },
+    {
+      "id": "distributed-learning",
+      "label": "分布式学习与协同推理",
+      "areas": [
+        "ai",
+        "network",
+        "iot"
+      ],
+      "aliases": [
+        "federated distributed learning FL 联邦学习"
+      ]
+    },
+    {
+      "id": "semantic-task",
+      "label": "语义与任务导向通信",
+      "areas": [
+        "ai",
+        "theory",
+        "wireless"
+      ],
+      "aliases": [
+        "semantic task oriented communication"
+      ]
     }
   ]
 }

@@ -23,3 +23,34 @@ test('expired calls are hidden by default and available in history',()=>{const v
 test('regular journals never become deadline activities automatically',()=>{assert(!data.calls.some(c=>c.venueId==='twc'));assert(data.venues.some(v=>v.id==='twc'&&v.kind==='journal'));});
 test('cancelled events retain their stable identity and publish cancellation',()=>{const call={...base,status:'cancelled'};const ics=C.createICS([call],[venue],{includeDateOnly:true});assert.match(ics,/UID:sample-call-paper@commddl/);assert.match(ics,/STATUS:CANCELLED/);});
 test('only fully specified instants produce a live countdown',()=>{assert.equal(C.countdown('2026-10-18T09:02:03Z',NOW),'1天 01:02:03');assert.equal(C.countdown('2026-10-18',NOW),null);assert.equal(C.countdown('2026-10-17T07:59:59Z',NOW),'已截止');});
+test('multiple subjects use OR, combined with the primary direction using AND',()=>{
+  const filters={venueKind:'journal',area:'wireless',topics:['mimo','channel-coding']};
+  const results=C.filterVenues(data.venues,filters);
+  assert(results.some(v=>v.id==='twc'));assert(results.some(v=>v.id==='tcom'));
+  assert(results.every(v=>v.areas.includes('wireless')&&v.topics.some(t=>filters.topics.includes(t))));
+  assert(!results.some(v=>v.id==='tap'));
+});
+test('specific special issues do not inherit unrelated parent-journal subjects or directions',()=>{
+  const call=data.calls.find(c=>c.id==='jsac-flexible-2026');
+  assert.equal(C.filterCalls([call],data.venues,{topics:['optical-networks']},NOW).length,0);
+  assert.equal(C.filterCalls([call],data.venues,{area:'optical'},NOW).length,0);
+  assert.equal(C.filterCalls([call],data.venues,{topics:['isac']},NOW).length,1);
+});
+test('topic URL selections reject unknown IDs, remove duplicates and respect direction changes',()=>{
+  assert.deepEqual(C.cleanTopics(['isac','isac','unknown','fiber'],data.topics),['isac','fiber']);
+  assert.deepEqual(C.cleanTopics(['isac','fiber'],data.topics,'optical'),['fiber']);
+});
+test('all venues and calls use known subjects, every subject has a directory entry',()=>{
+  const ids=new Set(data.topics.map(t=>t.id));
+  for(const item of [...data.venues,...data.calls])assert(item.topics.length&&item.topics.every(t=>ids.has(t)),item.id);
+  for(const t of data.topics)assert(data.venues.some(v=>v.topics.includes(t.id)),t.id);
+});
+test('Chinese subjects and historical names are searchable across directories',()=>{
+  assert(C.filterVenues(data.venues,{query:'相干光通信',taxonomy:data.topics}).some(v=>v.id==='jlt'));
+  assert.deepEqual(C.filterVenues(data.venues,{query:'MWCL'}).map(v=>v.id),['mwtl']);
+  assert.deepEqual(C.filterVenues(data.venues,{query:'IPSN'}).map(v=>v.id),['sensys']);
+});
+test('favorites remain filterable by subjects after directory expansion',()=>{
+  assert.deepEqual(C.filterVenues(data.venues,{favoriteOnly:true,favorites:['venue:twc','venue:jlt'],topics:['fiber']}).map(v=>v.id),['jlt']);
+  assert(C.cleanFavorites({version:1,items:['venue:twc','venue:tap','venue:sensys']},data).length===3);
+});

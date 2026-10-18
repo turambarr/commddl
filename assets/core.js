@@ -72,6 +72,27 @@
     const text = normal(fields.flat(Infinity).join(' '));
     return words.every(word => text.includes(normal(word)));
   }
+  function cleanTopics(ids, topics, area = '') {
+    const allowed = new Set((topics || []).filter(t => !area || t.areas.includes(area)).map(t => t.id));
+    return [...new Set((Array.isArray(ids) ? ids : []).filter(id => allowed.has(id)))];
+  }
+  function topicMatches(ids, selected) {
+    return !selected?.length || selected.some(id => (ids || []).includes(id));
+  }
+  function topicSearch(ids, taxonomy = []) {
+    return taxonomy.filter(t => (ids || []).includes(t.id)).flatMap(t => [t.label, t.aliases]);
+  }
+  function filterVenues(venues, filters = {}) {
+    const favorites = new Set(filters.favorites || []);
+    return venues.filter(v =>
+      (!filters.venueKind || v.kind === filters.venueKind) &&
+      (!filters.area || v.areas.includes(filters.area)) && topicMatches(v.topics, filters.topics) &&
+      (!filters.historical || (v.assessments || []).some(a => a.system === 'bupt-ict-2018')) &&
+      (!filters.favoriteOnly || favorites.has('venue:' + v.id)) &&
+      (!filters.journalType || filters.journalType === 'all' || v.publicationType === filters.journalType) &&
+      searchMatches(filters.query, v.short, v.nameEn, v.nameZh, v.aliases, v.summary, topicSearch(v.topics, filters.taxonomy))
+    ).sort((a,b) => a.short.localeCompare(b.short));
+  }
   function filterCalls(calls, venues, filters, now = Date.now()) {
     const byId = new Map(venues.map(v => [v.id, v]));
     const favorites = new Set(filters.favorites || []);
@@ -81,11 +102,13 @@
       const st = stateOf(call, now, filters.zone);
       if (!filters.showPast && ['closed', 'past-date', 'cancelled'].includes(st.code)) return false;
       if (filters.kind && filters.kind !== 'all' && call.kind !== filters.kind) return false;
-      if (filters.area && ![...(v.areas || []), ...(call.areas || [])].includes(filters.area)) return false;
+      if (filters.area && !(call.areas || v.areas || []).includes(filters.area)) return false;
+      const topics = call.topics || v.topics || [];
+      if (!topicMatches(topics, filters.topics)) return false;
       if (filters.historical && !(v.assessments || []).some(a => a.system === 'bupt-ict-2018') ) return false;
       if (filters.favoriteOnly && !favorites.has('call:' + call.id) && !favorites.has('venue:' + v.id)) return false;
       if (filters.window && (!['upcoming', 'date', 'restricted'].includes(st.code) || st.days < 0 || st.days > +filters.window)) return false;
-      return searchMatches(filters.query, call.title, call.titleEn, call.tags, call.summary, v.short, v.nameEn, v.nameZh, v.aliases);
+      return searchMatches(filters.query, call.title, call.titleEn, call.tags, call.summary, v.short, v.nameEn, v.nameZh, v.aliases, topicSearch(topics, filters.taxonomy));
     }).sort((a, b) => {
       const aDate = calendarDate(primaryNode(a), filters.zone) || '9999';
       const bDate = calendarDate(primaryNode(b), filters.zone) || '9999';
@@ -146,5 +169,5 @@
     const allowed = new Set([...data.calls.map(c => 'call:' + c.id), ...data.venues.map(v => 'venue:' + v.id)]);
     return [...new Set(value.items.filter(x => typeof x === 'string' && allowed.has(x)))];
   }
-  return { validDate, dateInZone, parseInstant, countdown, primaryNode, calendarDate, stateOf, searchMatches, filterCalls, escapeICS, foldLine, eligibleNodes, createICS, cleanFavorites };
+  return { validDate, dateInZone, parseInstant, countdown, primaryNode, calendarDate, stateOf, searchMatches, cleanTopics, topicMatches, filterVenues, filterCalls, escapeICS, foldLine, eligibleNodes, createICS, cleanFavorites };
 });

@@ -6,11 +6,20 @@ const errors=[];
 const requireThat=(condition,message)=>{if(!condition)errors.push(message);};
 const url=value=>{try{const u=new URL(value);return ['https:','http:'].includes(u.protocol)&&!/[\r\n]/.test(value);}catch{return false;}};
 const ids=new Set(), venueIds=new Set(data.venues.map(v=>v.id)), areas=new Set(data.areas.map(a=>a.id));
+const topicIds=new Set();
+for(const area of data.areas)requireThat(area.code&&area.label,`${area.id}: missing category code or label`);
+for(const topic of data.topics || []){
+  requireThat(/^[a-z0-9-]+$/.test(topic.id)&&!topicIds.has(topic.id),`Duplicate/invalid topic: ${topic.id}`);topicIds.add(topic.id);
+  requireThat(topic.label&&topic.areas?.length&&topic.areas.every(a=>areas.has(a)),`${topic.id}: invalid topic parent areas`);
+  requireThat(Array.isArray(topic.aliases),`${topic.id}: missing search aliases`);
+}
+requireThat(topicIds.size>0,'Missing topic taxonomy');
 for(const item of [...data.venues,...data.calls]){
   requireThat(/^[a-z0-9-]+$/.test(item.id),`Invalid ID: ${item.id}`);
   requireThat(!ids.has(item.id),`Duplicate ID: ${item.id}`);ids.add(item.id);
   requireThat(url(item.url)&&url(item.sourceUrl),`${item.id}: invalid official/source URL`);
   requireThat(item.areas?.length>0&&item.areas.every(a=>areas.has(a)),`${item.id}: unknown research area`);
+  requireThat(item.topics?.length>0&&new Set(item.topics).size===item.topics.length&&item.topics.every(t=>topicIds.has(t)),`${item.id}: missing/duplicate/unknown research topic`);
   requireThat(['verified','pending'].includes(item.verification),`${item.id}: missing verification status`);
   if(item.verification==='verified') requireThat(C.validDate(item.verifiedAt),`${item.id}: missing verification date`);
 }
@@ -18,7 +27,13 @@ for(const v of data.venues){
   requireThat(['journal','conference'].includes(v.kind),`${v.id}: invalid venue kind`);
   requireThat(v.short&&v.nameZh&&v.nameEn&&v.summary,`${v.id}: missing identity fields`);
   requireThat(Array.isArray(v.articleTypes)&&v.articleTypes.length,`${v.id}: missing article types`);
+  for(const key of ['authorGuideUrl','cfpUrl'])if(v[key])requireThat(url(v[key]),`${v.id}: invalid ${key}`);
   for(const a of v.assessments||[]){requireThat(a.year&&url(a.sourceUrl)&&a.note,`${v.id}: assessment needs year, source and scope`);}
+}
+const identities=new Set();
+for(const v of data.venues){
+  const identity=v.kind+':'+v.nameEn.normalize('NFKC').toLowerCase();
+  requireThat(!identities.has(identity),`${v.id}: duplicate venue identity`);identities.add(identity);
 }
 for(const call of data.calls){
   requireThat(venueIds.has(call.venueId),`${call.id}: missing parent venue`);
