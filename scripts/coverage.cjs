@@ -1,28 +1,22 @@
-// Regenerate the public directory audit from the canonical catalog.
-const fs=require('node:fs');
-const path=require('node:path');
-const root=path.join(__dirname,'..');
-const D=JSON.parse(fs.readFileSync(path.join(root,'data/catalog.json'),'utf8'));
-const status={current:'有官方身份来源','needs-review':'当前待核验','historical-only':'仅历史记录'};
-const state={verified:'已核验',reported:'转录待复核',pending:'待核验','not-matched':'未匹配','scope-review':'范围待认定','non-ranked':'非等级状态'};
-const text=s=>String(s||'').replaceAll('|','／').replaceAll('\n',' ');
-const journal=D.venues.filter(v=>v.kind==='journal'),conference=D.venues.filter(v=>v.kind==='conference');
-const n=s=>D.venues.filter(v=>v.evaluations?.some(e=>e.system===s&&['verified','reported'].includes(e.status))).length;
-let out=`# v${D.meta.version} 目录与证据覆盖\n\n整理日期：${D.meta.updatedAt}。${journal.length} 本期刊、${conference.length} 个会议系列记录（含历史条目），${D.areas.length} 个方向、${D.topics.length} 个主题。目录不宣称通信领域全集，也不把历史文件出现过的会议视为仍在举办。\n\n## 评价覆盖\n\n`;
-out+='| 体系 | 有明确数值 | 版本与证据 |\n|---|---:|---|\n';
-for(const s of D.ratingSystems)out+=`| ${s.label} | ${n(s.id)} | ${s.year}；${s.note} [来源](${s.sourceUrl}) |\n`;
-out+=`\nSCI／SCIE（科学引文索引扩展版）已核验 ${journal.filter(v=>v.indexing?.status==='verified'&&v.indexing.value==='SCIE').length} 本；ESCI（新兴来源引文索引）${journal.filter(v=>v.indexing?.status==='verified'&&v.indexing.value==='ESCI').length} 本；收录待核验 ${journal.filter(v=>v.indexing?.status==='pending').length} 本。\n`;
-out+='\n不同口径不能互换。JCR 使用 IEEE 原表的期刊影响因子分区列，不使用 CiteScore（引文评分）或 SJR（SCImago期刊排名）替代。CCF 公开副本尚待官网原件逐项复核，不能将未匹配项归为 C 类。ICORE 的非等级状态照原库保留。中科院分区为第三方转录，未核验原库。\n\n## 方向覆盖\n\n| 代码 | 研究方向 | 期刊 | 会议记录 |\n|---|---|---:|---:|\n';
-for(const a of D.areas)out+=`| ${a.code} | ${a.label} | ${journal.filter(v=>v.areas.includes(a.id)).length} | ${conference.filter(v=>v.areas.includes(a.id)).length} |\n`;
-out+='\n交叉归类会重复计数；主题是导航标签，不能替代具体征稿范围。\n';
-for(const [title,rows] of [['期刊',journal],['会议',conference]]){
- out+=`\n## ${title}逐项记录\n\n| 简称 | 中文名称 | 正式名称 | 目录状态 | 收录证据 | 评价及版本 | 身份来源 |\n|---|---|---|---|---|---|---|\n`;
- for(const v of rows){
-  const ratings=v.evaluations.map(e=>`${{jcr:'JCR',cas:'中科院',ccf:'CCF',core:'ICORE'}[e.system]} ${e.year} ${e.value||'—'}（${state[e.status]}）`).join('；');
-  out+=`| ${text(v.short)} | ${text(v.nameZh)} | ${text(v.nameEn)} | ${status[v.catalogStatus]} | ${v.kind==='journal'?v.indexing.status==='verified'?`[${v.indexing.value}](${v.indexing.sourceUrl}) · ${v.indexing.snapshotDate||v.indexing.verifiedAt}`:'收录待核验':'不适用'} | ${text(ratings)} | [${v.sourceType==='community'?'社区线索':v.sourceType==='historical-document'?'历史原文':'来源'}](${v.sourceUrl})${v.verifiedAt?' · '+v.verifiedAt:''} |\n`;
- }
+// Generate directory and verification reports from the canonical records.
+const fs=require('node:fs'),path=require('node:path');
+const root=path.join(__dirname,'..'),D=JSON.parse(fs.readFileSync(path.join(root,'data/catalog.json'),'utf8'));
+const labels={verified:'一手来源',reported:'副本／转录',unlisted:'所查版本未列入',unresolved:'已复查，证据不足',pending:'待核验','not-matched':'未匹配','scope-review':'对应范围未明确','non-ranked':'非等级状态','not-applicable':'不适用'};
+const systems={jcr:'JCR',cas:'中科院',ccf:'CCF',core:'ICORE'};
+const txt=s=>String(s??'').replaceAll('|','／').replaceAll('\n',' ');
+const active=D.venues.filter(v=>v.catalogScope!=='archive'),archived=D.venues.filter(v=>v.catalogScope==='archive');
+let out=`# v${D.meta.version} 目录与证据覆盖\n\n整理日期：${D.meta.updatedAt}。通信目录 ${active.filter(v=>v.kind==='journal').length} 本期刊、${active.filter(v=>v.kind==='conference').length} 个会议系列；历史参考库 ${archived.length} 项。${D.areas.length} 个方向、${D.topics.length} 个主题。具体活动另计 ${D.calls.length} 项。\n\n## 评级版本\n\n`;
+for(const r of D.ratingSystems)out+=`- ${r.label} ${r.year}：${r.note} [来源](${r.sourceUrl})\n`;
+out+='\n同一体系多选为或，不同体系为且；主题分类与评级属性独立。未列入只针对已检查的版本；转录记录不升级为最新一手证据。\n\n## 方向覆盖\n\n| 代码 | 方向 | 期刊 | 会议 |\n|---|---|---:|---:|\n';
+for(const a of D.areas)out+=`| ${a.code} | ${a.label} | ${active.filter(v=>v.kind==='journal'&&v.areas.includes(a.id)).length} | ${active.filter(v=>v.kind==='conference'&&v.areas.includes(a.id)).length} |\n`;
+for(const [title,rows] of [['通信期刊',active.filter(v=>v.kind==='journal')],['通信会议',active.filter(v=>v.kind==='conference')],['历史参考库',archived]]){
+ out+=`\n## ${title}\n\n| 简称 | 正式名称 | 索引与评级 | 身份来源 |\n|---|---|---|---|\n`;
+ for(const v of rows){const attrs=[...(v.kind==='journal'?[`${v.indexing.value||'WoS'} ${v.indexing.year||v.indexing.snapshotDate||''}（${labels[v.indexing.status]}）`]:[]),...(v.otherIndexes||[]).map(e=>e.value),...v.evaluations.map(e=>`${systems[e.system]} ${e.year} ${e.value||'—'}（${labels[e.status]}）`)];out+=`| ${txt(v.short)} | ${txt(v.nameEn)} | ${txt(attrs.join('；'))} | [${v.sourceType==='historical-document'?'历史原文':'身份来源'}](${v.sourceUrl}) · ${v.verifiedAt||v.identityReviewedAt||'日期见原始记录'} |\n`;}
 }
-out+='\n## 2018 原表的 89 项映射\n\n重复项保留原编号，但不重复建立系列。身份不明确的缩写单独保留，不能直接套用同缩写会议的现行等级。SenSys 合并后的新会议不自动继承旧系列认定；IM 历史记录保留并说明其与 NOMS 的关系。\n\n| 原编号 | 原简称 | 目录编号 | PDF页码 | 备注 |\n|---:|---|---|---:|---|\n';
-for(const m of D.legacyMappings)out+=`| ${m.number} | ${text(m.originalShort)} | ${m.venueId} | ${m.page} | ${text(m.note)} |\n`;
+out+='\n## 2018 原表映射\n\n仅保留原始身份追溯；与主目录的主题、现行评级和截止日期分开。全部 89 个原编号保持可追溯，重复项不重复建立载体。\n\n| 原编号 | 原简称 | 目录编号 | PDF页码 | 备注 |\n|---:|---|---|---:|---|\n';
+for(const m of D.legacyMappings)out+=`| ${m.number} | ${txt(m.originalShort)} | ${m.venueId} | ${m.page} | ${txt(m.note)} |\n`;
 fs.writeFileSync(path.join(root,'docs/CATALOG.md'),out);
-console.log(`已生成目录审计：${journal.length} 期刊、${conference.length} 会议记录、89 原表映射。`);
+let audit=`# v${D.meta.version} 核验记录\n\n复查日期：${D.meta.updatedAt}。完整字段及正面证据保存在 data/catalog.json，以下列出尚无明确数值的记录及处理依据。\n\n“未列入”不是低等级，也不是所有年份均无记录。“证据不足”保留真实缺口，不用其他体系推算。\n\n| 载体 | 属性 | 年份 | 复查结果 | 复查日期 | 依据及说明 |\n|---|---|---|---|---|---|\n`;
+for(const v of D.venues){for(const e of [...(v.kind==='journal'?[{...v.indexing,system:'索引'}]:[]),...(v.evaluations||[])]){if(['verified','reported'].includes(e.status))continue;audit+=`| ${txt(v.short)}${v.catalogScope==='archive'?'（档案）':''} | ${systems[e.system]||e.system} | ${e.year||'来源年份见说明'} | ${labels[e.status]} | ${e.reviewedAt||e.verifiedAt||v.reviewedAt||'未记录'} | ${txt(e.note)}${e.sourceUrl?` [来源](${e.sourceUrl})`:''} |\n`;}}
+fs.writeFileSync(path.join(root,'docs/VERIFICATION.md'),audit);
+console.log(`目录报告已生成：${active.length} 主目录、${archived.length} 历史参考。`);

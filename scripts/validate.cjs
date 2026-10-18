@@ -25,23 +25,27 @@ for(const item of [...data.venues,...data.calls]){
 }
 for(const v of data.venues){
   requireThat(['journal','conference'].includes(v.kind),`${v.id}: invalid venue kind`);
-  requireThat(v.short&&v.nameZh&&v.nameEn&&v.summary,`${v.id}: missing identity fields`);
+  requireThat(v.short&&v.nameZh&&v.nameEn,`${v.id}: missing identity fields`);
   requireThat(Array.isArray(v.articleTypes)&&v.articleTypes.length,`${v.id}: missing article types`);
   requireThat(['current','needs-review','historical-only'].includes(v.catalogStatus),`${v.id}: invalid catalog status`);
+  requireThat(!v.catalogScope||['communications','archive'].includes(v.catalogScope),`${v.id}: invalid catalog scope`);
   if(v.kind==='journal'){
     const ix=v.indexing;
-    requireThat(ix&&['verified','pending'].includes(ix.status)&&C.validDate(ix.verifiedAt)&&ix.note,`${v.id}: every journal needs an explicit indexing status`);
-    if(ix?.status==='verified')requireThat(['SCIE','ESCI','SSCI','AHCI'].includes(ix.value)&&url(ix.sourceUrl)&&ix.sourceTitle&&ix.sourceType,`${v.id}: indexing claim needs explicit index and primary evidence`);
+    requireThat(ix&&['verified','reported','unlisted','unresolved','pending'].includes(ix.status)&&C.validDate(ix.verifiedAt)&&ix.note,`${v.id}: every journal needs an explicit indexing status`);
+    if(['verified','reported'].includes(ix?.status))requireThat(['SCIE','ESCI','SSCI','AHCI'].includes(ix.value)&&url(ix.sourceUrl)&&ix.sourceTitle&&ix.sourceType,`${v.id}: indexing claim needs explicit index and attributed evidence`);
     else requireThat(ix?.value===null,`${v.id}: unknown indexing cannot be inferred from quartiles`);
-    if(ix?.snapshotDate)requireThat(C.validDate(ix.snapshotDate),`${v.id}: invalid indexing snapshot date`);
+    if(ix?.status==='reported')requireThat(['secondary','document-copy'].includes(ix.sourceType),`${v.id}: indexing transcript needs secondary provenance`);
+    if(ix?.snapshotDate)requireThat(C.validDate(ix.snapshotDate)||/^\d{4}-(0[1-9]|1[0-2])$/.test(ix.snapshotDate),`${v.id}: invalid indexing snapshot date`);
   }
+  for(const ix of v.otherIndexes||[])requireThat(ix.value&&['verified','reported'].includes(ix.status)&&url(ix.sourceUrl)&&C.validDate(ix.verifiedAt)&&ix.note,`${v.id}: other indexes need independent evidence`);
   const systems=new Set();
   for(const e of v.evaluations||[]){
     requireThat(['jcr','cas','ccf','core'].includes(e.system)&&!systems.has(e.system),`${v.id}: duplicate/invalid rating system`);systems.add(e.system);
     requireThat(Number.isInteger(e.year)&&e.year>=2018&&e.note,`${v.id}: rating needs dated scope`);
-    requireThat(['verified','reported','pending','not-matched','scope-review','non-ranked'].includes(e.status),`${v.id}: invalid rating status`);
+    requireThat(['verified','reported','pending','not-matched','scope-review','non-ranked','unlisted','unresolved','not-applicable'].includes(e.status),`${v.id}: invalid rating status`);
     if(['verified','reported','non-ranked'].includes(e.status))requireThat(e.value&&url(e.sourceUrl)&&e.sourceTitle&&C.validDate(e.verifiedAt)&&e.sourceType,`${v.id}: published evaluation needs value, source and verification date`);
     else requireThat(e.value===null,`${v.id}: unknown evaluation must not carry an inferred grade`);
+    if(['unlisted','unresolved'].includes(e.status))requireThat(C.validDate(e.reviewedAt||e.verifiedAt)&&e.note,`${v.id}: reviewed status needs evidence date`);
     if(e.system==='jcr')requireThat(v.kind==='journal'&&(!e.value||/^Q[1-4]$/.test(e.value)),`${v.id}: JCR applies to journals only`);
     if(e.system==='cas')requireThat(v.kind==='journal'&&(!e.value||/^[1-4]$/.test(e.value))&&e.year<=2025,`${v.id}: invalid CAS edition/grade`);
     if(e.system==='core')requireThat(v.kind==='conference',`${v.id}: ICORE applies to conferences`);

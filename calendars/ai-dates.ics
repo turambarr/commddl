@@ -2,7 +2,7 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:-//CommDDL//Communications Calendar//ZH
 CALSCALE:GREGORIAN
-X-WR-CALNAME:CommDDL · 人工智能交叉（日期提示）
+X-WR-CALNAME:CommDDL · 智能通信与网络（日期提示）
 BEGIN:VEVENT
 UID:wcm-underwater-optical-2026-paper@commddl
 DTSTAMP:20261018T080000Z

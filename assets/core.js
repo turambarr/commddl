@@ -85,19 +85,34 @@
   function indexingStatus(venue) {
     if (venue.kind !== 'journal') return 'not-applicable';
     const ix = venue.indexing;
-    return ix?.status === 'verified' && ['SCIE','ESCI','SSCI','AHCI'].includes(ix.value) ? ix.value : 'pending';
+    if (['verified','reported'].includes(ix?.status) && ['SCIE','ESCI','SSCI','AHCI'].includes(ix.value)) return ix.value;
+    return ix?.status === 'unlisted' ? 'unlisted' : 'pending';
+  }
+  function cleanGrades(values, kind) {
+    const choices={jcr:['Q1','Q2','Q3','Q4','N'],cas:['1','2','3','4','N'],ccf:['A','B','C','N'],core:['A*','A','B','C','N']};
+    return [...new Set(values)].filter(value=>{const [sys,rank]=String(value).split(':');return value===sys+':'+rank&&choices[sys]?.includes(rank)&&!(kind==='conference'&&['jcr','cas'].includes(sys))&&!(kind==='journal'&&sys==='core');});
   }
   function evaluationMatches(venue, grade = '') {
-    if (!grade) return true;
+    if (!grade || (Array.isArray(grade) && !grade.length)) return true;
     const records = venue.evaluations || [];
-    if (grade === 'pending') return records.some(e => ['pending','scope-review'].includes(e.status));
-    const [system, value] = grade.split(':');
-    return records.some(e => e.system === system && String(e.value) === value && ['verified','reported'].includes(e.status));
+    const selected = Array.isArray(grade) ? grade : [grade];
+    const groups = new Map();
+    for (const item of selected) {
+      if (item === 'pending') {
+        if (!records.some(e => ['pending','scope-review','unresolved','not-matched'].includes(e.status))) return false;
+        continue;
+      }
+      const [system, value] = item.split(':');
+      if (!groups.has(system)) groups.set(system, []);
+      groups.get(system).push(value);
+    }
+    return [...groups].every(([system, values]) => records.some(e => e.system === system && (values.includes(String(e.value)) && ['verified','reported'].includes(e.status) || values.includes('N') && e.status === 'unlisted')));
   }
   function filterVenues(venues, filters = {}) {
     const favorites = new Set(filters.favorites || []);
     return venues.filter(v =>
-      (!filters.venueKind || v.kind === filters.venueKind) && evaluationMatches(v, filters.grade) &&
+      (v.catalogScope !== 'archive' || filters.includeArchived || (filters.favoriteOnly && favorites.has('venue:' + v.id))) &&
+      (!filters.venueKind || v.kind === filters.venueKind) && evaluationMatches(v, filters.grades?.length ? filters.grades : filters.grade) &&
       (!filters.catalogStatus || v.catalogStatus === filters.catalogStatus) &&
       (!filters.index || indexingStatus(v) === filters.index) &&
       (!filters.area || v.areas.includes(filters.area)) && topicMatches(v.topics, filters.topics) &&
@@ -112,7 +127,7 @@
     const favorites = new Set(filters.favorites || []);
     return calls.filter(call => {
       const v = byId.get(call.venueId);
-      if (!v) return false;
+      if (!v || (v.catalogScope === 'archive' && !filters.includeArchived && !(filters.favoriteOnly && (favorites.has('venue:' + v.id) || favorites.has('call:' + call.id))))) return false;
       const st = stateOf(call, now, filters.zone);
       if (!filters.showPast && ['closed', 'past-date', 'cancelled'].includes(st.code)) return false;
       if (filters.kind && filters.kind !== 'all' && call.kind !== filters.kind) return false;
@@ -183,5 +198,5 @@
     const allowed = new Set([...data.calls.map(c => 'call:' + c.id), ...data.venues.map(v => 'venue:' + v.id)]);
     return [...new Set(value.items.filter(x => typeof x === 'string' && allowed.has(x)))];
   }
-  return { validDate, dateInZone, parseInstant, countdown, primaryNode, calendarDate, stateOf, searchMatches, cleanTopics, topicMatches, indexingStatus, evaluationMatches, filterVenues, filterCalls, escapeICS, foldLine, eligibleNodes, createICS, cleanFavorites };
+  return { validDate, dateInZone, parseInstant, countdown, primaryNode, calendarDate, stateOf, searchMatches, cleanTopics, topicMatches, indexingStatus, cleanGrades, evaluationMatches, filterVenues, filterCalls, escapeICS, foldLine, eligibleNodes, createICS, cleanFavorites };
 });

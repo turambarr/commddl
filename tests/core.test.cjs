@@ -81,8 +81,8 @@ test('an attached workshop cannot inherit a main-conference school tag',()=>{
   assert.deepEqual(C.filterCalls(calls,[parent],{historical:true},NOW).map(c=>c.id),['sample-call']);
 });
 test('catalog state is separate from grades and keeps old identities discoverable',()=>{
-  const rows=C.filterVenues(data.venues,{venueKind:'conference',catalogStatus:'historical-only',query:'NIPS'});
-  assert(rows.some(v=>v.id==='neurips'));assert(rows.every(v=>v.catalogStatus==='historical-only'));
+  const rows=C.filterVenues(data.venues,{venueKind:'conference',includeArchived:true,query:'NIPS'});
+  assert(rows.some(v=>v.id==='neurips'));assert(rows.every(v=>v.catalogScope==='archive'||v.catalogStatus==='historical-only'));
 });
 
 test('SCI indexing is based on explicit evidence, never a quartile or journal name',()=>{
@@ -96,5 +96,32 @@ test('SCI-only selection excludes ESCI and pending journals and combines with to
  const results=C.filterVenues(data.venues,{venueKind:'journal',index:'SCIE',topics:['mimo'],grade:'jcr:Q1'});
  assert(results.some(v=>v.id==='twc'));assert(!results.some(v=>v.id==='ojcoms'));assert(results.every(v=>C.indexingStatus(v)==='SCIE'));
  const pending=C.filterVenues(data.venues,{venueKind:'journal',index:'pending'});
- assert(pending.length);assert(pending.every(v=>v.indexing.status==='pending'));
+ assert(pending.every(v=>['pending','unresolved'].includes(v.indexing.status)));
+});
+
+test('CCFDDL style rank selection uses OR within a system and AND across systems',()=>{
+ const sample={evaluations:[{system:'ccf',status:'verified',value:'A'},{system:'core',status:'verified',value:'B'}]};
+ assert(C.evaluationMatches(sample,['ccf:A','ccf:B','core:B']));
+ assert(!C.evaluationMatches(sample,['ccf:A','core:A','core:C']));
+ assert(C.evaluationMatches(sample,[]));
+ assert.deepEqual(C.cleanGrades(['ccf:A','ccf:A','core:B','jcr:Q1','ccf:X','ccf:A:extra'],'conference'),['ccf:A','core:B']);
+});
+test('reviewed absence is distinct from uncertainty and never becomes a low rank',()=>{
+ const sample={evaluations:[{system:'ccf',status:'unlisted',value:null},{system:'core',status:'unresolved',value:null}]};
+ assert(C.evaluationMatches(sample,['ccf:N']));assert(!C.evaluationMatches(sample,['core:N']));
+ assert(!C.evaluationMatches(sample,['ccf:C']));assert(C.evaluationMatches(sample,'pending'));
+});
+test('historical reference entries are opt in while existing favorites remain accessible',()=>{
+ const sample={id:'old',kind:'conference',short:'Old',nameEn:'Old',areas:['wireless'],catalogScope:'archive'};
+ assert.equal(C.filterVenues([sample],{}).length,0);
+ assert.equal(C.filterVenues([sample],{includeArchived:true}).length,1);
+ assert.equal(C.filterVenues([sample],{favoriteOnly:true,favorites:['venue:old']}).length,1);
+ const call={...base,venueId:'old'};
+ assert.equal(C.filterCalls([call],[sample],{},NOW).length,0);
+ assert.equal(C.filterCalls([call],[sample],{favoriteOnly:true,favorites:['call:sample-call']},NOW).length,1);
+});
+test('dated indexing transcripts preserve provenance without inferring SCI from JCR',()=>{
+ assert.equal(C.indexingStatus({kind:'journal',indexing:{status:'reported',value:'SCIE'}}),'SCIE');
+ assert.equal(C.indexingStatus({kind:'journal',indexing:{status:'unlisted',value:null}}),'unlisted');
+ assert.equal(C.indexingStatus({kind:'journal',indexing:{status:'unresolved',value:null}}),'pending');
 });
