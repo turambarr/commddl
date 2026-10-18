@@ -33,11 +33,12 @@
   const areaLabels = new Map(D.areas.map(a => [a.id, a.label]));
   const topicLabels = new Map(D.topics.map(t => [t.id, t.label]));
   let topicsExpanded = false;
+  const callLabel = call => call.submissionCategory==='demo'?'演示论文':call.inheritsVenueEvaluation===false&&call.kind==='conference'?'独立分会':kindLabels[call.kind];
   const kindLabels = {all:'全部',conference:'会议主会',special:'期刊专题',workshop:'附属研讨会',series:'持续栏目',journal:'期刊'};
   const pageNames = {deadlines:'截稿日历',conferences:'会议目录',journals:'期刊目录',favorites:'我的关注',about:'来源与维护说明'};
   const headings = {
-    deadlines:['把握下一次投稿机会','会议、期刊与专题征稿，按你的研究方向聚合。'],
-    conferences:['通信会议目录','按主题、CCF 与 ICORE 等级查找会议系列。'],
+    deadlines:['通信投稿截止日历','按截止日期查看会议与期刊专题，跟踪下一次投稿机会。'],
+    conferences:['通信会议目录','最新届次、投稿截止与举办时间，按主题和等级筛选。'],
     journals:['通信期刊目录','按主题、索引收录与分区查找期刊。'],
     favorites:['给下一篇论文，留一个位置','关注的会议、期刊与专题，汇成自己的投稿清单。'],
     about:['每一条信息，都有来处','查看分类、评价版本与核验来源。']
@@ -49,7 +50,7 @@
   try { favorites = new Set(C.cleanFavorites(load('commddl.favorites.v1', {version:1,items:[]}), D)); } catch { favorites = new Set(); }
   const prefs = load('commddl.preferences.v1', {});
   const zones = ['Asia/Shanghai','UTC','America/Los_Angeles','Europe/London'];
-  const state = {view:'deadlines',area:'',topics:[],kind:'all',query:'',window:'',sort:'deadline',showPast:false,historical:false,includeArchived:false,grades:[],grade:'',catalogStatus:'',index:'',layout:'list',zone:zones.includes(prefs.zone)?prefs.zone:'Asia/Shanghai',journalType:'all',month:C.dateInZone(Date.now()).slice(0,7)};
+  const state = {view:'deadlines',area:'',topics:[],kind:'all',query:'',window:'',sort:'deadline',showUndated:false,showPast:false,historical:false,includeArchived:false,grades:[],grade:'',catalogStatus:'',index:'',layout:'list',zone:zones.includes(prefs.zone)?prefs.zone:'Asia/Shanghai',journalType:'all',month:C.dateInZone(Date.now()).slice(0,7)};
   let currentCalls = [], currentVenues = [], exportCalls = [], toastTimer;
   function readHash() {
     const [view, query = ''] = location.hash.slice(1).split('?');
@@ -67,6 +68,7 @@
     state.grade='';
     state.window = ['7','30','90','180'].includes(p.get('within')) ? p.get('within') : '';
     state.includeArchived = p.get('archive') === '1';
+    state.showUndated=p.get('undated')==='1';
     state.showPast = p.get('past') === '1'; state.historical = p.get('history') === '1';
     state.layout = p.get('layout') === 'calendar' ? 'calendar' : 'list';
     state.sort = p.get('sort') === 'name' ? 'name' : 'deadline';
@@ -87,6 +89,7 @@
     if (state.query) p.set('q',state.query);
     if (state.kind !== 'all') p.set('kind',state.kind);
     if (state.window) p.set('within',state.window);
+    if (state.showUndated) p.set('undated','1');
     if (state.showPast) p.set('past','1');
     if (state.historical) p.set('history','1');
     if (state.layout === 'calendar') {p.set('layout','calendar');p.set('month',state.month);}
@@ -96,7 +99,7 @@
   }
   function notify(text) { $('toast').textContent = text; $('toast').classList.add('visible'); clearTimeout(toastTimer); toastTimer = setTimeout(() => $('toast').classList.remove('visible'),3200); }
   function closeSidebar() { $('sidebar').classList.remove('open'); $('sidebar-backdrop').classList.remove('visible'); $('mobile-menu').setAttribute('aria-expanded','false'); }
-  function navigate(view) { state.view=view;state.kind='all';state.query='';state.window='';state.historical=false;state.includeArchived=false;state.grades=[];state.grade='';state.catalogStatus='';state.index='';state.journalType='all';state.layout='list';closeSidebar();syncHash();render();window.scrollTo({top:0,behavior:'instant'}); }
+  function navigate(view) { state.view=view;state.kind='all';state.query='';state.window='';state.showUndated=false;state.historical=false;state.includeArchived=false;state.grades=[];state.grade='';state.catalogStatus='';state.index='';state.journalType='all';state.layout='list';closeSidebar();syncHash();render();window.scrollTo({top:0,behavior:'instant'}); }
   function toggleFavorite(key) {
     favorites.has(key) ? favorites.delete(key) : favorites.add(key);
     save('commddl.favorites.v1',{version:1,items:[...favorites]}); render();
@@ -166,21 +169,26 @@
     return '待确认';
   }
   function deadlineBox(call) {
-    const n=C.primaryNode(call), st=stateDisplay(call);
-    let date='<span class="deadline-date" style="font-size:17px">待核验</span>',label='投稿日期',note='保留官方入口';
-    if(n&&n.precision==='date') {const [y,m,d]=n.date.split('-');date=`<span class="deadline-date">${m}.${d}<small>${y}</small></span>`;label=n.label+' · 仅日期';note='具体钟点 / 时区待确认';}
-    if(n&&n.precision==='instant') {date=`<span class="deadline-date" style="font-size:16px">${esc(nodeDateText(n))}</span>`;label=n.label;note=state.zone==='Asia/Shanghai'?'北京时间':'所选显示时区';}
-    if(st.code==='rolling') {date='<span class="deadline-date" style="font-size:17px">持续接收</span>';label='征稿方式';note='以官方栏目要求为准';}
-    const live = n?.precision==='instant' && st.code==='upcoming' ? ` data-countdown="${esc(n.instant)}"` : '';
-    return `<div class="deadline-box"><div><div class="deadline-label">${icon('calendar')}${esc(label)}</div>${date}</div><div class="deadline-status"><span class="status-pill ${st.css}"${live}>${esc(live?C.countdown(n.instant):st.label)}</span><small>${note}</small></div></div>`;
+    const n=C.primaryNode(call),st=stateDisplay(call);
+    let date=call.submissionDateStatus==='TBA'?'官网待公布':'未收录截稿',label='投稿截止',note='尚无已核验的投稿日期',counter=st.label,live='';
+    if(n?.precision==='date'){date=n.date;label=n.label+' · 日期已公布';counter=st.days===null?st.label:st.days>0?'剩余 '+st.days+' 天':st.days===0?'截止日期为今天':st.label;note=call.sourceTimezone?'官网仅日期 · 原时区 '+call.sourceTimezone+(call.sourceTimezone==='AoE'?'（全球最晚时区）':''):'官网未注明具体钟点 / 时区';}
+    if(n?.precision==='instant'){date=nodeDateText(n);label=n.label;note=(state.zone==='Asia/Shanghai'?'北京时间 · ':'显示时区 · ')+state.zone;if(st.code==='upcoming'){counter=C.countdown(n.instant);live=` data-countdown="${esc(n.instant)}"`;}else counter=st.label;}
+    if(st.code==='rolling'){date='持续征稿';label='栏目方式';counter='无统一截止';note='按官方栏目时间提交';}
+    if(st.code==='restricted')counter='前置注册已截止';
+    if(st.code==='cancelled'||st.code==='conflict')counter=st.label;
+    return `<div class="deadline-box deadline-prominent"><div><div class="deadline-label">${icon('calendar')}${esc(label)}</div><time class="deadline-date"${n?.instant||n?.date?` datetime="${esc(n.instant||n.date)}"`:''}>${esc(date)}</time><small class="deadline-precision">${esc(note)}</small></div><div class="deadline-status"><span class="deadline-counter ${st.css}"${live}>${esc(counter)}</span>${st.code==='restricted'?'<small>需已完成摘要 / 注册</small>':''}</div></div>`;
+  }
+  function activityMeta(call) {
+    return `<div class="metadata-row">${call.eventDates||call.eventStart?`<span>${icon('calendar')}召开：${esc(call.eventDates||(call.eventStart+' / '+(call.eventEnd||call.eventStart)))}</span>`:''}${call.location?`<span>${icon('pin')}${esc(call.location)}</span>`:''}<span>${icon('shield')}${call.verification==='verified'?'核验 '+esc(call.verifiedAt):'时间尚未核验'}</span></div>`;
   }
   function callCard(call) {
     const v=venues.get(call.venueId);
-    const history='';
-    return `<article class="opportunity-card" data-call-card="${call.id}"><div class="card-top"><span class="venue-mark">${esc(v.short)}</span><span class="type-tag ${call.kind}">${kindLabels[call.kind]}</span>${favoriteButton('call:'+call.id,call.title)}</div><h3 class="card-title"><button data-detail="call:${call.id}">${esc(call.title)}</button></h3><p class="card-title-en">${esc(call.titleEn)}</p><div class="tags">${areaTags(call.areas||v.areas)}${history}</div>${deadlineBox(call)}<div class="metadata-row"><span>${icon(call.location?'pin':'book')}${esc(call.location||v.nameZh)}</span><span>${icon('shield')}${call.verification==='verified'?'核验 '+esc(call.verifiedAt):'具体届次待核验'}</span></div><div class="card-footer"><button class="detail-button" data-detail="call:${call.id}">征稿详情 <span>→</span></button><a href="${safeURL(call.sourceUrl)}" target="_blank" rel="noopener noreferrer">官方来源 ${icon('external')}</a></div></article>`;
+    return `<article class="opportunity-card deadline-card" data-call-card="${call.id}"><div class="card-top"><span class="venue-mark">${esc(v.short)}${call.year?' '+esc(call.year):''}</span><span class="type-tag ${call.kind}">${callLabel(call)}</span>${favoriteButton('call:'+call.id,call.title)}</div><h3 class="card-title"><button data-detail="call:${call.id}">${esc(call.title)}</button></h3><p class="card-title-en">${esc(call.titleEn)}</p>${deadlineBox(call)}<div class="tags">${areaTags(call.areas||v.areas)}${topicTags(call.topics||v.topics,2)}</div>${call.kind==='workshop'||call.inheritsVenueEvaluation===false||call.submissionCategory==='demo'?'':evaluationTags(v)}${activityMeta(call)}<div class="card-footer"><button class="detail-button" data-detail="call:${call.id}">完整时间线 →</button>${C.eligibleNodes([call],true).length?`<button class="detail-button" data-export-call="${call.id}">${icon('download')}加入日历</button>`:''}<a href="${safeURL(call.sourceUrl)}" target="_blank" rel="noopener noreferrer">官方征稿 ${icon('external')}</a></div></article>`;
   }
   function venueCard(v) {
-    return `<article class="opportunity-card journal-card" data-venue-card="${v.id}"><div class="card-top"><span class="venue-mark">${esc(v.short)}</span><span class="type-tag">${esc(v.publicationType)}</span>${favoriteButton('venue:'+v.id,v.nameZh)}</div><h3 class="card-title"><button data-detail="venue:${v.id}">${esc(v.nameZh)}</button></h3><p class="card-title-en">${esc(v.nameEn)}</p><div class="tags">${areaTags(v.areas)}${v.catalogScope==='archive'?'<span class="tag historical">历史参考库</span>':''}${catalogTag(v)}</div><div class="tags specific-topics">${topicTags(v.topics)}</div>${evaluationTags(v)}<div class="card-footer"><button class="detail-button" data-detail="venue:${v.id}">属性与来源 <span>→</span></button><a href="${safeURL(v.url)}" target="_blank" rel="noopener noreferrer">${v.urlLabel||(v.verification==='pending'?'来源入口':'官方入口')} ${icon('external')}</a></div></article>`;
+    const activity=C.venueActivity(v,D.calls,Date.now(),state.zone),journal=v.kind==='journal';
+    const timing=activity?`<div class="venue-activity"><button class="edition-link" data-detail="call:${activity.id}">${esc(activity.title)} →</button>${activity.inheritsVenueEvaluation===false?'<p class="track-note">独立分会，不沿用旧系列评级</p>':''}${deadlineBox(activity)}${activityMeta(activity)}</div>`:journal?'<div class="regular-submission"><strong>常规投稿</strong><span>无统一截稿日记录 · 专刊单列截止</span></div>':'<div class="regular-submission"><strong>尚未收录当届时间</strong><span>查看官方征稿入口</span></div>';
+    return `<article class="opportunity-card journal-card" data-venue-card="${v.id}"><div class="card-top"><span class="venue-mark">${esc(v.short)}</span><span class="type-tag">${esc(v.publicationType)}</span>${favoriteButton('venue:'+v.id,v.nameZh)}</div><h3 class="card-title"><button data-detail="venue:${v.id}">${esc(v.nameZh)}</button></h3><p class="card-title-en">${esc(v.nameEn)}</p><div class="tags">${areaTags(v.areas)}${v.catalogScope==='archive'?'<span class="tag historical">历史参考库</span>':''}${catalogTag(v)}</div><div class="tags specific-topics">${topicTags(v.topics)}</div>${evaluationTags(v)}${timing}<div class="card-footer"><button class="detail-button" data-detail="${activity?'call:'+activity.id:'venue:'+v.id}">${activity?'完整时间线':'属性与来源'} →</button>${activity&&C.eligibleNodes([activity],true).length?`<button class="detail-button" data-export-call="${activity.id}">加入日历</button>`:''}<a href="${safeURL(activity?.url||v.url)}" target="_blank" rel="noopener noreferrer">${activity?'当届官网':'官方入口'} ${icon('external')}</a></div></article>`;
   }
 
   function directoryKind() {
@@ -189,9 +197,10 @@
   }
   function includeFollowedVenues() {return state.view==='favorites'&&['all','conference'].includes(state.kind)&&!state.window;}
   function filterVenues() {
-    return C.filterVenues(D.venues,{...state,taxonomy:D.topics,venueKind:directoryKind(),favoriteOnly:state.view==='favorites',favorites:[...favorites]});
+    return C.filterVenues(D.venues,{...state,taxonomy:D.topics,calls:D.calls,venueKind:directoryKind(),favoriteOnly:state.view==='favorites',favorites:[...favorites]});
   }
   function renderTopics() {
+    $('topic-panel').classList.toggle('topics-folded',!isVenueView()&&!topicsExpanded&&!state.area&&!state.topics.length);
     const available=D.topics.filter(t=>!state.area||t.areas.includes(state.area));
     const featured=['physical','mimo','channel-coding','estimation-sync','isac','fiber','satellite-ntn','navigation-pnt','iot-sensing','ai-communications'];
     const visible=topicsExpanded||state.area?available:available.filter(t=>featured.includes(t.id)||state.topics.includes(t.id));
@@ -215,14 +224,15 @@
     if(state.query)items.push(['query','搜索：'+state.query]);
     if(isVenueView()&&state.grades.length)items.push(['grades',state.grades.map(r=>{const [sys,val]=r.split(':');return evaluationLabels[sys]+' '+(val==='N'?'未列入':val);}).join(' / ')]);
     if(isVenueView()&&state.catalogStatus)items.push(['catalogStatus',$('catalog-status').selectedOptions[0]?.textContent||state.catalogStatus]);
-    if(state.window&&!isVenueView())items.push(['window','未来 '+state.window+' 天']);
+    if(state.window&&(!isVenueView()||directoryKind()==='conference'))items.push(['window','未来 '+state.window+' 天']);
+    if(state.showUndated&&!isVenueView())items.push(['showUndated','包含未公布时间']);
     if(state.includeArchived)items.push(['includeArchived','包含历史参考库']);
     if(state.historical)items.push(['historical','2018 历史目录']);
     $('active-filters').innerHTML=items.map(([key,label])=>`<span class="active-filter">${esc(label)}<button data-clear="${key}" aria-label="清除 ${esc(label)}">×</button></span>`).join('');
   }
   function emptyHTML(venueView) {return `<div class="empty-state"><div class="empty-symbol">${icon(state.view==='favorites'?'bookmark':'search')}</div><h3>${state.view==='favorites'?'这里还没有符合条件的关注':'没有找到符合条件的结果'}</h3><p>${state.view==='favorites'?'点击活动或期刊右上角的书签，建立自己的投稿清单。':'可以清除筛选，或到官方入口继续查找。'}</p><button class="button button-subtle" data-reset="all">清除筛选</button></div>`;}
   function render() {
-    renderSidebar();renderStats();
+    renderSidebar();renderStats();$('stats').classList.toggle('deadline-stats',!isVenueView());
     const [title,description]=headings[state.view];
     $('breadcrumb-title').textContent=pageNames[state.view];
     $('page-title').innerHTML=esc(title)+'<span class="heading-period">。</span>';
@@ -238,12 +248,12 @@
     Array.from($('grade-filter').querySelectorAll('optgroup')).forEach(g=>{const sys=g.querySelector('option').value.split(':')[0];g.disabled=(directoryKind()==='conference'&&['jcr','cas'].includes(sys))||(directoryKind()==='journal'&&sys==='core');g.hidden=g.disabled;});
     $('index-filter-label').hidden=!vv||directoryKind()!=='journal'; $('index-filter').value=state.index;
     $('grade-filter').value=state.grade; $('catalog-status').value=state.catalogStatus;
-    $('search').value=state.query;$('time-window').value=state.window;$('sort').value=state.sort;$('show-past').checked=state.showPast;$('historical-only').checked=state.historical;$('timezone').value=state.zone;
-    $('time-window').hidden=vv;$('view-switch').hidden=vv;$('past-filter-label').hidden=vv;$('timezone').parentElement.hidden=vv;
+    $('search').value=state.query;$('time-window').value=state.window;$('sort').value=state.sort;$('show-past').checked=state.showPast;$('show-undated').checked=state.showUndated;$('historical-only').checked=state.historical;$('timezone').value=state.zone;
+    $('undated-filter-label').hidden=vv; $('time-window').hidden=vv&&directoryKind()!=='conference';$('view-switch').hidden=vv;$('past-filter-label').hidden=vv;$('timezone').parentElement.hidden=vv&&directoryKind()==='journal';
     $('history-filter-label').hidden=true; $('archive-filter-label').hidden=!vv; $('include-archived').checked=state.includeArchived;
     $('date-note').hidden=vv;
     $('favorites-tools').hidden=state.view!=='favorites';
-    $('sort').options[0].textContent=vv?'默认顺序':'按截止日期';
+    $('sort').options[0].textContent=vv?'按最近截稿':'按截止日期';
     $('list-view').classList.toggle('selected',state.layout==='list');$('calendar-view').classList.toggle('selected',state.layout==='calendar');
     $('list-view').setAttribute('aria-pressed',state.layout==='list');$('calendar-view').setAttribute('aria-pressed',state.layout==='calendar');
     renderActiveFilters();
@@ -252,7 +262,7 @@
     currentVenues=vv||mixedFavorites?filterVenues():[];
     const count=vv?currentVenues.length:currentCalls.length+(mixedFavorites?currentVenues.length:0);
     $('results-title').innerHTML=esc(vv?(state.view==='conferences'?'会议系列':'期刊目录'):(state.area?areaLabels.get(state.area):state.view==='favorites'?'关注清单':'全部投稿机会'))+` <span>${count} ${vv?(state.view==='conferences'?'个系列':'本期刊'):'项'}</span>`;
-    $('result-caption').textContent=vv?'主题分类 × 收录与评级属性':'具体时间与要求以官方征稿页为准';
+    $('result-caption').textContent=vv?'优先显示未过截止的届次 · 含当届时间线':'按截止排序 · 明确时刻实时倒计时';
     const calendar=!vv&&state.layout==='calendar';
     $('calendar-container').hidden=!calendar;$('results').hidden=calendar;
     if(calendar)renderCalendar();else $('results').innerHTML=count?(vv?currentVenues.map(venueCard):[...currentCalls.map(callCard),...(mixedFavorites?currentVenues.map(venueCard):[])]).join(''):emptyHTML(vv);
@@ -273,13 +283,13 @@
   function sourceBox(item) {return `<div class="source-box"><p><strong>${item.sourceType==='historical-document'?'历史文件记录':item.sourceType==='community'?'社区线索，官方待核验':item.verification==='verified'?'载体身份来源已读取':'待核验记录'}</strong> · ${item.verifiedAt?'最近核验 '+esc(item.verifiedAt):'具体投稿信息尚未确认'}</p><a href="${safeURL(item.sourceUrl)}" target="_blank" rel="noopener noreferrer">${esc(item.sourceUrl)} ↗</a></div>`;}
   function showDialog(id) {const dialog=$(id);if(!dialog.open)dialog.showModal();}
   function openDetail(key, show=true) {
-    const [type,id]=key.split(':');const item=type==='call'?D.calls.find(c=>c.id===id):venues.get(id);if(!item)return;
+    const [type,rawId]=key.split(':');const id=type==='call'?(D.callAliases?.[rawId]||rawId):rawId;const item=type==='call'?D.calls.find(c=>c.id===id):venues.get(id);if(!item)return;
     const isCall=type==='call',v=isCall?venues.get(item.venueId):item;
     const st=isCall?stateDisplay(item):null;
-    let content=`<div class="dialog-top"><span class="eyebrow">${isCall?'CALL FOR PAPERS · 征稿详情':'VENUE DIRECTORY · 发表载体'}</span><button class="icon-button" data-close="detail-dialog" aria-label="关闭详情">${icon('close')}</button></div><div class="card-top"><span class="venue-mark">${esc(v.short)}</span><span class="type-tag ${isCall?item.kind:''}">${esc(isCall?kindLabels[item.kind]:item.publicationType)}</span>${favoriteButton(key,isCall?item.title:item.nameZh)}</div><h2 id="detail-heading">${esc(isCall?item.title:item.nameZh)}</h2><div class="detail-en">${esc(isCall?item.titleEn:item.nameEn)}</div><div class="tags">${areaTags(item.areas||v.areas)}</div>${isCall?`<p class="detail-summary">${esc(item.summary)}</p>`:""}<h3>研究主题</h3><div class="tags">${topicTags(item.topics||v.topics,99)}</div>`;
+    let content=`<div class="dialog-top"><span class="eyebrow">${isCall?'CALL FOR PAPERS · 征稿详情':'VENUE DIRECTORY · 发表载体'}</span><button class="icon-button" data-close="detail-dialog" aria-label="关闭详情">${icon('close')}</button></div><div class="card-top"><span class="venue-mark">${esc(v.short)}</span><span class="type-tag ${isCall?item.kind:''}">${esc(isCall?callLabel(item):item.publicationType)}</span>${favoriteButton(key,isCall?item.title:item.nameZh)}</div><h2 id="detail-heading">${esc(isCall?item.title:item.nameZh)}</h2><div class="detail-en">${esc(isCall?item.titleEn:item.nameEn)}</div><div class="tags">${areaTags(item.areas||v.areas)}</div>${isCall?`<p class="detail-summary">${esc(item.summary)}</p>`:""}<h3>研究主题</h3><div class="tags">${topicTags(item.topics||v.topics,99)}</div>`;
     if(isCall) {
       content+=`<div class="detail-meta">${item.location?'<span>'+esc(item.location)+'</span>':''}${item.eventDates?'<span>召开日期：'+esc(item.eventDates)+'</span>':''}${item.publication?'<span>预计出版：'+esc(item.publication)+'</span>':''}<span>${esc(st.label)}</span></div>`;
-      if(item.nodes.length)content+='<h3>投稿时间线</h3><div class="timeline">'+item.nodes.map(n=>`<div class="timeline-row ${n.primary?'primary':''}"><div><strong>${esc(n.label)}</strong><small>${esc(n.original)}${(n.requires||[]).length?' · 有前置步骤':''}</small></div><div class="timeline-time">${esc(nodeDateText(n))}<small>${n.precision==='date'?'仅日期 · 钟点 / 时区待确认':n.precision==='instant'?esc(n.timezone||'明确时刻'):'待公布'}</small></div></div>`).join('')+'</div>';
+      if(item.nodes.length)content+='<h3>投稿时间线</h3><div class="timeline">'+item.nodes.map(n=>`<div class="timeline-row ${n.primary?'primary':''}"><div><strong>${esc(n.label)}</strong><small>${esc(n.original)}${(n.requires||[]).length?' · 有前置步骤':''}</small></div><div class="timeline-time">${esc(nodeDateText(n))}<small>${n.precision==='date'?(item.sourceTimezone?'仅日期 · '+esc(item.sourceTimezone)+' · 钟点未注明':'仅日期 · 钟点 / 时区未注明'):n.precision==='instant'?esc(n.timezone||'明确时刻'):'待公布'}</small></div></div>`).join('')+'</div>';
       else content+=`<div class="notice dialog-notice">${icon('info')}<p>${item.status==='rolling'?'这是持续征稿栏目，按官方栏目要求提交。':'本版尚未确认具体投稿截止，请进入官方入口核对最新公告。'}</p></div>`;
       if(item.notes)content+=`<h3>投稿说明</h3><p>${esc(item.notes)}</p>`;
       if(item.history.length)content+='<h3>变更记录</h3>'+item.history.map(h=>`<p>${esc(h.date)} · ${esc(h.note)}</p>`).join('');
@@ -335,13 +345,13 @@
     else if(b.dataset.copyFeed)copyText(b.dataset.copyFeed);
     else if(b.dataset.shareFilters){const url=new URL(D.meta.homepage);url.hash=location.hash;copyText(url.href);}
     else if(b.dataset.copyDetail){const url=new URL(D.meta.homepage||location.href);url.hash=state.view+'?'+new URLSearchParams({item:b.dataset.copyDetail});copyText(url.href);}
-    else if(b.dataset.clear){state[b.dataset.clear]=['historical','includeArchived'].includes(b.dataset.clear)?false:['topics','grades'].includes(b.dataset.clear)?[]:'';syncHash();render();}
-    else if(b.dataset.reset){state.query='';state.area='';state.topics=[];state.window='';state.historical=false;state.includeArchived=false;state.grades=[];state.grade='';state.catalogStatus='';state.index='';state.kind='all';state.journalType='all';syncHash();render();}
+    else if(b.dataset.clear){state[b.dataset.clear]=['historical','includeArchived','showUndated'].includes(b.dataset.clear)?false:['topics','grades'].includes(b.dataset.clear)?[]:'';syncHash();render();}
+    else if(b.dataset.reset){state.query='';state.area='';state.topics=[];state.window='';state.showUndated=false;state.historical=false;state.includeArchived=false;state.grades=[];state.grade='';state.catalogStatus='';state.index='';state.kind='all';state.journalType='all';syncHash();render();}
     else if(b.dataset.month){if(b.dataset.month==='today')state.month=C.dateInZone(Date.now(),state.zone).slice(0,7);else{const[y,m]=state.month.split('-').map(Number);state.month=new Date(Date.UTC(y,m-1+Number(b.dataset.month),1)).toISOString().slice(0,7);}syncHash();renderCalendar();}
   });
   $('search').addEventListener('input',e=>{state.query=e.target.value;syncHash();render();$('search').focus();});
   [['time-window','window'],['sort','sort'],['timezone','zone'],['grade-filter','grade'],['catalog-status','catalogStatus'],['index-filter','index']].forEach(([id,key])=>$(id).addEventListener('change',e=>{state[key]=e.target.value;if(key==='zone'){save('commddl.preferences.v1',{zone:state.zone});updateClock();}syncHash();render();}));
-  [['show-past','showPast'],['historical-only','historical'],['include-archived','includeArchived']].forEach(([id,key])=>$(id).addEventListener('change',e=>{state[key]=e.target.checked;syncHash();render();}));
+  [['show-undated','showUndated'],['show-past','showPast'],['historical-only','historical'],['include-archived','includeArchived']].forEach(([id,key])=>$(id).addEventListener('change',e=>{state[key]=e.target.checked;syncHash();render();}));
   $('reset-area').addEventListener('click',()=>{state.area='';syncHash();render();});
   $('list-view').addEventListener('click',()=>{state.layout='list';syncHash();render();});
   $('calendar-view').addEventListener('click',()=>{state.layout='calendar';syncHash();render();});
@@ -356,7 +366,7 @@
   document.addEventListener('keydown',e=>{if(e.key==='/'&&!e.ctrlKey&&!e.metaKey&&!['INPUT','TEXTAREA','SELECT'].includes(document.activeElement.tagName)&&!document.querySelector('dialog[open]')){e.preventDefault();if(state.view==='about')navigate('deadlines');$('search').focus();}if(e.key==='Escape')closeSidebar();});
   document.querySelectorAll('dialog').forEach(dialog=>dialog.addEventListener('click',e=>{if(e.target===dialog){const r=dialog.getBoundingClientRect();if(e.clientX<r.left||e.clientX>r.right||e.clientY<r.top||e.clientY>r.bottom)dialog.close();}}));
   window.addEventListener('hashchange',()=>{readHash();render();const item=new URLSearchParams(location.hash.split('?')[1]||'').get('item');if(item)openDetail(item);});
-  readHash();hydrateIcons();render();updateClock();setInterval(updateClock,60000);
+  readHash();hydrateIcons();render();updateClock();setInterval(()=>{updateClock();render();},60000);
   setInterval(()=>document.querySelectorAll('[data-countdown]').forEach(el=>{el.textContent=C.countdown(el.dataset.countdown)||'时刻待确认';}),1000);
   const item=new URLSearchParams(location.hash.split('?')[1]||'').get('item');if(item)openDetail(item);
 })();

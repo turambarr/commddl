@@ -1,11 +1,11 @@
 /* Generated from data/catalog.json. Edit the JSON and run npm run build. */
 window.COMMDDL_DATA = {
   "meta": {
-    "version": "0.4.0",
+    "version": "0.5.0",
     "updatedAt": "2026-10-18",
     "siteName": "CommDDL",
     "repository": "https://github.com/turambarr/commddl",
-    "description": "通信相关期刊、会议与投稿日历，主题分类和索引、分区、评级独立筛选。",
+    "description": "通信投稿截止日历：按主题查看真实届次、投稿截止、剩余时间与会议日程。",
     "policySource": "https://xxgk.bupt.edu.cn/__local/F/65/92/3A361334F005A224CD3C6C215B7_43DF8061_C1241.pdf?e=.pdf",
     "sourceNote": "载体身份来自学会官方目录；征稿时间来自对应官方页面。部分官网无法读取，明确标注待核验。",
     "homepage": "https://turambarr.github.io/commddl/",
@@ -160,7 +160,8 @@ window.COMMDDL_DATA = {
       "catalogScope": "communications",
       "scopeReviewedAt": "2026-10-18",
       "scopeNote": "无线通信研究载体；通信网络与移动系统研究载体；通信相关信号处理及感知研究载体",
-      "ratingReviewedAt": "2026-10-18"
+      "ratingReviewedAt": "2026-10-18",
+      "deadlineReviewedAt": "2026-10-18"
     },
     {
       "id": "globecom",
@@ -254,7 +255,8 @@ window.COMMDDL_DATA = {
       "catalogScope": "communications",
       "scopeReviewedAt": "2026-10-18",
       "scopeNote": "无线通信研究载体；通信网络与移动系统研究载体；通信相关信号处理及感知研究载体",
-      "ratingReviewedAt": "2026-10-18"
+      "ratingReviewedAt": "2026-10-18",
+      "deadlineReviewedAt": "2026-10-18"
     },
     {
       "id": "wcnc",
@@ -345,7 +347,8 @@ window.COMMDDL_DATA = {
       "catalogScope": "communications",
       "scopeReviewedAt": "2026-10-18",
       "scopeNote": "无线通信研究载体；通信网络与移动系统研究载体",
-      "ratingReviewedAt": "2026-10-18"
+      "ratingReviewedAt": "2026-10-18",
+      "deadlineReviewedAt": "2026-10-18"
     },
     {
       "id": "pimrc",
@@ -432,7 +435,8 @@ window.COMMDDL_DATA = {
       "catalogScope": "communications",
       "scopeReviewedAt": "2026-10-18",
       "scopeNote": "无线通信研究载体；通信相关信号处理及感知研究载体",
-      "ratingReviewedAt": "2026-10-18"
+      "ratingReviewedAt": "2026-10-18",
+      "deadlineReviewedAt": "2026-10-18"
     },
     {
       "id": "vtc",
@@ -595,7 +599,8 @@ window.COMMDDL_DATA = {
       "catalogScope": "communications",
       "scopeReviewedAt": "2026-10-18",
       "scopeNote": "信息论与编码研究载体；通信相关信号处理及感知研究载体",
-      "ratingReviewedAt": "2026-10-18"
+      "ratingReviewedAt": "2026-10-18",
+      "deadlineReviewedAt": "2026-10-18"
     },
     {
       "id": "itw",
@@ -677,7 +682,8 @@ window.COMMDDL_DATA = {
       "catalogScope": "communications",
       "scopeReviewedAt": "2026-10-18",
       "scopeNote": "信息论与编码研究载体",
-      "ratingReviewedAt": "2026-10-18"
+      "ratingReviewedAt": "2026-10-18",
+      "deadlineReviewedAt": "2026-10-18"
     },
     {
       "id": "icassp",
@@ -768,7 +774,8 @@ window.COMMDDL_DATA = {
       "catalogScope": "communications",
       "scopeReviewedAt": "2026-10-18",
       "scopeNote": "通信相关信号处理及感知研究载体；智能通信和信号处理交叉载体；无线通信研究载体",
-      "ratingReviewedAt": "2026-10-18"
+      "ratingReviewedAt": "2026-10-18",
+      "deadlineReviewedAt": "2026-10-18"
     },
     {
       "id": "spawc",
@@ -843,7 +850,8 @@ window.COMMDDL_DATA = {
       "catalogScope": "communications",
       "scopeReviewedAt": "2026-10-18",
       "scopeNote": "无线通信研究载体；通信相关信号处理及感知研究载体",
-      "ratingReviewedAt": "2026-10-18"
+      "ratingReviewedAt": "2026-10-18",
+      "deadlineReviewedAt": "2026-10-18"
     },
     {
       "id": "icip",
@@ -928,7 +936,8 @@ window.COMMDDL_DATA = {
       "catalogScope": "communications",
       "scopeReviewedAt": "2026-10-18",
       "scopeNote": "通信相关信号处理及感知研究载体；智能通信和信号处理交叉载体",
-      "ratingReviewedAt": "2026-10-18"
+      "ratingReviewedAt": "2026-10-18",
+      "deadlineReviewedAt": "2026-10-18"
     },
     {
       "id": "infocom",
@@ -1015,7 +1024,8 @@ window.COMMDDL_DATA = {
       "catalogScope": "communications",
       "scopeReviewedAt": "2026-10-18",
       "scopeNote": "通信网络与移动系统研究载体；物联网/车联网研究载体",
-      "ratingReviewedAt": "2026-10-18"
+      "ratingReviewedAt": "2026-10-18",
+      "deadlineReviewedAt": "2026-10-18"
     },
     {
       "id": "ofc",
@@ -1097,7 +1107,8 @@ window.COMMDDL_DATA = {
       "catalogScope": "communications",
       "scopeReviewedAt": "2026-10-18",
       "scopeNote": "光通信/光网络及器件交叉研究载体；通信网络与移动系统研究载体",
-      "ratingReviewedAt": "2026-10-18"
+      "ratingReviewedAt": "2026-10-18",
+      "deadlineReviewedAt": "2026-10-18"
     },
     {
       "id": "iccc",
@@ -1184,7 +1195,8 @@ window.COMMDDL_DATA = {
       "catalogScope": "communications",
       "scopeReviewedAt": "2026-10-18",
       "scopeNote": "无线通信研究载体；通信网络与移动系统研究载体；通信相关信号处理及感知研究载体",
-      "ratingReviewedAt": "2026-10-18"
+      "ratingReviewedAt": "2026-10-18",
+      "deadlineReviewedAt": "2026-10-18"
     },
     {
       "id": "noms",
@@ -1273,7 +1285,8 @@ window.COMMDDL_DATA = {
       "catalogScope": "communications",
       "scopeReviewedAt": "2026-10-18",
       "scopeNote": "通信网络与移动系统研究载体；智能通信和信号处理交叉载体",
-      "ratingReviewedAt": "2026-10-18"
+      "ratingReviewedAt": "2026-10-18",
+      "deadlineReviewedAt": "2026-10-18"
     },
     {
       "id": "cns",
@@ -1346,7 +1359,8 @@ window.COMMDDL_DATA = {
       "catalogScope": "communications",
       "scopeReviewedAt": "2026-10-18",
       "scopeNote": "通信网络与移动系统研究载体；无线通信研究载体",
-      "ratingReviewedAt": "2026-10-18"
+      "ratingReviewedAt": "2026-10-18",
+      "deadlineReviewedAt": "2026-10-18"
     },
     {
       "id": "dyspan",
@@ -1427,7 +1441,8 @@ window.COMMDDL_DATA = {
       "catalogScope": "communications",
       "scopeReviewedAt": "2026-10-18",
       "scopeNote": "无线通信研究载体；通信网络与移动系统研究载体",
-      "ratingReviewedAt": "2026-10-18"
+      "ratingReviewedAt": "2026-10-18",
+      "deadlineReviewedAt": "2026-10-18"
     },
     {
       "id": "milcom",
@@ -1510,7 +1525,8 @@ window.COMMDDL_DATA = {
       "catalogScope": "communications",
       "scopeReviewedAt": "2026-10-18",
       "scopeNote": "无线通信研究载体；空天地通信、定位与授时交叉载体；通信网络与移动系统研究载体",
-      "ratingReviewedAt": "2026-10-18"
+      "ratingReviewedAt": "2026-10-18",
+      "deadlineReviewedAt": "2026-10-18"
     },
     {
       "id": "icmlcn",
@@ -1584,7 +1600,8 @@ window.COMMDDL_DATA = {
       "catalogScope": "communications",
       "scopeReviewedAt": "2026-10-18",
       "scopeNote": "智能通信和信号处理交叉载体；无线通信研究载体；通信网络与移动系统研究载体",
-      "ratingReviewedAt": "2026-10-18"
+      "ratingReviewedAt": "2026-10-18",
+      "deadlineReviewedAt": "2026-10-18"
     },
     {
       "id": "jcns",
@@ -1659,7 +1676,8 @@ window.COMMDDL_DATA = {
       "catalogScope": "communications",
       "scopeReviewedAt": "2026-10-18",
       "scopeNote": "通信相关信号处理及感知研究载体；无线通信研究载体；天线、射频与电磁通信硬件载体",
-      "ratingReviewedAt": "2026-10-18"
+      "ratingReviewedAt": "2026-10-18",
+      "deadlineReviewedAt": "2026-10-18"
     },
     {
       "id": "ccnc",
@@ -1735,7 +1753,8 @@ window.COMMDDL_DATA = {
       "catalogScope": "communications",
       "scopeReviewedAt": "2026-10-18",
       "scopeNote": "通信网络与移动系统研究载体；物联网/车联网研究载体；无线通信研究载体",
-      "ratingReviewedAt": "2026-10-18"
+      "ratingReviewedAt": "2026-10-18",
+      "deadlineReviewedAt": "2026-10-18"
     },
     {
       "id": "secon",
@@ -1814,7 +1833,8 @@ window.COMMDDL_DATA = {
       "catalogScope": "communications",
       "scopeReviewedAt": "2026-10-18",
       "scopeNote": "物联网/车联网研究载体；通信网络与移动系统研究载体；通信相关信号处理及感知研究载体",
-      "ratingReviewedAt": "2026-10-18"
+      "ratingReviewedAt": "2026-10-18",
+      "deadlineReviewedAt": "2026-10-18"
     },
     {
       "id": "icme",
@@ -1900,7 +1920,8 @@ window.COMMDDL_DATA = {
       "catalogScope": "communications",
       "scopeReviewedAt": "2026-10-18",
       "scopeNote": "通信相关信号处理及感知研究载体；智能通信和信号处理交叉载体；通信网络与移动系统研究载体",
-      "ratingReviewedAt": "2026-10-18"
+      "ratingReviewedAt": "2026-10-18",
+      "deadlineReviewedAt": "2026-10-18"
     },
     {
       "id": "cloudnet",
@@ -1973,7 +1994,8 @@ window.COMMDDL_DATA = {
       "catalogScope": "communications",
       "scopeReviewedAt": "2026-10-18",
       "scopeNote": "通信网络与移动系统研究载体；智能通信和信号处理交叉载体",
-      "ratingReviewedAt": "2026-10-18"
+      "ratingReviewedAt": "2026-10-18",
+      "deadlineReviewedAt": "2026-10-18"
     },
     {
       "id": "iwqos",
@@ -2050,7 +2072,8 @@ window.COMMDDL_DATA = {
       "catalogScope": "communications",
       "scopeReviewedAt": "2026-10-18",
       "scopeNote": "通信网络与移动系统研究载体",
-      "ratingReviewedAt": "2026-10-18"
+      "ratingReviewedAt": "2026-10-18",
+      "deadlineReviewedAt": "2026-10-18"
     },
     {
       "id": "twc",
@@ -10350,7 +10373,8 @@ window.COMMDDL_DATA = {
       "catalogScope": "communications",
       "scopeReviewedAt": "2026-10-18",
       "scopeNote": "通信相关信号处理及感知研究载体；天线、射频与电磁通信硬件载体",
-      "ratingReviewedAt": "2026-10-18"
+      "ratingReviewedAt": "2026-10-18",
+      "deadlineReviewedAt": "2026-10-18"
     },
     {
       "id": "camsap",
@@ -10486,7 +10510,8 @@ window.COMMDDL_DATA = {
       "catalogScope": "communications",
       "scopeReviewedAt": "2026-10-18",
       "scopeNote": "通信相关信号处理及感知研究载体",
-      "ratingReviewedAt": "2026-10-18"
+      "ratingReviewedAt": "2026-10-18",
+      "deadlineReviewedAt": "2026-10-18"
     },
     {
       "id": "mlsp",
@@ -10850,7 +10875,8 @@ window.COMMDDL_DATA = {
       "catalogScope": "communications",
       "scopeReviewedAt": "2026-10-18",
       "scopeNote": "通信网络与移动系统研究载体",
-      "ratingReviewedAt": "2026-10-18"
+      "ratingReviewedAt": "2026-10-18",
+      "deadlineReviewedAt": "2026-10-18"
     },
     {
       "id": "conext",
@@ -10925,7 +10951,8 @@ window.COMMDDL_DATA = {
       "catalogScope": "communications",
       "scopeReviewedAt": "2026-10-18",
       "scopeNote": "通信网络与移动系统研究载体；物联网/车联网研究载体；智能通信和信号处理交叉载体",
-      "ratingReviewedAt": "2026-10-18"
+      "ratingReviewedAt": "2026-10-18",
+      "deadlineReviewedAt": "2026-10-18"
     },
     {
       "id": "imc",
@@ -11085,7 +11112,8 @@ window.COMMDDL_DATA = {
       "catalogScope": "communications",
       "scopeReviewedAt": "2026-10-18",
       "scopeNote": "通信网络与移动系统研究载体；无线通信研究载体；物联网/车联网研究载体；信息论与编码研究载体；通信相关信号处理及感知研究载体",
-      "ratingReviewedAt": "2026-10-18"
+      "ratingReviewedAt": "2026-10-18",
+      "deadlineReviewedAt": "2026-10-18"
     },
     {
       "id": "mobisys",
@@ -11170,7 +11198,8 @@ window.COMMDDL_DATA = {
       "catalogScope": "communications",
       "scopeReviewedAt": "2026-10-18",
       "scopeNote": "通信网络与移动系统研究载体；无线通信研究载体；物联网/车联网研究载体；智能通信和信号处理交叉载体；通信相关信号处理及感知研究载体",
-      "ratingReviewedAt": "2026-10-18"
+      "ratingReviewedAt": "2026-10-18",
+      "deadlineReviewedAt": "2026-10-18"
     },
     {
       "id": "mobihoc",
@@ -11257,7 +11286,8 @@ window.COMMDDL_DATA = {
       "catalogScope": "communications",
       "scopeReviewedAt": "2026-10-18",
       "scopeNote": "通信网络与移动系统研究载体；无线通信研究载体；物联网/车联网研究载体",
-      "ratingReviewedAt": "2026-10-18"
+      "ratingReviewedAt": "2026-10-18",
+      "deadlineReviewedAt": "2026-10-18"
     },
     {
       "id": "nsdi",
@@ -11332,7 +11362,8 @@ window.COMMDDL_DATA = {
       "catalogScope": "communications",
       "scopeReviewedAt": "2026-10-18",
       "scopeNote": "通信网络与移动系统研究载体；物联网/车联网研究载体；智能通信和信号处理交叉载体",
-      "ratingReviewedAt": "2026-10-18"
+      "ratingReviewedAt": "2026-10-18",
+      "deadlineReviewedAt": "2026-10-18"
     },
     {
       "id": "sensys",
@@ -11423,7 +11454,8 @@ window.COMMDDL_DATA = {
       "catalogScope": "communications",
       "scopeReviewedAt": "2026-10-18",
       "scopeNote": "物联网/车联网研究载体；通信网络与移动系统研究载体；通信相关信号处理及感知研究载体；无线通信研究载体；智能通信和信号处理交叉载体",
-      "ratingReviewedAt": "2026-10-18"
+      "ratingReviewedAt": "2026-10-18",
+      "deadlineReviewedAt": "2026-10-18"
     },
     {
       "id": "ecoc",
@@ -11502,7 +11534,8 @@ window.COMMDDL_DATA = {
       "catalogScope": "communications",
       "scopeReviewedAt": "2026-10-18",
       "scopeNote": "光通信/光网络及器件交叉研究载体；通信相关信号处理及感知研究载体；通信网络与移动系统研究载体",
-      "ratingReviewedAt": "2026-10-18"
+      "ratingReviewedAt": "2026-10-18",
+      "deadlineReviewedAt": "2026-10-18"
     },
     {
       "id": "cleo",
@@ -11814,7 +11847,8 @@ window.COMMDDL_DATA = {
       "catalogScope": "communications",
       "scopeReviewedAt": "2026-10-18",
       "scopeNote": "天线、射频与电磁通信硬件载体；无线通信研究载体；光通信/光网络及器件交叉研究载体",
-      "ratingReviewedAt": "2026-10-18"
+      "ratingReviewedAt": "2026-10-18",
+      "deadlineReviewedAt": "2026-10-18"
     },
     {
       "id": "apmc",
@@ -16328,7 +16362,8 @@ window.COMMDDL_DATA = {
       "scopeNote": "光通信/光网络及器件交叉研究载体；通信相关信号处理及感知研究载体；通信网络与移动系统研究载体",
       "ratingReviewedAt": "2026-10-18",
       "identityReviewedAt": "2026-10-18",
-      "identityNote": "光通信、光传感、光子学与光电子；2026官网及IEEE Photonics Society活动列表一致。"
+      "identityNote": "光通信、光传感、光子学与光电子；2026官网及IEEE Photonics Society活动列表一致。",
+      "deadlineReviewedAt": "2026-10-18"
     },
     {
       "id": "apnoms",
@@ -18800,7 +18835,8 @@ window.COMMDDL_DATA = {
       "scopeNote": "光通信/光网络及器件交叉研究载体；通信相关信号处理及感知研究载体；通信网络与移动系统研究载体",
       "ratingReviewedAt": "2026-10-18",
       "identityReviewedAt": "2026-10-18",
-      "identityNote": "光子学、光器件及系统；IEEE光子学会2026官方活动确认。"
+      "identityNote": "光子学、光器件及系统；IEEE光子学会2026官方活动确认。",
+      "deadlineReviewedAt": "2026-10-18"
     },
     {
       "id": "isap",
@@ -19127,7 +19163,8 @@ window.COMMDDL_DATA = {
       "scopeNote": "光通信/光网络及器件交叉研究载体；通信相关信号处理及感知研究载体；通信网络与移动系统研究载体",
       "ratingReviewedAt": "2026-10-18",
       "identityReviewedAt": "2026-10-18",
-      "identityNote": "光电子、光通信与网络；2026官方会议页确认。"
+      "identityNote": "光电子、光通信与网络；2026官方会议页确认。",
+      "deadlineReviewedAt": "2026-10-18"
     },
     {
       "id": "oi",
@@ -21242,16 +21279,18 @@ window.COMMDDL_DATA = {
           "reviewedAt": "2026-10-18"
         }
       ],
-      "ratingReviewedAt": "2026-10-18"
+      "ratingReviewedAt": "2026-10-18",
+      "deadlineReviewedAt": "2026-10-18"
     },
     {
       "id": "wowmom",
       "kind": "conference",
       "short": "WoWMoM",
       "nameZh": "IEEE 无线、移动与多媒体网络国际研讨会",
-      "nameEn": "IEEE International Symposium on a World of Wireless, Mobile and Multimedia Networks",
+      "nameEn": "IEEE Symposium on a World of Wireless Mobility, IoT and Machine Learning",
       "aliases": [
-        "WoWMoM"
+        "WoWMoM",
+        "IEEE International Symposium on a World of Wireless, Mobile and Multimedia Networks"
       ],
       "areas": [
         "wireless",
@@ -21263,8 +21302,8 @@ window.COMMDDL_DATA = {
         "mobile-systems",
         "iot-sensing"
       ],
-      "url": "https://www.cs.unibo.it/wowmom2026/",
-      "sourceUrl": "https://www.cs.unibo.it/wowmom2026/",
+      "url": "https://wowmom2027.dii.unipi.it/",
+      "sourceUrl": "https://wowmom2027.dii.unipi.it/",
       "sourceType": "official",
       "verification": "verified",
       "verifiedAt": "2026-10-18",
@@ -21323,7 +21362,9 @@ window.COMMDDL_DATA = {
           "reviewedAt": "2026-10-18"
         }
       ],
-      "ratingReviewedAt": "2026-10-18"
+      "ratingReviewedAt": "2026-10-18",
+      "identityNote": "2027官方使用新会议英文全称，不能把新名称另建重复系列。",
+      "deadlineReviewedAt": "2026-10-18"
     },
     {
       "id": "mass",
@@ -21404,7 +21445,8 @@ window.COMMDDL_DATA = {
           "reviewedAt": "2026-10-18"
         }
       ],
-      "ratingReviewedAt": "2026-10-18"
+      "ratingReviewedAt": "2026-10-18",
+      "deadlineReviewedAt": "2026-10-18"
     },
     {
       "id": "iwcmc",
@@ -21483,7 +21525,8 @@ window.COMMDDL_DATA = {
           "reviewedAt": "2026-10-18"
         }
       ],
-      "ratingReviewedAt": "2026-10-18"
+      "ratingReviewedAt": "2026-10-18",
+      "deadlineReviewedAt": "2026-10-18"
     },
     {
       "id": "ifip-networking",
@@ -21563,7 +21606,8 @@ window.COMMDDL_DATA = {
           "reviewedAt": "2026-10-18"
         }
       ],
-      "ratingReviewedAt": "2026-10-18"
+      "ratingReviewedAt": "2026-10-18",
+      "deadlineReviewedAt": "2026-10-18"
     },
     {
       "id": "apnet",
@@ -21641,7 +21685,8 @@ window.COMMDDL_DATA = {
           "reviewedAt": "2026-10-18"
         }
       ],
-      "ratingReviewedAt": "2026-10-18"
+      "ratingReviewedAt": "2026-10-18",
+      "deadlineReviewedAt": "2026-10-18"
     },
     {
       "id": "hotnets",
@@ -21721,7 +21766,8 @@ window.COMMDDL_DATA = {
           "reviewedAt": "2026-10-18"
         }
       ],
-      "ratingReviewedAt": "2026-10-18"
+      "ratingReviewedAt": "2026-10-18",
+      "deadlineReviewedAt": "2026-10-18"
     },
     {
       "id": "isncc",
@@ -21799,7 +21845,8 @@ window.COMMDDL_DATA = {
           "reviewedAt": "2026-10-18"
         }
       ],
-      "ratingReviewedAt": "2026-10-18"
+      "ratingReviewedAt": "2026-10-18",
+      "deadlineReviewedAt": "2026-10-18"
     },
     {
       "id": "icoin",
@@ -21876,7 +21923,8 @@ window.COMMDDL_DATA = {
           "reviewedAt": "2026-10-18"
         }
       ],
-      "ratingReviewedAt": "2026-10-18"
+      "ratingReviewedAt": "2026-10-18",
+      "deadlineReviewedAt": "2026-10-18"
     },
     {
       "id": "icccn",
@@ -21956,7 +22004,8 @@ window.COMMDDL_DATA = {
           "reviewedAt": "2026-10-18"
         }
       ],
-      "ratingReviewedAt": "2026-10-18"
+      "ratingReviewedAt": "2026-10-18",
+      "deadlineReviewedAt": "2026-10-18"
     },
     {
       "id": "mmsp",
@@ -22267,7 +22316,8 @@ window.COMMDDL_DATA = {
           "reviewedAt": "2026-10-18"
         }
       ],
-      "ratingReviewedAt": "2026-10-18"
+      "ratingReviewedAt": "2026-10-18",
+      "deadlineReviewedAt": "2026-10-18"
     },
     {
       "id": "comsnets",
@@ -22345,7 +22395,8 @@ window.COMMDDL_DATA = {
           "reviewedAt": "2026-10-18"
         }
       ],
-      "ratingReviewedAt": "2026-10-18"
+      "ratingReviewedAt": "2026-10-18",
+      "deadlineReviewedAt": "2026-10-18"
     },
     {
       "id": "icsps",
@@ -25973,7 +26024,8 @@ window.COMMDDL_DATA = {
           "reviewedAt": "2026-10-18"
         }
       ],
-      "ratingReviewedAt": "2026-10-18"
+      "ratingReviewedAt": "2026-10-18",
+      "deadlineReviewedAt": "2026-10-18"
     },
     {
       "kind": "conference",
@@ -26120,7 +26172,8 @@ window.COMMDDL_DATA = {
           "reviewedAt": "2026-10-18"
         }
       ],
-      "ratingReviewedAt": "2026-10-18"
+      "ratingReviewedAt": "2026-10-18",
+      "deadlineReviewedAt": "2026-10-18"
     },
     {
       "kind": "conference",
@@ -26195,7 +26248,8 @@ window.COMMDDL_DATA = {
           "reviewedAt": "2026-10-18"
         }
       ],
-      "ratingReviewedAt": "2026-10-18"
+      "ratingReviewedAt": "2026-10-18",
+      "deadlineReviewedAt": "2026-10-18"
     },
     {
       "kind": "conference",
@@ -26268,7 +26322,8 @@ window.COMMDDL_DATA = {
           "reviewedAt": "2026-10-18"
         }
       ],
-      "ratingReviewedAt": "2026-10-18"
+      "ratingReviewedAt": "2026-10-18",
+      "deadlineReviewedAt": "2026-10-18"
     },
     {
       "kind": "conference",
@@ -26339,7 +26394,8 @@ window.COMMDDL_DATA = {
           "reviewedAt": "2026-10-18"
         }
       ],
-      "ratingReviewedAt": "2026-10-18"
+      "ratingReviewedAt": "2026-10-18",
+      "deadlineReviewedAt": "2026-10-18"
     },
     {
       "kind": "conference",
@@ -26412,7 +26468,8 @@ window.COMMDDL_DATA = {
           "reviewedAt": "2026-10-18"
         }
       ],
-      "ratingReviewedAt": "2026-10-18"
+      "ratingReviewedAt": "2026-10-18",
+      "deadlineReviewedAt": "2026-10-18"
     },
     {
       "id": "aeu",
@@ -27035,33 +27092,41 @@ window.COMMDDL_DATA = {
       "id": "icassp-2027-main",
       "venueId": "icassp",
       "title": "ICASSP 2027 · 主会论文",
-      "titleEn": "ICASSP 2027 Full Paper Submission",
+      "titleEn": "IEEE International Conference on Acoustics, Speech, and Signal Processing",
+      "year": 2027,
       "kind": "conference",
       "areas": [
         "signal",
         "ai",
         "wireless"
       ],
-      "tags": [
-        "信号处理",
-        "通感一体化",
-        "ICASSP"
+      "topics": [
+        "estimation-sync",
+        "arrays",
+        "speech",
+        "imaging",
+        "ai-communications",
+        "isac",
+        "physical"
       ],
-      "summary": "声学、语音与信号处理研究。",
-      "sourceUrl": "https://2027.ieeeicassp.org/eventtype/important-dates/",
-      "url": "https://2027.ieeeicassp.org/eventtype/important-dates/",
+      "tags": [],
+      "summary": "",
+      "url": "https://2027.ieeeicassp.org/call-for-papers/",
+      "sourceUrl": "https://2027.ieeeicassp.org/call-for-papers/",
+      "sourceType": "official",
       "nodes": [
         {
           "id": "paper",
           "label": "全文提交",
           "type": "paper",
           "primary": true,
-          "precision": "date",
-          "date": "2026-09-23",
-          "instant": null,
-          "timezone": null,
-          "original": "Full Paper Submission Deadline: 23 Sep 2026",
-          "revision": 0
+          "precision": "instant",
+          "date": null,
+          "instant": "2026-09-24T00:00:00-12:00",
+          "timezone": "UTC-12:00",
+          "original": "International Date Line: 24:00, 23 September 2026; Beijing: 20:00, 24 September 2026",
+          "revision": 1,
+          "sourceUrl": "https://cmsworkshops.com/ICASSP2027/papers.php"
         },
         {
           "id": "decision",
@@ -27086,87 +27151,123 @@ window.COMMDDL_DATA = {
           "timezone": null,
           "original": "2027-01-27",
           "revision": 0
+        },
+        {
+          "id": "registration",
+          "label": "作者注册",
+          "type": "registration",
+          "primary": false,
+          "precision": "date",
+          "date": "2027-02-10",
+          "instant": null,
+          "timezone": null,
+          "original": "2027-02-10",
+          "revision": 0
         }
       ],
       "verification": "verified",
-      "verifiedAt": "2026-10-17",
-      "updatedAt": "2026-10-17T08:00:00Z",
+      "verifiedAt": "2026-10-18",
+      "checkedAt": "2026-10-18",
+      "updatedAt": "2026-10-18T04:00:00Z",
       "status": "announced",
-      "notes": "列表中的 CMS 显示时刻不作为投稿截止钟点。",
-      "location": "加拿大 · 多伦多",
+      "notes": "当前征稿页与投稿页均为9月23日；投稿页国际日期变更线24:00换算为9月24日00:00 UTC−12，保留原文避免误解。旧paper_kit页仍写9月16日，已排除旧日期。",
+      "location": "加拿大·多伦多",
+      "eventStart": "2027-05-16",
+      "eventEnd": "2027-05-21",
       "eventDates": "2027-05-16 / 2027-05-21",
       "publication": null,
-      "history": [],
-      "topics": [
-        "estimation-sync",
-        "arrays",
-        "speech",
-        "imaging",
-        "ai-communications",
-        "isac",
-        "physical"
+      "history": [
+        {
+          "date": "2026-10-18",
+          "note": "全文提交复查更新：2026-09-23 → 2026-09-24T00:00:00-12:00"
+        }
       ]
     },
     {
       "id": "isit-2027-main",
       "venueId": "isit",
-      "title": "ISIT 2027 · 信息论研讨会",
-      "titleEn": "2027 IEEE International Symposium on Information Theory",
+      "title": "ISIT 2027 · 主会论文",
+      "titleEn": "IEEE International Symposium on Information Theory",
+      "year": 2027,
       "kind": "conference",
       "areas": [
         "theory",
         "signal"
       ],
-      "tags": [
-        "信息论",
-        "编码",
-        "有限码长"
-      ],
-      "summary": "官方学会目录已确认召开日期与地点，投稿节点尚待进一步核实。",
-      "sourceUrl": "https://www.itsoc.org/conferences/isit",
-      "url": "https://www.itsoc.org/conferences/isit",
-      "nodes": [],
-      "verification": "verified",
-      "verifiedAt": "2026-10-17",
-      "updatedAt": "2026-10-17T08:00:00Z",
-      "status": "announced",
-      "notes": "没有从已读取的学会目录确认投稿截止。",
-      "location": "意大利 · 索伦托",
-      "eventDates": "2027-06-27 / 2027-07-02",
-      "publication": null,
-      "history": [],
       "topics": [
         "information-theory",
         "channel-coding",
         "source-coding",
         "quantum"
-      ]
+      ],
+      "tags": [],
+      "summary": "",
+      "url": "https://2027.ieee-isit.org/index.php/",
+      "sourceUrl": "https://2027.ieee-isit.org/index.php/",
+      "sourceType": "official",
+      "nodes": [
+        {
+          "id": "paper",
+          "label": "全文提交",
+          "type": "paper",
+          "primary": true,
+          "precision": "instant",
+          "date": null,
+          "instant": "2027-01-10T23:59:00-12:00",
+          "timezone": "UTC-12:00",
+          "original": "January 10, 2027 (23:59, AoE)",
+          "revision": 0
+        },
+        {
+          "id": "decision",
+          "label": "录用通知",
+          "type": "decision",
+          "primary": false,
+          "precision": "date",
+          "date": "2027-03-27",
+          "instant": null,
+          "timezone": null,
+          "original": "2027-03-27",
+          "revision": 0
+        },
+        {
+          "id": "final",
+          "label": "终稿提交",
+          "type": "final",
+          "primary": false,
+          "precision": "instant",
+          "date": null,
+          "instant": "2027-04-17T23:59:00-12:00",
+          "timezone": "UTC-12:00",
+          "original": "April 17, 2027 (23:59, AoE)",
+          "revision": 0
+        }
+      ],
+      "verification": "verified",
+      "verifiedAt": "2026-10-18",
+      "checkedAt": "2026-10-18",
+      "updatedAt": "2026-10-18T04:00:00Z",
+      "status": "announced",
+      "notes": "主会全文与终稿官网明确23:59 AoE（全球最晚时区，UTC−12）。Recent Results为非存档展示，不进入ISIT论文集/IEEE Xplore，不作为正式论文投稿列入。",
+      "location": "意大利·索伦托",
+      "eventStart": "2027-06-27",
+      "eventEnd": "2027-07-02",
+      "eventDates": "2027-06-27 / 2027-07-02",
+      "publication": null,
+      "history": []
     },
     {
-      "id": "icc-latest",
+      "id": "icc-2027-main",
       "venueId": "icc",
-      "title": "ICC · 最新届次待核验",
-      "titleEn": "IEEE International Conference on Communications",
+      "title": "ICC 2027 · 主会论文",
+      "titleEn": "IEEE International Conference on Communications 2027 main",
+      "year": 2027,
       "kind": "conference",
       "areas": [
         "wireless",
         "network",
         "signal"
       ],
-      "tags": [],
-      "summary": "通信系统与网络的综合会议。",
-      "sourceUrl": "https://www.comsoc.org/conferences-events/portfolio-conferences-events",
-      "url": "https://www.ieee-icc.org/",
-      "nodes": [],
-      "verification": "pending",
-      "verifiedAt": null,
-      "updatedAt": "2026-10-17T08:00:00Z",
-      "status": "unknown",
-      "notes": "已建立会议系列目录。具体届次、投稿节点与举办信息将在核实官方公告后补充。",
-      "location": null,
-      "eventDates": null,
-      "publication": null,
-      "history": [],
       "topics": [
         "physical",
         "mimo",
@@ -27178,33 +27279,79 @@ window.COMMDDL_DATA = {
         "channel-coding",
         "satellite-ntn",
         "security"
-      ]
+      ],
+      "tags": [],
+      "summary": "通信系统与网络的综合会议。",
+      "url": "https://icc2027.ieee-icc.org/authors/call-symposium-papers",
+      "sourceUrl": "https://icc2027.ieee-icc.org/authors/call-symposium-papers",
+      "sourceType": "official",
+      "nodes": [
+        {
+          "id": "paper",
+          "label": "全文提交",
+          "type": "paper",
+          "primary": true,
+          "precision": "date",
+          "date": "2026-10-30",
+          "instant": null,
+          "timezone": null,
+          "original": "Paper Submission Deadline: 30 October 2026 (Firm Deadline)",
+          "revision": 0,
+          "sourceUrl": "https://icc2027.ieee-icc.org/authors/call-symposium-papers"
+        },
+        {
+          "id": "decision",
+          "label": "录用通知",
+          "type": "decision",
+          "primary": false,
+          "precision": "date",
+          "date": "2027-01-15",
+          "instant": null,
+          "timezone": null,
+          "original": "Notification of Acceptance: 2027-01-15",
+          "revision": 0,
+          "sourceUrl": "https://icc2027.ieee-icc.org/authors/call-symposium-papers"
+        },
+        {
+          "id": "final",
+          "label": "终稿提交",
+          "type": "final",
+          "primary": false,
+          "precision": "date",
+          "date": "2027-02-19",
+          "instant": null,
+          "timezone": null,
+          "original": "Camera-Ready / Final Manuscript: 2027-02-19",
+          "revision": 0,
+          "sourceUrl": "https://icc2027.ieee-icc.org/authors/call-symposium-papers"
+        }
+      ],
+      "verification": "verified",
+      "verifiedAt": "2026-10-18",
+      "checkedAt": "2026-10-18",
+      "updatedAt": "2026-10-18T04:00:00Z",
+      "status": "announced",
+      "notes": "官网只公布日期，未明确截止钟点或时区；以日期精度展示，不补造23:59或AoE。",
+      "location": "美国·华盛顿特区",
+      "eventStart": "2027-05-30",
+      "eventEnd": "2027-06-03",
+      "eventDates": "2027-05-30 / 2027-06-03",
+      "publication": null,
+      "history": [],
+      "eventSourceUrl": "https://icc2027.ieee-icc.org"
     },
     {
-      "id": "globecom-latest",
+      "id": "globecom-2026-main",
       "venueId": "globecom",
-      "title": "GLOBECOM · 最新届次待核验",
-      "titleEn": "IEEE Global Communications Conference",
+      "title": "GLOBECOM 2026 · 主会论文",
+      "titleEn": "IEEE Global Communications Conference 2026 main",
+      "year": 2026,
       "kind": "conference",
       "areas": [
         "wireless",
         "network",
         "signal"
       ],
-      "tags": [],
-      "summary": "覆盖通信理论、无线系统与网络。",
-      "sourceUrl": "https://www.comsoc.org/conferences-events/portfolio-conferences-events",
-      "url": "https://www.ieee-globecom.org/",
-      "nodes": [],
-      "verification": "pending",
-      "verifiedAt": null,
-      "updatedAt": "2026-10-17T08:00:00Z",
-      "status": "unknown",
-      "notes": "已建立会议系列目录。具体届次、投稿节点与举办信息将在核实官方公告后补充。",
-      "location": null,
-      "eventDates": null,
-      "publication": null,
-      "history": [],
       "topics": [
         "physical",
         "mimo",
@@ -27216,32 +27363,78 @@ window.COMMDDL_DATA = {
         "channel-coding",
         "ai-communications",
         "security"
-      ]
+      ],
+      "tags": [],
+      "summary": "覆盖通信理论、无线系统与网络。",
+      "url": "https://globecom2026.ieee-globecom.org/authors/call-symposium-papers",
+      "sourceUrl": "https://globecom2026.ieee-globecom.org/authors/call-symposium-papers",
+      "sourceType": "official",
+      "nodes": [
+        {
+          "id": "paper",
+          "label": "全文提交",
+          "type": "paper",
+          "primary": true,
+          "precision": "date",
+          "date": "2026-05-03",
+          "instant": null,
+          "timezone": null,
+          "original": "Deadline for Paper Submission: 3 May 2026 (Firm Deadline!)",
+          "revision": 0,
+          "sourceUrl": "https://globecom2026.ieee-globecom.org/authors/call-symposium-papers"
+        },
+        {
+          "id": "decision",
+          "label": "录用通知",
+          "type": "decision",
+          "primary": false,
+          "precision": "date",
+          "date": "2026-08-01",
+          "instant": null,
+          "timezone": null,
+          "original": "Notification of Acceptance: 2026-08-01",
+          "revision": 0,
+          "sourceUrl": "https://globecom2026.ieee-globecom.org/authors/call-symposium-papers"
+        },
+        {
+          "id": "final",
+          "label": "终稿提交",
+          "type": "final",
+          "primary": false,
+          "precision": "date",
+          "date": "2026-09-08",
+          "instant": null,
+          "timezone": null,
+          "original": "Camera-Ready / Final Manuscript: 2026-09-08",
+          "revision": 0,
+          "sourceUrl": "https://globecom2026.ieee-globecom.org/authors/call-symposium-papers"
+        }
+      ],
+      "verification": "verified",
+      "verifiedAt": "2026-10-18",
+      "checkedAt": "2026-10-18",
+      "updatedAt": "2026-10-18T04:00:00Z",
+      "status": "announced",
+      "notes": "官网只公布日期，未明确截止钟点或时区；以日期精度展示，不补造23:59或AoE。",
+      "location": "中国·澳门",
+      "eventStart": "2026-12-07",
+      "eventEnd": "2026-12-11",
+      "eventDates": "2026-12-07 / 2026-12-11",
+      "publication": null,
+      "history": [],
+      "eventSourceUrl": "https://globecom2026.ieee-globecom.org"
     },
     {
-      "id": "wcnc-latest",
+      "id": "wcnc-2027-main",
       "venueId": "wcnc",
-      "title": "WCNC · 最新届次待核验",
-      "titleEn": "IEEE Wireless Communications and Networking Conference",
+      "title": "WCNC 2027 · 主会论文",
+      "titleEn": "IEEE Wireless Communications and Networking Conference 2027 main",
+      "year": 2027,
       "kind": "conference",
       "areas": [
         "wireless",
         "network"
       ],
-      "tags": [],
-      "summary": "无线通信技术与网络研究。",
-      "sourceUrl": "https://www.comsoc.org/conferences-events/portfolio-conferences-events",
-      "url": "https://www.ieee-wcnc.org/",
-      "nodes": [],
-      "verification": "pending",
-      "verifiedAt": null,
-      "updatedAt": "2026-10-17T08:00:00Z",
-      "status": "unknown",
-      "notes": "已建立会议系列目录。具体届次、投稿节点与举办信息将在核实官方公告后补充。",
-      "location": null,
-      "eventDates": null,
-      "publication": null,
-      "history": [],
       "topics": [
         "physical",
         "mimo",
@@ -27251,32 +27444,78 @@ window.COMMDDL_DATA = {
         "isac",
         "satellite-ntn",
         "ai-communications"
-      ]
+      ],
+      "tags": [],
+      "summary": "无线通信技术与网络研究。",
+      "url": "https://wcnc2027.ieee-wcnc.org/authors/call-papers",
+      "sourceUrl": "https://wcnc2027.ieee-wcnc.org/authors/call-papers",
+      "sourceType": "official",
+      "nodes": [
+        {
+          "id": "paper",
+          "label": "全文提交",
+          "type": "paper",
+          "primary": true,
+          "precision": "date",
+          "date": "2026-10-26",
+          "instant": null,
+          "timezone": null,
+          "original": "Paper Submission Deadline: 26 October 2026 (Final Deadline)",
+          "revision": 0,
+          "sourceUrl": "https://wcnc2027.ieee-wcnc.org/authors/call-papers"
+        },
+        {
+          "id": "decision",
+          "label": "录用通知",
+          "type": "decision",
+          "primary": false,
+          "precision": "date",
+          "date": "2027-01-15",
+          "instant": null,
+          "timezone": null,
+          "original": "Notification of Acceptance: 2027-01-15",
+          "revision": 0,
+          "sourceUrl": "https://wcnc2027.ieee-wcnc.org/authors/call-papers"
+        },
+        {
+          "id": "final",
+          "label": "终稿提交",
+          "type": "final",
+          "primary": false,
+          "precision": "date",
+          "date": "2027-02-08",
+          "instant": null,
+          "timezone": null,
+          "original": "Camera-Ready / Final Manuscript: 2027-02-08",
+          "revision": 0,
+          "sourceUrl": "https://wcnc2027.ieee-wcnc.org/authors/call-papers"
+        }
+      ],
+      "verification": "verified",
+      "verifiedAt": "2026-10-18",
+      "checkedAt": "2026-10-18",
+      "updatedAt": "2026-10-18T04:00:00Z",
+      "status": "announced",
+      "notes": "官网只公布日期，未明确截止钟点或时区；以日期精度展示，不补造23:59或AoE。",
+      "location": "巴拿马·巴拿马城",
+      "eventStart": "2027-04-05",
+      "eventEnd": "2027-04-08",
+      "eventDates": "2027-04-05 / 2027-04-08",
+      "publication": null,
+      "history": [],
+      "eventSourceUrl": "https://wcnc2027.ieee-wcnc.org"
     },
     {
-      "id": "pimrc-latest",
+      "id": "pimrc-2027-main",
       "venueId": "pimrc",
-      "title": "PIMRC · 最新届次待核验",
-      "titleEn": "IEEE International Symposium on Personal, Indoor and Mobile Radio Communications",
+      "title": "PIMRC 2027 · 主会论文",
+      "titleEn": "IEEE International Symposium on Personal, Indoor and Mobile Radio Communications 2027 main",
+      "year": 2027,
       "kind": "conference",
       "areas": [
         "wireless",
         "signal"
       ],
-      "tags": [],
-      "summary": "移动无线通信及相关系统。",
-      "sourceUrl": "https://www.comsoc.org/conferences-events/portfolio-conferences-events",
-      "url": "https://www.ieee-pimrc.org/",
-      "nodes": [],
-      "verification": "pending",
-      "verifiedAt": null,
-      "updatedAt": "2026-10-17T08:00:00Z",
-      "status": "unknown",
-      "notes": "已建立会议系列目录。具体届次、投稿节点与举办信息将在核实官方公告后补充。",
-      "location": null,
-      "eventDates": null,
-      "publication": null,
-      "history": [],
       "topics": [
         "physical",
         "mimo",
@@ -27285,183 +27524,79 @@ window.COMMDDL_DATA = {
         "mobile-systems",
         "isac",
         "satellite-ntn"
-      ]
-    },
-    {
-      "id": "itw-latest",
-      "venueId": "itw",
-      "title": "ITW · 最新届次待核验",
-      "titleEn": "IEEE Information Theory Workshop",
-      "kind": "conference",
-      "areas": [
-        "theory"
       ],
       "tags": [],
-      "summary": "信息论相关专题；最新届次需进一步核实。",
-      "sourceUrl": "https://www.itsoc.org/",
-      "url": "https://www.itsoc.org/",
-      "nodes": [],
-      "verification": "pending",
-      "verifiedAt": null,
-      "updatedAt": "2026-10-17T08:00:00Z",
-      "status": "unknown",
-      "notes": "已建立会议系列目录。具体届次、投稿节点与举办信息将在核实官方公告后补充。",
-      "location": null,
-      "eventDates": null,
-      "publication": null,
-      "history": [],
-      "topics": [
-        "information-theory",
-        "channel-coding",
-        "source-coding"
-      ]
-    },
-    {
-      "id": "spawc-latest",
-      "venueId": "spawc",
-      "title": "SPAWC · 最新届次待核验",
-      "titleEn": "IEEE Workshop on Signal Processing Advances in Wireless Communications",
-      "kind": "conference",
-      "areas": [
-        "wireless",
-        "signal"
+      "summary": "移动无线通信及相关系统。",
+      "url": "https://pimrc2027.ieee-pimrc.org/",
+      "sourceUrl": "https://pimrc2027.ieee-pimrc.org/",
+      "sourceType": "official",
+      "nodes": [
+        {
+          "id": "paper",
+          "label": "全文提交",
+          "type": "paper",
+          "primary": true,
+          "precision": "date",
+          "date": "2027-03-12",
+          "instant": null,
+          "timezone": null,
+          "original": "Paper Submission Deadline: 12 Mar 2027",
+          "revision": 0,
+          "sourceUrl": "https://pimrc2027.ieee-pimrc.org/"
+        },
+        {
+          "id": "decision",
+          "label": "录用通知",
+          "type": "decision",
+          "primary": false,
+          "precision": "date",
+          "date": "2027-06-11",
+          "instant": null,
+          "timezone": null,
+          "original": "Notification of Acceptance: 2027-06-11",
+          "revision": 0,
+          "sourceUrl": "https://pimrc2027.ieee-pimrc.org/"
+        },
+        {
+          "id": "final",
+          "label": "终稿提交",
+          "type": "final",
+          "primary": false,
+          "precision": "date",
+          "date": "2027-07-16",
+          "instant": null,
+          "timezone": null,
+          "original": "Camera-Ready / Final Manuscript: 2027-07-16",
+          "revision": 0,
+          "sourceUrl": "https://pimrc2027.ieee-pimrc.org/"
+        }
       ],
-      "tags": [],
-      "summary": "无线通信与信号处理交叉方向。",
-      "sourceUrl": "https://signalprocessingsociety.org/events/conferences",
-      "url": "https://signalprocessingsociety.org/events/conferences",
-      "nodes": [],
-      "verification": "pending",
-      "verifiedAt": null,
-      "updatedAt": "2026-10-17T08:00:00Z",
-      "status": "unknown",
-      "notes": "已建立会议系列目录。具体届次、投稿节点与举办信息将在核实官方公告后补充。",
-      "location": null,
-      "eventDates": null,
+      "verification": "verified",
+      "verifiedAt": "2026-10-18",
+      "checkedAt": "2026-10-18",
+      "updatedAt": "2026-10-18T04:00:00Z",
+      "status": "announced",
+      "notes": "官网只公布日期，未明确截止钟点或时区；以日期精度展示，不补造23:59或AoE。",
+      "location": "葡萄牙·里斯本",
+      "eventStart": "2027-09-07",
+      "eventEnd": "2027-09-10",
+      "eventDates": "2027-09-07 / 2027-09-10",
       "publication": null,
       "history": [],
-      "topics": [
-        "estimation-sync",
-        "mimo",
-        "physical",
-        "isac"
-      ]
+      "eventSourceUrl": "https://www.ieee-pimrc.org/"
     },
     {
-      "id": "icip-latest",
-      "venueId": "icip",
-      "title": "ICIP · 最新届次待核验",
-      "titleEn": "IEEE International Conference on Image Processing",
-      "kind": "conference",
-      "areas": [
-        "signal",
-        "ai"
-      ],
-      "tags": [],
-      "summary": "图像与视频处理、视觉信息分析。",
-      "sourceUrl": "https://signalprocessingsociety.org/events/conferences",
-      "url": "https://signalprocessingsociety.org/events/conferences",
-      "nodes": [],
-      "verification": "pending",
-      "verifiedAt": null,
-      "updatedAt": "2026-10-17T08:00:00Z",
-      "status": "unknown",
-      "notes": "已建立会议系列目录。具体届次、投稿节点与举办信息将在核实官方公告后补充。",
-      "location": null,
-      "eventDates": null,
-      "publication": null,
-      "history": [],
-      "topics": [
-        "imaging",
-        "source-coding"
-      ]
-    },
-    {
-      "id": "infocom-latest",
-      "venueId": "infocom",
-      "title": "INFOCOM · 最新届次待核验",
-      "titleEn": "IEEE International Conference on Computer Communications",
-      "kind": "conference",
-      "areas": [
-        "network",
-        "iot"
-      ],
-      "tags": [],
-      "summary": "通信网络的理论与系统研究。",
-      "sourceUrl": "https://www.comsoc.org/conferences-events/portfolio-conferences-events",
-      "url": "https://www.ieee-infocom.org/",
-      "nodes": [],
-      "verification": "pending",
-      "verifiedAt": null,
-      "updatedAt": "2026-10-17T08:00:00Z",
-      "status": "unknown",
-      "notes": "已建立会议系列目录。具体届次、投稿节点与举办信息将在核实官方公告后补充。",
-      "location": null,
-      "eventDates": null,
-      "publication": null,
-      "history": [],
-      "topics": [
-        "protocols",
-        "measurement",
-        "security",
-        "edge-cloud"
-      ]
-    },
-    {
-      "id": "ofc-latest",
-      "venueId": "ofc",
-      "title": "OFC · 最新届次待核验",
-      "titleEn": "Optical Fiber Communication Conference and Exposition",
-      "kind": "conference",
-      "areas": [
-        "optical",
-        "network"
-      ],
-      "tags": [],
-      "summary": "光通信、光网络及相关光电系统。",
-      "sourceUrl": "https://www.comsoc.org/conferences-events/portfolio-conferences-events",
-      "url": "https://www.ofcconference.org/",
-      "nodes": [],
-      "verification": "pending",
-      "verifiedAt": null,
-      "updatedAt": "2026-10-17T08:00:00Z",
-      "status": "unknown",
-      "notes": "已建立会议系列目录。具体届次、投稿节点与举办信息将在核实官方公告后补充。",
-      "location": null,
-      "eventDates": null,
-      "publication": null,
-      "history": [],
-      "topics": [
-        "fiber",
-        "optical-networks",
-        "photonics"
-      ]
-    },
-    {
-      "id": "iccc-latest",
+      "id": "iccc-2026-main",
       "venueId": "iccc",
-      "title": "ICCC · 最新届次待核验",
-      "titleEn": "IEEE/CIC International Conference on Communications in China",
+      "title": "ICCC 2026 · 主会论文",
+      "titleEn": "IEEE/CIC International Conference on Communications in China 2026 main",
+      "year": 2026,
       "kind": "conference",
       "areas": [
         "wireless",
         "network",
         "signal"
       ],
-      "tags": [],
-      "summary": "通信理论、技术与系统。",
-      "sourceUrl": "https://www.comsoc.org/conferences-events/portfolio-conferences-events",
-      "url": "https://www.ieee-iccc.org/",
-      "nodes": [],
-      "verification": "pending",
-      "verifiedAt": null,
-      "updatedAt": "2026-10-17T08:00:00Z",
-      "status": "unknown",
-      "notes": "已建立会议系列目录。具体届次、投稿节点与举办信息将在核实官方公告后补充。",
-      "location": null,
-      "eventDates": null,
-      "publication": null,
-      "history": [],
       "topics": [
         "physical",
         "mimo",
@@ -27470,336 +27605,4789 @@ window.COMMDDL_DATA = {
         "isac",
         "satellite-ntn",
         "channel-coding"
-      ]
-    },
-    {
-      "id": "noms-latest",
-      "venueId": "noms",
-      "title": "NOMS · 最新届次待核验",
-      "titleEn": "IEEE/IFIP Network Operations and Management Symposium",
-      "kind": "conference",
-      "areas": [
-        "network",
-        "ai"
       ],
       "tags": [],
-      "summary": "网络与服务管理；官网说明已与 IM 合并。",
-      "sourceUrl": "https://www.comsoc.org/conferences-events/portfolio-conferences-events",
-      "url": "https://www.ieee-noms.org/",
-      "nodes": [],
-      "verification": "pending",
-      "verifiedAt": null,
-      "updatedAt": "2026-10-17T08:00:00Z",
-      "status": "unknown",
-      "notes": "已建立会议系列目录。具体届次、投稿节点与举办信息将在核实官方公告后补充。",
-      "location": null,
-      "eventDates": null,
-      "publication": null,
-      "history": [],
-      "topics": [
-        "network-management",
-        "measurement",
-        "protocols"
-      ]
-    },
-    {
-      "id": "cns-latest",
-      "venueId": "cns",
-      "title": "CNS · 最新届次待核验",
-      "titleEn": "IEEE Conference on Communications and Network Security",
-      "kind": "conference",
-      "areas": [
-        "network",
-        "wireless"
+      "summary": "通信理论、技术与系统。",
+      "url": "https://iccc2026.ieee-iccc.org/authors",
+      "sourceUrl": "https://iccc2026.ieee-iccc.org/authors",
+      "sourceType": "official",
+      "nodes": [
+        {
+          "id": "paper",
+          "label": "全文提交",
+          "type": "paper",
+          "primary": true,
+          "precision": "date",
+          "date": "2026-05-15",
+          "instant": null,
+          "timezone": null,
+          "original": "Full Paper Submission: 15 May 2026",
+          "revision": 0,
+          "sourceUrl": "https://iccc2026.ieee-iccc.org/authors"
+        },
+        {
+          "id": "decision",
+          "label": "录用通知",
+          "type": "decision",
+          "primary": false,
+          "precision": "date",
+          "date": "2026-06-30",
+          "instant": null,
+          "timezone": null,
+          "original": "Notification of Acceptance: 2026-06-30",
+          "revision": 0,
+          "sourceUrl": "https://iccc2026.ieee-iccc.org/authors"
+        },
+        {
+          "id": "final",
+          "label": "终稿提交",
+          "type": "final",
+          "primary": false,
+          "precision": "date",
+          "date": "2026-07-10",
+          "instant": null,
+          "timezone": null,
+          "original": "Camera-Ready / Final Manuscript: 2026-07-10",
+          "revision": 0,
+          "sourceUrl": "https://iccc2026.ieee-iccc.org/authors"
+        }
       ],
-      "tags": [],
-      "summary": "通信系统与网络安全。",
-      "sourceUrl": "https://www.comsoc.org/conferences-events/portfolio-conferences-events",
-      "url": "https://www.ieee-cns.org/",
-      "nodes": [],
-      "verification": "pending",
-      "verifiedAt": null,
-      "updatedAt": "2026-10-17T08:00:00Z",
-      "status": "unknown",
-      "notes": "已建立会议系列目录。具体届次、投稿节点与举办信息将在核实官方公告后补充。",
-      "location": null,
-      "eventDates": null,
+      "verification": "verified",
+      "verifiedAt": "2026-10-18",
+      "checkedAt": "2026-10-18",
+      "updatedAt": "2026-10-18T04:00:00Z",
+      "status": "announced",
+      "notes": "CFP旧正文仍写March 23th, 2026；同页Important Dates及独立Authors页一致为15 May 2026，采用日期表并保留旧正文差异。未公布钟点/时区。",
+      "location": "中国·武汉",
+      "eventStart": "2026-08-07",
+      "eventEnd": "2026-08-09",
+      "eventDates": "2026-08-07 / 2026-08-09",
       "publication": null,
       "history": [],
-      "topics": [
-        "security",
-        "protocols"
+      "eventSourceUrl": "https://iccc2026.ieee-iccc.org",
+      "evidenceIssues": [
+        {
+          "type": "stale-text",
+          "sourceUrl": "https://iccc2026.ieee-iccc.org/authors/call-papers",
+          "note": "旧正文3月23日与当前日期表5月15日不一致；独立authors页支持5月15日。"
+        }
       ]
     },
     {
-      "id": "dyspan-latest",
-      "venueId": "dyspan",
-      "title": "DySPAN · 最新届次待核验",
-      "titleEn": "IEEE International Symposium on Dynamic Spectrum Access Networks",
-      "kind": "conference",
-      "areas": [
-        "wireless",
-        "network"
-      ],
-      "tags": [],
-      "summary": "动态频谱接入及相关技术与政策。",
-      "sourceUrl": "https://www.comsoc.org/conferences-events/portfolio-conferences-events",
-      "url": "https://www.ieee-dyspan.org/",
-      "nodes": [],
-      "verification": "pending",
-      "verifiedAt": null,
-      "updatedAt": "2026-10-17T08:00:00Z",
-      "status": "unknown",
-      "notes": "已建立会议系列目录。具体届次、投稿节点与举办信息将在核实官方公告后补充。",
-      "location": null,
-      "eventDates": null,
-      "publication": null,
-      "history": [],
-      "topics": [
-        "resources",
-        "physical"
-      ]
-    },
-    {
-      "id": "milcom-latest",
-      "venueId": "milcom",
-      "title": "MILCOM · 最新届次待核验",
-      "titleEn": "IEEE Military Communications Conference",
-      "kind": "conference",
-      "areas": [
-        "wireless",
-        "space",
-        "network"
-      ],
-      "tags": [],
-      "summary": "军事通信技术；不同投稿通道分别核实。",
-      "sourceUrl": "https://www.comsoc.org/conferences-events/portfolio-conferences-events",
-      "url": "https://www.milcom.org/",
-      "nodes": [],
-      "verification": "pending",
-      "verifiedAt": null,
-      "updatedAt": "2026-10-17T08:00:00Z",
-      "status": "unknown",
-      "notes": "已建立会议系列目录。具体届次、投稿节点与举办信息将在核实官方公告后补充。",
-      "location": null,
-      "eventDates": null,
-      "publication": null,
-      "history": [],
-      "topics": [
-        "physical",
-        "security",
-        "satellite-ntn"
-      ]
-    },
-    {
-      "id": "icmlcn-latest",
-      "venueId": "icmlcn",
-      "title": "ICMLCN · 最新届次待核验",
-      "titleEn": "IEEE International Conference on Machine Learning for Communication and Networking",
-      "kind": "conference",
-      "areas": [
-        "ai",
-        "wireless",
-        "network"
-      ],
-      "tags": [],
-      "summary": "面向通信系统与网络的机器学习。",
-      "sourceUrl": "https://www.comsoc.org/conferences-events/portfolio-conferences-events",
-      "url": "https://www.ieee-icmlcn.org/",
-      "nodes": [],
-      "verification": "pending",
-      "verifiedAt": null,
-      "updatedAt": "2026-10-17T08:00:00Z",
-      "status": "unknown",
-      "notes": "已建立会议系列目录。具体届次、投稿节点与举办信息将在核实官方公告后补充。",
-      "location": null,
-      "eventDates": null,
-      "publication": null,
-      "history": [],
-      "topics": [
-        "ai-communications",
-        "distributed-learning"
-      ]
-    },
-    {
-      "id": "jcns-latest",
-      "venueId": "jcns",
-      "title": "JC&S · 最新届次待核验",
-      "titleEn": "IEEE International Symposium on Joint Communications & Sensing",
-      "kind": "conference",
-      "areas": [
-        "signal",
-        "wireless",
-        "rf"
-      ],
-      "tags": [],
-      "summary": "通信与感知联合设计。",
-      "sourceUrl": "https://www.comsoc.org/conferences-events/portfolio-conferences-events",
-      "url": "https://jcns-symposium.org/",
-      "nodes": [],
-      "verification": "pending",
-      "verifiedAt": null,
-      "updatedAt": "2026-10-17T08:00:00Z",
-      "status": "unknown",
-      "notes": "已建立会议系列目录。具体届次、投稿节点与举办信息将在核实官方公告后补充。",
-      "location": null,
-      "eventDates": null,
-      "publication": null,
-      "history": [],
-      "topics": [
-        "isac",
-        "radar",
-        "mimo"
-      ]
-    },
-    {
-      "id": "ccnc-latest",
+      "id": "ccnc-2027-main",
       "venueId": "ccnc",
-      "title": "CCNC · 最新届次待核验",
-      "titleEn": "IEEE Consumer Communications & Networking Conference",
+      "title": "CCNC 2027 · 主会论文",
+      "titleEn": "IEEE Consumer Communications & Networking Conference 2027 main",
+      "year": 2027,
       "kind": "conference",
       "areas": [
         "network",
         "iot",
         "wireless"
       ],
-      "tags": [],
-      "summary": "消费通信、联网设备与相关服务。",
-      "sourceUrl": "https://www.comsoc.org/conferences-events/portfolio-conferences-events",
-      "url": "https://www.ieee-ccnc.org/",
-      "nodes": [],
-      "verification": "pending",
-      "verifiedAt": null,
-      "updatedAt": "2026-10-17T08:00:00Z",
-      "status": "unknown",
-      "notes": "已建立会议系列目录。具体届次、投稿节点与举办信息将在核实官方公告后补充。",
-      "location": null,
-      "eventDates": null,
-      "publication": null,
-      "history": [],
       "topics": [
         "mobile-systems",
         "iot-sensing",
         "edge-cloud"
-      ]
+      ],
+      "tags": [],
+      "summary": "消费通信、联网设备与相关服务。",
+      "url": "https://ccnc2027.ieee-ccnc.org/authors/call-technical-papers",
+      "sourceUrl": "https://ccnc2027.ieee-ccnc.org/authors/call-technical-papers",
+      "sourceType": "official",
+      "nodes": [
+        {
+          "id": "paper",
+          "label": "全文提交",
+          "type": "paper",
+          "primary": true,
+          "precision": "date",
+          "date": "2026-08-31",
+          "instant": null,
+          "timezone": null,
+          "original": "Paper Submission Deadline: 31 August 2026 (Firm Deadline)",
+          "revision": 0,
+          "sourceUrl": "https://ccnc2027.ieee-ccnc.org/authors/call-technical-papers"
+        },
+        {
+          "id": "decision",
+          "label": "录用通知",
+          "type": "decision",
+          "primary": false,
+          "precision": "date",
+          "date": "2026-10-01",
+          "instant": null,
+          "timezone": null,
+          "original": "Notification of Acceptance: 2026-10-01",
+          "revision": 0,
+          "sourceUrl": "https://ccnc2027.ieee-ccnc.org/authors/call-technical-papers"
+        },
+        {
+          "id": "final",
+          "label": "终稿提交",
+          "type": "final",
+          "primary": false,
+          "precision": "date",
+          "date": "2026-11-15",
+          "instant": null,
+          "timezone": null,
+          "original": "Camera-Ready / Final Manuscript: 2026-11-15",
+          "revision": 0,
+          "sourceUrl": "https://ccnc2027.ieee-ccnc.org/authors/call-technical-papers"
+        }
+      ],
+      "verification": "verified",
+      "verifiedAt": "2026-10-18",
+      "checkedAt": "2026-10-18",
+      "updatedAt": "2026-10-18T04:00:00Z",
+      "status": "announced",
+      "notes": "官网只公布日期，未明确截止钟点或时区；以日期精度展示，不补造23:59或AoE。",
+      "location": "美国·拉斯维加斯",
+      "eventStart": "2027-01-09",
+      "eventEnd": "2027-01-12",
+      "eventDates": "2027-01-09 / 2027-01-12",
+      "publication": null,
+      "history": [],
+      "eventSourceUrl": "https://ccnc2027.ieee-ccnc.org"
     },
     {
-      "id": "secon-latest",
+      "id": "noms-2027-main",
+      "venueId": "noms",
+      "title": "NOMS 2027 · 主会论文",
+      "titleEn": "IEEE/IFIP Network Operations and Management Symposium 2027 main",
+      "year": 2027,
+      "kind": "conference",
+      "areas": [
+        "network",
+        "ai"
+      ],
+      "topics": [
+        "network-management",
+        "measurement",
+        "protocols"
+      ],
+      "tags": [],
+      "summary": "网络运行与管理会议；ComSoc 官方说明 NOMS 已与 IM 合并，历史 IM 条目另保留原文件来源，不能假定独立举办。",
+      "url": "https://noms2027.ieee-noms.org/authors",
+      "sourceUrl": "https://noms2027.ieee-noms.org/authors",
+      "sourceType": "official",
+      "nodes": [
+        {
+          "id": "paper",
+          "label": "全文提交",
+          "type": "paper",
+          "primary": true,
+          "precision": "date",
+          "date": "2026-11-09",
+          "instant": null,
+          "timezone": null,
+          "original": "Paper Submission Deadline: 09 November 2026",
+          "revision": 0,
+          "sourceUrl": "https://noms2027.ieee-noms.org/authors"
+        },
+        {
+          "id": "decision",
+          "label": "录用通知",
+          "type": "decision",
+          "primary": false,
+          "precision": "date",
+          "date": "2027-02-15",
+          "instant": null,
+          "timezone": null,
+          "original": "Notification of Acceptance: 2027-02-15",
+          "revision": 0,
+          "sourceUrl": "https://noms2027.ieee-noms.org/authors"
+        },
+        {
+          "id": "final",
+          "label": "终稿提交",
+          "type": "final",
+          "primary": false,
+          "precision": "date",
+          "date": "2027-02-28",
+          "instant": null,
+          "timezone": null,
+          "original": "Camera-Ready / Final Manuscript: 2027-02-28",
+          "revision": 0,
+          "sourceUrl": "https://noms2027.ieee-noms.org/authors"
+        }
+      ],
+      "verification": "verified",
+      "verifiedAt": "2026-10-18",
+      "checkedAt": "2026-10-18",
+      "updatedAt": "2026-10-18T04:00:00Z",
+      "status": "announced",
+      "notes": "官网只公布日期，未明确截止钟点或时区；以日期精度展示，不补造23:59或AoE。",
+      "location": "加拿大·蒙特利尔",
+      "eventStart": "2027-05-10",
+      "eventEnd": "2027-05-14",
+      "eventDates": "2027-05-10 / 2027-05-14",
+      "publication": null,
+      "history": [],
+      "eventSourceUrl": "https://noms2027.ieee-noms.org"
+    },
+    {
+      "id": "secon-2027-main",
       "venueId": "secon",
-      "title": "SECON · 最新届次待核验",
-      "titleEn": "IEEE International Conference on Sensing, Communication, and Networking",
+      "title": "SECON 2027 · 主会论文",
+      "titleEn": "IEEE International Conference on Sensing, Communication, and Networking 2027 main",
+      "year": 2027,
       "kind": "conference",
       "areas": [
         "iot",
         "network",
         "signal"
       ],
-      "tags": [],
-      "summary": "感知网络、无线通信和物联网系统。",
-      "sourceUrl": "https://www.comsoc.org/conferences-events/portfolio-conferences-events",
-      "url": "https://www.ieee-secon.org/",
-      "nodes": [],
-      "verification": "pending",
-      "verifiedAt": null,
-      "updatedAt": "2026-10-17T08:00:00Z",
-      "status": "unknown",
-      "notes": "已建立会议系列目录。具体届次、投稿节点与举办信息将在核实官方公告后补充。",
-      "location": null,
-      "eventDates": null,
-      "publication": null,
-      "history": [],
       "topics": [
         "iot-sensing",
         "mobile-systems",
         "protocols"
+      ],
+      "tags": [],
+      "summary": "感知网络、无线通信和物联网系统。",
+      "url": "https://secon2027.ieee-secon.org/call-papers",
+      "sourceUrl": "https://secon2027.ieee-secon.org/call-papers",
+      "sourceType": "official",
+      "nodes": [
+        {
+          "id": "paper",
+          "label": "全文提交",
+          "type": "paper",
+          "primary": true,
+          "precision": "date",
+          "date": "2026-11-30",
+          "instant": null,
+          "timezone": null,
+          "original": "Paper Submission Deadline: 30 November 2026",
+          "revision": 0,
+          "sourceUrl": "https://secon2027.ieee-secon.org/call-papers"
+        },
+        {
+          "id": "decision",
+          "label": "录用通知",
+          "type": "decision",
+          "primary": false,
+          "precision": "date",
+          "date": "2027-02-15",
+          "instant": null,
+          "timezone": null,
+          "original": "Notification of Acceptance: 2027-02-15",
+          "revision": 0,
+          "sourceUrl": "https://secon2027.ieee-secon.org/call-papers"
+        },
+        {
+          "id": "final",
+          "label": "终稿提交",
+          "type": "final",
+          "primary": false,
+          "precision": "date",
+          "date": "2027-03-15",
+          "instant": null,
+          "timezone": null,
+          "original": "Camera-Ready / Final Manuscript: 2027-03-15",
+          "revision": 0,
+          "sourceUrl": "https://secon2027.ieee-secon.org/call-papers"
+        }
+      ],
+      "verification": "verified",
+      "verifiedAt": "2026-10-18",
+      "checkedAt": "2026-10-18",
+      "updatedAt": "2026-10-18T04:00:00Z",
+      "status": "announced",
+      "notes": "官网只公布日期，未明确截止钟点或时区；以日期精度展示，不补造23:59或AoE。",
+      "location": "葡萄牙·里斯本",
+      "eventStart": "2027-05-05",
+      "eventEnd": "2027-05-07",
+      "eventDates": "2027-05-05 / 2027-05-07",
+      "publication": null,
+      "history": [],
+      "eventSourceUrl": "https://www.ieee-secon.org/"
+    },
+    {
+      "id": "dyspan-2027-main",
+      "venueId": "dyspan",
+      "title": "DySPAN 2027 · 主会论文",
+      "titleEn": "IEEE International Symposium on Dynamic Spectrum Access Networks 2027 main",
+      "year": 2027,
+      "kind": "conference",
+      "areas": [
+        "wireless",
+        "network"
+      ],
+      "topics": [
+        "resources",
+        "physical"
+      ],
+      "tags": [],
+      "summary": "动态频谱接入及相关技术与政策。",
+      "url": "https://dyspan2027.ieee-dyspan.org/call-papers",
+      "sourceUrl": "https://dyspan2027.ieee-dyspan.org/call-papers",
+      "sourceType": "official",
+      "nodes": [
+        {
+          "id": "paper",
+          "label": "全文提交",
+          "type": "paper",
+          "primary": true,
+          "precision": "date",
+          "date": "2026-12-07",
+          "instant": null,
+          "timezone": null,
+          "original": "Paper Submission Deadline: 07 December 2026",
+          "revision": 0,
+          "sourceUrl": "https://dyspan2027.ieee-dyspan.org/call-papers"
+        },
+        {
+          "id": "decision",
+          "label": "录用通知",
+          "type": "decision",
+          "primary": false,
+          "precision": "date",
+          "date": "2027-02-15",
+          "instant": null,
+          "timezone": null,
+          "original": "Notification of Acceptance: 2027-02-15",
+          "revision": 0,
+          "sourceUrl": "https://dyspan2027.ieee-dyspan.org/call-papers"
+        },
+        {
+          "id": "final",
+          "label": "终稿提交",
+          "type": "final",
+          "primary": false,
+          "precision": "date",
+          "date": "2027-03-05",
+          "instant": null,
+          "timezone": null,
+          "original": "Camera-Ready / Final Manuscript: 2027-03-05",
+          "revision": 0,
+          "sourceUrl": "https://dyspan2027.ieee-dyspan.org/call-papers"
+        }
+      ],
+      "verification": "verified",
+      "verifiedAt": "2026-10-18",
+      "checkedAt": "2026-10-18",
+      "updatedAt": "2026-10-18T04:00:00Z",
+      "status": "announced",
+      "notes": "官网只公布日期，未明确截止钟点或时区；以日期精度展示，不补造23:59或AoE。",
+      "location": "加拿大·渥太华",
+      "eventStart": "2027-05-17",
+      "eventEnd": "2027-05-20",
+      "eventDates": "2027-05-17 / 2027-05-20",
+      "publication": null,
+      "history": [],
+      "eventSourceUrl": "https://www.ieee-dyspan.org/"
+    },
+    {
+      "id": "cns-2026-main",
+      "venueId": "cns",
+      "title": "CNS 2026 · 主会论文",
+      "titleEn": "IEEE Conference on Communications and Network Security 2026 main",
+      "year": 2026,
+      "kind": "conference",
+      "areas": [
+        "network",
+        "wireless"
+      ],
+      "topics": [
+        "security",
+        "protocols"
+      ],
+      "tags": [],
+      "summary": "通信系统与网络安全。",
+      "url": "https://cns2026.ieee-cns.org/authors/call-papers",
+      "sourceUrl": "https://cns2026.ieee-cns.org/authors/call-papers",
+      "sourceType": "official",
+      "nodes": [
+        {
+          "id": "paper",
+          "label": "全文提交",
+          "type": "paper",
+          "primary": true,
+          "precision": "date",
+          "date": "2026-05-18",
+          "instant": null,
+          "timezone": null,
+          "original": "Paper Submission Deadline: 18 May 2026 (Deadline Extended)",
+          "revision": 0,
+          "sourceUrl": "https://cns2026.ieee-cns.org/authors/call-papers"
+        },
+        {
+          "id": "decision",
+          "label": "录用通知",
+          "type": "decision",
+          "primary": false,
+          "precision": "date",
+          "date": "2026-07-18",
+          "instant": null,
+          "timezone": null,
+          "original": "Notification of Acceptance: 2026-07-18",
+          "revision": 0,
+          "sourceUrl": "https://cns2026.ieee-cns.org/authors/call-papers"
+        },
+        {
+          "id": "final",
+          "label": "终稿提交",
+          "type": "final",
+          "primary": false,
+          "precision": "date",
+          "date": "2026-08-14",
+          "instant": null,
+          "timezone": null,
+          "original": "Camera-Ready / Final Manuscript: 2026-08-14",
+          "revision": 0,
+          "sourceUrl": "https://cns2026.ieee-cns.org/authors/call-papers"
+        }
+      ],
+      "verification": "verified",
+      "verifiedAt": "2026-10-18",
+      "checkedAt": "2026-10-18",
+      "updatedAt": "2026-10-18T04:00:00Z",
+      "status": "announced",
+      "notes": "官网只公布日期，未明确截止钟点或时区；以日期精度展示，不补造23:59或AoE。",
+      "location": "美国·特拉华州纽瓦克",
+      "eventStart": "2026-09-14",
+      "eventEnd": "2026-09-17",
+      "eventDates": "2026-09-14 / 2026-09-17",
+      "publication": null,
+      "history": [],
+      "eventSourceUrl": "https://cns2026.ieee-cns.org"
+    },
+    {
+      "id": "milcom-2026-main",
+      "venueId": "milcom",
+      "title": "MILCOM 2026 · 非涉密主会论文",
+      "titleEn": "IEEE Military Communications Conference 2026 main",
+      "year": 2026,
+      "kind": "conference",
+      "areas": [
+        "wireless",
+        "space",
+        "network"
+      ],
+      "topics": [
+        "physical",
+        "security",
+        "satellite-ntn"
+      ],
+      "tags": [],
+      "summary": "军事通信技术；不同投稿通道分别核实。",
+      "url": "https://milcom2026.ieee-milcom.org/call-for-papers/call-unclassified-technical-papers",
+      "sourceUrl": "https://milcom2026.ieee-milcom.org/call-for-papers/call-unclassified-technical-papers",
+      "sourceType": "official",
+      "nodes": [
+        {
+          "id": "paper",
+          "label": "全文提交",
+          "type": "paper",
+          "primary": true,
+          "precision": "date",
+          "date": "2026-05-31",
+          "instant": null,
+          "timezone": null,
+          "original": "Unclassified Paper Submission Deadline: 31 May 2026 (FIRM DEADLINE)",
+          "revision": 0,
+          "sourceUrl": "https://milcom2026.ieee-milcom.org/call-for-papers/call-unclassified-technical-papers"
+        },
+        {
+          "id": "decision",
+          "label": "录用通知",
+          "type": "decision",
+          "primary": false,
+          "precision": "date",
+          "date": "2026-08-09",
+          "instant": null,
+          "timezone": null,
+          "original": "Notification of Acceptance: 2026-08-09",
+          "revision": 0,
+          "sourceUrl": "https://milcom2026.ieee-milcom.org/call-for-papers/call-unclassified-technical-papers"
+        },
+        {
+          "id": "final",
+          "label": "终稿提交",
+          "type": "final",
+          "primary": false,
+          "precision": "date",
+          "date": "2026-09-11",
+          "instant": null,
+          "timezone": null,
+          "original": "Camera-Ready / Final Manuscript: 2026-09-11",
+          "revision": 0,
+          "sourceUrl": "https://milcom2026.ieee-milcom.org/call-for-papers/call-unclassified-technical-papers"
+        }
+      ],
+      "verification": "verified",
+      "verifiedAt": "2026-10-18",
+      "checkedAt": "2026-10-18",
+      "updatedAt": "2026-10-18T04:00:00Z",
+      "status": "announced",
+      "notes": "仅收录公开非涉密论文通道。官方Important Dates标题注明Anywhere on Earth（地球任一时区），未明确钟点，保持日期精度；不混入Restricted或Classified通道。",
+      "location": "美国·华盛顿首都地区",
+      "eventStart": "2026-10-12",
+      "eventEnd": "2026-10-16",
+      "eventDates": "2026-10-12 / 2026-10-16",
+      "publication": null,
+      "history": [],
+      "eventSourceUrl": "https://www.milcom.org/",
+      "sourceTimezone": "AoE",
+      "timezoneSourceUrl": "https://milcom2026.ieee-milcom.org/authors"
+    },
+    {
+      "id": "cloudnet-2026-main",
+      "venueId": "cloudnet",
+      "title": "CloudNet 2026 · 主会论文",
+      "titleEn": "IEEE International Conference on Cloud Networking 2026 main",
+      "year": 2026,
+      "kind": "conference",
+      "areas": [
+        "network",
+        "ai"
+      ],
+      "topics": [
+        "edge-cloud",
+        "network-management"
+      ],
+      "tags": [],
+      "summary": "云网络与数据中心互联。",
+      "url": "https://cloudnet2026.ieee-cloudnet.org/authors",
+      "sourceUrl": "https://cloudnet2026.ieee-cloudnet.org/authors",
+      "sourceType": "official",
+      "nodes": [
+        {
+          "id": "paper",
+          "label": "全文提交",
+          "type": "paper",
+          "primary": true,
+          "precision": "date",
+          "date": "2026-07-10",
+          "instant": null,
+          "timezone": null,
+          "original": "Paper Submission Deadline: 10 July 2026",
+          "revision": 0,
+          "sourceUrl": "https://cloudnet2026.ieee-cloudnet.org/authors"
+        },
+        {
+          "id": "decision",
+          "label": "录用通知",
+          "type": "decision",
+          "primary": false,
+          "precision": "date",
+          "date": "2026-09-09",
+          "instant": null,
+          "timezone": null,
+          "original": "Notification of Acceptance: 2026-09-09",
+          "revision": 0,
+          "sourceUrl": "https://cloudnet2026.ieee-cloudnet.org/authors"
+        },
+        {
+          "id": "final",
+          "label": "终稿提交",
+          "type": "final",
+          "primary": false,
+          "precision": "date",
+          "date": "2026-09-27",
+          "instant": null,
+          "timezone": null,
+          "original": "Camera-Ready / Final Manuscript: 2026-09-27",
+          "revision": 0,
+          "sourceUrl": "https://cloudnet2026.ieee-cloudnet.org/authors"
+        }
+      ],
+      "verification": "verified",
+      "verifiedAt": "2026-10-18",
+      "checkedAt": "2026-10-18",
+      "updatedAt": "2026-10-18T04:00:00Z",
+      "status": "announced",
+      "notes": "官网只公布日期，未明确截止钟点或时区；以日期精度展示，不补造23:59或AoE。",
+      "location": "希腊·雅典",
+      "eventStart": "2026-10-19",
+      "eventEnd": "2026-10-21",
+      "eventDates": "2026-10-19 / 2026-10-21",
+      "publication": null,
+      "history": [],
+      "eventSourceUrl": "https://cloudnet2026.ieee-cloudnet.org"
+    },
+    {
+      "id": "atc-2026-main",
+      "venueId": "atc",
+      "title": "ATC 2026 · 主会论文",
+      "titleEn": "International Conference on Advanced Technologies for Communications 2026 main",
+      "year": 2026,
+      "kind": "conference",
+      "areas": [
+        "wireless",
+        "network",
+        "signal",
+        "rf"
+      ],
+      "topics": [
+        "physical",
+        "protocols",
+        "arrays",
+        "antennas"
+      ],
+      "tags": [],
+      "summary": "ComSoc portfolio与2026官方CFP双重身份依据；已于2026-10-15至17举办。",
+      "url": "https://atc-conf.org/call-for-papers/call-for-papers",
+      "sourceUrl": "https://atc-conf.org/call-for-papers/call-for-papers",
+      "sourceType": "official",
+      "nodes": [
+        {
+          "id": "paper",
+          "label": "全文提交",
+          "type": "paper",
+          "primary": true,
+          "precision": "date",
+          "date": "2026-07-15",
+          "instant": null,
+          "timezone": null,
+          "original": "Manuscript submission: July 15, 2026 (May 30 and June 30 struck through)",
+          "revision": 2,
+          "sourceUrl": "https://atc-conf.org/call-for-papers/call-for-papers"
+        },
+        {
+          "id": "decision",
+          "label": "录用通知",
+          "type": "decision",
+          "primary": false,
+          "precision": "date",
+          "date": "2026-08-20",
+          "instant": null,
+          "timezone": null,
+          "original": "Notification of Acceptance: 2026-08-20",
+          "revision": 0,
+          "sourceUrl": "https://atc-conf.org/call-for-papers/call-for-papers"
+        },
+        {
+          "id": "final",
+          "label": "终稿提交",
+          "type": "final",
+          "primary": false,
+          "precision": "date",
+          "date": "2026-09-05",
+          "instant": null,
+          "timezone": null,
+          "original": "Camera-Ready / Final Manuscript: 2026-09-05",
+          "revision": 0,
+          "sourceUrl": "https://atc-conf.org/call-for-papers/call-for-papers"
+        }
+      ],
+      "verification": "verified",
+      "verifiedAt": "2026-10-18",
+      "checkedAt": "2026-10-18",
+      "updatedAt": "2026-10-18T04:00:00Z",
+      "status": "announced",
+      "notes": "官网只公布日期，未明确截止钟点或时区；以日期精度展示，不补造23:59或AoE。",
+      "location": "越南·归仁",
+      "eventStart": "2026-10-15",
+      "eventEnd": "2026-10-17",
+      "eventDates": "2026-10-15 / 2026-10-17",
+      "publication": null,
+      "history": [
+        {
+          "date": "2026-10-18",
+          "note": "官网将May 30、June 30划去，当前全文July 15；通知由July 30改August 20，终稿由August 15改September 5。"
+        }
+      ],
+      "eventSourceUrl": "https://atc-conf.org/"
+    },
+    {
+      "id": "pimrc-2026-main",
+      "venueId": "pimrc",
+      "title": "PIMRC 2026 · 主会论文",
+      "titleEn": "IEEE International Symposium on Personal, Indoor and Mobile Radio Communications 2026 main",
+      "year": 2026,
+      "kind": "conference",
+      "areas": [
+        "wireless",
+        "signal"
+      ],
+      "topics": [
+        "physical",
+        "mimo",
+        "propagation",
+        "resources",
+        "mobile-systems",
+        "isac",
+        "satellite-ntn"
+      ],
+      "tags": [],
+      "summary": "移动无线通信及相关系统。",
+      "url": "https://pimrc2026.ieee-pimrc.org/call-papers",
+      "sourceUrl": "https://pimrc2026.ieee-pimrc.org/call-papers",
+      "sourceType": "official",
+      "nodes": [
+        {
+          "id": "paper",
+          "label": "全文提交",
+          "type": "paper",
+          "primary": true,
+          "precision": "date",
+          "date": "2026-04-16",
+          "instant": null,
+          "timezone": null,
+          "original": "Paper Submission Deadline: Extended to 16 April 2026 (Firm)",
+          "revision": 0,
+          "sourceUrl": "https://pimrc2026.ieee-pimrc.org/call-papers"
+        },
+        {
+          "id": "decision",
+          "label": "录用通知",
+          "type": "decision",
+          "primary": false,
+          "precision": "date",
+          "date": "2026-06-01",
+          "instant": null,
+          "timezone": null,
+          "original": "Notification of Acceptance: 01 June 2026",
+          "revision": 0,
+          "sourceUrl": "https://pimrc2026.ieee-pimrc.org/call-papers"
+        },
+        {
+          "id": "final",
+          "label": "终稿提交",
+          "type": "final",
+          "primary": false,
+          "precision": "date",
+          "date": "2026-07-01",
+          "instant": null,
+          "timezone": null,
+          "original": "Camera-Ready Papers Due: 01 July 2026",
+          "revision": 0,
+          "sourceUrl": "https://pimrc2026.ieee-pimrc.org/call-papers"
+        }
+      ],
+      "verification": "verified",
+      "verifiedAt": "2026-10-18",
+      "checkedAt": "2026-10-18",
+      "updatedAt": "2026-10-18T04:00:00Z",
+      "status": "announced",
+      "notes": "官网只公布日期，未明确截止钟点或时区；以日期精度展示，不补造23:59或AoE。",
+      "location": "新加坡",
+      "eventStart": "2026-09-01",
+      "eventEnd": "2026-09-04",
+      "eventDates": "2026-09-01 / 2026-09-04",
+      "publication": null,
+      "history": [
+        {
+          "date": "2026-10-18",
+          "note": "3月16日原日期明确延期至4月16日。"
+        }
       ]
     },
     {
-      "id": "icme-latest",
+      "id": "iwqos-2026-main",
+      "venueId": "iwqos",
+      "title": "IWQoS 2026 · 主会论文",
+      "titleEn": "IEEE/ACM International Symposium on Quality of Service 2026 main",
+      "year": 2026,
+      "kind": "conference",
+      "areas": [
+        "network"
+      ],
+      "topics": [
+        "measurement",
+        "protocols",
+        "edge-cloud"
+      ],
+      "tags": [],
+      "summary": "网络服务质量与资源保障。",
+      "url": "https://iwqos2026.ieee-iwqos.org/call-papers",
+      "sourceUrl": "https://iwqos2026.ieee-iwqos.org/call-papers",
+      "sourceType": "official",
+      "nodes": [
+        {
+          "id": "abstract",
+          "label": "摘要注册",
+          "type": "abstract",
+          "primary": false,
+          "precision": "date",
+          "date": "2026-02-16",
+          "instant": null,
+          "timezone": null,
+          "original": "Abstract Deadline: 16 February 2026 (Deadline Extended!)",
+          "revision": 0,
+          "sourceUrl": "https://iwqos2026.ieee-iwqos.org/call-papers"
+        },
+        {
+          "id": "paper",
+          "label": "全文提交",
+          "type": "paper",
+          "primary": true,
+          "precision": "date",
+          "date": "2026-02-23",
+          "instant": null,
+          "timezone": null,
+          "original": "Full Paper Deadline: 23 February 2026 (Deadline Extended!)",
+          "revision": 0,
+          "sourceUrl": "https://iwqos2026.ieee-iwqos.org/call-papers",
+          "requires": [
+            "abstract"
+          ]
+        },
+        {
+          "id": "decision",
+          "label": "录用通知",
+          "type": "decision",
+          "primary": false,
+          "precision": "date",
+          "date": "2026-04-30",
+          "instant": null,
+          "timezone": null,
+          "original": "Notification of Acceptance: 30 April 2026 (Deadline Extended!)",
+          "revision": 0,
+          "sourceUrl": "https://iwqos2026.ieee-iwqos.org/call-papers"
+        },
+        {
+          "id": "final",
+          "label": "终稿提交",
+          "type": "final",
+          "primary": false,
+          "precision": "date",
+          "date": "2026-05-20",
+          "instant": null,
+          "timezone": null,
+          "original": "Camera Ready Deadline: 20 May 2026 (Deadline Extended!)",
+          "revision": 0,
+          "sourceUrl": "https://iwqos2026.ieee-iwqos.org/call-papers"
+        }
+      ],
+      "verification": "verified",
+      "verifiedAt": "2026-10-18",
+      "checkedAt": "2026-10-18",
+      "updatedAt": "2026-10-18T04:00:00Z",
+      "status": "announced",
+      "notes": "全文提交前存在独立摘要截止。官网只公布日期，未明确钟点/时区；举办地已由官网更新至伊斯坦布尔。",
+      "location": "土耳其·伊斯坦布尔",
+      "eventStart": "2026-06-29",
+      "eventEnd": "2026-07-02",
+      "eventDates": "2026-06-29 / 2026-07-02",
+      "publication": null,
+      "history": []
+    },
+    {
+      "id": "icmlcn-2026-main",
+      "venueId": "icmlcn",
+      "title": "ICMLCN 2026 · 主会论文",
+      "titleEn": "IEEE International Conference on Machine Learning for Communication and Networking 2026 main",
+      "year": 2026,
+      "kind": "conference",
+      "areas": [
+        "ai",
+        "wireless",
+        "network"
+      ],
+      "topics": [
+        "ai-communications",
+        "distributed-learning"
+      ],
+      "tags": [],
+      "summary": "面向通信系统与网络的机器学习。",
+      "url": "https://icmlcn2026.ieee-icmlcn.org/call-papers",
+      "sourceUrl": "https://icmlcn2026.ieee-icmlcn.org/call-papers",
+      "sourceType": "official",
+      "nodes": [
+        {
+          "id": "paper",
+          "label": "全文提交",
+          "type": "paper",
+          "primary": true,
+          "precision": "date",
+          "date": "2026-02-23",
+          "instant": null,
+          "timezone": null,
+          "original": "Paper Submission Deadline - Extended: 23 February 2026",
+          "revision": 0,
+          "sourceUrl": "https://icmlcn2026.ieee-icmlcn.org/call-papers"
+        },
+        {
+          "id": "decision",
+          "label": "录用通知",
+          "type": "decision",
+          "primary": false,
+          "precision": "unknown",
+          "date": null,
+          "instant": null,
+          "timezone": null,
+          "original": "官方CFP/Authors写28 February 2026；首页写9 February 2026，冲突未消解。",
+          "revision": 0,
+          "sourceUrl": "https://icmlcn2026.ieee-icmlcn.org/call-papers"
+        },
+        {
+          "id": "final",
+          "label": "终稿提交",
+          "type": "final",
+          "primary": false,
+          "precision": "unknown",
+          "date": null,
+          "instant": null,
+          "timezone": null,
+          "original": "官方Authors写6 March 2026；首页写1 May 2026；final instructions仍写25 February 2026，冲突未消解。",
+          "revision": 0,
+          "sourceUrl": "https://icmlcn2026.ieee-icmlcn.org/call-papers"
+        }
+      ],
+      "verification": "verified",
+      "verifiedAt": "2026-10-18",
+      "checkedAt": "2026-10-18",
+      "updatedAt": "2026-10-18T04:00:00Z",
+      "status": "announced",
+      "notes": "官网首页明确会议已改期至2026年6月8–11日，并支持混合参会；CFP与Authors一致标记全文延期至2月23日。通知及终稿在不同官方页面冲突，保留未知节点与复查记录，不择一假定。",
+      "location": "阿联酋·阿布扎比",
+      "eventStart": "2026-06-08",
+      "eventEnd": "2026-06-11",
+      "eventDates": "2026-06-08 / 2026-06-11",
+      "publication": null,
+      "history": [],
+      "eventSourceUrl": "https://icmlcn2026.ieee-icmlcn.org/",
+      "evidenceIssues": [
+        {
+          "type": "official-date-conflict",
+          "sourceUrls": [
+            "https://icmlcn2026.ieee-icmlcn.org/",
+            "https://icmlcn2026.ieee-icmlcn.org/authors",
+            "https://icmlcn2026.ieee-icmlcn.org/ieee-icmlcn-2026-131/pages/instructions-final-manuscript-submissions"
+          ],
+          "note": "决定与终稿冲突，详情见各unknown节点original。"
+        }
+      ]
+    },
+    {
+      "id": "jcns-2027-main",
+      "venueId": "jcns",
+      "title": "JC&S 2027 · 主会论文",
+      "titleEn": "IEEE International Symposium on Joint Communications & Sensing 2027 main",
+      "year": 2027,
+      "kind": "conference",
+      "areas": [
+        "signal",
+        "wireless",
+        "rf"
+      ],
+      "topics": [
+        "isac",
+        "radar",
+        "mimo"
+      ],
+      "tags": [],
+      "summary": "通信与感知联合设计。",
+      "url": "https://jcns-symposium.org/",
+      "sourceUrl": "https://jcns-symposium.org/",
+      "sourceType": "official",
+      "nodes": [
+        {
+          "id": "paper",
+          "label": "全文提交",
+          "type": "paper",
+          "primary": true,
+          "precision": "date",
+          "date": "2026-10-26",
+          "instant": null,
+          "timezone": null,
+          "original": "Technical Paper Submission: October 26, 2026 (Deadline extended)",
+          "revision": 1,
+          "sourceUrl": "https://jcns-symposium.org/"
+        },
+        {
+          "id": "decision",
+          "label": "录用通知",
+          "type": "decision",
+          "primary": false,
+          "precision": "date",
+          "date": "2026-11-23",
+          "instant": null,
+          "timezone": null,
+          "original": "Acceptance Notification (Technical & Demo Papers): November 23, 2026",
+          "revision": 0,
+          "sourceUrl": "https://jcns-symposium.org/"
+        },
+        {
+          "id": "final",
+          "label": "终稿提交",
+          "type": "final",
+          "primary": false,
+          "precision": "date",
+          "date": "2026-12-21",
+          "instant": null,
+          "timezone": null,
+          "original": "Final Camera-Ready Paper: December 21, 2026",
+          "revision": 0,
+          "sourceUrl": "https://jcns-symposium.org/"
+        }
+      ],
+      "verification": "verified",
+      "verifiedAt": "2026-10-18",
+      "checkedAt": "2026-10-18",
+      "updatedAt": "2026-10-18T04:00:00Z",
+      "status": "announced",
+      "notes": "官网总日程1月25–29日含冬季学校；VDE官方活动正文明确主会1月27–29日。采用官网明确延期后的10月26日；不使用旧PDF原截止。官网未明确截止钟点或时区。",
+      "location": "德国·慕尼黑附近奥托布伦/陶夫基兴Airbus园区",
+      "eventStart": "2027-01-27",
+      "eventEnd": "2027-01-29",
+      "eventDates": "2027-01-27 / 2027-01-29",
+      "publication": null,
+      "history": [
+        {
+          "date": "2026-10-18",
+          "note": "技术论文原10月11日在官网明确划线延期至10月26日；旧版PDF保留原日期。"
+        }
+      ],
+      "eventSourceUrl": "https://www.vde.com/en/events/event-detailpage?id=24530&type=vde%7Cvdb",
+      "cfpUrl": "https://jcns-symposium.org/Call_for_Papers_and_Demos_JCnS2027_21072026.pdf"
+    },
+    {
+      "id": "jcns-2027-demo",
+      "venueId": "jcns",
+      "title": "JC&S 2027 · 演示论文",
+      "titleEn": "IEEE International Symposium on Joint Communications & Sensing 2027 demo",
+      "year": 2027,
+      "kind": "conference",
+      "areas": [
+        "signal",
+        "wireless",
+        "rf"
+      ],
+      "topics": [
+        "isac",
+        "radar",
+        "mimo"
+      ],
+      "tags": [],
+      "summary": "通信与感知联合设计。",
+      "url": "https://jcns-symposium.org/",
+      "sourceUrl": "https://jcns-symposium.org/",
+      "sourceType": "official",
+      "nodes": [
+        {
+          "id": "paper",
+          "label": "全文提交",
+          "type": "paper",
+          "primary": true,
+          "precision": "date",
+          "date": "2026-10-26",
+          "instant": null,
+          "timezone": null,
+          "original": "Demo Paper Submission: October 26, 2026 (Deadline extended)",
+          "revision": 1,
+          "sourceUrl": "https://jcns-symposium.org/"
+        },
+        {
+          "id": "decision",
+          "label": "录用通知",
+          "type": "decision",
+          "primary": false,
+          "precision": "date",
+          "date": "2026-11-23",
+          "instant": null,
+          "timezone": null,
+          "original": "Acceptance Notification (Technical & Demo Papers): November 23, 2026",
+          "revision": 0,
+          "sourceUrl": "https://jcns-symposium.org/"
+        },
+        {
+          "id": "final",
+          "label": "终稿提交",
+          "type": "final",
+          "primary": false,
+          "precision": "date",
+          "date": "2026-12-21",
+          "instant": null,
+          "timezone": null,
+          "original": "Final Camera-Ready Paper: December 21, 2026",
+          "revision": 0,
+          "sourceUrl": "https://jcns-symposium.org/"
+        }
+      ],
+      "verification": "verified",
+      "verifiedAt": "2026-10-18",
+      "checkedAt": "2026-10-18",
+      "updatedAt": "2026-10-18T04:00:00Z",
+      "status": "announced",
+      "notes": "官网总日程1月25–29日含冬季学校；VDE官方活动正文明确主会1月27–29日。采用官网明确延期后的10月26日；不使用旧PDF原截止。官网未明确截止钟点或时区。演示投稿为2页摘要，现场演示是必要条件，非6页技术全文。",
+      "location": "德国·慕尼黑附近奥托布伦/陶夫基兴Airbus园区",
+      "eventStart": "2027-01-27",
+      "eventEnd": "2027-01-29",
+      "eventDates": "2027-01-27 / 2027-01-29",
+      "publication": null,
+      "history": [
+        {
+          "date": "2026-10-18",
+          "note": "演示论文原10月25日在官网明确划线延期至10月26日；旧版PDF保留原日期。"
+        }
+      ],
+      "eventSourceUrl": "https://www.vde.com/en/events/event-detailpage?id=24530&type=vde%7Cvdb",
+      "cfpUrl": "https://jcns-symposium.org/Call_for_Papers_and_Demos_JCnS2027_21072026.pdf",
+      "articleType": "演示论文",
+      "evaluationApplicability": "不继承主会长文评价",
+      "submissionCategory": "demo",
+      "inheritsVenueEvaluation": false
+    },
+    {
+      "id": "icc-2027-workshops",
+      "venueId": "icc",
+      "title": "ICC 2027 · 研讨会论文",
+      "titleEn": "IEEE International Conference on Communications 2027 workshops",
+      "year": 2027,
+      "kind": "workshop",
+      "areas": [
+        "wireless",
+        "network",
+        "signal"
+      ],
+      "topics": [
+        "physical",
+        "mimo",
+        "access",
+        "resources",
+        "protocols",
+        "ai-communications",
+        "isac",
+        "channel-coding",
+        "satellite-ntn",
+        "security"
+      ],
+      "tags": [],
+      "summary": "通信系统与网络的综合会议。",
+      "url": "https://icc2027.ieee-icc.org/authors",
+      "sourceUrl": "https://icc2027.ieee-icc.org/authors",
+      "sourceType": "official",
+      "nodes": [
+        {
+          "id": "paper",
+          "label": "全文提交",
+          "type": "paper",
+          "primary": true,
+          "precision": "date",
+          "date": "2027-01-17",
+          "instant": null,
+          "timezone": null,
+          "original": "Workshop Paper Submission Deadline: 2027-01-17",
+          "revision": 0,
+          "sourceUrl": "https://icc2027.ieee-icc.org/authors"
+        },
+        {
+          "id": "decision",
+          "label": "录用通知",
+          "type": "decision",
+          "primary": false,
+          "precision": "date",
+          "date": "2027-03-07",
+          "instant": null,
+          "timezone": null,
+          "original": "Workshop Acceptance Notification: 2027-03-07",
+          "revision": 0,
+          "sourceUrl": "https://icc2027.ieee-icc.org/authors"
+        },
+        {
+          "id": "final",
+          "label": "终稿提交",
+          "type": "final",
+          "primary": false,
+          "precision": "date",
+          "date": "2027-03-21",
+          "instant": null,
+          "timezone": null,
+          "original": "Workshop Final Camera-Ready: 2027-03-21",
+          "revision": 0,
+          "sourceUrl": "https://icc2027.ieee-icc.org/authors"
+        }
+      ],
+      "verification": "verified",
+      "verifiedAt": "2026-10-18",
+      "checkedAt": "2026-10-18",
+      "updatedAt": "2026-10-18T04:00:00Z",
+      "status": "announced",
+      "notes": "官网统一研讨会论文日期；具体研讨会若另有延期，以该研讨会公告为准。独立于主会全文日期，不继承主会长文等级。官网未明确截止钟点或时区。",
+      "location": "美国·华盛顿特区",
+      "eventStart": "2027-05-30",
+      "eventEnd": "2027-06-03",
+      "eventDates": "2027-05-30 / 2027-06-03",
+      "publication": null,
+      "history": [],
+      "evaluationApplicability": "workshop-no-inheritance"
+    },
+    {
+      "id": "wcnc-2027-workshops",
+      "venueId": "wcnc",
+      "title": "WCNC 2027 · 研讨会论文",
+      "titleEn": "IEEE Wireless Communications and Networking Conference 2027 workshops",
+      "year": 2027,
+      "kind": "workshop",
+      "areas": [
+        "wireless",
+        "network"
+      ],
+      "topics": [
+        "physical",
+        "mimo",
+        "access",
+        "resources",
+        "mobile-systems",
+        "isac",
+        "satellite-ntn",
+        "ai-communications"
+      ],
+      "tags": [],
+      "summary": "无线通信技术与网络研究。",
+      "url": "https://wcnc2027.ieee-wcnc.org/authors/call-workshop-papers",
+      "sourceUrl": "https://wcnc2027.ieee-wcnc.org/authors/call-workshop-papers",
+      "sourceType": "official",
+      "nodes": [
+        {
+          "id": "paper",
+          "label": "全文提交",
+          "type": "paper",
+          "primary": true,
+          "precision": "date",
+          "date": "2026-11-06",
+          "instant": null,
+          "timezone": null,
+          "original": "Workshop Paper Submission Deadline: 2026-11-06",
+          "revision": 0,
+          "sourceUrl": "https://wcnc2027.ieee-wcnc.org/authors/call-workshop-papers"
+        },
+        {
+          "id": "decision",
+          "label": "录用通知",
+          "type": "decision",
+          "primary": false,
+          "precision": "date",
+          "date": "2027-01-22",
+          "instant": null,
+          "timezone": null,
+          "original": "Workshop Acceptance Notification: 2027-01-22",
+          "revision": 0,
+          "sourceUrl": "https://wcnc2027.ieee-wcnc.org/authors/call-workshop-papers"
+        },
+        {
+          "id": "final",
+          "label": "终稿提交",
+          "type": "final",
+          "primary": false,
+          "precision": "date",
+          "date": "2027-02-18",
+          "instant": null,
+          "timezone": null,
+          "original": "Workshop Final Camera-Ready: 2027-02-18",
+          "revision": 0,
+          "sourceUrl": "https://wcnc2027.ieee-wcnc.org/authors/call-workshop-papers"
+        }
+      ],
+      "verification": "verified",
+      "verifiedAt": "2026-10-18",
+      "checkedAt": "2026-10-18",
+      "updatedAt": "2026-10-18T04:00:00Z",
+      "status": "announced",
+      "notes": "官网统一研讨会论文日期；具体研讨会若另有延期，以该研讨会公告为准。独立于主会全文日期，不继承主会长文等级。官网未明确截止钟点或时区。",
+      "location": "巴拿马·巴拿马城",
+      "eventStart": "2027-04-05",
+      "eventEnd": "2027-04-08",
+      "eventDates": "2027-04-05 / 2027-04-08",
+      "publication": null,
+      "history": [],
+      "evaluationApplicability": "workshop-no-inheritance"
+    },
+    {
+      "id": "ccnc-2027-workshops",
+      "venueId": "ccnc",
+      "title": "CCNC 2027 · 研讨会论文",
+      "titleEn": "IEEE Consumer Communications & Networking Conference 2027 workshops",
+      "year": 2027,
+      "kind": "workshop",
+      "areas": [
+        "network",
+        "iot",
+        "wireless"
+      ],
+      "topics": [
+        "mobile-systems",
+        "iot-sensing",
+        "edge-cloud"
+      ],
+      "tags": [],
+      "summary": "消费通信、联网设备与相关服务。",
+      "url": "https://ccnc2027.ieee-ccnc.org/authors/call-workshop-papers",
+      "sourceUrl": "https://ccnc2027.ieee-ccnc.org/authors/call-workshop-papers",
+      "sourceType": "official",
+      "nodes": [
+        {
+          "id": "paper",
+          "label": "全文提交",
+          "type": "paper",
+          "primary": true,
+          "precision": "date",
+          "date": "2026-10-19",
+          "instant": null,
+          "timezone": null,
+          "original": "Workshop Paper Submission Deadline: 2026-10-19",
+          "revision": 0,
+          "sourceUrl": "https://ccnc2027.ieee-ccnc.org/authors/call-workshop-papers"
+        },
+        {
+          "id": "decision",
+          "label": "录用通知",
+          "type": "decision",
+          "primary": false,
+          "precision": "date",
+          "date": "2026-11-10",
+          "instant": null,
+          "timezone": null,
+          "original": "Workshop Acceptance Notification: 2026-11-10",
+          "revision": 0,
+          "sourceUrl": "https://ccnc2027.ieee-ccnc.org/authors/call-workshop-papers"
+        },
+        {
+          "id": "final",
+          "label": "终稿提交",
+          "type": "final",
+          "primary": false,
+          "precision": "date",
+          "date": "2026-11-23",
+          "instant": null,
+          "timezone": null,
+          "original": "Workshop Final Camera-Ready: 2026-11-23",
+          "revision": 0,
+          "sourceUrl": "https://ccnc2027.ieee-ccnc.org/authors/call-workshop-papers"
+        }
+      ],
+      "verification": "verified",
+      "verifiedAt": "2026-10-18",
+      "checkedAt": "2026-10-18",
+      "updatedAt": "2026-10-18T04:00:00Z",
+      "status": "announced",
+      "notes": "官网统一研讨会论文日期；具体研讨会若另有延期，以该研讨会公告为准。独立于主会全文日期，不继承主会长文等级。官网未明确截止钟点或时区。",
+      "location": "美国·拉斯维加斯",
+      "eventStart": "2027-01-09",
+      "eventEnd": "2027-01-12",
+      "eventDates": "2027-01-09 / 2027-01-12",
+      "publication": null,
+      "history": [],
+      "evaluationApplicability": "workshop-no-inheritance"
+    },
+    {
+      "id": "globecom-2026-workshops",
+      "venueId": "globecom",
+      "title": "GLOBECOM 2026 · 研讨会论文",
+      "titleEn": "IEEE Global Communications Conference 2026 workshops",
+      "year": 2026,
+      "kind": "workshop",
+      "areas": [
+        "wireless",
+        "network",
+        "signal"
+      ],
+      "topics": [
+        "physical",
+        "mimo",
+        "access",
+        "protocols",
+        "optical-networks",
+        "satellite-ntn",
+        "isac",
+        "channel-coding",
+        "ai-communications",
+        "security"
+      ],
+      "tags": [],
+      "summary": "覆盖通信理论、无线系统与网络。",
+      "url": "https://globecom2026.ieee-globecom.org/authors",
+      "sourceUrl": "https://globecom2026.ieee-globecom.org/authors",
+      "sourceType": "official",
+      "nodes": [
+        {
+          "id": "paper",
+          "label": "全文提交",
+          "type": "paper",
+          "primary": true,
+          "precision": "date",
+          "date": "2026-08-19",
+          "instant": null,
+          "timezone": null,
+          "original": "Workshop Paper Submission Deadline: 2026-08-19",
+          "revision": 0,
+          "sourceUrl": "https://globecom2026.ieee-globecom.org/authors"
+        },
+        {
+          "id": "decision",
+          "label": "录用通知",
+          "type": "decision",
+          "primary": false,
+          "precision": "date",
+          "date": "2026-10-05",
+          "instant": null,
+          "timezone": null,
+          "original": "Workshop Acceptance Notification: 2026-10-05",
+          "revision": 0,
+          "sourceUrl": "https://globecom2026.ieee-globecom.org/authors"
+        },
+        {
+          "id": "final",
+          "label": "终稿提交",
+          "type": "final",
+          "primary": false,
+          "precision": "date",
+          "date": "2026-10-14",
+          "instant": null,
+          "timezone": null,
+          "original": "Workshop Final Camera-Ready: 2026-10-14",
+          "revision": 0,
+          "sourceUrl": "https://globecom2026.ieee-globecom.org/authors"
+        }
+      ],
+      "verification": "verified",
+      "verifiedAt": "2026-10-18",
+      "checkedAt": "2026-10-18",
+      "updatedAt": "2026-10-18T04:00:00Z",
+      "status": "announced",
+      "notes": "官网统一研讨会论文日期；具体研讨会若另有延期，以该研讨会公告为准。独立于主会全文日期，不继承主会长文等级。官网未明确截止钟点或时区。",
+      "location": "中国·澳门",
+      "eventStart": "2026-12-07",
+      "eventEnd": "2026-12-11",
+      "eventDates": "2026-12-07 / 2026-12-11",
+      "publication": null,
+      "history": [],
+      "evaluationApplicability": "workshop-no-inheritance"
+    },
+    {
+      "id": "infocom-2027",
+      "venueId": "infocom",
+      "year": 2027,
+      "title": "INFOCOM 2027",
+      "titleEn": "IEEE International Conference on Computer Communications 2027",
+      "kind": "conference",
+      "areas": [
+        "network",
+        "iot"
+      ],
+      "topics": [
+        "protocols",
+        "measurement",
+        "security",
+        "edge-cloud"
+      ],
+      "tags": [],
+      "summary": "通信网络的理论与系统研究。",
+      "sourceUrl": "https://infocom2027.ieee-infocom.org/authors",
+      "url": "https://infocom2027.ieee-infocom.org/",
+      "nodes": [
+        {
+          "id": "abstract",
+          "label": "摘要／注册",
+          "type": "abstract",
+          "primary": false,
+          "precision": "date",
+          "date": "2026-07-24",
+          "instant": null,
+          "timezone": null,
+          "original": "2026-07-24",
+          "revision": 0
+        },
+        {
+          "id": "paper",
+          "label": "全文提交",
+          "type": "paper",
+          "primary": true,
+          "precision": "date",
+          "date": "2026-07-31",
+          "instant": null,
+          "timezone": null,
+          "original": "2026-07-31",
+          "revision": 0,
+          "requires": [
+            "abstract"
+          ]
+        },
+        {
+          "id": "decision",
+          "label": "录用通知",
+          "type": "decision",
+          "primary": false,
+          "precision": "date",
+          "date": "2026-12-08",
+          "instant": null,
+          "timezone": null,
+          "original": "2026-12-08",
+          "revision": 0
+        }
+      ],
+      "verification": "verified",
+      "verifiedAt": "2026-10-18",
+      "updatedAt": "2026-10-18T08:00:00Z",
+      "status": "announced",
+      "notes": "官方主页和作者页一致，主会摘要及全文均已截止；仅列日期，未给钟点/时区。",
+      "location": "檀香山，夏威夷，美国",
+      "eventDates": "2027-05-24 / 2027-05-27",
+      "publication": null,
+      "history": [],
+      "sourceType": "official"
+    },
+    {
+      "id": "sigcomm-2026",
+      "venueId": "sigcomm",
+      "year": 2026,
+      "title": "SIGCOMM 2026",
+      "titleEn": "ACM SIGCOMM Conference 2026",
+      "kind": "conference",
+      "areas": [
+        "network"
+      ],
+      "topics": [
+        "protocols",
+        "measurement",
+        "network-management"
+      ],
+      "tags": [],
+      "summary": "重点覆盖网络协议与体系结构、网络测量与性能分析、网络管理与虚拟化。",
+      "sourceUrl": "https://conferences.sigcomm.org/sigcomm/2026/cfp/",
+      "url": "https://conferences.sigcomm.org/sigcomm/2026/cfp/",
+      "nodes": [
+        {
+          "id": "abstract",
+          "label": "摘要／注册",
+          "type": "abstract",
+          "primary": false,
+          "precision": "date",
+          "date": "2026-01-30",
+          "instant": null,
+          "timezone": null,
+          "original": "2026-01-30",
+          "revision": 0
+        },
+        {
+          "id": "paper",
+          "label": "全文提交",
+          "type": "paper",
+          "primary": true,
+          "precision": "date",
+          "date": "2026-02-06",
+          "instant": null,
+          "timezone": null,
+          "original": "2026-02-06",
+          "revision": 0,
+          "requires": [
+            "abstract"
+          ]
+        },
+        {
+          "id": "decision",
+          "label": "录用通知",
+          "type": "decision",
+          "primary": false,
+          "precision": "date",
+          "date": "2026-05-11",
+          "instant": null,
+          "timezone": null,
+          "original": "2026-05-11",
+          "revision": 0
+        },
+        {
+          "id": "final",
+          "label": "终稿提交",
+          "type": "final",
+          "primary": false,
+          "precision": "date",
+          "date": "2026-07-03",
+          "instant": null,
+          "timezone": null,
+          "original": "2026-07-03",
+          "revision": 0
+        }
+      ],
+      "verification": "verified",
+      "verifiedAt": "2026-10-18",
+      "updatedAt": "2026-10-18T08:00:00Z",
+      "status": "announced",
+      "notes": "最近一届主会已截止。官方摘要/全文注明AoE但本次CFP未明确钟点，保留日期精度；2027官网已上线，会期2027-08-08至12、曼谷，但CFP截止仍TBA，未猜测。",
+      "location": "丹佛，美国",
+      "eventDates": "2026-08-17 / 2026-08-21",
+      "publication": null,
+      "history": [],
+      "sourceType": "official"
+    },
+    {
+      "id": "mobicom-2027-summer",
+      "venueId": "mobicom",
+      "year": 2027,
+      "title": "MobiCom 2027 · 夏季轮",
+      "titleEn": "ACM International Conference on Mobile Computing and Networking 2027",
+      "kind": "conference",
+      "areas": [
+        "network",
+        "wireless",
+        "iot",
+        "theory",
+        "signal"
+      ],
+      "topics": [
+        "mobile-systems",
+        "physical",
+        "iot-sensing"
+      ],
+      "tags": [],
+      "summary": "重点覆盖移动计算与无线系统、调制、波形与物理层、传感器与物联网。",
+      "sourceUrl": "https://www.sigmobile.org/mobicom/2027/cfp.html",
+      "url": "https://www.sigmobile.org/mobicom/2027/cfp.html",
+      "nodes": [
+        {
+          "id": "abstract",
+          "label": "摘要／注册",
+          "type": "abstract",
+          "primary": false,
+          "precision": "instant",
+          "date": null,
+          "instant": "2026-08-26T23:59:00-12:00",
+          "timezone": "UTC-12",
+          "original": "2026-08-26 23:59 AoE",
+          "revision": 0
+        },
+        {
+          "id": "paper",
+          "label": "全文提交",
+          "type": "paper",
+          "primary": true,
+          "precision": "instant",
+          "date": null,
+          "instant": "2026-09-02T23:59:00-12:00",
+          "timezone": "UTC-12",
+          "original": "2026-09-02 23:59 AoE",
+          "revision": 0,
+          "requires": [
+            "abstract"
+          ]
+        },
+        {
+          "id": "decision",
+          "label": "录用通知",
+          "type": "decision",
+          "primary": false,
+          "precision": "date",
+          "date": "2026-11-19",
+          "instant": null,
+          "timezone": null,
+          "original": "2026-11-19",
+          "revision": 0
+        }
+      ],
+      "verification": "verified",
+      "verifiedAt": "2026-10-18",
+      "updatedAt": "2026-10-18T08:00:00Z",
+      "status": "announced",
+      "notes": "夏季轮已截止；冬季轮官网仍TBD，不能由2026往年日期推算；当前主页未提供举办城市。",
+      "location": null,
+      "eventDates": "2027-10-18 / 2027-10-22",
+      "publication": null,
+      "history": [],
+      "sourceType": "official"
+    },
+    {
+      "id": "mobihoc-2026",
+      "venueId": "mobihoc",
+      "year": 2026,
+      "title": "MobiHoc 2026",
+      "titleEn": "ACM International Symposium on Theory, Algorithmic Foundations, and Protocol Design for Mobile Networks and Mobile Computing 2026",
+      "kind": "conference",
+      "areas": [
+        "network",
+        "wireless",
+        "iot"
+      ],
+      "topics": [
+        "protocols",
+        "mobile-systems",
+        "resources"
+      ],
+      "tags": [],
+      "summary": "重点覆盖网络协议与体系结构、移动计算与无线系统、频谱与无线资源管理。",
+      "sourceUrl": "https://www.sigmobile.org/mobihoc/2026/",
+      "url": "https://www.sigmobile.org/mobihoc/2026/",
+      "nodes": [
+        {
+          "id": "abstract",
+          "label": "摘要／注册",
+          "type": "abstract",
+          "primary": false,
+          "precision": "instant",
+          "date": null,
+          "instant": "2026-04-13T23:59:00-12:00",
+          "timezone": "UTC-12",
+          "original": "2026-04-13 23:59 AoE",
+          "revision": 0
+        },
+        {
+          "id": "paper",
+          "label": "全文提交",
+          "type": "paper",
+          "primary": true,
+          "precision": "instant",
+          "date": null,
+          "instant": "2026-04-20T23:59:00-12:00",
+          "timezone": "UTC-12",
+          "original": "2026-04-20 23:59 AoE",
+          "revision": 0,
+          "requires": [
+            "abstract"
+          ]
+        },
+        {
+          "id": "decision",
+          "label": "录用通知",
+          "type": "decision",
+          "primary": false,
+          "precision": "date",
+          "date": "2026-08-23",
+          "instant": null,
+          "timezone": null,
+          "original": "2026-08-23",
+          "revision": 0
+        },
+        {
+          "id": "final",
+          "label": "终稿提交",
+          "type": "final",
+          "primary": false,
+          "precision": "date",
+          "date": "2026-09-30",
+          "instant": null,
+          "timezone": null,
+          "original": "2026-09-30",
+          "revision": 0
+        }
+      ],
+      "verification": "verified",
+      "verifiedAt": "2026-10-18",
+      "updatedAt": "2026-10-18T08:00:00Z",
+      "status": "announced",
+      "notes": "主会摘要/注册与全文已截止；通知和终稿只给日期。",
+      "location": "东京，日本",
+      "eventDates": "2026-11-23 / 2026-11-26",
+      "publication": null,
+      "history": [],
+      "sourceType": "official"
+    },
+    {
+      "id": "mobisys-2027",
+      "venueId": "mobisys",
+      "year": 2027,
+      "title": "MobiSys 2027",
+      "titleEn": "ACM International Conference on Mobile Systems, Applications, and Services 2027",
+      "kind": "conference",
+      "areas": [
+        "network",
+        "wireless",
+        "iot",
+        "ai",
+        "signal"
+      ],
+      "topics": [
+        "mobile-systems",
+        "edge-cloud",
+        "iot-sensing"
+      ],
+      "tags": [],
+      "summary": "重点覆盖移动计算与无线系统、边缘计算与云网络、传感器与物联网。",
+      "sourceUrl": "https://www.sigmobile.org/mobisys/2027/call_for_papers/",
+      "url": "https://www.sigmobile.org/mobisys/2027/call_for_papers/",
+      "nodes": [
+        {
+          "id": "abstract",
+          "label": "摘要／注册",
+          "type": "abstract",
+          "primary": false,
+          "precision": "instant",
+          "date": null,
+          "instant": "2026-11-27T23:59:00-12:00",
+          "timezone": "UTC-12",
+          "original": "2026-11-27 23:59 AoE",
+          "revision": 0
+        },
+        {
+          "id": "paper",
+          "label": "全文提交",
+          "type": "paper",
+          "primary": true,
+          "precision": "instant",
+          "date": null,
+          "instant": "2026-12-04T23:59:00-12:00",
+          "timezone": "UTC-12",
+          "original": "2026-12-04 23:59 AoE",
+          "revision": 0,
+          "requires": [
+            "abstract"
+          ]
+        },
+        {
+          "id": "decision",
+          "label": "录用通知",
+          "type": "decision",
+          "primary": false,
+          "precision": "date",
+          "date": "2027-03-06",
+          "instant": null,
+          "timezone": null,
+          "original": "2027-03-06",
+          "revision": 0
+        },
+        {
+          "id": "final",
+          "label": "终稿提交",
+          "type": "final",
+          "primary": false,
+          "precision": "date",
+          "date": "2027-04-14",
+          "instant": null,
+          "timezone": null,
+          "original": "2027-04-14",
+          "revision": 0
+        }
+      ],
+      "verification": "verified",
+      "verifiedAt": "2026-10-18",
+      "updatedAt": "2026-10-18T08:00:00Z",
+      "status": "announced",
+      "notes": "官方当前未公布完整会期；摘要/注册是全文前置。",
+      "location": "胡志明市，越南",
+      "eventDates": null,
+      "publication": null,
+      "history": [],
+      "sourceType": "official"
+    },
+    {
+      "id": "nsdi-2027-spring",
+      "venueId": "nsdi",
+      "year": 2027,
+      "title": "NSDI 2027 · 春季轮",
+      "titleEn": "USENIX Symposium on Networked Systems Design and Implementation 2027",
+      "kind": "conference",
+      "areas": [
+        "network",
+        "iot",
+        "ai"
+      ],
+      "topics": [
+        "protocols",
+        "edge-cloud",
+        "network-management"
+      ],
+      "tags": [],
+      "summary": "重点覆盖网络协议与体系结构、边缘计算与云网络、网络管理与虚拟化。",
+      "sourceUrl": "https://www.usenix.org/conference/nsdi27/call-for-papers",
+      "url": "https://www.usenix.org/conference/nsdi27/call-for-papers",
+      "nodes": [
+        {
+          "id": "abstract",
+          "label": "摘要／注册",
+          "type": "abstract",
+          "primary": false,
+          "precision": "instant",
+          "date": null,
+          "instant": "2026-04-16T23:59:00-04:00",
+          "timezone": "America/New_York",
+          "original": "2026-04-16 23:59 US EDT",
+          "revision": 0
+        },
+        {
+          "id": "paper",
+          "label": "全文提交",
+          "type": "paper",
+          "primary": true,
+          "precision": "instant",
+          "date": null,
+          "instant": "2026-04-23T23:59:00-04:00",
+          "timezone": "America/New_York",
+          "original": "2026-04-23 23:59 US EDT",
+          "revision": 0,
+          "requires": [
+            "abstract"
+          ]
+        },
+        {
+          "id": "decision",
+          "label": "录用通知",
+          "type": "decision",
+          "primary": false,
+          "precision": "date",
+          "date": "2026-07-23",
+          "instant": null,
+          "timezone": null,
+          "original": "2026-07-23",
+          "revision": 0
+        },
+        {
+          "id": "final",
+          "label": "终稿提交",
+          "type": "final",
+          "primary": false,
+          "precision": "date",
+          "date": "2026-10-20",
+          "instant": null,
+          "timezone": null,
+          "original": "2026-10-20",
+          "revision": 0
+        }
+      ],
+      "verification": "verified",
+      "verifiedAt": "2026-10-18",
+      "updatedAt": "2026-10-18T08:00:00Z",
+      "status": "announced",
+      "notes": "两轮主会新投稿均已截止；仅摘要与全文官方明确11:59pm US EDT。春季终稿2026-10-20仅适用于已录用论文，不能作为新投稿机会。",
+      "location": "普罗维登斯，美国",
+      "eventDates": "2027-05-11 / 2027-05-13",
+      "publication": null,
+      "history": [],
+      "sourceType": "official"
+    },
+    {
+      "id": "nsdi-2027-fall",
+      "venueId": "nsdi",
+      "year": 2027,
+      "title": "NSDI 2027 · 秋季轮",
+      "titleEn": "USENIX Symposium on Networked Systems Design and Implementation 2027",
+      "kind": "conference",
+      "areas": [
+        "network",
+        "iot",
+        "ai"
+      ],
+      "topics": [
+        "protocols",
+        "edge-cloud",
+        "network-management"
+      ],
+      "tags": [],
+      "summary": "重点覆盖网络协议与体系结构、边缘计算与云网络、网络管理与虚拟化。",
+      "sourceUrl": "https://www.usenix.org/conference/nsdi27/call-for-papers",
+      "url": "https://www.usenix.org/conference/nsdi27/call-for-papers",
+      "nodes": [
+        {
+          "id": "abstract",
+          "label": "摘要／注册",
+          "type": "abstract",
+          "primary": false,
+          "precision": "instant",
+          "date": null,
+          "instant": "2026-09-10T23:59:00-04:00",
+          "timezone": "America/New_York",
+          "original": "2026-09-10 23:59 US EDT",
+          "revision": 0
+        },
+        {
+          "id": "paper",
+          "label": "全文提交",
+          "type": "paper",
+          "primary": true,
+          "precision": "instant",
+          "date": null,
+          "instant": "2026-09-17T23:59:00-04:00",
+          "timezone": "America/New_York",
+          "original": "2026-09-17 23:59 US EDT",
+          "revision": 0,
+          "requires": [
+            "abstract"
+          ]
+        },
+        {
+          "id": "decision",
+          "label": "录用通知",
+          "type": "decision",
+          "primary": false,
+          "precision": "date",
+          "date": "2026-12-08",
+          "instant": null,
+          "timezone": null,
+          "original": "2026-12-08",
+          "revision": 0
+        },
+        {
+          "id": "final",
+          "label": "终稿提交",
+          "type": "final",
+          "primary": false,
+          "precision": "date",
+          "date": "2027-03-04",
+          "instant": null,
+          "timezone": null,
+          "original": "2027-03-04",
+          "revision": 0
+        }
+      ],
+      "verification": "verified",
+      "verifiedAt": "2026-10-18",
+      "updatedAt": "2026-10-18T08:00:00Z",
+      "status": "announced",
+      "notes": "两轮主会新投稿均已截止；仅摘要与全文官方明确11:59pm US EDT。春季终稿2026-10-20仅适用于已录用论文，不能作为新投稿机会。",
+      "location": "普罗维登斯，美国",
+      "eventDates": "2027-05-11 / 2027-05-13",
+      "publication": null,
+      "history": [],
+      "sourceType": "official"
+    },
+    {
+      "id": "sensys-2027-round1",
+      "venueId": "sensys",
+      "year": 2027,
+      "title": "SenSys 2027 · 第一轮",
+      "titleEn": "ACM/IEEE International Conference on Embedded Artificial Intelligence and Sensing Systems 2027",
+      "kind": "conference",
+      "areas": [
+        "iot",
+        "network",
+        "signal",
+        "wireless",
+        "ai"
+      ],
+      "topics": [
+        "iot-sensing",
+        "mobile-systems",
+        "distributed-learning"
+      ],
+      "tags": [],
+      "summary": "已整合原 SenSys、IPSN 与 IoTDI 社群；2026 年采用统一会议名称。原系列名可检索，不分别重复计数。",
+      "sourceUrl": "https://sensys.acm.org/2027/",
+      "url": "https://sensys.acm.org/2027/",
+      "nodes": [
+        {
+          "id": "abstract",
+          "label": "摘要／注册",
+          "type": "abstract",
+          "primary": false,
+          "precision": "instant",
+          "date": null,
+          "instant": "2026-05-29T23:59:00-12:00",
+          "timezone": "UTC-12",
+          "original": "2026-05-29 23:59 AoE",
+          "revision": 0
+        },
+        {
+          "id": "paper",
+          "label": "全文提交",
+          "type": "paper",
+          "primary": true,
+          "precision": "instant",
+          "date": null,
+          "instant": "2026-06-05T23:59:00-12:00",
+          "timezone": "UTC-12",
+          "original": "2026-06-05 23:59 AoE",
+          "revision": 0,
+          "requires": [
+            "abstract"
+          ]
+        },
+        {
+          "id": "decision",
+          "label": "录用通知",
+          "type": "decision",
+          "primary": false,
+          "precision": "instant",
+          "date": null,
+          "instant": "2026-08-31T23:59:00-12:00",
+          "timezone": "UTC-12",
+          "original": "2026-08-31 23:59 AoE",
+          "revision": 0
+        }
+      ],
+      "verification": "verified",
+      "verifiedAt": "2026-10-18",
+      "updatedAt": "2026-10-18T08:00:00Z",
+      "status": "announced",
+      "notes": "合并后的SenSys/IPSN/IoTDI会议；当前官方终稿仍TBD，不填估算。第1轮提前通知旁星期文字存在错误，仅使用数字日期，未录入该提前通知节点。",
+      "location": "博尔德，美国",
+      "eventDates": "2027-05-17 / 2027-05-20",
+      "publication": null,
+      "history": [],
+      "sourceType": "official"
+    },
+    {
+      "id": "sensys-2027-round2",
+      "venueId": "sensys",
+      "year": 2027,
+      "title": "SenSys 2027 · 第二轮",
+      "titleEn": "ACM/IEEE International Conference on Embedded Artificial Intelligence and Sensing Systems 2027",
+      "kind": "conference",
+      "areas": [
+        "iot",
+        "network",
+        "signal",
+        "wireless",
+        "ai"
+      ],
+      "topics": [
+        "iot-sensing",
+        "mobile-systems",
+        "distributed-learning"
+      ],
+      "tags": [],
+      "summary": "已整合原 SenSys、IPSN 与 IoTDI 社群；2026 年采用统一会议名称。原系列名可检索，不分别重复计数。",
+      "sourceUrl": "https://sensys.acm.org/2027/",
+      "url": "https://sensys.acm.org/2027/",
+      "nodes": [
+        {
+          "id": "abstract",
+          "label": "摘要／注册",
+          "type": "abstract",
+          "primary": false,
+          "precision": "instant",
+          "date": null,
+          "instant": "2026-10-29T23:59:00-12:00",
+          "timezone": "UTC-12",
+          "original": "2026-10-29 23:59 AoE",
+          "revision": 0
+        },
+        {
+          "id": "paper",
+          "label": "全文提交",
+          "type": "paper",
+          "primary": true,
+          "precision": "instant",
+          "date": null,
+          "instant": "2026-11-05T23:59:00-12:00",
+          "timezone": "UTC-12",
+          "original": "2026-11-05 23:59 AoE",
+          "revision": 0,
+          "requires": [
+            "abstract"
+          ]
+        },
+        {
+          "id": "decision",
+          "label": "录用通知",
+          "type": "decision",
+          "primary": false,
+          "precision": "instant",
+          "date": null,
+          "instant": "2027-01-28T23:59:00-12:00",
+          "timezone": "UTC-12",
+          "original": "2027-01-28 23:59 AoE",
+          "revision": 0
+        }
+      ],
+      "verification": "verified",
+      "verifiedAt": "2026-10-18",
+      "updatedAt": "2026-10-18T08:00:00Z",
+      "status": "announced",
+      "notes": "合并后的SenSys/IPSN/IoTDI会议；当前官方终稿仍TBD，不填估算。第1轮提前通知旁星期文字存在错误，仅使用数字日期，未录入该提前通知节点。",
+      "location": "博尔德，美国",
+      "eventDates": "2027-05-17 / 2027-05-20",
+      "publication": null,
+      "history": [],
+      "sourceType": "official"
+    },
+    {
+      "id": "conext-2027-december",
+      "venueId": "conext",
+      "year": 2027,
+      "title": "CoNEXT 2027 · 12月轮",
+      "titleEn": "ACM International Conference on emerging Networking EXperiments and Technologies 2027",
+      "kind": "conference",
+      "areas": [
+        "network",
+        "iot",
+        "ai"
+      ],
+      "topics": [
+        "protocols",
+        "measurement",
+        "edge-cloud"
+      ],
+      "tags": [],
+      "summary": "重点覆盖网络协议与体系结构、网络测量与性能分析、边缘计算与云网络。",
+      "sourceUrl": "https://conferences.sigcomm.org/co-next/2027/partials/cfp.html",
+      "url": "https://conferences.sigcomm.org/co-next/2027/partials/cfp.html",
+      "nodes": [
+        {
+          "id": "abstract",
+          "label": "论文注册",
+          "type": "abstract",
+          "primary": false,
+          "precision": "instant",
+          "date": null,
+          "instant": "2026-11-27T23:59:00-12:00",
+          "timezone": "UTC-12",
+          "original": "2026-11-27 23:59 AoE",
+          "revision": 0
+        },
+        {
+          "id": "paper",
+          "label": "全文提交",
+          "type": "paper",
+          "primary": true,
+          "precision": "instant",
+          "date": null,
+          "instant": "2026-12-04T23:59:00-12:00",
+          "timezone": "UTC-12",
+          "original": "2026-12-04 23:59 AoE",
+          "revision": 0,
+          "requires": [
+            "abstract"
+          ]
+        },
+        {
+          "id": "decision",
+          "label": "录用通知",
+          "type": "decision",
+          "primary": false,
+          "precision": "instant",
+          "date": null,
+          "instant": "2027-03-31T23:59:00-12:00",
+          "timezone": "UTC-12",
+          "original": "2027-03-31 23:59 AoE",
+          "revision": 0
+        },
+        {
+          "id": "final",
+          "label": "终稿提交",
+          "type": "final",
+          "primary": false,
+          "precision": "instant",
+          "date": null,
+          "instant": "2027-04-30T23:59:00-12:00",
+          "timezone": "UTC-12",
+          "original": "2027-04-30 23:59 AoE",
+          "revision": 0
+        }
+      ],
+      "verification": "verified",
+      "verifiedAt": "2026-10-18",
+      "updatedAt": "2026-10-18T08:00:00Z",
+      "status": "announced",
+      "notes": "官网CFP有两个独立新投稿轮次；同页给出的重大修改节点只对获修改机会的稿件适用，未当成开放新投稿截止。SIGCOMM系列总页将2027里约热内卢会期列为待确认，未据此填确定会期。",
+      "location": null,
+      "eventDates": null,
+      "publication": "Proceedings of the ACM on Networking（ACM网络汇刊）/ CoNEXT 2027",
+      "history": [],
+      "sourceType": "official"
+    },
+    {
+      "id": "conext-2027-june",
+      "venueId": "conext",
+      "year": 2027,
+      "title": "CoNEXT 2027 · 6月轮",
+      "titleEn": "ACM International Conference on emerging Networking EXperiments and Technologies 2027",
+      "kind": "conference",
+      "areas": [
+        "network",
+        "iot",
+        "ai"
+      ],
+      "topics": [
+        "protocols",
+        "measurement",
+        "edge-cloud"
+      ],
+      "tags": [],
+      "summary": "重点覆盖网络协议与体系结构、网络测量与性能分析、边缘计算与云网络。",
+      "sourceUrl": "https://conferences.sigcomm.org/co-next/2027/partials/cfp.html",
+      "url": "https://conferences.sigcomm.org/co-next/2027/partials/cfp.html",
+      "nodes": [
+        {
+          "id": "abstract",
+          "label": "论文注册",
+          "type": "abstract",
+          "primary": false,
+          "precision": "instant",
+          "date": null,
+          "instant": "2027-05-28T23:59:00-12:00",
+          "timezone": "UTC-12",
+          "original": "2027-05-28 23:59 AoE",
+          "revision": 0
+        },
+        {
+          "id": "paper",
+          "label": "全文提交",
+          "type": "paper",
+          "primary": true,
+          "precision": "instant",
+          "date": null,
+          "instant": "2027-06-04T23:59:00-12:00",
+          "timezone": "UTC-12",
+          "original": "2027-06-04 23:59 AoE",
+          "revision": 0,
+          "requires": [
+            "abstract"
+          ]
+        },
+        {
+          "id": "decision",
+          "label": "录用通知",
+          "type": "decision",
+          "primary": false,
+          "precision": "instant",
+          "date": null,
+          "instant": "2027-09-10T23:59:00-12:00",
+          "timezone": "UTC-12",
+          "original": "2027-09-10 23:59 AoE",
+          "revision": 0
+        },
+        {
+          "id": "final",
+          "label": "终稿提交",
+          "type": "final",
+          "primary": false,
+          "precision": "instant",
+          "date": null,
+          "instant": "2027-10-11T23:59:00-12:00",
+          "timezone": "UTC-12",
+          "original": "2027-10-11 23:59 AoE",
+          "revision": 0
+        }
+      ],
+      "verification": "verified",
+      "verifiedAt": "2026-10-18",
+      "updatedAt": "2026-10-18T08:00:00Z",
+      "status": "announced",
+      "notes": "官网CFP有两个独立新投稿轮次；同页给出的重大修改节点只对获修改机会的稿件适用，未当成开放新投稿截止。SIGCOMM系列总页将2027里约热内卢会期列为待确认，未据此填确定会期。",
+      "location": null,
+      "eventDates": null,
+      "publication": "Proceedings of the ACM on Networking（ACM网络汇刊）/ CoNEXT 2027",
+      "history": [],
+      "sourceType": "official"
+    },
+    {
+      "id": "lcn-2027",
+      "venueId": "lcn",
+      "year": 2027,
+      "title": "LCN 2027",
+      "titleEn": "IEEE Conference on Local Computer Networks 2027",
+      "kind": "conference",
+      "areas": [
+        "network",
+        "iot"
+      ],
+      "topics": [
+        "protocols",
+        "iot-sensing",
+        "measurement"
+      ],
+      "tags": [],
+      "summary": "局域网络、无线网络、网络协议与测量。",
+      "sourceUrl": "https://www.ieeelcn.org/LCN2027-CfP.pdf",
+      "url": "https://www.ieeelcn.org/LCN2027-CfP.pdf",
+      "nodes": [
+        {
+          "id": "abstract",
+          "label": "摘要／注册",
+          "type": "abstract",
+          "primary": false,
+          "precision": "date",
+          "date": "2027-04-25",
+          "instant": null,
+          "timezone": null,
+          "original": "2027-04-25",
+          "revision": 0
+        },
+        {
+          "id": "paper",
+          "label": "全文提交",
+          "type": "paper",
+          "primary": true,
+          "precision": "date",
+          "date": "2027-05-02",
+          "instant": null,
+          "timezone": null,
+          "original": "2027-05-02",
+          "revision": 0,
+          "requires": [
+            "abstract"
+          ]
+        },
+        {
+          "id": "decision",
+          "label": "录用通知",
+          "type": "decision",
+          "primary": false,
+          "precision": "date",
+          "date": "2027-07-11",
+          "instant": null,
+          "timezone": null,
+          "original": "2027-07-11",
+          "revision": 0
+        },
+        {
+          "id": "final",
+          "label": "终稿提交",
+          "type": "final",
+          "primary": false,
+          "precision": "date",
+          "date": "2027-08-08",
+          "instant": null,
+          "timezone": null,
+          "original": "2027-08-08",
+          "revision": 0
+        }
+      ],
+      "verification": "verified",
+      "verifiedAt": "2026-10-18",
+      "updatedAt": "2026-10-18T08:00:00Z",
+      "status": "announced",
+      "notes": "2027初步官方CFP已给具体日期，PDF未给钟点/时区；不沿用2026的AoE说明。",
+      "location": "代托纳比奇，佛罗里达州，美国",
+      "eventDates": "2027-10-18 / 2027-10-21",
+      "publication": null,
+      "history": [],
+      "sourceType": "official"
+    },
+    {
+      "id": "wowmom-2026",
+      "venueId": "wowmom",
+      "year": 2026,
+      "title": "WoWMoM 2026",
+      "titleEn": "IEEE International Symposium on a World of Wireless, Mobile and Multimedia Networks 2026",
+      "kind": "conference",
+      "areas": [
+        "wireless",
+        "network",
+        "iot"
+      ],
+      "topics": [
+        "protocols",
+        "mobile-systems",
+        "iot-sensing"
+      ],
+      "tags": [],
+      "summary": "无线与移动网络、多媒体网络与普适系统。",
+      "sourceUrl": "https://www.cs.unibo.it/wowmom2026/",
+      "url": "https://www.cs.unibo.it/wowmom2026/",
+      "nodes": [
+        {
+          "id": "abstract",
+          "label": "摘要／注册",
+          "type": "abstract",
+          "primary": false,
+          "precision": "date",
+          "date": "2025-12-05",
+          "instant": null,
+          "timezone": null,
+          "original": "2025-12-05",
+          "revision": 0
+        },
+        {
+          "id": "paper",
+          "label": "全文提交",
+          "type": "paper",
+          "primary": true,
+          "precision": "date",
+          "date": "2025-12-15",
+          "instant": null,
+          "timezone": null,
+          "original": "2025-12-15",
+          "revision": 0,
+          "requires": [
+            "abstract"
+          ]
+        },
+        {
+          "id": "decision",
+          "label": "录用通知",
+          "type": "decision",
+          "primary": false,
+          "precision": "date",
+          "date": "2026-03-09",
+          "instant": null,
+          "timezone": null,
+          "original": "2026-03-09",
+          "revision": 0
+        },
+        {
+          "id": "final",
+          "label": "终稿提交",
+          "type": "final",
+          "primary": false,
+          "precision": "date",
+          "date": "2026-05-05",
+          "instant": null,
+          "timezone": null,
+          "original": "2026-05-05",
+          "revision": 0
+        }
+      ],
+      "verification": "verified",
+      "verifiedAt": "2026-10-18",
+      "updatedAt": "2026-10-18T08:00:00Z",
+      "status": "announced",
+      "notes": "采用官方主页划线旧日期后的最新延期日期。主会常规论文，不把附属Workshop截止套到主会。主会全文已截止；2027本次未核到官方新日期。",
+      "location": "博洛尼亚，意大利",
+      "eventDates": "2026-06-16 / 2026-06-19",
+      "publication": null,
+      "history": [],
+      "sourceType": "official"
+    },
+    {
+      "id": "mass-2026",
+      "venueId": "mass",
+      "year": 2026,
+      "title": "MASS 2026",
+      "titleEn": "IEEE International Conference on Mobile Ad Hoc and Smart Systems 2026",
+      "kind": "conference",
+      "areas": [
+        "wireless",
+        "network",
+        "iot"
+      ],
+      "topics": [
+        "protocols",
+        "iot-sensing",
+        "mobile-systems"
+      ],
+      "tags": [],
+      "summary": "移动自组织网络、感知网络和智能系统。",
+      "sourceUrl": "https://mass-conf.github.io/2026/callforpapers.html",
+      "url": "https://mass-conf.github.io/2026/callforpapers.html",
+      "nodes": [
+        {
+          "id": "paper",
+          "label": "全文提交",
+          "type": "paper",
+          "primary": true,
+          "precision": "date",
+          "date": "2026-05-24",
+          "instant": null,
+          "timezone": null,
+          "original": "2026-05-24",
+          "revision": 0
+        },
+        {
+          "id": "decision",
+          "label": "录用通知",
+          "type": "decision",
+          "primary": false,
+          "precision": "date",
+          "date": "2026-08-14",
+          "instant": null,
+          "timezone": null,
+          "original": "2026-08-14",
+          "revision": 0
+        },
+        {
+          "id": "final",
+          "label": "终稿提交",
+          "type": "final",
+          "primary": false,
+          "precision": "date",
+          "date": "2026-08-31",
+          "instant": null,
+          "timezone": null,
+          "original": "2026-08-31",
+          "revision": 0
+        }
+      ],
+      "verification": "verified",
+      "verifiedAt": "2026-10-18",
+      "updatedAt": "2026-10-18T08:00:00Z",
+      "status": "announced",
+      "notes": "主会已截止，全文从5月3日延期至5月24日；录用从8月6日延期至8月14日。未给钟点时区。",
+      "location": "香港，中国",
+      "eventDates": "2026-10-21 / 2026-10-23",
+      "publication": null,
+      "history": [],
+      "sourceType": "official"
+    },
+    {
+      "id": "iwcmc-2027",
+      "venueId": "iwcmc",
+      "year": 2027,
+      "title": "IWCMC 2027",
+      "titleEn": "International Wireless Communications and Mobile Computing Conference 2027",
+      "kind": "conference",
+      "areas": [
+        "wireless",
+        "network",
+        "ai"
+      ],
+      "topics": [
+        "physical",
+        "mimo",
+        "mobile-systems",
+        "ai-communications"
+      ],
+      "tags": [],
+      "summary": "无线通信、移动计算及通信网络应用。",
+      "sourceUrl": "https://iwcmc.net/2027/index.php",
+      "url": "https://iwcmc.net/2027/index.php",
+      "nodes": [
+        {
+          "id": "paper",
+          "label": "全文提交",
+          "type": "paper",
+          "primary": true,
+          "precision": "date",
+          "date": "2027-01-15",
+          "instant": null,
+          "timezone": null,
+          "original": "2027-01-15",
+          "revision": 0
+        },
+        {
+          "id": "decision",
+          "label": "录用通知",
+          "type": "decision",
+          "primary": false,
+          "precision": "date",
+          "date": "2027-03-30",
+          "instant": null,
+          "timezone": null,
+          "original": "2027-03-30",
+          "revision": 0
+        },
+        {
+          "id": "final",
+          "label": "终稿提交",
+          "type": "final",
+          "primary": false,
+          "precision": "date",
+          "date": "2027-04-30",
+          "instant": null,
+          "timezone": null,
+          "original": "2027-04-30",
+          "revision": 0
+        }
+      ],
+      "verification": "verified",
+      "verifiedAt": "2026-10-18",
+      "updatedAt": "2026-10-18T08:00:00Z",
+      "status": "announced",
+      "notes": "官方只给日期，钟点时区未公布。",
+      "location": "巴塞罗那，西班牙",
+      "eventDates": "2027-06-13 / 2027-06-18",
+      "publication": null,
+      "history": [],
+      "sourceType": "official"
+    },
+    {
+      "id": "icoin-2027",
+      "venueId": "icoin",
+      "year": 2027,
+      "title": "ICOIN 2027",
+      "titleEn": "International Conference on Information Networking 2027",
+      "kind": "conference",
+      "areas": [
+        "network",
+        "wireless",
+        "iot"
+      ],
+      "topics": [
+        "protocols",
+        "iot-sensing",
+        "network-management"
+      ],
+      "tags": [],
+      "summary": "计算机通信、信息网络、无线网络与物联网。",
+      "sourceUrl": "https://icoin.org/about_info",
+      "url": "https://icoin.org/about_info",
+      "nodes": [
+        {
+          "id": "paper",
+          "label": "全文提交",
+          "type": "paper",
+          "primary": true,
+          "precision": "date",
+          "date": "2026-10-23",
+          "instant": null,
+          "timezone": null,
+          "original": "2026-10-23",
+          "revision": 0
+        },
+        {
+          "id": "decision",
+          "label": "录用通知",
+          "type": "decision",
+          "primary": false,
+          "precision": "date",
+          "date": "2026-11-13",
+          "instant": null,
+          "timezone": null,
+          "original": "2026-11-13",
+          "revision": 0
+        },
+        {
+          "id": "final",
+          "label": "终稿提交",
+          "type": "final",
+          "primary": false,
+          "precision": "date",
+          "date": "2026-12-04",
+          "instant": null,
+          "timezone": null,
+          "original": "2026-12-04",
+          "revision": 0
+        }
+      ],
+      "verification": "verified",
+      "verifiedAt": "2026-10-18",
+      "updatedAt": "2026-10-18T08:00:00Z",
+      "status": "announced",
+      "notes": "官网最新firm（最终）全文截止10月23日；第三方10月2日已过时。官网正常公开HTML可读，网页检索器未提取正文，原始HTML已留档。",
+      "location": "芽庄，越南",
+      "eventDates": "2027-01-13 / 2027-01-15",
+      "publication": null,
+      "history": [],
+      "sourceType": "official"
+    },
+    {
+      "id": "icccn-2026",
+      "venueId": "icccn",
+      "year": 2026,
+      "title": "ICCCN 2026",
+      "titleEn": "International Conference on Computer Communications and Networks 2026",
+      "kind": "conference",
+      "areas": [
+        "network",
+        "wireless"
+      ],
+      "topics": [
+        "protocols",
+        "edge-cloud",
+        "security"
+      ],
+      "tags": [],
+      "summary": "计算机通信、无线网络、云边网络与网络安全。",
+      "sourceUrl": "https://easychair.org/cfp/icccn2026",
+      "url": "https://easychair.org/cfp/icccn2026",
+      "nodes": [
+        {
+          "id": "abstract",
+          "label": "摘要／注册",
+          "type": "abstract",
+          "primary": false,
+          "precision": "instant",
+          "date": null,
+          "instant": "2026-03-07T23:59:00-10:00",
+          "timezone": "Pacific/Honolulu",
+          "original": "2026-03-07 23:59 Hawaii",
+          "revision": 0
+        },
+        {
+          "id": "paper",
+          "label": "全文提交",
+          "type": "paper",
+          "primary": true,
+          "precision": "instant",
+          "date": null,
+          "instant": "2026-03-13T23:59:00-10:00",
+          "timezone": "Pacific/Honolulu",
+          "original": "2026-03-13 23:59 Hawaii",
+          "revision": 0,
+          "requires": [
+            "abstract"
+          ]
+        },
+        {
+          "id": "decision",
+          "label": "录用通知",
+          "type": "decision",
+          "primary": false,
+          "precision": "instant",
+          "date": null,
+          "instant": "2026-04-24T23:59:00-10:00",
+          "timezone": "Pacific/Honolulu",
+          "original": "2026-04-24 23:59 Hawaii",
+          "revision": 0
+        },
+        {
+          "id": "final",
+          "label": "终稿提交",
+          "type": "final",
+          "primary": false,
+          "precision": "date",
+          "date": "2026-05-11",
+          "instant": null,
+          "timezone": null,
+          "original": "2026-05-11",
+          "revision": 0
+        }
+      ],
+      "verification": "verified",
+      "verifiedAt": "2026-10-18",
+      "updatedAt": "2026-10-18T08:00:00Z",
+      "status": "announced",
+      "notes": "主办方发布于会议实际投稿平台EasyChair的CFP；主官网TLS失败。摘要/全文及通知段明确11:59pm Honolulu；终稿段另列，未把上段钟点自动扩展到终稿。2027本次未核到官方日程。",
+      "location": "檀香山，夏威夷，美国",
+      "eventDates": "2026-07-27 / 2026-07-30",
+      "publication": null,
+      "history": [],
+      "sourceType": "official"
+    },
+    {
+      "id": "ifip-networking-2026",
+      "venueId": "ifip-networking",
+      "year": 2026,
+      "title": "IFIP Networking 2026",
+      "titleEn": "IFIP Networking Conference 2026",
+      "kind": "conference",
+      "areas": [
+        "network",
+        "wireless"
+      ],
+      "topics": [
+        "protocols",
+        "network-management",
+        "security"
+      ],
+      "tags": [],
+      "summary": "计算机与通信网络、互联网体系结构及网络系统。",
+      "sourceUrl": "https://networking.ifip.org/2026/",
+      "url": "https://networking.ifip.org/2026/",
+      "nodes": [
+        {
+          "id": "paper",
+          "label": "主会全文提交",
+          "type": "paper",
+          "primary": true,
+          "precision": "instant",
+          "date": null,
+          "instant": "2026-02-28T23:59:00-12:00",
+          "timezone": "UTC-12",
+          "original": "2026-02-28 23:59 AoE",
+          "revision": 0
+        },
+        {
+          "id": "decision",
+          "label": "录用通知",
+          "type": "decision",
+          "primary": false,
+          "precision": "date",
+          "date": "2026-04-08",
+          "instant": null,
+          "timezone": null,
+          "original": "2026-04-08",
+          "revision": 0
+        },
+        {
+          "id": "final",
+          "label": "终稿提交",
+          "type": "final",
+          "primary": false,
+          "precision": "date",
+          "date": "2026-05-04",
+          "instant": null,
+          "timezone": null,
+          "original": "2026-05-04",
+          "revision": 0
+        }
+      ],
+      "verification": "verified",
+      "verifiedAt": "2026-10-18",
+      "updatedAt": "2026-10-18T08:00:00Z",
+      "status": "announced",
+      "notes": "主会全文已截止；全文由2月8日延期至2月28日，录用与终稿采用最新划线替换值。官网说所有deadlines为23:59 AoE，仅明确投稿截止按该口径，通知保留日期。",
+      "location": "卢加诺，瑞士",
+      "eventDates": "2026-05-24 / 2026-05-27",
+      "publication": null,
+      "history": [],
+      "sourceType": "official"
+    },
+    {
+      "id": "apnet-2026",
+      "venueId": "apnet",
+      "year": 2026,
+      "title": "APNet 2026",
+      "titleEn": "Asia-Pacific Workshop on Networking 2026",
+      "kind": "conference",
+      "areas": [
+        "network"
+      ],
+      "topics": [
+        "protocols",
+        "measurement",
+        "network-management"
+      ],
+      "tags": [],
+      "summary": "网络系统、数据中心与互联网，包含早期研究短文。",
+      "sourceUrl": "https://conferences.sigcomm.org/events/apnet2026/cfp.php",
+      "url": "https://conferences.sigcomm.org/events/apnet2026/cfp.php",
+      "nodes": [
+        {
+          "id": "paper",
+          "label": "全文提交",
+          "type": "paper",
+          "primary": true,
+          "precision": "date",
+          "date": "2026-03-11",
+          "instant": null,
+          "timezone": null,
+          "original": "2026-03-11",
+          "revision": 0
+        },
+        {
+          "id": "decision",
+          "label": "录用通知",
+          "type": "decision",
+          "primary": false,
+          "precision": "date",
+          "date": "2026-04-22",
+          "instant": null,
+          "timezone": null,
+          "original": "2026-04-22",
+          "revision": 0
+        },
+        {
+          "id": "final",
+          "label": "终稿提交",
+          "type": "final",
+          "primary": false,
+          "precision": "date",
+          "date": "2026-05-29",
+          "instant": null,
+          "timezone": null,
+          "original": "2026-05-29",
+          "revision": 0
+        }
+      ],
+      "verification": "verified",
+      "verifiedAt": "2026-10-18",
+      "updatedAt": "2026-10-18T08:00:00Z",
+      "status": "announced",
+      "notes": "主会为独立短论文研讨会，不是海报track；全文延期至3月11日AoE，官网明确no abstract registration（无需先注册摘要）；未给钟点，保留日期。",
+      "location": "新加坡",
+      "eventDates": "2026-08-06 / 2026-08-07",
+      "publication": null,
+      "history": [],
+      "sourceType": "official"
+    },
+    {
+      "id": "hotnets-2026",
+      "venueId": "hotnets",
+      "year": 2026,
+      "title": "HotNets 2026",
+      "titleEn": "ACM Workshop on Hot Topics in Networks 2026",
+      "kind": "conference",
+      "areas": [
+        "network",
+        "wireless"
+      ],
+      "topics": [
+        "protocols",
+        "measurement",
+        "edge-cloud"
+      ],
+      "tags": [],
+      "summary": "网络理论、系统设计和前沿研究议题。",
+      "sourceUrl": "https://conferences.sigcomm.org/hotnets/2026/index.html",
+      "url": "https://conferences.sigcomm.org/hotnets/2026/index.html",
+      "nodes": [
+        {
+          "id": "paper",
+          "label": "全文提交",
+          "type": "paper",
+          "primary": true,
+          "precision": "instant",
+          "date": null,
+          "instant": "2026-07-16T23:59:00-12:00",
+          "timezone": "UTC-12",
+          "original": "2026-07-16 23:59 AoE",
+          "revision": 0
+        },
+        {
+          "id": "decision",
+          "label": "录用通知",
+          "type": "decision",
+          "primary": false,
+          "precision": "date",
+          "date": "2026-09-24",
+          "instant": null,
+          "timezone": null,
+          "original": "2026-09-24",
+          "revision": 0
+        },
+        {
+          "id": "final",
+          "label": "终稿提交",
+          "type": "final",
+          "primary": false,
+          "precision": "date",
+          "date": "2026-10-23",
+          "instant": null,
+          "timezone": null,
+          "original": "2026-10-23",
+          "revision": 0
+        }
+      ],
+      "verification": "verified",
+      "verifiedAt": "2026-10-18",
+      "updatedAt": "2026-10-18T08:00:00Z",
+      "status": "announced",
+      "notes": "独立研讨会正式论文；7月16日为新投稿截止，10月23日只是已录用论文终稿；只对全文采用官方23:59 AoE。",
+      "location": "盐湖城，美国",
+      "eventDates": "2026-11-16 / 2026-11-17",
+      "publication": null,
+      "history": [],
+      "sourceType": "official"
+    },
+    {
+      "id": "isncc-2026",
+      "venueId": "isncc",
+      "year": 2026,
+      "title": "ISNCC 2026",
+      "titleEn": "International Symposium on Networks, Computers and Communications 2026",
+      "kind": "conference",
+      "areas": [
+        "network",
+        "wireless",
+        "space"
+      ],
+      "topics": [
+        "protocols",
+        "satellite-ntn",
+        "iot-sensing"
+      ],
+      "tags": [],
+      "summary": "通信网络、卫星与深空通信、物联网。",
+      "sourceUrl": "https://www.isncc-conf.org/",
+      "url": "https://www.isncc-conf.org/",
+      "nodes": [
+        {
+          "id": "paper",
+          "label": "全文提交",
+          "type": "paper",
+          "primary": true,
+          "precision": "date",
+          "date": "2026-06-07",
+          "instant": null,
+          "timezone": null,
+          "original": "2026-06-07",
+          "revision": 0
+        },
+        {
+          "id": "decision",
+          "label": "录用通知",
+          "type": "decision",
+          "primary": false,
+          "precision": "date",
+          "date": "2026-07-19",
+          "instant": null,
+          "timezone": null,
+          "original": "2026-07-19",
+          "revision": 0
+        },
+        {
+          "id": "final",
+          "label": "终稿提交",
+          "type": "final",
+          "primary": false,
+          "precision": "date",
+          "date": "2026-08-14",
+          "instant": null,
+          "timezone": null,
+          "original": "2026-08-14",
+          "revision": 0
+        }
+      ],
+      "verification": "verified",
+      "verifiedAt": "2026-10-18",
+      "updatedAt": "2026-10-18T08:00:00Z",
+      "status": "announced",
+      "notes": "主会全文已截止，采用官网最新最终延期6月7日；工业论坛摘要或博士论坛非主会全文，不混入本条。",
+      "location": "布里斯托尔，英国",
+      "eventDates": "2026-09-08 / 2026-09-10",
+      "publication": null,
+      "history": [],
+      "sourceType": "official"
+    },
+    {
+      "id": "icin-2027",
+      "venueId": "icin",
+      "year": 2027,
+      "title": "ICIN 2027",
+      "titleEn": "Conference on Innovation in Clouds, Internet and Networks 2027",
+      "kind": "conference",
+      "areas": [
+        "network",
+        "iot"
+      ],
+      "topics": [
+        "edge-cloud",
+        "network-management",
+        "security"
+      ],
+      "tags": [],
+      "summary": "云与互联网、网络自动化、网络体系及服务。",
+      "sourceUrl": "https://www.icin-conference.org/",
+      "url": "https://www.icin-conference.org/",
+      "nodes": [
+        {
+          "id": "paper",
+          "label": "全文提交",
+          "type": "paper",
+          "primary": true,
+          "precision": "date",
+          "date": "2026-10-30",
+          "instant": null,
+          "timezone": null,
+          "original": "2026-10-30",
+          "revision": 0
+        },
+        {
+          "id": "decision",
+          "label": "录用通知",
+          "type": "decision",
+          "primary": false,
+          "precision": "date",
+          "date": "2026-12-13",
+          "instant": null,
+          "timezone": null,
+          "original": "2026-12-13",
+          "revision": 0
+        },
+        {
+          "id": "final",
+          "label": "终稿提交",
+          "type": "final",
+          "primary": false,
+          "precision": "date",
+          "date": "2026-12-27",
+          "instant": null,
+          "timezone": null,
+          "original": "2026-12-27",
+          "revision": 0
+        }
+      ],
+      "verification": "verified",
+      "verifiedAt": "2026-10-18",
+      "updatedAt": "2026-10-18T08:00:00Z",
+      "status": "announced",
+      "notes": "官方主页给出主会全文/录用/终稿日期，未给钟点时区。",
+      "location": "比萨，意大利",
+      "eventDates": "2027-03-15 / 2027-03-18",
+      "publication": null,
+      "history": [],
+      "sourceType": "official"
+    },
+    {
+      "id": "wowmom-2027",
+      "venueId": "wowmom",
+      "year": 2027,
+      "title": "WoWMoM 2027",
+      "titleEn": "IEEE Symposium on a World of Wireless Mobility, IoT and Machine Learning 2027",
+      "kind": "conference",
+      "areas": [
+        "wireless",
+        "network",
+        "iot"
+      ],
+      "topics": [
+        "protocols",
+        "mobile-systems",
+        "iot-sensing"
+      ],
+      "tags": [],
+      "summary": "无线移动网络、物联网与智能网络系统研究。",
+      "sourceUrl": "https://wowmom2027.dii.unipi.it/data/conference.js",
+      "url": "https://wowmom2027.dii.unipi.it/call-for-papers.html",
+      "nodes": [
+        {
+          "id": "paper",
+          "label": "全文提交",
+          "type": "paper",
+          "primary": true,
+          "precision": "instant",
+          "date": null,
+          "instant": "2026-12-01T23:59:00-12:00",
+          "timezone": "UTC-12",
+          "original": "2026-12-01 23:59 AoE",
+          "revision": 0
+        },
+        {
+          "id": "decision",
+          "label": "录用通知",
+          "type": "decision",
+          "primary": false,
+          "precision": "instant",
+          "date": null,
+          "instant": "2027-02-10T23:59:00-12:00",
+          "timezone": "UTC-12",
+          "original": "2027-02-10 23:59 AoE",
+          "revision": 0
+        },
+        {
+          "id": "final",
+          "label": "终稿提交",
+          "type": "final",
+          "primary": false,
+          "precision": "instant",
+          "date": null,
+          "instant": "2027-05-05T23:59:00-12:00",
+          "timezone": "UTC-12",
+          "original": "2027-05-05 23:59 AoE",
+          "revision": 0
+        }
+      ],
+      "verification": "verified",
+      "verifiedAt": "2026-10-18",
+      "updatedAt": "2026-10-18T08:00:00Z",
+      "status": "announced",
+      "notes": "当前官方2027站的公开conference.js为页面显示日期源，明确截止为23:59 AoE；主会常规及在研论文共用这些节点，没有摘要前置公告。会议已改英文全称，原名可保留检索别名。",
+      "location": "尔湾，加利福尼亚州，美国",
+      "eventDates": "2027-06-21 / 2027-06-24",
+      "publication": null,
+      "history": [],
+      "sourceType": "official"
+    },
+    {
+      "id": "sigcomm-2027",
+      "venueId": "sigcomm",
+      "year": 2027,
+      "title": "SIGCOMM 2027 · 截稿待公布",
+      "titleEn": "ACM SIGCOMM Conference 2027",
+      "kind": "conference",
+      "areas": [
+        "network"
+      ],
+      "topics": [
+        "protocols",
+        "measurement",
+        "network-management"
+      ],
+      "tags": [],
+      "summary": "重点覆盖网络协议与体系结构、网络测量与性能分析、网络管理与虚拟化。",
+      "sourceUrl": "https://conferences.sigcomm.org/sigcomm/2027/",
+      "url": "https://conferences.sigcomm.org/sigcomm/2027/",
+      "sourceType": "official",
+      "verification": "verified",
+      "verifiedAt": "2026-10-18",
+      "updatedAt": "2026-10-18T08:00:00Z",
+      "status": "announced",
+      "submissionDateStatus": "TBA",
+      "notes": "官方当前届次尚未公布此轮投稿截止，未推算往届日期。",
+      "location": "曼谷，泰国",
+      "eventDates": "2027-08-08 / 2027-08-12",
+      "history": [],
+      "nodes": [
+        {
+          "id": "paper",
+          "label": "全文提交",
+          "type": "paper",
+          "primary": true,
+          "precision": "unknown",
+          "date": null,
+          "instant": null,
+          "timezone": null,
+          "original": "Submission deadline: TBA / TBD",
+          "revision": 0
+        }
+      ]
+    },
+    {
+      "id": "mobicom-2027-winter",
+      "venueId": "mobicom",
+      "year": 2027,
+      "title": "MobiCom 2027 · winter · 截稿待公布",
+      "titleEn": "ACM International Conference on Mobile Computing and Networking 2027",
+      "kind": "conference",
+      "areas": [
+        "network",
+        "wireless",
+        "iot",
+        "theory",
+        "signal"
+      ],
+      "topics": [
+        "mobile-systems",
+        "physical",
+        "iot-sensing"
+      ],
+      "tags": [],
+      "summary": "重点覆盖移动计算与无线系统、调制、波形与物理层、传感器与物联网。",
+      "sourceUrl": "https://www.sigmobile.org/mobicom/2027/",
+      "url": "https://www.sigmobile.org/mobicom/2027/",
+      "sourceType": "official",
+      "verification": "verified",
+      "verifiedAt": "2026-10-18",
+      "updatedAt": "2026-10-18T08:00:00Z",
+      "status": "announced",
+      "submissionDateStatus": "TBA",
+      "notes": "官方当前届次尚未公布此轮投稿截止，未推算往届日期。",
+      "location": null,
+      "eventDates": "2027-10-18 / 2027-10-22",
+      "history": [],
+      "nodes": [
+        {
+          "id": "paper",
+          "label": "全文提交",
+          "type": "paper",
+          "primary": true,
+          "precision": "unknown",
+          "date": null,
+          "instant": null,
+          "timezone": null,
+          "original": "Submission deadline: TBA / TBD",
+          "revision": 0
+        }
+      ]
+    },
+    {
+      "id": "icassp-2027-satellite-papers",
+      "venueId": "icassp",
+      "title": "ICASSP 2027 · 附属研讨会论文",
+      "titleEn": "IEEE International Conference on Acoustics, Speech, and Signal Processing",
+      "year": 2027,
+      "kind": "workshop",
+      "areas": [
+        "signal",
+        "ai",
+        "wireless"
+      ],
+      "topics": [
+        "estimation-sync",
+        "arrays",
+        "speech",
+        "imaging",
+        "ai-communications",
+        "isac",
+        "physical"
+      ],
+      "tags": [],
+      "summary": "",
+      "url": "https://2027.ieeeicassp.org/call-for-satellite-workshops/",
+      "sourceUrl": "https://2027.ieeeicassp.org/call-for-satellite-workshops/",
+      "sourceType": "official",
+      "nodes": [
+        {
+          "id": "paper",
+          "label": "全文提交",
+          "type": "paper",
+          "primary": true,
+          "precision": "date",
+          "date": "2026-11-11",
+          "instant": null,
+          "timezone": null,
+          "original": "2026-11-11",
+          "revision": 0
+        },
+        {
+          "id": "decision",
+          "label": "录用通知",
+          "type": "decision",
+          "primary": false,
+          "precision": "date",
+          "date": "2026-12-16",
+          "instant": null,
+          "timezone": null,
+          "original": "2026-12-16",
+          "revision": 0
+        },
+        {
+          "id": "final",
+          "label": "终稿提交",
+          "type": "final",
+          "primary": false,
+          "precision": "date",
+          "date": "2027-01-06",
+          "instant": null,
+          "timezone": null,
+          "original": "2027-01-06",
+          "revision": 0
+        }
+      ],
+      "verification": "verified",
+      "verifiedAt": "2026-10-18",
+      "checkedAt": "2026-10-18",
+      "updatedAt": "2026-10-18T04:00:00Z",
+      "status": "announced",
+      "notes": "这是已征集附属研讨会的统一论文时间，非研讨会组织提案截止。研讨会使用独立IEEE Xplore论文集编号，不能自动继承ICASSP主会等级；具体研讨会日期以各会官网为准。",
+      "location": "加拿大·多伦多",
+      "eventStart": null,
+      "eventEnd": null,
+      "eventDates": null,
+      "publication": null,
+      "history": [],
+      "parentCallId": "icassp-2027-main",
+      "ratingScope": "workshop-separate",
+      "inheritsVenueEvaluation": false
+    },
+    {
+      "id": "itw-2027-main",
+      "venueId": "itw",
+      "title": "ITW 2027 · 主会论文",
+      "titleEn": "IEEE Information Theory Workshop",
+      "year": 2027,
+      "kind": "conference",
+      "areas": [
+        "theory"
+      ],
+      "topics": [
+        "information-theory",
+        "channel-coding",
+        "source-coding"
+      ],
+      "tags": [],
+      "summary": "",
+      "url": "https://2027.ieee-itw.org/",
+      "sourceUrl": "https://2027.ieee-itw.org/",
+      "sourceType": "official",
+      "nodes": [
+        {
+          "id": "paper",
+          "label": "全文提交",
+          "type": "paper",
+          "primary": true,
+          "precision": "instant",
+          "date": null,
+          "instant": "2026-10-11T23:59:00-12:00",
+          "timezone": "UTC-12:00",
+          "original": "Extended: October 11, 2026, 11:59 PM AoE (UTC−12)",
+          "revision": 0
+        },
+        {
+          "id": "decision",
+          "label": "录用通知",
+          "type": "decision",
+          "primary": false,
+          "precision": "date",
+          "date": "2026-12-15",
+          "instant": null,
+          "timezone": null,
+          "original": "2026-12-15",
+          "revision": 0
+        },
+        {
+          "id": "final",
+          "label": "终稿提交",
+          "type": "final",
+          "primary": false,
+          "precision": "instant",
+          "date": null,
+          "instant": "2027-01-15T23:59:00-12:00",
+          "timezone": "UTC-12:00",
+          "original": "January 15, 2027, 11:59 PM AoE",
+          "revision": 0
+        }
+      ],
+      "verification": "verified",
+      "verifiedAt": "2026-10-18",
+      "checkedAt": "2026-10-18",
+      "updatedAt": "2026-10-18T04:00:00Z",
+      "status": "announced",
+      "notes": "独立举办的信息论研讨会，按正式会议记录。投稿截止已由10月2日延期至10月11日；截至核验日已经截止。网页标题残留2026，正文明确2027，采用正文届次。",
+      "location": "德国·慕尼黑",
+      "eventStart": "2027-04-05",
+      "eventEnd": "2027-04-08",
+      "eventDates": "2027-04-05 / 2027-04-08",
+      "publication": null,
+      "history": [
+        {
+          "type": "deadline-extension",
+          "nodeId": "paper",
+          "from": "2026-10-02",
+          "to": "2026-10-11",
+          "sourceUrl": "https://2027.ieee-itw.org/",
+          "checkedAt": "2026-10-18"
+        }
+      ]
+    },
+    {
+      "id": "ssp-2027-main",
+      "venueId": "ssp",
+      "title": "SSP 2027 · 主会论文",
+      "titleEn": "IEEE Workshop on Statistical Signal Processing",
+      "year": 2027,
+      "kind": "conference",
+      "areas": [
+        "signal"
+      ],
+      "topics": [
+        "estimation-sync",
+        "arrays"
+      ],
+      "tags": [],
+      "summary": "",
+      "url": "https://ssp27.ieeesps.org/call-for-papers/",
+      "sourceUrl": "https://ssp27.ieeesps.org/call-for-papers/",
+      "sourceType": "official",
+      "nodes": [
+        {
+          "id": "paper",
+          "label": "全文提交",
+          "type": "paper",
+          "primary": true,
+          "precision": "date",
+          "date": "2027-02-07",
+          "instant": null,
+          "timezone": null,
+          "original": "2027-02-07",
+          "revision": 0
+        },
+        {
+          "id": "decision",
+          "label": "录用通知",
+          "type": "decision",
+          "primary": false,
+          "precision": "date",
+          "date": "2027-04-14",
+          "instant": null,
+          "timezone": null,
+          "original": "2027-04-14",
+          "revision": 0
+        },
+        {
+          "id": "final",
+          "label": "终稿提交",
+          "type": "final",
+          "primary": false,
+          "precision": "date",
+          "date": "2027-04-30",
+          "instant": null,
+          "timezone": null,
+          "original": "2027-04-30",
+          "revision": 0
+        },
+        {
+          "id": "registration",
+          "label": "作者注册",
+          "type": "registration",
+          "primary": false,
+          "precision": "date",
+          "date": "2027-04-30",
+          "instant": null,
+          "timezone": null,
+          "original": "2027-04-30",
+          "revision": 0
+        }
+      ],
+      "verification": "verified",
+      "verifiedAt": "2026-10-18",
+      "checkedAt": "2026-10-18",
+      "updatedAt": "2026-10-18T04:00:00Z",
+      "status": "announced",
+      "notes": "官网仅公布日期，未公布截止钟点或时区；按日期精度展示。",
+      "location": "法国·阿讷西",
+      "eventStart": "2027-06-28",
+      "eventEnd": "2027-07-01",
+      "eventDates": "2027-06-28 / 2027-07-01",
+      "publication": null,
+      "history": []
+    },
+    {
+      "id": "spawc-2026-main",
+      "venueId": "spawc",
+      "title": "SPAWC 2026 · 主会论文",
+      "titleEn": "IEEE Workshop on Signal Processing Advances in Wireless Communications",
+      "year": 2026,
+      "kind": "conference",
+      "areas": [
+        "wireless",
+        "signal"
+      ],
+      "topics": [
+        "estimation-sync",
+        "mimo",
+        "physical",
+        "isac"
+      ],
+      "tags": [],
+      "summary": "",
+      "url": "https://2026.ieeespawc.org/",
+      "sourceUrl": "https://2026.ieeespawc.org/",
+      "sourceType": "official",
+      "nodes": [
+        {
+          "id": "paper",
+          "label": "全文提交",
+          "type": "paper",
+          "primary": true,
+          "precision": "date",
+          "date": "2026-04-05",
+          "instant": null,
+          "timezone": null,
+          "original": "2026-04-05",
+          "revision": 0
+        },
+        {
+          "id": "decision",
+          "label": "录用通知",
+          "type": "decision",
+          "primary": false,
+          "precision": "date",
+          "date": "2026-06-14",
+          "instant": null,
+          "timezone": null,
+          "original": "2026-06-14",
+          "revision": 0
+        },
+        {
+          "id": "final",
+          "label": "终稿提交",
+          "type": "final",
+          "primary": false,
+          "precision": "date",
+          "date": "2026-07-28",
+          "instant": null,
+          "timezone": null,
+          "original": "2026-07-28",
+          "revision": 0
+        },
+        {
+          "id": "registration",
+          "label": "作者注册",
+          "type": "registration",
+          "primary": false,
+          "precision": "date",
+          "date": "2026-07-28",
+          "instant": null,
+          "timezone": null,
+          "original": "2026-07-28",
+          "revision": 0
+        }
+      ],
+      "verification": "verified",
+      "verifiedAt": "2026-10-18",
+      "checkedAt": "2026-10-18",
+      "updatedAt": "2026-10-18T04:00:00Z",
+      "status": "announced",
+      "notes": "最新可核实的论文届次为2026。官网当前征稿从3月22日延至4月5日；会议官网为9月6–9日，学会旧列表写9月7–9日，采用大会当前页面。2027学会页面目前是主办提案，不能当成论文征稿。",
+      "location": "希腊·雅典",
+      "eventStart": "2026-09-06",
+      "eventEnd": "2026-09-09",
+      "eventDates": "2026-09-06 / 2026-09-09",
+      "publication": null,
+      "history": [
+        {
+          "type": "deadline-extension",
+          "nodeId": "paper",
+          "from": "2026-03-22",
+          "to": "2026-04-05",
+          "sourceUrl": "https://2026.ieeespawc.org/",
+          "checkedAt": "2026-10-18"
+        }
+      ]
+    },
+    {
+      "id": "sam-2026-main",
+      "venueId": "sam",
+      "title": "SAM 2026 · 主会论文",
+      "titleEn": "IEEE Sensor Array and Multichannel Signal Processing Workshop",
+      "year": 2026,
+      "kind": "conference",
+      "areas": [
+        "signal",
+        "rf"
+      ],
+      "topics": [
+        "arrays",
+        "estimation-sync",
+        "radar"
+      ],
+      "tags": [],
+      "summary": "",
+      "url": "https://www.tu-ilmenau.de/fileadmin/Bereiche/EI/nt/pdfs/upload_2025/SAM2026_CFP_flyer_092025.pdf",
+      "sourceUrl": "https://www.tu-ilmenau.de/fileadmin/Bereiche/EI/nt/pdfs/upload_2025/SAM2026_CFP_flyer_092025.pdf",
+      "sourceType": "official",
+      "nodes": [
+        {
+          "id": "paper",
+          "label": "全文提交",
+          "type": "paper",
+          "primary": true,
+          "precision": "date",
+          "date": "2026-01-28",
+          "instant": null,
+          "timezone": null,
+          "original": "2026-01-28",
+          "revision": 0
+        },
+        {
+          "id": "decision",
+          "label": "录用通知",
+          "type": "decision",
+          "primary": false,
+          "precision": "date",
+          "date": "2026-04-17",
+          "instant": null,
+          "timezone": null,
+          "original": "2026-04-17",
+          "revision": 0
+        },
+        {
+          "id": "registration",
+          "label": "作者注册",
+          "type": "registration",
+          "primary": false,
+          "precision": "date",
+          "date": "2026-05-07",
+          "instant": null,
+          "timezone": null,
+          "original": "2026-05-07",
+          "revision": 0
+        }
+      ],
+      "verification": "verified",
+      "verifiedAt": "2026-10-18",
+      "checkedAt": "2026-10-18",
+      "updatedAt": "2026-10-18T04:00:00Z",
+      "status": "announced",
+      "notes": "主办高校征稿PDF与IEEE信号处理学会活动页交叉核对。PDF未公布终稿截止，未补造。SAM为隔年举办，2028主办提案不作为论文节点。",
+      "location": "中国·深圳",
+      "eventStart": "2026-07-13",
+      "eventEnd": "2026-07-16",
+      "eventDates": "2026-07-13 / 2026-07-16",
+      "publication": null,
+      "history": [],
+      "eventSourceUrl": "https://signalprocessingsociety.org/events/2026-ieee-sensor-array-and-multichannel-signal-processing-workshop-sam"
+    },
+    {
+      "id": "icip-2027-main",
+      "venueId": "icip",
+      "title": "ICIP 2027 · 主会论文",
+      "titleEn": "IEEE International Conference on Image Processing",
+      "year": 2027,
+      "kind": "conference",
+      "areas": [
+        "signal",
+        "ai"
+      ],
+      "topics": [
+        "imaging",
+        "source-coding"
+      ],
+      "tags": [],
+      "summary": "",
+      "url": "https://2027.ieeeicip.org/",
+      "sourceUrl": "https://2027.ieeeicip.org/",
+      "sourceType": "official",
+      "nodes": [],
+      "verification": "verified",
+      "verifiedAt": "2026-10-18",
+      "checkedAt": "2026-10-18",
+      "updatedAt": "2026-10-18T04:00:00Z",
+      "status": "announced",
+      "notes": "本届主页已公布日期，但征稿/投稿说明页仍残留ICASSP2023及2022年的模板日期，全部排除。系列页旧日期10月17–22日与本届主页冲突，以本届当前主页为准。2027主会论文截止尚未可靠公布。",
+      "location": "新加坡",
+      "eventStart": "2027-11-29",
+      "eventEnd": "2027-12-03",
+      "eventDates": "2027-11-29 / 2027-12-03",
+      "publication": null,
+      "history": []
+    },
+    {
+      "id": "icme-2027-main",
       "venueId": "icme",
-      "title": "ICME · 最新届次待核验",
+      "title": "ICME 2027 · 主会论文",
       "titleEn": "IEEE International Conference on Multimedia and Expo",
+      "year": 2027,
       "kind": "conference",
       "areas": [
         "signal",
         "ai",
         "network"
       ],
-      "tags": [],
-      "summary": "多媒体处理、分析与通信。",
-      "sourceUrl": "https://www.comsoc.org/conferences-events/portfolio-conferences-events",
-      "url": "https://www.ieeeicme.org/",
-      "nodes": [],
-      "verification": "pending",
-      "verifiedAt": null,
-      "updatedAt": "2026-10-17T08:00:00Z",
-      "status": "unknown",
-      "notes": "已建立会议系列目录。具体届次、投稿节点与举办信息将在核实官方公告后补充。",
-      "location": null,
-      "eventDates": null,
-      "publication": null,
-      "history": [],
       "topics": [
         "imaging",
         "source-coding"
-      ]
-    },
-    {
-      "id": "cloudnet-latest",
-      "venueId": "cloudnet",
-      "title": "CloudNet · 最新届次待核验",
-      "titleEn": "IEEE International Conference on Cloud Networking",
-      "kind": "conference",
-      "areas": [
-        "network",
-        "ai"
       ],
       "tags": [],
-      "summary": "云网络与数据中心互联。",
-      "sourceUrl": "https://www.comsoc.org/conferences-events/portfolio-conferences-events",
-      "url": "https://www.ieee-cloudnet.org/",
+      "summary": "",
+      "url": "https://ieee-cas.org/event/conference/2027-ieee-international-conference-multimedia-expo-icme",
+      "sourceUrl": "https://ieee-cas.org/event/conference/2027-ieee-international-conference-multimedia-expo-icme",
+      "sourceType": "official",
       "nodes": [],
-      "verification": "pending",
-      "verifiedAt": null,
-      "updatedAt": "2026-10-17T08:00:00Z",
-      "status": "unknown",
-      "notes": "已建立会议系列目录。具体届次、投稿节点与举办信息将在核实官方公告后补充。",
-      "location": null,
-      "eventDates": null,
+      "verification": "verified",
+      "verifiedAt": "2026-10-18",
+      "checkedAt": "2026-10-18",
+      "updatedAt": "2026-10-18T04:00:00Z",
+      "status": "announced",
+      "notes": "IEEE电路与系统学会已确认2027举办日期与地点，并标明后续公布更多信息；尚无可核验主会投稿截止。",
+      "location": "中国·厦门",
+      "eventStart": "2027-07-13",
+      "eventEnd": "2027-07-17",
+      "eventDates": "2027-07-13 / 2027-07-17",
       "publication": null,
-      "history": [],
-      "topics": [
-        "edge-cloud",
-        "network-management"
-      ]
+      "history": []
     },
     {
-      "id": "iwqos-latest",
-      "venueId": "iwqos",
-      "title": "IWQoS · 最新届次待核验",
-      "titleEn": "IEEE/ACM International Symposium on Quality of Service",
+      "id": "ofc-2027-main",
+      "venueId": "ofc",
+      "title": "OFC 2027 · 主会论文",
+      "titleEn": "Optical Fiber Communication Conference and Exposition",
+      "year": 2027,
       "kind": "conference",
       "areas": [
+        "optical",
         "network"
       ],
+      "topics": [
+        "fiber",
+        "optical-networks",
+        "photonics"
+      ],
       "tags": [],
-      "summary": "网络服务质量与资源保障。",
-      "sourceUrl": "https://www.comsoc.org/conferences-events/portfolio-conferences-events",
-      "url": "https://www.ieee-iwqos.org/",
-      "nodes": [],
-      "verification": "pending",
-      "verifiedAt": null,
-      "updatedAt": "2026-10-17T08:00:00Z",
-      "status": "unknown",
-      "notes": "已建立会议系列目录。具体届次、投稿节点与举办信息将在核实官方公告后补充。",
-      "location": null,
-      "eventDates": null,
+      "summary": "",
+      "url": "https://www.ofcconference.org/submit-a-paper/",
+      "sourceUrl": "https://www.ofcconference.org/submit-a-paper/",
+      "sourceType": "official",
+      "nodes": [
+        {
+          "id": "paper",
+          "label": "摘要与论文同时提交",
+          "type": "paper",
+          "primary": true,
+          "precision": "instant",
+          "date": null,
+          "instant": "2026-10-20T12:00:00-04:00",
+          "timezone": "UTC-04:00",
+          "original": "20 October 2026, 12:00 EDT (UTC−04:00)",
+          "revision": 0
+        },
+        {
+          "id": "decision",
+          "label": "录用通知窗口结束",
+          "type": "decision",
+          "primary": false,
+          "precision": "date",
+          "date": "2026-12-18",
+          "instant": null,
+          "timezone": null,
+          "original": "Notification window: 14–18 December 2026",
+          "revision": 0,
+          "sourceUrl": "https://www.ofcconference.org/submit-a-paper/author-timeline/"
+        }
+      ],
+      "verification": "verified",
+      "verifiedAt": "2026-10-18",
+      "checkedAt": "2026-10-18",
+      "updatedAt": "2026-10-18T04:00:00Z",
+      "status": "announced",
+      "notes": "官网明确主会摘要及论文同为10月20日中午EDT。录用通知为12月14–18日窗口，节点标记窗口结束，非承诺单一通知日。",
+      "location": "美国·洛杉矶",
+      "eventStart": "2027-03-07",
+      "eventEnd": "2027-03-11",
+      "eventDates": "2027-03-07 / 2027-03-11",
       "publication": null,
       "history": [],
+      "decisionWindow": {
+        "start": "2026-12-14",
+        "end": "2026-12-18"
+      }
+    },
+    {
+      "id": "ofc-2027-postdeadline",
+      "venueId": "ofc",
+      "title": "OFC 2027 · 晚稿论文",
+      "titleEn": "Optical Fiber Communication Conference and Exposition",
+      "year": 2027,
+      "kind": "conference",
+      "areas": [
+        "optical",
+        "network"
+      ],
       "topics": [
-        "measurement",
-        "protocols",
-        "edge-cloud"
+        "fiber",
+        "optical-networks",
+        "photonics"
+      ],
+      "tags": [],
+      "summary": "",
+      "url": "https://www.ofcconference.org/submit-a-paper/author-timeline/",
+      "sourceUrl": "https://www.ofcconference.org/submit-a-paper/author-timeline/",
+      "sourceType": "official",
+      "nodes": [
+        {
+          "id": "paper",
+          "label": "晚稿提交",
+          "type": "paper",
+          "primary": true,
+          "precision": "date",
+          "date": "2027-02-23",
+          "instant": null,
+          "timezone": null,
+          "original": "2027-02-23",
+          "revision": 0
+        }
+      ],
+      "verification": "verified",
+      "verifiedAt": "2026-10-18",
+      "checkedAt": "2026-10-18",
+      "updatedAt": "2026-10-18T04:00:00Z",
+      "status": "announced",
+      "notes": "官方作者时间表公布晚稿日期2月23日，未明确钟点与时区；不沿用常规论文的EDT中午。",
+      "location": "美国·洛杉矶",
+      "eventStart": "2027-03-07",
+      "eventEnd": "2027-03-11",
+      "eventDates": "2027-03-07 / 2027-03-11",
+      "publication": null,
+      "history": [],
+      "track": "postdeadline",
+      "parentCallId": "ofc-2027-main"
+    },
+    {
+      "id": "ecoc-2027-main",
+      "venueId": "ecoc",
+      "title": "ECOC 2027 · 主会论文",
+      "titleEn": "European Conference on Optical Communication",
+      "year": 2027,
+      "kind": "conference",
+      "areas": [
+        "optical",
+        "signal",
+        "network"
+      ],
+      "topics": [
+        "fiber",
+        "optical-networks",
+        "photonics"
+      ],
+      "tags": [],
+      "summary": "",
+      "url": "https://ecoc2027.org/important-dates/",
+      "sourceUrl": "https://ecoc2027.org/important-dates/",
+      "sourceType": "official",
+      "nodes": [
+        {
+          "id": "paper",
+          "label": "全文提交",
+          "type": "paper",
+          "primary": true,
+          "precision": "date",
+          "date": "2027-04-25",
+          "instant": null,
+          "timezone": null,
+          "original": "2027-04-25",
+          "revision": 0
+        },
+        {
+          "id": "decision",
+          "label": "录用通知",
+          "type": "decision",
+          "primary": false,
+          "precision": "date",
+          "date": "2027-06-25",
+          "instant": null,
+          "timezone": null,
+          "original": "2027-06-25",
+          "revision": 0
+        }
+      ],
+      "verification": "verified",
+      "verifiedAt": "2026-10-18",
+      "checkedAt": "2026-10-18",
+      "updatedAt": "2026-10-18T04:00:00Z",
+      "status": "announced",
+      "notes": "主会论文与演示同日截止；此记录为主会论文。投稿入口预计2月15日开放。会议10月10–14日，展览仅10月11–13日，二者未混淆。",
+      "location": "意大利·米兰",
+      "eventStart": "2027-10-10",
+      "eventEnd": "2027-10-14",
+      "eventDates": "2027-10-10 / 2027-10-14",
+      "publication": null,
+      "history": [],
+      "submissionOpens": "2027-02-15",
+      "eventSourceUrl": "https://ecoc2027.org/"
+    },
+    {
+      "id": "icton-2026-main",
+      "venueId": "icton",
+      "title": "ICTON 2026 · 主会论文",
+      "titleEn": "International Conference on Transparent Optical Networks",
+      "year": 2026,
+      "kind": "conference",
+      "areas": [
+        "optical",
+        "network"
+      ],
+      "topics": [
+        "optical-networks",
+        "fiber"
+      ],
+      "tags": [],
+      "summary": "",
+      "url": "https://icton2026.ufe.cz/en/important-dates/",
+      "sourceUrl": "https://icton2026.ufe.cz/en/important-dates/",
+      "sourceType": "official",
+      "nodes": [
+        {
+          "id": "paper",
+          "label": "全文提交",
+          "type": "paper",
+          "primary": true,
+          "precision": "date",
+          "date": "2026-03-31",
+          "instant": null,
+          "timezone": null,
+          "original": "2026-03-31",
+          "revision": 0
+        },
+        {
+          "id": "decision",
+          "label": "录用通知",
+          "type": "decision",
+          "primary": false,
+          "precision": "date",
+          "date": "2026-04-30",
+          "instant": null,
+          "timezone": null,
+          "original": "2026-04-30",
+          "revision": 0
+        },
+        {
+          "id": "final",
+          "label": "终稿提交",
+          "type": "final",
+          "primary": false,
+          "precision": "date",
+          "date": "2026-06-01",
+          "instant": null,
+          "timezone": null,
+          "original": "2026-06-01",
+          "revision": 0
+        }
+      ],
+      "verification": "verified",
+      "verifiedAt": "2026-10-18",
+      "checkedAt": "2026-10-18",
+      "updatedAt": "2026-10-18T04:00:00Z",
+      "status": "announced",
+      "notes": "采用共同主办机构捷克科学院光子学与电子学研究所本届页；2027主会征稿尚未找到官方公布。",
+      "location": "捷克·布拉格",
+      "eventStart": "2026-07-12",
+      "eventEnd": "2026-07-16",
+      "eventDates": "2026-07-12 / 2026-07-16",
+      "publication": null,
+      "history": []
+    },
+    {
+      "id": "oecc-2027-main",
+      "venueId": "oecc",
+      "title": "OECC & IP 2027 · 主会论文",
+      "titleEn": "OptoElectronics and Communications Conference",
+      "year": 2027,
+      "kind": "conference",
+      "areas": [
+        "optical",
+        "signal",
+        "network"
+      ],
+      "topics": [
+        "fiber",
+        "optical-networks"
+      ],
+      "tags": [],
+      "summary": "",
+      "url": "https://www.oeccip2027.org/pages/38",
+      "sourceUrl": "https://www.oeccip2027.org/pages/38",
+      "sourceType": "official",
+      "nodes": [
+        {
+          "id": "paper",
+          "label": "全文提交",
+          "type": "paper",
+          "primary": true,
+          "precision": "date",
+          "date": "2027-02-21",
+          "instant": null,
+          "timezone": null,
+          "original": "2027-02-21",
+          "revision": 0
+        },
+        {
+          "id": "decision",
+          "label": "录用通知",
+          "type": "decision",
+          "primary": false,
+          "precision": "date",
+          "date": "2027-04-30",
+          "instant": null,
+          "timezone": null,
+          "original": "2027-04-30",
+          "revision": 0
+        },
+        {
+          "id": "registration",
+          "label": "作者注册",
+          "type": "registration",
+          "primary": false,
+          "precision": "date",
+          "date": "2027-05-23",
+          "instant": null,
+          "timezone": null,
+          "original": "2027-05-23",
+          "revision": 0
+        }
+      ],
+      "verification": "verified",
+      "verifiedAt": "2026-10-18",
+      "checkedAt": "2026-10-18",
+      "updatedAt": "2026-10-18T04:00:00Z",
+      "status": "announced",
+      "notes": "2027光电子与光通信会议和整合光子学会议联合举行。投稿11月1日开放；官网未公布钟点和时区。",
+      "location": "中国台湾·台中",
+      "eventStart": "2027-07-04",
+      "eventEnd": "2027-07-08",
+      "eventDates": "2027-07-04 / 2027-07-08",
+      "publication": null,
+      "history": [],
+      "submissionOpens": "2026-11-01",
+      "eventSourceUrl": "https://oeccip2027.org/pages/15"
+    },
+    {
+      "id": "oecc-2027-postdeadline",
+      "venueId": "oecc",
+      "title": "OECC & IP 2027 · 晚稿论文",
+      "titleEn": "OptoElectronics and Communications Conference",
+      "year": 2027,
+      "kind": "conference",
+      "areas": [
+        "optical",
+        "signal",
+        "network"
+      ],
+      "topics": [
+        "fiber",
+        "optical-networks"
+      ],
+      "tags": [],
+      "summary": "",
+      "url": "https://www.oeccip2027.org/pages/38",
+      "sourceUrl": "https://www.oeccip2027.org/pages/38",
+      "sourceType": "official",
+      "nodes": [
+        {
+          "id": "paper",
+          "label": "晚稿提交",
+          "type": "paper",
+          "primary": true,
+          "precision": "date",
+          "date": "2027-06-16",
+          "instant": null,
+          "timezone": null,
+          "original": "2027-06-16",
+          "revision": 0
+        },
+        {
+          "id": "decision",
+          "label": "录用通知",
+          "type": "decision",
+          "primary": false,
+          "precision": "date",
+          "date": "2027-06-30",
+          "instant": null,
+          "timezone": null,
+          "original": "2027-06-30",
+          "revision": 0
+        }
+      ],
+      "verification": "verified",
+      "verifiedAt": "2026-10-18",
+      "checkedAt": "2026-10-18",
+      "updatedAt": "2026-10-18T04:00:00Z",
+      "status": "announced",
+      "notes": "官网仅公布日期，未公布截止钟点或时区；按日期精度展示。",
+      "location": "中国台湾·台中",
+      "eventStart": "2027-07-04",
+      "eventEnd": "2027-07-08",
+      "eventDates": "2027-07-04 / 2027-07-08",
+      "publication": null,
+      "history": [],
+      "submissionOpens": "2027-05-24",
+      "track": "postdeadline",
+      "parentCallId": "oecc-2027-main"
+    },
+    {
+      "id": "acp-2026-main",
+      "venueId": "acp",
+      "title": "ACP 2026 · 主会论文",
+      "titleEn": "Asia Communications and Photonics Conference",
+      "year": 2026,
+      "kind": "conference",
+      "areas": [
+        "optical",
+        "signal",
+        "network"
+      ],
+      "topics": [
+        "fiber",
+        "optical-networks"
+      ],
+      "tags": [],
+      "summary": "",
+      "url": "https://www.acpconf.com/",
+      "sourceUrl": "https://www.acpconf.com/",
+      "sourceType": "official",
+      "nodes": [
+        {
+          "id": "paper",
+          "label": "全文提交",
+          "type": "paper",
+          "primary": true,
+          "precision": "date",
+          "date": "2026-07-15",
+          "instant": null,
+          "timezone": null,
+          "original": "2026-07-15",
+          "revision": 0
+        },
+        {
+          "id": "decision",
+          "label": "录用通知",
+          "type": "decision",
+          "primary": false,
+          "precision": "date",
+          "date": "2026-09-01",
+          "instant": null,
+          "timezone": null,
+          "original": "2026-09-01",
+          "revision": 0
+        },
+        {
+          "id": "final",
+          "label": "终稿提交",
+          "type": "final",
+          "primary": false,
+          "precision": "date",
+          "date": "2026-10-25",
+          "instant": null,
+          "timezone": null,
+          "original": "2026-10-25",
+          "revision": 0
+        }
+      ],
+      "verification": "verified",
+      "verifiedAt": "2026-10-18",
+      "checkedAt": "2026-10-18",
+      "updatedAt": "2026-10-18T04:00:00Z",
+      "status": "announced",
+      "notes": "普通论文由7月1日延期至7月15日。7月22日为修改期而非新投稿截止。接受论文终稿为10月25日，保留该即将到来的作者节点。",
+      "location": "中国·杭州",
+      "eventStart": "2026-11-01",
+      "eventEnd": "2026-11-04",
+      "eventDates": "2026-11-01 / 2026-11-04",
+      "publication": null,
+      "history": [
+        {
+          "type": "deadline-extension",
+          "nodeId": "paper",
+          "from": "2026-07-01",
+          "to": "2026-07-15",
+          "sourceUrl": "https://www.acpconf.com/",
+          "checkedAt": "2026-10-18"
+        }
+      ]
+    },
+    {
+      "id": "acp-2026-postdeadline",
+      "venueId": "acp",
+      "title": "ACP 2026 · 晚稿论文",
+      "titleEn": "Asia Communications and Photonics Conference",
+      "year": 2026,
+      "kind": "conference",
+      "areas": [
+        "optical",
+        "signal",
+        "network"
+      ],
+      "topics": [
+        "fiber",
+        "optical-networks"
+      ],
+      "tags": [],
+      "summary": "",
+      "url": "https://www.acpconf.com/",
+      "sourceUrl": "https://www.acpconf.com/",
+      "sourceType": "official",
+      "nodes": [
+        {
+          "id": "paper",
+          "label": "晚稿提交",
+          "type": "paper",
+          "primary": true,
+          "precision": "date",
+          "date": "2026-10-15",
+          "instant": null,
+          "timezone": null,
+          "original": "2026-10-15",
+          "revision": 0
+        }
+      ],
+      "verification": "verified",
+      "verifiedAt": "2026-10-18",
+      "checkedAt": "2026-10-18",
+      "updatedAt": "2026-10-18T04:00:00Z",
+      "status": "announced",
+      "notes": "晚稿独立截止10月15日，核验时已截止；主会终稿10月25日不自动套用于晚稿。",
+      "location": "中国·杭州",
+      "eventStart": "2026-11-01",
+      "eventEnd": "2026-11-04",
+      "eventDates": "2026-11-01 / 2026-11-04",
+      "publication": null,
+      "history": [],
+      "track": "postdeadline",
+      "parentCallId": "acp-2026-main"
+    },
+    {
+      "id": "ipc-2026-postdeadline",
+      "venueId": "ipc",
+      "title": "IEEE IPC 2026 · 晚稿论文",
+      "titleEn": "IEEE Photonics Conference",
+      "year": 2026,
+      "kind": "conference",
+      "areas": [
+        "optical",
+        "signal",
+        "network"
+      ],
+      "topics": [
+        "fiber",
+        "optical-networks"
+      ],
+      "tags": [],
+      "summary": "",
+      "url": "https://ieee-ipc.org/paper-submission/submission-guidelines/",
+      "sourceUrl": "https://ieee-ipc.org/paper-submission/submission-guidelines/",
+      "sourceType": "official",
+      "nodes": [
+        {
+          "id": "paper",
+          "label": "晚稿提交",
+          "type": "paper",
+          "primary": true,
+          "precision": "date",
+          "date": "2026-10-19",
+          "instant": null,
+          "timezone": null,
+          "original": "2026-10-19",
+          "revision": 0
+        }
+      ],
+      "verification": "verified",
+      "verifiedAt": "2026-10-18",
+      "checkedAt": "2026-10-18",
+      "updatedAt": "2026-10-18T04:00:00Z",
+      "status": "announced",
+      "notes": "投稿说明明确晚稿延至10月19日，未明示钟点或时区；日期精度展示，不生成精确时刻倒计时。常规论文已结束，当前说明页转为晚稿，不能把晚稿日期写作常规全文日期。",
+      "location": "美国·丹佛",
+      "eventStart": "2026-11-08",
+      "eventEnd": "2026-11-12",
+      "eventDates": "2026-11-08 / 2026-11-12",
+      "publication": null,
+      "history": [],
+      "track": "postdeadline",
+      "submissionOpens": "2026-09-21",
+      "eventSourceUrl": "https://ieee-ipc.org/"
+    },
+    {
+      "id": "ims-2027-rfsa",
+      "venueId": "ims",
+      "title": "IMS 2027 · RFSA 分会论文",
+      "titleEn": "IEEE International Microwave Symposium",
+      "year": 2027,
+      "kind": "conference",
+      "areas": [
+        "rf",
+        "wireless",
+        "optical"
+      ],
+      "topics": [
+        "microwave",
+        "thz",
+        "antennas"
+      ],
+      "tags": [],
+      "summary": "",
+      "url": "https://ims-ieee.org/authortools2027",
+      "sourceUrl": "https://ims-ieee.org/authortools2027",
+      "sourceType": "official",
+      "nodes": [
+        {
+          "id": "paper",
+          "label": "全文提交",
+          "type": "paper",
+          "primary": true,
+          "precision": "date",
+          "date": "2026-12-08",
+          "instant": null,
+          "timezone": null,
+          "original": "2026-12-08",
+          "revision": 0
+        }
+      ],
+      "verification": "verified",
+      "verifiedAt": "2026-10-18",
+      "checkedAt": "2026-10-18",
+      "updatedAt": "2026-10-18T04:00:00Z",
+      "status": "announced",
+      "notes": "IMS目前以International Microwave Symposia形式组织，传统内容拆为RFSA（射频系统与应用）和RFTT（射频技术与工艺）两个独立分会。两会各为5月24–27日；IMS总活动周为5月23–28日。旧IMS目录评级对新分会的适用性须另核，不自动继承。",
+      "location": "美国·圣安东尼奥",
+      "eventStart": "2027-05-24",
+      "eventEnd": "2027-05-27",
+      "eventDates": "2027-05-24 / 2027-05-27",
+      "publication": null,
+      "history": [],
+      "ratingScope": "new-subconference-review-required",
+      "umbrellaEventStart": "2027-05-23",
+      "umbrellaEventEnd": "2027-05-28",
+      "eventSourceUrl": "https://ims-ieee.org/sites/ims/files/ims2027-call-for-papers_16september2026.pdf",
+      "inheritsVenueEvaluation": false
+    },
+    {
+      "id": "ims-2027-rftt",
+      "venueId": "ims",
+      "title": "IMS 2027 · RFTT 分会论文",
+      "titleEn": "IEEE International Microwave Symposium",
+      "year": 2027,
+      "kind": "conference",
+      "areas": [
+        "rf",
+        "wireless",
+        "optical"
+      ],
+      "topics": [
+        "microwave",
+        "thz",
+        "antennas"
+      ],
+      "tags": [],
+      "summary": "",
+      "url": "https://ims-ieee.org/authortools2027",
+      "sourceUrl": "https://ims-ieee.org/authortools2027",
+      "sourceType": "official",
+      "nodes": [
+        {
+          "id": "paper",
+          "label": "全文提交",
+          "type": "paper",
+          "primary": true,
+          "precision": "date",
+          "date": "2026-12-08",
+          "instant": null,
+          "timezone": null,
+          "original": "2026-12-08",
+          "revision": 0
+        }
+      ],
+      "verification": "verified",
+      "verifiedAt": "2026-10-18",
+      "checkedAt": "2026-10-18",
+      "updatedAt": "2026-10-18T04:00:00Z",
+      "status": "announced",
+      "notes": "IMS目前以International Microwave Symposia形式组织，传统内容拆为RFSA（射频系统与应用）和RFTT（射频技术与工艺）两个独立分会。两会各为5月24–27日；IMS总活动周为5月23–28日。旧IMS目录评级对新分会的适用性须另核，不自动继承。",
+      "location": "美国·圣安东尼奥",
+      "eventStart": "2027-05-24",
+      "eventEnd": "2027-05-27",
+      "eventDates": "2027-05-24 / 2027-05-27",
+      "publication": null,
+      "history": [],
+      "ratingScope": "new-subconference-review-required",
+      "umbrellaEventStart": "2027-05-23",
+      "umbrellaEventEnd": "2027-05-28",
+      "eventSourceUrl": "https://ims-ieee.org/sites/ims/files/ims2027-call-for-papers_16september2026.pdf",
+      "inheritsVenueEvaluation": false
+    },
+    {
+      "id": "eumc-2026-main",
+      "venueId": "eumc",
+      "title": "EUMC 2026 · 主会论文",
+      "titleEn": "European Microwave Conference",
+      "year": 2026,
+      "kind": "conference",
+      "areas": [
+        "rf",
+        "wireless"
+      ],
+      "topics": [
+        "microwave",
+        "antennas"
+      ],
+      "tags": [],
+      "summary": "",
+      "url": "https://www.eumw.eu/wp-content/uploads/2025/10/4997_eumw2026_call_for_papers-06.pdf",
+      "sourceUrl": "https://www.eumw.eu/wp-content/uploads/2025/10/4997_eumw2026_call_for_papers-06.pdf",
+      "sourceType": "official",
+      "nodes": [
+        {
+          "id": "paper",
+          "label": "全文提交",
+          "type": "paper",
+          "primary": true,
+          "precision": "date",
+          "date": "2026-03-27",
+          "instant": null,
+          "timezone": null,
+          "original": "2026-03-27",
+          "revision": 0
+        },
+        {
+          "id": "decision",
+          "label": "录用通知",
+          "type": "decision",
+          "primary": false,
+          "precision": "date",
+          "date": "2026-05-29",
+          "instant": null,
+          "timezone": null,
+          "original": "2026-05-29",
+          "revision": 0
+        },
+        {
+          "id": "final",
+          "label": "终稿提交",
+          "type": "final",
+          "primary": false,
+          "precision": "date",
+          "date": "2026-07-01",
+          "instant": null,
+          "timezone": null,
+          "original": "2026-07-01",
+          "revision": 0
+        }
+      ],
+      "verification": "verified",
+      "verifiedAt": "2026-10-18",
+      "checkedAt": "2026-10-18",
+      "updatedAt": "2026-10-18T04:00:00Z",
+      "status": "announced",
+      "notes": "欧洲微波周内独立会议。2026官方CFP公布三会共同投稿/通知/终稿节点，各会举办日期分别记录。2027仅公布微波周10月3–8日米兰，尚不能当作各分会具体召开日或投稿日。",
+      "location": "英国·伦敦",
+      "eventStart": "2026-10-06",
+      "eventEnd": "2026-10-08",
+      "eventDates": "2026-10-06 / 2026-10-08",
+      "publication": null,
+      "history": [],
+      "nextUmbrellaEvent": {
+        "name": "EuMW 2027",
+        "start": "2027-10-03",
+        "end": "2027-10-08",
+        "location": "意大利·米兰",
+        "sourceUrl": "https://www.eumwa.org/en/30st-eumw2027.html?cmp_id=20&news_id=257&vID=50"
+      },
+      "eventSourceUrl": "https://www.eumw.eu/conferences/"
+    },
+    {
+      "id": "eumic-2026-main",
+      "venueId": "eumic",
+      "title": "EUMIC 2026 · 主会论文",
+      "titleEn": "European Microwave Integrated Circuits Conference",
+      "year": 2026,
+      "kind": "conference",
+      "areas": [
+        "rf"
+      ],
+      "topics": [
+        "microwave"
+      ],
+      "tags": [],
+      "summary": "",
+      "url": "https://www.eumw.eu/wp-content/uploads/2025/10/4997_eumw2026_call_for_papers-06.pdf",
+      "sourceUrl": "https://www.eumw.eu/wp-content/uploads/2025/10/4997_eumw2026_call_for_papers-06.pdf",
+      "sourceType": "official",
+      "nodes": [
+        {
+          "id": "paper",
+          "label": "全文提交",
+          "type": "paper",
+          "primary": true,
+          "precision": "date",
+          "date": "2026-03-27",
+          "instant": null,
+          "timezone": null,
+          "original": "2026-03-27",
+          "revision": 0
+        },
+        {
+          "id": "decision",
+          "label": "录用通知",
+          "type": "decision",
+          "primary": false,
+          "precision": "date",
+          "date": "2026-05-29",
+          "instant": null,
+          "timezone": null,
+          "original": "2026-05-29",
+          "revision": 0
+        },
+        {
+          "id": "final",
+          "label": "终稿提交",
+          "type": "final",
+          "primary": false,
+          "precision": "date",
+          "date": "2026-07-01",
+          "instant": null,
+          "timezone": null,
+          "original": "2026-07-01",
+          "revision": 0
+        }
+      ],
+      "verification": "verified",
+      "verifiedAt": "2026-10-18",
+      "checkedAt": "2026-10-18",
+      "updatedAt": "2026-10-18T04:00:00Z",
+      "status": "announced",
+      "notes": "欧洲微波周内独立会议。2026官方CFP公布三会共同投稿/通知/终稿节点，各会举办日期分别记录。2027仅公布微波周10月3–8日米兰，尚不能当作各分会具体召开日或投稿日。",
+      "location": "英国·伦敦",
+      "eventStart": "2026-10-05",
+      "eventEnd": "2026-10-06",
+      "eventDates": "2026-10-05 / 2026-10-06",
+      "publication": null,
+      "history": [],
+      "nextUmbrellaEvent": {
+        "name": "EuMW 2027",
+        "start": "2027-10-03",
+        "end": "2027-10-08",
+        "location": "意大利·米兰",
+        "sourceUrl": "https://www.eumwa.org/en/30st-eumw2027.html?cmp_id=20&news_id=257&vID=50"
+      },
+      "eventSourceUrl": "https://www.eumw.eu/conferences/"
+    },
+    {
+      "id": "eurad-2026-main",
+      "venueId": "eurad",
+      "title": "EURAD 2026 · 主会论文",
+      "titleEn": "European Radar Conference",
+      "year": 2026,
+      "kind": "conference",
+      "areas": [
+        "signal",
+        "rf"
+      ],
+      "topics": [
+        "radar",
+        "arrays"
+      ],
+      "tags": [],
+      "summary": "",
+      "url": "https://www.eumw.eu/wp-content/uploads/2025/10/4997_eumw2026_call_for_papers-06.pdf",
+      "sourceUrl": "https://www.eumw.eu/wp-content/uploads/2025/10/4997_eumw2026_call_for_papers-06.pdf",
+      "sourceType": "official",
+      "nodes": [
+        {
+          "id": "paper",
+          "label": "全文提交",
+          "type": "paper",
+          "primary": true,
+          "precision": "date",
+          "date": "2026-03-27",
+          "instant": null,
+          "timezone": null,
+          "original": "2026-03-27",
+          "revision": 0
+        },
+        {
+          "id": "decision",
+          "label": "录用通知",
+          "type": "decision",
+          "primary": false,
+          "precision": "date",
+          "date": "2026-05-29",
+          "instant": null,
+          "timezone": null,
+          "original": "2026-05-29",
+          "revision": 0
+        },
+        {
+          "id": "final",
+          "label": "终稿提交",
+          "type": "final",
+          "primary": false,
+          "precision": "date",
+          "date": "2026-07-01",
+          "instant": null,
+          "timezone": null,
+          "original": "2026-07-01",
+          "revision": 0
+        }
+      ],
+      "verification": "verified",
+      "verifiedAt": "2026-10-18",
+      "checkedAt": "2026-10-18",
+      "updatedAt": "2026-10-18T04:00:00Z",
+      "status": "announced",
+      "notes": "欧洲微波周内独立会议。2026官方CFP公布三会共同投稿/通知/终稿节点，各会举办日期分别记录。2027仅公布微波周10月3–8日米兰，尚不能当作各分会具体召开日或投稿日。",
+      "location": "英国·伦敦",
+      "eventStart": "2026-10-07",
+      "eventEnd": "2026-10-09",
+      "eventDates": "2026-10-07 / 2026-10-09",
+      "publication": null,
+      "history": [],
+      "nextUmbrellaEvent": {
+        "name": "EuMW 2027",
+        "start": "2027-10-03",
+        "end": "2027-10-08",
+        "location": "意大利·米兰",
+        "sourceUrl": "https://www.eumwa.org/en/30st-eumw2027.html?cmp_id=20&news_id=257&vID=50"
+      },
+      "eventSourceUrl": "https://www.eumw.eu/conferences/"
+    },
+    {
+      "id": "ipin-2026-main",
+      "venueId": "ipin",
+      "title": "IPIN 2026 · 主会论文",
+      "titleEn": "International Conference on Indoor Positioning and Indoor Navigation",
+      "year": 2026,
+      "kind": "conference",
+      "areas": [
+        "space",
+        "signal",
+        "wireless"
+      ],
+      "topics": [
+        "navigation-pnt",
+        "estimation-sync"
+      ],
+      "tags": [],
+      "summary": "",
+      "url": "https://ipin-conference.org/2026/",
+      "sourceUrl": "https://ipin-conference.org/2026/",
+      "sourceType": "official",
+      "nodes": [
+        {
+          "id": "paper",
+          "label": "全文提交",
+          "type": "paper",
+          "primary": true,
+          "precision": "date",
+          "date": "2026-05-10",
+          "instant": null,
+          "timezone": null,
+          "original": "2026-05-10",
+          "revision": 0
+        },
+        {
+          "id": "decision",
+          "label": "录用通知",
+          "type": "decision",
+          "primary": false,
+          "precision": "date",
+          "date": "2026-06-16",
+          "instant": null,
+          "timezone": null,
+          "original": "2026-06-16",
+          "revision": 0
+        },
+        {
+          "id": "final",
+          "label": "终稿提交",
+          "type": "final",
+          "primary": false,
+          "precision": "date",
+          "date": "2026-08-31",
+          "instant": null,
+          "timezone": null,
+          "original": "2026-08-31",
+          "revision": 0
+        }
+      ],
+      "verification": "verified",
+      "verifiedAt": "2026-10-18",
+      "checkedAt": "2026-10-18",
+      "updatedAt": "2026-10-18T04:00:00Z",
+      "status": "announced",
+      "notes": "当前官网明确论文延期至5月10日硬截止，终稿延期至8月31日硬截止。初版CFP仍为4月26日/8月15日，采用当前首页延期信息。2027只有届次指向，未核得下一届日期或征稿。",
+      "location": "意大利·罗马",
+      "eventStart": "2026-10-05",
+      "eventEnd": "2026-10-08",
+      "eventDates": "2026-10-05 / 2026-10-08",
+      "publication": null,
+      "history": [
+        {
+          "type": "deadline-extension",
+          "nodeId": "paper",
+          "from": "2026-04-26",
+          "to": "2026-05-10",
+          "sourceUrl": "https://ipin-conference.org/2026/",
+          "checkedAt": "2026-10-18"
+        },
+        {
+          "type": "deadline-extension",
+          "nodeId": "final",
+          "from": "2026-08-15",
+          "to": "2026-08-31",
+          "sourceUrl": "https://ipin-conference.org/2026/",
+          "checkedAt": "2026-10-18"
+        }
       ]
     }
   ],
@@ -28995,5 +33583,28 @@ window.COMMDDL_DATA = {
       "note": "已对照 ICORE2026 官方完整库987条；非等级、未列入和身份未明确分别记录。",
       "sourceUrl": "https://portal.core.edu.au/conf-ranks/"
     }
-  ]
+  ],
+  "callAliases": {
+    "icc-latest": "icc-2027-main",
+    "globecom-latest": "globecom-2026-main",
+    "wcnc-latest": "wcnc-2027-main",
+    "pimrc-latest": "pimrc-2027-main",
+    "iccc-latest": "iccc-2026-main",
+    "ccnc-latest": "ccnc-2027-main",
+    "noms-latest": "noms-2027-main",
+    "secon-latest": "secon-2027-main",
+    "dyspan-latest": "dyspan-2027-main",
+    "cns-latest": "cns-2026-main",
+    "milcom-latest": "milcom-2026-main",
+    "cloudnet-latest": "cloudnet-2026-main",
+    "iwqos-latest": "iwqos-2026-main",
+    "icmlcn-latest": "icmlcn-2026-main",
+    "jcns-latest": "jcns-2027-main",
+    "infocom-latest": "infocom-2027",
+    "itw-latest": "itw-2027-main",
+    "spawc-latest": "spawc-2026-main",
+    "icip-latest": "icip-2027-main",
+    "icme-latest": "icme-2027-main",
+    "ofc-latest": "ofc-2027-main"
+  }
 };

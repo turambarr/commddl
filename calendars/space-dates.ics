@@ -38,4 +38,55 @@ URL:https://www.comsoc.org/publications/magazines/ieee-wireless-communicati
  -and-sensing
 TRANSP:TRANSPARENT
 END:VEVENT
+BEGIN:VEVENT
+UID:milcom-2026-main-paper@commddl
+DTSTAMP:20261018T080000Z
+LAST-MODIFIED:20261018T040000Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20260531
+DTEND;VALUE=DATE:20260601
+SUMMARY:MILCOM · MILCOM 2026 · 非涉密主会论文 · 全文提交（
+ 日期提示）
+DESCRIPTION:日期提示：官网未明确具体钟点或时区，此全天
+ 事件不代表当天任何时间均可投稿。\n仅收录公开非涉密
+ 论文通道。官方Important Dates标题注明Anywhere on Earth（地球
+ 任一时区），未明确钟点，保持日期精度；不混入Restrict
+ ed或Classified通道。\n来源：https://milcom2026.ieee-milcom.org/call
+ -for-papers/call-unclassified-technical-papers
+URL:https://milcom2026.ieee-milcom.org/call-for-papers/call-unclassified-te
+ chnical-papers
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:isncc-2026-paper@commddl
+DTSTAMP:20261018T080000Z
+LAST-MODIFIED:20261018T080000Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20260607
+DTEND;VALUE=DATE:20260608
+SUMMARY:ISNCC · ISNCC 2026 · 全文提交（日期提示）
+DESCRIPTION:日期提示：官网未明确具体钟点或时区，此全天
+ 事件不代表当天任何时间均可投稿。\n主会全文已截止，
+ 采用官网最新最终延期6月7日；工业论坛摘要或博士论坛
+ 非主会全文，不混入本条。\n来源：https://www.isncc-conf.org/
+URL:https://www.isncc-conf.org/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ipin-2026-main-paper@commddl
+DTSTAMP:20261018T080000Z
+LAST-MODIFIED:20261018T040000Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20260510
+DTEND;VALUE=DATE:20260511
+SUMMARY:IPIN · IPIN 2026 · 主会论文 · 全文提交（日期提示）
+DESCRIPTION:日期提示：官网未明确具体钟点或时区，此全天
+ 事件不代表当天任何时间均可投稿。\n当前官网明确论文
+ 延期至5月10日硬截止，终稿延期至8月31日硬截止。初版CF
+ P仍为4月26日/8月15日，采用当前首页延期信息。2027只有
+ 届次指向，未核得下一届日期或征稿。\n来源：https://ipin
+ -conference.org/2026/
+URL:https://ipin-conference.org/2026/
+TRANSP:TRANSPARENT
+END:VEVENT
 END:VCALENDAR

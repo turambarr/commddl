@@ -24,4 +24,204 @@ URL:https://www.comsoc.org/publications/magazines/ieee-wireless-communicati
  ploration-and-defense-applications
 TRANSP:TRANSPARENT
 END:VEVENT
+BEGIN:VEVENT
+UID:ofc-2027-main-paper@commddl
+DTSTAMP:20261018T080000Z
+LAST-MODIFIED:20261018T040000Z
+SEQUENCE:0
+DTSTART:20261020T160000Z
+SUMMARY:OFC · OFC 2027 · 主会论文 · 摘要与论文同时提交
+DESCRIPTION:请同时核对官方投稿入口。\n官网明确主会摘要
+ 及论文同为10月20日中午EDT。录用通知为12月14–18日窗口
+ ，节点标记窗口结束，非承诺单一通知日。\n来源：https:
+ //www.ofcconference.org/submit-a-paper/
+URL:https://www.ofcconference.org/submit-a-paper/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ofc-2027-postdeadline-paper@commddl
+DTSTAMP:20261018T080000Z
+LAST-MODIFIED:20261018T040000Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20270223
+DTEND;VALUE=DATE:20270224
+SUMMARY:OFC · OFC 2027 · 晚稿论文 · 晚稿提交（日期提示）
+DESCRIPTION:日期提示：官网未明确具体钟点或时区，此全天
+ 事件不代表当天任何时间均可投稿。\n官方作者时间表公
+ 布晚稿日期2月23日，未明确钟点与时区；不沿用常规论
+ 文的EDT中午。\n来源：https://www.ofcconference.org/submit-a-paper/
+ author-timeline/
+URL:https://www.ofcconference.org/submit-a-paper/author-timeline/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ecoc-2027-main-paper@commddl
+DTSTAMP:20261018T080000Z
+LAST-MODIFIED:20261018T040000Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20270425
+DTEND;VALUE=DATE:20270426
+SUMMARY:ECOC · ECOC 2027 · 主会论文 · 全文提交（日期提示）
+DESCRIPTION:日期提示：官网未明确具体钟点或时区，此全天
+ 事件不代表当天任何时间均可投稿。\n主会论文与演示同
+ 日截止；此记录为主会论文。投稿入口预计2月15日开放
+ 。会议10月10–14日，展览仅10月11–13日，二者未混淆。\n
+ 来源：https://ecoc2027.org/important-dates/
+URL:https://ecoc2027.org/important-dates/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:icton-2026-main-paper@commddl
+DTSTAMP:20261018T080000Z
+LAST-MODIFIED:20261018T040000Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20260331
+DTEND;VALUE=DATE:20260401
+SUMMARY:ICTON · ICTON 2026 · 主会论文 · 全文提交（日期提示
+ ）
+DESCRIPTION:日期提示：官网未明确具体钟点或时区，此全天
+ 事件不代表当天任何时间均可投稿。\n采用共同主办机构
+ 捷克科学院光子学与电子学研究所本届页；2027主会征稿
+ 尚未找到官方公布。\n来源：https://icton2026.ufe.cz/en/importan
+ t-dates/
+URL:https://icton2026.ufe.cz/en/important-dates/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:oecc-2027-main-paper@commddl
+DTSTAMP:20261018T080000Z
+LAST-MODIFIED:20261018T040000Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20270221
+DTEND;VALUE=DATE:20270222
+SUMMARY:OECC · OECC & IP 2027 · 主会论文 · 全文提交（日期提
+ 示）
+DESCRIPTION:日期提示：官网未明确具体钟点或时区，此全天
+ 事件不代表当天任何时间均可投稿。\n2027光电子与光通
+ 信会议和整合光子学会议联合举行。投稿11月1日开放；
+ 官网未公布钟点和时区。\n来源：https://www.oeccip2027.org/pag
+ es/38
+URL:https://www.oeccip2027.org/pages/38
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:oecc-2027-main-registration@commddl
+DTSTAMP:20261018T080000Z
+LAST-MODIFIED:20261018T040000Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20270523
+DTEND;VALUE=DATE:20270524
+SUMMARY:OECC · OECC & IP 2027 · 主会论文 · 作者注册（日期提
+ 示）
+DESCRIPTION:日期提示：官网未明确具体钟点或时区，此全天
+ 事件不代表当天任何时间均可投稿。\n2027光电子与光通
+ 信会议和整合光子学会议联合举行。投稿11月1日开放；
+ 官网未公布钟点和时区。\n来源：https://www.oeccip2027.org/pag
+ es/38
+URL:https://www.oeccip2027.org/pages/38
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:oecc-2027-postdeadline-paper@commddl
+DTSTAMP:20261018T080000Z
+LAST-MODIFIED:20261018T040000Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20270616
+DTEND;VALUE=DATE:20270617
+SUMMARY:OECC · OECC & IP 2027 · 晚稿论文 · 晚稿提交（日期提
+ 示）
+DESCRIPTION:日期提示：官网未明确具体钟点或时区，此全天
+ 事件不代表当天任何时间均可投稿。\n官网仅公布日期，
+ 未公布截止钟点或时区；按日期精度展示。\n来源：https:
+ //www.oeccip2027.org/pages/38
+URL:https://www.oeccip2027.org/pages/38
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:acp-2026-main-paper@commddl
+DTSTAMP:20261018T080000Z
+LAST-MODIFIED:20261018T040000Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20260715
+DTEND;VALUE=DATE:20260716
+SUMMARY:ACP · ACP 2026 · 主会论文 · 全文提交（日期提示）
+DESCRIPTION:日期提示：官网未明确具体钟点或时区，此全天
+ 事件不代表当天任何时间均可投稿。\n普通论文由7月1日
+ 延期至7月15日。7月22日为修改期而非新投稿截止。接受
+ 论文终稿为10月25日，保留该即将到来的作者节点。\n来
+ 源：https://www.acpconf.com/
+URL:https://www.acpconf.com/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:acp-2026-postdeadline-paper@commddl
+DTSTAMP:20261018T080000Z
+LAST-MODIFIED:20261018T040000Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20261015
+DTEND;VALUE=DATE:20261016
+SUMMARY:ACP · ACP 2026 · 晚稿论文 · 晚稿提交（日期提示）
+DESCRIPTION:日期提示：官网未明确具体钟点或时区，此全天
+ 事件不代表当天任何时间均可投稿。\n晚稿独立截止10月1
+ 5日，核验时已截止；主会终稿10月25日不自动套用于晚稿
+ 。\n来源：https://www.acpconf.com/
+URL:https://www.acpconf.com/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ipc-2026-postdeadline-paper@commddl
+DTSTAMP:20261018T080000Z
+LAST-MODIFIED:20261018T040000Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20261019
+DTEND;VALUE=DATE:20261020
+SUMMARY:IPC · IEEE IPC 2026 · 晚稿论文 · 晚稿提交（日期提示
+ ）
+DESCRIPTION:日期提示：官网未明确具体钟点或时区，此全天
+ 事件不代表当天任何时间均可投稿。\n投稿说明明确晚稿
+ 延至10月19日，未明示钟点或时区；日期精度展示，不生
+ 成精确时刻倒计时。常规论文已结束，当前说明页转为
+ 晚稿，不能把晚稿日期写作常规全文日期。\n来源：https:
+ //ieee-ipc.org/paper-submission/submission-guidelines/
+URL:https://ieee-ipc.org/paper-submission/submission-guidelines/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ims-2027-rfsa-paper@commddl
+DTSTAMP:20261018T080000Z
+LAST-MODIFIED:20261018T040000Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20261208
+DTEND;VALUE=DATE:20261209
+SUMMARY:IMS · IMS 2027 · RFSA 分会论文 · 全文提交（日期提示
+ ）
+DESCRIPTION:日期提示：官网未明确具体钟点或时区，此全天
+ 事件不代表当天任何时间均可投稿。\nIMS目前以Internationa
+ l Microwave Symposia形式组织，传统内容拆为RFSA（射频系统
+ 与应用）和RFTT（射频技术与工艺）两个独立分会。两会
+ 各为5月24–27日；IMS总活动周为5月23–28日。旧IMS目录评
+ 级对新分会的适用性须另核，不自动继承。\n来源：https:
+ //ims-ieee.org/authortools2027
+URL:https://ims-ieee.org/authortools2027
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ims-2027-rftt-paper@commddl
+DTSTAMP:20261018T080000Z
+LAST-MODIFIED:20261018T040000Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20261208
+DTEND;VALUE=DATE:20261209
+SUMMARY:IMS · IMS 2027 · RFTT 分会论文 · 全文提交（日期提示
+ ）
+DESCRIPTION:日期提示：官网未明确具体钟点或时区，此全天
+ 事件不代表当天任何时间均可投稿。\nIMS目前以Internationa
+ l Microwave Symposia形式组织，传统内容拆为RFSA（射频系统
+ 与应用）和RFTT（射频技术与工艺）两个独立分会。两会
+ 各为5月24–27日；IMS总活动周为5月23–28日。旧IMS目录评
+ 级对新分会的适用性须另核，不自动继承。\n来源：https:
+ //ims-ieee.org/authortools2027
+URL:https://ims-ieee.org/authortools2027
+TRANSP:TRANSPARENT
+END:VEVENT
 END:VCALENDAR

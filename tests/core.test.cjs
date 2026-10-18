@@ -125,3 +125,27 @@ test('dated indexing transcripts preserve provenance without inferring SCI from 
  assert.equal(C.indexingStatus({kind:'journal',indexing:{status:'unlisted',value:null}}),'unlisted');
  assert.equal(C.indexingStatus({kind:'journal',indexing:{status:'unresolved',value:null}}),'pending');
 });
+
+test('series cards select the next actual main-conference deadline and exclude workshops',()=>{
+ const v={id:'sample',kind:'conference'};
+ const make=(id,date,kind='conference')=>({...base,id,kind,nodes:[{...base.nodes[0],date}]});
+ const calls=[make('old','2026-10-10'),make('next','2026-11-10'),make('workshop','2026-10-20','workshop'),make('later','2026-12-10')];
+ assert.equal(C.venueActivity(v,calls,NOW).id,'next');
+ assert.equal(C.venueActivity(v,[calls[0]],NOW).id,'old');
+ assert.equal(C.venueActivity(v,[],NOW),null);
+});
+test('an available later round precedes an earlier round whose abstract registration has closed',()=>{
+ const v={id:'sample',kind:'conference'};
+ const restricted={...base,id:'restricted',kind:'conference',nodes:[{id:'abstract',type:'abstract',precision:'date',date:'2026-10-10'},{...base.nodes[0],requires:['abstract']}]};
+ const open={...base,id:'open',kind:'conference',nodes:[{...base.nodes[0],date:'2026-11-10'}]};
+ assert.equal(C.venueActivity(v,[restricted,open],NOW).id,'open');
+});
+test('undated placeholders can be hidden without hiding followed entries or dated calls',()=>{
+ const pending={...base,id:'pending',kind:'conference',verification:'pending',nodes:[]};
+ assert.deepEqual(C.filterCalls([base,pending],[venue],{showUndated:false},NOW).map(c=>c.id),['sample-call']);
+ assert.equal(C.filterCalls([pending],[venue],{showUndated:false,favoriteOnly:true,favorites:['call:pending']},NOW).length,1);
+});
+test('placeholder favorites migrate to a stable year-specific edition without accepting arbitrary aliases',()=>{
+ const d={calls:[{id:'sample-2027'}],venues:[],callAliases:{'sample-latest':'sample-2027','unsafe':'not-present'}};
+ assert.deepEqual(C.cleanFavorites({version:1,items:['call:sample-latest','call:sample-2027','call:unsafe']},d),['call:sample-2027']);
+});

@@ -56,6 +56,7 @@ for(const v of data.venues){
   for(const key of ['authorGuideUrl','cfpUrl'])if(v[key])requireThat(url(v[key]),`${v.id}: invalid ${key}`);
   for(const a of v.assessments||[]){requireThat(a.year&&url(a.sourceUrl)&&a.note,`${v.id}: assessment needs year, source and scope`);}
 }
+for(const [oldId,newId] of Object.entries(data.callAliases||{}))requireThat(/^[a-z0-9-]+$/.test(oldId)&&data.calls.some(c=>c.id===newId)&&oldId!==newId,`Invalid call alias: ${oldId}`);
 const identities=new Set();
 for(const v of data.venues){
   const identity=v.kind+':'+v.nameEn.normalize('NFKC').toLowerCase();
@@ -64,6 +65,7 @@ for(const v of data.venues){
 for(const call of data.calls){
   requireThat(venueIds.has(call.venueId),`${call.id}: missing parent venue`);
   requireThat(['conference','workshop','special','series'].includes(call.kind),`${call.id}: invalid activity kind`);
+  if(call.eventStart||call.eventEnd)requireThat(C.validDate(call.eventStart)&&C.validDate(call.eventEnd)&&call.eventStart<=call.eventEnd,`${call.id}: invalid conference dates`);
   requireThat(call.title&&call.titleEn,`${call.id}: missing title`);
   requireThat(Array.isArray(call.nodes),`${call.id}: missing timeline`);
   requireThat((call.nodes||[]).filter(n=>n.primary).length<=1,`${call.id}: multiple primary nodes`);

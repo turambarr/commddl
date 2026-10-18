@@ -20,4 +20,60 @@ URL:https://www.comsoc.org/publications/journals/ieee-jsac/cfp/next-generat
  ion-underwater-acoustic-communication-systems
 TRANSP:TRANSPARENT
 END:VEVENT
+BEGIN:VEVENT
+UID:isit-2027-main-paper@commddl
+DTSTAMP:20261018T080000Z
+LAST-MODIFIED:20261018T040000Z
+SEQUENCE:0
+DTSTART:20270111T115900Z
+SUMMARY:ISIT · ISIT 2027 · 主会论文 · 全文提交
+DESCRIPTION:请同时核对官方投稿入口。\n主会全文与终稿官
+ 网明确23:59 AoE（全球最晚时区，UTC−12）。Recent Results为
+ 非存档展示，不进入ISIT论文集/IEEE Xplore，不作为正式论
+ 文投稿列入。\n来源：https://2027.ieee-isit.org/index.php/
+URL:https://2027.ieee-isit.org/index.php/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:mobicom-2027-summer-abstract@commddl
+DTSTAMP:20261018T080000Z
+LAST-MODIFIED:20261018T080000Z
+SEQUENCE:0
+DTSTART:20260827T115900Z
+SUMMARY:MobiCom · MobiCom 2027 · 夏季轮 · 摘要／注册
+DESCRIPTION:请同时核对官方投稿入口。\n夏季轮已截止；冬
+ 季轮官网仍TBD，不能由2026往年日期推算；当前主页未提
+ 供举办城市。\n来源：https://www.sigmobile.org/mobicom/2027/cfp.ht
+ ml
+URL:https://www.sigmobile.org/mobicom/2027/cfp.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:mobicom-2027-summer-paper@commddl
+DTSTAMP:20261018T080000Z
+LAST-MODIFIED:20261018T080000Z
+SEQUENCE:0
+DTSTART:20260903T115900Z
+SUMMARY:MobiCom · MobiCom 2027 · 夏季轮 · 全文提交
+DESCRIPTION:请同时核对官方投稿入口。\n需先完成摘要或注
+ 册等前置步骤。\n夏季轮已截止；冬季轮官网仍TBD，不能
+ 由2026往年日期推算；当前主页未提供举办城市。\n来源
+ ：https://www.sigmobile.org/mobicom/2027/cfp.html
+URL:https://www.sigmobile.org/mobicom/2027/cfp.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:itw-2027-main-paper@commddl
+DTSTAMP:20261018T080000Z
+LAST-MODIFIED:20261018T040000Z
+SEQUENCE:0
+DTSTART:20261012T115900Z
+SUMMARY:ITW · ITW 2027 · 主会论文 · 全文提交
+DESCRIPTION:请同时核对官方投稿入口。\n独立举办的信息论
+ 研讨会，按正式会议记录。投稿截止已由10月2日延期至10
+ 月11日；截至核验日已经截止。网页标题残留2026，正文
+ 明确2027，采用正文届次。\n来源：https://2027.ieee-itw.org/
+URL:https://2027.ieee-itw.org/
+TRANSP:TRANSPARENT
+END:VEVENT
 END:VCALENDAR

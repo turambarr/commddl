@@ -1,6 +1,6 @@
-# v0.4.0 目录与证据覆盖
+# v0.5.0 目录与证据覆盖
 
-整理日期：2026-10-18。通信目录 108 本期刊、136 个会议系列；历史参考库 39 项。9 个方向、37 个主题。具体活动另计 32 项。
+整理日期：2026-10-18。通信目录 108 本期刊、136 个会议系列；历史参考库 39 项。9 个方向、37 个主题。具体活动另计 80 项。
 
 ## 评级版本
 
@@ -254,7 +254,7 @@
 | CHINACOM | International Conference on Communications and Networking in China | CCF 2026 —（所查版本未列入）；ICORE 2026 —（所查版本未列入） | [身份来源](https://chinacom.eai-conferences.org/2026/) · 2026-10-18 |
 | WCSP | International Conference on Wireless Communications and Signal Processing | CCF 2026 —（所查版本未列入）；ICORE 2026 —（所查版本未列入） | [身份来源](https://www.iconf.org/conference/wcsp2026) · 2026-10-18 |
 | LCN | IEEE Conference on Local Computer Networks | CCF 2026 C（副本／转录）；ICORE 2026 B（一手来源） | [身份来源](https://www.ieeelcn.org/) · 2026-10-18 |
-| WoWMoM | IEEE International Symposium on a World of Wireless, Mobile and Multimedia Networks | CCF 2026 C（副本／转录）；ICORE 2026 C（一手来源） | [身份来源](https://www.cs.unibo.it/wowmom2026/) · 2026-10-18 |
+| WoWMoM | IEEE Symposium on a World of Wireless Mobility, IoT and Machine Learning | CCF 2026 C（副本／转录）；ICORE 2026 C（一手来源） | [身份来源](https://wowmom2027.dii.unipi.it/) · 2026-10-18 |
 | MASS | IEEE International Conference on Mobile Ad Hoc and Smart Systems | CCF 2026 C（副本／转录）；ICORE 2026 B（一手来源） | [身份来源](https://mass-conf.github.io/2026/about.html) · 2026-10-18 |
 | IWCMC | International Wireless Communications and Mobile Computing Conference | CCF 2026 —（所查版本未列入）；ICORE 2026 B（一手来源） | [身份来源](https://iwcmc.net/2027/index.php) · 2026-10-18 |
 | IFIP Networking | IFIP Networking Conference | CCF 2026 C（副本／转录）；ICORE 2026 B（一手来源） | [身份来源](https://networking.ifip.org/) · 2026-10-18 |

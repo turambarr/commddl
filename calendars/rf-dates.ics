@@ -59,4 +59,183 @@ URL:https://www.comsoc.org/publications/magazines/ieee-wireless-communicati
  -and-sensing
 TRANSP:TRANSPARENT
 END:VEVENT
+BEGIN:VEVENT
+UID:atc-2026-main-paper@commddl
+DTSTAMP:20261018T080000Z
+LAST-MODIFIED:20261018T040000Z
+SEQUENCE:2
+DTSTART;VALUE=DATE:20260715
+DTEND;VALUE=DATE:20260716
+SUMMARY:ATC · ATC 2026 · 主会论文 · 全文提交（日期提示）
+DESCRIPTION:日期提示：官网未明确具体钟点或时区，此全天
+ 事件不代表当天任何时间均可投稿。\n官网只公布日期，
+ 未明确截止钟点或时区；以日期精度展示，不补造23:59或
+ AoE。\n来源：https://atc-conf.org/call-for-papers/call-for-papers
+URL:https://atc-conf.org/call-for-papers/call-for-papers
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:jcns-2027-main-paper@commddl
+DTSTAMP:20261018T080000Z
+LAST-MODIFIED:20261018T040000Z
+SEQUENCE:1
+DTSTART;VALUE=DATE:20261026
+DTEND;VALUE=DATE:20261027
+SUMMARY:JC&S · JC&S 2027 · 主会论文 · 全文提交（日期提示）
+DESCRIPTION:日期提示：官网未明确具体钟点或时区，此全天
+ 事件不代表当天任何时间均可投稿。\n官网总日程1月25–
+ 29日含冬季学校；VDE官方活动正文明确主会1月27–29日。
+ 采用官网明确延期后的10月26日；不使用旧PDF原截止。官
+ 网未明确截止钟点或时区。\n来源：https://jcns-symposium.org/
+URL:https://jcns-symposium.org/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:jcns-2027-demo-paper@commddl
+DTSTAMP:20261018T080000Z
+LAST-MODIFIED:20261018T040000Z
+SEQUENCE:1
+DTSTART;VALUE=DATE:20261026
+DTEND;VALUE=DATE:20261027
+SUMMARY:JC&S · JC&S 2027 · 演示论文 · 全文提交（日期提示）
+DESCRIPTION:日期提示：官网未明确具体钟点或时区，此全天
+ 事件不代表当天任何时间均可投稿。\n官网总日程1月25–
+ 29日含冬季学校；VDE官方活动正文明确主会1月27–29日。
+ 采用官网明确延期后的10月26日；不使用旧PDF原截止。官
+ 网未明确截止钟点或时区。演示投稿为2页摘要，现场演
+ 示是必要条件，非6页技术全文。\n来源：https://jcns-symposi
+ um.org/
+URL:https://jcns-symposium.org/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:sam-2026-main-paper@commddl
+DTSTAMP:20261018T080000Z
+LAST-MODIFIED:20261018T040000Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20260128
+DTEND;VALUE=DATE:20260129
+SUMMARY:SAM · SAM 2026 · 主会论文 · 全文提交（日期提示）
+DESCRIPTION:日期提示：官网未明确具体钟点或时区，此全天
+ 事件不代表当天任何时间均可投稿。\n主办高校征稿PDF与
+ IEEE信号处理学会活动页交叉核对。PDF未公布终稿截止，
+ 未补造。SAM为隔年举办，2028主办提案不作为论文节点。\
+ n来源：https://www.tu-ilmenau.de/fileadmin/Bereiche/EI/nt/pdfs/upload_2
+ 025/SAM2026_CFP_flyer_092025.pdf
+URL:https://www.tu-ilmenau.de/fileadmin/Bereiche/EI/nt/pdfs/upload_2025/SAM
+ 2026_CFP_flyer_092025.pdf
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:sam-2026-main-registration@commddl
+DTSTAMP:20261018T080000Z
+LAST-MODIFIED:20261018T040000Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20260507
+DTEND;VALUE=DATE:20260508
+SUMMARY:SAM · SAM 2026 · 主会论文 · 作者注册（日期提示）
+DESCRIPTION:日期提示：官网未明确具体钟点或时区，此全天
+ 事件不代表当天任何时间均可投稿。\n主办高校征稿PDF与
+ IEEE信号处理学会活动页交叉核对。PDF未公布终稿截止，
+ 未补造。SAM为隔年举办，2028主办提案不作为论文节点。\
+ n来源：https://www.tu-ilmenau.de/fileadmin/Bereiche/EI/nt/pdfs/upload_2
+ 025/SAM2026_CFP_flyer_092025.pdf
+URL:https://www.tu-ilmenau.de/fileadmin/Bereiche/EI/nt/pdfs/upload_2025/SAM
+ 2026_CFP_flyer_092025.pdf
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ims-2027-rfsa-paper@commddl
+DTSTAMP:20261018T080000Z
+LAST-MODIFIED:20261018T040000Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20261208
+DTEND;VALUE=DATE:20261209
+SUMMARY:IMS · IMS 2027 · RFSA 分会论文 · 全文提交（日期提示
+ ）
+DESCRIPTION:日期提示：官网未明确具体钟点或时区，此全天
+ 事件不代表当天任何时间均可投稿。\nIMS目前以Internationa
+ l Microwave Symposia形式组织，传统内容拆为RFSA（射频系统
+ 与应用）和RFTT（射频技术与工艺）两个独立分会。两会
+ 各为5月24–27日；IMS总活动周为5月23–28日。旧IMS目录评
+ 级对新分会的适用性须另核，不自动继承。\n来源：https:
+ //ims-ieee.org/authortools2027
+URL:https://ims-ieee.org/authortools2027
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ims-2027-rftt-paper@commddl
+DTSTAMP:20261018T080000Z
+LAST-MODIFIED:20261018T040000Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20261208
+DTEND;VALUE=DATE:20261209
+SUMMARY:IMS · IMS 2027 · RFTT 分会论文 · 全文提交（日期提示
+ ）
+DESCRIPTION:日期提示：官网未明确具体钟点或时区，此全天
+ 事件不代表当天任何时间均可投稿。\nIMS目前以Internationa
+ l Microwave Symposia形式组织，传统内容拆为RFSA（射频系统
+ 与应用）和RFTT（射频技术与工艺）两个独立分会。两会
+ 各为5月24–27日；IMS总活动周为5月23–28日。旧IMS目录评
+ 级对新分会的适用性须另核，不自动继承。\n来源：https:
+ //ims-ieee.org/authortools2027
+URL:https://ims-ieee.org/authortools2027
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:eumc-2026-main-paper@commddl
+DTSTAMP:20261018T080000Z
+LAST-MODIFIED:20261018T040000Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20260327
+DTEND;VALUE=DATE:20260328
+SUMMARY:EuMC · EUMC 2026 · 主会论文 · 全文提交（日期提示）
+DESCRIPTION:日期提示：官网未明确具体钟点或时区，此全天
+ 事件不代表当天任何时间均可投稿。\n欧洲微波周内独立
+ 会议。2026官方CFP公布三会共同投稿/通知/终稿节点，各
+ 会举办日期分别记录。2027仅公布微波周10月3–8日米兰，
+ 尚不能当作各分会具体召开日或投稿日。\n来源：https://w
+ ww.eumw.eu/wp-content/uploads/2025/10/4997_eumw2026_call_for_papers-06.pdf
+URL:https://www.eumw.eu/wp-content/uploads/2025/10/4997_eumw2026_call_for_p
+ apers-06.pdf
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:eumic-2026-main-paper@commddl
+DTSTAMP:20261018T080000Z
+LAST-MODIFIED:20261018T040000Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20260327
+DTEND;VALUE=DATE:20260328
+SUMMARY:EuMIC · EUMIC 2026 · 主会论文 · 全文提交（日期提示
+ ）
+DESCRIPTION:日期提示：官网未明确具体钟点或时区，此全天
+ 事件不代表当天任何时间均可投稿。\n欧洲微波周内独立
+ 会议。2026官方CFP公布三会共同投稿/通知/终稿节点，各
+ 会举办日期分别记录。2027仅公布微波周10月3–8日米兰，
+ 尚不能当作各分会具体召开日或投稿日。\n来源：https://w
+ ww.eumw.eu/wp-content/uploads/2025/10/4997_eumw2026_call_for_papers-06.pdf
+URL:https://www.eumw.eu/wp-content/uploads/2025/10/4997_eumw2026_call_for_p
+ apers-06.pdf
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:eurad-2026-main-paper@commddl
+DTSTAMP:20261018T080000Z
+LAST-MODIFIED:20261018T040000Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20260327
+DTEND;VALUE=DATE:20260328
+SUMMARY:EuRAD · EURAD 2026 · 主会论文 · 全文提交（日期提示
+ ）
+DESCRIPTION:日期提示：官网未明确具体钟点或时区，此全天
+ 事件不代表当天任何时间均可投稿。\n欧洲微波周内独立
+ 会议。2026官方CFP公布三会共同投稿/通知/终稿节点，各
+ 会举办日期分别记录。2027仅公布微波周10月3–8日米兰，
+ 尚不能当作各分会具体召开日或投稿日。\n来源：https://w
+ ww.eumw.eu/wp-content/uploads/2025/10/4997_eumw2026_call_for_papers-06.pdf
+URL:https://www.eumw.eu/wp-content/uploads/2025/10/4997_eumw2026_call_for_p
+ apers-06.pdf
+TRANSP:TRANSPARENT
+END:VEVENT
 END:VCALENDAR
