@@ -48,7 +48,7 @@
   try { favorites = new Set(C.cleanFavorites(load('commddl.favorites.v1', {version:1,items:[]}), D)); } catch { favorites = new Set(); }
   const prefs = load('commddl.preferences.v1', {});
   const zones = ['Asia/Shanghai','UTC','America/Los_Angeles','Europe/London'];
-  const state = {view:'deadlines',area:'',topics:[],kind:'all',query:'',window:'',sort:'deadline',showPast:false,historical:false,grade:'',catalogStatus:'',layout:'list',zone:zones.includes(prefs.zone)?prefs.zone:'Asia/Shanghai',journalType:'all',month:C.dateInZone(Date.now()).slice(0,7)};
+  const state = {view:'deadlines',area:'',topics:[],kind:'all',query:'',window:'',sort:'deadline',showPast:false,historical:false,grade:'',catalogStatus:'',index:'',layout:'list',zone:zones.includes(prefs.zone)?prefs.zone:'Asia/Shanghai',journalType:'all',month:C.dateInZone(Date.now()).slice(0,7)};
   let currentCalls = [], currentVenues = [], exportCalls = [], toastTimer;
   function readHash() {
     const [view, query = ''] = location.hash.slice(1).split('?');
@@ -57,6 +57,7 @@
     state.area = areaLabels.has(p.get('area')) ? p.get('area') : '';
     state.topics = C.cleanTopics((p.get('topics') || '').split(','), D.topics, state.area);
     state.query = p.get('q') || '';
+    state.index = ['SCIE','ESCI','pending'].includes(p.get('index')) ? p.get('index') : '';
     state.grade = Array.from($('grade-filter').options).some(o=>o.value===p.get('grade')) ? p.get('grade') : '';
     state.catalogStatus = ['', 'current','needs-review','historical-only'].includes(p.get('status')) ? p.get('status') : '';
 
@@ -67,11 +68,13 @@
     state.sort = p.get('sort') === 'name' ? 'name' : 'deadline';
     state.journalType = p.get('type') || 'all';
     if((directoryKind()==='conference'&&/^(jcr|cas):/.test(state.grade))||(directoryKind()==='journal'&&state.grade.startsWith('core:')))state.grade='';
-    if(!isVenueView()){state.grade='';state.catalogStatus='';}
+    if(!isVenueView()){state.grade='';state.catalogStatus='';state.index='';}
+    if(!isVenueView()||directoryKind()!=='journal')state.index='';
     state.month = /^\d{4}-(0[1-9]|1[0-2])$/.test(p.get('month') || '') ? p.get('month') : C.dateInZone(Date.now(), state.zone).slice(0,7);
   }
   function syncHash() {
     const p = new URLSearchParams();
+    if (state.index) p.set('index',state.index);
     if (state.grade) p.set('grade',state.grade);
     if (state.catalogStatus) p.set('status',state.catalogStatus);
     if (state.area) p.set('area',state.area);
@@ -88,7 +91,7 @@
   }
   function notify(text) { $('toast').textContent = text; $('toast').classList.add('visible'); clearTimeout(toastTimer); toastTimer = setTimeout(() => $('toast').classList.remove('visible'),3200); }
   function closeSidebar() { $('sidebar').classList.remove('open'); $('sidebar-backdrop').classList.remove('visible'); $('mobile-menu').setAttribute('aria-expanded','false'); }
-  function navigate(view) { state.view=view;state.kind='all';state.query='';state.window='';state.historical=false;state.grade='';state.catalogStatus='';state.journalType='all';state.layout='list';closeSidebar();syncHash();render();window.scrollTo({top:0,behavior:'instant'}); }
+  function navigate(view) { state.view=view;state.kind='all';state.query='';state.window='';state.historical=false;state.grade='';state.catalogStatus='';state.index='';state.journalType='all';state.layout='list';closeSidebar();syncHash();render();window.scrollTo({top:0,behavior:'instant'}); }
   function toggleFavorite(key) {
     favorites.has(key) ? favorites.delete(key) : favorites.add(key);
     save('commddl.favorites.v1',{version:1,items:[...favorites]}); render();
@@ -102,16 +105,21 @@
   const evaluationLabels={jcr:'JCR',cas:'中科院',ccf:'CCF',core:'ICORE'};
   const statusLabels={verified:'已核验',reported:'转录，待原库复核',pending:'待核验','not-matched':'本次未匹配','scope-review':'适用范围待核验','non-ranked':'原库非等级状态'};
   function evaluationText(e) {const nonRank={'Unranked':'未评级','Multiconference':'综合会议状态','National: USA':'国家级范围：美国','National/Regional':'国家／区域范围','journal published':'期刊发表模式','unranked: merged':'已合并，未评级'};return evaluationLabels[e.system]+' '+e.year+' '+(e.value ? e.system==='cas'?['','一区','二区','三区','四区'][+e.value]:(nonRank[e.value]||e.value):statusLabels[e.status]);}
+  function indexingBadge(v) {
+    if(v.kind!=='journal')return '';
+    const status=C.indexingStatus(v),ix=v.indexing;
+    const text=status==='SCIE'?'SCI 期刊 · SCIE':status==='ESCI'?'ESCI · 非 SCIE':status==='pending'?'SCI／SCIE 收录待核验':status+' · 非 SCIE';
+    return `<div class="indexing-line"><span class="indexing-badge ${status==='SCIE'?'sci':status==='pending'?'unconfirmed':'other-index'}" title="${esc(ix?.note||'收录待核验')}">${status==='SCIE'?icon('check'):icon('info')}${esc(text)}</span>${status!=='pending'?`<small>${ix.snapshotDate?'来源快照 '+esc(ix.snapshotDate):'官网读取 '+esc(ix.verifiedAt)}</small>`:''}</div>`;
+  }
   function evaluationTags(v) {
     const known=(v.evaluations||[]).filter(e=>['verified','reported'].includes(e.status));
     const tags=known.map(e=>`<span class="tag rating-tag" title="${esc(e.sourceTitle+'；'+e.note)}">${esc(evaluationText(e))}${e.sourceType==='document-copy'?' · 副本':e.sourceType==='secondary'?' · 转录':''}</span>`).join('');
     const unknown=(v.evaluations||[]).filter(e=>!['verified','reported'].includes(e.status)).map(e=>`<span class="tag rating-pending" title="${esc(e.note)}">${evaluationLabels[e.system]} ${e.status==='not-matched'?'未匹配':e.status==='non-ranked'?'非等级状态':'待核验'}</span>`).join('');
-    const ix=v.indexing&&v.indexing.value!=='N/A'?`<span class="tag">${esc(v.indexing.value)} · 2026-09</span>`:'';
-    return `<div class="tags rating-tags">${ix}${tags}${unknown}</div>`;
+    return `<div class="tags rating-tags">${tags}${unknown}</div>`;
   }
   function evaluationDetails(v) {
     const ix=v.indexing;
-    return '<h3>分区、等级与收录</h3><p class="muted">JCR（期刊引证报告）、中科院分区、CCF（中国计算机学会）与 ICORE（国际合作会议评级）各自独立。期刊分区不适用于会议；等级也不代表个人毕业认定。</p>'+(ix?`<p><strong>${esc(ix.value)}</strong> · ${esc(ix.snapshotDate)} 快照。SCIE 为科学引文索引扩展版；ESCI 为新兴来源引文索引，两者不同。<a href="${safeURL(ix.sourceUrl)}" target="_blank" rel="noopener noreferrer">收录来源 ↗</a></p>`:'')+(v.evaluations||[]).map(e=>`<div class="evaluation-record"><div><strong>${esc(evaluationText(e))}</strong><span>${esc(statusLabels[e.status])}</span></div>${e.category?`<p>学科 / 口径：${esc(e.category)}</p>`:''}${e.minorCategories?.length?'<p>小类：'+e.minorCategories.map(m=>esc(m.category)+' '+m.quartile+'区').join('；')+'</p>':''}${e.appliesToName?`<p>原记录名称：${esc(e.appliesToName)}</p>`:''}<p>${esc(e.note)}</p>${e.sourceUrl?`<a href="${safeURL(e.sourceUrl)}" target="_blank" rel="noopener noreferrer">${esc(e.sourceTitle)}${e.page?' · 第 '+e.page+' 页':''} ↗</a><small>读取 ${esc(e.verifiedAt)}${e.snapshotDate?' · 数据快照 '+esc(e.snapshotDate):''}</small>`:''}${e.officialUrl?`<a href="${safeURL(e.officialUrl)}" target="_blank" rel="noopener noreferrer">官方目录入口 ↗</a>`:''}</div>`).join('');
+    return '<h3>分区、等级与收录</h3><p class="muted">JCR（期刊引证报告）、中科院分区、CCF（中国计算机学会）与 ICORE（国际合作会议评级）各自独立。期刊分区不适用于会议；等级也不代表个人毕业认定。</p>'+(v.kind==='journal'?indexingBadge(v)+`<p>本站 SCI 标签对应原始证据中的 SCIE（科学引文索引扩展版）；ESCI（新兴来源引文索引）不标为 SCI。${esc(ix?.note||'收录待核验')}${ix?.sourceUrl?` <a href="${safeURL(ix.sourceUrl)}" target="_blank" rel="noopener noreferrer">${esc(ix.sourceTitle)} ↗</a>`:''}</p>`:'')+(v.evaluations||[]).map(e=>`<div class="evaluation-record"><div><strong>${esc(evaluationText(e))}</strong><span>${esc(statusLabels[e.status])}</span></div>${e.category?`<p>学科 / 口径：${esc(e.category)}</p>`:''}${e.minorCategories?.length?'<p>小类：'+e.minorCategories.map(m=>esc(m.category)+' '+m.quartile+'区').join('；')+'</p>':''}${e.appliesToName?`<p>原记录名称：${esc(e.appliesToName)}</p>`:''}<p>${esc(e.note)}</p>${e.sourceUrl?`<a href="${safeURL(e.sourceUrl)}" target="_blank" rel="noopener noreferrer">${esc(e.sourceTitle)}${e.page?' · 第 '+e.page+' 页':''} ↗</a><small>读取 ${esc(e.verifiedAt)}${e.snapshotDate?' · 数据快照 '+esc(e.snapshotDate):''}</small>`:''}${e.officialUrl?`<a href="${safeURL(e.officialUrl)}" target="_blank" rel="noopener noreferrer">官方目录入口 ↗</a>`:''}</div>`).join('');
   }
   function catalogTag(v) {return v.catalogStatus==='historical-only'?'<span class="tag historical">仅历史记录</span>':v.catalogStatus==='needs-review'?'<span class="tag rating-pending">当前信息待核验</span>':'';}
   function renderStats() {
@@ -169,7 +177,7 @@
   function venueCard(v) {
     const journal=v.kind==='journal';
     const activityCount=D.calls.filter(c=>c.venueId===v.id&&c.verification==='verified').length;
-    return `<article class="opportunity-card journal-card" data-venue-card="${v.id}"><div class="card-top"><span class="venue-mark">${esc(v.short)}</span><span class="type-tag">${esc(v.publicationType)}</span>${favoriteButton('venue:'+v.id,v.nameZh)}</div><h3 class="card-title"><button data-detail="venue:${v.id}">${esc(v.nameZh)}</button></h3><p class="card-title-en">${esc(v.nameEn)}</p><div class="tags">${areaTags(v.areas)}${historicalTags(v)}${catalogTag(v)}</div>${evaluationTags(v)}<div class="tags specific-topics">${topicTags(v.topics)}</div><p class="journal-description">${esc(v.summary)}</p><div class="journal-mode"><span>${icon(journal?'book':'calendar')}${journal?esc(v.submissionMode):'具体活动'}</span><strong>${journal?esc(v.articleTypes.join(' / ')):activityCount?activityCount+' 项已核验':'待补充当前届次'}</strong></div><div class="card-footer"><button class="detail-button" data-detail="venue:${v.id}">${journal?'期刊详情':'会议详情'} <span>→</span></button><a href="${safeURL(v.url)}" target="_blank" rel="noopener noreferrer">${v.urlLabel||(v.verification==='pending'?'网页入口（待核验）':'官方入口')} ${icon('external')}</a></div></article>`;
+    return `<article class="opportunity-card journal-card" data-venue-card="${v.id}"><div class="card-top"><span class="venue-mark">${esc(v.short)}</span><span class="type-tag">${esc(v.publicationType)}</span>${favoriteButton('venue:'+v.id,v.nameZh)}</div><h3 class="card-title"><button data-detail="venue:${v.id}">${esc(v.nameZh)}</button></h3><p class="card-title-en">${esc(v.nameEn)}</p>${indexingBadge(v)}<div class="tags">${areaTags(v.areas)}${historicalTags(v)}${catalogTag(v)}</div>${evaluationTags(v)}<div class="tags specific-topics">${topicTags(v.topics)}</div><p class="journal-description">${esc(v.summary)}</p><div class="journal-mode"><span>${icon(journal?'book':'calendar')}${journal?esc(v.submissionMode):'具体活动'}</span><strong>${journal?esc(v.articleTypes.join(' / ')):activityCount?activityCount+' 项已核验':'待补充当前届次'}</strong></div><div class="card-footer"><button class="detail-button" data-detail="venue:${v.id}">${journal?'期刊详情':'会议详情'} <span>→</span></button><a href="${safeURL(v.url)}" target="_blank" rel="noopener noreferrer">${v.urlLabel||(v.verification==='pending'?'网页入口（待核验）':'官方入口')} ${icon('external')}</a></div></article>`;
   }
   function directoryKind() {
     if(state.view==='favorites'&&state.kind==='all')return undefined;
@@ -194,6 +202,7 @@
     const items=[];
     if(state.area)items.push(['area',areaLabels.get(state.area)]);
     if(state.topics.length)items.push(['topics','主题：'+state.topics.map(id=>topicLabels.get(id)).join(' / ')]);
+    if(state.index)items.push(['index',$('index-filter').selectedOptions[0]?.textContent||state.index]);
     if(state.query)items.push(['query','搜索：'+state.query]);
     if(isVenueView()&&state.grade)items.push(['grade',$('grade-filter').selectedOptions[0]?.textContent||state.grade]);
     if(isVenueView()&&state.catalogStatus)items.push(['catalogStatus',$('catalog-status').selectedOptions[0]?.textContent||state.catalogStatus]);
@@ -217,6 +226,7 @@
     const vv=isVenueView();
     $('evaluation-filters').hidden=!vv; $('policy-guide').hidden=!vv;
     Array.from($('grade-filter').querySelectorAll('optgroup')).forEach(g=>{const sys=g.querySelector('option').value.split(':')[0];g.disabled=(directoryKind()==='conference'&&['jcr','cas'].includes(sys))||(directoryKind()==='journal'&&sys==='core');g.hidden=g.disabled;});
+    $('index-filter-label').hidden=!vv||directoryKind()!=='journal'; $('index-filter').value=state.index;
     $('grade-filter').value=state.grade; $('catalog-status').value=state.catalogStatus;
     $('search').value=state.query;$('time-window').value=state.window;$('sort').value=state.sort;$('show-past').checked=state.showPast;$('historical-only').checked=state.historical;$('timezone').value=state.zone;
     $('time-window').hidden=vv;$('view-switch').hidden=vv;$('past-filter-label').hidden=vv;$('timezone').parentElement.hidden=vv;
@@ -278,7 +288,7 @@
   }
   function renderAbout() {
     const verified=D.calls.filter(c=>c.verification==='verified').length, dated=D.calls.filter(c=>C.primaryNode(c)?.precision==='date').length;
-    $('about-content').innerHTML=`<div class="about-grid"><section class="about-panel"><h2>目前整理到哪里</h2><p>目前包含 ${D.venues.filter(v=>v.kind==='conference').length} 个会议系列、${D.venues.filter(v=>v.kind==='journal').length} 本期刊，${verified} 条具体活动已核验。${dated} 条活动目前只公布了日期。会议目录中 ${D.venues.filter(v=>v.kind==='conference'&&v.catalogStatus==='historical-only').length} 项仅有历史记录，${D.venues.filter(v=>v.kind==='conference'&&v.catalogStatus==='needs-review').length} 项当前信息待核验。</p><p>这是一份持续维护的通信科研目录。会议系列、具体届次、期刊与专刊分别统计；待核验记录明确显示状态。</p></section><section class="about-panel"><h2>分类怎样使用</h2><p>${D.areas.length} 个研究方向、${D.topics.length} 个具体主题，期刊与会议共用。方向缩写是 CommDDL 分类代码，不代表学术等级。多个主题匹配任一项，再与方向、搜索等条件共同筛选。</p><p>主题是人工整理的导航标签，可能跨方向，不能代替官方征稿范围。具体专题按自身内容分类，不继承母刊所有主题。</p></section><section class="about-panel"><h2>时间怎样呈现</h2><ul><li>明确的时刻才换算时区并用于精确倒计时。</li><li>只有日期时按官网原日期展示，钟点与时区保持未知。</li><li>往届日期不会自动平移为下一届截止。</li><li>摘要注册等前置步骤需要与全文截止一起核对。</li></ul></section><section class="about-panel"><h2>学校目录与评价标签</h2><p>按你指定的2018年文件：第三条博士路径引用“本学科指定的重要国际会议”，第四条硕士路径没有该限定。重要会议表只作独立标签；原表89项全部保留对应关系，重复、更名和身份不明确的项目分别记录。附属研讨会不自动继承主会认定。</p><p>${esc(D.policy.scope)}</p><p>${esc(D.policy.authorship)}</p><p>${D.policy.conditions.map(c=>esc(c.replace(/[。；]$/,""))).join("；")}</p><a href="${safeURL(D.meta.policySource)}" target="_blank" rel="noopener noreferrer">查看历史目录原文件 ↗</a></section><section class="about-panel wide"><h2>评价数据的口径与覆盖</h2><p>${D.ratingSystems.map(r=>esc(r.label)+' '+r.year+'：'+esc(r.note)).join('<br>')}</p><p>${D.ratingSystems.map(r=>esc(r.label)+' 有明确等级 '+D.venues.filter(v=>v.evaluations?.some(e=>e.system===r.id&&['verified','reported'].includes(e.status))).length+' 项').join(' · ')}。未匹配表示本次无法建立确定对应，不作为低等级；评级只用于导航。</p><div class="resource-links">${D.ratingSystems.map(r=>`<a href="${safeURL(r.sourceUrl)}" target="_blank" rel="noopener noreferrer">${esc(r.label)} 来源 ↗</a>`).join('')}</div></section><section class="about-panel"><h2>收藏、导出与持续订阅</h2><p>收藏保存在当前浏览器，支持备份与导入。导出的日历文件是一次性快照；订阅在线日期提示源可接收后续发布的变化，刷新频率由日历客户端决定。</p><p>本版没有账号服务。维护数据不会读取你的论文、邮箱或投稿记录。</p></section><section class="about-panel wide"><h2>官方信息入口</h2><div class="source-list">${D.sources.map(s=>`<div class="source-item"><a href="${safeURL(s.url)}" target="_blank" rel="noopener noreferrer">${esc(s.title)} ↗</a><small>最近读取 ${esc(s.verifiedAt)}</small></div>`).join('')}</div></section><section class="about-panel wide"><h2>一起维护这份日历</h2><p>发现时间变动、失效链接或遗漏，可在 GitHub 项目提交问题反馈；请附官方链接、原始日期与时区。提交反馈需要 GitHub 账号。</p><p>CommDDL 参考 CCFDDL 的数据维护和截止日历思路，使用独立的 HTML 页面与通信领域模型。</p><a href="${safeURL(D.meta.repository)}" target="_blank" rel="noopener noreferrer">项目与贡献说明 ↗</a> <span class="muted"> · </span><a href="https://github.com/ccfddl/ccf-deadlines" target="_blank" rel="noopener noreferrer">CCFDDL 原项目 ↗</a></section></div>`;
+    $('about-content').innerHTML=`<div class="about-grid"><section class="about-panel"><h2>目前整理到哪里</h2><p>目前包含 ${D.venues.filter(v=>v.kind==='conference').length} 个会议系列、${D.venues.filter(v=>v.kind==='journal').length} 本期刊，${verified} 条具体活动已核验。${dated} 条活动目前只公布了日期。会议目录中 ${D.venues.filter(v=>v.kind==='conference'&&v.catalogStatus==='historical-only').length} 项仅有历史记录，${D.venues.filter(v=>v.kind==='conference'&&v.catalogStatus==='needs-review').length} 项当前信息待核验。</p><p>这是一份持续维护的通信科研目录。会议系列、具体届次、期刊与专刊分别统计；待核验记录明确显示状态。</p></section><section class="about-panel"><h2>分类怎样使用</h2><p>${D.areas.length} 个研究方向、${D.topics.length} 个具体主题，期刊与会议共用。方向缩写是 CommDDL 分类代码，不代表学术等级。多个主题匹配任一项，再与方向、搜索等条件共同筛选。</p><p>主题是人工整理的导航标签，可能跨方向，不能代替官方征稿范围。具体专题按自身内容分类，不继承母刊所有主题。</p></section><section class="about-panel"><h2>时间怎样呈现</h2><ul><li>明确的时刻才换算时区并用于精确倒计时。</li><li>只有日期时按官网原日期展示，钟点与时区保持未知。</li><li>往届日期不会自动平移为下一届截止。</li><li>摘要注册等前置步骤需要与全文截止一起核对。</li></ul></section><section class="about-panel"><h2>学校目录与评价标签</h2><p>按你指定的2018年文件：第三条博士路径引用“本学科指定的重要国际会议”，第四条硕士路径没有该限定。重要会议表只作独立标签；原表89项全部保留对应关系，重复、更名和身份不明确的项目分别记录。附属研讨会不自动继承主会认定。</p><p>${esc(D.policy.scope)}</p><p>${esc(D.policy.authorship)}</p><p>${D.policy.conditions.map(c=>esc(c.replace(/[。；]$/,""))).join("；")}</p><a href="${safeURL(D.meta.policySource)}" target="_blank" rel="noopener noreferrer">查看历史目录原文件 ↗</a></section><section class="about-panel wide"><h2>SCI 收录怎样标注</h2><p>SCI（科学引文索引）标签在本站对应原始证据中的 SCIE（科学引文索引扩展版）。每本期刊均显示收录状态；已核验 ${D.venues.filter(v=>C.indexingStatus(v)==='SCIE').length} 本 SCIE、${D.venues.filter(v=>C.indexingStatus(v)==='ESCI').length} 本 ESCI（新兴来源引文索引），另有 ${D.venues.filter(v=>C.indexingStatus(v)==='pending').length} 本待核验。ESCI、JCR分区、EI与Scopus不能替代SCIE收录证据，期刊入选也不证明每篇论文已入库。</p></section><section class="about-panel wide"><h2>评价数据的口径与覆盖</h2><p>${D.ratingSystems.map(r=>esc(r.label)+' '+r.year+'：'+esc(r.note)).join('<br>')}</p><p>${D.ratingSystems.map(r=>esc(r.label)+' 有明确等级 '+D.venues.filter(v=>v.evaluations?.some(e=>e.system===r.id&&['verified','reported'].includes(e.status))).length+' 项').join(' · ')}。未匹配表示本次无法建立确定对应，不作为低等级；评级只用于导航。</p><div class="resource-links">${D.ratingSystems.map(r=>`<a href="${safeURL(r.sourceUrl)}" target="_blank" rel="noopener noreferrer">${esc(r.label)} 来源 ↗</a>`).join('')}</div></section><section class="about-panel"><h2>收藏、导出与持续订阅</h2><p>收藏保存在当前浏览器，支持备份与导入。导出的日历文件是一次性快照；订阅在线日期提示源可接收后续发布的变化，刷新频率由日历客户端决定。</p><p>本版没有账号服务。维护数据不会读取你的论文、邮箱或投稿记录。</p></section><section class="about-panel wide"><h2>官方信息入口</h2><div class="source-list">${D.sources.map(s=>`<div class="source-item"><a href="${safeURL(s.url)}" target="_blank" rel="noopener noreferrer">${esc(s.title)} ↗</a><small>最近读取 ${esc(s.verifiedAt)}</small></div>`).join('')}</div></section><section class="about-panel wide"><h2>一起维护这份日历</h2><p>发现时间变动、失效链接或遗漏，可在 GitHub 项目提交问题反馈；请附官方链接、原始日期与时区。提交反馈需要 GitHub 账号。</p><p>CommDDL 参考 CCFDDL 的数据维护和截止日历思路，使用独立的 HTML 页面与通信领域模型。</p><a href="${safeURL(D.meta.repository)}" target="_blank" rel="noopener noreferrer">项目与贡献说明 ↗</a> <span class="muted"> · </span><a href="https://github.com/ccfddl/ccf-deadlines" target="_blank" rel="noopener noreferrer">CCFDDL 原项目 ↗</a></section></div>`;
   }
   function download(text, name, type) {const blob=new Blob([text],{type});const url=URL.createObjectURL(blob);const a=document.createElement('a');a.href=url;a.download=name;a.click();setTimeout(()=>URL.revokeObjectURL(url),1000);}
   function beginExport(calls) {
@@ -305,7 +315,7 @@
     else if(b.dataset.area){state.area=state.area===b.dataset.area?'':b.dataset.area;state.topics=C.cleanTopics(state.topics,D.topics,state.area);syncHash();render();}
     else if(b.dataset.topic){const id=b.dataset.topic;state.topics=state.topics.includes(id)?state.topics.filter(t=>t!==id):[...state.topics,id];syncHash();render();document.querySelector(`[data-topic="${id}"]`)?.focus();}
     else if(b.dataset.topicExpand){topicsExpanded=!topicsExpanded;renderTopics();document.querySelector('[data-topic-expand]')?.focus();}
-    else if(b.dataset.kind){state.kind=b.dataset.kind;state.grade='';state.catalogStatus='';syncHash();render();}
+    else if(b.dataset.kind){state.kind=b.dataset.kind;state.grade='';state.catalogStatus='';state.index='';syncHash();render();}
     else if(b.dataset.journalType){state.journalType=b.dataset.journalType;syncHash();render();}
     else if(b.dataset.favorite)toggleFavorite(b.dataset.favorite);
     else if(b.dataset.detail)openDetail(b.dataset.detail);
@@ -315,11 +325,11 @@
     else if(b.dataset.shareFilters){const url=new URL(D.meta.homepage);url.hash=location.hash;copyText(url.href);}
     else if(b.dataset.copyDetail){const url=new URL(D.meta.homepage||location.href);url.hash=state.view+'?'+new URLSearchParams({item:b.dataset.copyDetail});copyText(url.href);}
     else if(b.dataset.clear){state[b.dataset.clear]=b.dataset.clear==='historical'?false:b.dataset.clear==='topics'?[]:'';syncHash();render();}
-    else if(b.dataset.reset){state.query='';state.area='';state.topics=[];state.window='';state.historical=false;state.grade='';state.catalogStatus='';state.kind='all';state.journalType='all';syncHash();render();}
+    else if(b.dataset.reset){state.query='';state.area='';state.topics=[];state.window='';state.historical=false;state.grade='';state.catalogStatus='';state.index='';state.kind='all';state.journalType='all';syncHash();render();}
     else if(b.dataset.month){if(b.dataset.month==='today')state.month=C.dateInZone(Date.now(),state.zone).slice(0,7);else{const[y,m]=state.month.split('-').map(Number);state.month=new Date(Date.UTC(y,m-1+Number(b.dataset.month),1)).toISOString().slice(0,7);}syncHash();renderCalendar();}
   });
   $('search').addEventListener('input',e=>{state.query=e.target.value;syncHash();render();$('search').focus();});
-  [['time-window','window'],['sort','sort'],['timezone','zone'],['grade-filter','grade'],['catalog-status','catalogStatus']].forEach(([id,key])=>$(id).addEventListener('change',e=>{state[key]=e.target.value;if(key==='zone'){save('commddl.preferences.v1',{zone:state.zone});updateClock();}syncHash();render();}));
+  [['time-window','window'],['sort','sort'],['timezone','zone'],['grade-filter','grade'],['catalog-status','catalogStatus'],['index-filter','index']].forEach(([id,key])=>$(id).addEventListener('change',e=>{state[key]=e.target.value;if(key==='zone'){save('commddl.preferences.v1',{zone:state.zone});updateClock();}syncHash();render();}));
   [['show-past','showPast'],['historical-only','historical']].forEach(([id,key])=>$(id).addEventListener('change',e=>{state[key]=e.target.checked;syncHash();render();}));
   $('reset-area').addEventListener('click',()=>{state.area='';syncHash();render();});
   $('list-view').addEventListener('click',()=>{state.layout='list';syncHash();render();});

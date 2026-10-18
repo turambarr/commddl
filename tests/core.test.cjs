@@ -84,3 +84,17 @@ test('catalog state is separate from grades and keeps old identities discoverabl
   const rows=C.filterVenues(data.venues,{venueKind:'conference',catalogStatus:'historical-only',query:'NIPS'});
   assert(rows.some(v=>v.id==='neurips'));assert(rows.every(v=>v.catalogStatus==='historical-only'));
 });
+
+test('SCI indexing is based on explicit evidence, never a quartile or journal name',()=>{
+ const journal={kind:'journal',evaluations:[{system:'jcr',value:'Q1',status:'verified'}]};
+ assert.equal(C.indexingStatus(journal),'pending');
+ assert.equal(C.indexingStatus({...journal,indexing:{value:'SCIE',status:'pending'}}),'pending');
+ assert.equal(C.indexingStatus({...journal,indexing:{value:'ESCI',status:'verified'}}),'ESCI');
+ assert.equal(C.indexingStatus({kind:'conference',indexing:{value:'SCIE',status:'verified'}}),'not-applicable');
+});
+test('SCI-only selection excludes ESCI and pending journals and combines with topics',()=>{
+ const results=C.filterVenues(data.venues,{venueKind:'journal',index:'SCIE',topics:['mimo'],grade:'jcr:Q1'});
+ assert(results.some(v=>v.id==='twc'));assert(!results.some(v=>v.id==='ojcoms'));assert(results.every(v=>C.indexingStatus(v)==='SCIE'));
+ const pending=C.filterVenues(data.venues,{venueKind:'journal',index:'pending'});
+ assert(pending.length);assert(pending.every(v=>v.indexing.status==='pending'));
+});

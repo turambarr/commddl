@@ -1,7 +1,7 @@
 /* Generated from data/catalog.json. Edit the JSON and run npm run build. */
 window.COMMDDL_DATA = {
   "meta": {
-    "version": "0.3.0",
+    "version": "0.3.1",
     "updatedAt": "2026-10-18",
     "siteName": "CommDDL",
     "repository": "https://github.com/turambarr/commddl",
@@ -1569,7 +1569,7 @@ window.COMMDDL_DATA = {
       "verifiedAt": "2026-10-18",
       "verification": "verified",
       "assessments": [],
-      "indexStatus": "SCIE（2026年9月出版社快照）",
+      "indexStatus": "SCIE",
       "metricNote": "最新 SCIE 收录、JCR 和中科院分区尚未核验；请分别查看有年份的可靠依据。",
       "topics": [
         "physical",
@@ -1594,7 +1594,9 @@ window.COMMDDL_DATA = {
         "sourceUrl": "https://open.ieee.org/wp-content/uploads/IEEE-Title-List-September-2026.pdf",
         "sourceTitle": "IEEE 2026年9月期刊表",
         "sourceType": "publisher",
-        "verifiedAt": "2026-10-18"
+        "verifiedAt": "2026-10-18",
+        "status": "verified",
+        "note": "出版社期刊表中的原始索引名称。SCI 标签在本站对应 SCIE（科学引文索引扩展版），ESCI（新兴来源引文索引）单列。"
       },
       "evaluations": [
         {
@@ -1677,7 +1679,7 @@ window.COMMDDL_DATA = {
       "verifiedAt": "2026-10-17",
       "verification": "verified",
       "assessments": [],
-      "indexStatus": "SCIE（2026年9月出版社快照）",
+      "indexStatus": "SCIE",
       "metricNote": "最新 SCIE 收录、JCR 和中科院分区尚未核验；请分别查看有年份的可靠依据。",
       "topics": [
         "physical",
@@ -1700,7 +1702,9 @@ window.COMMDDL_DATA = {
         "sourceUrl": "https://open.ieee.org/wp-content/uploads/IEEE-Title-List-September-2026.pdf",
         "sourceTitle": "IEEE 2026年9月期刊表",
         "sourceType": "publisher",
-        "verifiedAt": "2026-10-18"
+        "verifiedAt": "2026-10-18",
+        "status": "verified",
+        "note": "出版社期刊表中的原始索引名称。SCI 标签在本站对应 SCIE（科学引文索引扩展版），ESCI（新兴来源引文索引）单列。"
       },
       "evaluations": [
         {
@@ -1785,7 +1789,7 @@ window.COMMDDL_DATA = {
       "verifiedAt": "2026-10-17",
       "verification": "verified",
       "assessments": [],
-      "indexStatus": "SCIE（2026年9月出版社快照）",
+      "indexStatus": "SCIE",
       "metricNote": "最新 SCIE 收录、JCR 和中科院分区尚未核验；请分别查看有年份的可靠依据。",
       "topics": [
         "physical",
@@ -1808,7 +1812,9 @@ window.COMMDDL_DATA = {
         "sourceUrl": "https://open.ieee.org/wp-content/uploads/IEEE-Title-List-September-2026.pdf",
         "sourceTitle": "IEEE 2026年9月期刊表",
         "sourceType": "publisher",
-        "verifiedAt": "2026-10-18"
+        "verifiedAt": "2026-10-18",
+        "status": "verified",
+        "note": "出版社期刊表中的原始索引名称。SCI 标签在本站对应 SCIE（科学引文索引扩展版），ESCI（新兴来源引文索引）单列。"
       },
       "evaluations": [
         {
@@ -1891,7 +1897,7 @@ window.COMMDDL_DATA = {
       "verifiedAt": "2026-10-17",
       "verification": "verified",
       "assessments": [],
-      "indexStatus": "SCIE（2026年9月出版社快照）",
+      "indexStatus": "SCIE",
       "metricNote": "最新 SCIE 收录、JCR 和中科院分区尚未核验；请分别查看有年份的可靠依据。",
       "topics": [
         "physical",
@@ -1912,7 +1918,9 @@ window.COMMDDL_DATA = {
         "sourceUrl": "https://open.ieee.org/wp-content/uploads/IEEE-Title-List-September-2026.pdf",
         "sourceTitle": "IEEE 2026年9月期刊表",
         "sourceType": "publisher",
-        "verifiedAt": "2026-10-18"
+        "verifiedAt": "2026-10-18",
+        "status": "verified",
+        "note": "出版社期刊表中的原始索引名称。SCI 标签在本站对应 SCIE（科学引文索引扩展版），ESCI（新兴来源引文索引）单列。"
       },
       "evaluations": [
         {
@@ -1968,7 +1976,7 @@ window.COMMDDL_DATA = {
       "verifiedAt": "2026-10-17",
       "verification": "verified",
       "assessments": [],
-      "indexStatus": "SCIE（2026年9月出版社快照）",
+      "indexStatus": "SCIE",
       "metricNote": "最新 SCIE 收录、JCR 和中科院分区尚未核验；请分别查看有年份的可靠依据。",
       "topics": [
         "physical",
@@ -1988,7 +1996,9 @@ window.COMMDDL_DATA = {
         "sourceUrl": "https://open.ieee.org/wp-content/uploads/IEEE-Title-List-September-2026.pdf",
         "sourceTitle": "IEEE 2026年9月期刊表",
         "sourceType": "publisher",
-        "verifiedAt": "2026-10-18"
+        "verifiedAt": "2026-10-18",
+        "status": "verified",
+        "note": "出版社期刊表中的原始索引名称。SCI 标签在本站对应 SCIE（科学引文索引扩展版），ESCI（新兴来源引文索引）单列。"
       },
       "evaluations": [
         {
@@ -2057,7 +2067,7 @@ window.COMMDDL_DATA = {
       "verifiedAt": "2026-10-17",
       "verification": "verified",
       "assessments": [],
-      "indexStatus": "SCIE（2026年9月出版社快照）",
+      "indexStatus": "SCIE",
       "metricNote": "最新 SCIE 收录、JCR 和中科院分区尚未核验；请分别查看有年份的可靠依据。",
       "topics": [
         "physical",
@@ -2077,7 +2087,9 @@ window.COMMDDL_DATA = {
         "sourceUrl": "https://open.ieee.org/wp-content/uploads/IEEE-Title-List-September-2026.pdf",
         "sourceTitle": "IEEE 2026年9月期刊表",
         "sourceType": "publisher",
-        "verifiedAt": "2026-10-18"
+        "verifiedAt": "2026-10-18",
+        "status": "verified",
+        "note": "出版社期刊表中的原始索引名称。SCI 标签在本站对应 SCIE（科学引文索引扩展版），ESCI（新兴来源引文索引）单列。"
       },
       "evaluations": [
         {
@@ -2155,7 +2167,7 @@ window.COMMDDL_DATA = {
       "verifiedAt": "2026-10-17",
       "verification": "verified",
       "assessments": [],
-      "indexStatus": "SCIE（2026年9月出版社快照）",
+      "indexStatus": "SCIE",
       "metricNote": "最新 SCIE 收录、JCR 和中科院分区尚未核验；请分别查看有年份的可靠依据。",
       "topics": [
         "resources",
@@ -2169,7 +2181,9 @@ window.COMMDDL_DATA = {
         "sourceUrl": "https://open.ieee.org/wp-content/uploads/IEEE-Title-List-September-2026.pdf",
         "sourceTitle": "IEEE 2026年9月期刊表",
         "sourceType": "publisher",
-        "verifiedAt": "2026-10-18"
+        "verifiedAt": "2026-10-18",
+        "status": "verified",
+        "note": "出版社期刊表中的原始索引名称。SCI 标签在本站对应 SCIE（科学引文索引扩展版），ESCI（新兴来源引文索引）单列。"
       },
       "evaluations": [
         {
@@ -2238,7 +2252,7 @@ window.COMMDDL_DATA = {
       "verifiedAt": "2026-10-17",
       "verification": "verified",
       "assessments": [],
-      "indexStatus": "SCIE（2026年9月出版社快照）",
+      "indexStatus": "SCIE",
       "metricNote": "最新 SCIE 收录、JCR 和中科院分区尚未核验；请分别查看有年份的可靠依据。",
       "topics": [
         "resources",
@@ -2253,7 +2267,9 @@ window.COMMDDL_DATA = {
         "sourceUrl": "https://open.ieee.org/wp-content/uploads/IEEE-Title-List-September-2026.pdf",
         "sourceTitle": "IEEE 2026年9月期刊表",
         "sourceType": "publisher",
-        "verifiedAt": "2026-10-18"
+        "verifiedAt": "2026-10-18",
+        "status": "verified",
+        "note": "出版社期刊表中的原始索引名称。SCI 标签在本站对应 SCIE（科学引文索引扩展版），ESCI（新兴来源引文索引）单列。"
       },
       "evaluations": [
         {
@@ -2310,7 +2326,7 @@ window.COMMDDL_DATA = {
       "verifiedAt": "2026-10-17",
       "verification": "verified",
       "assessments": [],
-      "indexStatus": "ESCI（2026年9月出版社快照）",
+      "indexStatus": "ESCI",
       "metricNote": "最新 SCIE 收录、JCR 和中科院分区尚未核验；请分别查看有年份的可靠依据。",
       "topics": [
         "ai-communications",
@@ -2324,7 +2340,9 @@ window.COMMDDL_DATA = {
         "sourceUrl": "https://open.ieee.org/wp-content/uploads/IEEE-Title-List-September-2026.pdf",
         "sourceTitle": "IEEE 2026年9月期刊表",
         "sourceType": "publisher",
-        "verifiedAt": "2026-10-18"
+        "verifiedAt": "2026-10-18",
+        "status": "verified",
+        "note": "出版社期刊表中的原始索引名称。SCI 标签在本站对应 SCIE（科学引文索引扩展版），ESCI（新兴来源引文索引）单列。"
       },
       "evaluations": [
         {
@@ -2380,7 +2398,7 @@ window.COMMDDL_DATA = {
       "verifiedAt": "2026-10-17",
       "verification": "verified",
       "assessments": [],
-      "indexStatus": "SCIE（2026年9月出版社快照）",
+      "indexStatus": "SCIE",
       "metricNote": "最新 SCIE 收录、JCR 和中科院分区尚未核验；请分别查看有年份的可靠依据。",
       "topics": [
         "network-management",
@@ -2394,7 +2412,9 @@ window.COMMDDL_DATA = {
         "sourceUrl": "https://open.ieee.org/wp-content/uploads/IEEE-Title-List-September-2026.pdf",
         "sourceTitle": "IEEE 2026年9月期刊表",
         "sourceType": "publisher",
-        "verifiedAt": "2026-10-18"
+        "verifiedAt": "2026-10-18",
+        "status": "verified",
+        "note": "出版社期刊表中的原始索引名称。SCI 标签在本站对应 SCIE（科学引文索引扩展版），ESCI（新兴来源引文索引）单列。"
       },
       "evaluations": [
         {
@@ -2472,7 +2492,7 @@ window.COMMDDL_DATA = {
       "verifiedAt": "2026-10-17",
       "verification": "verified",
       "assessments": [],
-      "indexStatus": "SCIE（2026年9月出版社快照）",
+      "indexStatus": "SCIE",
       "metricNote": "最新 SCIE 收录、JCR 和中科院分区尚未核验；请分别查看有年份的可靠依据。",
       "topics": [
         "protocols",
@@ -2487,7 +2507,9 @@ window.COMMDDL_DATA = {
         "sourceUrl": "https://open.ieee.org/wp-content/uploads/IEEE-Title-List-September-2026.pdf",
         "sourceTitle": "IEEE 2026年9月期刊表",
         "sourceType": "publisher",
-        "verifiedAt": "2026-10-18"
+        "verifiedAt": "2026-10-18",
+        "status": "verified",
+        "note": "出版社期刊表中的原始索引名称。SCI 标签在本站对应 SCIE（科学引文索引扩展版），ESCI（新兴来源引文索引）单列。"
       },
       "evaluations": [
         {
@@ -2545,7 +2567,7 @@ window.COMMDDL_DATA = {
       "verifiedAt": "2026-10-17",
       "verification": "verified",
       "assessments": [],
-      "indexStatus": "SCIE（2026年9月出版社快照）",
+      "indexStatus": "SCIE",
       "metricNote": "最新 SCIE 收录、JCR 和中科院分区尚未核验；请分别查看有年份的可靠依据。",
       "topics": [
         "protocols",
@@ -2560,7 +2582,9 @@ window.COMMDDL_DATA = {
         "sourceUrl": "https://open.ieee.org/wp-content/uploads/IEEE-Title-List-September-2026.pdf",
         "sourceTitle": "IEEE 2026年9月期刊表",
         "sourceType": "publisher",
-        "verifiedAt": "2026-10-18"
+        "verifiedAt": "2026-10-18",
+        "status": "verified",
+        "note": "出版社期刊表中的原始索引名称。SCI 标签在本站对应 SCIE（科学引文索引扩展版），ESCI（新兴来源引文索引）单列。"
       },
       "evaluations": [
         {
@@ -2615,7 +2639,7 @@ window.COMMDDL_DATA = {
       "verifiedAt": "2026-10-17",
       "verification": "verified",
       "assessments": [],
-      "indexStatus": "ESCI（2026年9月出版社快照）",
+      "indexStatus": "ESCI",
       "metricNote": "最新 SCIE 收录、JCR 和中科院分区尚未核验；请分别查看有年份的可靠依据。",
       "topics": [
         "protocols",
@@ -2629,7 +2653,9 @@ window.COMMDDL_DATA = {
         "sourceUrl": "https://open.ieee.org/wp-content/uploads/IEEE-Title-List-September-2026.pdf",
         "sourceTitle": "IEEE 2026年9月期刊表",
         "sourceType": "publisher",
-        "verifiedAt": "2026-10-18"
+        "verifiedAt": "2026-10-18",
+        "status": "verified",
+        "note": "出版社期刊表中的原始索引名称。SCI 标签在本站对应 SCIE（科学引文索引扩展版），ESCI（新兴来源引文索引）单列。"
       },
       "evaluations": [
         {
@@ -2685,7 +2711,7 @@ window.COMMDDL_DATA = {
       "verifiedAt": "2026-10-17",
       "verification": "verified",
       "assessments": [],
-      "indexStatus": "ESCI（2026年9月出版社快照）",
+      "indexStatus": "ESCI",
       "metricNote": "最新 SCIE 收录、JCR 和中科院分区尚未核验；请分别查看有年份的可靠依据。",
       "topics": [
         "physical",
@@ -2705,7 +2731,9 @@ window.COMMDDL_DATA = {
         "sourceUrl": "https://open.ieee.org/wp-content/uploads/IEEE-Title-List-September-2026.pdf",
         "sourceTitle": "IEEE 2026年9月期刊表",
         "sourceType": "publisher",
-        "verifiedAt": "2026-10-18"
+        "verifiedAt": "2026-10-18",
+        "status": "verified",
+        "note": "出版社期刊表中的原始索引名称。SCI 标签在本站对应 SCIE（科学引文索引扩展版），ESCI（新兴来源引文索引）单列。"
       },
       "evaluations": [
         {
@@ -2761,7 +2789,7 @@ window.COMMDDL_DATA = {
       "verifiedAt": "2026-10-17",
       "verification": "verified",
       "assessments": [],
-      "indexStatus": "ESCI（2026年9月出版社快照）",
+      "indexStatus": "ESCI",
       "metricNote": "最新 SCIE 收录、JCR 和中科院分区尚未核验；请分别查看有年份的可靠依据。",
       "topics": [
         "physical",
@@ -2776,7 +2804,9 @@ window.COMMDDL_DATA = {
         "sourceUrl": "https://open.ieee.org/wp-content/uploads/IEEE-Title-List-September-2026.pdf",
         "sourceTitle": "IEEE 2026年9月期刊表",
         "sourceType": "publisher",
-        "verifiedAt": "2026-10-18"
+        "verifiedAt": "2026-10-18",
+        "status": "verified",
+        "note": "出版社期刊表中的原始索引名称。SCI 标签在本站对应 SCIE（科学引文索引扩展版），ESCI（新兴来源引文索引）单列。"
       },
       "evaluations": [
         {
@@ -2850,7 +2880,7 @@ window.COMMDDL_DATA = {
       "verifiedAt": "2026-10-17",
       "verification": "verified",
       "assessments": [],
-      "indexStatus": "SCIE（2026年9月出版社快照）",
+      "indexStatus": "SCIE",
       "metricNote": "最新 SCIE 收录、JCR 和中科院分区尚未核验；请分别查看有年份的可靠依据。",
       "topics": [
         "iot-sensing",
@@ -2866,7 +2896,9 @@ window.COMMDDL_DATA = {
         "sourceUrl": "https://open.ieee.org/wp-content/uploads/IEEE-Title-List-September-2026.pdf",
         "sourceTitle": "IEEE 2026年9月期刊表",
         "sourceType": "publisher",
-        "verifiedAt": "2026-10-18"
+        "verifiedAt": "2026-10-18",
+        "status": "verified",
+        "note": "出版社期刊表中的原始索引名称。SCI 标签在本站对应 SCIE（科学引文索引扩展版），ESCI（新兴来源引文索引）单列。"
       },
       "evaluations": [
         {
@@ -2931,7 +2963,7 @@ window.COMMDDL_DATA = {
       "verifiedAt": "2026-10-17",
       "verification": "verified",
       "assessments": [],
-      "indexStatus": "SCIE（2026年9月出版社快照）",
+      "indexStatus": "SCIE",
       "metricNote": "最新 SCIE 收录、JCR 和中科院分区尚未核验；请分别查看有年份的可靠依据。",
       "topics": [
         "mobile-systems",
@@ -2946,7 +2978,9 @@ window.COMMDDL_DATA = {
         "sourceUrl": "https://open.ieee.org/wp-content/uploads/IEEE-Title-List-September-2026.pdf",
         "sourceTitle": "IEEE 2026年9月期刊表",
         "sourceType": "publisher",
-        "verifiedAt": "2026-10-18"
+        "verifiedAt": "2026-10-18",
+        "status": "verified",
+        "note": "出版社期刊表中的原始索引名称。SCI 标签在本站对应 SCIE（科学引文索引扩展版），ESCI（新兴来源引文索引）单列。"
       },
       "evaluations": [
         {
@@ -3028,7 +3062,7 @@ window.COMMDDL_DATA = {
       "verifiedAt": "2026-10-17",
       "verification": "verified",
       "assessments": [],
-      "indexStatus": "待核验",
+      "indexStatus": "SCI／SCIE 收录待核验",
       "metricNote": "最新 SCIE 收录、JCR 和中科院分区尚未核验；请分别查看有年份的可靠依据。",
       "topics": [
         "optical-networks",
@@ -3063,7 +3097,13 @@ window.COMMDDL_DATA = {
           "year": 2026,
           "note": "本次2026公开副本未匹配到明确记录；不表示学术水平低或不能用于硕士成果。"
         }
-      ]
+      ],
+      "indexing": {
+        "value": null,
+        "status": "pending",
+        "verifiedAt": "2026-10-18",
+        "note": "当前未取得明确的 SCI／SCIE 收录证据；待核验不表示未收录，不由 JCR 分区、影响因子、EI 或 Scopus 推断。"
+      }
     },
     {
       "id": "jlt",
@@ -3086,7 +3126,7 @@ window.COMMDDL_DATA = {
       "verifiedAt": "2026-10-17",
       "verification": "verified",
       "assessments": [],
-      "indexStatus": "SCIE（2026年9月出版社快照）",
+      "indexStatus": "SCIE",
       "metricNote": "最新 SCIE 收录、JCR 和中科院分区尚未核验；请分别查看有年份的可靠依据。",
       "topics": [
         "fiber",
@@ -3101,7 +3141,9 @@ window.COMMDDL_DATA = {
         "sourceUrl": "https://open.ieee.org/wp-content/uploads/IEEE-Title-List-September-2026.pdf",
         "sourceTitle": "IEEE 2026年9月期刊表",
         "sourceType": "publisher",
-        "verifiedAt": "2026-10-18"
+        "verifiedAt": "2026-10-18",
+        "status": "verified",
+        "note": "出版社期刊表中的原始索引名称。SCI 标签在本站对应 SCIE（科学引文索引扩展版），ESCI（新兴来源引文索引）单列。"
       },
       "evaluations": [
         {
@@ -3157,7 +3199,7 @@ window.COMMDDL_DATA = {
       "verifiedAt": "2026-10-17",
       "verification": "verified",
       "assessments": [],
-      "indexStatus": "待核验",
+      "indexStatus": "SCI／SCIE 收录待核验",
       "metricNote": "最新 SCIE 收录、JCR 和中科院分区尚未核验；请分别查看有年份的可靠依据。",
       "topics": [
         "protocols",
@@ -3187,7 +3229,13 @@ window.COMMDDL_DATA = {
           "year": 2026,
           "note": "本次2026公开副本未匹配到明确记录；不表示学术水平低或不能用于硕士成果。"
         }
-      ]
+      ],
+      "indexing": {
+        "value": null,
+        "status": "pending",
+        "verifiedAt": "2026-10-18",
+        "note": "当前未取得明确的 SCI／SCIE 收录证据；待核验不表示未收录，不由 JCR 分区、影响因子、EI 或 Scopus 推断。"
+      }
     },
     {
       "id": "tsp",
@@ -3211,7 +3259,7 @@ window.COMMDDL_DATA = {
       "verifiedAt": "2026-10-17",
       "verification": "verified",
       "assessments": [],
-      "indexStatus": "SCIE（2026年9月出版社快照）",
+      "indexStatus": "SCIE",
       "metricNote": "最新 SCIE 收录、JCR 和中科院分区尚未核验；请分别查看有年份的可靠依据。",
       "topics": [
         "estimation-sync",
@@ -3231,7 +3279,9 @@ window.COMMDDL_DATA = {
         "sourceUrl": "https://open.ieee.org/wp-content/uploads/IEEE-Title-List-September-2026.pdf",
         "sourceTitle": "IEEE 2026年9月期刊表",
         "sourceType": "publisher",
-        "verifiedAt": "2026-10-18"
+        "verifiedAt": "2026-10-18",
+        "status": "verified",
+        "note": "出版社期刊表中的原始索引名称。SCI 标签在本站对应 SCIE（科学引文索引扩展版），ESCI（新兴来源引文索引）单列。"
       },
       "evaluations": [
         {
@@ -3286,7 +3336,7 @@ window.COMMDDL_DATA = {
       "verifiedAt": "2026-10-17",
       "verification": "verified",
       "assessments": [],
-      "indexStatus": "SCIE（2026年9月出版社快照）",
+      "indexStatus": "SCIE",
       "metricNote": "最新 SCIE 收录、JCR 和中科院分区尚未核验；请分别查看有年份的可靠依据。",
       "topics": [
         "estimation-sync",
@@ -3303,7 +3353,9 @@ window.COMMDDL_DATA = {
         "sourceUrl": "https://open.ieee.org/wp-content/uploads/IEEE-Title-List-September-2026.pdf",
         "sourceTitle": "IEEE 2026年9月期刊表",
         "sourceType": "publisher",
-        "verifiedAt": "2026-10-18"
+        "verifiedAt": "2026-10-18",
+        "status": "verified",
+        "note": "出版社期刊表中的原始索引名称。SCI 标签在本站对应 SCIE（科学引文索引扩展版），ESCI（新兴来源引文索引）单列。"
       },
       "evaluations": [
         {
@@ -3368,7 +3420,7 @@ window.COMMDDL_DATA = {
       "verifiedAt": "2026-10-17",
       "verification": "verified",
       "assessments": [],
-      "indexStatus": "SCIE（2026年9月出版社快照）",
+      "indexStatus": "SCIE",
       "metricNote": "最新 SCIE 收录、JCR 和中科院分区尚未核验；请分别查看有年份的可靠依据。",
       "topics": [
         "estimation-sync",
@@ -3387,7 +3439,9 @@ window.COMMDDL_DATA = {
         "sourceUrl": "https://open.ieee.org/wp-content/uploads/IEEE-Title-List-September-2026.pdf",
         "sourceTitle": "IEEE 2026年9月期刊表",
         "sourceType": "publisher",
-        "verifiedAt": "2026-10-18"
+        "verifiedAt": "2026-10-18",
+        "status": "verified",
+        "note": "出版社期刊表中的原始索引名称。SCI 标签在本站对应 SCIE（科学引文索引扩展版），ESCI（新兴来源引文索引）单列。"
       },
       "evaluations": [
         {
@@ -3442,7 +3496,7 @@ window.COMMDDL_DATA = {
       "verifiedAt": "2026-10-17",
       "verification": "verified",
       "assessments": [],
-      "indexStatus": "ESCI（2026年9月出版社快照）",
+      "indexStatus": "ESCI",
       "metricNote": "最新 SCIE 收录、JCR 和中科院分区尚未核验；请分别查看有年份的可靠依据。",
       "topics": [
         "estimation-sync",
@@ -3459,7 +3513,9 @@ window.COMMDDL_DATA = {
         "sourceUrl": "https://open.ieee.org/wp-content/uploads/IEEE-Title-List-September-2026.pdf",
         "sourceTitle": "IEEE 2026年9月期刊表",
         "sourceType": "publisher",
-        "verifiedAt": "2026-10-18"
+        "verifiedAt": "2026-10-18",
+        "status": "verified",
+        "note": "出版社期刊表中的原始索引名称。SCI 标签在本站对应 SCIE（科学引文索引扩展版），ESCI（新兴来源引文索引）单列。"
       },
       "evaluations": [
         {
@@ -3515,7 +3571,7 @@ window.COMMDDL_DATA = {
       "verifiedAt": "2026-10-17",
       "verification": "verified",
       "assessments": [],
-      "indexStatus": "SCIE（2026年9月出版社快照）",
+      "indexStatus": "SCIE",
       "metricNote": "最新 SCIE 收录、JCR 和中科院分区尚未核验；请分别查看有年份的可靠依据。",
       "topics": [
         "imaging",
@@ -3530,7 +3586,9 @@ window.COMMDDL_DATA = {
         "sourceUrl": "https://open.ieee.org/wp-content/uploads/IEEE-Title-List-September-2026.pdf",
         "sourceTitle": "IEEE 2026年9月期刊表",
         "sourceType": "publisher",
-        "verifiedAt": "2026-10-18"
+        "verifiedAt": "2026-10-18",
+        "status": "verified",
+        "note": "出版社期刊表中的原始索引名称。SCI 标签在本站对应 SCIE（科学引文索引扩展版），ESCI（新兴来源引文索引）单列。"
       },
       "evaluations": [
         {
@@ -3595,7 +3653,7 @@ window.COMMDDL_DATA = {
       "verifiedAt": "2026-10-17",
       "verification": "verified",
       "assessments": [],
-      "indexStatus": "SCIE（2026年9月出版社快照）",
+      "indexStatus": "SCIE",
       "metricNote": "最新 SCIE 收录、JCR 和中科院分区尚未核验；请分别查看有年份的可靠依据。",
       "topics": [
         "security",
@@ -3610,7 +3668,9 @@ window.COMMDDL_DATA = {
         "sourceUrl": "https://open.ieee.org/wp-content/uploads/IEEE-Title-List-September-2026.pdf",
         "sourceTitle": "IEEE 2026年9月期刊表",
         "sourceType": "publisher",
-        "verifiedAt": "2026-10-18"
+        "verifiedAt": "2026-10-18",
+        "status": "verified",
+        "note": "出版社期刊表中的原始索引名称。SCI 标签在本站对应 SCIE（科学引文索引扩展版），ESCI（新兴来源引文索引）单列。"
       },
       "evaluations": [
         {
@@ -3676,7 +3736,7 @@ window.COMMDDL_DATA = {
       "verifiedAt": "2026-10-17",
       "verification": "verified",
       "assessments": [],
-      "indexStatus": "SCIE（2026年9月出版社快照）",
+      "indexStatus": "SCIE",
       "metricNote": "最新 SCIE 收录、JCR 和中科院分区尚未核验；请分别查看有年份的可靠依据。",
       "topics": [
         "imaging",
@@ -3692,7 +3752,9 @@ window.COMMDDL_DATA = {
         "sourceUrl": "https://open.ieee.org/wp-content/uploads/IEEE-Title-List-September-2026.pdf",
         "sourceTitle": "IEEE 2026年9月期刊表",
         "sourceType": "publisher",
-        "verifiedAt": "2026-10-18"
+        "verifiedAt": "2026-10-18",
+        "status": "verified",
+        "note": "出版社期刊表中的原始索引名称。SCI 标签在本站对应 SCIE（科学引文索引扩展版），ESCI（新兴来源引文索引）单列。"
       },
       "evaluations": [
         {
@@ -3757,7 +3819,7 @@ window.COMMDDL_DATA = {
       "verifiedAt": "2026-10-17",
       "verification": "verified",
       "assessments": [],
-      "indexStatus": "SCIE（2026年9月出版社快照）",
+      "indexStatus": "SCIE",
       "metricNote": "最新 SCIE 收录、JCR 和中科院分区尚未核验；请分别查看有年份的可靠依据。",
       "topics": [
         "protocols",
@@ -3773,7 +3835,9 @@ window.COMMDDL_DATA = {
         "sourceUrl": "https://open.ieee.org/wp-content/uploads/IEEE-Title-List-September-2026.pdf",
         "sourceTitle": "IEEE 2026年9月期刊表",
         "sourceType": "publisher",
-        "verifiedAt": "2026-10-18"
+        "verifiedAt": "2026-10-18",
+        "status": "verified",
+        "note": "出版社期刊表中的原始索引名称。SCI 标签在本站对应 SCIE（科学引文索引扩展版），ESCI（新兴来源引文索引）单列。"
       },
       "evaluations": [
         {
@@ -3831,7 +3895,7 @@ window.COMMDDL_DATA = {
       "verifiedAt": "2026-10-17",
       "verification": "verified",
       "assessments": [],
-      "indexStatus": "SCIE（2026年9月出版社快照）",
+      "indexStatus": "SCIE",
       "metricNote": "最新 SCIE 收录、JCR 和中科院分区尚未核验；请分别查看有年份的可靠依据。",
       "topics": [
         "physical",
@@ -3851,7 +3915,9 @@ window.COMMDDL_DATA = {
         "sourceUrl": "https://open.ieee.org/wp-content/uploads/IEEE-Title-List-September-2026.pdf",
         "sourceTitle": "IEEE 2026年9月期刊表",
         "sourceType": "publisher",
-        "verifiedAt": "2026-10-18"
+        "verifiedAt": "2026-10-18",
+        "status": "verified",
+        "note": "出版社期刊表中的原始索引名称。SCI 标签在本站对应 SCIE（科学引文索引扩展版），ESCI（新兴来源引文索引）单列。"
       },
       "evaluations": [
         {
@@ -3907,7 +3973,7 @@ window.COMMDDL_DATA = {
       "verifiedAt": "2026-10-17",
       "verification": "verified",
       "assessments": [],
-      "indexStatus": "SCIE（2026年9月出版社快照）",
+      "indexStatus": "SCIE",
       "metricNote": "最新 SCIE 收录、JCR 和中科院分区尚未核验；请分别查看有年份的可靠依据。",
       "topics": [
         "information-theory",
@@ -3923,7 +3989,9 @@ window.COMMDDL_DATA = {
         "sourceUrl": "https://open.ieee.org/wp-content/uploads/IEEE-Title-List-September-2026.pdf",
         "sourceTitle": "IEEE 2026年9月期刊表",
         "sourceType": "publisher",
-        "verifiedAt": "2026-10-18"
+        "verifiedAt": "2026-10-18",
+        "status": "verified",
+        "note": "出版社期刊表中的原始索引名称。SCI 标签在本站对应 SCIE（科学引文索引扩展版），ESCI（新兴来源引文索引）单列。"
       },
       "evaluations": [
         {
@@ -4016,7 +4084,7 @@ window.COMMDDL_DATA = {
       "verifiedAt": "2026-10-18",
       "verification": "verified",
       "assessments": [],
-      "indexStatus": "SCIE（2026年9月出版社快照）",
+      "indexStatus": "SCIE",
       "metricNote": "收录与分区需按体系、年份另行核验；目录收录不代表 SCI 或学校认定。",
       "catalogStatus": "current",
       "indexing": {
@@ -4025,7 +4093,9 @@ window.COMMDDL_DATA = {
         "sourceUrl": "https://open.ieee.org/wp-content/uploads/IEEE-Title-List-September-2026.pdf",
         "sourceTitle": "IEEE 2026年9月期刊表",
         "sourceType": "publisher",
-        "verifiedAt": "2026-10-18"
+        "verifiedAt": "2026-10-18",
+        "status": "verified",
+        "note": "出版社期刊表中的原始索引名称。SCI 标签在本站对应 SCIE（科学引文索引扩展版），ESCI（新兴来源引文索引）单列。"
       },
       "evaluations": [
         {
@@ -4087,7 +4157,7 @@ window.COMMDDL_DATA = {
       "verifiedAt": "2026-10-18",
       "verification": "verified",
       "assessments": [],
-      "indexStatus": "ESCI（2026年9月出版社快照）",
+      "indexStatus": "ESCI",
       "metricNote": "收录与分区需按体系、年份另行核验；目录收录不代表 SCI 或学校认定。",
       "catalogStatus": "current",
       "indexing": {
@@ -4096,7 +4166,9 @@ window.COMMDDL_DATA = {
         "sourceUrl": "https://open.ieee.org/wp-content/uploads/IEEE-Title-List-September-2026.pdf",
         "sourceTitle": "IEEE 2026年9月期刊表",
         "sourceType": "publisher",
-        "verifiedAt": "2026-10-18"
+        "verifiedAt": "2026-10-18",
+        "status": "verified",
+        "note": "出版社期刊表中的原始索引名称。SCI 标签在本站对应 SCIE（科学引文索引扩展版），ESCI（新兴来源引文索引）单列。"
       },
       "evaluations": [
         {
@@ -4181,7 +4253,7 @@ window.COMMDDL_DATA = {
       "verifiedAt": "2026-10-18",
       "verification": "verified",
       "assessments": [],
-      "indexStatus": "SCIE（2026年9月出版社快照）",
+      "indexStatus": "SCIE",
       "metricNote": "收录与分区需按体系、年份另行核验；目录收录不代表 SCI 或学校认定。",
       "catalogStatus": "current",
       "indexing": {
@@ -4190,7 +4262,9 @@ window.COMMDDL_DATA = {
         "sourceUrl": "https://open.ieee.org/wp-content/uploads/IEEE-Title-List-September-2026.pdf",
         "sourceTitle": "IEEE 2026年9月期刊表",
         "sourceType": "publisher",
-        "verifiedAt": "2026-10-18"
+        "verifiedAt": "2026-10-18",
+        "status": "verified",
+        "note": "出版社期刊表中的原始索引名称。SCI 标签在本站对应 SCIE（科学引文索引扩展版），ESCI（新兴来源引文索引）单列。"
       },
       "evaluations": [
         {
@@ -4251,7 +4325,7 @@ window.COMMDDL_DATA = {
       "verifiedAt": "2026-10-18",
       "verification": "verified",
       "assessments": [],
-      "indexStatus": "SCIE（2026年9月出版社快照）",
+      "indexStatus": "SCIE",
       "metricNote": "收录与分区需按体系、年份另行核验；目录收录不代表 SCI 或学校认定。",
       "catalogStatus": "current",
       "indexing": {
@@ -4260,7 +4334,9 @@ window.COMMDDL_DATA = {
         "sourceUrl": "https://open.ieee.org/wp-content/uploads/IEEE-Title-List-September-2026.pdf",
         "sourceTitle": "IEEE 2026年9月期刊表",
         "sourceType": "publisher",
-        "verifiedAt": "2026-10-18"
+        "verifiedAt": "2026-10-18",
+        "status": "verified",
+        "note": "出版社期刊表中的原始索引名称。SCI 标签在本站对应 SCIE（科学引文索引扩展版），ESCI（新兴来源引文索引）单列。"
       },
       "evaluations": [
         {
@@ -4320,7 +4396,7 @@ window.COMMDDL_DATA = {
       "verifiedAt": "2026-10-18",
       "verification": "verified",
       "assessments": [],
-      "indexStatus": "SCIE（2026年9月出版社快照）",
+      "indexStatus": "SCIE",
       "metricNote": "收录与分区需按体系、年份另行核验；目录收录不代表 SCI 或学校认定。",
       "catalogStatus": "current",
       "indexing": {
@@ -4329,7 +4405,9 @@ window.COMMDDL_DATA = {
         "sourceUrl": "https://open.ieee.org/wp-content/uploads/IEEE-Title-List-September-2026.pdf",
         "sourceTitle": "IEEE 2026年9月期刊表",
         "sourceType": "publisher",
-        "verifiedAt": "2026-10-18"
+        "verifiedAt": "2026-10-18",
+        "status": "verified",
+        "note": "出版社期刊表中的原始索引名称。SCI 标签在本站对应 SCIE（科学引文索引扩展版），ESCI（新兴来源引文索引）单列。"
       },
       "evaluations": [
         {
@@ -4390,7 +4468,7 @@ window.COMMDDL_DATA = {
       "verifiedAt": "2026-10-18",
       "verification": "verified",
       "assessments": [],
-      "indexStatus": "ESCI（2026年9月出版社快照）",
+      "indexStatus": "ESCI",
       "metricNote": "收录与分区需按体系、年份另行核验；目录收录不代表 SCI 或学校认定。",
       "catalogStatus": "current",
       "indexing": {
@@ -4399,7 +4477,9 @@ window.COMMDDL_DATA = {
         "sourceUrl": "https://open.ieee.org/wp-content/uploads/IEEE-Title-List-September-2026.pdf",
         "sourceTitle": "IEEE 2026年9月期刊表",
         "sourceType": "publisher",
-        "verifiedAt": "2026-10-18"
+        "verifiedAt": "2026-10-18",
+        "status": "verified",
+        "note": "出版社期刊表中的原始索引名称。SCI 标签在本站对应 SCIE（科学引文索引扩展版），ESCI（新兴来源引文索引）单列。"
       },
       "evaluations": [
         {
@@ -4460,7 +4540,7 @@ window.COMMDDL_DATA = {
       "verifiedAt": "2026-10-18",
       "verification": "verified",
       "assessments": [],
-      "indexStatus": "SCIE（2026年9月出版社快照）",
+      "indexStatus": "SCIE",
       "metricNote": "收录与分区需按体系、年份另行核验；目录收录不代表 SCI 或学校认定。",
       "catalogStatus": "current",
       "indexing": {
@@ -4469,7 +4549,9 @@ window.COMMDDL_DATA = {
         "sourceUrl": "https://open.ieee.org/wp-content/uploads/IEEE-Title-List-September-2026.pdf",
         "sourceTitle": "IEEE 2026年9月期刊表",
         "sourceType": "publisher",
-        "verifiedAt": "2026-10-18"
+        "verifiedAt": "2026-10-18",
+        "status": "verified",
+        "note": "出版社期刊表中的原始索引名称。SCI 标签在本站对应 SCIE（科学引文索引扩展版），ESCI（新兴来源引文索引）单列。"
       },
       "evaluations": [
         {
@@ -4547,7 +4629,7 @@ window.COMMDDL_DATA = {
       "verifiedAt": "2026-10-18",
       "verification": "verified",
       "assessments": [],
-      "indexStatus": "SCIE（2026年9月出版社快照）",
+      "indexStatus": "SCIE",
       "metricNote": "收录与分区需按体系、年份另行核验；目录收录不代表 SCI 或学校认定。",
       "authorGuideUrl": "https://mtt.org/publications/t-mtt/information-for-authors/",
       "catalogStatus": "current",
@@ -4557,7 +4639,9 @@ window.COMMDDL_DATA = {
         "sourceUrl": "https://open.ieee.org/wp-content/uploads/IEEE-Title-List-September-2026.pdf",
         "sourceTitle": "IEEE 2026年9月期刊表",
         "sourceType": "publisher",
-        "verifiedAt": "2026-10-18"
+        "verifiedAt": "2026-10-18",
+        "status": "verified",
+        "note": "出版社期刊表中的原始索引名称。SCI 标签在本站对应 SCIE（科学引文索引扩展版），ESCI（新兴来源引文索引）单列。"
       },
       "evaluations": [
         {
@@ -4620,7 +4704,7 @@ window.COMMDDL_DATA = {
       "verifiedAt": "2026-10-18",
       "verification": "verified",
       "assessments": [],
-      "indexStatus": "SCIE（2026年9月出版社快照）",
+      "indexStatus": "SCIE",
       "metricNote": "收录与分区需按体系、年份另行核验；目录收录不代表 SCI 或学校认定。",
       "authorGuideUrl": "https://mtt.org/publications/mwtl/information-for-authors/",
       "catalogStatus": "current",
@@ -4630,7 +4714,9 @@ window.COMMDDL_DATA = {
         "sourceUrl": "https://open.ieee.org/wp-content/uploads/IEEE-Title-List-September-2026.pdf",
         "sourceTitle": "IEEE 2026年9月期刊表",
         "sourceType": "publisher",
-        "verifiedAt": "2026-10-18"
+        "verifiedAt": "2026-10-18",
+        "status": "verified",
+        "note": "出版社期刊表中的原始索引名称。SCI 标签在本站对应 SCIE（科学引文索引扩展版），ESCI（新兴来源引文索引）单列。"
       },
       "evaluations": [
         {
@@ -4692,7 +4778,7 @@ window.COMMDDL_DATA = {
       "verifiedAt": "2026-10-18",
       "verification": "verified",
       "assessments": [],
-      "indexStatus": "SCIE（2026年9月出版社快照）",
+      "indexStatus": "SCIE",
       "metricNote": "收录与分区需按体系、年份另行核验；目录收录不代表 SCI 或学校认定。",
       "authorGuideUrl": "https://mtt.org/publications/terahertz-science-technology/information-for-authors/",
       "catalogStatus": "current",
@@ -4702,7 +4788,9 @@ window.COMMDDL_DATA = {
         "sourceUrl": "https://open.ieee.org/wp-content/uploads/IEEE-Title-List-September-2026.pdf",
         "sourceTitle": "IEEE 2026年9月期刊表",
         "sourceType": "publisher",
-        "verifiedAt": "2026-10-18"
+        "verifiedAt": "2026-10-18",
+        "status": "verified",
+        "note": "出版社期刊表中的原始索引名称。SCI 标签在本站对应 SCIE（科学引文索引扩展版），ESCI（新兴来源引文索引）单列。"
       },
       "evaluations": [
         {
@@ -4763,7 +4851,7 @@ window.COMMDDL_DATA = {
       "verifiedAt": "2026-10-18",
       "verification": "verified",
       "assessments": [],
-      "indexStatus": "ESCI（2026年9月出版社快照）",
+      "indexStatus": "ESCI",
       "metricNote": "收录与分区需按体系、年份另行核验；目录收录不代表 SCI 或学校认定。",
       "authorGuideUrl": "https://mtt.org/publications/journal-of-microwaves/information-for-authors/",
       "catalogStatus": "current",
@@ -4773,7 +4861,9 @@ window.COMMDDL_DATA = {
         "sourceUrl": "https://open.ieee.org/wp-content/uploads/IEEE-Title-List-September-2026.pdf",
         "sourceTitle": "IEEE 2026年9月期刊表",
         "sourceType": "publisher",
-        "verifiedAt": "2026-10-18"
+        "verifiedAt": "2026-10-18",
+        "status": "verified",
+        "note": "出版社期刊表中的原始索引名称。SCI 标签在本站对应 SCIE（科学引文索引扩展版），ESCI（新兴来源引文索引）单列。"
       },
       "evaluations": [
         {
@@ -4834,7 +4924,7 @@ window.COMMDDL_DATA = {
       "verifiedAt": "2026-10-18",
       "verification": "verified",
       "assessments": [],
-      "indexStatus": "SCIE（2026年9月出版社快照）",
+      "indexStatus": "SCIE",
       "metricNote": "收录与分区需按体系、年份另行核验；目录收录不代表 SCI 或学校认定。",
       "authorGuideUrl": "https://mtt.org/publications/ieee-microwave-magazine/guidelines-for-authors/",
       "catalogStatus": "current",
@@ -4844,7 +4934,9 @@ window.COMMDDL_DATA = {
         "sourceUrl": "https://open.ieee.org/wp-content/uploads/IEEE-Title-List-September-2026.pdf",
         "sourceTitle": "IEEE 2026年9月期刊表",
         "sourceType": "publisher",
-        "verifiedAt": "2026-10-18"
+        "verifiedAt": "2026-10-18",
+        "status": "verified",
+        "note": "出版社期刊表中的原始索引名称。SCI 标签在本站对应 SCIE（科学引文索引扩展版），ESCI（新兴来源引文索引）单列。"
       },
       "evaluations": [
         {
@@ -4909,7 +5001,7 @@ window.COMMDDL_DATA = {
       "verifiedAt": "2026-10-18",
       "verification": "verified",
       "assessments": [],
-      "indexStatus": "SCIE（2026年9月出版社快照）",
+      "indexStatus": "SCIE",
       "metricNote": "收录与分区需按体系、年份另行核验；目录收录不代表 SCI 或学校认定。",
       "catalogStatus": "current",
       "indexing": {
@@ -4918,7 +5010,9 @@ window.COMMDDL_DATA = {
         "sourceUrl": "https://open.ieee.org/wp-content/uploads/IEEE-Title-List-September-2026.pdf",
         "sourceTitle": "IEEE 2026年9月期刊表",
         "sourceType": "publisher",
-        "verifiedAt": "2026-10-18"
+        "verifiedAt": "2026-10-18",
+        "status": "verified",
+        "note": "出版社期刊表中的原始索引名称。SCI 标签在本站对应 SCIE（科学引文索引扩展版），ESCI（新兴来源引文索引）单列。"
       },
       "evaluations": [
         {
@@ -4980,7 +5074,7 @@ window.COMMDDL_DATA = {
       "verifiedAt": "2026-10-18",
       "verification": "verified",
       "assessments": [],
-      "indexStatus": "ESCI（2026年9月出版社快照）",
+      "indexStatus": "ESCI",
       "metricNote": "收录与分区需按体系、年份另行核验；目录收录不代表 SCI 或学校认定。",
       "catalogStatus": "current",
       "indexing": {
@@ -4989,7 +5083,9 @@ window.COMMDDL_DATA = {
         "sourceUrl": "https://open.ieee.org/wp-content/uploads/IEEE-Title-List-September-2026.pdf",
         "sourceTitle": "IEEE 2026年9月期刊表",
         "sourceType": "publisher",
-        "verifiedAt": "2026-10-18"
+        "verifiedAt": "2026-10-18",
+        "status": "verified",
+        "note": "出版社期刊表中的原始索引名称。SCI 标签在本站对应 SCIE（科学引文索引扩展版），ESCI（新兴来源引文索引）单列。"
       },
       "evaluations": [
         {
@@ -5048,7 +5144,7 @@ window.COMMDDL_DATA = {
       "verifiedAt": "2026-10-18",
       "verification": "verified",
       "assessments": [],
-      "indexStatus": "SCIE（2026年9月出版社快照）",
+      "indexStatus": "SCIE",
       "metricNote": "收录与分区需按体系、年份另行核验；目录收录不代表 SCI 或学校认定。",
       "catalogStatus": "current",
       "indexing": {
@@ -5057,7 +5153,9 @@ window.COMMDDL_DATA = {
         "sourceUrl": "https://open.ieee.org/wp-content/uploads/IEEE-Title-List-September-2026.pdf",
         "sourceTitle": "IEEE 2026年9月期刊表",
         "sourceType": "publisher",
-        "verifiedAt": "2026-10-18"
+        "verifiedAt": "2026-10-18",
+        "status": "verified",
+        "note": "出版社期刊表中的原始索引名称。SCI 标签在本站对应 SCIE（科学引文索引扩展版），ESCI（新兴来源引文索引）单列。"
       },
       "evaluations": [
         {
@@ -5117,7 +5215,7 @@ window.COMMDDL_DATA = {
       "verifiedAt": "2026-10-18",
       "verification": "verified",
       "assessments": [],
-      "indexStatus": "SCIE（2026年9月出版社快照）",
+      "indexStatus": "SCIE",
       "metricNote": "收录与分区需按体系、年份另行核验；目录收录不代表 SCI 或学校认定。",
       "cfpUrl": "https://ieeephotonics.org/publications/publication-calls-for-papers/",
       "catalogStatus": "current",
@@ -5127,7 +5225,9 @@ window.COMMDDL_DATA = {
         "sourceUrl": "https://open.ieee.org/wp-content/uploads/IEEE-Title-List-September-2026.pdf",
         "sourceTitle": "IEEE 2026年9月期刊表",
         "sourceType": "publisher",
-        "verifiedAt": "2026-10-18"
+        "verifiedAt": "2026-10-18",
+        "status": "verified",
+        "note": "出版社期刊表中的原始索引名称。SCI 标签在本站对应 SCIE（科学引文索引扩展版），ESCI（新兴来源引文索引）单列。"
       },
       "evaluations": [
         {
@@ -5213,7 +5313,7 @@ window.COMMDDL_DATA = {
       "verifiedAt": "2026-10-18",
       "verification": "verified",
       "assessments": [],
-      "indexStatus": "SCIE（2026年9月出版社快照）",
+      "indexStatus": "SCIE",
       "metricNote": "收录与分区需按体系、年份另行核验；目录收录不代表 SCI 或学校认定。",
       "catalogStatus": "current",
       "indexing": {
@@ -5222,7 +5322,9 @@ window.COMMDDL_DATA = {
         "sourceUrl": "https://open.ieee.org/wp-content/uploads/IEEE-Title-List-September-2026.pdf",
         "sourceTitle": "IEEE 2026年9月期刊表",
         "sourceType": "publisher",
-        "verifiedAt": "2026-10-18"
+        "verifiedAt": "2026-10-18",
+        "status": "verified",
+        "note": "出版社期刊表中的原始索引名称。SCI 标签在本站对应 SCIE（科学引文索引扩展版），ESCI（新兴来源引文索引）单列。"
       },
       "evaluations": [
         {
@@ -5283,7 +5385,7 @@ window.COMMDDL_DATA = {
       "verifiedAt": "2026-10-18",
       "verification": "verified",
       "assessments": [],
-      "indexStatus": "SCIE（2026年9月出版社快照）",
+      "indexStatus": "SCIE",
       "metricNote": "收录与分区需按体系、年份另行核验；目录收录不代表 SCI 或学校认定。",
       "catalogStatus": "current",
       "indexing": {
@@ -5292,7 +5394,9 @@ window.COMMDDL_DATA = {
         "sourceUrl": "https://open.ieee.org/wp-content/uploads/IEEE-Title-List-September-2026.pdf",
         "sourceTitle": "IEEE 2026年9月期刊表",
         "sourceType": "publisher",
-        "verifiedAt": "2026-10-18"
+        "verifiedAt": "2026-10-18",
+        "status": "verified",
+        "note": "出版社期刊表中的原始索引名称。SCI 标签在本站对应 SCIE（科学引文索引扩展版），ESCI（新兴来源引文索引）单列。"
       },
       "evaluations": [
         {
@@ -5354,7 +5458,7 @@ window.COMMDDL_DATA = {
       "verifiedAt": "2026-10-18",
       "verification": "verified",
       "assessments": [],
-      "indexStatus": "SCIE（2026年9月出版社快照）",
+      "indexStatus": "SCIE",
       "metricNote": "收录与分区需按体系、年份另行核验；目录收录不代表 SCI 或学校认定。",
       "catalogStatus": "current",
       "indexing": {
@@ -5363,7 +5467,9 @@ window.COMMDDL_DATA = {
         "sourceUrl": "https://open.ieee.org/wp-content/uploads/IEEE-Title-List-September-2026.pdf",
         "sourceTitle": "IEEE 2026年9月期刊表",
         "sourceType": "publisher",
-        "verifiedAt": "2026-10-18"
+        "verifiedAt": "2026-10-18",
+        "status": "verified",
+        "note": "出版社期刊表中的原始索引名称。SCI 标签在本站对应 SCIE（科学引文索引扩展版），ESCI（新兴来源引文索引）单列。"
       },
       "evaluations": [
         {
@@ -5443,7 +5549,7 @@ window.COMMDDL_DATA = {
       "verifiedAt": "2026-10-18",
       "verification": "verified",
       "assessments": [],
-      "indexStatus": "ESCI（2026年9月出版社快照）",
+      "indexStatus": "ESCI",
       "metricNote": "收录与分区需按体系、年份另行核验；目录收录不代表 SCI 或学校认定。",
       "catalogStatus": "current",
       "indexing": {
@@ -5452,7 +5558,9 @@ window.COMMDDL_DATA = {
         "sourceUrl": "https://open.ieee.org/wp-content/uploads/IEEE-Title-List-September-2026.pdf",
         "sourceTitle": "IEEE 2026年9月期刊表",
         "sourceType": "publisher",
-        "verifiedAt": "2026-10-18"
+        "verifiedAt": "2026-10-18",
+        "status": "verified",
+        "note": "出版社期刊表中的原始索引名称。SCI 标签在本站对应 SCIE（科学引文索引扩展版），ESCI（新兴来源引文索引）单列。"
       },
       "evaluations": [
         {
@@ -5516,7 +5624,7 @@ window.COMMDDL_DATA = {
       "verifiedAt": "2026-10-18",
       "verification": "verified",
       "assessments": [],
-      "indexStatus": "SCIE（2026年9月出版社快照）",
+      "indexStatus": "SCIE",
       "metricNote": "收录与分区需按体系、年份另行核验；目录收录不代表 SCI 或学校认定。",
       "authorGuideUrl": "https://signalprocessingsociety.org/publications-resources/information-authors",
       "catalogStatus": "current",
@@ -5526,7 +5634,9 @@ window.COMMDDL_DATA = {
         "sourceUrl": "https://open.ieee.org/wp-content/uploads/IEEE-Title-List-September-2026.pdf",
         "sourceTitle": "IEEE 2026年9月期刊表",
         "sourceType": "publisher",
-        "verifiedAt": "2026-10-18"
+        "verifiedAt": "2026-10-18",
+        "status": "verified",
+        "note": "出版社期刊表中的原始索引名称。SCI 标签在本站对应 SCIE（科学引文索引扩展版），ESCI（新兴来源引文索引）单列。"
       },
       "evaluations": [
         {
@@ -5598,7 +5708,7 @@ window.COMMDDL_DATA = {
       "verifiedAt": "2026-10-18",
       "verification": "verified",
       "assessments": [],
-      "indexStatus": "SCIE（2026年9月出版社快照）",
+      "indexStatus": "SCIE",
       "metricNote": "收录与分区需按体系、年份另行核验；目录收录不代表 SCI 或学校认定。",
       "authorGuideUrl": "https://signalprocessingsociety.org/publications-resources/information-authors",
       "catalogStatus": "current",
@@ -5608,7 +5718,9 @@ window.COMMDDL_DATA = {
         "sourceUrl": "https://open.ieee.org/wp-content/uploads/IEEE-Title-List-September-2026.pdf",
         "sourceTitle": "IEEE 2026年9月期刊表",
         "sourceType": "publisher",
-        "verifiedAt": "2026-10-18"
+        "verifiedAt": "2026-10-18",
+        "status": "verified",
+        "note": "出版社期刊表中的原始索引名称。SCI 标签在本站对应 SCIE（科学引文索引扩展版），ESCI（新兴来源引文索引）单列。"
       },
       "evaluations": [
         {
@@ -5681,7 +5793,7 @@ window.COMMDDL_DATA = {
       "verifiedAt": "2026-10-18",
       "verification": "verified",
       "assessments": [],
-      "indexStatus": "SCIE（2026年9月出版社快照）",
+      "indexStatus": "SCIE",
       "metricNote": "收录与分区需按体系、年份另行核验；目录收录不代表 SCI 或学校认定。",
       "authorGuideUrl": "https://signalprocessingsociety.org/publications-resources/information-authors",
       "catalogStatus": "current",
@@ -5691,7 +5803,9 @@ window.COMMDDL_DATA = {
         "sourceUrl": "https://open.ieee.org/wp-content/uploads/IEEE-Title-List-September-2026.pdf",
         "sourceTitle": "IEEE 2026年9月期刊表",
         "sourceType": "publisher",
-        "verifiedAt": "2026-10-18"
+        "verifiedAt": "2026-10-18",
+        "status": "verified",
+        "note": "出版社期刊表中的原始索引名称。SCI 标签在本站对应 SCIE（科学引文索引扩展版），ESCI（新兴来源引文索引）单列。"
       },
       "evaluations": [
         {
@@ -5755,7 +5869,7 @@ window.COMMDDL_DATA = {
       "verifiedAt": "2026-10-18",
       "verification": "verified",
       "assessments": [],
-      "indexStatus": "SCIE（2026年9月出版社快照）",
+      "indexStatus": "SCIE",
       "metricNote": "收录与分区需按体系、年份另行核验；目录收录不代表 SCI 或学校认定。",
       "catalogStatus": "current",
       "indexing": {
@@ -5764,7 +5878,9 @@ window.COMMDDL_DATA = {
         "sourceUrl": "https://open.ieee.org/wp-content/uploads/IEEE-Title-List-September-2026.pdf",
         "sourceTitle": "IEEE 2026年9月期刊表",
         "sourceType": "publisher",
-        "verifiedAt": "2026-10-18"
+        "verifiedAt": "2026-10-18",
+        "status": "verified",
+        "note": "出版社期刊表中的原始索引名称。SCI 标签在本站对应 SCIE（科学引文索引扩展版），ESCI（新兴来源引文索引）单列。"
       },
       "evaluations": [
         {
@@ -5826,7 +5942,7 @@ window.COMMDDL_DATA = {
       "verifiedAt": "2026-10-18",
       "verification": "verified",
       "assessments": [],
-      "indexStatus": "SCIE（2026年9月出版社快照）",
+      "indexStatus": "SCIE",
       "metricNote": "收录与分区需按体系、年份另行核验；目录收录不代表 SCI 或学校认定。",
       "catalogStatus": "current",
       "indexing": {
@@ -5835,7 +5951,9 @@ window.COMMDDL_DATA = {
         "sourceUrl": "https://open.ieee.org/wp-content/uploads/IEEE-Title-List-September-2026.pdf",
         "sourceTitle": "IEEE 2026年9月期刊表",
         "sourceType": "publisher",
-        "verifiedAt": "2026-10-18"
+        "verifiedAt": "2026-10-18",
+        "status": "verified",
+        "note": "出版社期刊表中的原始索引名称。SCI 标签在本站对应 SCIE（科学引文索引扩展版），ESCI（新兴来源引文索引）单列。"
       },
       "evaluations": [
         {
@@ -5899,7 +6017,7 @@ window.COMMDDL_DATA = {
       "verifiedAt": "2026-10-18",
       "verification": "verified",
       "assessments": [],
-      "indexStatus": "ESCI（2026年9月出版社快照）",
+      "indexStatus": "ESCI",
       "metricNote": "收录与分区需按体系、年份另行核验；目录收录不代表 SCI 或学校认定。",
       "catalogStatus": "current",
       "indexing": {
@@ -5908,7 +6026,9 @@ window.COMMDDL_DATA = {
         "sourceUrl": "https://open.ieee.org/wp-content/uploads/IEEE-Title-List-September-2026.pdf",
         "sourceTitle": "IEEE 2026年9月期刊表",
         "sourceType": "publisher",
-        "verifiedAt": "2026-10-18"
+        "verifiedAt": "2026-10-18",
+        "status": "verified",
+        "note": "出版社期刊表中的原始索引名称。SCI 标签在本站对应 SCIE（科学引文索引扩展版），ESCI（新兴来源引文索引）单列。"
       },
       "evaluations": [
         {
@@ -5970,7 +6090,7 @@ window.COMMDDL_DATA = {
       "verifiedAt": "2026-10-18",
       "verification": "verified",
       "assessments": [],
-      "indexStatus": "ESCI（2026年9月出版社快照）",
+      "indexStatus": "ESCI",
       "metricNote": "收录与分区需按体系、年份另行核验；目录收录不代表 SCI 或学校认定。",
       "catalogStatus": "current",
       "indexing": {
@@ -5979,7 +6099,9 @@ window.COMMDDL_DATA = {
         "sourceUrl": "https://open.ieee.org/wp-content/uploads/IEEE-Title-List-September-2026.pdf",
         "sourceTitle": "IEEE 2026年9月期刊表",
         "sourceType": "publisher",
-        "verifiedAt": "2026-10-18"
+        "verifiedAt": "2026-10-18",
+        "status": "verified",
+        "note": "出版社期刊表中的原始索引名称。SCI 标签在本站对应 SCIE（科学引文索引扩展版），ESCI（新兴来源引文索引）单列。"
       },
       "evaluations": [
         {
@@ -6039,7 +6161,7 @@ window.COMMDDL_DATA = {
       "verifiedAt": "2026-10-18",
       "verification": "verified",
       "assessments": [],
-      "indexStatus": "SCIE（2026年9月出版社快照）",
+      "indexStatus": "SCIE",
       "metricNote": "收录与分区需按体系、年份另行核验；目录收录不代表 SCI 或学校认定。",
       "catalogStatus": "current",
       "indexing": {
@@ -6048,7 +6170,9 @@ window.COMMDDL_DATA = {
         "sourceUrl": "https://open.ieee.org/wp-content/uploads/IEEE-Title-List-September-2026.pdf",
         "sourceTitle": "IEEE 2026年9月期刊表",
         "sourceType": "publisher",
-        "verifiedAt": "2026-10-18"
+        "verifiedAt": "2026-10-18",
+        "status": "verified",
+        "note": "出版社期刊表中的原始索引名称。SCI 标签在本站对应 SCIE（科学引文索引扩展版），ESCI（新兴来源引文索引）单列。"
       },
       "evaluations": [
         {
@@ -6108,7 +6232,7 @@ window.COMMDDL_DATA = {
       "verifiedAt": "2026-10-18",
       "verification": "verified",
       "assessments": [],
-      "indexStatus": "SCIE（2026年9月出版社快照）",
+      "indexStatus": "SCIE",
       "metricNote": "收录与分区需按体系、年份另行核验；目录收录不代表 SCI 或学校认定。",
       "catalogStatus": "current",
       "indexing": {
@@ -6117,7 +6241,9 @@ window.COMMDDL_DATA = {
         "sourceUrl": "https://open.ieee.org/wp-content/uploads/IEEE-Title-List-September-2026.pdf",
         "sourceTitle": "IEEE 2026年9月期刊表",
         "sourceType": "publisher",
-        "verifiedAt": "2026-10-18"
+        "verifiedAt": "2026-10-18",
+        "status": "verified",
+        "note": "出版社期刊表中的原始索引名称。SCI 标签在本站对应 SCIE（科学引文索引扩展版），ESCI（新兴来源引文索引）单列。"
       },
       "evaluations": [
         {
@@ -6177,7 +6303,7 @@ window.COMMDDL_DATA = {
       "verifiedAt": "2026-10-18",
       "verification": "verified",
       "assessments": [],
-      "indexStatus": "SCIE（2026年9月出版社快照）",
+      "indexStatus": "SCIE",
       "metricNote": "收录与分区需按体系、年份另行核验；目录收录不代表 SCI 或学校认定。",
       "catalogStatus": "current",
       "indexing": {
@@ -6186,7 +6312,9 @@ window.COMMDDL_DATA = {
         "sourceUrl": "https://open.ieee.org/wp-content/uploads/IEEE-Title-List-September-2026.pdf",
         "sourceTitle": "IEEE 2026年9月期刊表",
         "sourceType": "publisher",
-        "verifiedAt": "2026-10-18"
+        "verifiedAt": "2026-10-18",
+        "status": "verified",
+        "note": "出版社期刊表中的原始索引名称。SCI 标签在本站对应 SCIE（科学引文索引扩展版），ESCI（新兴来源引文索引）单列。"
       },
       "evaluations": [
         {
@@ -6257,7 +6385,7 @@ window.COMMDDL_DATA = {
       "verifiedAt": "2026-10-18",
       "verification": "verified",
       "assessments": [],
-      "indexStatus": "SCIE（2026年9月出版社快照）",
+      "indexStatus": "SCIE",
       "metricNote": "收录与分区需按体系、年份另行核验；目录收录不代表 SCI 或学校认定。",
       "catalogStatus": "current",
       "indexing": {
@@ -6266,7 +6394,9 @@ window.COMMDDL_DATA = {
         "sourceUrl": "https://open.ieee.org/wp-content/uploads/IEEE-Title-List-September-2026.pdf",
         "sourceTitle": "IEEE 2026年9月期刊表",
         "sourceType": "publisher",
-        "verifiedAt": "2026-10-18"
+        "verifiedAt": "2026-10-18",
+        "status": "verified",
+        "note": "出版社期刊表中的原始索引名称。SCI 标签在本站对应 SCIE（科学引文索引扩展版），ESCI（新兴来源引文索引）单列。"
       },
       "evaluations": [
         {
@@ -6327,7 +6457,7 @@ window.COMMDDL_DATA = {
       "verifiedAt": "2026-10-18",
       "verification": "verified",
       "assessments": [],
-      "indexStatus": "待核验",
+      "indexStatus": "SCI／SCIE 收录待核验",
       "metricNote": "收录与分区需按体系、年份另行核验；目录收录不代表 SCI 或学校认定。",
       "catalogStatus": "current",
       "evaluations": [
@@ -6370,7 +6500,13 @@ window.COMMDDL_DATA = {
           "year": 2026,
           "note": "本次2026公开副本未匹配到明确记录；不表示学术水平低或不能用于硕士成果。"
         }
-      ]
+      ],
+      "indexing": {
+        "value": null,
+        "status": "pending",
+        "verifiedAt": "2026-10-18",
+        "note": "当前未取得明确的 SCI／SCIE 收录证据；待核验不表示未收录，不由 JCR 分区、影响因子、EI 或 Scopus 推断。"
+      }
     },
     {
       "id": "ol",
@@ -6398,7 +6534,7 @@ window.COMMDDL_DATA = {
       "verifiedAt": "2026-10-18",
       "verification": "verified",
       "assessments": [],
-      "indexStatus": "待核验",
+      "indexStatus": "SCI／SCIE 收录待核验",
       "metricNote": "收录与分区需按体系、年份另行核验；目录收录不代表 SCI 或学校认定。",
       "catalogStatus": "current",
       "evaluations": [
@@ -6428,7 +6564,13 @@ window.COMMDDL_DATA = {
           "year": 2026,
           "note": "本次2026公开副本未匹配到明确记录；不表示学术水平低或不能用于硕士成果。"
         }
-      ]
+      ],
+      "indexing": {
+        "value": null,
+        "status": "pending",
+        "verifiedAt": "2026-10-18",
+        "note": "当前未取得明确的 SCI／SCIE 收录证据；待核验不表示未收录，不由 JCR 分区、影响因子、EI 或 Scopus 推断。"
+      }
     },
     {
       "id": "pr",
@@ -6456,7 +6598,7 @@ window.COMMDDL_DATA = {
       "verifiedAt": "2026-10-18",
       "verification": "verified",
       "assessments": [],
-      "indexStatus": "待核验",
+      "indexStatus": "SCI／SCIE 收录待核验",
       "metricNote": "收录与分区需按体系、年份另行核验；目录收录不代表 SCI 或学校认定。",
       "catalogStatus": "current",
       "evaluations": [
@@ -6499,7 +6641,13 @@ window.COMMDDL_DATA = {
           "year": 2026,
           "note": "本次2026公开副本未匹配到明确记录；不表示学术水平低或不能用于硕士成果。"
         }
-      ]
+      ],
+      "indexing": {
+        "value": null,
+        "status": "pending",
+        "verifiedAt": "2026-10-18",
+        "note": "当前未取得明确的 SCI／SCIE 收录证据；待核验不表示未收录，不由 JCR 分区、影响因子、EI 或 Scopus 推断。"
+      }
     },
     {
       "id": "wireless-networks",
@@ -6529,7 +6677,7 @@ window.COMMDDL_DATA = {
       "verifiedAt": "2026-10-18",
       "verification": "verified",
       "assessments": [],
-      "indexStatus": "待核验",
+      "indexStatus": "SCIE",
       "metricNote": "收录与分区需按体系、年份另行核验；目录收录不代表 SCI 或学校认定。",
       "authorGuideUrl": "https://link.springer.com/journal/11276/submission-guidelines",
       "cfpUrl": "https://link.springer.com/journal/11276/updates",
@@ -6565,7 +6713,16 @@ window.COMMDDL_DATA = {
           "appliesToName": "Wireless Networks",
           "note": "等级从 CCF 编制文件的公开副本读取，尚待官网原件逐项复核。会议仅对应正式长文，不适用于短文、演示或附属研讨会。"
         }
-      ]
+      ],
+      "indexing": {
+        "value": "SCIE",
+        "status": "verified",
+        "sourceUrl": "https://link.springer.com/journal/11276",
+        "sourceTitle": "Springer：Wireless Networks 收录列表",
+        "sourceType": "publisher",
+        "verifiedAt": "2026-10-18",
+        "note": "出版社官网明确列出 Science Citation Index Expanded（科学引文索引扩展版）；为本次官网读取证据，未推定具体论文的入库状态。"
+      }
     },
     {
       "id": "gps-solutions",
@@ -6594,7 +6751,7 @@ window.COMMDDL_DATA = {
       "verifiedAt": "2026-10-18",
       "verification": "verified",
       "assessments": [],
-      "indexStatus": "待核验",
+      "indexStatus": "SCIE",
       "metricNote": "收录与分区需按体系、年份另行核验；目录收录不代表 SCI 或学校认定。",
       "authorGuideUrl": "https://link.springer.com/journal/10291/submission-guidelines",
       "catalogStatus": "current",
@@ -6620,7 +6777,16 @@ window.COMMDDL_DATA = {
           "year": 2026,
           "note": "本次2026公开副本未匹配到明确记录；不表示学术水平低或不能用于硕士成果。"
         }
-      ]
+      ],
+      "indexing": {
+        "value": "SCIE",
+        "status": "verified",
+        "sourceUrl": "https://link.springer.com/journal/10291",
+        "sourceTitle": "Springer：GPS Solutions 收录列表",
+        "sourceType": "publisher",
+        "verifiedAt": "2026-10-18",
+        "note": "出版社官网明确列出 Science Citation Index Expanded（科学引文索引扩展版）；为本次官网读取证据，未推定具体论文的入库状态。"
+      }
     },
     {
       "id": "navigation",
@@ -6649,7 +6815,7 @@ window.COMMDDL_DATA = {
       "verifiedAt": "2026-10-18",
       "verification": "verified",
       "assessments": [],
-      "indexStatus": "待核验",
+      "indexStatus": "SCIE",
       "metricNote": "收录与分区需按体系、年份另行核验；目录收录不代表 SCI 或学校认定。",
       "catalogStatus": "current",
       "evaluations": [
@@ -6674,7 +6840,16 @@ window.COMMDDL_DATA = {
           "year": 2026,
           "note": "本次2026公开副本未匹配到明确记录；不表示学术水平低或不能用于硕士成果。"
         }
-      ]
+      ],
+      "indexing": {
+        "value": "SCIE",
+        "status": "verified",
+        "sourceUrl": "https://www.ion.org/navi/",
+        "sourceTitle": "导航学会：NAVIGATION 收录列表",
+        "sourceType": "publisher",
+        "verifiedAt": "2026-10-18",
+        "note": "出版社官网明确列出 Science Citation Index Expanded（科学引文索引扩展版）；为本次官网读取证据，未推定具体论文的入库状态。"
+      }
     },
     {
       "id": "china-communications",
@@ -6705,7 +6880,7 @@ window.COMMDDL_DATA = {
       "verifiedAt": "2026-10-18",
       "verification": "verified",
       "assessments": [],
-      "indexStatus": "待核验",
+      "indexStatus": "SCI／SCIE 收录待核验",
       "metricNote": "收录与分区需按体系、年份另行核验；目录收录不代表 SCI 或学校认定。",
       "catalogStatus": "current",
       "evaluations": [
@@ -6730,7 +6905,13 @@ window.COMMDDL_DATA = {
           "year": 2026,
           "note": "本次2026公开副本未匹配到明确记录；不表示学术水平低或不能用于硕士成果。"
         }
-      ]
+      ],
+      "indexing": {
+        "value": null,
+        "status": "pending",
+        "verifiedAt": "2026-10-18",
+        "note": "当前未取得明确的 SCI／SCIE 收录证据；待核验不表示未收录，不由 JCR 分区、影响因子、EI 或 Scopus 推断。"
+      }
     },
     {
       "id": "txxb",
@@ -6761,7 +6942,7 @@ window.COMMDDL_DATA = {
       "verifiedAt": "2026-10-18",
       "verification": "verified",
       "assessments": [],
-      "indexStatus": "待核验",
+      "indexStatus": "SCI／SCIE 收录待核验",
       "metricNote": "收录与分区需按体系、年份另行核验；目录收录不代表 SCI 或学校认定。",
       "catalogStatus": "current",
       "evaluations": [
@@ -6786,7 +6967,13 @@ window.COMMDDL_DATA = {
           "year": 2026,
           "note": "本次2026公开副本未匹配到明确记录；不表示学术水平低或不能用于硕士成果。"
         }
-      ]
+      ],
+      "indexing": {
+        "value": null,
+        "status": "pending",
+        "verifiedAt": "2026-10-18",
+        "note": "当前未取得明确的 SCI／SCIE 收录证据；待核验不表示未收录，不由 JCR 分区、影响因子、EI 或 Scopus 推断。"
+      }
     },
     {
       "id": "signal-processing",
@@ -6816,7 +7003,7 @@ window.COMMDDL_DATA = {
       "verifiedAt": "2026-10-18",
       "verification": "verified",
       "assessments": [],
-      "indexStatus": "待核验",
+      "indexStatus": "SCI／SCIE 收录待核验",
       "metricNote": "收录与分区需按体系、年份另行核验；目录收录不代表 SCI 或学校认定。",
       "catalogStatus": "current",
       "evaluations": [
@@ -6850,7 +7037,13 @@ window.COMMDDL_DATA = {
           "appliesToName": "Signal Processing",
           "note": "等级从 CCF 编制文件的公开副本读取，尚待官网原件逐项复核。会议仅对应正式长文，不适用于短文、演示或附属研讨会。"
         }
-      ]
+      ],
+      "indexing": {
+        "value": null,
+        "status": "pending",
+        "verifiedAt": "2026-10-18",
+        "note": "当前未取得明确的 SCI／SCIE 收录证据；待核验不表示未收录，不由 JCR 分区、影响因子、EI 或 Scopus 推断。"
+      }
     },
     {
       "id": "phycom",
@@ -6882,7 +7075,7 @@ window.COMMDDL_DATA = {
       "verifiedAt": "2026-10-18",
       "verification": "verified",
       "assessments": [],
-      "indexStatus": "待核验",
+      "indexStatus": "SCI／SCIE 收录待核验",
       "metricNote": "收录与分区需按体系、年份另行核验；目录收录不代表 SCI 或学校认定。",
       "catalogStatus": "current",
       "evaluations": [
@@ -6907,7 +7100,13 @@ window.COMMDDL_DATA = {
           "year": 2026,
           "note": "本次2026公开副本未匹配到明确记录；不表示学术水平低或不能用于硕士成果。"
         }
-      ]
+      ],
+      "indexing": {
+        "value": null,
+        "status": "pending",
+        "verifiedAt": "2026-10-18",
+        "note": "当前未取得明确的 SCI／SCIE 收录证据；待核验不表示未收录，不由 JCR 分区、影响因子、EI 或 Scopus 推断。"
+      }
     },
     {
       "id": "computer-networks",
@@ -6937,7 +7136,7 @@ window.COMMDDL_DATA = {
       "verifiedAt": "2026-10-18",
       "verification": "verified",
       "assessments": [],
-      "indexStatus": "待核验",
+      "indexStatus": "SCI／SCIE 收录待核验",
       "metricNote": "收录与分区需按体系、年份另行核验；目录收录不代表 SCI 或学校认定。",
       "catalogStatus": "current",
       "evaluations": [
@@ -6996,7 +7195,13 @@ window.COMMDDL_DATA = {
           "appliesToName": "Computer Networks",
           "note": "等级从 CCF 编制文件的公开副本读取，尚待官网原件逐项复核。会议仅对应正式长文，不适用于短文、演示或附属研讨会。"
         }
-      ]
+      ],
+      "indexing": {
+        "value": null,
+        "status": "pending",
+        "verifiedAt": "2026-10-18",
+        "note": "当前未取得明确的 SCI／SCIE 收录证据；待核验不表示未收录，不由 JCR 分区、影响因子、EI 或 Scopus 推断。"
+      }
     },
     {
       "id": "sam",
@@ -13963,7 +14168,7 @@ window.COMMDDL_DATA = {
       ],
       "submissionMode": "按专题征稿",
       "assessments": [],
-      "indexStatus": "ESCI（2026年9月出版社快照）",
+      "indexStatus": "ESCI",
       "metricNote": "分区、收录与毕业成果路径分开处理。",
       "indexing": {
         "value": "ESCI",
@@ -13971,7 +14176,9 @@ window.COMMDDL_DATA = {
         "sourceUrl": "https://open.ieee.org/wp-content/uploads/IEEE-Title-List-September-2026.pdf",
         "sourceTitle": "IEEE 2026年9月期刊表",
         "sourceType": "publisher",
-        "verifiedAt": "2026-10-18"
+        "verifiedAt": "2026-10-18",
+        "status": "verified",
+        "note": "出版社期刊表中的原始索引名称。SCI 标签在本站对应 SCIE（科学引文索引扩展版），ESCI（新兴来源引文索引）单列。"
       },
       "evaluations": [
         {
@@ -14037,7 +14244,7 @@ window.COMMDDL_DATA = {
       ],
       "submissionMode": "以作者指南和对应栏目为准",
       "assessments": [],
-      "indexStatus": "待核验",
+      "indexStatus": "SCI／SCIE 收录待核验",
       "metricNote": "分区、收录与毕业成果路径分开处理。",
       "evaluations": [
         {
@@ -14070,7 +14277,13 @@ window.COMMDDL_DATA = {
           "appliesToName": "IET Communications",
           "note": "等级从 CCF 编制文件的公开副本读取，尚待官网原件逐项复核。会议仅对应正式长文，不适用于短文、演示或附属研讨会。"
         }
-      ]
+      ],
+      "indexing": {
+        "value": null,
+        "status": "pending",
+        "verifiedAt": "2026-10-18",
+        "note": "当前未取得明确的 SCI／SCIE 收录证据；待核验不表示未收录，不由 JCR 分区、影响因子、EI 或 Scopus 推断。"
+      }
     },
     {
       "id": "computer-comms",
@@ -14102,7 +14315,7 @@ window.COMMDDL_DATA = {
       ],
       "submissionMode": "以作者指南和对应栏目为准",
       "assessments": [],
-      "indexStatus": "待核验",
+      "indexStatus": "SCI／SCIE 收录待核验",
       "metricNote": "分区、收录与毕业成果路径分开处理。",
       "evaluations": [
         {
@@ -14135,7 +14348,13 @@ window.COMMDDL_DATA = {
           "appliesToName": "Computer Communications",
           "note": "等级从 CCF 编制文件的公开副本读取，尚待官网原件逐项复核。会议仅对应正式长文，不适用于短文、演示或附属研讨会。"
         }
-      ]
+      ],
+      "indexing": {
+        "value": null,
+        "status": "pending",
+        "verifiedAt": "2026-10-18",
+        "note": "当前未取得明确的 SCI／SCIE 收录证据；待核验不表示未收录，不由 JCR 分区、影响因子、EI 或 Scopus 推断。"
+      }
     },
     {
       "id": "acta-electronica",
@@ -14169,7 +14388,7 @@ window.COMMDDL_DATA = {
       ],
       "submissionMode": "以作者指南和对应栏目为准",
       "assessments": [],
-      "indexStatus": "待核验",
+      "indexStatus": "SCI／SCIE 收录待核验",
       "metricNote": "分区、收录与毕业成果路径分开处理。",
       "evaluations": [
         {
@@ -14193,7 +14412,13 @@ window.COMMDDL_DATA = {
           "year": 2026,
           "note": "本次2026公开副本未匹配到明确记录；不表示学术水平低或不能用于硕士成果。"
         }
-      ]
+      ],
+      "indexing": {
+        "value": null,
+        "status": "pending",
+        "verifiedAt": "2026-10-18",
+        "note": "当前未取得明确的 SCI／SCIE 收录证据；待核验不表示未收录，不由 JCR 分区、影响因子、EI 或 Scopus 推断。"
+      }
     },
     {
       "id": "jeit",
@@ -14227,7 +14452,7 @@ window.COMMDDL_DATA = {
       ],
       "submissionMode": "以作者指南和对应栏目为准",
       "assessments": [],
-      "indexStatus": "待核验",
+      "indexStatus": "SCI／SCIE 收录待核验",
       "metricNote": "分区、收录与毕业成果路径分开处理。",
       "evaluations": [
         {
@@ -14251,7 +14476,13 @@ window.COMMDDL_DATA = {
           "year": 2026,
           "note": "本次2026公开副本未匹配到明确记录；不表示学术水平低或不能用于硕士成果。"
         }
-      ]
+      ],
+      "indexing": {
+        "value": null,
+        "status": "pending",
+        "verifiedAt": "2026-10-18",
+        "note": "当前未取得明确的 SCI／SCIE 收录证据；待核验不表示未收录，不由 JCR 分区、影响因子、EI 或 Scopus 推断。"
+      }
     },
     {
       "id": "cn-signal",
@@ -14284,7 +14515,7 @@ window.COMMDDL_DATA = {
       ],
       "submissionMode": "以作者指南和对应栏目为准",
       "assessments": [],
-      "indexStatus": "待核验",
+      "indexStatus": "SCI／SCIE 收录待核验",
       "metricNote": "分区、收录与毕业成果路径分开处理。",
       "evaluations": [
         {
@@ -14308,7 +14539,13 @@ window.COMMDDL_DATA = {
           "year": 2026,
           "note": "本次2026公开副本未匹配到明确记录；不表示学术水平低或不能用于硕士成果。"
         }
-      ]
+      ],
+      "indexing": {
+        "value": null,
+        "status": "pending",
+        "verifiedAt": "2026-10-18",
+        "note": "当前未取得明确的 SCI／SCIE 收录证据；待核验不表示未收录，不由 JCR 分区、影响因子、EI 或 Scopus 推断。"
+      }
     },
     {
       "id": "scis",
@@ -14341,7 +14578,7 @@ window.COMMDDL_DATA = {
       ],
       "submissionMode": "以作者指南和对应栏目为准",
       "assessments": [],
-      "indexStatus": "待核验",
+      "indexStatus": "SCIE",
       "metricNote": "分区、收录与毕业成果路径分开处理。",
       "evaluations": [
         {
@@ -14374,7 +14611,16 @@ window.COMMDDL_DATA = {
           "appliesToName": "SCIENCE CHINA Information Sciences",
           "note": "等级从 CCF 编制文件的公开副本读取，尚待官网原件逐项复核。会议仅对应正式长文，不适用于短文、演示或附属研讨会。 按原表简称与人工读取全称核对；换行提取已校正。"
         }
-      ]
+      ],
+      "indexing": {
+        "value": "SCIE",
+        "status": "verified",
+        "sourceUrl": "https://link.springer.com/journal/11432",
+        "sourceTitle": "Springer：中国科学信息科学英文刊收录列表",
+        "sourceType": "publisher",
+        "verifiedAt": "2026-10-18",
+        "note": "出版社官网明确列出 Science Citation Index Expanded（科学引文索引扩展版）；为本次官网读取证据，未推定具体论文的入库状态。"
+      }
     },
     {
       "id": "access",
@@ -14410,7 +14656,7 @@ window.COMMDDL_DATA = {
       ],
       "submissionMode": "以作者指南和对应栏目为准",
       "assessments": [],
-      "indexStatus": "SCIE（2026年9月出版社快照）",
+      "indexStatus": "SCIE",
       "metricNote": "分区、收录与毕业成果路径分开处理。",
       "indexing": {
         "value": "SCIE",
@@ -14418,7 +14664,9 @@ window.COMMDDL_DATA = {
         "sourceUrl": "https://open.ieee.org/wp-content/uploads/IEEE-Title-List-September-2026.pdf",
         "sourceTitle": "IEEE 2026年9月期刊表",
         "sourceType": "publisher",
-        "verifiedAt": "2026-10-18"
+        "verifiedAt": "2026-10-18",
+        "status": "verified",
+        "note": "出版社期刊表中的原始索引名称。SCI 标签在本站对应 SCIE（科学引文索引扩展版），ESCI（新兴来源引文索引）单列。"
       },
       "evaluations": [
         {

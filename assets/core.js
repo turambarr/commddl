@@ -82,6 +82,11 @@
   function topicSearch(ids, taxonomy = []) {
     return taxonomy.filter(t => (ids || []).includes(t.id)).flatMap(t => [t.label, t.aliases]);
   }
+  function indexingStatus(venue) {
+    if (venue.kind !== 'journal') return 'not-applicable';
+    const ix = venue.indexing;
+    return ix?.status === 'verified' && ['SCIE','ESCI','SSCI','AHCI'].includes(ix.value) ? ix.value : 'pending';
+  }
   function evaluationMatches(venue, grade = '') {
     if (!grade) return true;
     const records = venue.evaluations || [];
@@ -94,6 +99,7 @@
     return venues.filter(v =>
       (!filters.venueKind || v.kind === filters.venueKind) && evaluationMatches(v, filters.grade) &&
       (!filters.catalogStatus || v.catalogStatus === filters.catalogStatus) &&
+      (!filters.index || indexingStatus(v) === filters.index) &&
       (!filters.area || v.areas.includes(filters.area)) && topicMatches(v.topics, filters.topics) &&
       (!filters.historical || (v.assessments || []).some(a => a.system === 'bupt-ict-2018')) &&
       (!filters.favoriteOnly || favorites.has('venue:' + v.id)) &&
@@ -177,5 +183,5 @@
     const allowed = new Set([...data.calls.map(c => 'call:' + c.id), ...data.venues.map(v => 'venue:' + v.id)]);
     return [...new Set(value.items.filter(x => typeof x === 'string' && allowed.has(x)))];
   }
-  return { validDate, dateInZone, parseInstant, countdown, primaryNode, calendarDate, stateOf, searchMatches, cleanTopics, topicMatches, evaluationMatches, filterVenues, filterCalls, escapeICS, foldLine, eligibleNodes, createICS, cleanFavorites };
+  return { validDate, dateInZone, parseInstant, countdown, primaryNode, calendarDate, stateOf, searchMatches, cleanTopics, topicMatches, indexingStatus, evaluationMatches, filterVenues, filterCalls, escapeICS, foldLine, eligibleNodes, createICS, cleanFavorites };
 });

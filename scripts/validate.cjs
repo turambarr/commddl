@@ -28,6 +28,13 @@ for(const v of data.venues){
   requireThat(v.short&&v.nameZh&&v.nameEn&&v.summary,`${v.id}: missing identity fields`);
   requireThat(Array.isArray(v.articleTypes)&&v.articleTypes.length,`${v.id}: missing article types`);
   requireThat(['current','needs-review','historical-only'].includes(v.catalogStatus),`${v.id}: invalid catalog status`);
+  if(v.kind==='journal'){
+    const ix=v.indexing;
+    requireThat(ix&&['verified','pending'].includes(ix.status)&&C.validDate(ix.verifiedAt)&&ix.note,`${v.id}: every journal needs an explicit indexing status`);
+    if(ix?.status==='verified')requireThat(['SCIE','ESCI','SSCI','AHCI'].includes(ix.value)&&url(ix.sourceUrl)&&ix.sourceTitle&&ix.sourceType,`${v.id}: indexing claim needs explicit index and primary evidence`);
+    else requireThat(ix?.value===null,`${v.id}: unknown indexing cannot be inferred from quartiles`);
+    if(ix?.snapshotDate)requireThat(C.validDate(ix.snapshotDate),`${v.id}: invalid indexing snapshot date`);
+  }
   const systems=new Set();
   for(const e of v.evaluations||[]){
     requireThat(['jcr','cas','ccf','core'].includes(e.system)&&!systems.has(e.system),`${v.id}: duplicate/invalid rating system`);systems.add(e.system);
