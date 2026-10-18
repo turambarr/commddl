@@ -54,3 +54,33 @@ test('favorites remain filterable by subjects after directory expansion',()=>{
   assert.deepEqual(C.filterVenues(data.venues,{favoriteOnly:true,favorites:['venue:twc','venue:jlt'],topics:['fiber']}).map(v=>v.id),['jlt']);
   assert(C.cleanFavorites({version:1,items:['venue:twc','venue:tap','venue:sensys']},data).length===3);
 });
+
+test('grade filters combine independently with direction and topic filters',()=>{
+  const result=C.filterVenues(data.venues,{venueKind:'journal',grade:'jcr:Q1',area:'wireless',topics:['mimo']});
+  assert(result.some(v=>v.id==='twc'));assert(!result.some(v=>v.id==='cl'));assert(result.every(v=>v.kind==='journal'&&v.areas.includes('wireless')&&v.topics.includes('mimo')));
+});
+test('unknown and non-ranked evaluations never become a lower grade',()=>{
+  const sample={evaluations:[{system:'core',status:'non-ranked',value:'Unranked'},{system:'ccf',status:'pending',value:null}]};
+  assert(!C.evaluationMatches(sample,'core:C'));assert(!C.evaluationMatches(sample,'ccf:C'));assert(C.evaluationMatches(sample,'pending'));
+});
+test('identical acronyms cannot silently assign unrelated publication grades',()=>{
+  const by=new Map(data.venues.map(v=>[v.id,v]));
+  assert(!C.evaluationMatches(by.get('cl'),'ccf:C')); // Computer Languages is a different CL.
+  assert(!C.evaluationMatches(by.get('ctw'),'core:C')); // Cologne-Twente is a different CTW.
+  assert(!C.evaluationMatches(by.get('iccc'),'core:C')); // Computational Creativity is a different ICCC.
+  assert(!C.evaluationMatches(by.get('sensys'),'ccf:B')); // Merger scope needs a separate ruling.
+});
+test('master discovery includes conferences outside the historical doctoral list',()=>{
+  const all=C.filterVenues(data.venues,{venueKind:'conference'}),old=C.filterVenues(data.venues,{venueKind:'conference',historical:true});
+  assert(all.length>old.length);assert(all.some(v=>v.id==='apcc'));assert(!old.some(v=>v.id==='apcc'));
+  assert.equal(data.legacyMappings.length,89);assert.equal(new Set(data.legacyMappings.map(m=>m.number)).size,89);
+});
+test('an attached workshop cannot inherit a main-conference school tag',()=>{
+  const parent={...venue,assessments:[{system:'bupt-ict-2018'}]};
+  const calls=[{...base,kind:'conference'},{...base,id:'workshop',kind:'workshop'}];
+  assert.deepEqual(C.filterCalls(calls,[parent],{historical:true},NOW).map(c=>c.id),['sample-call']);
+});
+test('catalog state is separate from grades and keeps old identities discoverable',()=>{
+  const rows=C.filterVenues(data.venues,{venueKind:'conference',catalogStatus:'historical-only',query:'NIPS'});
+  assert(rows.some(v=>v.id==='neurips'));assert(rows.every(v=>v.catalogStatus==='historical-only'));
+});

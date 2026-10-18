@@ -82,16 +82,24 @@
   function topicSearch(ids, taxonomy = []) {
     return taxonomy.filter(t => (ids || []).includes(t.id)).flatMap(t => [t.label, t.aliases]);
   }
+  function evaluationMatches(venue, grade = '') {
+    if (!grade) return true;
+    const records = venue.evaluations || [];
+    if (grade === 'pending') return records.some(e => ['pending','scope-review'].includes(e.status));
+    const [system, value] = grade.split(':');
+    return records.some(e => e.system === system && String(e.value) === value && ['verified','reported'].includes(e.status));
+  }
   function filterVenues(venues, filters = {}) {
     const favorites = new Set(filters.favorites || []);
     return venues.filter(v =>
-      (!filters.venueKind || v.kind === filters.venueKind) &&
+      (!filters.venueKind || v.kind === filters.venueKind) && evaluationMatches(v, filters.grade) &&
+      (!filters.catalogStatus || v.catalogStatus === filters.catalogStatus) &&
       (!filters.area || v.areas.includes(filters.area)) && topicMatches(v.topics, filters.topics) &&
       (!filters.historical || (v.assessments || []).some(a => a.system === 'bupt-ict-2018')) &&
       (!filters.favoriteOnly || favorites.has('venue:' + v.id)) &&
       (!filters.journalType || filters.journalType === 'all' || v.publicationType === filters.journalType) &&
       searchMatches(filters.query, v.short, v.nameEn, v.nameZh, v.aliases, v.summary, topicSearch(v.topics, filters.taxonomy))
-    ).sort((a,b) => a.short.localeCompare(b.short));
+    ).sort((a,b) => (filters.sort === 'name' ? 0 : ({current:0,'needs-review':1,'historical-only':2}[a.catalogStatus] - {current:0,'needs-review':1,'historical-only':2}[b.catalogStatus])) || a.short.localeCompare(b.short));
   }
   function filterCalls(calls, venues, filters, now = Date.now()) {
     const byId = new Map(venues.map(v => [v.id, v]));
@@ -105,7 +113,7 @@
       if (filters.area && !(call.areas || v.areas || []).includes(filters.area)) return false;
       const topics = call.topics || v.topics || [];
       if (!topicMatches(topics, filters.topics)) return false;
-      if (filters.historical && !(v.assessments || []).some(a => a.system === 'bupt-ict-2018') ) return false;
+      if (filters.historical && (call.kind !== 'conference' || !(v.assessments || []).some(a => a.system === 'bupt-ict-2018'))) return false;
       if (filters.favoriteOnly && !favorites.has('call:' + call.id) && !favorites.has('venue:' + v.id)) return false;
       if (filters.window && (!['upcoming', 'date', 'restricted'].includes(st.code) || st.days < 0 || st.days > +filters.window)) return false;
       return searchMatches(filters.query, call.title, call.titleEn, call.tags, call.summary, v.short, v.nameEn, v.nameZh, v.aliases, topicSearch(topics, filters.taxonomy));
@@ -169,5 +177,5 @@
     const allowed = new Set([...data.calls.map(c => 'call:' + c.id), ...data.venues.map(v => 'venue:' + v.id)]);
     return [...new Set(value.items.filter(x => typeof x === 'string' && allowed.has(x)))];
   }
-  return { validDate, dateInZone, parseInstant, countdown, primaryNode, calendarDate, stateOf, searchMatches, cleanTopics, topicMatches, filterVenues, filterCalls, escapeICS, foldLine, eligibleNodes, createICS, cleanFavorites };
+  return { validDate, dateInZone, parseInstant, countdown, primaryNode, calendarDate, stateOf, searchMatches, cleanTopics, topicMatches, evaluationMatches, filterVenues, filterCalls, escapeICS, foldLine, eligibleNodes, createICS, cleanFavorites };
 });

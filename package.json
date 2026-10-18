@@ -1,6 +1,6 @@
 {
   "name": "commddl",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "private": true,
   "description": "通信科研投稿日历：会议、期刊与专题征稿导航",
   "scripts": {
