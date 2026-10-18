@@ -1,7 +1,7 @@
 /* Generated from data/catalog.json. Edit the JSON and run npm run build. */
 window.COMMDDL_DATA = {
   "meta": {
-    "version": "0.5.0",
+    "version": "0.6.0",
     "updatedAt": "2026-10-18",
     "siteName": "CommDDL",
     "repository": "https://github.com/turambarr/commddl",

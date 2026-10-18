@@ -149,3 +149,39 @@ test('placeholder favorites migrate to a stable year-specific edition without ac
  const d={calls:[{id:'sample-2027'}],venues:[],callAliases:{'sample-latest':'sample-2027','unsafe':'not-present'}};
  assert.deepEqual(C.cleanFavorites({version:1,items:['call:sample-latest','call:sample-2027','call:unsafe']},d),['call:sample-2027']);
 });
+
+test('SCI attribute searches equal explicit SCIE filters and never match ESCI by substring',()=>{
+  const expected=C.filterVenues(data.venues,{venueKind:'journal',index:'SCIE'}).map(v=>v.id).sort();
+  assert.deepEqual(C.filterVenues(data.venues,{venueKind:'journal',query:'SCI论文'}).map(v=>v.id).sort(),expected);
+  assert.deepEqual(C.parseVenueQuery('ESCI').indexes,['ESCI']);
+  assert(C.filterVenues(data.venues,{query:'SCI'}).every(v=>C.indexingStatus(v)==='SCIE'));
+});
+test('Chinese quartiles and JCR quartiles are parsed into separate evidence-backed systems',()=>{
+  const parsed=C.parseVenueQuery('SCI一区 无线');
+  assert.deepEqual(parsed.indexes,['SCIE']);assert.deepEqual(parsed.grades,['cas:1']);assert.equal(parsed.text,'无线');
+  assert.deepEqual(C.parseVenueQuery('SCI JCR Q1').grades,['jcr:Q1']);
+  const explicit=C.filterVenues(data.venues,{index:'SCIE',grades:['cas:1'],query:'无线',taxonomy:data.topics}).map(v=>v.id).sort();
+  assert(explicit.length);assert.deepEqual(C.filterVenues(data.venues,{query:'SCI一区 无线',taxonomy:data.topics}).map(v=>v.id).sort(),explicit);
+});
+test('index keywords cannot corrupt ordinary publication names or CCF rating values',()=>{
+  assert.equal(C.parseVenueQuery('IEEE Transactions on Communications').text,'IEEE Transactions on Communications');
+  assert.deepEqual(C.parseVenueQuery('ICORE A*').grades,['core:A*']);
+  assert.deepEqual(C.parseVenueQuery('CCF A').grades,['ccf:A']);
+  assert(C.filterVenues(data.venues,{query:'IEEE Transactions on Communications'}).some(v=>v.id==='tcom'));
+});
+test('other index filters require an explicit verified index record',()=>{
+  const rows=[{id:'good',kind:'journal',short:'good',areas:[],otherIndexes:[{value:'EI',status:'verified'}]},{id:'unknown',kind:'journal',short:'unknown',areas:[],otherIndexes:[{value:'EI',status:'pending'}]}];
+  assert.deepEqual(C.filterVenues(rows,{index:'EI'}).map(v=>v.id),['good']);
+  assert.deepEqual(C.filterVenues(rows,{query:'EI'}).map(v=>v.id),['good']);
+});
+test('deadline index filters select journal calls and preserve their precise subject filters',()=>{
+  const rows=C.filterCalls(data.calls,data.venues,{index:'SCIE',grades:['cas:1'],showPast:true,taxonomy:data.topics},NOW);
+  assert(rows.length);assert(rows.every(c=>{const v=data.venues.find(v=>v.id===c.venueId);return v.kind==='journal'&&C.indexMatches(v,'SCIE')&&C.evaluationMatches(v,'cas:1');}));
+  assert.deepEqual(C.filterCalls(data.calls,data.venues,{query:'SCI 一区',showPast:true},NOW).map(c=>c.id),rows.map(c=>c.id));
+});
+test('conference grade searches and filters do not assign parent ranks to attached workshops or demos',()=>{
+  const ranked={...venue,kind:'conference',evaluations:[{system:'ccf',value:'A',status:'verified'}]};
+  const rows=[{...base,kind:'conference'},{...base,id:'workshop',kind:'workshop'},{...base,id:'demo',kind:'conference',submissionCategory:'demo'}];
+  assert.deepEqual(C.filterCalls(rows,[ranked],{query:'CCF A'},NOW).map(c=>c.id),['sample-call']);
+  assert.deepEqual(C.filterCalls(rows,[ranked],{grades:['ccf:A']},NOW).map(c=>c.id),['sample-call']);
+});

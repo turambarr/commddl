@@ -106,6 +106,25 @@
     if (['verified','reported'].includes(ix?.status) && ['SCIE','ESCI','SSCI','AHCI'].includes(ix.value)) return ix.value;
     return ix?.status === 'unlisted' ? 'unlisted' : 'pending';
   }
+  function indexMatches(venue, index = '') {
+    if (!index) return true;
+    if (['EI','CSCD','Scopus'].includes(index)) return venue.kind==='journal'&&(venue.otherIndexes||[]).some(e=>e.value===index&&['verified','reported'].includes(e.status));
+    return indexingStatus(venue)===index;
+  }
+  function parseVenueQuery(query = '') {
+    const indexes=[],grades=[],labels=[];
+    let text=String(query).normalize('NFKC');
+    text=text.replace(/\b(SCIE|SCI|ESCI|EI|CSCD|SCOPUS)\b(?:收录)?(?:期刊|论文)?/gi,(_,value)=>{const upper=value.toUpperCase(),index=upper==='SCI'?'SCIE':upper==='SCOPUS'?'Scopus':upper;indexes.push(index);labels.push(index==='SCIE'?'SCI / SCIE':index);return ' ';});
+    const numbers={'一':'1','二':'2','三':'3','四':'4'};
+    text=text.replace(/(?:中科院(?:大类)?\s*)?([一二三四1-4])\s*区/g,(_,value)=>{const rank=numbers[value]||value;grades.push('cas:'+rank);labels.push('中科院大类 '+rank+'区');return ' ';});
+    text=text.replace(/(?:\bJCR\s*)?\bQ([1-4])\b/gi,(_,rank)=>{grades.push('jcr:Q'+rank);labels.push('JCR Q'+rank);return ' ';});
+    text=text.replace(/\b(CCF|ICORE|CORE)\s*[:：]?\s*(A\*|[ABC])(?=\s|$|[，,])/gi,(_,system,value)=>{const sys=system.toUpperCase()==='CCF'?'ccf':'core';grades.push(sys+':'+value.toUpperCase());labels.push((sys==='ccf'?'CCF':'ICORE')+' '+value.toUpperCase());return ' ';});
+    if(indexes.length||grades.length)text=text.replace(/(?:期刊|论文)/g,' ');
+    return {text:text.trim(),indexes:[...new Set(indexes)],grades:[...new Set(grades)],labels:[...new Set(labels)]};
+  }
+  function venueQueryMatches(venue, parsed) {
+    return (!parsed.indexes.length||parsed.indexes.some(index=>indexMatches(venue,index)))&&evaluationMatches(venue,parsed.grades);
+  }
   function cleanGrades(values, kind) {
     const choices={jcr:['Q1','Q2','Q3','Q4','N'],cas:['1','2','3','4','N'],ccf:['A','B','C','N'],core:['A*','A','B','C','N']};
     return [...new Set(values)].filter(value=>{const [sys,rank]=String(value).split(':');return value===sys+':'+rank&&choices[sys]?.includes(rank)&&!(kind==='conference'&&['jcr','cas'].includes(sys))&&!(kind==='journal'&&sys==='core');});
@@ -127,26 +146,31 @@
     return [...groups].every(([system, values]) => records.some(e => e.system === system && (values.includes(String(e.value)) && ['verified','reported'].includes(e.status) || values.includes('N') && e.status === 'unlisted')));
   }
   function filterVenues(venues, filters = {}) {
-    const favorites = new Set(filters.favorites || []);
+    const favorites = new Set(filters.favorites || []), parsed=parseVenueQuery(filters.query);
     return venues.filter(v =>
+      venueQueryMatches(v,parsed) &&
       (v.catalogScope !== 'archive' || filters.includeArchived || (filters.favoriteOnly && favorites.has('venue:' + v.id))) &&
       (!filters.venueKind || v.kind === filters.venueKind) && evaluationMatches(v, filters.grades?.length ? filters.grades : filters.grade) &&
       (!filters.catalogStatus || v.catalogStatus === filters.catalogStatus) &&
-      (!filters.index || indexingStatus(v) === filters.index) &&
+      indexMatches(v,filters.index) &&
       (!filters.window || !filters.calls || (()=>{const call=venueActivity(v,filters.calls,filters.now||Date.now(),filters.zone);if(!call)return false;const st=stateOf(call,filters.now||Date.now(),filters.zone);return ['upcoming','date','restricted'].includes(st.code)&&st.days>=0&&st.days<=+filters.window;})()) &&
       (!filters.area || v.areas.includes(filters.area)) && topicMatches(v.topics, filters.topics) &&
       (!filters.historical || (v.assessments || []).some(a => a.system === 'bupt-ict-2018')) &&
       (!filters.favoriteOnly || favorites.has('venue:' + v.id)) &&
       (!filters.journalType || filters.journalType === 'all' || v.publicationType === filters.journalType) &&
-      searchMatches(filters.query, v.short, v.nameEn, v.nameZh, v.aliases, v.summary, topicSearch(v.topics, filters.taxonomy))
+      searchMatches(parsed.text, v.short, v.nameEn, v.nameZh, v.aliases, v.summary, topicSearch(v.topics, filters.taxonomy))
     ).sort((a,b) => {if(filters.calls&&filters.sort!=='name'){const x=venueDeadlineOrder(a,filters.calls,filters.now||Date.now(),filters.zone),y=venueDeadlineOrder(b,filters.calls,filters.now||Date.now(),filters.zone);const order=x[0]-y[0]||(x[0]===2?y[1].localeCompare(x[1]):x[1].localeCompare(y[1]));if(order)return order;}return (filters.sort === 'name' ? 0 : ({current:0,'needs-review':1,'historical-only':2}[a.catalogStatus] - {current:0,'needs-review':1,'historical-only':2}[b.catalogStatus])) || a.short.localeCompare(b.short);});
   }
   function filterCalls(calls, venues, filters, now = Date.now()) {
-    const byId = new Map(venues.map(v => [v.id, v]));
+    const byId = new Map(venues.map(v => [v.id, v])), parsed=parseVenueQuery(filters.query);
     const favorites = new Set(filters.favorites || []);
     return calls.filter(call => {
       const v = byId.get(call.venueId);
       if (!v || (v.catalogScope === 'archive' && !filters.includeArchived && !(filters.favoriteOnly && (favorites.has('venue:' + v.id) || favorites.has('call:' + call.id))))) return false;
+      const selectedGrades=filters.grades?.length?filters.grades:filters.grade;
+      const noInheritedGrade=call.kind==='workshop'||call.inheritsVenueEvaluation===false||['demo','poster','short'].includes(call.submissionCategory);
+      if(!indexMatches(v,filters.index)||!venueQueryMatches(v,parsed)||!evaluationMatches(v,selectedGrades))return false;
+      if(noInheritedGrade&&(parsed.grades.length||selectedGrades?.length))return false;
       const st = stateOf(call, now, filters.zone);
       if(filters.showUndated===false&&!filters.favoriteOnly&&st.code==='pending')return false;
       if (!filters.showPast && ['closed', 'past-date', 'cancelled'].includes(st.code)) return false;
@@ -157,7 +181,7 @@
       if (filters.historical && (call.kind !== 'conference' || !(v.assessments || []).some(a => a.system === 'bupt-ict-2018'))) return false;
       if (filters.favoriteOnly && !favorites.has('call:' + call.id) && !favorites.has('venue:' + v.id)) return false;
       if (filters.window && (!['upcoming', 'date', 'restricted'].includes(st.code) || st.days < 0 || st.days > +filters.window)) return false;
-      return searchMatches(filters.query, call.title, call.titleEn, call.tags, call.summary, v.short, v.nameEn, v.nameZh, v.aliases, topicSearch(topics, filters.taxonomy));
+      return searchMatches(parsed.text, call.title, call.titleEn, call.tags, call.summary, v.short, v.nameEn, v.nameZh, v.aliases, topicSearch(topics, filters.taxonomy));
     }).sort((a, b) => {
       const aDate = calendarDate(primaryNode(a), filters.zone) || '9999';
       const bDate = calendarDate(primaryNode(b), filters.zone) || '9999';
@@ -218,5 +242,5 @@
     const allowed = new Set([...data.calls.map(c => 'call:' + c.id), ...data.venues.map(v => 'venue:' + v.id)]);
     return [...new Set(value.items.filter(x=>typeof x==='string').map(x=>{if(x.startsWith('call:')&&Object.hasOwn(data.callAliases||{},x.slice(5)))return 'call:'+data.callAliases[x.slice(5)];return x;}).filter(x=>allowed.has(x)))];
   }
-  return { validDate, dateInZone, parseInstant, countdown, primaryNode, calendarDate, stateOf, venueActivity, searchMatches, cleanTopics, topicMatches, indexingStatus, cleanGrades, evaluationMatches, filterVenues, filterCalls, escapeICS, foldLine, eligibleNodes, createICS, cleanFavorites };
+  return { validDate, dateInZone, parseInstant, countdown, primaryNode, calendarDate, stateOf, venueActivity, indexMatches, parseVenueQuery, searchMatches, cleanTopics, topicMatches, indexingStatus, cleanGrades, evaluationMatches, filterVenues, filterCalls, escapeICS, foldLine, eligibleNodes, createICS, cleanFavorites };
 });

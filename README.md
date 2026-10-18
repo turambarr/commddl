@@ -4,7 +4,17 @@
 
 [在线使用](https://turambarr.github.io/commddl/) · [纠错 / 补充目录](https://github.com/turambarr/commddl/issues/new?template=data.yml) · [逐项来源](docs/CATALOG.md) · [核验记录](docs/VERIFICATION.md)
 
-![目录预览](docs/preview-v0.5.jpg)
+![目录预览](docs/preview-v0.6.jpg)
+
+## v0.6.0 · 搜索与筛选（2026-10-19）
+
+- 一键查看SCI期刊、SCI中科院一区/二区、SCI与JCR Q1组合；SCI在本站对应SCIE（科学引文索引扩展版），ESCI（新兴来源引文索引）独立。
+- 收录、分区、评级改为直接可点的选项，显示匹配数量；同体系多选匹配任一项，不同条件同时满足。
+- 搜索支持`SCI 一区`、`SCI Q1`、`中科院二区 无线`、`CCF A`，显示已识别条件；剩余关键词继续匹配名称、主题、简称及旧名。
+- 截稿页与目录使用一致的属性筛选；期刊快捷入口查完整目录，截稿页仅查已录入活动，常规期刊不会因此生成截止。
+- 组合筛选、清除条件、分享链接和刷新恢复可用。匹配数量仅依据条目已列年份的证据，不代表最新原库实时查询。
+
+具体使用说明见[搜索与筛选](docs/FILTERS.md)。
 
 ## v0.5.0
 
