@@ -13,11 +13,10 @@ DTEND;VALUE=DATE:20261102
 SUMMARY:IEEE WCM · 人工智能赋能水下无线光通信 · 稿件提交
  （日期提示）
 DESCRIPTION:日期提示：官网未明确具体钟点或时区，请在投
- 稿前核对官方系统关闭时间。\n官方首次决定年份早于投
- 稿截止，日期存在冲突。投稿日期与官方总表一致，通
- 知时间待复核。\n来源：https://www.comsoc.org/publications/magazi
- nes/ieee-wireless-communications/cfp/ai-empowered-underwater-wireless-opti
- cal-communications-science-exploration-and-defense-applications
+ 稿前核对官方系统关闭时间。\n\n来源：https://www.comsoc.org
+ /publications/magazines/ieee-wireless-communications/cfp/ai-empowered-unde
+ rwater-wireless-optical-communications-science-exploration-and-defense-app
+ lications
 URL:https://www.comsoc.org/publications/magazines/ieee-wireless-communicati
  ons/cfp/ai-empowered-underwater-wireless-optical-communications-science-ex
  ploration-and-defense-applications
@@ -65,10 +64,8 @@ LAST-MODIFIED:20261018T040000Z
 SEQUENCE:1
 DTSTART:20260924T120000Z
 SUMMARY:ICASSP · ICASSP 2027 · 主会论文 · 全文提交
-DESCRIPTION:请同时核对官方投稿入口。\n当前征稿页与投稿
- 页均列9月23日。原文国际日期变更线24:00换算为9月24日00:
- 00 UTC−12；保留原文。旧paper_kit页列9月16日，采用当前页
- 面日期。\n来源：https://cmsworkshops.com/ICASSP2027/papers.php
+DESCRIPTION:请同时核对官方投稿入口。\n\n来源：https://cmswor
+ kshops.com/ICASSP2027/papers.php
 URL:https://cmsworkshops.com/ICASSP2027/papers.php
 TRANSP:TRANSPARENT
 END:VEVENT
@@ -82,10 +79,8 @@ DTEND;VALUE=DATE:20270211
 SUMMARY:ICASSP · ICASSP 2027 · 主会论文 · 作者注册（日期提
  示）
 DESCRIPTION:日期提示：官网未明确具体钟点或时区，请在投
- 稿前核对官方系统关闭时间。\n当前征稿页与投稿页均列
- 9月23日。原文国际日期变更线24:00换算为9月24日00:00 UTC−
- 12；保留原文。旧paper_kit页列9月16日，采用当前页面日期
- 。\n来源：https://2027.ieeeicassp.org/call-for-papers/
+ 稿前核对官方系统关闭时间。\n\n来源：https://2027.ieeeicass
+ p.org/call-for-papers/
 URL:https://2027.ieeeicassp.org/call-for-papers/
 TRANSP:TRANSPARENT
 END:VEVENT
@@ -98,9 +93,8 @@ DTSTART;VALUE=DATE:20261109
 DTEND;VALUE=DATE:20261110
 SUMMARY:NOMS · NOMS 2027 · 主会论文 · 全文提交（日期提示）
 DESCRIPTION:日期提示：官网未明确具体钟点或时区，请在投
- 稿前核对官方系统关闭时间。\n官网公布截止日期，钟点
- 或时区未注明，按日期展示。\n来源：https://noms2027.ieee-no
- ms.org/authors
+ 稿前核对官方系统关闭时间。\n\n来源：https://noms2027.ieee-
+ noms.org/authors
 URL:https://noms2027.ieee-noms.org/authors
 TRANSP:TRANSPARENT
 END:VEVENT
@@ -114,9 +108,8 @@ DTEND;VALUE=DATE:20260711
 SUMMARY:CloudNet · CloudNet 2026 · 主会论文 · 全文提交（日期
  提示）
 DESCRIPTION:日期提示：官网未明确具体钟点或时区，请在投
- 稿前核对官方系统关闭时间。\n官网公布截止日期，钟点
- 或时区未注明，按日期展示。\n来源：https://cloudnet2026.iee
- e-cloudnet.org/authors
+ 稿前核对官方系统关闭时间。\n\n来源：https://cloudnet2026.i
+ eee-cloudnet.org/authors
 URL:https://cloudnet2026.ieee-cloudnet.org/authors
 TRANSP:TRANSPARENT
 END:VEVENT
@@ -130,11 +123,8 @@ DTEND;VALUE=DATE:20260224
 SUMMARY:ICMLCN · ICMLCN 2026 · 主会论文 · 全文提交（日期提
  示）
 DESCRIPTION:日期提示：官网未明确具体钟点或时区，请在投
- 稿前核对官方系统关闭时间。\n官网首页明确会议已改期
- 至2026年6月8–11日，并支持混合参会；CFP与Authors一致标
- 记全文延期至2月23日。通知及终稿在不同官方页面冲突
- ，保留未知节点与复查记录，不择一假定。\n来源：https:
- //icmlcn2026.ieee-icmlcn.org/call-papers
+ 稿前核对官方系统关闭时间。\n\n来源：https://icmlcn2026.iee
+ e-icmlcn.org/call-papers
 URL:https://icmlcn2026.ieee-icmlcn.org/call-papers
 TRANSP:TRANSPARENT
 END:VEVENT
@@ -145,9 +135,8 @@ LAST-MODIFIED:20261018T080000Z
 SEQUENCE:0
 DTSTART:20261128T115900Z
 SUMMARY:MobiSys · MobiSys 2027 · 摘要／注册
-DESCRIPTION:请同时核对官方投稿入口。\n官方当前未公布完
- 整会期；摘要/注册是全文前置。\n来源：https://www.sigmobil
- e.org/mobisys/2027/call_for_papers/
+DESCRIPTION:请同时核对官方投稿入口。\n\n来源：https://www.si
+ gmobile.org/mobisys/2027/call_for_papers/
 URL:https://www.sigmobile.org/mobisys/2027/call_for_papers/
 TRANSP:TRANSPARENT
 END:VEVENT
@@ -159,9 +148,8 @@ SEQUENCE:0
 DTSTART:20261205T115900Z
 SUMMARY:MobiSys · MobiSys 2027 · 全文提交
 DESCRIPTION:请同时核对官方投稿入口。\n需先完成摘要或注
- 册等前置步骤。\n官方当前未公布完整会期；摘要/注册
- 是全文前置。\n来源：https://www.sigmobile.org/mobisys/2027/call_f
- or_papers/
+ 册等前置步骤。\n\n来源：https://www.sigmobile.org/mobisys/2027/c
+ all_for_papers/
 URL:https://www.sigmobile.org/mobisys/2027/call_for_papers/
 TRANSP:TRANSPARENT
 END:VEVENT
@@ -172,10 +160,8 @@ LAST-MODIFIED:20261018T080000Z
 SEQUENCE:0
 DTSTART:20260417T035900Z
 SUMMARY:NSDI · NSDI 2027 · 春季轮 · 摘要／注册
-DESCRIPTION:请同时核对官方投稿入口。\n两轮主会新投稿均
- 已截止。摘要与全文的官网时刻为11:59pm US EDT（美国东部
- 夏令时间23:59）；春季终稿2026-10-20适用于已录用论文。\n
- 来源：https://www.usenix.org/conference/nsdi27/call-for-papers
+DESCRIPTION:请同时核对官方投稿入口。\n\n来源：https://www.us
+ enix.org/conference/nsdi27/call-for-papers
 URL:https://www.usenix.org/conference/nsdi27/call-for-papers
 TRANSP:TRANSPARENT
 END:VEVENT
@@ -187,10 +173,8 @@ SEQUENCE:0
 DTSTART:20260424T035900Z
 SUMMARY:NSDI · NSDI 2027 · 春季轮 · 全文提交
 DESCRIPTION:请同时核对官方投稿入口。\n需先完成摘要或注
- 册等前置步骤。\n两轮主会新投稿均已截止。摘要与全文
- 的官网时刻为11:59pm US EDT（美国东部夏令时间23:59）；春
- 季终稿2026-10-20适用于已录用论文。\n来源：https://www.useni
- x.org/conference/nsdi27/call-for-papers
+ 册等前置步骤。\n\n来源：https://www.usenix.org/conference/nsdi27
+ /call-for-papers
 URL:https://www.usenix.org/conference/nsdi27/call-for-papers
 TRANSP:TRANSPARENT
 END:VEVENT
@@ -201,10 +185,8 @@ LAST-MODIFIED:20261018T080000Z
 SEQUENCE:0
 DTSTART:20260911T035900Z
 SUMMARY:NSDI · NSDI 2027 · 秋季轮 · 摘要／注册
-DESCRIPTION:请同时核对官方投稿入口。\n两轮主会新投稿均
- 已截止。摘要与全文的官网时刻为11:59pm US EDT（美国东部
- 夏令时间23:59）；春季终稿2026-10-20适用于已录用论文。\n
- 来源：https://www.usenix.org/conference/nsdi27/call-for-papers
+DESCRIPTION:请同时核对官方投稿入口。\n\n来源：https://www.us
+ enix.org/conference/nsdi27/call-for-papers
 URL:https://www.usenix.org/conference/nsdi27/call-for-papers
 TRANSP:TRANSPARENT
 END:VEVENT
@@ -216,10 +198,8 @@ SEQUENCE:0
 DTSTART:20260918T035900Z
 SUMMARY:NSDI · NSDI 2027 · 秋季轮 · 全文提交
 DESCRIPTION:请同时核对官方投稿入口。\n需先完成摘要或注
- 册等前置步骤。\n两轮主会新投稿均已截止。摘要与全文
- 的官网时刻为11:59pm US EDT（美国东部夏令时间23:59）；春
- 季终稿2026-10-20适用于已录用论文。\n来源：https://www.useni
- x.org/conference/nsdi27/call-for-papers
+ 册等前置步骤。\n\n来源：https://www.usenix.org/conference/nsdi27
+ /call-for-papers
 URL:https://www.usenix.org/conference/nsdi27/call-for-papers
 TRANSP:TRANSPARENT
 END:VEVENT
@@ -230,10 +210,8 @@ LAST-MODIFIED:20261018T080000Z
 SEQUENCE:0
 DTSTART:20260530T115900Z
 SUMMARY:SenSys · SenSys 2027 · 第一轮 · 摘要／注册
-DESCRIPTION:请同时核对官方投稿入口。\nSenSys、IPSN、IoTDI合
- 并后的会议，终稿官网标为TBD（待定）。第1轮提前通知
- 的星期与数字日期冲突，该通知节点尚未录入。\n来源：
- https://sensys.acm.org/2027/
+DESCRIPTION:请同时核对官方投稿入口。\n\n来源：https://sensys
+ .acm.org/2027/
 URL:https://sensys.acm.org/2027/
 TRANSP:TRANSPARENT
 END:VEVENT
@@ -245,10 +223,7 @@ SEQUENCE:0
 DTSTART:20260606T115900Z
 SUMMARY:SenSys · SenSys 2027 · 第一轮 · 全文提交
 DESCRIPTION:请同时核对官方投稿入口。\n需先完成摘要或注
- 册等前置步骤。\nSenSys、IPSN、IoTDI合并后的会议，终稿官
- 网标为TBD（待定）。第1轮提前通知的星期与数字日期冲
- 突，该通知节点尚未录入。\n来源：https://sensys.acm.org/2027
- /
+ 册等前置步骤。\n\n来源：https://sensys.acm.org/2027/
 URL:https://sensys.acm.org/2027/
 TRANSP:TRANSPARENT
 END:VEVENT
@@ -259,10 +234,8 @@ LAST-MODIFIED:20261018T080000Z
 SEQUENCE:0
 DTSTART:20261030T115900Z
 SUMMARY:SenSys · SenSys 2027 · 第二轮 · 摘要／注册
-DESCRIPTION:请同时核对官方投稿入口。\nSenSys、IPSN、IoTDI合
- 并后的会议，终稿官网标为TBD（待定）。第1轮提前通知
- 的星期与数字日期冲突，该通知节点尚未录入。\n来源：
- https://sensys.acm.org/2027/
+DESCRIPTION:请同时核对官方投稿入口。\n\n来源：https://sensys
+ .acm.org/2027/
 URL:https://sensys.acm.org/2027/
 TRANSP:TRANSPARENT
 END:VEVENT
@@ -274,10 +247,7 @@ SEQUENCE:0
 DTSTART:20261106T115900Z
 SUMMARY:SenSys · SenSys 2027 · 第二轮 · 全文提交
 DESCRIPTION:请同时核对官方投稿入口。\n需先完成摘要或注
- 册等前置步骤。\nSenSys、IPSN、IoTDI合并后的会议，终稿官
- 网标为TBD（待定）。第1轮提前通知的星期与数字日期冲
- 突，该通知节点尚未录入。\n来源：https://sensys.acm.org/2027
- /
+ 册等前置步骤。\n\n来源：https://sensys.acm.org/2027/
 URL:https://sensys.acm.org/2027/
 TRANSP:TRANSPARENT
 END:VEVENT
@@ -288,10 +258,8 @@ LAST-MODIFIED:20261018T080000Z
 SEQUENCE:0
 DTSTART:20261128T115900Z
 SUMMARY:CoNEXT · CoNEXT 2027 · 12月轮 · 论文注册
-DESCRIPTION:请同时核对官方投稿入口。\n官方征稿列出两个
- 独立新投稿轮次。重大修改节点适用于获修改机会的稿
- 件。SIGCOMM系列总页将2027里约热内卢会期列为待确认。\n
- 来源：https://conferences.sigcomm.org/co-next/2027/partials/cfp.html
+DESCRIPTION:请同时核对官方投稿入口。\n\n来源：https://confer
+ ences.sigcomm.org/co-next/2027/partials/cfp.html
 URL:https://conferences.sigcomm.org/co-next/2027/partials/cfp.html
 TRANSP:TRANSPARENT
 END:VEVENT
@@ -303,10 +271,8 @@ SEQUENCE:0
 DTSTART:20261205T115900Z
 SUMMARY:CoNEXT · CoNEXT 2027 · 12月轮 · 全文提交
 DESCRIPTION:请同时核对官方投稿入口。\n需先完成摘要或注
- 册等前置步骤。\n官方征稿列出两个独立新投稿轮次。重
- 大修改节点适用于获修改机会的稿件。SIGCOMM系列总页将2
- 027里约热内卢会期列为待确认。\n来源：https://conferences.s
- igcomm.org/co-next/2027/partials/cfp.html
+ 册等前置步骤。\n\n来源：https://conferences.sigcomm.org/co-next/
+ 2027/partials/cfp.html
 URL:https://conferences.sigcomm.org/co-next/2027/partials/cfp.html
 TRANSP:TRANSPARENT
 END:VEVENT
@@ -317,10 +283,8 @@ LAST-MODIFIED:20261018T080000Z
 SEQUENCE:0
 DTSTART:20270529T115900Z
 SUMMARY:CoNEXT · CoNEXT 2027 · 6月轮 · 论文注册
-DESCRIPTION:请同时核对官方投稿入口。\n官方征稿列出两个
- 独立新投稿轮次。重大修改节点适用于获修改机会的稿
- 件。SIGCOMM系列总页将2027里约热内卢会期列为待确认。\n
- 来源：https://conferences.sigcomm.org/co-next/2027/partials/cfp.html
+DESCRIPTION:请同时核对官方投稿入口。\n\n来源：https://confer
+ ences.sigcomm.org/co-next/2027/partials/cfp.html
 URL:https://conferences.sigcomm.org/co-next/2027/partials/cfp.html
 TRANSP:TRANSPARENT
 END:VEVENT
@@ -332,10 +296,8 @@ SEQUENCE:0
 DTSTART:20270605T115900Z
 SUMMARY:CoNEXT · CoNEXT 2027 · 6月轮 · 全文提交
 DESCRIPTION:请同时核对官方投稿入口。\n需先完成摘要或注
- 册等前置步骤。\n官方征稿列出两个独立新投稿轮次。重
- 大修改节点适用于获修改机会的稿件。SIGCOMM系列总页将2
- 027里约热内卢会期列为待确认。\n来源：https://conferences.s
- igcomm.org/co-next/2027/partials/cfp.html
+ 册等前置步骤。\n\n来源：https://conferences.sigcomm.org/co-next/
+ 2027/partials/cfp.html
 URL:https://conferences.sigcomm.org/co-next/2027/partials/cfp.html
 TRANSP:TRANSPARENT
 END:VEVENT
@@ -348,8 +310,8 @@ DTSTART;VALUE=DATE:20270115
 DTEND;VALUE=DATE:20270116
 SUMMARY:IWCMC · IWCMC 2027 · 全文提交（日期提示）
 DESCRIPTION:日期提示：官网未明确具体钟点或时区，请在投
- 稿前核对官方系统关闭时间。\n官方只给日期，钟点时区
- 未公布。\n来源：https://iwcmc.net/2027/index.php
+ 稿前核对官方系统关闭时间。\n\n来源：https://iwcmc.net/2027
+ /index.php
 URL:https://iwcmc.net/2027/index.php
 TRANSP:TRANSPARENT
 END:VEVENT
@@ -363,10 +325,8 @@ DTEND;VALUE=DATE:20261112
 SUMMARY:ICASSP · ICASSP 2027 · 附属研讨会论文 · 全文提交（
  日期提示）
 DESCRIPTION:日期提示：官网未明确具体钟点或时区，请在投
- 稿前核对官方系统关闭时间。\n已征集附属研讨会的统一
- 论文截止，各会具体日期见其官网。研讨会使用独立IEEE 
- Xplore论文集编号，评级单独记录。\n来源：https://2027.ieeei
- cassp.org/call-for-satellite-workshops/
+ 稿前核对官方系统关闭时间。\n\n来源：https://2027.ieeeicass
+ p.org/call-for-satellite-workshops/
 URL:https://2027.ieeeicassp.org/call-for-satellite-workshops/
 TRANSP:TRANSPARENT
 END:VEVENT
@@ -379,12 +339,8 @@ DTSTART;VALUE=DATE:20260902
 DTEND;VALUE=DATE:20260903
 SUMMARY:WPMC · WPMC 2026 · 主会论文 · 全文提交（日期提示）
 DESCRIPTION:日期提示：官网未明确具体钟点或时区，请在投
- 稿前核对官方系统关闭时间。\n2026 第 29 届，官网当前举
- 办地为 Natal（纳塔尔），不沿用 2024 年筹备纪要的 São Pa
- ulo（圣保罗）计划。主会投稿及终稿已截止。首页日期
- 区注明 UTC-4 但未给钟点，所以不生成精确倒计时。官网
- 承诺符合要求的论文拟提交 IEEE Xplore；未将出版计划当
- 作 Ei/Scopus 已检索证明。\n来源：https://wpmc.imd.ufrn.br/
+ 稿前核对官方系统关闭时间。\n\n来源：https://wpmc.imd.ufrn.
+ br/
 URL:https://wpmc.imd.ufrn.br/
 TRANSP:TRANSPARENT
 END:VEVENT

@@ -2,11 +2,11 @@
 const fs=require('node:fs'),path=require('node:path');
 const root=path.join(__dirname,'..'),D=JSON.parse(fs.readFileSync(path.join(root,'data/catalog.json'),'utf8'));
 const labels={verified:'一手来源',reported:'副本／转录',unlisted:'所查版本未列入',unresolved:'已复查，证据不足',pending:'待核验','not-matched':'未匹配','scope-review':'对应范围未明确','non-ranked':'非等级状态','not-applicable':'不适用'};
-const systems={jcr:'JCR',cas:'中科院',ccf:'CCF',core:'ICORE'};
+const systems={jcr:'JCR',cas:'中科院',ccf:'CCF',core:'CORE / ICORE',cie:'电子学会',cic:'通信学会'};
 const txt=s=>String(s??'').replaceAll('|','／').replaceAll('\n',' ');
 const active=D.venues.filter(v=>v.catalogScope!=='archive'),archived=D.venues.filter(v=>v.catalogScope==='archive');
 let out=`# v${D.meta.version} 目录与证据覆盖\n\n整理日期：${D.meta.updatedAt}。通信目录 ${active.filter(v=>v.kind==='journal').length} 本期刊、${active.filter(v=>v.kind==='conference').length} 个会议系列；历史参考库 ${archived.length} 项。${D.areas.length} 个方向、${D.topics.length} 个主题。具体活动另计 ${D.calls.length} 项。\n\n## 评级版本\n\n`;
-for(const r of D.ratingSystems)out+=`- ${r.label} ${r.year}：${r.note} [来源](${r.sourceUrl})\n`;
+for(const r of D.ratingSystems)out+=`- ${r.label} ${r.year}：${r.note||'按条目所载原始年份记录。'} [来源](${r.sourceUrl})\n`;
 out+='\n同一体系多选为或，不同体系为且；主题分类与评级属性独立。未列入对应已检查版本，转录注明原始年份和来源。\n\n## 方向覆盖\n\n| 代码 | 方向 | 期刊 | 会议 |\n|---|---|---:|---:|\n';
 for(const a of D.areas)out+=`| ${a.code} | ${a.label} | ${active.filter(v=>v.kind==='journal'&&v.areas.includes(a.id)).length} | ${active.filter(v=>v.kind==='conference'&&v.areas.includes(a.id)).length} |\n`;
 for(const [title,rows] of [['通信期刊',active.filter(v=>v.kind==='journal')],['通信会议',active.filter(v=>v.kind==='conference')],['历史参考库',archived]]){

@@ -1,0 +1,4994 @@
+{
+  "sourceFile": "commddl_master_catalog_and_taxonomy.md",
+  "sourceSha256": "15bd16dfa0b28e1d8c99bd851ff75743d282efc195ac93c50d2dbb04a6070dc5",
+  "rows": [
+    {
+      "docId": "comst",
+      "line": 238,
+      "kind": "journal",
+      "name": "IEEE Communications Surveys & Tutorials",
+      "issns": [
+        "1553-877X"
+      ],
+      "primaryArea": "wireless",
+      "secondaryAreas": [
+        "network",
+        "iot"
+      ],
+      "venueId": "comst"
+    },
+    {
+      "docId": "jsac",
+      "line": 239,
+      "kind": "journal",
+      "name": "IEEE Journal on Selected Areas in Communications",
+      "issns": [
+        "0733-8716"
+      ],
+      "primaryArea": "wireless",
+      "secondaryAreas": [
+        "network",
+        "signal"
+      ],
+      "venueId": "jsac"
+    },
+    {
+      "docId": "tcom",
+      "line": 240,
+      "kind": "journal",
+      "name": "IEEE Transactions on Communications",
+      "issns": [
+        "0090-6778"
+      ],
+      "primaryArea": "wireless",
+      "secondaryAreas": [
+        "signal",
+        "theory"
+      ],
+      "venueId": "tcom"
+    },
+    {
+      "docId": "twc",
+      "line": 241,
+      "kind": "journal",
+      "name": "IEEE Transactions on Wireless Communications",
+      "issns": [
+        "1536-1276"
+      ],
+      "primaryArea": "wireless",
+      "secondaryAreas": [
+        "signal",
+        "network"
+      ],
+      "venueId": "twc"
+    },
+    {
+      "docId": "wcm",
+      "line": 242,
+      "kind": "journal",
+      "name": "IEEE Wireless Communications",
+      "issns": [
+        "1536-1284"
+      ],
+      "primaryArea": "wireless",
+      "secondaryAreas": [
+        "network",
+        "ai"
+      ],
+      "venueId": "wireless-mag"
+    },
+    {
+      "docId": "commag",
+      "line": 243,
+      "kind": "journal",
+      "name": "IEEE Communications Magazine",
+      "issns": [
+        "0163-6804"
+      ],
+      "primaryArea": "wireless",
+      "secondaryAreas": [
+        "network",
+        "optical"
+      ],
+      "venueId": "commag"
+    },
+    {
+      "docId": "pieee",
+      "line": 244,
+      "kind": "journal",
+      "name": "Proceedings of the IEEE",
+      "issns": [
+        "0018-9219"
+      ],
+      "primaryArea": "wireless",
+      "secondaryAreas": [
+        "signal",
+        "rf"
+      ],
+      "venueId": "proceedings-ieee"
+    },
+    {
+      "docId": "scis",
+      "line": 245,
+      "kind": "journal",
+      "name": "SCIENCE CHINA Information Sciences",
+      "issns": [
+        "1674-733X"
+      ],
+      "primaryArea": "wireless",
+      "secondaryAreas": [
+        "ai",
+        "network"
+      ],
+      "venueId": "scis"
+    },
+    {
+      "docId": "dcn",
+      "line": 246,
+      "kind": "journal",
+      "name": "Digital Communications and Networks",
+      "issns": [
+        "2352-8648"
+      ],
+      "primaryArea": "wireless",
+      "secondaryAreas": [
+        "network",
+        "iot"
+      ],
+      "venueId": "dcn"
+    },
+    {
+      "docId": "wcl",
+      "line": 247,
+      "kind": "journal",
+      "name": "IEEE Wireless Communications Letters",
+      "issns": [
+        "2162-2337"
+      ],
+      "primaryArea": "wireless",
+      "secondaryAreas": [
+        "signal"
+      ],
+      "venueId": "wcl"
+    },
+    {
+      "docId": "cl",
+      "line": 248,
+      "kind": "journal",
+      "name": "IEEE Communications Letters",
+      "issns": [
+        "1089-7798"
+      ],
+      "primaryArea": "wireless",
+      "secondaryAreas": [
+        "signal",
+        "theory"
+      ],
+      "venueId": "cl"
+    },
+    {
+      "docId": "chinacomm",
+      "line": 249,
+      "kind": "journal",
+      "name": "China Communications",
+      "issns": [
+        "1673-5447"
+      ],
+      "primaryArea": "wireless",
+      "secondaryAreas": [
+        "network",
+        "signal"
+      ],
+      "venueId": "china-communications"
+    },
+    {
+      "docId": "ojcoms",
+      "line": 250,
+      "kind": "journal",
+      "name": "IEEE Open Journal of the Communications Society",
+      "issns": [
+        "2644-125X"
+      ],
+      "primaryArea": "wireless",
+      "secondaryAreas": [
+        "network",
+        "signal"
+      ],
+      "venueId": "ojcoms"
+    },
+    {
+      "docId": "jcin",
+      "line": 251,
+      "kind": "journal",
+      "name": "Journal of Communications and Information Networks",
+      "issns": [
+        "2096-1081"
+      ],
+      "primaryArea": "wireless",
+      "secondaryAreas": [
+        "network",
+        "ai"
+      ],
+      "venueId": "jcin"
+    },
+    {
+      "docId": "fitee",
+      "line": 252,
+      "kind": "journal",
+      "name": "Frontiers of Information Technology & Electronic Engineering",
+      "issns": [
+        "2095-9184"
+      ],
+      "primaryArea": "wireless",
+      "secondaryAreas": [
+        "ai",
+        "rf"
+      ],
+      "venueId": "eitee"
+    },
+    {
+      "docId": "cje",
+      "line": 253,
+      "kind": "journal",
+      "name": "Chinese Journal of Electronics",
+      "issns": [
+        "1022-4653"
+      ],
+      "primaryArea": "wireless",
+      "secondaryAreas": [
+        "signal",
+        "rf"
+      ],
+      "venueId": "cje"
+    },
+    {
+      "docId": "iet-com",
+      "line": 254,
+      "kind": "journal",
+      "name": "IET Communications",
+      "issns": [
+        "1751-8628"
+      ],
+      "primaryArea": "wireless",
+      "secondaryAreas": [
+        "network",
+        "signal"
+      ],
+      "venueId": "iet-com"
+    },
+    {
+      "docId": "phycom",
+      "line": 255,
+      "kind": "journal",
+      "name": "Physical Communication",
+      "issns": [
+        "1874-4907"
+      ],
+      "primaryArea": "wireless",
+      "secondaryAreas": [
+        "signal"
+      ],
+      "venueId": "phycom"
+    },
+    {
+      "docId": "jcn",
+      "line": 256,
+      "kind": "journal",
+      "name": "Journal of Communications and Networks",
+      "issns": [
+        "1229-2370"
+      ],
+      "primaryArea": "wireless",
+      "secondaryAreas": [
+        "network"
+      ],
+      "venueId": "jcn"
+    },
+    {
+      "docId": "ieice-com",
+      "line": 257,
+      "kind": "journal",
+      "name": "IEICE Transactions on Communications",
+      "issns": [
+        "0916-8516"
+      ],
+      "primaryArea": "wireless",
+      "secondaryAreas": [
+        "network"
+      ],
+      "venueId": "ieice-com"
+    },
+    {
+      "docId": "ijcs",
+      "line": 258,
+      "kind": "journal",
+      "name": "International Journal of Communication Systems",
+      "issns": [
+        "1074-5351"
+      ],
+      "primaryArea": "wireless",
+      "secondaryAreas": [
+        "network"
+      ],
+      "venueId": "ijcs"
+    },
+    {
+      "docId": "ett",
+      "line": 259,
+      "kind": "journal",
+      "name": "Transactions on Emerging Telecommunications Technologies",
+      "issns": [
+        "2161-3915"
+      ],
+      "primaryArea": "wireless",
+      "secondaryAreas": [
+        "network"
+      ],
+      "venueId": "ett"
+    },
+    {
+      "docId": "wpc",
+      "line": 260,
+      "kind": "journal",
+      "name": "Wireless Personal Communications",
+      "issns": [
+        "0929-6212"
+      ],
+      "primaryArea": "wireless",
+      "secondaryAreas": [],
+      "venueId": "wpc"
+    },
+    {
+      "docId": "wcmc",
+      "line": 261,
+      "kind": "journal",
+      "name": "Wireless Communications and Mobile Computing",
+      "issns": [
+        "1530-8669"
+      ],
+      "primaryArea": "wireless",
+      "secondaryAreas": [
+        "network"
+      ],
+      "venueId": "wcmc"
+    },
+    {
+      "docId": "aeu",
+      "line": 262,
+      "kind": "journal",
+      "name": "AEU - International Journal of Electronics and Communications",
+      "issns": [
+        "1434-8411"
+      ],
+      "primaryArea": "wireless",
+      "secondaryAreas": [
+        "rf"
+      ],
+      "venueId": "aeu"
+    },
+    {
+      "docId": "el",
+      "line": 263,
+      "kind": "journal",
+      "name": "Electronics Letters",
+      "issns": [
+        "0013-5194"
+      ],
+      "primaryArea": "wireless",
+      "secondaryAreas": [
+        "rf",
+        "signal"
+      ],
+      "venueId": "electronics-letters"
+    },
+    {
+      "docId": "jcupt",
+      "line": 264,
+      "kind": "journal",
+      "name": "The Journal of China Universities of Posts and Telecommunications",
+      "issns": [
+        "1005-8885"
+      ],
+      "primaryArea": "wireless",
+      "secondaryAreas": [
+        "network"
+      ],
+      "venueId": "jcupt"
+    },
+    {
+      "docId": "ijet",
+      "line": 265,
+      "kind": "journal",
+      "name": "International Journal of Electronics and Telecommunications",
+      "issns": [
+        "2081-8491"
+      ],
+      "primaryArea": "wireless",
+      "secondaryAreas": [
+        "rf"
+      ],
+      "venueId": "ijet"
+    },
+    {
+      "docId": "tsp",
+      "line": 271,
+      "kind": "journal",
+      "name": "IEEE Transactions on Signal Processing",
+      "issns": [
+        "1053-587X"
+      ],
+      "primaryArea": "signal",
+      "secondaryAreas": [
+        "wireless",
+        "theory"
+      ],
+      "venueId": "tsp"
+    },
+    {
+      "docId": "jstsp",
+      "line": 272,
+      "kind": "journal",
+      "name": "IEEE Journal of Selected Topics in Signal Processing",
+      "issns": [
+        "1932-4553"
+      ],
+      "primaryArea": "signal",
+      "secondaryAreas": [
+        "wireless",
+        "ai"
+      ],
+      "venueId": "jstsp"
+    },
+    {
+      "docId": "spm",
+      "line": 273,
+      "kind": "journal",
+      "name": "IEEE Signal Processing Magazine",
+      "issns": [
+        "1053-5888"
+      ],
+      "primaryArea": "signal",
+      "secondaryAreas": [
+        "wireless",
+        "ai"
+      ],
+      "venueId": "spmag"
+    },
+    {
+      "docId": "tip",
+      "line": 274,
+      "kind": "journal",
+      "name": "IEEE Transactions on Image Processing",
+      "issns": [
+        "1057-7149"
+      ],
+      "primaryArea": "signal",
+      "secondaryAreas": [
+        "ai"
+      ],
+      "venueId": "tip"
+    },
+    {
+      "docId": "tmm",
+      "line": 275,
+      "kind": "journal",
+      "name": "IEEE Transactions on Multimedia",
+      "issns": [
+        "1520-9210"
+      ],
+      "primaryArea": "signal",
+      "secondaryAreas": [
+        "ai",
+        "network"
+      ],
+      "venueId": "tmm"
+    },
+    {
+      "docId": "tcsvt",
+      "line": 276,
+      "kind": "journal",
+      "name": "IEEE Transactions on Circuits and Systems for Video Technology",
+      "issns": [
+        "1051-8215"
+      ],
+      "primaryArea": "signal",
+      "secondaryAreas": [
+        "ai",
+        "network"
+      ],
+      "venueId": "tcsvt"
+    },
+    {
+      "docId": "taslp",
+      "line": 277,
+      "kind": "journal",
+      "name": "IEEE/ACM Transactions on Audio, Speech, and Language Processing",
+      "issns": [
+        "2329-9290"
+      ],
+      "primaryArea": "signal",
+      "secondaryAreas": [
+        "ai"
+      ],
+      "venueId": "taslp"
+    },
+    {
+      "docId": "tsipn",
+      "line": 278,
+      "kind": "journal",
+      "name": "IEEE Transactions on Signal and Information Processing over Networks",
+      "issns": [
+        "2373-776X"
+      ],
+      "primaryArea": "signal",
+      "secondaryAreas": [
+        "network",
+        "theory"
+      ],
+      "venueId": "tsipn"
+    },
+    {
+      "docId": "spl",
+      "line": 279,
+      "kind": "journal",
+      "name": "IEEE Signal Processing Letters",
+      "issns": [
+        "1070-9908"
+      ],
+      "primaryArea": "signal",
+      "secondaryAreas": [
+        "wireless",
+        "ai"
+      ],
+      "venueId": "spl"
+    },
+    {
+      "docId": "tim",
+      "line": 280,
+      "kind": "journal",
+      "name": "IEEE Transactions on Instrumentation and Measurement",
+      "issns": [
+        "0018-9456"
+      ],
+      "primaryArea": "signal",
+      "secondaryAreas": [
+        "rf",
+        "iot"
+      ],
+      "venueId": "tim"
+    },
+    {
+      "docId": "tbc",
+      "line": 281,
+      "kind": "journal",
+      "name": "IEEE Transactions on Broadcasting",
+      "issns": [
+        "0018-9316"
+      ],
+      "primaryArea": "signal",
+      "secondaryAreas": [
+        "wireless",
+        "network"
+      ],
+      "venueId": "tbc"
+    },
+    {
+      "docId": "tmi",
+      "line": 282,
+      "kind": "journal",
+      "name": "IEEE Transactions on Medical Imaging",
+      "issns": [
+        "0278-0062"
+      ],
+      "primaryArea": "signal",
+      "secondaryAreas": [
+        "ai"
+      ],
+      "venueId": "tmi"
+    },
+    {
+      "docId": "tuffc",
+      "line": 283,
+      "kind": "journal",
+      "name": "IEEE Transactions on Ultrasonics, Ferroelectrics, and Frequency Control",
+      "issns": [
+        "0885-3010"
+      ],
+      "primaryArea": "signal",
+      "secondaryAreas": [
+        "rf"
+      ],
+      "venueId": "tuffc"
+    },
+    {
+      "docId": "siam-is",
+      "line": 284,
+      "kind": "journal",
+      "name": "SIAM Journal on Imaging Sciences",
+      "issns": [
+        "1936-4954"
+      ],
+      "primaryArea": "signal",
+      "secondaryAreas": [
+        "theory"
+      ],
+      "venueId": "siam-is"
+    },
+    {
+      "docId": "sigproc",
+      "line": 285,
+      "kind": "journal",
+      "name": "Signal Processing",
+      "issns": [
+        "0165-1684"
+      ],
+      "primaryArea": "signal",
+      "secondaryAreas": [
+        "wireless"
+      ],
+      "venueId": "signal-processing"
+    },
+    {
+      "docId": "dsp-j",
+      "line": 286,
+      "kind": "journal",
+      "name": "Digital Signal Processing",
+      "issns": [
+        "1051-2004"
+      ],
+      "primaryArea": "signal",
+      "secondaryAreas": [
+        "wireless"
+      ],
+      "venueId": "dsp"
+    },
+    {
+      "docId": "spic",
+      "line": 287,
+      "kind": "journal",
+      "name": "Signal Processing: Image Communication",
+      "issns": [
+        "0923-5965"
+      ],
+      "primaryArea": "signal",
+      "secondaryAreas": [
+        "ai"
+      ],
+      "venueId": "spic"
+    },
+    {
+      "docId": "speech-com",
+      "line": 288,
+      "kind": "journal",
+      "name": "Speech Communication",
+      "issns": [
+        "0167-6393"
+      ],
+      "primaryArea": "signal",
+      "secondaryAreas": [
+        "ai"
+      ],
+      "venueId": "speech-com"
+    },
+    {
+      "docId": "jslhr",
+      "line": 289,
+      "kind": "journal",
+      "name": "Journal of Speech, Language, and Hearing Research",
+      "issns": [
+        "1092-4388"
+      ],
+      "primaryArea": "signal",
+      "secondaryAreas": [],
+      "venueId": "jslhr"
+    },
+    {
+      "docId": "cssp",
+      "line": 290,
+      "kind": "journal",
+      "name": "Circuits, Systems, and Signal Processing",
+      "issns": [
+        "0278-081X"
+      ],
+      "primaryArea": "signal",
+      "secondaryAreas": [
+        "rf"
+      ],
+      "venueId": "cssp"
+    },
+    {
+      "docId": "mssp",
+      "line": 291,
+      "kind": "journal",
+      "name": "Multidimensional Systems and Signal Processing",
+      "issns": [
+        "0923-6082"
+      ],
+      "primaryArea": "signal",
+      "secondaryAreas": [],
+      "venueId": "mssp"
+    },
+    {
+      "docId": "eurasip-asmp",
+      "line": 292,
+      "kind": "journal",
+      "name": "EURASIP Journal on Audio, Speech, and Music Processing",
+      "issns": [
+        "1687-4714"
+      ],
+      "primaryArea": "signal",
+      "secondaryAreas": [
+        "ai"
+      ],
+      "venueId": "eurasip-asmp"
+    },
+    {
+      "docId": "eurasip-jivp",
+      "line": 293,
+      "kind": "journal",
+      "name": "EURASIP Journal on Image and Video Processing",
+      "issns": [
+        "1687-5176"
+      ],
+      "primaryArea": "signal",
+      "secondaryAreas": [
+        "ai"
+      ],
+      "venueId": "eurasip-jivp"
+    },
+    {
+      "docId": "iet-ipr",
+      "line": 294,
+      "kind": "journal",
+      "name": "IET Image Processing",
+      "issns": [
+        "1751-9659"
+      ],
+      "primaryArea": "signal",
+      "secondaryAreas": [
+        "ai"
+      ],
+      "venueId": "iet-image"
+    },
+    {
+      "docId": "iet-rsn",
+      "line": 295,
+      "kind": "journal",
+      "name": "IET Radar, Sonar & Navigation",
+      "issns": [
+        "1751-8784"
+      ],
+      "primaryArea": "signal",
+      "secondaryAreas": [
+        "space",
+        "rf"
+      ],
+      "venueId": "iet-rsn"
+    },
+    {
+      "docId": "iet-sp",
+      "line": 296,
+      "kind": "journal",
+      "name": "IET Signal Processing",
+      "issns": [
+        "1751-9675"
+      ],
+      "primaryArea": "signal",
+      "secondaryAreas": [
+        "wireless"
+      ],
+      "venueId": "iet-sp"
+    },
+    {
+      "docId": "tit",
+      "line": 302,
+      "kind": "journal",
+      "name": "IEEE Transactions on Information Theory",
+      "issns": [
+        "0018-9448"
+      ],
+      "primaryArea": "theory",
+      "secondaryAreas": [
+        "wireless",
+        "signal"
+      ],
+      "venueId": "tit"
+    },
+    {
+      "docId": "jsait",
+      "line": 303,
+      "kind": "journal",
+      "name": "IEEE Journal on Selected Areas in Information Theory",
+      "issns": [
+        "2641-8770"
+      ],
+      "primaryArea": "theory",
+      "secondaryAreas": [
+        "wireless",
+        "ai"
+      ],
+      "venueId": "jsait"
+    },
+    {
+      "docId": "tifs",
+      "line": 304,
+      "kind": "journal",
+      "name": "IEEE Transactions on Information Forensics and Security",
+      "issns": [
+        "1556-6013"
+      ],
+      "primaryArea": "theory",
+      "secondaryAreas": [
+        "network",
+        "signal"
+      ],
+      "venueId": "tifs"
+    },
+    {
+      "docId": "tdsc",
+      "line": 305,
+      "kind": "journal",
+      "name": "IEEE Transactions on Dependable and Secure Computing",
+      "issns": [
+        "1545-5971"
+      ],
+      "primaryArea": "theory",
+      "secondaryAreas": [
+        "network"
+      ],
+      "venueId": "tdsc"
+    },
+    {
+      "docId": "joc",
+      "line": 306,
+      "kind": "journal",
+      "name": "Journal of Cryptology",
+      "issns": [
+        "0933-2790"
+      ],
+      "primaryArea": "theory",
+      "secondaryAreas": [
+        "network"
+      ],
+      "venueId": "joc"
+    },
+    {
+      "docId": "dcc-j",
+      "line": 307,
+      "kind": "journal",
+      "name": "Designs, Codes and Cryptography",
+      "issns": [
+        "0925-1022"
+      ],
+      "primaryArea": "theory",
+      "secondaryAreas": [],
+      "venueId": "dcc-j"
+    },
+    {
+      "docId": "tops",
+      "line": 308,
+      "kind": "journal",
+      "name": "ACM Transactions on Privacy and Security",
+      "issns": [
+        "2471-2566"
+      ],
+      "primaryArea": "theory",
+      "secondaryAreas": [
+        "network"
+      ],
+      "venueId": "tops"
+    },
+    {
+      "docId": "compsec",
+      "line": 309,
+      "kind": "journal",
+      "name": "Computers & Security",
+      "issns": [
+        "0167-4048"
+      ],
+      "primaryArea": "theory",
+      "secondaryAreas": [
+        "network"
+      ],
+      "venueId": "compsec"
+    },
+    {
+      "docId": "jcs",
+      "line": 310,
+      "kind": "journal",
+      "name": "Journal of Computer Security",
+      "issns": [
+        "0926-227X"
+      ],
+      "primaryArea": "theory",
+      "secondaryAreas": [
+        "network"
+      ],
+      "venueId": "jcs"
+    },
+    {
+      "docId": "epj-qt",
+      "line": 311,
+      "kind": "journal",
+      "name": "EPJ Quantum Technology",
+      "issns": [
+        "2196-0763"
+      ],
+      "primaryArea": "theory",
+      "secondaryAreas": [
+        "optical"
+      ],
+      "venueId": "epj-qt"
+    },
+    {
+      "docId": "tqe",
+      "line": 312,
+      "kind": "journal",
+      "name": "IEEE Transactions on Quantum Engineering",
+      "issns": [
+        "2689-1808"
+      ],
+      "primaryArea": "theory",
+      "secondaryAreas": [
+        "optical",
+        "wireless"
+      ],
+      "venueId": "tqe"
+    },
+    {
+      "docId": "jisa",
+      "line": 313,
+      "kind": "journal",
+      "name": "Journal of Information Security and Applications",
+      "issns": [
+        "2214-2126"
+      ],
+      "primaryArea": "theory",
+      "secondaryAreas": [
+        "network"
+      ],
+      "venueId": "jisa"
+    },
+    {
+      "docId": "iet-ifs",
+      "line": 314,
+      "kind": "journal",
+      "name": "IET Information Security",
+      "issns": [
+        "1751-8709"
+      ],
+      "primaryArea": "theory",
+      "secondaryAreas": [
+        "network"
+      ],
+      "venueId": "iet-security"
+    },
+    {
+      "docId": "eurasip-jis",
+      "line": 315,
+      "kind": "journal",
+      "name": "EURASIP Journal on Information Security",
+      "issns": [
+        "2510-523X"
+      ],
+      "primaryArea": "theory",
+      "secondaryAreas": [
+        "signal"
+      ],
+      "venueId": "eurasip-jis"
+    },
+    {
+      "docId": "scn",
+      "line": 316,
+      "kind": "journal",
+      "name": "Security and Communication Networks",
+      "issns": [
+        "1939-0122"
+      ],
+      "primaryArea": "theory",
+      "secondaryAreas": [
+        "network"
+      ],
+      "venueId": "scn"
+    },
+    {
+      "docId": "ton",
+      "line": 322,
+      "kind": "journal",
+      "name": "IEEE/ACM Transactions on Networking",
+      "issns": [
+        "1063-6692"
+      ],
+      "primaryArea": "network",
+      "secondaryAreas": [
+        "wireless"
+      ],
+      "venueId": "tnet"
+    },
+    {
+      "docId": "tmc",
+      "line": 323,
+      "kind": "journal",
+      "name": "IEEE Transactions on Mobile Computing",
+      "issns": [
+        "1536-1233"
+      ],
+      "primaryArea": "network",
+      "secondaryAreas": [
+        "wireless",
+        "iot"
+      ],
+      "venueId": "tmc"
+    },
+    {
+      "docId": "netmag",
+      "line": 324,
+      "kind": "journal",
+      "name": "IEEE Network",
+      "issns": [
+        "0890-8044"
+      ],
+      "primaryArea": "network",
+      "secondaryAreas": [
+        "wireless",
+        "ai"
+      ],
+      "venueId": "network-mag"
+    },
+    {
+      "docId": "tpds",
+      "line": 325,
+      "kind": "journal",
+      "name": "IEEE Transactions on Parallel and Distributed Systems",
+      "issns": [
+        "1045-9219"
+      ],
+      "primaryArea": "network",
+      "secondaryAreas": [
+        "ai"
+      ],
+      "venueId": "tpds"
+    },
+    {
+      "docId": "tnsm",
+      "line": 326,
+      "kind": "journal",
+      "name": "IEEE Transactions on Network and Service Management",
+      "issns": [
+        "1932-4537"
+      ],
+      "primaryArea": "network",
+      "secondaryAreas": [
+        "ai"
+      ],
+      "venueId": "tnsm"
+    },
+    {
+      "docId": "tnse",
+      "line": 327,
+      "kind": "journal",
+      "name": "IEEE Transactions on Network Science and Engineering",
+      "issns": [
+        "2327-4697"
+      ],
+      "primaryArea": "network",
+      "secondaryAreas": [
+        "ai",
+        "iot"
+      ],
+      "venueId": "tnse"
+    },
+    {
+      "docId": "tcc",
+      "line": 328,
+      "kind": "journal",
+      "name": "IEEE Transactions on Cloud Computing",
+      "issns": [
+        "2168-7161"
+      ],
+      "primaryArea": "network",
+      "secondaryAreas": [
+        "ai"
+      ],
+      "venueId": "tcc"
+    },
+    {
+      "docId": "toit",
+      "line": 329,
+      "kind": "journal",
+      "name": "ACM Transactions on Internet Technology",
+      "issns": [
+        "1533-5399"
+      ],
+      "primaryArea": "network",
+      "secondaryAreas": [
+        "ai"
+      ],
+      "venueId": "toit"
+    },
+    {
+      "docId": "tomm",
+      "line": 330,
+      "kind": "journal",
+      "name": "ACM Transactions on Multimedia Computing, Communications, and Applications",
+      "issns": [
+        "1551-6857"
+      ],
+      "primaryArea": "network",
+      "secondaryAreas": [
+        "signal",
+        "ai"
+      ],
+      "venueId": "tomm"
+    },
+    {
+      "docId": "cn",
+      "line": 331,
+      "kind": "journal",
+      "name": "Computer Networks",
+      "issns": [
+        "1389-1286"
+      ],
+      "primaryArea": "network",
+      "secondaryAreas": [
+        "wireless",
+        "iot"
+      ],
+      "venueId": "computer-networks"
+    },
+    {
+      "docId": "comcom",
+      "line": 332,
+      "kind": "journal",
+      "name": "Computer Communications",
+      "issns": [
+        "0140-3664"
+      ],
+      "primaryArea": "network",
+      "secondaryAreas": [
+        "wireless",
+        "iot"
+      ],
+      "venueId": "computer-comms"
+    },
+    {
+      "docId": "adhoc",
+      "line": 333,
+      "kind": "journal",
+      "name": "Ad Hoc Networks",
+      "issns": [
+        "1570-8705"
+      ],
+      "primaryArea": "network",
+      "secondaryAreas": [
+        "wireless",
+        "iot"
+      ],
+      "venueId": "adhoc-networks"
+    },
+    {
+      "docId": "jnca",
+      "line": 334,
+      "kind": "journal",
+      "name": "Journal of Network and Computer Applications",
+      "issns": [
+        "1084-8045"
+      ],
+      "primaryArea": "network",
+      "secondaryAreas": [
+        "iot",
+        "ai"
+      ],
+      "venueId": "jnca"
+    },
+    {
+      "docId": "jsys",
+      "line": 335,
+      "kind": "journal",
+      "name": "IEEE Systems Journal",
+      "issns": [
+        "1932-8184"
+      ],
+      "primaryArea": "network",
+      "secondaryAreas": [
+        "iot",
+        "wireless"
+      ],
+      "venueId": "sysj"
+    },
+    {
+      "docId": "netlett",
+      "line": 336,
+      "kind": "journal",
+      "name": "IEEE Networking Letters",
+      "issns": [
+        "2576-3156"
+      ],
+      "primaryArea": "network",
+      "secondaryAreas": [
+        "wireless"
+      ],
+      "venueId": "lnet"
+    },
+    {
+      "docId": "winet",
+      "line": 337,
+      "kind": "journal",
+      "name": "Wireless Networks",
+      "issns": [
+        "1022-0038"
+      ],
+      "primaryArea": "network",
+      "secondaryAreas": [
+        "wireless"
+      ],
+      "venueId": "wireless-networks"
+    },
+    {
+      "docId": "monet",
+      "line": 338,
+      "kind": "journal",
+      "name": "Mobile Networks and Applications",
+      "issns": [
+        "1383-469X"
+      ],
+      "primaryArea": "network",
+      "secondaryAreas": [
+        "wireless"
+      ],
+      "venueId": "mona"
+    },
+    {
+      "docId": "networks",
+      "line": 339,
+      "kind": "journal",
+      "name": "Networks",
+      "issns": [
+        "0028-3045"
+      ],
+      "primaryArea": "network",
+      "secondaryAreas": [
+        "theory"
+      ],
+      "venueId": "networks"
+    },
+    {
+      "docId": "ppna",
+      "line": 340,
+      "kind": "journal",
+      "name": "Peer-to-Peer Networking and Applications",
+      "issns": [
+        "1936-6442"
+      ],
+      "primaryArea": "network",
+      "secondaryAreas": [
+        "iot"
+      ],
+      "venueId": "p2pna"
+    },
+    {
+      "docId": "telsys",
+      "line": 341,
+      "kind": "journal",
+      "name": "Telecommunication Systems",
+      "issns": [
+        "1018-4864"
+      ],
+      "primaryArea": "network",
+      "secondaryAreas": [
+        "wireless"
+      ],
+      "venueId": "telecom-systems"
+    },
+    {
+      "docId": "mms",
+      "line": 342,
+      "kind": "journal",
+      "name": "Multimedia Systems",
+      "issns": [
+        "0942-4962"
+      ],
+      "primaryArea": "network",
+      "secondaryAreas": [
+        "ai",
+        "signal"
+      ],
+      "venueId": "mms"
+    },
+    {
+      "docId": "mta",
+      "line": 343,
+      "kind": "journal",
+      "name": "Multimedia Tools and Applications",
+      "issns": [
+        "1380-7501"
+      ],
+      "primaryArea": "network",
+      "secondaryAreas": [
+        "ai",
+        "signal"
+      ],
+      "venueId": "mta"
+    },
+    {
+      "docId": "nat-photonics",
+      "line": 349,
+      "kind": "journal",
+      "name": "Nature Photonics",
+      "issns": [
+        "1749-4885"
+      ],
+      "primaryArea": "optical",
+      "secondaryAreas": [
+        "rf"
+      ],
+      "venueId": "nat-photonics"
+    },
+    {
+      "docId": "lsa",
+      "line": 350,
+      "kind": "journal",
+      "name": "Light: Science & Applications",
+      "issns": [
+        "2047-7538"
+      ],
+      "primaryArea": "optical",
+      "secondaryAreas": [
+        "rf"
+      ],
+      "venueId": "lsa"
+    },
+    {
+      "docId": "optica",
+      "line": 351,
+      "kind": "journal",
+      "name": "Optica",
+      "issns": [
+        "2334-2536"
+      ],
+      "primaryArea": "optical",
+      "secondaryAreas": [
+        "rf"
+      ],
+      "venueId": "optica"
+    },
+    {
+      "docId": "acs-photonics",
+      "line": 352,
+      "kind": "journal",
+      "name": "ACS Photonics",
+      "issns": [
+        "2330-4022"
+      ],
+      "primaryArea": "optical",
+      "secondaryAreas": [
+        "rf"
+      ],
+      "venueId": "acs-photonics"
+    },
+    {
+      "docId": "apl-photonics",
+      "line": 353,
+      "kind": "journal",
+      "name": "APL Photonics",
+      "issns": [
+        "2378-0967"
+      ],
+      "primaryArea": "optical",
+      "secondaryAreas": [
+        "rf"
+      ],
+      "venueId": "apl-photonics"
+    },
+    {
+      "docId": "nanophotonics",
+      "line": 354,
+      "kind": "journal",
+      "name": "Nanophotonics",
+      "issns": [
+        "2192-8606"
+      ],
+      "primaryArea": "optical",
+      "secondaryAreas": [
+        "rf"
+      ],
+      "venueId": "nanophotonics"
+    },
+    {
+      "docId": "jlt",
+      "line": 355,
+      "kind": "journal",
+      "name": "Journal of Lightwave Technology",
+      "issns": [
+        "0733-8724"
+      ],
+      "primaryArea": "optical",
+      "secondaryAreas": [
+        "wireless",
+        "network"
+      ],
+      "venueId": "jlt"
+    },
+    {
+      "docId": "jocn",
+      "line": 356,
+      "kind": "journal",
+      "name": "Journal of Optical Communications and Networking",
+      "issns": [
+        "1943-0620"
+      ],
+      "primaryArea": "optical",
+      "secondaryAreas": [
+        "network"
+      ],
+      "venueId": "jocn"
+    },
+    {
+      "docId": "ptl",
+      "line": 357,
+      "kind": "journal",
+      "name": "IEEE Photonics Technology Letters",
+      "issns": [
+        "1041-1135"
+      ],
+      "primaryArea": "optical",
+      "secondaryAreas": [
+        "rf"
+      ],
+      "venueId": "ptl"
+    },
+    {
+      "docId": "pj",
+      "line": 358,
+      "kind": "journal",
+      "name": "IEEE Photonics Journal",
+      "issns": [
+        "1943-0655"
+      ],
+      "primaryArea": "optical",
+      "secondaryAreas": [
+        "rf"
+      ],
+      "venueId": "pj"
+    },
+    {
+      "docId": "jqe",
+      "line": 359,
+      "kind": "journal",
+      "name": "IEEE Journal of Quantum Electronics",
+      "issns": [
+        "0018-9197"
+      ],
+      "primaryArea": "optical",
+      "secondaryAreas": [
+        "rf"
+      ],
+      "venueId": "jqe"
+    },
+    {
+      "docId": "jstqe",
+      "line": 360,
+      "kind": "journal",
+      "name": "IEEE Journal of Selected Topics in Quantum Electronics",
+      "issns": [
+        "1077-260X"
+      ],
+      "primaryArea": "optical",
+      "secondaryAreas": [
+        "rf"
+      ],
+      "venueId": "jstqe"
+    },
+    {
+      "docId": "oe",
+      "line": 361,
+      "kind": "journal",
+      "name": "Optics Express",
+      "issns": [
+        "1094-4087"
+      ],
+      "primaryArea": "optical",
+      "secondaryAreas": [
+        "rf"
+      ],
+      "venueId": "oe"
+    },
+    {
+      "docId": "ol",
+      "line": 362,
+      "kind": "journal",
+      "name": "Optics Letters",
+      "issns": [
+        "0146-9592"
+      ],
+      "primaryArea": "optical",
+      "secondaryAreas": [
+        "rf"
+      ],
+      "venueId": "ol"
+    },
+    {
+      "docId": "photonic-sens",
+      "line": 363,
+      "kind": "journal",
+      "name": "Photonic Sensors",
+      "issns": [
+        "1674-9251"
+      ],
+      "primaryArea": "optical",
+      "secondaryAreas": [
+        "iot"
+      ],
+      "venueId": "photonic-sensors"
+    },
+    {
+      "docId": "jbo",
+      "line": 364,
+      "kind": "journal",
+      "name": "Journal of Biomedical Optics",
+      "issns": [
+        "1083-3668"
+      ],
+      "primaryArea": "optical",
+      "secondaryAreas": [
+        "signal"
+      ],
+      "venueId": "jbo"
+    },
+    {
+      "docId": "jbiophotonics",
+      "line": 365,
+      "kind": "journal",
+      "name": "Journal of Biophotonics",
+      "issns": [
+        "1864-063X"
+      ],
+      "primaryArea": "optical",
+      "secondaryAreas": [
+        "signal"
+      ],
+      "venueId": "jbiophotonics"
+    },
+    {
+      "docId": "jsr",
+      "line": 366,
+      "kind": "journal",
+      "name": "Journal of Synchrotron Radiation",
+      "issns": [
+        "0909-0495"
+      ],
+      "primaryArea": "optical",
+      "secondaryAreas": [],
+      "venueId": "jsr"
+    },
+    {
+      "docId": "opt-eng",
+      "line": 367,
+      "kind": "journal",
+      "name": "Optical Engineering",
+      "issns": [
+        "0091-3286"
+      ],
+      "primaryArea": "optical",
+      "secondaryAreas": [],
+      "venueId": "opt-eng"
+    },
+    {
+      "docId": "photonics-mdpi",
+      "line": 368,
+      "kind": "journal",
+      "name": "Photonics",
+      "issns": [
+        "2304-6732"
+      ],
+      "primaryArea": "optical",
+      "secondaryAreas": [],
+      "venueId": "photonics-mdpi"
+    },
+    {
+      "docId": "iet-opt",
+      "line": 369,
+      "kind": "journal",
+      "name": "IET Optoelectronics",
+      "issns": [
+        "1751-8768"
+      ],
+      "primaryArea": "optical",
+      "secondaryAreas": [
+        "rf"
+      ],
+      "venueId": "iet-opto"
+    },
+    {
+      "docId": "jnp",
+      "line": 370,
+      "kind": "journal",
+      "name": "Journal of Nanophotonics",
+      "issns": [
+        "1934-2608"
+      ],
+      "primaryArea": "optical",
+      "secondaryAreas": [
+        "rf"
+      ],
+      "venueId": "jnp"
+    },
+    {
+      "docId": "jpe",
+      "line": 371,
+      "kind": "journal",
+      "name": "Journal of Photonics for Energy",
+      "issns": [
+        "1947-7988"
+      ],
+      "primaryArea": "optical",
+      "secondaryAreas": [],
+      "venueId": "jpe"
+    },
+    {
+      "docId": "jatis",
+      "line": 372,
+      "kind": "journal",
+      "name": "Journal of Astronomical Telescopes, Instruments, and Systems",
+      "issns": [
+        "2329-4124"
+      ],
+      "primaryArea": "optical",
+      "secondaryAreas": [
+        "space"
+      ],
+      "venueId": "jatis"
+    },
+    {
+      "docId": "osn",
+      "line": 373,
+      "kind": "journal",
+      "name": "Optical Switching and Networking",
+      "issns": [
+        "1573-4277"
+      ],
+      "primaryArea": "optical",
+      "secondaryAreas": [
+        "network"
+      ],
+      "venueId": "osn"
+    },
+    {
+      "docId": "oft",
+      "line": 374,
+      "kind": "journal",
+      "name": "Optical Fiber Technology",
+      "issns": [
+        "1068-5200"
+      ],
+      "primaryArea": "optical",
+      "secondaryAreas": [],
+      "venueId": "oft"
+    },
+    {
+      "docId": "tap",
+      "line": 380,
+      "kind": "journal",
+      "name": "IEEE Transactions on Antennas and Propagation",
+      "issns": [
+        "0018-926X"
+      ],
+      "primaryArea": "rf",
+      "secondaryAreas": [
+        "wireless",
+        "space"
+      ],
+      "venueId": "tap"
+    },
+    {
+      "docId": "tmtt",
+      "line": 381,
+      "kind": "journal",
+      "name": "IEEE Transactions on Microwave Theory and Techniques",
+      "issns": [
+        "0018-9480"
+      ],
+      "primaryArea": "rf",
+      "secondaryAreas": [
+        "wireless"
+      ],
+      "venueId": "tmtt"
+    },
+    {
+      "docId": "temc",
+      "line": 382,
+      "kind": "journal",
+      "name": "IEEE Transactions on Electromagnetic Compatibility",
+      "issns": [
+        "0018-9375"
+      ],
+      "primaryArea": "rf",
+      "secondaryAreas": [],
+      "venueId": "temc"
+    },
+    {
+      "docId": "awpl",
+      "line": 383,
+      "kind": "journal",
+      "name": "IEEE Antennas and Wireless Propagation Letters",
+      "issns": [
+        "1536-1225"
+      ],
+      "primaryArea": "rf",
+      "secondaryAreas": [
+        "wireless"
+      ],
+      "venueId": "awpl"
+    },
+    {
+      "docId": "mwcl",
+      "line": 384,
+      "kind": "journal",
+      "name": "IEEE Microwave and Wireless Technology Letters",
+      "issns": [
+        "1531-1309"
+      ],
+      "primaryArea": "rf",
+      "secondaryAreas": [
+        "wireless"
+      ],
+      "venueId": "mwtl"
+    },
+    {
+      "docId": "ttst",
+      "line": 385,
+      "kind": "journal",
+      "name": "IEEE Transactions on Terahertz Science and Technology",
+      "issns": [
+        "2156-342X"
+      ],
+      "primaryArea": "rf",
+      "secondaryAreas": [
+        "optical",
+        "wireless"
+      ],
+      "venueId": "tthz"
+    },
+    {
+      "docId": "tmag",
+      "line": 386,
+      "kind": "journal",
+      "name": "IEEE Transactions on Magnetics",
+      "issns": [
+        "0018-9464"
+      ],
+      "primaryArea": "rf",
+      "secondaryAreas": [],
+      "venueId": "tmag"
+    },
+    {
+      "docId": "tas",
+      "line": 387,
+      "kind": "journal",
+      "name": "IEEE Transactions on Applied Superconductivity",
+      "issns": [
+        "1051-8223"
+      ],
+      "primaryArea": "rf",
+      "secondaryAreas": [],
+      "venueId": "tas"
+    },
+    {
+      "docId": "jmmt",
+      "line": 388,
+      "kind": "journal",
+      "name": "IEEE Journal on Multiscale and Multiphysics Computational Techniques",
+      "issns": [
+        "2379-8793"
+      ],
+      "primaryArea": "rf",
+      "secondaryAreas": [],
+      "venueId": "jmmt"
+    },
+    {
+      "docId": "maglett",
+      "line": 389,
+      "kind": "journal",
+      "name": "IEEE Magnetics Letters",
+      "issns": [
+        "1949-307X"
+      ],
+      "primaryArea": "rf",
+      "secondaryAreas": [],
+      "venueId": "maglett"
+    },
+    {
+      "docId": "iet-map",
+      "line": 390,
+      "kind": "journal",
+      "name": "IET Microwaves, Antennas & Propagation",
+      "issns": [
+        "1751-8725"
+      ],
+      "primaryArea": "rf",
+      "secondaryAreas": [
+        "wireless"
+      ],
+      "venueId": "iet-map"
+    },
+    {
+      "docId": "iet-smt",
+      "line": 391,
+      "kind": "journal",
+      "name": "IET Science, Measurement & Technology",
+      "issns": [
+        "1751-8822"
+      ],
+      "primaryArea": "rf",
+      "secondaryAreas": [
+        "signal"
+      ],
+      "venueId": "iet-smt"
+    },
+    {
+      "docId": "jirmmw",
+      "line": 392,
+      "kind": "journal",
+      "name": "Journal of Infrared, Millimeter, and Terahertz Waves",
+      "issns": [
+        "1866-6892"
+      ],
+      "primaryArea": "rf",
+      "secondaryAreas": [
+        "optical"
+      ],
+      "venueId": "jir"
+    },
+    {
+      "docId": "motl",
+      "line": 393,
+      "kind": "journal",
+      "name": "Microwave and Optical Technology Letters",
+      "issns": [
+        "0895-2477"
+      ],
+      "primaryArea": "rf",
+      "secondaryAreas": [
+        "optical"
+      ],
+      "venueId": "motl"
+    },
+    {
+      "docId": "ijmwt",
+      "line": 394,
+      "kind": "journal",
+      "name": "International Journal of Microwave and Wireless Technologies",
+      "issns": [
+        "1759-0787"
+      ],
+      "primaryArea": "rf",
+      "secondaryAreas": [
+        "wireless"
+      ],
+      "venueId": "ijmwt"
+    },
+    {
+      "docId": "jewa",
+      "line": 395,
+      "kind": "journal",
+      "name": "Journal of Electromagnetic Waves and Applications",
+      "issns": [
+        "0920-5071"
+      ],
+      "primaryArea": "rf",
+      "secondaryAreas": [],
+      "venueId": "jewa"
+    },
+    {
+      "docId": "aces-j",
+      "line": 396,
+      "kind": "journal",
+      "name": "Applied Computational Electromagnetics Society Journal",
+      "issns": [
+        "1054-4887"
+      ],
+      "primaryArea": "rf",
+      "secondaryAreas": [],
+      "venueId": "aces-j"
+    },
+    {
+      "docId": "electromagnetics",
+      "line": 397,
+      "kind": "journal",
+      "name": "Electromagnetics",
+      "issns": [
+        "0272-6343"
+      ],
+      "primaryArea": "rf",
+      "secondaryAreas": [],
+      "venueId": "electromagnetics"
+    },
+    {
+      "docId": "jmpee",
+      "line": 398,
+      "kind": "journal",
+      "name": "Journal of Microwave Power and Electromagnetic Energy",
+      "issns": [
+        "0832-7823"
+      ],
+      "primaryArea": "rf",
+      "secondaryAreas": [],
+      "venueId": "jmpee"
+    },
+    {
+      "docId": "radio-sci",
+      "line": 399,
+      "kind": "journal",
+      "name": "Radio Science",
+      "issns": [
+        "0048-6604"
+      ],
+      "primaryArea": "rf",
+      "secondaryAreas": [
+        "space",
+        "wireless"
+      ],
+      "venueId": "radio-science"
+    },
+    {
+      "docId": "taes",
+      "line": 405,
+      "kind": "journal",
+      "name": "IEEE Transactions on Aerospace and Electronic Systems",
+      "issns": [
+        "1557-9603"
+      ],
+      "primaryArea": "space",
+      "secondaryAreas": [
+        "signal",
+        "wireless"
+      ],
+      "venueId": "taes"
+    },
+    {
+      "docId": "tgrs",
+      "line": 406,
+      "kind": "journal",
+      "name": "IEEE Transactions on Geoscience and Remote Sensing",
+      "issns": [
+        "0196-2892"
+      ],
+      "primaryArea": "space",
+      "secondaryAreas": [
+        "signal",
+        "rf"
+      ],
+      "venueId": "tgrs"
+    },
+    {
+      "docId": "rse",
+      "line": 407,
+      "kind": "journal",
+      "name": "Remote Sensing of Environment",
+      "issns": [
+        "0034-4257"
+      ],
+      "primaryArea": "space",
+      "secondaryAreas": [
+        "signal"
+      ],
+      "venueId": "rse"
+    },
+    {
+      "docId": "grsl",
+      "line": 408,
+      "kind": "journal",
+      "name": "IEEE Geoscience and Remote Sensing Letters",
+      "issns": [
+        "1545-598X"
+      ],
+      "primaryArea": "space",
+      "secondaryAreas": [
+        "signal",
+        "rf"
+      ],
+      "venueId": "grsl"
+    },
+    {
+      "docId": "jsee",
+      "line": 409,
+      "kind": "journal",
+      "name": "Journal of Systems Engineering and Electronics",
+      "issns": [
+        "1004-4132"
+      ],
+      "primaryArea": "space",
+      "secondaryAreas": [
+        "signal",
+        "rf"
+      ],
+      "venueId": "jsee"
+    },
+    {
+      "docId": "ijscn",
+      "line": 410,
+      "kind": "journal",
+      "name": "International Journal of Satellite Communications and Networking",
+      "issns": [
+        "1542-0973"
+      ],
+      "primaryArea": "space",
+      "secondaryAreas": [
+        "wireless",
+        "network"
+      ],
+      "venueId": "ijscn"
+    },
+    {
+      "docId": "gps-solut",
+      "line": 411,
+      "kind": "journal",
+      "name": "GPS Solutions",
+      "issns": [
+        "1080-5370"
+      ],
+      "primaryArea": "space",
+      "secondaryAreas": [
+        "signal"
+      ],
+      "venueId": "gps-solutions"
+    },
+    {
+      "docId": "navig",
+      "line": 412,
+      "kind": "journal",
+      "name": "NAVIGATION: Journal of the Institute of Navigation",
+      "issns": [
+        "0028-1522"
+      ],
+      "primaryArea": "space",
+      "secondaryAreas": [
+        "signal"
+      ],
+      "venueId": "navigation"
+    },
+    {
+      "docId": "iotj",
+      "line": 418,
+      "kind": "journal",
+      "name": "IEEE Internet of Things Journal",
+      "issns": [
+        "2327-4662"
+      ],
+      "primaryArea": "iot",
+      "secondaryAreas": [
+        "wireless",
+        "network"
+      ],
+      "venueId": "iotj"
+    },
+    {
+      "docId": "tvt",
+      "line": 419,
+      "kind": "journal",
+      "name": "IEEE Transactions on Vehicular Technology",
+      "issns": [
+        "0018-9545"
+      ],
+      "primaryArea": "iot",
+      "secondaryAreas": [
+        "wireless",
+        "network"
+      ],
+      "venueId": "tvt"
+    },
+    {
+      "docId": "tii",
+      "line": 420,
+      "kind": "journal",
+      "name": "IEEE Transactions on Industrial Informatics",
+      "issns": [
+        "1551-3203"
+      ],
+      "primaryArea": "iot",
+      "secondaryAreas": [
+        "network",
+        "ai"
+      ],
+      "venueId": "tii"
+    },
+    {
+      "docId": "tie",
+      "line": 421,
+      "kind": "journal",
+      "name": "IEEE Transactions on Industrial Electronics",
+      "issns": [
+        "0278-0046"
+      ],
+      "primaryArea": "iot",
+      "secondaryAreas": [
+        "signal",
+        "rf"
+      ],
+      "venueId": "tie"
+    },
+    {
+      "docId": "tits",
+      "line": 422,
+      "kind": "journal",
+      "name": "IEEE Transactions on Intelligent Transportation Systems",
+      "issns": [
+        "1524-9050"
+      ],
+      "primaryArea": "iot",
+      "secondaryAreas": [
+        "ai",
+        "wireless"
+      ],
+      "venueId": "tits"
+    },
+    {
+      "docId": "tiv",
+      "line": 423,
+      "kind": "journal",
+      "name": "IEEE Transactions on Intelligent Vehicles",
+      "issns": [
+        "2379-8858"
+      ],
+      "primaryArea": "iot",
+      "secondaryAreas": [
+        "ai"
+      ],
+      "venueId": "tiv"
+    },
+    {
+      "docId": "tosn",
+      "line": 424,
+      "kind": "journal",
+      "name": "ACM Transactions on Sensor Networks",
+      "issns": [
+        "1550-4859"
+      ],
+      "primaryArea": "iot",
+      "secondaryAreas": [
+        "network",
+        "wireless"
+      ],
+      "venueId": "tosn"
+    },
+    {
+      "docId": "jsen",
+      "line": 425,
+      "kind": "journal",
+      "name": "IEEE Sensors Journal",
+      "issns": [
+        "1530-437X"
+      ],
+      "primaryArea": "iot",
+      "secondaryAreas": [
+        "signal",
+        "optical"
+      ],
+      "venueId": "sensors-j"
+    },
+    {
+      "docId": "tce",
+      "line": 426,
+      "kind": "journal",
+      "name": "IEEE Transactions on Consumer Electronics",
+      "issns": [
+        "0098-3063"
+      ],
+      "primaryArea": "iot",
+      "secondaryAreas": [
+        "wireless",
+        "ai"
+      ],
+      "venueId": "tce"
+    },
+    {
+      "docId": "vehcom",
+      "line": 427,
+      "kind": "journal",
+      "name": "Vehicular Communications",
+      "issns": [
+        "2214-2096"
+      ],
+      "primaryArea": "iot",
+      "secondaryAreas": [
+        "wireless",
+        "network"
+      ],
+      "venueId": "vehicular-comms"
+    },
+    {
+      "docId": "jbhi",
+      "line": 428,
+      "kind": "journal",
+      "name": "IEEE Journal of Biomedical and Health Informatics",
+      "issns": [
+        "2168-2194"
+      ],
+      "primaryArea": "iot",
+      "secondaryAreas": [
+        "signal",
+        "ai"
+      ],
+      "venueId": "jbhi"
+    },
+    {
+      "docId": "iet-its",
+      "line": 429,
+      "kind": "journal",
+      "name": "IET Intelligent Transport Systems",
+      "issns": [
+        "1751-956X"
+      ],
+      "primaryArea": "iot",
+      "secondaryAreas": [
+        "wireless"
+      ],
+      "venueId": "iet-its"
+    },
+    {
+      "docId": "ijsn",
+      "line": 430,
+      "kind": "journal",
+      "name": "International Journal of Sensor Networks",
+      "issns": [
+        "1748-1279"
+      ],
+      "primaryArea": "iot",
+      "secondaryAreas": [
+        "network"
+      ],
+      "venueId": "ijsnet"
+    },
+    {
+      "docId": "tccn",
+      "line": 436,
+      "kind": "journal",
+      "name": "IEEE Transactions on Cognitive Communications and Networking",
+      "issns": [
+        "2332-7731"
+      ],
+      "primaryArea": "ai",
+      "secondaryAreas": [
+        "wireless",
+        "network"
+      ],
+      "venueId": "tccn"
+    },
+    {
+      "docId": "tgcn",
+      "line": 437,
+      "kind": "journal",
+      "name": "IEEE Transactions on Green Communications and Networking",
+      "issns": [
+        "2473-2400"
+      ],
+      "primaryArea": "ai",
+      "secondaryAreas": [
+        "wireless",
+        "network"
+      ],
+      "venueId": "tgcn"
+    },
+    {
+      "docId": "tmlcn",
+      "line": 438,
+      "kind": "journal",
+      "name": "IEEE Transactions on Machine Learning in Communications and Networking",
+      "issns": [
+        "2831-316X"
+      ],
+      "primaryArea": "ai",
+      "secondaryAreas": [
+        "wireless",
+        "network"
+      ],
+      "venueId": "tmlcn"
+    },
+    {
+      "docId": "tpami",
+      "line": 439,
+      "kind": "journal",
+      "name": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+      "issns": [
+        "0162-8828"
+      ],
+      "primaryArea": "ai",
+      "secondaryAreas": [
+        "signal"
+      ],
+      "venueId": "tpami"
+    },
+    {
+      "docId": "tkde",
+      "line": 440,
+      "kind": "journal",
+      "name": "IEEE Transactions on Knowledge and Data Engineering",
+      "issns": [
+        "1041-4347"
+      ],
+      "primaryArea": "ai",
+      "secondaryAreas": [
+        "network"
+      ],
+      "venueId": "tkde"
+    },
+    {
+      "docId": "tois",
+      "line": 441,
+      "kind": "journal",
+      "name": "ACM Transactions on Information Systems",
+      "issns": [
+        "1046-8188"
+      ],
+      "primaryArea": "ai",
+      "secondaryAreas": [
+        "network"
+      ],
+      "venueId": "tois"
+    },
+    {
+      "docId": "ais",
+      "line": 442,
+      "kind": "journal",
+      "name": "Advanced Intelligent Systems",
+      "issns": [
+        "2640-4567"
+      ],
+      "primaryArea": "ai",
+      "secondaryAreas": [
+        "iot"
+      ],
+      "venueId": "ais"
+    },
+    {
+      "docId": "inf-sci",
+      "line": 443,
+      "kind": "journal",
+      "name": "Information Sciences",
+      "issns": [
+        "0020-0255"
+      ],
+      "primaryArea": "ai",
+      "secondaryAreas": [
+        "theory"
+      ],
+      "venueId": "inf-sci"
+    },
+    {
+      "docId": "ipm",
+      "line": 444,
+      "kind": "journal",
+      "name": "Information Processing & Management",
+      "issns": [
+        "0306-4573"
+      ],
+      "primaryArea": "ai",
+      "secondaryAreas": [],
+      "venueId": "ipm"
+    },
+    {
+      "docId": "isj",
+      "line": 445,
+      "kind": "journal",
+      "name": "Information Systems Journal",
+      "issns": [
+        "1350-1917"
+      ],
+      "primaryArea": "ai",
+      "secondaryAreas": [],
+      "venueId": "isj"
+    },
+    {
+      "docId": "jasist",
+      "line": 446,
+      "kind": "journal",
+      "name": "Journal of the Association for Information Science and Technology",
+      "issns": [
+        "2330-1635"
+      ],
+      "primaryArea": "ai",
+      "secondaryAreas": [],
+      "venueId": "jasist"
+    },
+    {
+      "docId": "ivc",
+      "line": 447,
+      "kind": "journal",
+      "name": "Image and Vision Computing",
+      "issns": [
+        "0262-8856"
+      ],
+      "primaryArea": "ai",
+      "secondaryAreas": [
+        "signal"
+      ],
+      "venueId": "ivc"
+    },
+    {
+      "docId": "bit",
+      "line": 448,
+      "kind": "journal",
+      "name": "Behaviour & Information Technology",
+      "issns": [
+        "0144-929X"
+      ],
+      "primaryArea": "ai",
+      "secondaryAreas": [],
+      "venueId": "bit"
+    },
+    {
+      "docId": "nat-electron",
+      "line": 456,
+      "kind": "journal",
+      "name": "Nature Electronics",
+      "issns": [
+        "2520-1131"
+      ],
+      "primaryArea": "rf",
+      "secondaryAreas": [],
+      "venueId": "nat-electron"
+    },
+    {
+      "docId": "jssc",
+      "line": 457,
+      "kind": "journal",
+      "name": "IEEE Journal of Solid-State Circuits",
+      "issns": [
+        "0018-9200"
+      ],
+      "primaryArea": "rf",
+      "secondaryAreas": [],
+      "venueId": "jssc"
+    },
+    {
+      "docId": "tcasi",
+      "line": 458,
+      "kind": "journal",
+      "name": "IEEE Transactions on Circuits and Systems I: Regular Papers",
+      "issns": [
+        "1549-8328"
+      ],
+      "primaryArea": "rf",
+      "secondaryAreas": [],
+      "venueId": "tcas1"
+    },
+    {
+      "docId": "ted",
+      "line": 459,
+      "kind": "journal",
+      "name": "IEEE Transactions on Electron Devices",
+      "issns": [
+        "0018-9383"
+      ],
+      "primaryArea": "rf",
+      "secondaryAreas": [],
+      "venueId": "ted"
+    },
+    {
+      "docId": "edl",
+      "line": 460,
+      "kind": "journal",
+      "name": "IEEE Electron Device Letters",
+      "issns": [
+        "0741-3106"
+      ],
+      "primaryArea": "rf",
+      "secondaryAreas": [],
+      "venueId": "edl"
+    },
+    {
+      "docId": "tpel",
+      "line": 461,
+      "kind": "journal",
+      "name": "IEEE Transactions on Power Electronics",
+      "issns": [
+        "0885-8993"
+      ],
+      "primaryArea": "rf",
+      "secondaryAreas": [],
+      "venueId": "tpel"
+    },
+    {
+      "docId": "tbcas",
+      "line": 462,
+      "kind": "journal",
+      "name": "IEEE Transactions on Biomedical Circuits and Systems",
+      "issns": [
+        "1932-4545"
+      ],
+      "primaryArea": "signal",
+      "secondaryAreas": [],
+      "venueId": "tbcas"
+    },
+    {
+      "docId": "tbme",
+      "line": 463,
+      "kind": "journal",
+      "name": "IEEE Transactions on Biomedical Engineering",
+      "issns": [
+        "1558-2531"
+      ],
+      "primaryArea": "signal",
+      "secondaryAreas": [],
+      "venueId": "tbme"
+    },
+    {
+      "docId": "aem",
+      "line": 464,
+      "kind": "journal",
+      "name": "Advanced Electronic Materials",
+      "issns": [
+        "2199-160X"
+      ],
+      "primaryArea": "rf",
+      "secondaryAreas": [],
+      "venueId": "aem"
+    },
+    {
+      "docId": "jmems",
+      "line": 465,
+      "kind": "journal",
+      "name": "Journal of Microelectromechanical Systems",
+      "issns": [
+        "1057-7157"
+      ],
+      "primaryArea": "rf",
+      "secondaryAreas": [],
+      "venueId": "jmems"
+    },
+    {
+      "docId": "jsemi",
+      "line": 466,
+      "kind": "journal",
+      "name": "Journal of Semiconductors",
+      "issns": [
+        "1674-4926"
+      ],
+      "primaryArea": "rf",
+      "secondaryAreas": [],
+      "venueId": "jsemi"
+    },
+    {
+      "docId": "loc",
+      "line": 467,
+      "kind": "journal",
+      "name": "Lab on a Chip",
+      "issns": [
+        "1473-0197"
+      ],
+      "primaryArea": "iot",
+      "secondaryAreas": [],
+      "venueId": "loc"
+    },
+    {
+      "docId": "sna",
+      "line": 468,
+      "kind": "journal",
+      "name": "Sensors and Actuators A: Physical",
+      "issns": [
+        "0924-4247"
+      ],
+      "primaryArea": "iot",
+      "secondaryAreas": [],
+      "venueId": "sna"
+    },
+    {
+      "docId": "tcad",
+      "line": 469,
+      "kind": "journal",
+      "name": "IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems",
+      "issns": [
+        "0278-0070"
+      ],
+      "primaryArea": "rf",
+      "secondaryAreas": [],
+      "venueId": "tcad"
+    },
+    {
+      "docId": "tvlsi",
+      "line": 470,
+      "kind": "journal",
+      "name": "IEEE Transactions on Very Large Scale Integration",
+      "issns": [
+        "1063-8210"
+      ],
+      "primaryArea": "rf",
+      "secondaryAreas": [],
+      "venueId": "tvlsi"
+    },
+    {
+      "docId": "tcasii",
+      "line": 471,
+      "kind": "journal",
+      "name": "IEEE Transactions on Circuits and Systems II: Express Briefs",
+      "issns": [
+        "1549-7747"
+      ],
+      "primaryArea": "rf",
+      "secondaryAreas": [],
+      "venueId": "tcas2"
+    },
+    {
+      "docId": "jetcas",
+      "line": 472,
+      "kind": "journal",
+      "name": "IEEE Journal on Emerging and Selected Topics in Circuits and Systems",
+      "issns": [
+        "2156-3357"
+      ],
+      "primaryArea": "rf",
+      "secondaryAreas": [],
+      "venueId": "jetcas"
+    },
+    {
+      "docId": "todae",
+      "line": 473,
+      "kind": "journal",
+      "name": "ACM Transactions on Design Automation of Electronic Systems",
+      "issns": [
+        "1084-4309"
+      ],
+      "primaryArea": "rf",
+      "secondaryAreas": [],
+      "venueId": "todae"
+    },
+    {
+      "docId": "jestpe",
+      "line": 474,
+      "kind": "journal",
+      "name": "IEEE Journal of Emerging and Selected Topics in Power Electronics",
+      "issns": [
+        "2168-6777"
+      ],
+      "primaryArea": "rf",
+      "secondaryAreas": [],
+      "venueId": "jestpe"
+    },
+    {
+      "docId": "tcpmt",
+      "line": 475,
+      "kind": "journal",
+      "name": "IEEE Transactions on Components, Packaging and Manufacturing Technology",
+      "issns": [
+        "2156-3950"
+      ],
+      "primaryArea": "rf",
+      "secondaryAreas": [],
+      "venueId": "tcpmt"
+    },
+    {
+      "docId": "tnano",
+      "line": 476,
+      "kind": "journal",
+      "name": "IEEE Transactions on Nanotechnology",
+      "issns": [
+        "1536-125X"
+      ],
+      "primaryArea": "rf",
+      "secondaryAreas": [],
+      "venueId": "tnano"
+    },
+    {
+      "docId": "tsm",
+      "line": 477,
+      "kind": "journal",
+      "name": "IEEE Transactions on Semiconductor Manufacturing",
+      "issns": [
+        "0894-6507"
+      ],
+      "primaryArea": "rf",
+      "secondaryAreas": [],
+      "venueId": "tsm"
+    },
+    {
+      "docId": "apl",
+      "line": 478,
+      "kind": "journal",
+      "name": "Applied Physics Letters",
+      "issns": [
+        "0003-6951"
+      ],
+      "primaryArea": "optical",
+      "secondaryAreas": [],
+      "venueId": "apl"
+    },
+    {
+      "docId": "npj-flex",
+      "line": 479,
+      "kind": "journal",
+      "name": "npj Flexible Electronics",
+      "issns": [
+        "2397-4621"
+      ],
+      "primaryArea": "rf",
+      "secondaryAreas": [],
+      "venueId": "npj-flex"
+    },
+    {
+      "docId": "iet-pel",
+      "line": 480,
+      "kind": "journal",
+      "name": "IET Power Electronics",
+      "issns": [
+        "1755-4535"
+      ],
+      "primaryArea": "rf",
+      "secondaryAreas": [],
+      "venueId": "iet-pel"
+    },
+    {
+      "docId": "ijcta",
+      "line": 481,
+      "kind": "journal",
+      "name": "International Journal of Circuit Theory and Applications",
+      "issns": [
+        "0098-9886"
+      ],
+      "primaryArea": "rf",
+      "secondaryAreas": [],
+      "venueId": "ijcta"
+    },
+    {
+      "docId": "jep",
+      "line": 482,
+      "kind": "journal",
+      "name": "Journal of Electronic Packaging",
+      "issns": [
+        "1043-7398"
+      ],
+      "primaryArea": "rf",
+      "secondaryAreas": [],
+      "venueId": "jep"
+    },
+    {
+      "docId": "jmm",
+      "line": 483,
+      "kind": "journal",
+      "name": "Journal of Micromechanics and Microengineering",
+      "issns": [
+        "0960-1317"
+      ],
+      "primaryArea": "rf",
+      "secondaryAreas": [],
+      "venueId": "jmm"
+    },
+    {
+      "docId": "mee",
+      "line": 484,
+      "kind": "journal",
+      "name": "Microelectronic Engineering",
+      "issns": [
+        "0167-9317"
+      ],
+      "primaryArea": "rf",
+      "secondaryAreas": [],
+      "venueId": "mee"
+    },
+    {
+      "docId": "mr",
+      "line": 485,
+      "kind": "journal",
+      "name": "Microelectronics Reliability",
+      "issns": [
+        "0026-2714"
+      ],
+      "primaryArea": "rf",
+      "secondaryAreas": [],
+      "venueId": "mr"
+    },
+    {
+      "docId": "nanotech",
+      "line": 486,
+      "kind": "journal",
+      "name": "Nanotechnology",
+      "issns": [
+        "0957-4484"
+      ],
+      "primaryArea": "rf",
+      "secondaryAreas": [],
+      "venueId": "nanotech"
+    },
+    {
+      "docId": "sst",
+      "line": 487,
+      "kind": "journal",
+      "name": "Semiconductor Science and Technology",
+      "issns": [
+        "0268-1242"
+      ],
+      "primaryArea": "rf",
+      "secondaryAreas": [],
+      "venueId": "sst"
+    },
+    {
+      "docId": "aicsp",
+      "line": 488,
+      "kind": "journal",
+      "name": "Analog Integrated Circuits and Signal Processing",
+      "issns": [
+        "0925-1030"
+      ],
+      "primaryArea": "rf",
+      "secondaryAreas": [],
+      "venueId": "aicsp"
+    },
+    {
+      "docId": "displays",
+      "line": 489,
+      "kind": "journal",
+      "name": "Displays",
+      "issns": [
+        "0141-9382"
+      ],
+      "primaryArea": "optical",
+      "secondaryAreas": [],
+      "venueId": "displays"
+    },
+    {
+      "docId": "ieice-elex",
+      "line": 490,
+      "kind": "journal",
+      "name": "IEICE Electronics Express",
+      "issns": [
+        "1349-2543"
+      ],
+      "primaryArea": "rf",
+      "secondaryAreas": [],
+      "venueId": "ieice-elex"
+    },
+    {
+      "docId": "ieice-ele",
+      "line": 491,
+      "kind": "journal",
+      "name": "IEICE Transactions on Electronics",
+      "issns": [
+        "0916-8524"
+      ],
+      "primaryArea": "rf",
+      "secondaryAreas": [],
+      "venueId": "ieice-ele"
+    },
+    {
+      "docId": "ieice-fec",
+      "line": 492,
+      "kind": "journal",
+      "name": "IEICE Transactions on Fundamentals of Electronics, Communications and Computer Sciences",
+      "issns": [
+        "0916-8508"
+      ],
+      "primaryArea": "theory",
+      "secondaryAreas": [],
+      "venueId": "ieice-fundamentals"
+    },
+    {
+      "docId": "iet-cds",
+      "line": 493,
+      "kind": "journal",
+      "name": "IET Circuits, Devices & Systems",
+      "issns": [
+        "1751-858X"
+      ],
+      "primaryArea": "rf",
+      "secondaryAreas": [],
+      "venueId": "iet-cds"
+    },
+    {
+      "docId": "jelectroceram",
+      "line": 494,
+      "kind": "journal",
+      "name": "Journal of Electroceramics",
+      "issns": [
+        "1385-3449"
+      ],
+      "primaryArea": "rf",
+      "secondaryAreas": [],
+      "venueId": "jelectroceram"
+    },
+    {
+      "docId": "jem",
+      "line": 495,
+      "kind": "journal",
+      "name": "Journal of Electronic Materials",
+      "issns": [
+        "0361-5235"
+      ],
+      "primaryArea": "rf",
+      "secondaryAreas": [],
+      "venueId": "jem"
+    },
+    {
+      "docId": "mej",
+      "line": 496,
+      "kind": "journal",
+      "name": "Microelectronics Journal",
+      "issns": [
+        "0959-8324"
+      ],
+      "primaryArea": "rf",
+      "secondaryAreas": [],
+      "venueId": "mej"
+    },
+    {
+      "docId": "tongxinxuebao",
+      "line": 504,
+      "kind": "journal",
+      "name": "通信学报",
+      "issns": [
+        "1000-436X"
+      ],
+      "primaryArea": "wireless",
+      "secondaryAreas": [
+        "network",
+        "signal"
+      ],
+      "venueId": "txxb"
+    },
+    {
+      "docId": "dianzixuebao",
+      "line": 505,
+      "kind": "journal",
+      "name": "电子学报",
+      "issns": [
+        "0372-2112"
+      ],
+      "primaryArea": "wireless",
+      "secondaryAreas": [
+        "signal",
+        "rf"
+      ],
+      "venueId": "acta-electronica"
+    },
+    {
+      "docId": "scis-zh",
+      "line": 506,
+      "kind": "journal",
+      "name": "中国科学: 信息科学",
+      "issns": [
+        "1674-7267"
+      ],
+      "primaryArea": "wireless",
+      "secondaryAreas": [
+        "ai",
+        "network"
+      ],
+      "venueId": "cn-ssi"
+    },
+    {
+      "docId": "dzclyyqxuebao",
+      "line": 507,
+      "kind": "journal",
+      "name": "电子测量与仪器学报",
+      "issns": [
+        "1000-7105"
+      ],
+      "primaryArea": "signal",
+      "secondaryAreas": [
+        "rf",
+        "iot"
+      ],
+      "venueId": "dzclyyqxuebao"
+    },
+    {
+      "docId": "jisuanjixuebao",
+      "line": 508,
+      "kind": "journal",
+      "name": "计算机学报",
+      "issns": [
+        "0254-4164"
+      ],
+      "primaryArea": "network",
+      "secondaryAreas": [
+        "ai"
+      ],
+      "venueId": "jisuanjixuebao"
+    },
+    {
+      "docId": "ruanjianxuebao",
+      "line": 509,
+      "kind": "journal",
+      "name": "软件学报",
+      "issns": [
+        "1000-9825"
+      ],
+      "primaryArea": "network",
+      "secondaryAreas": [
+        "ai"
+      ],
+      "venueId": "ruanjianxuebao"
+    },
+    {
+      "docId": "zidonghuaxuebao",
+      "line": 510,
+      "kind": "journal",
+      "name": "自动化学报",
+      "issns": [
+        "0254-4156"
+      ],
+      "primaryArea": "signal",
+      "secondaryAreas": [
+        "ai"
+      ],
+      "venueId": "zidonghuaxuebao"
+    },
+    {
+      "docId": "kexuetongbao",
+      "line": 511,
+      "kind": "journal",
+      "name": "科学通报",
+      "issns": [
+        "0023-074X"
+      ],
+      "primaryArea": "wireless",
+      "secondaryAreas": [
+        "optical",
+        "ai"
+      ],
+      "venueId": "kexuetongbao"
+    },
+    {
+      "docId": "jbupt",
+      "line": 512,
+      "kind": "journal",
+      "name": "北京邮电大学学报",
+      "issns": [
+        "1007-5321"
+      ],
+      "primaryArea": "wireless",
+      "secondaryAreas": [
+        "network",
+        "optical"
+      ],
+      "venueId": "cn-bupt"
+    },
+    {
+      "docId": "jeit",
+      "line": 513,
+      "kind": "journal",
+      "name": "电子与信息学报",
+      "issns": [
+        "1009-5896"
+      ],
+      "primaryArea": "wireless",
+      "secondaryAreas": [
+        "signal",
+        "rf"
+      ],
+      "venueId": "jeit"
+    },
+    {
+      "docId": "juestc",
+      "line": 514,
+      "kind": "journal",
+      "name": "电子科技大学学报",
+      "issns": [
+        "1001-0548"
+      ],
+      "primaryArea": "wireless",
+      "secondaryAreas": [
+        "rf",
+        "signal"
+      ],
+      "venueId": "cn-uestc"
+    },
+    {
+      "docId": "jxidian",
+      "line": 515,
+      "kind": "journal",
+      "name": "西安电子科技大学学报",
+      "issns": [
+        "1001-2400"
+      ],
+      "primaryArea": "wireless",
+      "secondaryAreas": [
+        "signal",
+        "rf"
+      ],
+      "venueId": "cn-xidian"
+    },
+    {
+      "docId": "dianxinkexue",
+      "line": 516,
+      "kind": "journal",
+      "name": "电信科学",
+      "issns": [
+        "1000-0801"
+      ],
+      "primaryArea": "wireless",
+      "secondaryAreas": [
+        "network"
+      ],
+      "venueId": "cn-telecom-sci"
+    },
+    {
+      "docId": "cjig",
+      "line": 517,
+      "kind": "journal",
+      "name": "中国图象图形学报",
+      "issns": [
+        "1006-8961"
+      ],
+      "primaryArea": "signal",
+      "secondaryAreas": [
+        "ai"
+      ],
+      "venueId": "cjig"
+    },
+    {
+      "docId": "cjnis",
+      "line": 518,
+      "kind": "journal",
+      "name": "网络与信息安全学报",
+      "issns": [
+        "2096-109X"
+      ],
+      "primaryArea": "theory",
+      "secondaryAreas": [
+        "network"
+      ],
+      "venueId": "cn-jnis"
+    },
+    {
+      "docId": "jirmmw-zh",
+      "line": 519,
+      "kind": "journal",
+      "name": "红外与毫米波学报",
+      "issns": [
+        "1001-9014"
+      ],
+      "primaryArea": "rf",
+      "secondaryAreas": [
+        "optical",
+        "space"
+      ],
+      "venueId": "jirmmw-zh"
+    },
+    {
+      "docId": "jsee-zh",
+      "line": 520,
+      "kind": "journal",
+      "name": "系统工程与电子技术",
+      "issns": [
+        "1001-506X"
+      ],
+      "primaryArea": "space",
+      "secondaryAreas": [
+        "signal",
+        "rf"
+      ],
+      "venueId": "cn-systems"
+    },
+    {
+      "docId": "ciotj",
+      "line": 521,
+      "kind": "journal",
+      "name": "物联网学报",
+      "issns": [
+        "2096-3750"
+      ],
+      "primaryArea": "iot",
+      "secondaryAreas": [
+        "network",
+        "wireless"
+      ],
+      "venueId": "cn-iot"
+    },
+    {
+      "docId": "jnjup",
+      "line": 522,
+      "kind": "journal",
+      "name": "南京邮电大学学报",
+      "issns": [
+        "1673-5439"
+      ],
+      "primaryArea": "wireless",
+      "secondaryAreas": [
+        "network"
+      ],
+      "venueId": "cn-njupt"
+    },
+    {
+      "docId": "jcqupt",
+      "line": 523,
+      "kind": "journal",
+      "name": "重庆邮电大学学报",
+      "issns": [
+        "1673-825X"
+      ],
+      "primaryArea": "wireless",
+      "secondaryAreas": [
+        "network"
+      ],
+      "venueId": "cn-cqupt"
+    },
+    {
+      "docId": "xinhaochuli",
+      "line": 524,
+      "kind": "journal",
+      "name": "信号处理",
+      "issns": [
+        "1003-0530"
+      ],
+      "primaryArea": "signal",
+      "secondaryAreas": [
+        "wireless"
+      ],
+      "venueId": "cn-signal"
+    },
+    {
+      "docId": "jradars",
+      "line": 525,
+      "kind": "journal",
+      "name": "雷达学报",
+      "issns": [
+        "2095-283X"
+      ],
+      "primaryArea": "signal",
+      "secondaryAreas": [
+        "rf",
+        "space"
+      ],
+      "venueId": "cn-radars"
+    },
+    {
+      "docId": "ldkxyjs",
+      "line": 526,
+      "kind": "journal",
+      "name": "雷达科学与技术",
+      "issns": [
+        "1672-2337"
+      ],
+      "primaryArea": "signal",
+      "secondaryAreas": [
+        "rf"
+      ],
+      "venueId": "ldkxyjs"
+    },
+    {
+      "docId": "sjcjycl",
+      "line": 527,
+      "kind": "journal",
+      "name": "数据采集与处理",
+      "issns": [
+        "1004-9037"
+      ],
+      "primaryArea": "signal",
+      "secondaryAreas": [],
+      "venueId": "sjcjycl"
+    },
+    {
+      "docId": "thz-zh",
+      "line": 528,
+      "kind": "journal",
+      "name": "太赫兹科学与电子信息学报",
+      "issns": [
+        "2095-4980"
+      ],
+      "primaryArea": "rf",
+      "secondaryAreas": [
+        "wireless"
+      ],
+      "venueId": "cn-terahertz"
+    },
+    {
+      "docId": "zte-tech",
+      "line": 529,
+      "kind": "journal",
+      "name": "中兴通讯技术",
+      "issns": [
+        "1009-6868"
+      ],
+      "primaryArea": "wireless",
+      "secondaryAreas": [
+        "network"
+      ],
+      "venueId": "cn-zte"
+    },
+    {
+      "docId": "dlxxytxjs",
+      "line": 530,
+      "kind": "journal",
+      "name": "电力信息与通信技术",
+      "issns": [
+        "2095-641X"
+      ],
+      "primaryArea": "iot",
+      "secondaryAreas": [
+        "network"
+      ],
+      "venueId": "dlxxytxjs"
+    },
+    {
+      "docId": "dianxunjishu",
+      "line": 531,
+      "kind": "journal",
+      "name": "电讯技术",
+      "issns": [
+        "1001-893X"
+      ],
+      "primaryArea": "wireless",
+      "secondaryAreas": [
+        "space"
+      ],
+      "venueId": "cn-tele-eng"
+    },
+    {
+      "docId": "dbkxxb",
+      "line": 532,
+      "kind": "journal",
+      "name": "电波科学学报",
+      "issns": [
+        "1005-0388"
+      ],
+      "primaryArea": "rf",
+      "secondaryAreas": [
+        "wireless"
+      ],
+      "venueId": "cn-cjors"
+    },
+    {
+      "docId": "bdtgd",
+      "line": 533,
+      "kind": "journal",
+      "name": "半导体光电",
+      "issns": [
+        "1001-5868"
+      ],
+      "primaryArea": "optical",
+      "secondaryAreas": [
+        "rf"
+      ],
+      "venueId": "bdtgd"
+    },
+    {
+      "docId": "jxupt",
+      "line": 534,
+      "kind": "journal",
+      "name": "西安邮电大学学报",
+      "issns": [
+        "2095-6533"
+      ],
+      "primaryArea": "wireless",
+      "secondaryAreas": [
+        "network"
+      ],
+      "venueId": "cn-xupt"
+    },
+    {
+      "docId": "gdgc",
+      "line": 535,
+      "kind": "journal",
+      "name": "光电工程",
+      "issns": [
+        "1003-501X"
+      ],
+      "primaryArea": "optical",
+      "secondaryAreas": [],
+      "venueId": "gdgc"
+    },
+    {
+      "docId": "gdzjg",
+      "line": 536,
+      "kind": "journal",
+      "name": "光电子·激光",
+      "issns": [
+        "1005-0086"
+      ],
+      "primaryArea": "optical",
+      "secondaryAreas": [],
+      "venueId": "gdzjg"
+    },
+    {
+      "docId": "gdjsyy",
+      "line": 537,
+      "kind": "journal",
+      "name": "光电技术应用",
+      "issns": [
+        "1673-1255"
+      ],
+      "primaryArea": "optical",
+      "secondaryAreas": [],
+      "venueId": "gdjsyy"
+    },
+    {
+      "docId": "gxygdjs",
+      "line": 538,
+      "kind": "journal",
+      "name": "光学与光电技术",
+      "issns": [
+        "1672-3392"
+      ],
+      "primaryArea": "optical",
+      "secondaryAreas": [],
+      "venueId": "gxygdjs"
+    },
+    {
+      "docId": "gtxjs",
+      "line": 539,
+      "kind": "journal",
+      "name": "光通信技术",
+      "issns": [
+        "1002-5561"
+      ],
+      "primaryArea": "optical",
+      "secondaryAreas": [
+        "network"
+      ],
+      "venueId": "cn-optcom-tech"
+    },
+    {
+      "docId": "gtxyj",
+      "line": 540,
+      "kind": "journal",
+      "name": "光通信研究",
+      "issns": [
+        "1005-8788"
+      ],
+      "primaryArea": "optical",
+      "secondaryAreas": [
+        "network"
+      ],
+      "venueId": "cn-optcom-res"
+    },
+    {
+      "docId": "cgjsxb",
+      "line": 541,
+      "kind": "journal",
+      "name": "传感技术学报",
+      "issns": [
+        "1004-1699"
+      ],
+      "primaryArea": "iot",
+      "secondaryAreas": [
+        "signal"
+      ],
+      "venueId": "cgjsxb"
+    },
+    {
+      "docId": "hwyjggc",
+      "line": 542,
+      "kind": "journal",
+      "name": "红外与激光工程",
+      "issns": [
+        "1007-2276"
+      ],
+      "primaryArea": "optical",
+      "secondaryAreas": [
+        "rf",
+        "space"
+      ],
+      "venueId": "hwyjggc"
+    },
+    {
+      "docId": "hwjs",
+      "line": 543,
+      "kind": "journal",
+      "name": "红外技术",
+      "issns": [
+        "1001-8891"
+      ],
+      "primaryArea": "optical",
+      "secondaryAreas": [
+        "rf"
+      ],
+      "venueId": "hwjs"
+    },
+    {
+      "docId": "yygx",
+      "line": 544,
+      "kind": "journal",
+      "name": "应用光学",
+      "issns": [
+        "1002-2082"
+      ],
+      "primaryArea": "optical",
+      "secondaryAreas": [],
+      "venueId": "applied-optics"
+    },
+    {
+      "docId": "xdld",
+      "line": 545,
+      "kind": "journal",
+      "name": "现代雷达",
+      "issns": [
+        "1004-7859"
+      ],
+      "primaryArea": "signal",
+      "secondaryAreas": [
+        "rf",
+        "space"
+      ],
+      "venueId": "xdld"
+    },
+    {
+      "docId": "xxwlaq",
+      "line": 546,
+      "kind": "journal",
+      "name": "信息网络安全",
+      "issns": [
+        "1671-1122"
+      ],
+      "primaryArea": "theory",
+      "secondaryAreas": [
+        "network"
+      ],
+      "venueId": "xxwlaq"
+    },
+    {
+      "docId": "xxaqxb",
+      "line": 547,
+      "kind": "journal",
+      "name": "信息安全学报",
+      "issns": [
+        "2096-1146"
+      ],
+      "primaryArea": "theory",
+      "secondaryAreas": [
+        "network"
+      ],
+      "venueId": "xxaqxb"
+    },
+    {
+      "docId": "xxaqyj",
+      "line": 548,
+      "kind": "journal",
+      "name": "信息安全研究",
+      "issns": [
+        "2096-1057"
+      ],
+      "primaryArea": "theory",
+      "secondaryAreas": [
+        "network"
+      ],
+      "venueId": "xxaqyj"
+    },
+    {
+      "docId": "ydtx",
+      "line": 549,
+      "kind": "journal",
+      "name": "移动通信",
+      "issns": [
+        "1006-1010"
+      ],
+      "primaryArea": "wireless",
+      "secondaryAreas": [
+        "network"
+      ],
+      "venueId": "cn-mobile"
+    },
+    {
+      "docId": "lzdzxb",
+      "line": 550,
+      "kind": "journal",
+      "name": "量子电子学报",
+      "issns": [
+        "1007-5461"
+      ],
+      "primaryArea": "optical",
+      "secondaryAreas": [
+        "theory"
+      ],
+      "venueId": "lzdzxb"
+    },
+    {
+      "docId": "wdzx",
+      "line": 551,
+      "kind": "journal",
+      "name": "微电子学",
+      "issns": [
+        "1004-3365"
+      ],
+      "primaryArea": "rf",
+      "secondaryAreas": [],
+      "venueId": "wdzx"
+    },
+    {
+      "docId": "wdzxyjsj",
+      "line": 552,
+      "kind": "journal",
+      "name": "微电子学与计算机",
+      "issns": [
+        "1000-7180"
+      ],
+      "primaryArea": "rf",
+      "secondaryAreas": [],
+      "venueId": "wdzxyjsj"
+    },
+    {
+      "docId": "wbxb",
+      "line": 553,
+      "kind": "journal",
+      "name": "微波学报",
+      "issns": [
+        "1005-6122"
+      ],
+      "primaryArea": "rf",
+      "secondaryAreas": [
+        "wireless"
+      ],
+      "venueId": "cn-microwave"
+    },
+    {
+      "docId": "jgyhw",
+      "line": 554,
+      "kind": "journal",
+      "name": "激光与红外",
+      "issns": [
+        "1001-5078"
+      ],
+      "primaryArea": "optical",
+      "secondaryAreas": [
+        "rf"
+      ],
+      "venueId": "jgyhw"
+    },
+    {
+      "docId": "jgjs",
+      "line": 555,
+      "kind": "journal",
+      "name": "激光技术",
+      "issns": [
+        "1001-3806"
+      ],
+      "primaryArea": "optical",
+      "secondaryAreas": [],
+      "venueId": "jgjs"
+    }
+  ],
+  "deferred": [
+    {
+      "line": 110,
+      "docId": "ijcb",
+      "name": "IEEE International Joint Conference on Biometrics (formerly BTAS)",
+      "reason": "legacy-identity-requires-separate-review"
+    },
+    {
+      "line": 123,
+      "docId": "ijcb",
+      "name": "International Conference on Biometrics (now IEEE IJCB)",
+      "reason": "legacy-identity-requires-separate-review"
+    },
+    {
+      "line": 132,
+      "docId": "icr",
+      "name": "International Conference on Radar (IEEE/CIE/IET/SEE)",
+      "reason": "legacy-identity-requires-separate-review"
+    },
+    {
+      "line": 156,
+      "docId": "scw",
+      "name": "IEEE Workshop on Speech Coding",
+      "reason": "legacy-identity-requires-separate-review"
+    }
+  ],
+  "conferenceRows": [
+    {
+      "line": 69,
+      "docId": "aaai",
+      "venueId": "aaai",
+      "primaryArea": "ai",
+      "secondaryAreas": []
+    },
+    {
+      "line": 70,
+      "docId": "acl",
+      "venueId": "acl",
+      "primaryArea": "ai",
+      "secondaryAreas": []
+    },
+    {
+      "line": 71,
+      "docId": "cleo",
+      "venueId": "cleo",
+      "primaryArea": "optical",
+      "secondaryAreas": [
+        "rf"
+      ]
+    },
+    {
+      "line": 72,
+      "docId": "cvpr",
+      "venueId": "cvpr",
+      "primaryArea": "ai",
+      "secondaryAreas": [
+        "signal"
+      ]
+    },
+    {
+      "line": 73,
+      "docId": "eccv",
+      "venueId": "eccv",
+      "primaryArea": "ai",
+      "secondaryAreas": [
+        "signal"
+      ]
+    },
+    {
+      "line": 74,
+      "docId": "ecoc",
+      "venueId": "ecoc",
+      "primaryArea": "optical",
+      "secondaryAreas": [
+        "network"
+      ]
+    },
+    {
+      "line": 75,
+      "docId": "globecom",
+      "venueId": "globecom",
+      "primaryArea": "wireless",
+      "secondaryAreas": [
+        "network",
+        "signal"
+      ]
+    },
+    {
+      "line": 76,
+      "docId": "icassp",
+      "venueId": "icassp",
+      "primaryArea": "signal",
+      "secondaryAreas": [
+        "wireless",
+        "ai"
+      ]
+    },
+    {
+      "line": 77,
+      "docId": "icc",
+      "venueId": "icc",
+      "primaryArea": "wireless",
+      "secondaryAreas": [
+        "network",
+        "signal"
+      ]
+    },
+    {
+      "line": 78,
+      "docId": "iccv",
+      "venueId": "iccv",
+      "primaryArea": "ai",
+      "secondaryAreas": [
+        "signal"
+      ]
+    },
+    {
+      "line": 79,
+      "docId": "icip",
+      "venueId": "icip",
+      "primaryArea": "signal",
+      "secondaryAreas": [
+        "ai"
+      ]
+    },
+    {
+      "line": 80,
+      "docId": "icml",
+      "venueId": "icml",
+      "primaryArea": "ai",
+      "secondaryAreas": []
+    },
+    {
+      "line": 81,
+      "docId": "icpr",
+      "venueId": "icpr",
+      "primaryArea": "ai",
+      "secondaryAreas": [
+        "signal"
+      ]
+    },
+    {
+      "line": 82,
+      "docId": "infocom",
+      "venueId": "infocom",
+      "primaryArea": "network",
+      "secondaryAreas": [
+        "wireless",
+        "iot"
+      ]
+    },
+    {
+      "line": 83,
+      "docId": "isit",
+      "venueId": "isit",
+      "primaryArea": "theory",
+      "secondaryAreas": [
+        "wireless",
+        "signal"
+      ]
+    },
+    {
+      "line": 84,
+      "docId": "ijcai",
+      "venueId": "ijcai",
+      "primaryArea": "ai",
+      "secondaryAreas": []
+    },
+    {
+      "line": 85,
+      "docId": "itsc",
+      "venueId": "itsc",
+      "primaryArea": "iot",
+      "secondaryAreas": [
+        "wireless",
+        "ai"
+      ]
+    },
+    {
+      "line": 86,
+      "docId": "kdd",
+      "venueId": "kdd",
+      "primaryArea": "ai",
+      "secondaryAreas": [
+        "network"
+      ]
+    },
+    {
+      "line": 87,
+      "docId": "mobisys",
+      "venueId": "mobisys",
+      "primaryArea": "network",
+      "secondaryAreas": [
+        "iot",
+        "wireless"
+      ]
+    },
+    {
+      "line": 88,
+      "docId": "neurips",
+      "venueId": "neurips",
+      "primaryArea": "ai",
+      "secondaryAreas": []
+    },
+    {
+      "line": 89,
+      "docId": "ofc",
+      "venueId": "ofc",
+      "primaryArea": "optical",
+      "secondaryAreas": [
+        "network"
+      ]
+    },
+    {
+      "line": 90,
+      "docId": "sigcomm",
+      "venueId": "sigcomm",
+      "primaryArea": "network",
+      "secondaryAreas": [
+        "wireless"
+      ]
+    },
+    {
+      "line": 91,
+      "docId": "sigir",
+      "venueId": "sigir",
+      "primaryArea": "ai",
+      "secondaryAreas": []
+    },
+    {
+      "line": 92,
+      "docId": "kdd",
+      "venueId": "kdd",
+      "primaryArea": "ai",
+      "secondaryAreas": [
+        "network"
+      ]
+    },
+    {
+      "line": 93,
+      "docId": "sigmod",
+      "venueId": "sigmod",
+      "primaryArea": "ai",
+      "secondaryAreas": []
+    },
+    {
+      "line": 94,
+      "docId": "ubicomp",
+      "venueId": "ubicomp",
+      "primaryArea": "iot",
+      "secondaryAreas": [
+        "network",
+        "ai"
+      ]
+    },
+    {
+      "line": 95,
+      "docId": "vldb",
+      "venueId": "vldb",
+      "primaryArea": "ai",
+      "secondaryAreas": []
+    },
+    {
+      "line": 96,
+      "docId": "www",
+      "venueId": "www",
+      "primaryArea": "network",
+      "secondaryAreas": [
+        "ai"
+      ]
+    },
+    {
+      "line": 97,
+      "docId": "radarconf",
+      "venueId": "radarconf",
+      "primaryArea": "signal",
+      "secondaryAreas": [
+        "rf",
+        "space"
+      ]
+    },
+    {
+      "line": 98,
+      "docId": "mobicom",
+      "venueId": "mobicom",
+      "primaryArea": "network",
+      "secondaryAreas": [
+        "wireless",
+        "iot"
+      ]
+    },
+    {
+      "line": 99,
+      "docId": "mobicom",
+      "venueId": "mobicom",
+      "primaryArea": "network",
+      "secondaryAreas": [
+        "wireless",
+        "iot"
+      ]
+    },
+    {
+      "line": 100,
+      "docId": "accv",
+      "venueId": "accv",
+      "primaryArea": "ai",
+      "secondaryAreas": [
+        "signal"
+      ]
+    },
+    {
+      "line": 101,
+      "docId": "acmmm",
+      "venueId": "acmmm",
+      "primaryArea": "ai",
+      "secondaryAreas": [
+        "network",
+        "signal"
+      ]
+    },
+    {
+      "line": 102,
+      "docId": "acp",
+      "venueId": "acp",
+      "primaryArea": "optical",
+      "secondaryAreas": [
+        "rf"
+      ]
+    },
+    {
+      "line": 103,
+      "docId": "apmc",
+      "venueId": "apmc",
+      "primaryArea": "rf",
+      "secondaryAreas": [
+        "wireless"
+      ]
+    },
+    {
+      "line": 104,
+      "docId": "apnoms",
+      "venueId": "apnoms",
+      "primaryArea": "network",
+      "secondaryAreas": []
+    },
+    {
+      "line": 105,
+      "docId": "aps",
+      "venueId": "aps-ursi",
+      "primaryArea": "rf",
+      "secondaryAreas": [
+        "wireless",
+        "space"
+      ]
+    },
+    {
+      "line": 106,
+      "docId": "ieee-bigdata",
+      "venueId": "legacy-bigdata",
+      "primaryArea": "ai",
+      "secondaryAreas": [
+        "network"
+      ]
+    },
+    {
+      "line": 107,
+      "docId": "bmvc",
+      "venueId": "bmvc",
+      "primaryArea": "ai",
+      "secondaryAreas": [
+        "signal"
+      ]
+    },
+    {
+      "line": 108,
+      "docId": "bodynets",
+      "venueId": "bodynets",
+      "primaryArea": "iot",
+      "secondaryAreas": [
+        "wireless",
+        "signal"
+      ]
+    },
+    {
+      "line": 109,
+      "docId": "bsn",
+      "venueId": "legacy-bsn",
+      "primaryArea": "iot",
+      "secondaryAreas": [
+        "signal"
+      ]
+    },
+    {
+      "line": 111,
+      "docId": "ccs",
+      "venueId": "ccs",
+      "primaryArea": "network",
+      "secondaryAreas": [
+        "theory"
+      ]
+    },
+    {
+      "line": 112,
+      "docId": "icmr",
+      "venueId": "icmr",
+      "primaryArea": "ai",
+      "secondaryAreas": [
+        "signal"
+      ]
+    },
+    {
+      "line": 113,
+      "docId": "cnsm",
+      "venueId": "cnsm",
+      "primaryArea": "network",
+      "secondaryAreas": [
+        "ai"
+      ]
+    },
+    {
+      "line": 114,
+      "docId": "crowncom",
+      "venueId": "crowncom",
+      "primaryArea": "wireless",
+      "secondaryAreas": [
+        "ai"
+      ]
+    },
+    {
+      "line": 115,
+      "docId": "dyspan",
+      "venueId": "dyspan",
+      "primaryArea": "wireless",
+      "secondaryAreas": [
+        "network",
+        "ai"
+      ]
+    },
+    {
+      "line": 116,
+      "docId": "embc",
+      "venueId": "embc",
+      "primaryArea": "signal",
+      "secondaryAreas": [
+        "iot"
+      ]
+    },
+    {
+      "line": 117,
+      "docId": "eumw",
+      "venueId": "legacy-eumw",
+      "primaryArea": "rf",
+      "secondaryAreas": [
+        "wireless",
+        "signal"
+      ]
+    },
+    {
+      "line": 118,
+      "docId": "globalsip",
+      "venueId": "globalsip",
+      "primaryArea": "signal",
+      "secondaryAreas": [
+        "wireless",
+        "theory"
+      ]
+    },
+    {
+      "line": 119,
+      "docId": "gsmm",
+      "venueId": "gsmm",
+      "primaryArea": "rf",
+      "secondaryAreas": [
+        "wireless"
+      ]
+    },
+    {
+      "line": 120,
+      "docId": "wpmc",
+      "venueId": "wpmc",
+      "primaryArea": "wireless",
+      "secondaryAreas": [
+        "network"
+      ]
+    },
+    {
+      "line": 121,
+      "docId": "ibc",
+      "venueId": "ibc",
+      "primaryArea": "signal",
+      "secondaryAreas": [
+        "wireless",
+        "network"
+      ]
+    },
+    {
+      "line": 122,
+      "docId": "eucap",
+      "venueId": "eucap",
+      "primaryArea": "rf",
+      "secondaryAreas": [
+        "wireless",
+        "space"
+      ]
+    },
+    {
+      "line": 124,
+      "docId": "iccc",
+      "venueId": "iccc",
+      "primaryArea": "wireless",
+      "secondaryAreas": [
+        "network",
+        "signal"
+      ]
+    },
+    {
+      "line": 125,
+      "docId": "icdar",
+      "venueId": "icdar",
+      "primaryArea": "ai",
+      "secondaryAreas": [
+        "signal"
+      ]
+    },
+    {
+      "line": 126,
+      "docId": "icdm",
+      "venueId": "icdm",
+      "primaryArea": "ai",
+      "secondaryAreas": []
+    },
+    {
+      "line": 127,
+      "docId": "icme",
+      "venueId": "icme",
+      "primaryArea": "ai",
+      "secondaryAreas": [
+        "signal",
+        "network"
+      ]
+    },
+    {
+      "line": 128,
+      "docId": "icmmt",
+      "venueId": "icmmt",
+      "primaryArea": "rf",
+      "secondaryAreas": [
+        "wireless"
+      ]
+    },
+    {
+      "line": 129,
+      "docId": "icmr",
+      "venueId": "icmr",
+      "primaryArea": "ai",
+      "secondaryAreas": [
+        "signal"
+      ]
+    },
+    {
+      "line": 130,
+      "docId": "icnp",
+      "venueId": "icnp",
+      "primaryArea": "network",
+      "secondaryAreas": []
+    },
+    {
+      "line": 131,
+      "docId": "icon",
+      "venueId": "legacy-icon",
+      "primaryArea": "ai",
+      "secondaryAreas": []
+    },
+    {
+      "line": 133,
+      "docId": "interspeech",
+      "venueId": "interspeech",
+      "primaryArea": "signal",
+      "secondaryAreas": [
+        "ai"
+      ]
+    },
+    {
+      "line": 134,
+      "docId": "igarss",
+      "venueId": "igarss",
+      "primaryArea": "space",
+      "secondaryAreas": [
+        "signal",
+        "rf"
+      ]
+    },
+    {
+      "line": 135,
+      "docId": "im",
+      "venueId": "im",
+      "primaryArea": "network",
+      "secondaryAreas": [
+        "ai"
+      ]
+    },
+    {
+      "line": 136,
+      "docId": "ims",
+      "venueId": "ims",
+      "primaryArea": "rf",
+      "secondaryAreas": [
+        "wireless"
+      ]
+    },
+    {
+      "line": 137,
+      "docId": "ion-gnss",
+      "venueId": "ion-gnss",
+      "primaryArea": "space",
+      "secondaryAreas": [
+        "signal",
+        "wireless"
+      ]
+    },
+    {
+      "line": 138,
+      "docId": "ipc",
+      "venueId": "ipc",
+      "primaryArea": "optical",
+      "secondaryAreas": [
+        "rf"
+      ]
+    },
+    {
+      "line": 139,
+      "docId": "isap",
+      "venueId": "isap",
+      "primaryArea": "rf",
+      "secondaryAreas": [
+        "wireless"
+      ]
+    },
+    {
+      "line": 140,
+      "docId": "iscslp",
+      "venueId": "iscslp",
+      "primaryArea": "signal",
+      "secondaryAreas": [
+        "ai"
+      ]
+    },
+    {
+      "line": 141,
+      "docId": "ismb",
+      "venueId": "ismb",
+      "primaryArea": "ai",
+      "secondaryAreas": []
+    },
+    {
+      "line": 142,
+      "docId": "iswcs",
+      "venueId": "iswcs",
+      "primaryArea": "wireless",
+      "secondaryAreas": [
+        "signal"
+      ]
+    },
+    {
+      "line": 143,
+      "docId": "itw",
+      "venueId": "itw",
+      "primaryArea": "theory",
+      "secondaryAreas": [
+        "wireless"
+      ]
+    },
+    {
+      "line": 144,
+      "docId": "milcom",
+      "venueId": "milcom",
+      "primaryArea": "wireless",
+      "secondaryAreas": [
+        "space",
+        "network"
+      ]
+    },
+    {
+      "line": 145,
+      "docId": "noms",
+      "venueId": "noms",
+      "primaryArea": "network",
+      "secondaryAreas": [
+        "ai"
+      ]
+    },
+    {
+      "line": 146,
+      "docId": "oecc",
+      "venueId": "oecc",
+      "primaryArea": "optical",
+      "secondaryAreas": [
+        "rf"
+      ]
+    },
+    {
+      "line": 147,
+      "docId": "oi",
+      "venueId": "oi",
+      "primaryArea": "optical",
+      "secondaryAreas": [
+        "network"
+      ]
+    },
+    {
+      "line": 148,
+      "docId": "ondm",
+      "venueId": "ondm",
+      "primaryArea": "optical",
+      "secondaryAreas": [
+        "network"
+      ]
+    },
+    {
+      "line": 149,
+      "docId": "pakdd",
+      "venueId": "pakdd",
+      "primaryArea": "ai",
+      "secondaryAreas": []
+    },
+    {
+      "line": 150,
+      "docId": "pcs",
+      "venueId": "pcs",
+      "primaryArea": "signal",
+      "secondaryAreas": [
+        "theory",
+        "ai"
+      ]
+    },
+    {
+      "line": 151,
+      "docId": "pimrc",
+      "venueId": "pimrc",
+      "primaryArea": "wireless",
+      "secondaryAreas": [
+        "signal",
+        "iot"
+      ]
+    },
+    {
+      "line": 152,
+      "docId": "sensys",
+      "venueId": "sensys",
+      "primaryArea": "iot",
+      "secondaryAreas": [
+        "network",
+        "wireless"
+      ]
+    },
+    {
+      "line": 153,
+      "docId": "vcip",
+      "venueId": "vcip",
+      "primaryArea": "signal",
+      "secondaryAreas": [
+        "ai",
+        "network"
+      ]
+    },
+    {
+      "line": 154,
+      "docId": "wcnc",
+      "venueId": "wcnc",
+      "primaryArea": "wireless",
+      "secondaryAreas": [
+        "network",
+        "iot"
+      ]
+    },
+    {
+      "line": 155,
+      "docId": "wsdm",
+      "venueId": "wsdm",
+      "primaryArea": "ai",
+      "secondaryAreas": [
+        "network"
+      ]
+    },
+    {
+      "line": 157,
+      "docId": "mobihoc",
+      "venueId": "mobihoc",
+      "primaryArea": "network",
+      "secondaryAreas": [
+        "wireless",
+        "theory"
+      ]
+    },
+    {
+      "line": 167,
+      "docId": "vtc",
+      "venueId": "vtc",
+      "primaryArea": "wireless",
+      "secondaryAreas": [
+        "iot",
+        "space"
+      ]
+    },
+    {
+      "line": 168,
+      "docId": "spawc",
+      "venueId": "spawc",
+      "primaryArea": "signal",
+      "secondaryAreas": [
+        "wireless",
+        "theory"
+      ]
+    },
+    {
+      "line": 169,
+      "docId": "wcsp",
+      "venueId": "wcsp",
+      "primaryArea": "wireless",
+      "secondaryAreas": [
+        "signal"
+      ]
+    },
+    {
+      "line": 170,
+      "docId": "wowmom",
+      "venueId": "wowmom",
+      "primaryArea": "wireless",
+      "secondaryAreas": [
+        "network",
+        "iot"
+      ]
+    },
+    {
+      "line": 171,
+      "docId": "mswim",
+      "venueId": "mswim",
+      "primaryArea": "wireless",
+      "secondaryAreas": [
+        "network"
+      ]
+    },
+    {
+      "line": 172,
+      "docId": "wons",
+      "venueId": "wons",
+      "primaryArea": "wireless",
+      "secondaryAreas": [
+        "network"
+      ]
+    },
+    {
+      "line": 173,
+      "docId": "wiopt",
+      "venueId": "wiopt",
+      "primaryArea": "wireless",
+      "secondaryAreas": [
+        "theory",
+        "network"
+      ]
+    },
+    {
+      "line": 174,
+      "docId": "asilomar",
+      "venueId": "asilomar",
+      "primaryArea": "signal",
+      "secondaryAreas": [
+        "wireless",
+        "theory"
+      ]
+    },
+    {
+      "line": 175,
+      "docId": "eusipco",
+      "venueId": "eusipco",
+      "primaryArea": "signal",
+      "secondaryAreas": [
+        "wireless",
+        "ai"
+      ]
+    },
+    {
+      "line": 176,
+      "docId": "ciss",
+      "venueId": "ciss",
+      "primaryArea": "signal",
+      "secondaryAreas": [
+        "theory",
+        "wireless"
+      ]
+    },
+    {
+      "line": 177,
+      "docId": "sam",
+      "venueId": "sam",
+      "primaryArea": "signal",
+      "secondaryAreas": [
+        "wireless",
+        "rf"
+      ]
+    },
+    {
+      "line": 178,
+      "docId": "camsap",
+      "venueId": "camsap",
+      "primaryArea": "signal",
+      "secondaryAreas": [
+        "wireless"
+      ]
+    },
+    {
+      "line": 179,
+      "docId": "dsp",
+      "venueId": "dsp-conf",
+      "primaryArea": "signal",
+      "secondaryAreas": []
+    },
+    {
+      "line": 180,
+      "docId": "allerton",
+      "venueId": "allerton",
+      "primaryArea": "theory",
+      "secondaryAreas": [
+        "wireless",
+        "network"
+      ]
+    },
+    {
+      "line": 181,
+      "docId": "ita",
+      "venueId": "ita",
+      "primaryArea": "theory",
+      "secondaryAreas": [
+        "wireless",
+        "ai"
+      ]
+    },
+    {
+      "line": 182,
+      "docId": "istc",
+      "venueId": "istc",
+      "primaryArea": "theory",
+      "secondaryAreas": [
+        "wireless"
+      ]
+    },
+    {
+      "line": 183,
+      "docId": "dcc",
+      "venueId": "dcc",
+      "primaryArea": "theory",
+      "secondaryAreas": [
+        "signal"
+      ]
+    },
+    {
+      "line": 184,
+      "docId": "crypto",
+      "venueId": "crypto",
+      "primaryArea": "theory",
+      "secondaryAreas": [
+        "network"
+      ]
+    },
+    {
+      "line": 185,
+      "docId": "eurocrypt",
+      "venueId": "eurocrypt",
+      "primaryArea": "theory",
+      "secondaryAreas": [
+        "network"
+      ]
+    },
+    {
+      "line": 186,
+      "docId": "asiacrypt",
+      "venueId": "asiacrypt",
+      "primaryArea": "theory",
+      "secondaryAreas": [
+        "network"
+      ]
+    },
+    {
+      "line": 187,
+      "docId": "nsdi",
+      "venueId": "nsdi",
+      "primaryArea": "network",
+      "secondaryAreas": [
+        "ai"
+      ]
+    },
+    {
+      "line": 188,
+      "docId": "conext",
+      "venueId": "conext",
+      "primaryArea": "network",
+      "secondaryAreas": [
+        "wireless"
+      ]
+    },
+    {
+      "line": 189,
+      "docId": "secon",
+      "venueId": "secon",
+      "primaryArea": "network",
+      "secondaryAreas": [
+        "wireless",
+        "iot"
+      ]
+    },
+    {
+      "line": 190,
+      "docId": "imc",
+      "venueId": "imc",
+      "primaryArea": "network",
+      "secondaryAreas": []
+    },
+    {
+      "line": 191,
+      "docId": "iwqos",
+      "venueId": "iwqos",
+      "primaryArea": "network",
+      "secondaryAreas": [
+        "ai"
+      ]
+    },
+    {
+      "line": 192,
+      "docId": "nossdav",
+      "venueId": "nossdav",
+      "primaryArea": "network",
+      "secondaryAreas": [
+        "ai"
+      ]
+    },
+    {
+      "line": 193,
+      "docId": "icccn",
+      "venueId": "icccn",
+      "primaryArea": "network",
+      "secondaryAreas": [
+        "wireless"
+      ]
+    },
+    {
+      "line": 194,
+      "docId": "lcn",
+      "venueId": "lcn",
+      "primaryArea": "network",
+      "secondaryAreas": [
+        "iot"
+      ]
+    },
+    {
+      "line": 195,
+      "docId": "ipccc",
+      "venueId": "ipccc",
+      "primaryArea": "network",
+      "secondaryAreas": []
+    },
+    {
+      "line": 196,
+      "docId": "iscc",
+      "venueId": "iscc",
+      "primaryArea": "network",
+      "secondaryAreas": [
+        "wireless"
+      ]
+    },
+    {
+      "line": 197,
+      "docId": "ifip-networking",
+      "venueId": "ifip-networking",
+      "primaryArea": "network",
+      "secondaryAreas": []
+    },
+    {
+      "line": 198,
+      "docId": "hotnets",
+      "venueId": "hotnets",
+      "primaryArea": "network",
+      "secondaryAreas": []
+    },
+    {
+      "line": 199,
+      "docId": "apnet",
+      "venueId": "apnet",
+      "primaryArea": "network",
+      "secondaryAreas": []
+    },
+    {
+      "line": 200,
+      "docId": "ancs",
+      "venueId": "ancs",
+      "primaryArea": "network",
+      "secondaryAreas": []
+    },
+    {
+      "line": 201,
+      "docId": "ndss",
+      "venueId": "ndss",
+      "primaryArea": "network",
+      "secondaryAreas": [
+        "theory"
+      ]
+    },
+    {
+      "line": 202,
+      "docId": "sp",
+      "venueId": "sp",
+      "primaryArea": "network",
+      "secondaryAreas": [
+        "theory"
+      ]
+    },
+    {
+      "line": 203,
+      "docId": "usenix-sec",
+      "venueId": "usenix-sec",
+      "primaryArea": "network",
+      "secondaryAreas": [
+        "theory"
+      ]
+    },
+    {
+      "line": 204,
+      "docId": "wisec",
+      "venueId": "wisec",
+      "primaryArea": "network",
+      "secondaryAreas": [
+        "wireless",
+        "theory"
+      ]
+    },
+    {
+      "line": 205,
+      "docId": "cns",
+      "venueId": "cns",
+      "primaryArea": "network",
+      "secondaryAreas": [
+        "wireless",
+        "theory"
+      ]
+    },
+    {
+      "line": 206,
+      "docId": "securecomm",
+      "venueId": "securecomm",
+      "primaryArea": "network",
+      "secondaryAreas": [
+        "theory"
+      ]
+    },
+    {
+      "line": 207,
+      "docId": "dsn",
+      "venueId": "dsn",
+      "primaryArea": "network",
+      "secondaryAreas": []
+    },
+    {
+      "line": 208,
+      "docId": "cleo-pr",
+      "venueId": "cleo-pr",
+      "primaryArea": "optical",
+      "secondaryAreas": [
+        "rf"
+      ]
+    },
+    {
+      "line": 209,
+      "docId": "ofs",
+      "venueId": "ofs",
+      "primaryArea": "optical",
+      "secondaryAreas": [
+        "iot"
+      ]
+    },
+    {
+      "line": 210,
+      "docId": "mwp",
+      "venueId": "mwp",
+      "primaryArea": "optical",
+      "secondaryAreas": [
+        "rf",
+        "wireless"
+      ]
+    },
+    {
+      "line": 211,
+      "docId": "icton",
+      "venueId": "icton",
+      "primaryArea": "optical",
+      "secondaryAreas": [
+        "network"
+      ]
+    },
+    {
+      "line": 212,
+      "docId": "icocn",
+      "venueId": "icocn",
+      "primaryArea": "optical",
+      "secondaryAreas": [
+        "network"
+      ]
+    },
+    {
+      "line": 213,
+      "docId": "psc",
+      "venueId": "psc",
+      "primaryArea": "optical",
+      "secondaryAreas": [
+        "network"
+      ]
+    },
+    {
+      "line": 214,
+      "docId": "rfic",
+      "venueId": "rfic",
+      "primaryArea": "rf",
+      "secondaryAreas": [
+        "wireless"
+      ]
+    },
+    {
+      "line": 215,
+      "docId": "isscc",
+      "venueId": "isscc",
+      "primaryArea": "rf",
+      "secondaryAreas": [
+        "wireless",
+        "signal"
+      ]
+    },
+    {
+      "line": 216,
+      "docId": "iws",
+      "venueId": "iws",
+      "primaryArea": "rf",
+      "secondaryAreas": [
+        "wireless"
+      ]
+    },
+    {
+      "line": 217,
+      "docId": "irmmw-thz",
+      "venueId": "irmmw-thz",
+      "primaryArea": "rf",
+      "secondaryAreas": [
+        "optical",
+        "wireless"
+      ]
+    },
+    {
+      "line": 218,
+      "docId": "emc",
+      "venueId": "emc",
+      "primaryArea": "rf",
+      "secondaryAreas": []
+    },
+    {
+      "line": 219,
+      "docId": "apcap",
+      "venueId": "apcap",
+      "primaryArea": "rf",
+      "secondaryAreas": [
+        "wireless"
+      ]
+    },
+    {
+      "line": 220,
+      "docId": "iwat",
+      "venueId": "iwat",
+      "primaryArea": "rf",
+      "secondaryAreas": [
+        "wireless"
+      ]
+    },
+    {
+      "line": 221,
+      "docId": "piers",
+      "venueId": "piers",
+      "primaryArea": "rf",
+      "secondaryAreas": [
+        "optical"
+      ]
+    },
+    {
+      "line": 222,
+      "docId": "eurad",
+      "venueId": "eurad",
+      "primaryArea": "signal",
+      "secondaryAreas": [
+        "rf",
+        "space"
+      ]
+    },
+    {
+      "line": 223,
+      "docId": "plans",
+      "venueId": "plans",
+      "primaryArea": "space",
+      "secondaryAreas": [
+        "signal",
+        "iot"
+      ]
+    },
+    {
+      "line": 224,
+      "docId": "csnc",
+      "venueId": "csnc",
+      "primaryArea": "space",
+      "secondaryAreas": [
+        "signal"
+      ]
+    },
+    {
+      "line": 225,
+      "docId": "ipin",
+      "venueId": "ipin",
+      "primaryArea": "iot",
+      "secondaryAreas": [
+        "signal",
+        "wireless"
+      ]
+    },
+    {
+      "line": 226,
+      "docId": "ipsn",
+      "venueId": "sensys",
+      "primaryArea": "iot",
+      "secondaryAreas": [
+        "network",
+        "signal"
+      ]
+    },
+    {
+      "line": 227,
+      "docId": "percom",
+      "venueId": "percom",
+      "primaryArea": "iot",
+      "secondaryAreas": [
+        "network",
+        "ai"
+      ]
+    },
+    {
+      "line": 228,
+      "docId": "mass",
+      "venueId": "mass",
+      "primaryArea": "iot",
+      "secondaryAreas": [
+        "network",
+        "wireless"
+      ]
+    }
+  ]
+}

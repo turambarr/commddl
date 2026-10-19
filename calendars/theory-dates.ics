@@ -27,10 +27,8 @@ LAST-MODIFIED:20261018T040000Z
 SEQUENCE:0
 DTSTART:20270111T115900Z
 SUMMARY:ISIT · ISIT 2027 · 主会论文 · 全文提交
-DESCRIPTION:请同时核对官方投稿入口。\n主会全文与终稿截
- 止为23:59 AoE（全球最晚时区，UTC−12）。Recent Results（近
- 期成果）为非存档展示，论文集与IEEE Xplore收录范围为正
- 式论文。\n来源：https://2027.ieee-isit.org/index.php/
+DESCRIPTION:请同时核对官方投稿入口。\n\n来源：https://2027.i
+ eee-isit.org/index.php/
 URL:https://2027.ieee-isit.org/index.php/
 TRANSP:TRANSPARENT
 END:VEVENT
@@ -41,9 +39,8 @@ LAST-MODIFIED:20261018T080000Z
 SEQUENCE:0
 DTSTART:20260827T115900Z
 SUMMARY:MobiCom · MobiCom 2027 · 夏季轮 · 摘要／注册
-DESCRIPTION:请同时核对官方投稿入口。\n夏季轮已截止，冬
- 季轮官网标为TBD（待定），举办城市未公布。\n来源：htt
- ps://www.sigmobile.org/mobicom/2027/cfp.html
+DESCRIPTION:请同时核对官方投稿入口。\n\n来源：https://www.si
+ gmobile.org/mobicom/2027/cfp.html
 URL:https://www.sigmobile.org/mobicom/2027/cfp.html
 TRANSP:TRANSPARENT
 END:VEVENT
@@ -55,9 +52,8 @@ SEQUENCE:0
 DTSTART:20260903T115900Z
 SUMMARY:MobiCom · MobiCom 2027 · 夏季轮 · 全文提交
 DESCRIPTION:请同时核对官方投稿入口。\n需先完成摘要或注
- 册等前置步骤。\n夏季轮已截止，冬季轮官网标为TBD（待
- 定），举办城市未公布。\n来源：https://www.sigmobile.org/mobi
- com/2027/cfp.html
+ 册等前置步骤。\n\n来源：https://www.sigmobile.org/mobicom/2027/c
+ fp.html
 URL:https://www.sigmobile.org/mobicom/2027/cfp.html
 TRANSP:TRANSPARENT
 END:VEVENT
@@ -68,10 +64,8 @@ LAST-MODIFIED:20261018T040000Z
 SEQUENCE:0
 DTSTART:20261012T115900Z
 SUMMARY:ITW · ITW 2027 · 主会论文 · 全文提交
-DESCRIPTION:请同时核对官方投稿入口。\n独立举办的信息论
- 研讨会，按正式会议记录。投稿截止已由10月2日延期至10
- 月11日；截至核验日已经截止。网页标题残留2026，正文
- 明确2027，采用正文届次。\n来源：https://2027.ieee-itw.org/
+DESCRIPTION:请同时核对官方投稿入口。\n\n来源：https://2027.i
+ eee-itw.org/
 URL:https://2027.ieee-itw.org/
 TRANSP:TRANSPARENT
 END:VEVENT
@@ -84,12 +78,23 @@ DTSTART;VALUE=DATE:20260901
 DTEND;VALUE=DATE:20260902
 SUMMARY:ICCT · ICCT 2026 · 主会论文 · 全文提交（日期提示）
 DESCRIPTION:日期提示：官网未明确具体钟点或时区，请在投
- 稿前核对官方系统关闭时间。\n官网中英文页一致，2026
- 届投稿与会期均已过；本次可得来源中未找到该IEEE系列2
- 027届官方征稿。钟点与时区未注明，按日期展示。官网
- 出版计划为IEEE出版并提交Ei Compendex、Scopus，具体论文检
- 索状态另查。\n来源：https://www.ieee-icct.org/
+ 稿前核对官方系统关闭时间。\n\n来源：https://www.ieee-icct.
+ org/
 URL:https://www.ieee-icct.org/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:qpain-2027-paper@commddl
+DTSTAMP:20261019T080000Z
+LAST-MODIFIED:20261019T080000Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20261220
+DTEND;VALUE=DATE:20261221
+SUMMARY:QPAIN · QPAIN 2027 · IEEE 量子光子学、人工智能与网络
+ 国际会议 · 论文提交（日期提示）
+DESCRIPTION:日期提示：官网未明确具体钟点或时区，请在投
+ 稿前核对官方系统关闭时间。\n\n来源：https://qpain.org/
+URL:https://qpain.org/
 TRANSP:TRANSPARENT
 END:VEVENT
 END:VCALENDAR

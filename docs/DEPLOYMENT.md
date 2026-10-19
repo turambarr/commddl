@@ -17,7 +17,9 @@
 
 ## 数据和页面在哪里
 
-- `data/catalog.json`：期刊、会议、截止时间、分类、索引和评级证据的维护源。
+- `data/catalog.json`：完整维护源；包含审计状态。
+- `maintenance/`：核对队列与文件映射，不复制到发布目录。
+- `dist/data/catalog.json`：构建生成的公开目录，只含读者所需字段与明确属性。
 - `assets/app.js`、`assets/core.js`、`assets/styles.css`、`index.html`：浏览器交互、筛选与日历逻辑、页面样式。
 - `assets/data.js`、`calendars/`、`dist/`：构建生成的网页数据、可订阅日历和发布目录。
 - `release/CommDDL.html`：构建生成的可离线查目录的单文件网页。
@@ -33,3 +35,5 @@
 当前采用公开仓库的免费Pages托管，没有购买域名或服务器的固定费用；实际用量仍受GitHub平台限额约束。后续如果加入账号同步、自动通知或收费服务，再单独配置相应服务，并检查平台的商业使用限制。
 
 官方说明：[GitHub Pages介绍](https://docs.github.com/en/pages/getting-started-with-github-pages/what-is-github-pages)。实际工作流见[仓库配置](https://github.com/turambarr/commddl/blob/main/.github/workflows/pages.yml)。
+
+维护区是仓库内的编辑记录，并非独立服务器后台。当前公开仓库中的维护文件可供贡献者查看；GitHub Pages只部署`dist/`，不会把维护疑点嵌入网页数据或离线HTML。

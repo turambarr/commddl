@@ -24,6 +24,7 @@ for(const item of [...data.venues,...data.calls]){
   if(item.verification==='verified') requireThat(C.validDate(item.verifiedAt),`${item.id}: missing verification date`);
 }
 for(const v of data.venues){
+  requireThat(areas.has(v.primaryArea)&&v.areas[0]===v.primaryArea&&Array.isArray(v.secondaryAreas)&&v.secondaryAreas.length<=2&&JSON.stringify(v.areas)===JSON.stringify([v.primaryArea,...v.secondaryAreas]),`${v.id}: invalid primary/secondary directions`);
   requireThat(['journal','conference'].includes(v.kind),`${v.id}: invalid venue kind`);
   requireThat(v.short&&v.nameZh&&v.nameEn,`${v.id}: missing identity fields`);
   requireThat(Array.isArray(v.articleTypes)&&v.articleTypes.length,`${v.id}: missing article types`);
@@ -40,8 +41,8 @@ for(const v of data.venues){
   for(const ix of v.otherIndexes||[])requireThat(ix.value&&['verified','reported'].includes(ix.status)&&url(ix.sourceUrl)&&C.validDate(ix.verifiedAt)&&ix.note,`${v.id}: other indexes need independent evidence`);
   const systems=new Set();
   for(const e of v.evaluations||[]){
-    requireThat(['jcr','cas','ccf','core'].includes(e.system)&&!systems.has(e.system),`${v.id}: duplicate/invalid rating system`);systems.add(e.system);
-    requireThat(Number.isInteger(e.year)&&e.year>=2018&&e.note,`${v.id}: rating needs dated scope`);
+    requireThat(['jcr','cas','ccf','core','cie','cic'].includes(e.system)&&!systems.has(e.system+':'+e.year),`${v.id}: duplicate/invalid rating system`);systems.add(e.system+':'+e.year);
+    requireThat(Number.isInteger(e.year)&&e.year>=2000&&e.note,`${v.id}: rating needs dated scope`);
     requireThat(['verified','reported','pending','not-matched','scope-review','non-ranked','unlisted','unresolved','not-applicable'].includes(e.status),`${v.id}: invalid rating status`);
     if(['verified','reported','non-ranked'].includes(e.status))requireThat(e.value&&url(e.sourceUrl)&&e.sourceTitle&&C.validDate(e.verifiedAt)&&e.sourceType,`${v.id}: published evaluation needs value, source and verification date`);
     else requireThat(e.value===null,`${v.id}: unknown evaluation must not carry an inferred grade`);
@@ -49,10 +50,11 @@ for(const v of data.venues){
     if(e.system==='jcr')requireThat(v.kind==='journal'&&(!e.value||/^Q[1-4]$/.test(e.value)),`${v.id}: JCR applies to journals only`);
     if(e.system==='cas')requireThat(v.kind==='journal'&&(!e.value||/^[1-4]$/.test(e.value))&&e.year<=2025,`${v.id}: invalid CAS edition/grade`);
     if(e.system==='core')requireThat(v.kind==='conference',`${v.id}: ICORE applies to conferences`);
+    if(['cie','cic'].includes(e.system))requireThat(v.kind==='journal'&&(!e.value||/^T[1-3]$/.test(e.value)),`${v.id}: invalid CIE journal tier`);
     if(e.system==='ccf'&&e.value)requireThat(/^[ABC]$/.test(e.value),`${v.id}: invalid CCF category`);
     if(e.status==='reported')requireThat(['secondary','document-copy'].includes(e.sourceType),`${v.id}: reported evaluation needs provenance`);
   }
-  requireThat(systems.has('ccf')&&(v.kind==='journal'?systems.has('jcr')&&systems.has('cas'):systems.has('core')),`${v.id}: missing explicit evaluation coverage status`);
+  requireThat(['ccf',...(v.kind==='journal'?['jcr','cas']:['core'])].every(sys=>[...systems].some(key=>key.startsWith(sys+':'))),`${v.id}: missing explicit evaluation coverage status`);
   for(const key of ['authorGuideUrl','cfpUrl'])if(v[key])requireThat(url(v[key]),`${v.id}: invalid ${key}`);
   for(const a of v.assessments||[]){requireThat(a.year&&url(a.sourceUrl)&&a.note,`${v.id}: assessment needs year, source and scope`);}
 }

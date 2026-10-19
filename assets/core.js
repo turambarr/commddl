@@ -120,6 +120,8 @@
     text=text.replace(/(?:中科院(?:大类)?\s*)?([一二三四1-4])\s*区/g,(_,value)=>{const rank=numbers[value]||value;grades.push('cas:'+rank);labels.push('中科院大类 '+rank+'区');return ' ';});
     text=text.replace(/(?:\bJCR\s*)?\bQ([1-4])\b/gi,(_,rank)=>{grades.push('jcr:Q'+rank);labels.push('JCR Q'+rank);return ' ';});
     text=text.replace(/\b(CCF|ICORE|CORE)\s*[:：]?\s*(A\*|[ABC])(?=\s|$|[，,])/gi,(_,system,value)=>{const sys=system.toUpperCase()==='CCF'?'ccf':'core';grades.push(sys+':'+value.toUpperCase());labels.push((sys==='ccf'?'CCF':'ICORE')+' '+value.toUpperCase());return ' ';});
+    text=text.replace(/(?:\bCIC|中国通信学会|通信学会)\s*[:：]?\s*T([1-3])\b/gi,(_,rank)=>{grades.push('cic:T'+rank);labels.push('通信学会 T'+rank);return ' ';});
+    text=text.replace(/(?:\bCIE|中国电子学会|电子学会)\s*[:：]?\s*T([1-3])\b/gi,(_,rank)=>{grades.push('cie:T'+rank);labels.push('电子学会 T'+rank);return ' ';});
     if(indexes.length||grades.length)text=text.replace(/(?:期刊|论文)/g,' ');
     return {text:text.trim(),indexes:[...new Set(indexes)],grades:[...new Set(grades)],labels:[...new Set(labels)]};
   }
@@ -127,12 +129,21 @@
     return (!parsed.indexes.length||parsed.indexes.some(index=>indexMatches(venue,index)))&&evaluationMatches(venue,parsed.grades);
   }
   function cleanGrades(values, kind) {
-    const choices={jcr:['Q1','Q2','Q3','Q4','N'],cas:['1','2','3','4','N'],ccf:['A','B','C','N'],core:['A*','A','B','C','N']};
-    return [...new Set(values)].filter(value=>{const [sys,rank]=String(value).split(':');return value===sys+':'+rank&&choices[sys]?.includes(rank)&&!(kind==='conference'&&['jcr','cas'].includes(sys))&&!(kind==='journal'&&sys==='core');});
+    const choices={jcr:['Q1','Q2','Q3','Q4','N'],cas:['1','2','3','4','N'],ccf:['A','B','C','N'],core:['A*','A','B','C','N'],cie:['T1','T2','T3'],cic:['T1','T2','T3']};
+    return [...new Set(values)].filter(value=>{const [sys,rank]=String(value).split(':');return value===sys+':'+rank&&choices[sys]?.includes(rank)&&!(kind==='conference'&&['jcr','cas','cie','cic'].includes(sys))&&!(kind==='journal'&&sys==='core');});
+  }
+  function isRankEvidence(e) {
+    const values={jcr:['Q1','Q2','Q3','Q4'],cas:['1','2','3','4'],ccf:['A','B','C'],core:['A*','A','B','C'],cie:['T1','T2','T3'],cic:['T1','T2','T3']};
+    return !!e&&['verified','reported'].includes(e.status)&&values[e.system]?.includes(String(e.value));
+  }
+  function displayEvaluations(venue) {
+    const latest=new Map();
+    for(const e of venue.evaluations||[])if(isRankEvidence(e)&&(!latest.has(e.system)||(e.year||0)>(latest.get(e.system).year||0)))latest.set(e.system,e);
+    return [...latest.values()];
   }
   function evaluationMatches(venue, grade = '') {
     if (!grade || (Array.isArray(grade) && !grade.length)) return true;
-    const records = venue.evaluations || [];
+    const records = venue.evaluations || [], displayed=displayEvaluations(venue);
     const selected = Array.isArray(grade) ? grade : [grade];
     const groups = new Map();
     for (const item of selected) {
@@ -144,7 +155,7 @@
       if (!groups.has(system)) groups.set(system, []);
       groups.get(system).push(value);
     }
-    return [...groups].every(([system, values]) => records.some(e => e.system === system && (values.includes(String(e.value)) && ['verified','reported'].includes(e.status) || values.includes('N') && e.status === 'unlisted')));
+    return [...groups].every(([system, values]) => displayed.some(e=>e.system===system&&values.includes(String(e.value))) || values.includes('N')&&records.some(e=>e.system===system&&e.status==='unlisted'));
   }
   function filterVenues(venues, filters = {}) {
     const favorites = new Set(filters.favorites || []), parsed=parseVenueQuery(filters.query);
@@ -155,7 +166,7 @@
       (!filters.catalogStatus || v.catalogStatus === filters.catalogStatus) &&
       indexMatches(v,filters.index) &&
       (!filters.window || !filters.calls || (()=>{const call=venueActivity(v,filters.calls,filters.now||Date.now(),filters.zone);if(!call)return false;const st=stateOf(call,filters.now||Date.now(),filters.zone);return ['upcoming','date','restricted'].includes(st.code)&&st.days>=0&&st.days<=+filters.window;})()) &&
-      (!filters.area || v.areas.includes(filters.area)) && topicMatches(v.topics, filters.topics) &&
+      (!filters.area || (filters.primaryOnly ? (v.primaryArea||v.areas[0])===filters.area : v.areas.includes(filters.area))) && topicMatches(v.topics, filters.topics) &&
       (!filters.historical || (v.assessments || []).some(a => a.system === 'bupt-ict-2018')) &&
       (!filters.favoriteOnly || favorites.has('venue:' + v.id)) &&
       (!filters.journalType || filters.journalType === 'all' || v.publicationType === filters.journalType) &&
@@ -176,7 +187,7 @@
       if(filters.showUndated===false&&!filters.favoriteOnly&&st.code==='pending')return false;
       if (!filters.showPast && ['closed', 'past-date', 'cancelled'].includes(st.code)) return false;
       if (filters.kind && filters.kind !== 'all' && call.kind !== filters.kind) return false;
-      if (filters.area && !(call.areas || v.areas || []).includes(filters.area)) return false;
+      if (filters.area && !(filters.primaryOnly ? (call.primaryArea||(call.areas||v.areas||[])[0])===filters.area : (call.areas||v.areas||[]).includes(filters.area))) return false;
       const topics = call.topics || v.topics || [];
       if (!topicMatches(topics, filters.topics)) return false;
       if (filters.historical && (call.kind !== 'conference' || !(v.assessments || []).some(a => a.system === 'bupt-ict-2018'))) return false;
@@ -241,7 +252,7 @@
   function cleanFavorites(value, data) {
     if (!value || value.version !== 1 || !Array.isArray(value.items) || value.items.length > 1000) throw new Error('请选择 CommDDL 导出的收藏备份文件。');
     const allowed = new Set([...data.calls.map(c => 'call:' + c.id), ...data.venues.map(v => 'venue:' + v.id)]);
-    return [...new Set(value.items.filter(x=>typeof x==='string').map(x=>{if(x.startsWith('call:')&&Object.hasOwn(data.callAliases||{},x.slice(5)))return 'call:'+data.callAliases[x.slice(5)];return x;}).filter(x=>allowed.has(x)))];
+    return [...new Set(value.items.filter(x=>typeof x==='string').map(x=>{if(Object.hasOwn(data.favoriteAliases||{},x))return data.favoriteAliases[x];if(x.startsWith('call:')&&Object.hasOwn(data.callAliases||{},x.slice(5)))return 'call:'+data.callAliases[x.slice(5)];return x;}).filter(x=>allowed.has(x)))];
   }
-  return { validDate, dateInZone, parseInstant, countdown, primaryNode, calendarDate, stateOf, venueActivity, indexMatches, parseVenueQuery, searchMatches, cleanTopics, topicMatches, indexingStatus, cleanGrades, evaluationMatches, filterVenues, filterCalls, escapeICS, foldLine, eligibleNodes, createICS, cleanFavorites };
+  return { validDate, dateInZone, parseInstant, countdown, primaryNode, calendarDate, stateOf, venueActivity, indexMatches, parseVenueQuery, searchMatches, cleanTopics, topicMatches, indexingStatus, cleanGrades, isRankEvidence, displayEvaluations, evaluationMatches, filterVenues, filterCalls, escapeICS, foldLine, eligibleNodes, createICS, cleanFavorites };
 });
