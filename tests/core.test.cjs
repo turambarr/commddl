@@ -185,3 +185,12 @@ test('conference grade searches and filters do not assign parent ranks to attach
   assert.deepEqual(C.filterCalls(rows,[ranked],{query:'CCF A'},NOW).map(c=>c.id),['sample-call']);
   assert.deepEqual(C.filterCalls(rows,[ranked],{grades:['ccf:A']},NOW).map(c=>c.id),['sample-call']);
 });
+
+test('Chinese core indexes remain independent overlapping evidence-backed attributes',()=>{
+  const indexed={id:'cn-core',kind:'journal',short:'测试中文刊',areas:[],indexing:{value:'SCIE',status:'verified'},otherIndexes:[{value:'北大核心',status:'verified'},{value:'CSTPCD',status:'verified'},{value:'CSCD',status:'verified'}]};
+  const unknown={id:'unknown-cn-core',kind:'journal',short:'未知',areas:[],otherIndexes:[{value:'北大核心',status:'pending'}]};
+  assert(C.indexMatches(indexed,'SCIE'));assert(C.indexMatches(indexed,'北大核心'));assert(C.indexMatches(indexed,'CSTPCD'));assert(C.indexMatches(indexed,'CSCD'));
+  assert(!C.indexMatches(unknown,'北大核心'));
+  assert.deepEqual(C.filterVenues([indexed,unknown],{query:'中文核心'}).map(v=>v.id),['cn-core']);
+  assert.deepEqual(C.parseVenueQuery('科技核心').indexes,['CSTPCD']);
+});

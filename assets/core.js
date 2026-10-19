@@ -108,13 +108,14 @@
   }
   function indexMatches(venue, index = '') {
     if (!index) return true;
-    if (['EI','CSCD','Scopus'].includes(index)) return venue.kind==='journal'&&(venue.otherIndexes||[]).some(e=>e.value===index&&['verified','reported'].includes(e.status));
+    if (['EI','CSCD','Scopus','北大核心','CSTPCD'].includes(index)) return venue.kind==='journal'&&(venue.otherIndexes||[]).some(e=>e.value===index&&['verified','reported'].includes(e.status));
     return indexingStatus(venue)===index;
   }
   function parseVenueQuery(query = '') {
     const indexes=[],grades=[],labels=[];
     let text=String(query).normalize('NFKC');
     text=text.replace(/\b(SCIE|SCI|ESCI|EI|CSCD|SCOPUS)\b(?:收录)?(?:期刊|论文)?/gi,(_,value)=>{const upper=value.toUpperCase(),index=upper==='SCI'?'SCIE':upper==='SCOPUS'?'Scopus':upper;indexes.push(index);labels.push(index==='SCIE'?'SCI / SCIE':index);return ' ';});
+    text=text.replace(/北大核心|中文核心|中国科技核心|科技核心|\bCSTPCD\b/gi,token=>{const value=/科技|cstpcd/i.test(token)?'CSTPCD':'北大核心';indexes.push(value);labels.push(value==='CSTPCD'?'科技核心':value);return ' ';});
     const numbers={'一':'1','二':'2','三':'3','四':'4'};
     text=text.replace(/(?:中科院(?:大类)?\s*)?([一二三四1-4])\s*区/g,(_,value)=>{const rank=numbers[value]||value;grades.push('cas:'+rank);labels.push('中科院大类 '+rank+'区');return ' ';});
     text=text.replace(/(?:\bJCR\s*)?\bQ([1-4])\b/gi,(_,rank)=>{grades.push('jcr:Q'+rank);labels.push('JCR Q'+rank);return ' ';});

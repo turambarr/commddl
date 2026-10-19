@@ -1,8 +1,8 @@
 /* Generated from data/catalog.json. Edit the JSON and run npm run build. */
 window.COMMDDL_DATA = {
   "meta": {
-    "version": "0.6.0",
-    "updatedAt": "2026-10-18",
+    "version": "0.7.0",
+    "updatedAt": "2026-10-19",
     "siteName": "CommDDL",
     "repository": "https://github.com/turambarr/commddl",
     "description": "通信投稿截止日历：按主题查看真实届次、投稿截止、剩余时间与会议日程。",
@@ -4367,6 +4367,21 @@ window.COMMDDL_DATA = {
           "verifiedAt": "2026-10-18",
           "note": "明确读取来源列出的索引，独立于WoS索引。",
           "reviewedAt": "2026-10-18"
+        },
+        {
+          "value": "CSCD",
+          "status": "reported",
+          "year": 2025,
+          "edition": "2025—2026",
+          "coverage": "核心库",
+          "issn": "2096-1081",
+          "sourceUrl": "https://nssc.cas.cn/yjsb/xspy/py/wjgd/202209/P020250901365885026876.pdf",
+          "sourcePageUrl": "https://nssc.cas.cn/yjsb/xspy/py/wjgd/202209/t20220909_6510993.html",
+          "sourceTitle": "CSCD来源期刊列表2025—2026（国家空间科学中心公开附件）",
+          "sourceType": "document-copy",
+          "sourceAuthority": "cas-institute",
+          "verifiedAt": "2026-10-19",
+          "note": "按正式ISSN对照CSCD2025—2026完整名单，明确为核心库；数据库原始名单的科研机构公开副本，保留副本属性、年度和核心/扩展类别，不冒充原库查询，不推断其他索引。"
         }
       ],
       "sourceType": "publisher",
@@ -9269,7 +9284,24 @@ window.COMMDDL_DATA = {
       },
       "catalogScope": "communications",
       "scopeReviewedAt": "2026-10-18",
-      "scopeNote": "光通信/光网络及器件交叉研究载体"
+      "scopeNote": "光通信/光网络及器件交叉研究载体",
+      "otherIndexes": [
+        {
+          "value": "CSCD",
+          "status": "reported",
+          "year": 2025,
+          "edition": "2025—2026",
+          "coverage": "核心库",
+          "issn": "2327-9125",
+          "sourceUrl": "https://nssc.cas.cn/yjsb/xspy/py/wjgd/202209/P020250901365885026876.pdf",
+          "sourcePageUrl": "https://nssc.cas.cn/yjsb/xspy/py/wjgd/202209/t20220909_6510993.html",
+          "sourceTitle": "CSCD来源期刊列表2025—2026（国家空间科学中心公开附件）",
+          "sourceType": "document-copy",
+          "sourceAuthority": "cas-institute",
+          "verifiedAt": "2026-10-19",
+          "note": "按正式ISSN对照CSCD2025—2026完整名单，明确为核心库；数据库原始名单的科研机构公开副本，保留副本属性、年度和核心/扩展类别，不冒充原库查询，不推断其他索引。"
+        }
+      ]
     },
     {
       "id": "wireless-networks",
@@ -9771,7 +9803,24 @@ window.COMMDDL_DATA = {
       },
       "catalogScope": "communications",
       "scopeReviewedAt": "2026-10-18",
-      "scopeNote": "无线通信研究载体；通信网络与移动系统研究载体；空天地通信、定位与授时交叉载体"
+      "scopeNote": "无线通信研究载体；通信网络与移动系统研究载体；空天地通信、定位与授时交叉载体",
+      "otherIndexes": [
+        {
+          "value": "CSCD",
+          "status": "reported",
+          "year": 2025,
+          "edition": "2025—2026",
+          "coverage": "核心库",
+          "issn": "1673-5447",
+          "sourceUrl": "https://nssc.cas.cn/yjsb/xspy/py/wjgd/202209/P020250901365885026876.pdf",
+          "sourcePageUrl": "https://nssc.cas.cn/yjsb/xspy/py/wjgd/202209/t20220909_6510993.html",
+          "sourceTitle": "CSCD来源期刊列表2025—2026（国家空间科学中心公开附件）",
+          "sourceType": "document-copy",
+          "sourceAuthority": "cas-institute",
+          "verifiedAt": "2026-10-19",
+          "note": "按正式ISSN对照CSCD2025—2026完整名单，明确为核心库；数据库原始名单的科研机构公开副本，保留副本属性、年度和核心/扩展类别，不冒充原库查询，不推断其他索引。"
+        }
+      ]
     },
     {
       "id": "txxb",
@@ -9895,6 +9944,21 @@ window.COMMDDL_DATA = {
           "verifiedAt": "2026-10-18",
           "note": "明确读取来源列出的索引，独立于WoS索引。",
           "reviewedAt": "2026-10-18"
+        },
+        {
+          "value": "CSCD",
+          "status": "reported",
+          "year": 2025,
+          "edition": "2025—2026",
+          "coverage": "核心库",
+          "issn": "1000-436x",
+          "sourceUrl": "https://nssc.cas.cn/yjsb/xspy/py/wjgd/202209/P020250901365885026876.pdf",
+          "sourcePageUrl": "https://nssc.cas.cn/yjsb/xspy/py/wjgd/202209/t20220909_6510993.html",
+          "sourceTitle": "CSCD来源期刊列表2025—2026（国家空间科学中心公开附件）",
+          "sourceType": "document-copy",
+          "sourceAuthority": "cas-institute",
+          "verifiedAt": "2026-10-19",
+          "note": "按正式ISSN对照CSCD2025—2026完整名单，明确为核心库；数据库原始名单的科研机构公开副本，保留副本属性、年度和核心/扩展类别，不冒充原库查询，不推断其他索引。"
         }
       ],
       "sourceType": "publisher",
@@ -19965,18 +20029,42 @@ window.COMMDDL_DATA = {
         "status": "verified",
         "year": null,
         "sourceUrl": "https://ietresearch.onlinelibrary.wiley.com/hub/journal/17518636/homepage/productinformation.html",
-        "sourceTitle": "IET Communications出版方收录列表",
+        "sourceTitle": "IET Communications出版方索引列表",
         "sourceType": "publisher",
-        "verifiedAt": "2026-10-18",
-        "note": "出版社页面明确Science Citation Index Expanded；此项与2024 JCR分区独立。",
-        "reviewedAt": "2026-10-18"
+        "verifiedAt": "2026-10-19",
+        "reviewedAt": "2026-10-19",
+        "note": "出版方逐刊索引列表明确列出；独立于影响因子、分区与其他数据库，未登录原索引库逐篇检索。"
       },
       "catalogScope": "communications",
       "scopeReviewedAt": "2026-10-18",
       "scopeNote": "无线通信研究载体；信息论与编码研究载体；通信相关信号处理及感知研究载体；天线、射频与电磁通信硬件载体；通信网络与移动系统研究载体",
       "sourceType": "publisher",
       "identityReviewedAt": "2026-10-18",
-      "identityNote": "出版方简介与明确SCIE索引已读"
+      "identityNote": "出版方简介与明确SCIE索引已读",
+      "otherIndexes": [
+        {
+          "value": "EI",
+          "status": "verified",
+          "year": null,
+          "sourceUrl": "https://ietresearch.onlinelibrary.wiley.com/hub/journal/17518636/homepage/productinformation.html",
+          "sourceTitle": "IET Communications出版方索引列表",
+          "sourceType": "publisher",
+          "verifiedAt": "2026-10-19",
+          "reviewedAt": "2026-10-19",
+          "note": "逐刊出版介绍明确COMPENDEX (Elsevier)，映射为本站EI普通索引属性；与SCIE同时保留。"
+        },
+        {
+          "value": "Scopus",
+          "status": "verified",
+          "year": null,
+          "sourceUrl": "https://ietresearch.onlinelibrary.wiley.com/hub/journal/17518636/homepage/productinformation.html",
+          "sourceTitle": "IET Communications出版方索引列表",
+          "sourceType": "publisher",
+          "verifiedAt": "2026-10-19",
+          "reviewedAt": "2026-10-19",
+          "note": "逐刊出版介绍明确SCOPUS (Elsevier)，不是从其他同出版社刊物推断。"
+        }
+      ]
     },
     {
       "id": "computer-comms",
@@ -20258,7 +20346,7 @@ window.COMMDDL_DATA = {
           "reviewedAt": "2026-10-18"
         },
         {
-          "value": "CSCD",
+          "value": "北大核心",
           "status": "verified",
           "sourceUrl": "https://www.cie.org.cn/site/content/4349.html",
           "sourceTitle": "中国电子学会：电子学报介绍",
@@ -20268,14 +20356,19 @@ window.COMMDDL_DATA = {
           "reviewedAt": "2026-10-18"
         },
         {
-          "value": "北大核心",
-          "status": "verified",
-          "sourceUrl": "https://www.cie.org.cn/site/content/4349.html",
-          "sourceTitle": "中国电子学会：电子学报介绍",
-          "sourceType": "publisher",
-          "verifiedAt": "2026-10-18",
-          "note": "明确读取来源列出的索引，独立于WoS索引。",
-          "reviewedAt": "2026-10-18"
+          "value": "CSCD",
+          "status": "reported",
+          "year": 2025,
+          "edition": "2025—2026",
+          "coverage": "核心库",
+          "issn": "0372-2112",
+          "sourceUrl": "https://nssc.cas.cn/yjsb/xspy/py/wjgd/202209/P020250901365885026876.pdf",
+          "sourcePageUrl": "https://nssc.cas.cn/yjsb/xspy/py/wjgd/202209/t20220909_6510993.html",
+          "sourceTitle": "CSCD来源期刊列表2025—2026（国家空间科学中心公开附件）",
+          "sourceType": "document-copy",
+          "sourceAuthority": "cas-institute",
+          "verifiedAt": "2026-10-19",
+          "note": "按正式ISSN对照CSCD2025—2026完整名单，明确为核心库；数据库原始名单的科研机构公开副本，保留副本属性、年度和核心/扩展类别，不冒充原库查询，不推断其他索引。"
         }
       ],
       "sourceType": "publisher",
@@ -20404,6 +20497,21 @@ window.COMMDDL_DATA = {
           "verifiedAt": "2026-10-18",
           "note": "明确读取来源列出的索引，独立于WoS索引。",
           "reviewedAt": "2026-10-18"
+        },
+        {
+          "value": "CSCD",
+          "status": "reported",
+          "year": 2025,
+          "edition": "2025—2026",
+          "coverage": "核心库",
+          "issn": "1009-5896",
+          "sourceUrl": "https://nssc.cas.cn/yjsb/xspy/py/wjgd/202209/P020250901365885026876.pdf",
+          "sourcePageUrl": "https://nssc.cas.cn/yjsb/xspy/py/wjgd/202209/t20220909_6510993.html",
+          "sourceTitle": "CSCD来源期刊列表2025—2026（国家空间科学中心公开附件）",
+          "sourceType": "document-copy",
+          "sourceAuthority": "cas-institute",
+          "verifiedAt": "2026-10-19",
+          "note": "按正式ISSN对照CSCD2025—2026完整名单，明确为核心库；数据库原始名单的科研机构公开副本，保留副本属性、年度和核心/扩展类别，不冒充原库查询，不推断其他索引。"
         }
       ],
       "sourceType": "publisher",
@@ -20525,16 +20633,6 @@ window.COMMDDL_DATA = {
       "scopeNote": "通信相关信号处理及感知研究载体；无线通信研究载体；空天地通信、定位与授时交叉载体；天线、射频与电磁通信硬件载体",
       "otherIndexes": [
         {
-          "value": "CSCD",
-          "status": "verified",
-          "sourceUrl": "https://coaa.istic.ac.cn/openjournal/periodical/xhcl?searchWord=undefined&tabId=article",
-          "sourceTitle": "国家科技期刊平台：信号处理",
-          "sourceType": "government",
-          "verifiedAt": "2026-10-18",
-          "note": "明确读取来源列出的索引，独立于WoS索引。",
-          "reviewedAt": "2026-10-18"
-        },
-        {
           "value": "北大核心",
           "status": "verified",
           "sourceUrl": "https://coaa.istic.ac.cn/openjournal/periodical/xhcl?searchWord=undefined&tabId=article",
@@ -20553,6 +20651,21 @@ window.COMMDDL_DATA = {
           "verifiedAt": "2026-10-18",
           "note": "明确读取来源列出的索引，独立于WoS索引。",
           "reviewedAt": "2026-10-18"
+        },
+        {
+          "value": "CSCD",
+          "status": "reported",
+          "year": 2025,
+          "edition": "2025—2026",
+          "coverage": "核心库",
+          "issn": "1003-0530",
+          "sourceUrl": "https://nssc.cas.cn/yjsb/xspy/py/wjgd/202209/P020250901365885026876.pdf",
+          "sourcePageUrl": "https://nssc.cas.cn/yjsb/xspy/py/wjgd/202209/t20220909_6510993.html",
+          "sourceTitle": "CSCD来源期刊列表2025—2026（国家空间科学中心公开附件）",
+          "sourceType": "document-copy",
+          "sourceAuthority": "cas-institute",
+          "verifiedAt": "2026-10-19",
+          "note": "按正式ISSN对照CSCD2025—2026完整名单，明确为核心库；数据库原始名单的科研机构公开副本，保留副本属性、年度和核心/扩展类别，不冒充原库查询，不推断其他索引。"
         }
       ],
       "sourceType": "government",
@@ -20707,12 +20820,18 @@ window.COMMDDL_DATA = {
         },
         {
           "value": "CSCD",
-          "status": "verified",
-          "sourceUrl": "https://link.springer.com/journal/11432",
-          "sourceTitle": "Springer Nature 当前期刊主页索引列表",
-          "sourceType": "publisher",
-          "verifiedAt": "2026-10-18",
-          "note": "出版方独立列出CSCD，不与SCIE互相推定。"
+          "status": "reported",
+          "year": 2025,
+          "edition": "2025—2026",
+          "coverage": "核心库",
+          "issn": "1674-733x",
+          "sourceUrl": "https://nssc.cas.cn/yjsb/xspy/py/wjgd/202209/P020250901365885026876.pdf",
+          "sourcePageUrl": "https://nssc.cas.cn/yjsb/xspy/py/wjgd/202209/t20220909_6510993.html",
+          "sourceTitle": "CSCD来源期刊列表2025—2026（国家空间科学中心公开附件）",
+          "sourceType": "document-copy",
+          "sourceAuthority": "cas-institute",
+          "verifiedAt": "2026-10-19",
+          "note": "按正式ISSN对照CSCD2025—2026完整名单，明确为核心库；数据库原始名单的科研机构公开副本，保留副本属性、年度和核心/扩展类别，不冒充原库查询，不推断其他索引。"
         }
       ]
     },
@@ -23192,16 +23311,41 @@ window.COMMDDL_DATA = {
       "indexing": {
         "value": "SCIE",
         "status": "verified",
+        "year": null,
         "sourceUrl": "https://ietresearch.onlinelibrary.wiley.com/page/journal/ietsp/homepage/productinformation.html",
-        "sourceTitle": "IET Signal Processing出版方收录列表",
+        "sourceTitle": "IET Signal Processing出版方索引列表",
         "sourceType": "publisher",
-        "verifiedAt": "2026-10-18",
-        "note": "出版社/主办单位当前简介明确列出Science Citation Index Expanded。更名期刊以当前官网列示为据，旧年度评级另记旧名。",
-        "reviewedAt": "2026-10-18"
+        "verifiedAt": "2026-10-19",
+        "reviewedAt": "2026-10-19",
+        "note": "出版方逐刊索引列表明确列出；独立于影响因子、分区与其他数据库，未登录原索引库逐篇检索。"
       },
       "catalogScope": "communications",
       "scopeReviewedAt": "2026-10-18",
-      "scopeNote": "通信及相关交叉领域"
+      "scopeNote": "通信及相关交叉领域",
+      "otherIndexes": [
+        {
+          "value": "EI",
+          "status": "verified",
+          "year": null,
+          "sourceUrl": "https://ietresearch.onlinelibrary.wiley.com/page/journal/ietsp/homepage/productinformation.html",
+          "sourceTitle": "IET Signal Processing出版方索引列表",
+          "sourceType": "publisher",
+          "verifiedAt": "2026-10-19",
+          "reviewedAt": "2026-10-19",
+          "note": "逐刊出版介绍明确COMPENDEX (Elsevier)，映射为本站EI普通索引属性；与SCIE同时保留。"
+        },
+        {
+          "value": "Scopus",
+          "status": "verified",
+          "year": null,
+          "sourceUrl": "https://ietresearch.onlinelibrary.wiley.com/page/journal/ietsp/homepage/productinformation.html",
+          "sourceTitle": "IET Signal Processing出版方索引列表",
+          "sourceType": "publisher",
+          "verifiedAt": "2026-10-19",
+          "reviewedAt": "2026-10-19",
+          "note": "逐刊出版介绍明确SCOPUS (Elsevier)，不是从其他同出版社刊物推断。"
+        }
+      ]
     },
     {
       "id": "iet-rsn",
@@ -23312,16 +23456,41 @@ window.COMMDDL_DATA = {
       "indexing": {
         "value": "SCIE",
         "status": "verified",
+        "year": null,
         "sourceUrl": "https://ietresearch.onlinelibrary.wiley.com/hub/journal/17518792/homepage/productinformation.html",
-        "sourceTitle": "IET Radar, Sonar & Navigation出版方收录列表",
+        "sourceTitle": "IET Radar, Sonar & Navigation出版方索引列表",
         "sourceType": "publisher",
-        "verifiedAt": "2026-10-18",
-        "note": "出版社/主办单位当前简介明确列出Science Citation Index Expanded。更名期刊以当前官网列示为据，旧年度评级另记旧名。",
-        "reviewedAt": "2026-10-18"
+        "verifiedAt": "2026-10-19",
+        "reviewedAt": "2026-10-19",
+        "note": "出版方逐刊索引列表明确列出；独立于影响因子、分区与其他数据库，未登录原索引库逐篇检索。"
       },
       "catalogScope": "communications",
       "scopeReviewedAt": "2026-10-18",
-      "scopeNote": "通信及相关交叉领域"
+      "scopeNote": "通信及相关交叉领域",
+      "otherIndexes": [
+        {
+          "value": "EI",
+          "status": "verified",
+          "year": null,
+          "sourceUrl": "https://ietresearch.onlinelibrary.wiley.com/hub/journal/17518792/homepage/productinformation.html",
+          "sourceTitle": "IET Radar, Sonar & Navigation出版方索引列表",
+          "sourceType": "publisher",
+          "verifiedAt": "2026-10-19",
+          "reviewedAt": "2026-10-19",
+          "note": "逐刊出版介绍明确COMPENDEX (Elsevier)，映射为本站EI普通索引属性；与SCIE同时保留。"
+        },
+        {
+          "value": "Scopus",
+          "status": "verified",
+          "year": null,
+          "sourceUrl": "https://ietresearch.onlinelibrary.wiley.com/hub/journal/17518792/homepage/productinformation.html",
+          "sourceTitle": "IET Radar, Sonar & Navigation出版方索引列表",
+          "sourceType": "publisher",
+          "verifiedAt": "2026-10-19",
+          "reviewedAt": "2026-10-19",
+          "note": "逐刊出版介绍明确SCOPUS (Elsevier)，不是从其他同出版社刊物推断。"
+        }
+      ]
     },
     {
       "id": "iet-map",
@@ -23432,16 +23601,41 @@ window.COMMDDL_DATA = {
       "indexing": {
         "value": "SCIE",
         "status": "verified",
+        "year": null,
         "sourceUrl": "https://ietresearch.onlinelibrary.wiley.com/hub/journal/17518733/homepage/productinformation.html",
-        "sourceTitle": "IET Microwaves, Antennas & Propagation出版方收录列表",
+        "sourceTitle": "IET Microwaves, Antennas & Propagation出版方索引列表",
         "sourceType": "publisher",
-        "verifiedAt": "2026-10-18",
-        "note": "出版社/主办单位当前简介明确列出Science Citation Index Expanded。更名期刊以当前官网列示为据，旧年度评级另记旧名。",
-        "reviewedAt": "2026-10-18"
+        "verifiedAt": "2026-10-19",
+        "reviewedAt": "2026-10-19",
+        "note": "出版方逐刊索引列表明确列出；独立于影响因子、分区与其他数据库，未登录原索引库逐篇检索。"
       },
       "catalogScope": "communications",
       "scopeReviewedAt": "2026-10-18",
-      "scopeNote": "通信及相关交叉领域"
+      "scopeNote": "通信及相关交叉领域",
+      "otherIndexes": [
+        {
+          "value": "EI",
+          "status": "verified",
+          "year": null,
+          "sourceUrl": "https://ietresearch.onlinelibrary.wiley.com/hub/journal/17518733/homepage/productinformation.html",
+          "sourceTitle": "IET Microwaves, Antennas & Propagation出版方索引列表",
+          "sourceType": "publisher",
+          "verifiedAt": "2026-10-19",
+          "reviewedAt": "2026-10-19",
+          "note": "逐刊出版介绍明确COMPENDEX (Elsevier)，映射为本站EI普通索引属性；与SCIE同时保留。"
+        },
+        {
+          "value": "Scopus",
+          "status": "verified",
+          "year": null,
+          "sourceUrl": "https://ietresearch.onlinelibrary.wiley.com/hub/journal/17518733/homepage/productinformation.html",
+          "sourceTitle": "IET Microwaves, Antennas & Propagation出版方索引列表",
+          "sourceType": "publisher",
+          "verifiedAt": "2026-10-19",
+          "reviewedAt": "2026-10-19",
+          "note": "逐刊出版介绍明确SCOPUS (Elsevier)，不是从其他同出版社刊物推断。"
+        }
+      ]
     },
     {
       "id": "ijcs",
@@ -23817,7 +24011,24 @@ window.COMMDDL_DATA = {
       },
       "catalogScope": "communications",
       "scopeReviewedAt": "2026-10-18",
-      "scopeNote": "通信及相关交叉领域"
+      "scopeNote": "通信及相关交叉领域",
+      "otherIndexes": [
+        {
+          "value": "CSCD",
+          "status": "reported",
+          "year": 2025,
+          "edition": "2025—2026",
+          "coverage": "核心库",
+          "issn": "2095-9184",
+          "sourceUrl": "https://nssc.cas.cn/yjsb/xspy/py/wjgd/202209/P020250901365885026876.pdf",
+          "sourcePageUrl": "https://nssc.cas.cn/yjsb/xspy/py/wjgd/202209/t20220909_6510993.html",
+          "sourceTitle": "CSCD来源期刊列表2025—2026（国家空间科学中心公开附件）",
+          "sourceType": "document-copy",
+          "sourceAuthority": "cas-institute",
+          "verifiedAt": "2026-10-19",
+          "note": "按正式ISSN对照CSCD2025—2026完整名单，明确为核心库；数据库原始名单的科研机构公开副本，保留副本属性、年度和核心/扩展类别，不冒充原库查询，不推断其他索引。"
+        }
+      ]
     },
     {
       "id": "proceedings-ieee",
@@ -26596,6 +26807,5510 @@ window.COMMDDL_DATA = {
       "catalogScope": "communications",
       "scopeReviewedAt": "2026-10-18",
       "scopeNote": "通信及相关交叉领域"
+    },
+    {
+      "id": "cn-ssi",
+      "kind": "journal",
+      "short": "中国科学：信息科学",
+      "nameZh": "中国科学：信息科学",
+      "nameEn": "SCIENTIA SINICA Informationis",
+      "issn": "1674-7267",
+      "aliases": [
+        "中国科学F辑：信息科学（中文版）"
+      ],
+      "areas": [
+        "wireless",
+        "theory",
+        "network",
+        "signal"
+      ],
+      "topics": [
+        "physical",
+        "information-theory",
+        "protocols",
+        "ai-communications"
+      ],
+      "url": "https://www.sciengine.com/SSI/",
+      "sourceUrl": "https://cdn.sciengine.com/SSI/issue/54/7",
+      "sourceType": "publisher",
+      "verifiedAt": "2026-10-19",
+      "verification": "verified",
+      "identityReviewedAt": "2026-10-19",
+      "identityNote": "官网期刊独立主页本次为空；出版社期刊页面及2026官方论文记录确认身份，未将英文SCIS的SCI或分区套到中文刊。",
+      "topicReviewedAt": "2026-10-19",
+      "summary": "信息通信、计算机及控制等信息科学研究。",
+      "publicationType": "研究型期刊",
+      "articleTypes": [
+        "研究论文",
+        "综述"
+      ],
+      "submissionMode": "通过官方作者入口在线投稿；以作者指南为准",
+      "authorGuideUrl": "https://www.sciengine.com/SSI/",
+      "assessments": [],
+      "catalogScope": "communications",
+      "catalogStatus": "current",
+      "scopeReviewedAt": "2026-10-19",
+      "evaluations": [
+        {
+          "system": "jcr",
+          "year": 2024,
+          "releaseYear": 2025,
+          "snapshotDate": "2025-06",
+          "sourceUrl": "https://uefiscdi.gov.ro/resource-865584-JCR_2024.iunie2025.pdf",
+          "sourceTitle": "2024 JCR政府公开转录（2025年6月）",
+          "sourceType": "secondary",
+          "sourceAuthority": "government",
+          "verifiedAt": "2026-10-19",
+          "reviewedAt": "2026-10-19",
+          "status": "unlisted",
+          "value": null,
+          "reviewedNames": [
+            "SCIENTIA SINICA Informationis",
+            "中国科学：信息科学",
+            "中国科学F辑：信息科学（中文版）"
+          ],
+          "note": "完整2024 JCR转录按全名/别名及可得ISSN核查，未取得本刊明确JIF分区；只针对该旧年度，不判定当前WoS收录。"
+        },
+        {
+          "system": "cas",
+          "year": 2025,
+          "edition": "2025升级版",
+          "snapshotDate": "2026-09-28",
+          "sourceUrl": "https://cce.ncepu.edu.cn/xzzx/yjsjx1/7632005045644e61a0d12c7bbeff6204.htm",
+          "sourceFileUrl": "https://cce.ncepu.edu.cn/docs//2026-09/0e77800bf2744596a26e43c83acceed0.xlsx",
+          "sourceTitle": "华北电力大学公开的中科院2025升级版转录",
+          "sourceType": "secondary",
+          "sourceAuthority": "university",
+          "verifiedAt": "2026-10-19",
+          "reviewedAt": "2026-10-19",
+          "sheet": "期刊汇总",
+          "status": "unlisted",
+          "value": null,
+          "reviewedNames": [
+            "SCIENTIA SINICA Informationis",
+            "中国科学：信息科学",
+            "中国科学F辑：信息科学（中文版）"
+          ],
+          "note": "已对照完整21772刊的2025转录，正式全名/别名及可得ISSN未列；只代表所查2025表，不判断WoS收录。"
+        },
+        {
+          "system": "ccf",
+          "year": 2026,
+          "edition": "第七版公开副本",
+          "sourceUrl": "https://scdm-shu.github.io/ccf/2026-CCF-Ranking.pdf",
+          "sourceTitle": "CCF2026国际会议期刊目录公开副本",
+          "sourceType": "document-copy",
+          "verifiedAt": "2026-10-19",
+          "reviewedAt": "2026-10-19",
+          "reviewedNames": [
+            "SCIENTIA SINICA Informationis",
+            "中国科学：信息科学",
+            "中国科学F辑：信息科学（中文版）"
+          ],
+          "status": "unlisted",
+          "value": null,
+          "note": "按正式全名与已核实别名对照CCF2026公开副本完整目录未列；不等于低等级，不含另行发布的中文期刊推荐目录。"
+        }
+      ],
+      "indexing": {
+        "value": null,
+        "status": "unresolved",
+        "verifiedAt": "2026-10-19",
+        "reviewedAt": "2026-10-19",
+        "note": "当前WoS索引尚无本刊独立证据；中文刊身份、EI/CSCD/中文核心与SCI/SCIE分开记录，不据未匹配判定非SCI。"
+      },
+      "otherIndexes": [
+        {
+          "value": "CSCD",
+          "status": "reported",
+          "year": 2025,
+          "edition": "2025—2026",
+          "coverage": "核心库",
+          "issn": "1674-7267",
+          "sourceUrl": "https://nssc.cas.cn/yjsb/xspy/py/wjgd/202209/P020250901365885026876.pdf",
+          "sourcePageUrl": "https://nssc.cas.cn/yjsb/xspy/py/wjgd/202209/t20220909_6510993.html",
+          "sourceTitle": "CSCD来源期刊列表2025—2026（国家空间科学中心公开附件）",
+          "sourceType": "document-copy",
+          "sourceAuthority": "cas-institute",
+          "verifiedAt": "2026-10-19",
+          "note": "按正式ISSN对照CSCD2025—2026完整名单，明确为核心库；数据库原始名单的科研机构公开副本，保留副本属性、年度和核心/扩展类别，不冒充原库查询，不推断其他索引。"
+        }
+      ],
+      "eissn": "2095-9486",
+      "additionalIdentitySources": [
+        "https://www.sciengine.com/doi/pdfView/D900EBF0781F4C59A8A3492298606BCC",
+        "https://conf.scichina.com/"
+      ],
+      "ratingReviewedAt": "2026-10-19"
+    },
+    {
+      "id": "cn-bupt",
+      "kind": "journal",
+      "short": "北京邮电大学学报",
+      "nameZh": "北京邮电大学学报",
+      "nameEn": "Journal of Beijing University of Posts and Telecommunications",
+      "issn": "1007-5321",
+      "aliases": [
+        "北京邮电学院学报"
+      ],
+      "areas": [
+        "wireless",
+        "network",
+        "signal",
+        "rf"
+      ],
+      "topics": [
+        "physical",
+        "protocols",
+        "estimation-sync",
+        "antennas"
+      ],
+      "url": "https://journal.bupt.edu.cn/",
+      "sourceUrl": "https://cjournal.hep.com.cn/1007-5321/CN/qkjs",
+      "sourceType": "publisher",
+      "verifiedAt": "2026-10-19",
+      "verification": "verified",
+      "identityReviewedAt": "2026-10-19",
+      "identityNote": "期刊官网412；高教出版社当前合作平台明确主办身份、EI及2026文章。作者入口保留主办高校域名，不绕过访问限制。",
+      "topicReviewedAt": "2026-10-19",
+      "summary": "信息通信、网络、电子与信号处理研究。",
+      "publicationType": "研究型期刊",
+      "articleTypes": [
+        "研究论文",
+        "综述"
+      ],
+      "submissionMode": "通过官方作者入口在线投稿；以作者指南为准",
+      "authorGuideUrl": "https://journal.bupt.edu.cn/",
+      "assessments": [],
+      "catalogScope": "communications",
+      "catalogStatus": "current",
+      "scopeReviewedAt": "2026-10-19",
+      "evaluations": [
+        {
+          "system": "jcr",
+          "year": 2024,
+          "releaseYear": 2025,
+          "snapshotDate": "2025-06",
+          "sourceUrl": "https://uefiscdi.gov.ro/resource-865584-JCR_2024.iunie2025.pdf",
+          "sourceTitle": "2024 JCR政府公开转录（2025年6月）",
+          "sourceType": "secondary",
+          "sourceAuthority": "government",
+          "verifiedAt": "2026-10-19",
+          "reviewedAt": "2026-10-19",
+          "status": "unlisted",
+          "value": null,
+          "reviewedNames": [
+            "Journal of Beijing University of Posts and Telecommunications",
+            "北京邮电大学学报",
+            "北京邮电学院学报"
+          ],
+          "note": "完整2024 JCR转录按全名/别名及可得ISSN核查，未取得本刊明确JIF分区；只针对该旧年度，不判定当前WoS收录。"
+        },
+        {
+          "system": "cas",
+          "year": 2025,
+          "edition": "2025升级版",
+          "snapshotDate": "2026-09-28",
+          "sourceUrl": "https://cce.ncepu.edu.cn/xzzx/yjsjx1/7632005045644e61a0d12c7bbeff6204.htm",
+          "sourceFileUrl": "https://cce.ncepu.edu.cn/docs//2026-09/0e77800bf2744596a26e43c83acceed0.xlsx",
+          "sourceTitle": "华北电力大学公开的中科院2025升级版转录",
+          "sourceType": "secondary",
+          "sourceAuthority": "university",
+          "verifiedAt": "2026-10-19",
+          "reviewedAt": "2026-10-19",
+          "sheet": "期刊汇总",
+          "status": "unlisted",
+          "value": null,
+          "reviewedNames": [
+            "Journal of Beijing University of Posts and Telecommunications",
+            "北京邮电大学学报",
+            "北京邮电学院学报"
+          ],
+          "note": "已对照完整21772刊的2025转录，正式全名/别名及可得ISSN未列；只代表所查2025表，不判断WoS收录。"
+        },
+        {
+          "system": "ccf",
+          "year": 2026,
+          "edition": "第七版公开副本",
+          "sourceUrl": "https://scdm-shu.github.io/ccf/2026-CCF-Ranking.pdf",
+          "sourceTitle": "CCF2026国际会议期刊目录公开副本",
+          "sourceType": "document-copy",
+          "verifiedAt": "2026-10-19",
+          "reviewedAt": "2026-10-19",
+          "reviewedNames": [
+            "Journal of Beijing University of Posts and Telecommunications",
+            "北京邮电大学学报",
+            "北京邮电学院学报"
+          ],
+          "status": "unlisted",
+          "value": null,
+          "note": "按正式全名与已核实别名对照CCF2026公开副本完整目录未列；不等于低等级，不含另行发布的中文期刊推荐目录。"
+        }
+      ],
+      "indexing": {
+        "value": null,
+        "status": "unresolved",
+        "verifiedAt": "2026-10-19",
+        "reviewedAt": "2026-10-19",
+        "note": "当前WoS索引尚无本刊独立证据；中文刊身份、EI/CSCD/中文核心与SCI/SCIE分开记录，不据未匹配判定非SCI。"
+      },
+      "otherIndexes": [
+        {
+          "value": "EI",
+          "status": "verified",
+          "sourceUrl": "https://cjournal.hep.com.cn/1007-5321/CN/qkjs",
+          "sourceTitle": "本刊官方介绍：EI Compendex收录声明",
+          "sourceType": "publisher",
+          "verifiedAt": "2026-10-19",
+          "reviewedAt": "2026-10-19",
+          "snapshotDate": "2026-10-19",
+          "note": "官方期刊介绍明确列出该索引；页面未注明索引版次，核验日期不是数据库新版年份。"
+        },
+        {
+          "value": "Scopus",
+          "status": "verified",
+          "sourceUrl": "https://journal.bupt.edu.cn/CN/news/news10062.shtml",
+          "sourceTitle": "本刊官方介绍：Scopus收录声明",
+          "sourceType": "publisher",
+          "verifiedAt": "2026-10-19",
+          "reviewedAt": "2026-10-19",
+          "snapshotDate": "2026-10-19",
+          "note": "官方期刊介绍明确列出该索引；页面未注明索引版次，核验日期不是数据库新版年份。"
+        },
+        {
+          "value": "北大核心",
+          "status": "verified",
+          "sourceUrl": "https://cjournal.hep.com.cn/1007-5321/CN/qkjs",
+          "sourceTitle": "官方页面中文核心期刊声明",
+          "sourceType": "publisher",
+          "verifiedAt": "2026-10-19",
+          "reviewedAt": "2026-10-19",
+          "snapshotDate": "2026-10-19",
+          "note": "本刊官方页面明确中文核心，未注明版次；不标造2026版北大核心。"
+        },
+        {
+          "value": "CSCD",
+          "status": "reported",
+          "year": 2025,
+          "edition": "2025—2026",
+          "coverage": "扩展库",
+          "issn": "1007-5321",
+          "sourceUrl": "https://nssc.cas.cn/yjsb/xspy/py/wjgd/202209/P020250901365885026876.pdf",
+          "sourcePageUrl": "https://nssc.cas.cn/yjsb/xspy/py/wjgd/202209/t20220909_6510993.html",
+          "sourceTitle": "CSCD来源期刊列表2025—2026（国家空间科学中心公开附件）",
+          "sourceType": "document-copy",
+          "sourceAuthority": "cas-institute",
+          "verifiedAt": "2026-10-19",
+          "note": "按正式ISSN对照CSCD2025—2026完整名单，明确为扩展库；数据库原始名单的科研机构公开副本，保留副本属性、年度和核心/扩展类别，不冒充原库查询，不推断其他索引。"
+        }
+      ],
+      "ratingReviewedAt": "2026-10-19"
+    },
+    {
+      "id": "cn-uestc",
+      "kind": "journal",
+      "short": "电子科技大学学报",
+      "nameZh": "电子科技大学学报",
+      "nameEn": "Journal of University of Electronic Science and Technology of China",
+      "issn": "1001-0548",
+      "aliases": [],
+      "areas": [
+        "wireless",
+        "signal",
+        "rf",
+        "optical"
+      ],
+      "topics": [
+        "physical",
+        "estimation-sync",
+        "microwave",
+        "photonics"
+      ],
+      "url": "https://www.juestc.uestc.edu.cn/",
+      "sourceUrl": "https://www.juestc.uestc.edu.cn/",
+      "sourceType": "publisher",
+      "verifiedAt": "2026-10-19",
+      "verification": "verified",
+      "identityReviewedAt": "2026-10-19",
+      "identityNote": "官方主页当前2026年第55卷第5期并列Ei Compendex；征稿导航页可读但正文由前端加载，未猜测后台投稿系统地址。",
+      "topicReviewedAt": "2026-10-19",
+      "summary": "通信信息、电子技术、信号处理及光电子研究。",
+      "publicationType": "研究型期刊",
+      "articleTypes": [
+        "研究论文",
+        "综述"
+      ],
+      "submissionMode": "通过官方作者入口在线投稿；以作者指南为准",
+      "authorGuideUrl": "https://www.juestc.uestc.edu.cn/zgqs",
+      "assessments": [],
+      "catalogScope": "communications",
+      "catalogStatus": "current",
+      "scopeReviewedAt": "2026-10-19",
+      "evaluations": [
+        {
+          "system": "jcr",
+          "year": 2024,
+          "releaseYear": 2025,
+          "snapshotDate": "2025-06",
+          "sourceUrl": "https://uefiscdi.gov.ro/resource-865584-JCR_2024.iunie2025.pdf",
+          "sourceTitle": "2024 JCR政府公开转录（2025年6月）",
+          "sourceType": "secondary",
+          "sourceAuthority": "government",
+          "verifiedAt": "2026-10-19",
+          "reviewedAt": "2026-10-19",
+          "status": "unlisted",
+          "value": null,
+          "reviewedNames": [
+            "Journal of University of Electronic Science and Technology of China",
+            "电子科技大学学报"
+          ],
+          "note": "完整2024 JCR转录按全名/别名及可得ISSN核查，未取得本刊明确JIF分区；只针对该旧年度，不判定当前WoS收录。"
+        },
+        {
+          "system": "cas",
+          "year": 2025,
+          "edition": "2025升级版",
+          "snapshotDate": "2026-09-28",
+          "sourceUrl": "https://cce.ncepu.edu.cn/xzzx/yjsjx1/7632005045644e61a0d12c7bbeff6204.htm",
+          "sourceFileUrl": "https://cce.ncepu.edu.cn/docs//2026-09/0e77800bf2744596a26e43c83acceed0.xlsx",
+          "sourceTitle": "华北电力大学公开的中科院2025升级版转录",
+          "sourceType": "secondary",
+          "sourceAuthority": "university",
+          "verifiedAt": "2026-10-19",
+          "reviewedAt": "2026-10-19",
+          "sheet": "期刊汇总",
+          "status": "unlisted",
+          "value": null,
+          "reviewedNames": [
+            "Journal of University of Electronic Science and Technology of China",
+            "电子科技大学学报"
+          ],
+          "note": "已对照完整21772刊的2025转录，正式全名/别名及可得ISSN未列；只代表所查2025表，不判断WoS收录。"
+        },
+        {
+          "system": "ccf",
+          "year": 2026,
+          "edition": "第七版公开副本",
+          "sourceUrl": "https://scdm-shu.github.io/ccf/2026-CCF-Ranking.pdf",
+          "sourceTitle": "CCF2026国际会议期刊目录公开副本",
+          "sourceType": "document-copy",
+          "verifiedAt": "2026-10-19",
+          "reviewedAt": "2026-10-19",
+          "reviewedNames": [
+            "Journal of University of Electronic Science and Technology of China",
+            "电子科技大学学报"
+          ],
+          "status": "unlisted",
+          "value": null,
+          "note": "按正式全名与已核实别名对照CCF2026公开副本完整目录未列；不等于低等级，不含另行发布的中文期刊推荐目录。"
+        }
+      ],
+      "indexing": {
+        "value": null,
+        "status": "unresolved",
+        "verifiedAt": "2026-10-19",
+        "reviewedAt": "2026-10-19",
+        "note": "当前WoS索引尚无本刊独立证据；中文刊身份、EI/CSCD/中文核心与SCI/SCIE分开记录，不据未匹配判定非SCI。"
+      },
+      "otherIndexes": [
+        {
+          "value": "EI",
+          "status": "verified",
+          "sourceUrl": "https://www.juestc.uestc.edu.cn/",
+          "sourceTitle": "本刊官方介绍：EI Compendex收录声明",
+          "sourceType": "publisher",
+          "verifiedAt": "2026-10-19",
+          "reviewedAt": "2026-10-19",
+          "snapshotDate": "2026-10-19",
+          "note": "官方期刊介绍明确列出该索引；页面未注明索引版次，核验日期不是数据库新版年份。"
+        },
+        {
+          "value": "Scopus",
+          "status": "verified",
+          "sourceUrl": "https://cjournal.hep.com.cn/1001-0548/CN/qkjs",
+          "sourceTitle": "本刊官方介绍：Scopus收录声明",
+          "sourceType": "publisher",
+          "verifiedAt": "2026-10-19",
+          "reviewedAt": "2026-10-19",
+          "snapshotDate": "2026-10-19",
+          "note": "官方期刊介绍明确列出该索引；页面未注明索引版次，核验日期不是数据库新版年份。"
+        },
+        {
+          "value": "北大核心",
+          "status": "verified",
+          "sourceUrl": "https://www.juestc.uestc.edu.cn/",
+          "sourceTitle": "官方页面中文核心期刊声明",
+          "sourceType": "publisher",
+          "verifiedAt": "2026-10-19",
+          "reviewedAt": "2026-10-19",
+          "snapshotDate": "2026-10-19",
+          "note": "本刊官方页面明确中文核心，未注明版次；不标造2026版北大核心。"
+        },
+        {
+          "value": "CSCD",
+          "status": "reported",
+          "year": 2025,
+          "edition": "2025—2026",
+          "coverage": "核心库",
+          "issn": "1001-0548",
+          "sourceUrl": "https://nssc.cas.cn/yjsb/xspy/py/wjgd/202209/P020250901365885026876.pdf",
+          "sourcePageUrl": "https://nssc.cas.cn/yjsb/xspy/py/wjgd/202209/t20220909_6510993.html",
+          "sourceTitle": "CSCD来源期刊列表2025—2026（国家空间科学中心公开附件）",
+          "sourceType": "document-copy",
+          "sourceAuthority": "cas-institute",
+          "verifiedAt": "2026-10-19",
+          "note": "按正式ISSN对照CSCD2025—2026完整名单，明确为核心库；数据库原始名单的科研机构公开副本，保留副本属性、年度和核心/扩展类别，不冒充原库查询，不推断其他索引。"
+        }
+      ],
+      "ratingReviewedAt": "2026-10-19"
+    },
+    {
+      "id": "cn-xidian",
+      "kind": "journal",
+      "short": "西安电子科技大学学报",
+      "nameZh": "西安电子科技大学学报",
+      "nameEn": "Journal of Xidian University",
+      "issn": "1001-2400",
+      "aliases": [
+        "西安电子科技大学学报（自然科学版）",
+        "西北电讯工程学院学报"
+      ],
+      "areas": [
+        "wireless",
+        "signal",
+        "rf",
+        "network"
+      ],
+      "topics": [
+        "physical",
+        "estimation-sync",
+        "microwave",
+        "security"
+      ],
+      "url": "https://journal.xidian.edu.cn/xdxb/CN/1001-2400/home.shtml",
+      "sourceUrl": "https://journal.xidian.edu.cn/xdxb/CN/1001-2400/home.shtml",
+      "sourceType": "publisher",
+      "verifiedAt": "2026-10-19",
+      "verification": "verified",
+      "identityReviewedAt": "2026-10-19",
+      "identityNote": "官方独立期刊页明确ISSN和EI/Scopus，页尾作者入口已定位；当期页显示2025年第5期，未据此宣称停刊。",
+      "topicReviewedAt": "2026-10-19",
+      "summary": "通信、电子、网络安全与信号处理研究。",
+      "publicationType": "研究型期刊",
+      "articleTypes": [
+        "研究论文",
+        "综述"
+      ],
+      "submissionMode": "通过官方作者入口在线投稿；以作者指南为准",
+      "authorGuideUrl": "https://journal.xidian.edu.cn/xdxb/CN/column/column3.shtml",
+      "assessments": [],
+      "catalogScope": "communications",
+      "catalogStatus": "current",
+      "scopeReviewedAt": "2026-10-19",
+      "evaluations": [
+        {
+          "system": "jcr",
+          "year": 2024,
+          "releaseYear": 2025,
+          "snapshotDate": "2025-06",
+          "sourceUrl": "https://uefiscdi.gov.ro/resource-865584-JCR_2024.iunie2025.pdf",
+          "sourceTitle": "2024 JCR政府公开转录（2025年6月）",
+          "sourceType": "secondary",
+          "sourceAuthority": "government",
+          "verifiedAt": "2026-10-19",
+          "reviewedAt": "2026-10-19",
+          "status": "unlisted",
+          "value": null,
+          "reviewedNames": [
+            "Journal of Xidian University",
+            "西安电子科技大学学报",
+            "西安电子科技大学学报（自然科学版）",
+            "西北电讯工程学院学报"
+          ],
+          "note": "完整2024 JCR转录按全名/别名及可得ISSN核查，未取得本刊明确JIF分区；只针对该旧年度，不判定当前WoS收录。"
+        },
+        {
+          "system": "cas",
+          "year": 2025,
+          "edition": "2025升级版",
+          "snapshotDate": "2026-09-28",
+          "sourceUrl": "https://cce.ncepu.edu.cn/xzzx/yjsjx1/7632005045644e61a0d12c7bbeff6204.htm",
+          "sourceFileUrl": "https://cce.ncepu.edu.cn/docs//2026-09/0e77800bf2744596a26e43c83acceed0.xlsx",
+          "sourceTitle": "华北电力大学公开的中科院2025升级版转录",
+          "sourceType": "secondary",
+          "sourceAuthority": "university",
+          "verifiedAt": "2026-10-19",
+          "reviewedAt": "2026-10-19",
+          "sheet": "期刊汇总",
+          "status": "unlisted",
+          "value": null,
+          "reviewedNames": [
+            "Journal of Xidian University",
+            "西安电子科技大学学报",
+            "西安电子科技大学学报（自然科学版）",
+            "西北电讯工程学院学报"
+          ],
+          "note": "已对照完整21772刊的2025转录，正式全名/别名及可得ISSN未列；只代表所查2025表，不判断WoS收录。"
+        },
+        {
+          "system": "ccf",
+          "year": 2026,
+          "edition": "第七版公开副本",
+          "sourceUrl": "https://scdm-shu.github.io/ccf/2026-CCF-Ranking.pdf",
+          "sourceTitle": "CCF2026国际会议期刊目录公开副本",
+          "sourceType": "document-copy",
+          "verifiedAt": "2026-10-19",
+          "reviewedAt": "2026-10-19",
+          "reviewedNames": [
+            "Journal of Xidian University",
+            "西安电子科技大学学报",
+            "西安电子科技大学学报（自然科学版）",
+            "西北电讯工程学院学报"
+          ],
+          "status": "unlisted",
+          "value": null,
+          "note": "按正式全名与已核实别名对照CCF2026公开副本完整目录未列；不等于低等级，不含另行发布的中文期刊推荐目录。"
+        }
+      ],
+      "indexing": {
+        "value": null,
+        "status": "unresolved",
+        "verifiedAt": "2026-10-19",
+        "reviewedAt": "2026-10-19",
+        "note": "当前WoS索引尚无本刊独立证据；中文刊身份、EI/CSCD/中文核心与SCI/SCIE分开记录，不据未匹配判定非SCI。"
+      },
+      "otherIndexes": [
+        {
+          "value": "EI",
+          "status": "verified",
+          "sourceUrl": "https://journal.xidian.edu.cn/xdxb/CN/1001-2400/home.shtml",
+          "sourceTitle": "本刊官方介绍：EI Compendex收录声明",
+          "sourceType": "publisher",
+          "verifiedAt": "2026-10-19",
+          "reviewedAt": "2026-10-19",
+          "snapshotDate": "2026-10-19",
+          "note": "官方期刊介绍明确列出该索引；页面未注明索引版次，核验日期不是数据库新版年份。"
+        },
+        {
+          "value": "Scopus",
+          "status": "verified",
+          "sourceUrl": "https://journal.xidian.edu.cn/xdxb/CN/1001-2400/home.shtml",
+          "sourceTitle": "本刊官方介绍：Scopus收录声明",
+          "sourceType": "publisher",
+          "verifiedAt": "2026-10-19",
+          "reviewedAt": "2026-10-19",
+          "snapshotDate": "2026-10-19",
+          "note": "官方期刊介绍明确列出该索引；页面未注明索引版次，核验日期不是数据库新版年份。"
+        },
+        {
+          "value": "CSCD",
+          "status": "reported",
+          "year": 2025,
+          "edition": "2025—2026",
+          "coverage": "核心库",
+          "issn": "1001-2400",
+          "sourceUrl": "https://nssc.cas.cn/yjsb/xspy/py/wjgd/202209/P020250901365885026876.pdf",
+          "sourcePageUrl": "https://nssc.cas.cn/yjsb/xspy/py/wjgd/202209/t20220909_6510993.html",
+          "sourceTitle": "CSCD来源期刊列表2025—2026（国家空间科学中心公开附件）",
+          "sourceType": "document-copy",
+          "sourceAuthority": "cas-institute",
+          "verifiedAt": "2026-10-19",
+          "note": "按正式ISSN对照CSCD2025—2026完整名单，明确为核心库；数据库原始名单的科研机构公开副本，保留副本属性、年度和核心/扩展类别，不冒充原库查询，不推断其他索引。"
+        }
+      ],
+      "submissionUrl": "https://journal.xidian.edu.cn/Journalx_xidian/authorLogOn.action",
+      "ratingReviewedAt": "2026-10-19"
+    },
+    {
+      "id": "cn-njupt",
+      "kind": "journal",
+      "short": "南京邮电大学学报",
+      "nameZh": "南京邮电大学学报（自然科学版）",
+      "nameEn": "Journal of Nanjing University of Posts and Telecommunications (Natural Science Edition)",
+      "issn": "1673-5439",
+      "aliases": [
+        "南京邮电学院学报（自然科学版）"
+      ],
+      "areas": [
+        "wireless",
+        "network",
+        "signal"
+      ],
+      "topics": [
+        "physical",
+        "protocols",
+        "estimation-sync"
+      ],
+      "url": "http://nyzr.njupt.edu.cn/",
+      "sourceUrl": "https://qks.njupt.edu.cn/2024/0522/c17653a263481/page.htm",
+      "sourceType": "publisher",
+      "verifiedAt": "2026-10-19",
+      "verification": "verified",
+      "identityReviewedAt": "2026-10-19",
+      "identityNote": "主办大学期刊社官方简介明确Scopus与北大2023核心；投稿须知PDF第3页明确nyzr.njupt.edu.cn网站作者系统，不收纸稿和Email投稿。",
+      "topicReviewedAt": "2026-10-19",
+      "summary": "通信、电子与信息系统研究。",
+      "publicationType": "研究型期刊",
+      "articleTypes": [
+        "研究论文",
+        "综述"
+      ],
+      "submissionMode": "仅通过官网作者投稿系统；官方指南明确不收纸质稿和Email稿。",
+      "authorGuideUrl": "https://qks.njupt.edu.cn/2024/0522/c17662a263493/page.htm",
+      "assessments": [],
+      "catalogScope": "communications",
+      "catalogStatus": "current",
+      "scopeReviewedAt": "2026-10-19",
+      "evaluations": [
+        {
+          "system": "jcr",
+          "year": 2024,
+          "releaseYear": 2025,
+          "snapshotDate": "2025-06",
+          "sourceUrl": "https://uefiscdi.gov.ro/resource-865584-JCR_2024.iunie2025.pdf",
+          "sourceTitle": "2024 JCR政府公开转录（2025年6月）",
+          "sourceType": "secondary",
+          "sourceAuthority": "government",
+          "verifiedAt": "2026-10-19",
+          "reviewedAt": "2026-10-19",
+          "status": "unlisted",
+          "value": null,
+          "reviewedNames": [
+            "Journal of Nanjing University of Posts and Telecommunications (Natural Science Edition)",
+            "南京邮电大学学报（自然科学版）",
+            "南京邮电学院学报（自然科学版）"
+          ],
+          "note": "完整2024 JCR转录按全名/别名及可得ISSN核查，未取得本刊明确JIF分区；只针对该旧年度，不判定当前WoS收录。"
+        },
+        {
+          "system": "cas",
+          "year": 2025,
+          "edition": "2025升级版",
+          "snapshotDate": "2026-09-28",
+          "sourceUrl": "https://cce.ncepu.edu.cn/xzzx/yjsjx1/7632005045644e61a0d12c7bbeff6204.htm",
+          "sourceFileUrl": "https://cce.ncepu.edu.cn/docs//2026-09/0e77800bf2744596a26e43c83acceed0.xlsx",
+          "sourceTitle": "华北电力大学公开的中科院2025升级版转录",
+          "sourceType": "secondary",
+          "sourceAuthority": "university",
+          "verifiedAt": "2026-10-19",
+          "reviewedAt": "2026-10-19",
+          "sheet": "期刊汇总",
+          "status": "unlisted",
+          "value": null,
+          "reviewedNames": [
+            "Journal of Nanjing University of Posts and Telecommunications (Natural Science Edition)",
+            "南京邮电大学学报（自然科学版）",
+            "南京邮电学院学报（自然科学版）"
+          ],
+          "note": "已对照完整21772刊的2025转录，正式全名/别名及可得ISSN未列；只代表所查2025表，不判断WoS收录。"
+        },
+        {
+          "system": "ccf",
+          "year": 2026,
+          "edition": "第七版公开副本",
+          "sourceUrl": "https://scdm-shu.github.io/ccf/2026-CCF-Ranking.pdf",
+          "sourceTitle": "CCF2026国际会议期刊目录公开副本",
+          "sourceType": "document-copy",
+          "verifiedAt": "2026-10-19",
+          "reviewedAt": "2026-10-19",
+          "reviewedNames": [
+            "Journal of Nanjing University of Posts and Telecommunications (Natural Science Edition)",
+            "南京邮电大学学报（自然科学版）",
+            "南京邮电学院学报（自然科学版）"
+          ],
+          "status": "unlisted",
+          "value": null,
+          "note": "按正式全名与已核实别名对照CCF2026公开副本完整目录未列；不等于低等级，不含另行发布的中文期刊推荐目录。"
+        }
+      ],
+      "indexing": {
+        "value": null,
+        "status": "unresolved",
+        "verifiedAt": "2026-10-19",
+        "reviewedAt": "2026-10-19",
+        "note": "当前WoS索引尚无本刊独立证据；中文刊身份、EI/CSCD/中文核心与SCI/SCIE分开记录，不据未匹配判定非SCI。"
+      },
+      "otherIndexes": [
+        {
+          "value": "Scopus",
+          "status": "verified",
+          "sourceUrl": "https://qks.njupt.edu.cn/2024/0522/c17653a263481/page.htm",
+          "sourceTitle": "本刊官方介绍：Scopus收录声明",
+          "sourceType": "publisher",
+          "verifiedAt": "2026-10-19",
+          "reviewedAt": "2026-10-19",
+          "snapshotDate": "2026-10-19",
+          "note": "官方期刊介绍明确列出该索引；页面未注明索引版次，核验日期不是数据库新版年份。"
+        },
+        {
+          "value": "北大核心",
+          "status": "verified",
+          "sourceUrl": "https://qks.njupt.edu.cn/2024/0522/c17653a263481/page.htm",
+          "sourceTitle": "官方介绍明确入编《中文核心期刊要目总览》2023版",
+          "sourceType": "publisher",
+          "verifiedAt": "2026-10-19",
+          "reviewedAt": "2026-10-19",
+          "snapshotDate": "2026-10-19",
+          "note": "仅指明确写明的2023版中文核心；不与CSCD、SCI或T分级互换。",
+          "year": 2023,
+          "edition": "2023年第10版"
+        },
+        {
+          "value": "CSTPCD",
+          "status": "verified",
+          "sourceUrl": "https://qks.njupt.edu.cn/2024/0522/c17653a263481/page.htm",
+          "sourceTitle": "官方期刊介绍：中国科技核心期刊",
+          "sourceType": "publisher",
+          "verifiedAt": "2026-10-19",
+          "reviewedAt": "2026-10-19",
+          "snapshotDate": "2026-10-19",
+          "note": "官方期刊介绍明确列出该索引；页面未注明索引版次，核验日期不是数据库新版年份。"
+        }
+      ],
+      "authorGuideFileUrl": "https://qks.njupt.edu.cn/_upload/article/files/5d/cf/7243ae0140099cf6b663a8dc8d57/8047fed5-431b-4f4e-bcc9-8debb384c4bb.pdf",
+      "ratingReviewedAt": "2026-10-19"
+    },
+    {
+      "id": "cn-cqupt",
+      "kind": "journal",
+      "short": "重庆邮电大学学报",
+      "nameZh": "重庆邮电大学学报（自然科学版）",
+      "nameEn": "Journal of Chongqing University of Posts and Telecommunications (Natural Science Edition)",
+      "issn": "1673-825X",
+      "aliases": [
+        "重庆邮电学院学报（自然科学版）"
+      ],
+      "areas": [
+        "wireless",
+        "network",
+        "iot",
+        "signal"
+      ],
+      "topics": [
+        "physical",
+        "protocols",
+        "iot-sensing",
+        "estimation-sync"
+      ],
+      "url": "http://journal2.cqupt.edu.cn/jcuptnsecn/jcuptnse/home",
+      "sourceUrl": "https://cjournal.hep.com.cn/1673-825X/CN/qkjs",
+      "sourceType": "publisher",
+      "verifiedAt": "2026-10-19",
+      "verification": "verified",
+      "identityReviewedAt": "2026-10-19",
+      "identityNote": "主办大学期刊社及高教出版当前合作页确认自然科学版；与社会科学版、英文DCN独立记录。",
+      "topicReviewedAt": "2026-10-19",
+      "summary": "信息通信、物联网与智能信息处理研究。",
+      "publicationType": "研究型期刊",
+      "articleTypes": [
+        "研究论文",
+        "综述"
+      ],
+      "submissionMode": "通过官方作者入口在线投稿；以作者指南为准",
+      "authorGuideUrl": "https://journal2.cqupt.edu.cn/jcuptnsecn/jcuptnse/author/login",
+      "assessments": [],
+      "catalogScope": "communications",
+      "catalogStatus": "current",
+      "scopeReviewedAt": "2026-10-19",
+      "evaluations": [
+        {
+          "system": "jcr",
+          "year": 2024,
+          "releaseYear": 2025,
+          "snapshotDate": "2025-06",
+          "sourceUrl": "https://uefiscdi.gov.ro/resource-865584-JCR_2024.iunie2025.pdf",
+          "sourceTitle": "2024 JCR政府公开转录（2025年6月）",
+          "sourceType": "secondary",
+          "sourceAuthority": "government",
+          "verifiedAt": "2026-10-19",
+          "reviewedAt": "2026-10-19",
+          "status": "unlisted",
+          "value": null,
+          "reviewedNames": [
+            "Journal of Chongqing University of Posts and Telecommunications (Natural Science Edition)",
+            "重庆邮电大学学报（自然科学版）",
+            "重庆邮电学院学报（自然科学版）"
+          ],
+          "note": "完整2024 JCR转录按全名/别名及可得ISSN核查，未取得本刊明确JIF分区；只针对该旧年度，不判定当前WoS收录。"
+        },
+        {
+          "system": "cas",
+          "year": 2025,
+          "edition": "2025升级版",
+          "snapshotDate": "2026-09-28",
+          "sourceUrl": "https://cce.ncepu.edu.cn/xzzx/yjsjx1/7632005045644e61a0d12c7bbeff6204.htm",
+          "sourceFileUrl": "https://cce.ncepu.edu.cn/docs//2026-09/0e77800bf2744596a26e43c83acceed0.xlsx",
+          "sourceTitle": "华北电力大学公开的中科院2025升级版转录",
+          "sourceType": "secondary",
+          "sourceAuthority": "university",
+          "verifiedAt": "2026-10-19",
+          "reviewedAt": "2026-10-19",
+          "sheet": "期刊汇总",
+          "status": "unlisted",
+          "value": null,
+          "reviewedNames": [
+            "Journal of Chongqing University of Posts and Telecommunications (Natural Science Edition)",
+            "重庆邮电大学学报（自然科学版）",
+            "重庆邮电学院学报（自然科学版）"
+          ],
+          "note": "已对照完整21772刊的2025转录，正式全名/别名及可得ISSN未列；只代表所查2025表，不判断WoS收录。"
+        },
+        {
+          "system": "ccf",
+          "year": 2026,
+          "edition": "第七版公开副本",
+          "sourceUrl": "https://scdm-shu.github.io/ccf/2026-CCF-Ranking.pdf",
+          "sourceTitle": "CCF2026国际会议期刊目录公开副本",
+          "sourceType": "document-copy",
+          "verifiedAt": "2026-10-19",
+          "reviewedAt": "2026-10-19",
+          "reviewedNames": [
+            "Journal of Chongqing University of Posts and Telecommunications (Natural Science Edition)",
+            "重庆邮电大学学报（自然科学版）",
+            "重庆邮电学院学报（自然科学版）"
+          ],
+          "status": "unlisted",
+          "value": null,
+          "note": "按正式全名与已核实别名对照CCF2026公开副本完整目录未列；不等于低等级，不含另行发布的中文期刊推荐目录。"
+        }
+      ],
+      "indexing": {
+        "value": null,
+        "status": "unresolved",
+        "verifiedAt": "2026-10-19",
+        "reviewedAt": "2026-10-19",
+        "note": "当前WoS索引尚无本刊独立证据；中文刊身份、EI/CSCD/中文核心与SCI/SCIE分开记录，不据未匹配判定非SCI。"
+      },
+      "otherIndexes": [
+        {
+          "value": "北大核心",
+          "status": "verified",
+          "sourceUrl": "https://cjournal.hep.com.cn/1673-825X/CN/qkjs",
+          "sourceTitle": "官方页面中文核心期刊声明",
+          "sourceType": "publisher",
+          "verifiedAt": "2026-10-19",
+          "reviewedAt": "2026-10-19",
+          "snapshotDate": "2026-10-19",
+          "note": "本刊官方页面明确中文核心，未注明版次；不标造2026版北大核心。"
+        },
+        {
+          "value": "CSCD",
+          "status": "reported",
+          "year": 2025,
+          "edition": "2025—2026",
+          "coverage": "扩展库",
+          "issn": "1673-825x",
+          "sourceUrl": "https://nssc.cas.cn/yjsb/xspy/py/wjgd/202209/P020250901365885026876.pdf",
+          "sourcePageUrl": "https://nssc.cas.cn/yjsb/xspy/py/wjgd/202209/t20220909_6510993.html",
+          "sourceTitle": "CSCD来源期刊列表2025—2026（国家空间科学中心公开附件）",
+          "sourceType": "document-copy",
+          "sourceAuthority": "cas-institute",
+          "verifiedAt": "2026-10-19",
+          "note": "按正式ISSN对照CSCD2025—2026完整名单，明确为扩展库；数据库原始名单的科研机构公开副本，保留副本属性、年度和核心/扩展类别，不冒充原库查询，不推断其他索引。"
+        }
+      ],
+      "ratingReviewedAt": "2026-10-19"
+    },
+    {
+      "id": "cn-xupt",
+      "kind": "journal",
+      "short": "西安邮电大学学报",
+      "nameZh": "西安邮电大学学报",
+      "nameEn": "Journal of Xi'an University of Posts and Telecommunications",
+      "issn": "2095-6533",
+      "aliases": [
+        "西安邮电学院学报"
+      ],
+      "areas": [
+        "wireless",
+        "network",
+        "rf"
+      ],
+      "topics": [
+        "physical",
+        "protocols",
+        "security",
+        "microwave"
+      ],
+      "url": "https://xayd.cbpt.cnki.net/portal",
+      "sourceUrl": "https://xayd.cbpt.cnki.net/portal",
+      "sourceType": "publisher",
+      "verifiedAt": "2026-10-19",
+      "verification": "verified",
+      "identityReviewedAt": "2026-10-19",
+      "identityNote": "旧CNKI站根链接跳空白退出页；当前/portal站有2026卷期与投稿导航，主办学校2026青年编委新闻佐证当前出版。",
+      "topicReviewedAt": "2026-10-19",
+      "summary": "通信与电子、网络安全和信息技术研究。",
+      "publicationType": "研究型期刊",
+      "articleTypes": [
+        "研究论文",
+        "综述"
+      ],
+      "submissionMode": "通过官方作者入口在线投稿；以作者指南为准",
+      "authorGuideUrl": "https://xayd.cbpt.cnki.net/portal",
+      "assessments": [],
+      "catalogScope": "communications",
+      "catalogStatus": "current",
+      "scopeReviewedAt": "2026-10-19",
+      "evaluations": [
+        {
+          "system": "jcr",
+          "year": 2024,
+          "releaseYear": 2025,
+          "snapshotDate": "2025-06",
+          "sourceUrl": "https://uefiscdi.gov.ro/resource-865584-JCR_2024.iunie2025.pdf",
+          "sourceTitle": "2024 JCR政府公开转录（2025年6月）",
+          "sourceType": "secondary",
+          "sourceAuthority": "government",
+          "verifiedAt": "2026-10-19",
+          "reviewedAt": "2026-10-19",
+          "status": "unlisted",
+          "value": null,
+          "reviewedNames": [
+            "Journal of Xi'an University of Posts and Telecommunications",
+            "西安邮电大学学报",
+            "西安邮电学院学报"
+          ],
+          "note": "完整2024 JCR转录按全名/别名及可得ISSN核查，未取得本刊明确JIF分区；只针对该旧年度，不判定当前WoS收录。"
+        },
+        {
+          "system": "cas",
+          "year": 2025,
+          "edition": "2025升级版",
+          "snapshotDate": "2026-09-28",
+          "sourceUrl": "https://cce.ncepu.edu.cn/xzzx/yjsjx1/7632005045644e61a0d12c7bbeff6204.htm",
+          "sourceFileUrl": "https://cce.ncepu.edu.cn/docs//2026-09/0e77800bf2744596a26e43c83acceed0.xlsx",
+          "sourceTitle": "华北电力大学公开的中科院2025升级版转录",
+          "sourceType": "secondary",
+          "sourceAuthority": "university",
+          "verifiedAt": "2026-10-19",
+          "reviewedAt": "2026-10-19",
+          "sheet": "期刊汇总",
+          "status": "unlisted",
+          "value": null,
+          "reviewedNames": [
+            "Journal of Xi'an University of Posts and Telecommunications",
+            "西安邮电大学学报",
+            "西安邮电学院学报"
+          ],
+          "note": "已对照完整21772刊的2025转录，正式全名/别名及可得ISSN未列；只代表所查2025表，不判断WoS收录。"
+        },
+        {
+          "system": "ccf",
+          "year": 2026,
+          "edition": "第七版公开副本",
+          "sourceUrl": "https://scdm-shu.github.io/ccf/2026-CCF-Ranking.pdf",
+          "sourceTitle": "CCF2026国际会议期刊目录公开副本",
+          "sourceType": "document-copy",
+          "verifiedAt": "2026-10-19",
+          "reviewedAt": "2026-10-19",
+          "reviewedNames": [
+            "Journal of Xi'an University of Posts and Telecommunications",
+            "西安邮电大学学报",
+            "西安邮电学院学报"
+          ],
+          "status": "unlisted",
+          "value": null,
+          "note": "按正式全名与已核实别名对照CCF2026公开副本完整目录未列；不等于低等级，不含另行发布的中文期刊推荐目录。"
+        }
+      ],
+      "indexing": {
+        "value": null,
+        "status": "unresolved",
+        "verifiedAt": "2026-10-19",
+        "reviewedAt": "2026-10-19",
+        "note": "当前WoS索引尚无本刊独立证据；中文刊身份、EI/CSCD/中文核心与SCI/SCIE分开记录，不据未匹配判定非SCI。"
+      },
+      "otherIndexes": [],
+      "additionalIdentitySources": [
+        "https://news.xupt.edu.cn/info/1002/27179.htm",
+        "https://news.xupt.edu.cn/info/1004/26798.htm"
+      ],
+      "ratingReviewedAt": "2026-10-19"
+    },
+    {
+      "id": "cn-telecom-sci",
+      "kind": "journal",
+      "short": "电信科学",
+      "nameZh": "电信科学",
+      "nameEn": "Telecommunications Science",
+      "issn": "1000-0801",
+      "aliases": [],
+      "areas": [
+        "wireless",
+        "network",
+        "space",
+        "ai"
+      ],
+      "topics": [
+        "physical",
+        "protocols",
+        "satellite-ntn",
+        "ai-communications"
+      ],
+      "url": "https://www.telecomsci.com/zh/home/",
+      "sourceUrl": "https://www.telecomsci.com/zh/info/15311/",
+      "sourceType": "publisher",
+      "verifiedAt": "2026-10-19",
+      "verification": "verified",
+      "identityReviewedAt": "2026-10-19",
+      "identityNote": "当前官方主页有2026年第42卷第8期，期刊介绍明确北大核心2023；旧官网已升级。",
+      "topicReviewedAt": "2026-10-19",
+      "summary": "通信网络、无线技术与产业应用研究。",
+      "publicationType": "研究型期刊",
+      "articleTypes": [
+        "研究论文",
+        "综述"
+      ],
+      "submissionMode": "通过官方作者入口在线投稿；以作者指南为准",
+      "authorGuideUrl": "https://www.telecomsci.com/zh/info/15315/",
+      "assessments": [],
+      "catalogScope": "communications",
+      "catalogStatus": "current",
+      "scopeReviewedAt": "2026-10-19",
+      "evaluations": [
+        {
+          "system": "jcr",
+          "year": 2024,
+          "releaseYear": 2025,
+          "snapshotDate": "2025-06",
+          "sourceUrl": "https://uefiscdi.gov.ro/resource-865584-JCR_2024.iunie2025.pdf",
+          "sourceTitle": "2024 JCR政府公开转录（2025年6月）",
+          "sourceType": "secondary",
+          "sourceAuthority": "government",
+          "verifiedAt": "2026-10-19",
+          "reviewedAt": "2026-10-19",
+          "status": "unlisted",
+          "value": null,
+          "reviewedNames": [
+            "Telecommunications Science",
+            "电信科学"
+          ],
+          "note": "完整2024 JCR转录按全名/别名及可得ISSN核查，未取得本刊明确JIF分区；只针对该旧年度，不判定当前WoS收录。"
+        },
+        {
+          "system": "cas",
+          "year": 2025,
+          "edition": "2025升级版",
+          "snapshotDate": "2026-09-28",
+          "sourceUrl": "https://cce.ncepu.edu.cn/xzzx/yjsjx1/7632005045644e61a0d12c7bbeff6204.htm",
+          "sourceFileUrl": "https://cce.ncepu.edu.cn/docs//2026-09/0e77800bf2744596a26e43c83acceed0.xlsx",
+          "sourceTitle": "华北电力大学公开的中科院2025升级版转录",
+          "sourceType": "secondary",
+          "sourceAuthority": "university",
+          "verifiedAt": "2026-10-19",
+          "reviewedAt": "2026-10-19",
+          "sheet": "期刊汇总",
+          "status": "unlisted",
+          "value": null,
+          "reviewedNames": [
+            "Telecommunications Science",
+            "电信科学"
+          ],
+          "note": "已对照完整21772刊的2025转录，正式全名/别名及可得ISSN未列；只代表所查2025表，不判断WoS收录。"
+        },
+        {
+          "system": "ccf",
+          "year": 2026,
+          "edition": "第七版公开副本",
+          "sourceUrl": "https://scdm-shu.github.io/ccf/2026-CCF-Ranking.pdf",
+          "sourceTitle": "CCF2026国际会议期刊目录公开副本",
+          "sourceType": "document-copy",
+          "verifiedAt": "2026-10-19",
+          "reviewedAt": "2026-10-19",
+          "reviewedNames": [
+            "Telecommunications Science",
+            "电信科学"
+          ],
+          "status": "unlisted",
+          "value": null,
+          "note": "按正式全名与已核实别名对照CCF2026公开副本完整目录未列；不等于低等级，不含另行发布的中文期刊推荐目录。"
+        }
+      ],
+      "indexing": {
+        "value": null,
+        "status": "unresolved",
+        "verifiedAt": "2026-10-19",
+        "reviewedAt": "2026-10-19",
+        "note": "当前WoS索引尚无本刊独立证据；中文刊身份、EI/CSCD/中文核心与SCI/SCIE分开记录，不据未匹配判定非SCI。"
+      },
+      "otherIndexes": [
+        {
+          "value": "北大核心",
+          "status": "verified",
+          "sourceUrl": "https://www.telecomsci.com/zh/info/15311/",
+          "sourceTitle": "官方介绍明确入编《中文核心期刊要目总览》2023版",
+          "sourceType": "publisher",
+          "verifiedAt": "2026-10-19",
+          "reviewedAt": "2026-10-19",
+          "snapshotDate": "2026-10-19",
+          "note": "仅指明确写明的2023版中文核心；不与CSCD、SCI或T分级互换。",
+          "year": 2023,
+          "edition": "2023年第10版"
+        },
+        {
+          "value": "CSTPCD",
+          "status": "verified",
+          "sourceUrl": "https://www.telecomsci.com/zh/info/15311/",
+          "sourceTitle": "官方期刊介绍：中国科技核心期刊",
+          "sourceType": "publisher",
+          "verifiedAt": "2026-10-19",
+          "reviewedAt": "2026-10-19",
+          "snapshotDate": "2026-10-19",
+          "note": "仅记录原页面明确年份，不宣称已核验2025/2026新名录。",
+          "year": 2023,
+          "edition": "2009—2023官方介绍范围"
+        }
+      ],
+      "eissn": "2097-5589",
+      "ratingReviewedAt": "2026-10-19"
+    },
+    {
+      "id": "cn-iot",
+      "kind": "journal",
+      "short": "物联网学报",
+      "nameZh": "物联网学报",
+      "nameEn": "Chinese Journal on Internet of Things",
+      "issn": "2096-3750",
+      "aliases": [],
+      "areas": [
+        "iot",
+        "network",
+        "wireless",
+        "signal"
+      ],
+      "topics": [
+        "iot-sensing",
+        "protocols",
+        "mobile-systems",
+        "isac"
+      ],
+      "url": "https://www.wlwxb.com.cn/zh/home/",
+      "sourceUrl": "https://www.wlwxb.com.cn/zh/info/15336/",
+      "sourceType": "publisher",
+      "verifiedAt": "2026-10-19",
+      "verification": "verified",
+      "identityReviewedAt": "2026-10-19",
+      "identityNote": "当前主页2026年第10卷第2期和2026编委会消息确认活跃身份；未从学会T级目录推断SCI/EI。",
+      "topicReviewedAt": "2026-10-19",
+      "summary": "物联网通信、感知、网络与系统研究。",
+      "publicationType": "研究型期刊",
+      "articleTypes": [
+        "研究论文",
+        "综述"
+      ],
+      "submissionMode": "通过官方作者入口在线投稿；以作者指南为准",
+      "authorGuideUrl": "https://www.wlwxb.com.cn/zh/info/15343/",
+      "assessments": [],
+      "catalogScope": "communications",
+      "catalogStatus": "current",
+      "scopeReviewedAt": "2026-10-19",
+      "evaluations": [
+        {
+          "system": "jcr",
+          "year": 2024,
+          "releaseYear": 2025,
+          "snapshotDate": "2025-06",
+          "sourceUrl": "https://uefiscdi.gov.ro/resource-865584-JCR_2024.iunie2025.pdf",
+          "sourceTitle": "2024 JCR政府公开转录（2025年6月）",
+          "sourceType": "secondary",
+          "sourceAuthority": "government",
+          "verifiedAt": "2026-10-19",
+          "reviewedAt": "2026-10-19",
+          "status": "unlisted",
+          "value": null,
+          "reviewedNames": [
+            "Chinese Journal on Internet of Things",
+            "物联网学报"
+          ],
+          "note": "完整2024 JCR转录按全名/别名及可得ISSN核查，未取得本刊明确JIF分区；只针对该旧年度，不判定当前WoS收录。"
+        },
+        {
+          "system": "cas",
+          "year": 2025,
+          "edition": "2025升级版",
+          "snapshotDate": "2026-09-28",
+          "sourceUrl": "https://cce.ncepu.edu.cn/xzzx/yjsjx1/7632005045644e61a0d12c7bbeff6204.htm",
+          "sourceFileUrl": "https://cce.ncepu.edu.cn/docs//2026-09/0e77800bf2744596a26e43c83acceed0.xlsx",
+          "sourceTitle": "华北电力大学公开的中科院2025升级版转录",
+          "sourceType": "secondary",
+          "sourceAuthority": "university",
+          "verifiedAt": "2026-10-19",
+          "reviewedAt": "2026-10-19",
+          "sheet": "期刊汇总",
+          "status": "unlisted",
+          "value": null,
+          "reviewedNames": [
+            "Chinese Journal on Internet of Things",
+            "物联网学报"
+          ],
+          "note": "已对照完整21772刊的2025转录，正式全名/别名及可得ISSN未列；只代表所查2025表，不判断WoS收录。"
+        },
+        {
+          "system": "ccf",
+          "year": 2026,
+          "edition": "第七版公开副本",
+          "sourceUrl": "https://scdm-shu.github.io/ccf/2026-CCF-Ranking.pdf",
+          "sourceTitle": "CCF2026国际会议期刊目录公开副本",
+          "sourceType": "document-copy",
+          "verifiedAt": "2026-10-19",
+          "reviewedAt": "2026-10-19",
+          "reviewedNames": [
+            "Chinese Journal on Internet of Things",
+            "物联网学报"
+          ],
+          "status": "unlisted",
+          "value": null,
+          "note": "按正式全名与已核实别名对照CCF2026公开副本完整目录未列；不等于低等级，不含另行发布的中文期刊推荐目录。"
+        }
+      ],
+      "indexing": {
+        "value": null,
+        "status": "unresolved",
+        "verifiedAt": "2026-10-19",
+        "reviewedAt": "2026-10-19",
+        "note": "当前WoS索引尚无本刊独立证据；中文刊身份、EI/CSCD/中文核心与SCI/SCIE分开记录，不据未匹配判定非SCI。"
+      },
+      "otherIndexes": [],
+      "eissn": "2097-5570",
+      "ratingReviewedAt": "2026-10-19"
+    },
+    {
+      "id": "cn-jnis",
+      "kind": "journal",
+      "short": "网络与信息安全学报",
+      "nameZh": "网络与信息安全学报",
+      "nameEn": "Chinese Journal of Network and Information Security",
+      "issn": "2096-109X",
+      "aliases": [],
+      "areas": [
+        "network",
+        "wireless"
+      ],
+      "topics": [
+        "security",
+        "protocols"
+      ],
+      "url": "https://www.cjnis.com.cn/zh/home/",
+      "sourceUrl": "https://www.cjnis.com.cn/zh/info/15408/",
+      "sourceType": "publisher",
+      "verifiedAt": "2026-10-19",
+      "verification": "verified",
+      "identityReviewedAt": "2026-10-19",
+      "identityNote": "现行官网已正常读取2026年第4期、期刊简介及作者指南，中文名与印刷/网络ISSN一致；作者指南确认在官网首页注册登录后在线投稿。",
+      "topicReviewedAt": "2026-10-19",
+      "summary": "网络安全、密码与信息安全技术研究。",
+      "publicationType": "研究型期刊",
+      "articleTypes": [
+        "研究论文",
+        "综述"
+      ],
+      "submissionMode": "通过官方作者入口在线投稿；以作者指南为准",
+      "authorGuideUrl": "https://www.cjnis.com.cn/zh/info/15413/",
+      "assessments": [],
+      "catalogScope": "communications",
+      "catalogStatus": "current",
+      "scopeReviewedAt": "2026-10-19",
+      "evaluations": [
+        {
+          "system": "jcr",
+          "year": 2024,
+          "releaseYear": 2025,
+          "snapshotDate": "2025-06",
+          "sourceUrl": "https://uefiscdi.gov.ro/resource-865584-JCR_2024.iunie2025.pdf",
+          "sourceTitle": "2024 JCR政府公开转录（2025年6月）",
+          "sourceType": "secondary",
+          "sourceAuthority": "government",
+          "verifiedAt": "2026-10-19",
+          "reviewedAt": "2026-10-19",
+          "status": "unlisted",
+          "value": null,
+          "reviewedNames": [
+            "Chinese Journal of Network and Information Security",
+            "网络与信息安全学报"
+          ],
+          "note": "完整2024 JCR转录按全名/别名及可得ISSN核查，未取得本刊明确JIF分区；只针对该旧年度，不判定当前WoS收录。"
+        },
+        {
+          "system": "cas",
+          "year": 2025,
+          "edition": "2025升级版",
+          "snapshotDate": "2026-09-28",
+          "sourceUrl": "https://cce.ncepu.edu.cn/xzzx/yjsjx1/7632005045644e61a0d12c7bbeff6204.htm",
+          "sourceFileUrl": "https://cce.ncepu.edu.cn/docs//2026-09/0e77800bf2744596a26e43c83acceed0.xlsx",
+          "sourceTitle": "华北电力大学公开的中科院2025升级版转录",
+          "sourceType": "secondary",
+          "sourceAuthority": "university",
+          "verifiedAt": "2026-10-19",
+          "reviewedAt": "2026-10-19",
+          "sheet": "期刊汇总",
+          "status": "unlisted",
+          "value": null,
+          "reviewedNames": [
+            "Chinese Journal of Network and Information Security",
+            "网络与信息安全学报"
+          ],
+          "note": "已对照完整21772刊的2025转录，正式全名/别名及可得ISSN未列；只代表所查2025表，不判断WoS收录。"
+        },
+        {
+          "system": "ccf",
+          "year": 2026,
+          "edition": "第七版公开副本",
+          "sourceUrl": "https://scdm-shu.github.io/ccf/2026-CCF-Ranking.pdf",
+          "sourceTitle": "CCF2026国际会议期刊目录公开副本",
+          "sourceType": "document-copy",
+          "verifiedAt": "2026-10-19",
+          "reviewedAt": "2026-10-19",
+          "reviewedNames": [
+            "Chinese Journal of Network and Information Security",
+            "网络与信息安全学报"
+          ],
+          "status": "unlisted",
+          "value": null,
+          "note": "按正式全名与已核实别名对照CCF2026公开副本完整目录未列；不等于低等级，不含另行发布的中文期刊推荐目录。"
+        }
+      ],
+      "indexing": {
+        "value": null,
+        "status": "unresolved",
+        "verifiedAt": "2026-10-19",
+        "reviewedAt": "2026-10-19",
+        "note": "当前WoS索引尚无本刊独立证据；中文刊身份、EI/CSCD/中文核心与SCI/SCIE分开记录，不据未匹配判定非SCI。"
+      },
+      "otherIndexes": [
+        {
+          "value": "Scopus",
+          "status": "verified",
+          "sourceUrl": "https://www.cjnis.com.cn/zh/info/15408/",
+          "sourceTitle": "现行官方期刊简介：Scopus收录声明",
+          "sourceType": "publisher",
+          "verifiedAt": "2026-10-19",
+          "reviewedAt": "2026-10-19",
+          "snapshotDate": "2026-10-19",
+          "note": "本刊现行官方简介明确列出Scopus；页面未标数据库版次，2026-10-19为复查日期，不表示索引年度。"
+        }
+      ],
+      "eissn": "2097-5554",
+      "authorEntryStatus": "verified",
+      "additionalIdentitySources": [
+        "https://opaj.napstic.cn/periodical/wlyxxaqxb?activeIssue=004&activeYear=2026&prePage=1",
+        "https://publishers.issn.org/resource/ISSN/2097-5554",
+        "https://www.bjxintong.com.cn/article/html/2020/4/10144/268317.htm"
+      ],
+      "ratingReviewedAt": "2026-10-19"
+    },
+    {
+      "id": "cn-cjors",
+      "kind": "journal",
+      "short": "电波科学学报",
+      "nameZh": "电波科学学报",
+      "nameEn": "Chinese Journal of Radio Science",
+      "issn": "1005-0388",
+      "aliases": [],
+      "areas": [
+        "rf",
+        "wireless",
+        "space",
+        "signal"
+      ],
+      "topics": [
+        "propagation",
+        "antennas",
+        "radar",
+        "microwave"
+      ],
+      "url": "https://www.cjors.cn/",
+      "sourceUrl": "https://www.cie.org.cn/49/4353.html",
+      "sourceType": "publisher",
+      "verifiedAt": "2026-10-19",
+      "verification": "verified",
+      "identityReviewedAt": "2026-10-19",
+      "identityNote": "主办中国电子学会当前介绍配2026年第1期封面、明确2023北大核心和Scopus；官网本次TLS失败，入口未绕过。",
+      "topicReviewedAt": "2026-10-19",
+      "summary": "电波传播、电磁理论、天线与无线电系统研究。",
+      "publicationType": "研究型期刊",
+      "articleTypes": [
+        "研究论文",
+        "综述"
+      ],
+      "submissionMode": "通过官方作者入口在线投稿；以作者指南为准",
+      "authorGuideUrl": "https://www.cjors.cn/",
+      "assessments": [],
+      "catalogScope": "communications",
+      "catalogStatus": "current",
+      "scopeReviewedAt": "2026-10-19",
+      "evaluations": [
+        {
+          "system": "jcr",
+          "year": 2024,
+          "releaseYear": 2025,
+          "snapshotDate": "2025-06",
+          "sourceUrl": "https://uefiscdi.gov.ro/resource-865584-JCR_2024.iunie2025.pdf",
+          "sourceTitle": "2024 JCR政府公开转录（2025年6月）",
+          "sourceType": "secondary",
+          "sourceAuthority": "government",
+          "verifiedAt": "2026-10-19",
+          "reviewedAt": "2026-10-19",
+          "status": "unlisted",
+          "value": null,
+          "reviewedNames": [
+            "Chinese Journal of Radio Science",
+            "电波科学学报"
+          ],
+          "note": "完整2024 JCR转录按全名/别名及可得ISSN核查，未取得本刊明确JIF分区；只针对该旧年度，不判定当前WoS收录。"
+        },
+        {
+          "system": "cas",
+          "year": 2025,
+          "edition": "2025升级版",
+          "snapshotDate": "2026-09-28",
+          "sourceUrl": "https://cce.ncepu.edu.cn/xzzx/yjsjx1/7632005045644e61a0d12c7bbeff6204.htm",
+          "sourceFileUrl": "https://cce.ncepu.edu.cn/docs//2026-09/0e77800bf2744596a26e43c83acceed0.xlsx",
+          "sourceTitle": "华北电力大学公开的中科院2025升级版转录",
+          "sourceType": "secondary",
+          "sourceAuthority": "university",
+          "verifiedAt": "2026-10-19",
+          "reviewedAt": "2026-10-19",
+          "sheet": "期刊汇总",
+          "status": "unlisted",
+          "value": null,
+          "reviewedNames": [
+            "Chinese Journal of Radio Science",
+            "电波科学学报"
+          ],
+          "note": "已对照完整21772刊的2025转录，正式全名/别名及可得ISSN未列；只代表所查2025表，不判断WoS收录。"
+        },
+        {
+          "system": "ccf",
+          "year": 2026,
+          "edition": "第七版公开副本",
+          "sourceUrl": "https://scdm-shu.github.io/ccf/2026-CCF-Ranking.pdf",
+          "sourceTitle": "CCF2026国际会议期刊目录公开副本",
+          "sourceType": "document-copy",
+          "verifiedAt": "2026-10-19",
+          "reviewedAt": "2026-10-19",
+          "reviewedNames": [
+            "Chinese Journal of Radio Science",
+            "电波科学学报"
+          ],
+          "status": "unlisted",
+          "value": null,
+          "note": "按正式全名与已核实别名对照CCF2026公开副本完整目录未列；不等于低等级，不含另行发布的中文期刊推荐目录。"
+        }
+      ],
+      "indexing": {
+        "value": null,
+        "status": "unresolved",
+        "verifiedAt": "2026-10-19",
+        "reviewedAt": "2026-10-19",
+        "note": "当前WoS索引尚无本刊独立证据；中文刊身份、EI/CSCD/中文核心与SCI/SCIE分开记录，不据未匹配判定非SCI。"
+      },
+      "otherIndexes": [
+        {
+          "value": "Scopus",
+          "status": "verified",
+          "sourceUrl": "https://www.cie.org.cn/49/4353.html",
+          "sourceTitle": "本刊官方介绍：Scopus收录声明",
+          "sourceType": "publisher",
+          "verifiedAt": "2026-10-19",
+          "reviewedAt": "2026-10-19",
+          "snapshotDate": "2026-10-19",
+          "note": "官方期刊介绍明确列出该索引；页面未注明索引版次，核验日期不是数据库新版年份。"
+        },
+        {
+          "value": "北大核心",
+          "status": "verified",
+          "sourceUrl": "https://www.cie.org.cn/49/4353.html",
+          "sourceTitle": "官方介绍明确入编《中文核心期刊要目总览》2023版",
+          "sourceType": "publisher",
+          "verifiedAt": "2026-10-19",
+          "reviewedAt": "2026-10-19",
+          "snapshotDate": "2026-10-19",
+          "note": "仅指明确写明的2023版中文核心；不与CSCD、SCI或T分级互换。",
+          "year": 2023,
+          "edition": "2023年第10版"
+        },
+        {
+          "value": "CSTPCD",
+          "status": "verified",
+          "sourceUrl": "https://www.cie.org.cn/49/4353.html",
+          "sourceTitle": "官方期刊介绍：中国科技核心期刊",
+          "sourceType": "publisher",
+          "verifiedAt": "2026-10-19",
+          "reviewedAt": "2026-10-19",
+          "snapshotDate": "2026-10-19",
+          "note": "官方期刊介绍明确列出该索引；页面未注明索引版次，核验日期不是数据库新版年份。"
+        },
+        {
+          "value": "CSCD",
+          "status": "reported",
+          "year": 2025,
+          "edition": "2025—2026",
+          "coverage": "扩展库",
+          "issn": "1005-0388",
+          "sourceUrl": "https://nssc.cas.cn/yjsb/xspy/py/wjgd/202209/P020250901365885026876.pdf",
+          "sourcePageUrl": "https://nssc.cas.cn/yjsb/xspy/py/wjgd/202209/t20220909_6510993.html",
+          "sourceTitle": "CSCD来源期刊列表2025—2026（国家空间科学中心公开附件）",
+          "sourceType": "document-copy",
+          "sourceAuthority": "cas-institute",
+          "verifiedAt": "2026-10-19",
+          "note": "按正式ISSN对照CSCD2025—2026完整名单，明确为扩展库；数据库原始名单的科研机构公开副本，保留副本属性、年度和核心/扩展类别，不冒充原库查询，不推断其他索引。"
+        }
+      ],
+      "ratingReviewedAt": "2026-10-19"
+    },
+    {
+      "id": "cn-systems",
+      "kind": "journal",
+      "short": "系统工程与电子技术",
+      "nameZh": "系统工程与电子技术",
+      "nameEn": "Systems Engineering and Electronics",
+      "issn": "1001-506X",
+      "aliases": [],
+      "areas": [
+        "signal",
+        "space",
+        "network"
+      ],
+      "topics": [
+        "radar",
+        "estimation-sync",
+        "aerospace",
+        "protocols"
+      ],
+      "url": "https://www.sys-ele.com/CN/1001-506X/home.shtml",
+      "sourceUrl": "https://www.sys-ele.com/CN/1001-506X/home.shtml",
+      "sourceType": "publisher",
+      "verifiedAt": "2026-10-19",
+      "verification": "verified",
+      "identityReviewedAt": "2026-10-19",
+      "identityNote": "根站同时链接英文JSEE和中文刊；仅将明确属于中文ISSN1001-506X的EI/Scopus记录导入，绝不套用英文刊SCI。",
+      "topicReviewedAt": "2026-10-19",
+      "summary": "电子系统、雷达信号与系统工程研究。",
+      "publicationType": "研究型期刊",
+      "articleTypes": [
+        "研究论文",
+        "综述"
+      ],
+      "submissionMode": "通过官方作者入口在线投稿；以作者指南为准",
+      "authorGuideUrl": "https://www.sys-ele.com/CN/column/column3.shtml",
+      "assessments": [],
+      "catalogScope": "communications",
+      "catalogStatus": "current",
+      "scopeReviewedAt": "2026-10-19",
+      "evaluations": [
+        {
+          "system": "jcr",
+          "year": 2024,
+          "releaseYear": 2025,
+          "snapshotDate": "2025-06",
+          "sourceUrl": "https://uefiscdi.gov.ro/resource-865584-JCR_2024.iunie2025.pdf",
+          "sourceTitle": "2024 JCR政府公开转录（2025年6月）",
+          "sourceType": "secondary",
+          "sourceAuthority": "government",
+          "verifiedAt": "2026-10-19",
+          "reviewedAt": "2026-10-19",
+          "status": "unlisted",
+          "value": null,
+          "reviewedNames": [
+            "Systems Engineering and Electronics",
+            "系统工程与电子技术"
+          ],
+          "note": "完整2024 JCR转录按全名/别名及可得ISSN核查，未取得本刊明确JIF分区；只针对该旧年度，不判定当前WoS收录。"
+        },
+        {
+          "system": "cas",
+          "year": 2025,
+          "edition": "2025升级版",
+          "snapshotDate": "2026-09-28",
+          "sourceUrl": "https://cce.ncepu.edu.cn/xzzx/yjsjx1/7632005045644e61a0d12c7bbeff6204.htm",
+          "sourceFileUrl": "https://cce.ncepu.edu.cn/docs//2026-09/0e77800bf2744596a26e43c83acceed0.xlsx",
+          "sourceTitle": "华北电力大学公开的中科院2025升级版转录",
+          "sourceType": "secondary",
+          "sourceAuthority": "university",
+          "verifiedAt": "2026-10-19",
+          "reviewedAt": "2026-10-19",
+          "sheet": "期刊汇总",
+          "status": "unlisted",
+          "value": null,
+          "reviewedNames": [
+            "Systems Engineering and Electronics",
+            "系统工程与电子技术"
+          ],
+          "note": "已对照完整21772刊的2025转录，正式全名/别名及可得ISSN未列；只代表所查2025表，不判断WoS收录。"
+        },
+        {
+          "system": "ccf",
+          "year": 2026,
+          "edition": "第七版公开副本",
+          "sourceUrl": "https://scdm-shu.github.io/ccf/2026-CCF-Ranking.pdf",
+          "sourceTitle": "CCF2026国际会议期刊目录公开副本",
+          "sourceType": "document-copy",
+          "verifiedAt": "2026-10-19",
+          "reviewedAt": "2026-10-19",
+          "reviewedNames": [
+            "Systems Engineering and Electronics",
+            "系统工程与电子技术"
+          ],
+          "status": "unlisted",
+          "value": null,
+          "note": "按正式全名与已核实别名对照CCF2026公开副本完整目录未列；不等于低等级，不含另行发布的中文期刊推荐目录。"
+        }
+      ],
+      "indexing": {
+        "value": null,
+        "status": "unresolved",
+        "verifiedAt": "2026-10-19",
+        "reviewedAt": "2026-10-19",
+        "note": "当前WoS索引尚无本刊独立证据；中文刊身份、EI/CSCD/中文核心与SCI/SCIE分开记录，不据未匹配判定非SCI。"
+      },
+      "otherIndexes": [
+        {
+          "value": "EI",
+          "status": "verified",
+          "sourceUrl": "https://www.sys-ele.com/",
+          "sourceTitle": "本刊官方介绍：EI Compendex收录声明",
+          "sourceType": "publisher",
+          "verifiedAt": "2026-10-19",
+          "reviewedAt": "2026-10-19",
+          "snapshotDate": "2026-10-19",
+          "note": "官方本刊索引声明；未给出年度覆盖清单，仅记录本次读取快照。中文系统工程与电子技术不继承同站英文JSEE的SCI索引。"
+        },
+        {
+          "value": "Scopus",
+          "status": "verified",
+          "sourceUrl": "https://www.sys-ele.com/",
+          "sourceTitle": "本刊官方介绍：Scopus收录声明",
+          "sourceType": "publisher",
+          "verifiedAt": "2026-10-19",
+          "reviewedAt": "2026-10-19",
+          "snapshotDate": "2026-10-19",
+          "note": "官方期刊介绍明确列出该索引；页面未注明索引版次，核验日期不是数据库新版年份。"
+        },
+        {
+          "value": "CSCD",
+          "status": "reported",
+          "year": 2025,
+          "edition": "2025—2026",
+          "coverage": "核心库",
+          "issn": "1001-506x",
+          "sourceUrl": "https://nssc.cas.cn/yjsb/xspy/py/wjgd/202209/P020250901365885026876.pdf",
+          "sourcePageUrl": "https://nssc.cas.cn/yjsb/xspy/py/wjgd/202209/t20220909_6510993.html",
+          "sourceTitle": "CSCD来源期刊列表2025—2026（国家空间科学中心公开附件）",
+          "sourceType": "document-copy",
+          "sourceAuthority": "cas-institute",
+          "verifiedAt": "2026-10-19",
+          "note": "按正式ISSN对照CSCD2025—2026完整名单，明确为核心库；数据库原始名单的科研机构公开副本，保留副本属性、年度和核心/扩展类别，不冒充原库查询，不推断其他索引。"
+        }
+      ],
+      "submissionUrl": "https://journal05.magtech.org.cn/Journalx_sysele/authorLogOn.action",
+      "ratingReviewedAt": "2026-10-19"
+    },
+    {
+      "id": "cn-radars",
+      "kind": "journal",
+      "short": "雷达学报",
+      "nameZh": "雷达学报",
+      "nameEn": "Journal of Radars",
+      "issn": "2095-283X",
+      "aliases": [
+        "雷达学报（中英文）"
+      ],
+      "areas": [
+        "signal",
+        "rf",
+        "space"
+      ],
+      "topics": [
+        "radar",
+        "arrays",
+        "isac",
+        "imaging"
+      ],
+      "url": "https://radars.ac.cn/",
+      "sourceUrl": "https://radars.ac.cn/news/qikanjianjie.htm",
+      "sourceType": "publisher",
+      "verifiedAt": "2026-10-19",
+      "verification": "verified",
+      "identityReviewedAt": "2026-10-19",
+      "identityNote": "官方2026年第15卷第5期，介绍页明确EI/Scopus/北大核心2023；官网CiteScore或WJCI的Q1不作为JCR分区。",
+      "topicReviewedAt": "2026-10-19",
+      "summary": "雷达体制、信号处理、成像与通感技术研究。",
+      "publicationType": "研究型期刊",
+      "articleTypes": [
+        "研究论文",
+        "综述"
+      ],
+      "submissionMode": "通过官方作者入口在线投稿；以作者指南为准",
+      "authorGuideUrl": "https://radars.ac.cn/news/zuozhezhinan.htm",
+      "assessments": [],
+      "catalogScope": "communications",
+      "catalogStatus": "current",
+      "scopeReviewedAt": "2026-10-19",
+      "evaluations": [
+        {
+          "system": "jcr",
+          "year": 2024,
+          "releaseYear": 2025,
+          "snapshotDate": "2025-06",
+          "sourceUrl": "https://uefiscdi.gov.ro/resource-865584-JCR_2024.iunie2025.pdf",
+          "sourceTitle": "2024 JCR政府公开转录（2025年6月）",
+          "sourceType": "secondary",
+          "sourceAuthority": "government",
+          "verifiedAt": "2026-10-19",
+          "reviewedAt": "2026-10-19",
+          "status": "unlisted",
+          "value": null,
+          "reviewedNames": [
+            "Journal of Radars",
+            "雷达学报",
+            "雷达学报（中英文）"
+          ],
+          "note": "完整2024 JCR转录按全名/别名及可得ISSN核查，未取得本刊明确JIF分区；只针对该旧年度，不判定当前WoS收录。"
+        },
+        {
+          "system": "cas",
+          "year": 2025,
+          "edition": "2025升级版",
+          "snapshotDate": "2026-09-28",
+          "sourceUrl": "https://cce.ncepu.edu.cn/xzzx/yjsjx1/7632005045644e61a0d12c7bbeff6204.htm",
+          "sourceFileUrl": "https://cce.ncepu.edu.cn/docs//2026-09/0e77800bf2744596a26e43c83acceed0.xlsx",
+          "sourceTitle": "华北电力大学公开的中科院2025升级版转录",
+          "sourceType": "secondary",
+          "sourceAuthority": "university",
+          "verifiedAt": "2026-10-19",
+          "reviewedAt": "2026-10-19",
+          "sheet": "期刊汇总",
+          "status": "unlisted",
+          "value": null,
+          "reviewedNames": [
+            "Journal of Radars",
+            "雷达学报",
+            "雷达学报（中英文）"
+          ],
+          "note": "已对照完整21772刊的2025转录，正式全名/别名及可得ISSN未列；只代表所查2025表，不判断WoS收录。"
+        },
+        {
+          "system": "ccf",
+          "year": 2026,
+          "edition": "第七版公开副本",
+          "sourceUrl": "https://scdm-shu.github.io/ccf/2026-CCF-Ranking.pdf",
+          "sourceTitle": "CCF2026国际会议期刊目录公开副本",
+          "sourceType": "document-copy",
+          "verifiedAt": "2026-10-19",
+          "reviewedAt": "2026-10-19",
+          "reviewedNames": [
+            "Journal of Radars",
+            "雷达学报",
+            "雷达学报（中英文）"
+          ],
+          "status": "unlisted",
+          "value": null,
+          "note": "按正式全名与已核实别名对照CCF2026公开副本完整目录未列；不等于低等级，不含另行发布的中文期刊推荐目录。"
+        }
+      ],
+      "indexing": {
+        "value": null,
+        "status": "unresolved",
+        "verifiedAt": "2026-10-19",
+        "reviewedAt": "2026-10-19",
+        "note": "当前WoS索引尚无本刊独立证据；中文刊身份、EI/CSCD/中文核心与SCI/SCIE分开记录，不据未匹配判定非SCI。"
+      },
+      "otherIndexes": [
+        {
+          "value": "EI",
+          "status": "verified",
+          "sourceUrl": "https://radars.ac.cn/news/qikanjianjie.htm",
+          "sourceTitle": "本刊官方介绍：EI Compendex收录声明",
+          "sourceType": "publisher",
+          "verifiedAt": "2026-10-19",
+          "reviewedAt": "2026-10-19",
+          "snapshotDate": "2026-10-19",
+          "note": "官方期刊介绍明确列出该索引；页面未注明索引版次，核验日期不是数据库新版年份。"
+        },
+        {
+          "value": "Scopus",
+          "status": "verified",
+          "sourceUrl": "https://radars.ac.cn/news/qikanjianjie.htm",
+          "sourceTitle": "本刊官方介绍：Scopus收录声明",
+          "sourceType": "publisher",
+          "verifiedAt": "2026-10-19",
+          "reviewedAt": "2026-10-19",
+          "snapshotDate": "2026-10-19",
+          "note": "官方期刊介绍明确列出该索引；页面未注明索引版次，核验日期不是数据库新版年份。"
+        },
+        {
+          "value": "北大核心",
+          "status": "verified",
+          "sourceUrl": "https://radars.ac.cn/news/qikanjianjie.htm",
+          "sourceTitle": "官方介绍明确入编《中文核心期刊要目总览》2023版",
+          "sourceType": "publisher",
+          "verifiedAt": "2026-10-19",
+          "reviewedAt": "2026-10-19",
+          "snapshotDate": "2026-10-19",
+          "note": "仅指明确写明的2023版中文核心；不与CSCD、SCI或T分级互换。",
+          "year": 2023,
+          "edition": "2023年第10版"
+        },
+        {
+          "value": "CSCD",
+          "status": "reported",
+          "year": 2025,
+          "edition": "2025—2026",
+          "coverage": "核心库",
+          "issn": "2095-283x",
+          "sourceUrl": "https://nssc.cas.cn/yjsb/xspy/py/wjgd/202209/P020250901365885026876.pdf",
+          "sourcePageUrl": "https://nssc.cas.cn/yjsb/xspy/py/wjgd/202209/t20220909_6510993.html",
+          "sourceTitle": "CSCD来源期刊列表2025—2026（国家空间科学中心公开附件）",
+          "sourceType": "document-copy",
+          "sourceAuthority": "cas-institute",
+          "verifiedAt": "2026-10-19",
+          "note": "按正式ISSN对照CSCD2025—2026完整名单，明确为核心库；数据库原始名单的科研机构公开副本，保留副本属性、年度和核心/扩展类别，不冒充原库查询，不推断其他索引。"
+        }
+      ],
+      "eissn": "2097-339X",
+      "submissionUrl": "http://edit.radars.ac.cn/journalx_radars/authorLogOn.action?mag_Id=1",
+      "ratingReviewedAt": "2026-10-19"
+    },
+    {
+      "id": "cn-optcom-tech",
+      "kind": "journal",
+      "short": "光通信技术",
+      "nameZh": "光通信技术",
+      "nameEn": "Optical Communication Technology",
+      "issn": "1002-5561",
+      "aliases": [],
+      "areas": [
+        "optical",
+        "network",
+        "wireless"
+      ],
+      "topics": [
+        "fiber",
+        "optical-networks",
+        "optical-wireless",
+        "photonics"
+      ],
+      "url": "https://gtxs.cbpt.cnki.net/",
+      "sourceUrl": "https://gtxs.cbpt.cnki.net/EditorD3N/PromptPageInfo.aspx?c=1&t=v",
+      "sourceType": "publisher",
+      "verifiedAt": "2026-10-19",
+      "verification": "verified",
+      "identityReviewedAt": "2026-10-19",
+      "identityNote": "官方2026-08-01投稿须知明确ISSN、主办34所、北大2023核心和在线系统。",
+      "topicReviewedAt": "2026-10-19",
+      "summary": "光传输、光网络、光器件与空间光通信研究。",
+      "publicationType": "研究型期刊",
+      "articleTypes": [
+        "研究论文",
+        "综述"
+      ],
+      "submissionMode": "通过官方作者入口在线投稿；以作者指南为准",
+      "authorGuideUrl": "https://gtxs.cbpt.cnki.net/EditorD3N/PromptPageInfo.aspx?c=1&t=v",
+      "assessments": [],
+      "catalogScope": "communications",
+      "catalogStatus": "current",
+      "scopeReviewedAt": "2026-10-19",
+      "evaluations": [
+        {
+          "system": "jcr",
+          "year": 2024,
+          "releaseYear": 2025,
+          "snapshotDate": "2025-06",
+          "sourceUrl": "https://uefiscdi.gov.ro/resource-865584-JCR_2024.iunie2025.pdf",
+          "sourceTitle": "2024 JCR政府公开转录（2025年6月）",
+          "sourceType": "secondary",
+          "sourceAuthority": "government",
+          "verifiedAt": "2026-10-19",
+          "reviewedAt": "2026-10-19",
+          "status": "unlisted",
+          "value": null,
+          "reviewedNames": [
+            "Optical Communication Technology",
+            "光通信技术"
+          ],
+          "note": "完整2024 JCR转录按全名/别名及可得ISSN核查，未取得本刊明确JIF分区；只针对该旧年度，不判定当前WoS收录。"
+        },
+        {
+          "system": "cas",
+          "year": 2025,
+          "edition": "2025升级版",
+          "snapshotDate": "2026-09-28",
+          "sourceUrl": "https://cce.ncepu.edu.cn/xzzx/yjsjx1/7632005045644e61a0d12c7bbeff6204.htm",
+          "sourceFileUrl": "https://cce.ncepu.edu.cn/docs//2026-09/0e77800bf2744596a26e43c83acceed0.xlsx",
+          "sourceTitle": "华北电力大学公开的中科院2025升级版转录",
+          "sourceType": "secondary",
+          "sourceAuthority": "university",
+          "verifiedAt": "2026-10-19",
+          "reviewedAt": "2026-10-19",
+          "sheet": "期刊汇总",
+          "status": "unlisted",
+          "value": null,
+          "reviewedNames": [
+            "Optical Communication Technology",
+            "光通信技术"
+          ],
+          "note": "已对照完整21772刊的2025转录，正式全名/别名及可得ISSN未列；只代表所查2025表，不判断WoS收录。"
+        },
+        {
+          "system": "ccf",
+          "year": 2026,
+          "edition": "第七版公开副本",
+          "sourceUrl": "https://scdm-shu.github.io/ccf/2026-CCF-Ranking.pdf",
+          "sourceTitle": "CCF2026国际会议期刊目录公开副本",
+          "sourceType": "document-copy",
+          "verifiedAt": "2026-10-19",
+          "reviewedAt": "2026-10-19",
+          "reviewedNames": [
+            "Optical Communication Technology",
+            "光通信技术"
+          ],
+          "status": "unlisted",
+          "value": null,
+          "note": "按正式全名与已核实别名对照CCF2026公开副本完整目录未列；不等于低等级，不含另行发布的中文期刊推荐目录。"
+        }
+      ],
+      "indexing": {
+        "value": null,
+        "status": "unresolved",
+        "verifiedAt": "2026-10-19",
+        "reviewedAt": "2026-10-19",
+        "note": "当前WoS索引尚无本刊独立证据；中文刊身份、EI/CSCD/中文核心与SCI/SCIE分开记录，不据未匹配判定非SCI。"
+      },
+      "otherIndexes": [
+        {
+          "value": "北大核心",
+          "status": "verified",
+          "sourceUrl": "https://gtxs.cbpt.cnki.net/EditorD3N/PromptPageInfo.aspx?c=1&t=v",
+          "sourceTitle": "官方介绍明确入编《中文核心期刊要目总览》2023版",
+          "sourceType": "publisher",
+          "verifiedAt": "2026-10-19",
+          "reviewedAt": "2026-10-19",
+          "snapshotDate": "2026-10-19",
+          "note": "仅指明确写明的2023版中文核心；不与CSCD、SCI或T分级互换。",
+          "year": 2023,
+          "edition": "2023年第10版"
+        }
+      ],
+      "submissionUrl": "http://gtxs.cbpt.cnki.net/EditorDN/index.aspx?t=1",
+      "ratingReviewedAt": "2026-10-19"
+    },
+    {
+      "id": "cn-optcom-res",
+      "kind": "journal",
+      "short": "光通信研究",
+      "nameZh": "光通信研究",
+      "nameEn": "Study on Optical Communications",
+      "issn": "1005-8788",
+      "aliases": [],
+      "areas": [
+        "optical",
+        "network",
+        "space"
+      ],
+      "topics": [
+        "fiber",
+        "optical-networks",
+        "optical-wireless"
+      ],
+      "url": "https://gtxy.publish.founderss.cn/zh/home/",
+      "sourceUrl": "https://www.gtxyj.com.cn/zh/info/7697/",
+      "sourceType": "publisher",
+      "verifiedAt": "2026-10-19",
+      "verification": "verified",
+      "identityReviewedAt": "2026-10-19",
+      "identityNote": "方正新站与gtxyj正式域同刊，ISSN1005-8788，主办武汉邮电科学研究院；主页Scopus只是友情链接，未据此填写Scopus收录。",
+      "topicReviewedAt": "2026-10-19",
+      "summary": "光纤传输、光网络及空间激光通信研究。",
+      "publicationType": "研究型期刊",
+      "articleTypes": [
+        "研究论文",
+        "综述"
+      ],
+      "submissionMode": "通过官方作者入口在线投稿；以作者指南为准",
+      "authorGuideUrl": "https://www.gtxyj.com.cn/zh/info/7753/",
+      "assessments": [],
+      "catalogScope": "communications",
+      "catalogStatus": "current",
+      "scopeReviewedAt": "2026-10-19",
+      "evaluations": [
+        {
+          "system": "jcr",
+          "year": 2024,
+          "releaseYear": 2025,
+          "snapshotDate": "2025-06",
+          "sourceUrl": "https://uefiscdi.gov.ro/resource-865584-JCR_2024.iunie2025.pdf",
+          "sourceTitle": "2024 JCR政府公开转录（2025年6月）",
+          "sourceType": "secondary",
+          "sourceAuthority": "government",
+          "verifiedAt": "2026-10-19",
+          "reviewedAt": "2026-10-19",
+          "status": "unlisted",
+          "value": null,
+          "reviewedNames": [
+            "Study on Optical Communications",
+            "光通信研究"
+          ],
+          "note": "完整2024 JCR转录按全名/别名及可得ISSN核查，未取得本刊明确JIF分区；只针对该旧年度，不判定当前WoS收录。"
+        },
+        {
+          "system": "cas",
+          "year": 2025,
+          "edition": "2025升级版",
+          "snapshotDate": "2026-09-28",
+          "sourceUrl": "https://cce.ncepu.edu.cn/xzzx/yjsjx1/7632005045644e61a0d12c7bbeff6204.htm",
+          "sourceFileUrl": "https://cce.ncepu.edu.cn/docs//2026-09/0e77800bf2744596a26e43c83acceed0.xlsx",
+          "sourceTitle": "华北电力大学公开的中科院2025升级版转录",
+          "sourceType": "secondary",
+          "sourceAuthority": "university",
+          "verifiedAt": "2026-10-19",
+          "reviewedAt": "2026-10-19",
+          "sheet": "期刊汇总",
+          "status": "unlisted",
+          "value": null,
+          "reviewedNames": [
+            "Study on Optical Communications",
+            "光通信研究"
+          ],
+          "note": "已对照完整21772刊的2025转录，正式全名/别名及可得ISSN未列；只代表所查2025表，不判断WoS收录。"
+        },
+        {
+          "system": "ccf",
+          "year": 2026,
+          "edition": "第七版公开副本",
+          "sourceUrl": "https://scdm-shu.github.io/ccf/2026-CCF-Ranking.pdf",
+          "sourceTitle": "CCF2026国际会议期刊目录公开副本",
+          "sourceType": "document-copy",
+          "verifiedAt": "2026-10-19",
+          "reviewedAt": "2026-10-19",
+          "reviewedNames": [
+            "Study on Optical Communications",
+            "光通信研究"
+          ],
+          "status": "unlisted",
+          "value": null,
+          "note": "按正式全名与已核实别名对照CCF2026公开副本完整目录未列；不等于低等级，不含另行发布的中文期刊推荐目录。"
+        }
+      ],
+      "indexing": {
+        "value": null,
+        "status": "unresolved",
+        "verifiedAt": "2026-10-19",
+        "reviewedAt": "2026-10-19",
+        "note": "当前WoS索引尚无本刊独立证据；中文刊身份、EI/CSCD/中文核心与SCI/SCIE分开记录，不据未匹配判定非SCI。"
+      },
+      "otherIndexes": [],
+      "ratingReviewedAt": "2026-10-19"
+    },
+    {
+      "id": "cn-mobile",
+      "kind": "journal",
+      "short": "移动通信",
+      "nameZh": "移动通信",
+      "nameEn": "Mobile Communications",
+      "issn": "1006-1010",
+      "aliases": [],
+      "areas": [
+        "wireless",
+        "network",
+        "iot"
+      ],
+      "topics": [
+        "mobile-systems",
+        "resources",
+        "vehicular",
+        "protocols"
+      ],
+      "url": "https://ydtx.cbpt.cnki.net/",
+      "sourceUrl": "https://ydtx.cbpt.cnki.net/EditorE3N/PromptPageInfo.aspx?c=4&t=v",
+      "sourceType": "publisher",
+      "verifiedAt": "2026-10-19",
+      "verification": "verified",
+      "identityReviewedAt": "2026-10-19",
+      "identityNote": "官方编辑部联系页确认期刊和mbcom.cn域名；投稿须知可直接读取并明确ydtx.cbpt.cnki.net投稿。",
+      "topicReviewedAt": "2026-10-19",
+      "summary": "移动通信网络、无线系统与产业技术研究。",
+      "publicationType": "研究型期刊",
+      "articleTypes": [
+        "研究论文",
+        "综述"
+      ],
+      "submissionMode": "通过官方作者入口在线投稿；以作者指南为准",
+      "authorGuideUrl": "https://ydtx.cbpt.cnki.net/EditorE3N/PromptPageInfo.aspx?c=1&t=v",
+      "assessments": [],
+      "catalogScope": "communications",
+      "catalogStatus": "current",
+      "scopeReviewedAt": "2026-10-19",
+      "evaluations": [
+        {
+          "system": "jcr",
+          "year": 2024,
+          "releaseYear": 2025,
+          "snapshotDate": "2025-06",
+          "sourceUrl": "https://uefiscdi.gov.ro/resource-865584-JCR_2024.iunie2025.pdf",
+          "sourceTitle": "2024 JCR政府公开转录（2025年6月）",
+          "sourceType": "secondary",
+          "sourceAuthority": "government",
+          "verifiedAt": "2026-10-19",
+          "reviewedAt": "2026-10-19",
+          "status": "unlisted",
+          "value": null,
+          "reviewedNames": [
+            "Mobile Communications",
+            "移动通信"
+          ],
+          "note": "完整2024 JCR转录按全名/别名及可得ISSN核查，未取得本刊明确JIF分区；只针对该旧年度，不判定当前WoS收录。"
+        },
+        {
+          "system": "cas",
+          "year": 2025,
+          "edition": "2025升级版",
+          "snapshotDate": "2026-09-28",
+          "sourceUrl": "https://cce.ncepu.edu.cn/xzzx/yjsjx1/7632005045644e61a0d12c7bbeff6204.htm",
+          "sourceFileUrl": "https://cce.ncepu.edu.cn/docs//2026-09/0e77800bf2744596a26e43c83acceed0.xlsx",
+          "sourceTitle": "华北电力大学公开的中科院2025升级版转录",
+          "sourceType": "secondary",
+          "sourceAuthority": "university",
+          "verifiedAt": "2026-10-19",
+          "reviewedAt": "2026-10-19",
+          "sheet": "期刊汇总",
+          "status": "unlisted",
+          "value": null,
+          "reviewedNames": [
+            "Mobile Communications",
+            "移动通信"
+          ],
+          "note": "已对照完整21772刊的2025转录，正式全名/别名及可得ISSN未列；只代表所查2025表，不判断WoS收录。"
+        },
+        {
+          "system": "ccf",
+          "year": 2026,
+          "edition": "第七版公开副本",
+          "sourceUrl": "https://scdm-shu.github.io/ccf/2026-CCF-Ranking.pdf",
+          "sourceTitle": "CCF2026国际会议期刊目录公开副本",
+          "sourceType": "document-copy",
+          "verifiedAt": "2026-10-19",
+          "reviewedAt": "2026-10-19",
+          "reviewedNames": [
+            "Mobile Communications",
+            "移动通信"
+          ],
+          "status": "unlisted",
+          "value": null,
+          "note": "按正式全名与已核实别名对照CCF2026公开副本完整目录未列；不等于低等级，不含另行发布的中文期刊推荐目录。"
+        }
+      ],
+      "indexing": {
+        "value": null,
+        "status": "unresolved",
+        "verifiedAt": "2026-10-19",
+        "reviewedAt": "2026-10-19",
+        "note": "当前WoS索引尚无本刊独立证据；中文刊身份、EI/CSCD/中文核心与SCI/SCIE分开记录，不据未匹配判定非SCI。"
+      },
+      "otherIndexes": [],
+      "ratingReviewedAt": "2026-10-19"
+    },
+    {
+      "id": "cn-tele-eng",
+      "kind": "journal",
+      "short": "电讯技术",
+      "nameZh": "电讯技术",
+      "nameEn": "Telecommunication Engineering",
+      "issn": "1001-893X",
+      "aliases": [],
+      "areas": [
+        "wireless",
+        "signal",
+        "space",
+        "rf"
+      ],
+      "topics": [
+        "physical",
+        "radar",
+        "navigation-pnt",
+        "microwave"
+      ],
+      "url": "https://www.teleonline.cn/dxjs/ch/index.aspx",
+      "sourceUrl": "https://castjournals.cast.org.cn/joweb/dxjs/CN/journal",
+      "sourceType": "publisher",
+      "verifiedAt": "2026-10-19",
+      "verification": "verified",
+      "identityReviewedAt": "2026-10-19",
+      "identityNote": "中国科协期刊集群2026-04-15期刊介绍及编辑部官网一致；没有EI/SCI正面证据，不根据名称相似添加。",
+      "topicReviewedAt": "2026-10-19",
+      "summary": "通信数据链、雷达、测控导航与电子系统研究。",
+      "publicationType": "研究型期刊",
+      "articleTypes": [
+        "研究论文",
+        "综述"
+      ],
+      "submissionMode": "通过官方作者入口在线投稿；以作者指南为准",
+      "authorGuideUrl": "https://www.teleonline.cn/dxjs/ch/author/register_note.aspx",
+      "assessments": [],
+      "catalogScope": "communications",
+      "catalogStatus": "current",
+      "scopeReviewedAt": "2026-10-19",
+      "evaluations": [
+        {
+          "system": "jcr",
+          "year": 2024,
+          "releaseYear": 2025,
+          "snapshotDate": "2025-06",
+          "sourceUrl": "https://uefiscdi.gov.ro/resource-865584-JCR_2024.iunie2025.pdf",
+          "sourceTitle": "2024 JCR政府公开转录（2025年6月）",
+          "sourceType": "secondary",
+          "sourceAuthority": "government",
+          "verifiedAt": "2026-10-19",
+          "reviewedAt": "2026-10-19",
+          "status": "unlisted",
+          "value": null,
+          "reviewedNames": [
+            "Telecommunication Engineering",
+            "电讯技术"
+          ],
+          "note": "完整2024 JCR转录按全名/别名及可得ISSN核查，未取得本刊明确JIF分区；只针对该旧年度，不判定当前WoS收录。"
+        },
+        {
+          "system": "cas",
+          "year": 2025,
+          "edition": "2025升级版",
+          "snapshotDate": "2026-09-28",
+          "sourceUrl": "https://cce.ncepu.edu.cn/xzzx/yjsjx1/7632005045644e61a0d12c7bbeff6204.htm",
+          "sourceFileUrl": "https://cce.ncepu.edu.cn/docs//2026-09/0e77800bf2744596a26e43c83acceed0.xlsx",
+          "sourceTitle": "华北电力大学公开的中科院2025升级版转录",
+          "sourceType": "secondary",
+          "sourceAuthority": "university",
+          "verifiedAt": "2026-10-19",
+          "reviewedAt": "2026-10-19",
+          "sheet": "期刊汇总",
+          "status": "unlisted",
+          "value": null,
+          "reviewedNames": [
+            "Telecommunication Engineering",
+            "电讯技术"
+          ],
+          "note": "已对照完整21772刊的2025转录，正式全名/别名及可得ISSN未列；只代表所查2025表，不判断WoS收录。"
+        },
+        {
+          "system": "ccf",
+          "year": 2026,
+          "edition": "第七版公开副本",
+          "sourceUrl": "https://scdm-shu.github.io/ccf/2026-CCF-Ranking.pdf",
+          "sourceTitle": "CCF2026国际会议期刊目录公开副本",
+          "sourceType": "document-copy",
+          "verifiedAt": "2026-10-19",
+          "reviewedAt": "2026-10-19",
+          "reviewedNames": [
+            "Telecommunication Engineering",
+            "电讯技术"
+          ],
+          "status": "unlisted",
+          "value": null,
+          "note": "按正式全名与已核实别名对照CCF2026公开副本完整目录未列；不等于低等级，不含另行发布的中文期刊推荐目录。"
+        }
+      ],
+      "indexing": {
+        "value": null,
+        "status": "unresolved",
+        "verifiedAt": "2026-10-19",
+        "reviewedAt": "2026-10-19",
+        "note": "当前WoS索引尚无本刊独立证据；中文刊身份、EI/CSCD/中文核心与SCI/SCIE分开记录，不据未匹配判定非SCI。"
+      },
+      "otherIndexes": [
+        {
+          "value": "北大核心",
+          "status": "verified",
+          "sourceUrl": "https://castjournals.cast.org.cn/joweb/dxjs/CN/journal",
+          "sourceTitle": "官方页面中文核心期刊声明",
+          "sourceType": "publisher",
+          "verifiedAt": "2026-10-19",
+          "reviewedAt": "2026-10-19",
+          "snapshotDate": "2026-10-19",
+          "note": "本刊官方页面明确中文核心，未注明版次；不标造2026版北大核心。"
+        },
+        {
+          "value": "CSTPCD",
+          "status": "verified",
+          "sourceUrl": "https://castjournals.cast.org.cn/joweb/dxjs/CN/journal",
+          "sourceTitle": "官方期刊介绍：中国科技核心期刊",
+          "sourceType": "publisher",
+          "verifiedAt": "2026-10-19",
+          "reviewedAt": "2026-10-19",
+          "snapshotDate": "2026-10-19",
+          "note": "官方期刊介绍明确列出该索引；页面未注明索引版次，核验日期不是数据库新版年份。"
+        }
+      ],
+      "ratingReviewedAt": "2026-10-19"
+    },
+    {
+      "id": "cn-zte",
+      "kind": "journal",
+      "short": "中兴通讯技术",
+      "nameZh": "中兴通讯技术",
+      "nameEn": "ZTE Technology Journal",
+      "issn": "1009-6868",
+      "aliases": [
+        "中兴新通讯"
+      ],
+      "areas": [
+        "wireless",
+        "network",
+        "ai"
+      ],
+      "topics": [
+        "physical",
+        "protocols",
+        "ai-communications",
+        "edge-cloud"
+      ],
+      "url": "https://tech.zte.com.cn/",
+      "sourceUrl": "https://tech.zte.com.cn/content/zte-tech/about.html",
+      "sourceType": "publisher",
+      "verifiedAt": "2026-10-19",
+      "verification": "verified",
+      "identityReviewedAt": "2026-10-19",
+      "identityNote": "官方中英文两刊合站，中文ZTE Technology Journal与英文ZTE Communications不同；只取中文段北大2023，不套英文Scopus。",
+      "topicReviewedAt": "2026-10-19",
+      "summary": "通信系统、网络架构与通信智能技术研究。",
+      "publicationType": "研究型期刊",
+      "articleTypes": [
+        "研究论文",
+        "综述"
+      ],
+      "submissionMode": "通过官方作者入口在线投稿；以作者指南为准",
+      "authorGuideUrl": "https://tech.zte.com.cn/content/zte-tech/submissionnotice.html",
+      "assessments": [],
+      "catalogScope": "communications",
+      "catalogStatus": "current",
+      "scopeReviewedAt": "2026-10-19",
+      "evaluations": [
+        {
+          "system": "jcr",
+          "year": 2024,
+          "releaseYear": 2025,
+          "snapshotDate": "2025-06",
+          "sourceUrl": "https://uefiscdi.gov.ro/resource-865584-JCR_2024.iunie2025.pdf",
+          "sourceTitle": "2024 JCR政府公开转录（2025年6月）",
+          "sourceType": "secondary",
+          "sourceAuthority": "government",
+          "verifiedAt": "2026-10-19",
+          "reviewedAt": "2026-10-19",
+          "status": "unlisted",
+          "value": null,
+          "reviewedNames": [
+            "ZTE Technology Journal",
+            "中兴通讯技术",
+            "中兴新通讯"
+          ],
+          "note": "完整2024 JCR转录按全名/别名及可得ISSN核查，未取得本刊明确JIF分区；只针对该旧年度，不判定当前WoS收录。"
+        },
+        {
+          "system": "cas",
+          "year": 2025,
+          "edition": "2025升级版",
+          "snapshotDate": "2026-09-28",
+          "sourceUrl": "https://cce.ncepu.edu.cn/xzzx/yjsjx1/7632005045644e61a0d12c7bbeff6204.htm",
+          "sourceFileUrl": "https://cce.ncepu.edu.cn/docs//2026-09/0e77800bf2744596a26e43c83acceed0.xlsx",
+          "sourceTitle": "华北电力大学公开的中科院2025升级版转录",
+          "sourceType": "secondary",
+          "sourceAuthority": "university",
+          "verifiedAt": "2026-10-19",
+          "reviewedAt": "2026-10-19",
+          "sheet": "期刊汇总",
+          "status": "unlisted",
+          "value": null,
+          "reviewedNames": [
+            "ZTE Technology Journal",
+            "中兴通讯技术",
+            "中兴新通讯"
+          ],
+          "note": "已对照完整21772刊的2025转录，正式全名/别名及可得ISSN未列；只代表所查2025表，不判断WoS收录。"
+        },
+        {
+          "system": "ccf",
+          "year": 2026,
+          "edition": "第七版公开副本",
+          "sourceUrl": "https://scdm-shu.github.io/ccf/2026-CCF-Ranking.pdf",
+          "sourceTitle": "CCF2026国际会议期刊目录公开副本",
+          "sourceType": "document-copy",
+          "verifiedAt": "2026-10-19",
+          "reviewedAt": "2026-10-19",
+          "reviewedNames": [
+            "ZTE Technology Journal",
+            "中兴通讯技术",
+            "中兴新通讯"
+          ],
+          "status": "unlisted",
+          "value": null,
+          "note": "按正式全名与已核实别名对照CCF2026公开副本完整目录未列；不等于低等级，不含另行发布的中文期刊推荐目录。"
+        }
+      ],
+      "indexing": {
+        "value": null,
+        "status": "unresolved",
+        "verifiedAt": "2026-10-19",
+        "reviewedAt": "2026-10-19",
+        "note": "当前WoS索引尚无本刊独立证据；中文刊身份、EI/CSCD/中文核心与SCI/SCIE分开记录，不据未匹配判定非SCI。"
+      },
+      "otherIndexes": [
+        {
+          "value": "北大核心",
+          "status": "verified",
+          "sourceUrl": "https://tech.zte.com.cn/content/zte-tech/about.html",
+          "sourceTitle": "官方介绍明确入编《中文核心期刊要目总览》2023版",
+          "sourceType": "publisher",
+          "verifiedAt": "2026-10-19",
+          "reviewedAt": "2026-10-19",
+          "snapshotDate": "2026-10-19",
+          "note": "仅指明确写明的2023版中文核心；不与CSCD、SCI或T分级互换。",
+          "year": 2023,
+          "edition": "2023年第10版"
+        }
+      ],
+      "submissionUrl": "https://zxtx.cbpt.cnki.net/EditorE3N/index.aspx?t=1",
+      "ratingReviewedAt": "2026-10-19"
+    },
+    {
+      "id": "cn-microwave",
+      "kind": "journal",
+      "short": "微波学报",
+      "nameZh": "微波学报",
+      "nameEn": "Journal of Microwaves",
+      "issn": "1005-6122",
+      "aliases": [],
+      "areas": [
+        "rf",
+        "wireless"
+      ],
+      "topics": [
+        "microwave",
+        "antennas",
+        "thz",
+        "propagation"
+      ],
+      "url": "http://wbxb.xml-journal.net/",
+      "sourceUrl": "https://www.cie.org.cn/site/content/4354.html",
+      "sourceType": "publisher",
+      "verifiedAt": "2026-10-19",
+      "verification": "verified",
+      "identityReviewedAt": "2026-10-19",
+      "identityNote": "中国电子学会当前介绍和期刊2026年第42卷第4期一致；CSCD应明确扩展库。",
+      "topicReviewedAt": "2026-10-19",
+      "summary": "微波电路、天线、电磁场及毫米波研究。",
+      "publicationType": "研究型期刊",
+      "articleTypes": [
+        "研究论文",
+        "综述"
+      ],
+      "submissionMode": "通过官方作者入口在线投稿；以作者指南为准",
+      "authorGuideUrl": "http://wbxb.xml-journal.net/Submission-Instruction",
+      "assessments": [],
+      "catalogScope": "communications",
+      "catalogStatus": "current",
+      "scopeReviewedAt": "2026-10-19",
+      "evaluations": [
+        {
+          "system": "jcr",
+          "year": 2024,
+          "releaseYear": 2025,
+          "snapshotDate": "2025-06",
+          "sourceUrl": "https://uefiscdi.gov.ro/resource-865584-JCR_2024.iunie2025.pdf",
+          "sourceTitle": "2024 JCR政府公开转录（2025年6月）",
+          "sourceType": "secondary",
+          "sourceAuthority": "government",
+          "verifiedAt": "2026-10-19",
+          "reviewedAt": "2026-10-19",
+          "status": "unlisted",
+          "value": null,
+          "reviewedNames": [
+            "Journal of Microwaves",
+            "微波学报"
+          ],
+          "note": "完整2024 JCR转录按全名/别名及可得ISSN核查，未取得本刊明确JIF分区；只针对该旧年度，不判定当前WoS收录。"
+        },
+        {
+          "system": "cas",
+          "year": 2025,
+          "edition": "2025升级版",
+          "snapshotDate": "2026-09-28",
+          "sourceUrl": "https://cce.ncepu.edu.cn/xzzx/yjsjx1/7632005045644e61a0d12c7bbeff6204.htm",
+          "sourceFileUrl": "https://cce.ncepu.edu.cn/docs//2026-09/0e77800bf2744596a26e43c83acceed0.xlsx",
+          "sourceTitle": "华北电力大学公开的中科院2025升级版转录",
+          "sourceType": "secondary",
+          "sourceAuthority": "university",
+          "verifiedAt": "2026-10-19",
+          "reviewedAt": "2026-10-19",
+          "sheet": "期刊汇总",
+          "status": "unlisted",
+          "value": null,
+          "reviewedNames": [
+            "Journal of Microwaves",
+            "微波学报"
+          ],
+          "note": "已对照完整21772刊的2025转录，正式全名/别名及可得ISSN未列；只代表所查2025表，不判断WoS收录。"
+        },
+        {
+          "system": "ccf",
+          "year": 2026,
+          "edition": "第七版公开副本",
+          "sourceUrl": "https://scdm-shu.github.io/ccf/2026-CCF-Ranking.pdf",
+          "sourceTitle": "CCF2026国际会议期刊目录公开副本",
+          "sourceType": "document-copy",
+          "verifiedAt": "2026-10-19",
+          "reviewedAt": "2026-10-19",
+          "reviewedNames": [
+            "Journal of Microwaves",
+            "微波学报"
+          ],
+          "status": "unlisted",
+          "value": null,
+          "note": "按正式全名与已核实别名对照CCF2026公开副本完整目录未列；不等于低等级，不含另行发布的中文期刊推荐目录。"
+        }
+      ],
+      "indexing": {
+        "value": null,
+        "status": "unresolved",
+        "verifiedAt": "2026-10-19",
+        "reviewedAt": "2026-10-19",
+        "note": "当前WoS索引尚无本刊独立证据；中文刊身份、EI/CSCD/中文核心与SCI/SCIE分开记录，不据未匹配判定非SCI。"
+      },
+      "otherIndexes": [
+        {
+          "value": "北大核心",
+          "status": "verified",
+          "sourceUrl": "https://www.cie.org.cn/site/content/4354.html",
+          "sourceTitle": "官方页面中文核心期刊声明",
+          "sourceType": "publisher",
+          "verifiedAt": "2026-10-19",
+          "reviewedAt": "2026-10-19",
+          "snapshotDate": "2026-10-19",
+          "note": "本刊官方页面明确中文核心，未注明版次；不标造2026版北大核心。"
+        },
+        {
+          "value": "CSTPCD",
+          "status": "verified",
+          "sourceUrl": "https://www.cie.org.cn/site/content/4354.html",
+          "sourceTitle": "官方期刊介绍：中国科技核心期刊",
+          "sourceType": "publisher",
+          "verifiedAt": "2026-10-19",
+          "reviewedAt": "2026-10-19",
+          "snapshotDate": "2026-10-19",
+          "note": "官方期刊介绍明确列出该索引；页面未注明索引版次，核验日期不是数据库新版年份。"
+        },
+        {
+          "value": "CSCD",
+          "status": "reported",
+          "year": 2025,
+          "edition": "2025—2026",
+          "coverage": "扩展库",
+          "issn": "1005-6122",
+          "sourceUrl": "https://nssc.cas.cn/yjsb/xspy/py/wjgd/202209/P020250901365885026876.pdf",
+          "sourcePageUrl": "https://nssc.cas.cn/yjsb/xspy/py/wjgd/202209/t20220909_6510993.html",
+          "sourceTitle": "CSCD来源期刊列表2025—2026（国家空间科学中心公开附件）",
+          "sourceType": "document-copy",
+          "sourceAuthority": "cas-institute",
+          "verifiedAt": "2026-10-19",
+          "note": "按正式ISSN对照CSCD2025—2026完整名单，明确为扩展库；数据库原始名单的科研机构公开副本，保留副本属性、年度和核心/扩展类别，不冒充原库查询，不推断其他索引。"
+        }
+      ],
+      "ratingReviewedAt": "2026-10-19"
+    },
+    {
+      "id": "cn-terahertz",
+      "kind": "journal",
+      "short": "太赫兹科学与电子信息学报",
+      "nameZh": "太赫兹科学与电子信息学报",
+      "nameEn": "Journal of Terahertz Science and Electronic Information Technology",
+      "issn": "2095-4980",
+      "aliases": [
+        "信息与电子工程"
+      ],
+      "areas": [
+        "rf",
+        "wireless",
+        "signal"
+      ],
+      "topics": [
+        "thz",
+        "microwave",
+        "radar",
+        "physical"
+      ],
+      "url": "http://www.iaeej.com/xxydzgc/home",
+      "sourceUrl": "http://www.iaeej.com/xxydzgc/home",
+      "sourceType": "publisher",
+      "verifiedAt": "2026-10-19",
+      "verification": "verified",
+      "identityReviewedAt": "2026-10-19",
+      "identityNote": "现行官方HTTP首页及作者指南正常读取，首页有2026年第6期专栏及当年征稿；核实中文名、英文名、前身信息与电子工程及官方作者登录入口。HTTPS证书失败未绕过，不影响官方公开HTTP页面身份核验。",
+      "topicReviewedAt": "2026-10-19",
+      "summary": "太赫兹、毫米波通信、电子信息与信号处理研究。",
+      "publicationType": "研究型期刊",
+      "articleTypes": [
+        "研究论文",
+        "综述"
+      ],
+      "submissionMode": "通过官方作者入口在线投稿；以作者指南为准",
+      "authorGuideUrl": "http://www.iaeej.com/xxydzgc/site/menus/20121226104232001",
+      "assessments": [],
+      "catalogScope": "communications",
+      "catalogStatus": "current",
+      "scopeReviewedAt": "2026-10-19",
+      "evaluations": [
+        {
+          "system": "jcr",
+          "year": 2024,
+          "releaseYear": 2025,
+          "snapshotDate": "2025-06",
+          "sourceUrl": "https://uefiscdi.gov.ro/resource-865584-JCR_2024.iunie2025.pdf",
+          "sourceTitle": "2024 JCR政府公开转录（2025年6月）",
+          "sourceType": "secondary",
+          "sourceAuthority": "government",
+          "verifiedAt": "2026-10-19",
+          "reviewedAt": "2026-10-19",
+          "status": "unlisted",
+          "value": null,
+          "reviewedNames": [
+            "Journal of Terahertz Science and Electronic Information Technology",
+            "太赫兹科学与电子信息学报",
+            "信息与电子工程"
+          ],
+          "note": "完整2024 JCR转录按全名/别名及可得ISSN核查，未取得本刊明确JIF分区；只针对该旧年度，不判定当前WoS收录。"
+        },
+        {
+          "system": "cas",
+          "year": 2025,
+          "edition": "2025升级版",
+          "snapshotDate": "2026-09-28",
+          "sourceUrl": "https://cce.ncepu.edu.cn/xzzx/yjsjx1/7632005045644e61a0d12c7bbeff6204.htm",
+          "sourceFileUrl": "https://cce.ncepu.edu.cn/docs//2026-09/0e77800bf2744596a26e43c83acceed0.xlsx",
+          "sourceTitle": "华北电力大学公开的中科院2025升级版转录",
+          "sourceType": "secondary",
+          "sourceAuthority": "university",
+          "verifiedAt": "2026-10-19",
+          "reviewedAt": "2026-10-19",
+          "sheet": "期刊汇总",
+          "status": "unlisted",
+          "value": null,
+          "reviewedNames": [
+            "Journal of Terahertz Science and Electronic Information Technology",
+            "太赫兹科学与电子信息学报",
+            "信息与电子工程"
+          ],
+          "note": "已对照完整21772刊的2025转录，正式全名/别名及可得ISSN未列；只代表所查2025表，不判断WoS收录。"
+        },
+        {
+          "system": "ccf",
+          "year": 2026,
+          "edition": "第七版公开副本",
+          "sourceUrl": "https://scdm-shu.github.io/ccf/2026-CCF-Ranking.pdf",
+          "sourceTitle": "CCF2026国际会议期刊目录公开副本",
+          "sourceType": "document-copy",
+          "verifiedAt": "2026-10-19",
+          "reviewedAt": "2026-10-19",
+          "reviewedNames": [
+            "Journal of Terahertz Science and Electronic Information Technology",
+            "太赫兹科学与电子信息学报",
+            "信息与电子工程"
+          ],
+          "status": "unlisted",
+          "value": null,
+          "note": "按正式全名与已核实别名对照CCF2026公开副本完整目录未列；不等于低等级，不含另行发布的中文期刊推荐目录。"
+        }
+      ],
+      "indexing": {
+        "value": null,
+        "status": "unresolved",
+        "verifiedAt": "2026-10-19",
+        "reviewedAt": "2026-10-19",
+        "note": "当前WoS索引尚无本刊独立证据；中文刊身份、EI/CSCD/中文核心与SCI/SCIE分开记录，不据未匹配判定非SCI。"
+      },
+      "otherIndexes": [
+        {
+          "value": "北大核心",
+          "status": "verified",
+          "sourceUrl": "http://www.iaeej.com/xxydzgc/home",
+          "sourceTitle": "官方首页：入选中文核心期刊要目总览2017",
+          "sourceType": "publisher",
+          "verifiedAt": "2026-10-19",
+          "reviewedAt": "2026-10-19",
+          "snapshotDate": "2026-10-19",
+          "note": "官网明确写2017年入选2017版，仅保存该历史版本；未据此推断2020或2023版入选。",
+          "year": 2017,
+          "edition": "2017"
+        },
+        {
+          "value": "CSTPCD",
+          "status": "verified",
+          "sourceUrl": "http://www.iaeej.com/xxydzgc/home",
+          "sourceTitle": "官方首页：中国科技核心期刊收录声明",
+          "sourceType": "publisher",
+          "verifiedAt": "2026-10-19",
+          "reviewedAt": "2026-10-19",
+          "snapshotDate": "2026-10-19",
+          "note": "官网称自2008年起连续入选中国科技核心期刊，未列最新版目录年份；复查日期不作为目录年份。"
+        }
+      ],
+      "authorEntryStatus": "verified",
+      "metadataSourceUrl": "https://www.cie.org.cn/list_42/11930.html",
+      "submissionUrl": "http://www.iaeej.com/xxydzgc/author/login",
+      "additionalIdentitySources": [
+        "https://eie.scu.edu.cn/info/1056/15433.htm",
+        "https://www.cie.org.cn/list_42/11930.html"
+      ],
+      "ratingReviewedAt": "2026-10-19"
+    },
+    {
+      "id": "dcn",
+      "kind": "journal",
+      "short": "DCN",
+      "nameEn": "Digital Communications and Networks",
+      "nameZh": "数字通信与网络",
+      "aliases": [],
+      "issn": "2468-5925",
+      "eissn": "2352-8648",
+      "url": "https://www.keaipublishing.com/en/journals/digital-communications-and-networks/",
+      "sourceUrl": "https://www.keaipublishing.com/en/journals/digital-communications-and-networks/",
+      "sourceType": "publisher",
+      "verification": "verified",
+      "verifiedAt": "2026-10-19",
+      "identityReviewedAt": "2026-10-19",
+      "catalogStatus": "current",
+      "areas": [
+        "wireless",
+        "network",
+        "ai",
+        "iot"
+      ],
+      "topics": [
+        "physical",
+        "protocols",
+        "ai-communications",
+        "edge-cloud",
+        "vehicular"
+      ],
+      "topicReviewedAt": "2026-10-19",
+      "publicationType": "研究型期刊",
+      "articleTypes": [
+        "研究论文",
+        "综述论文"
+      ],
+      "submissionMode": "常规论文在线投稿；专题按对应征稿日期",
+      "summary": "无线系统、通信协议、智能网络与车联网。",
+      "assessments": [],
+      "evaluations": [
+        {
+          "system": "jcr",
+          "year": 2024,
+          "releaseYear": 2025,
+          "snapshotDate": "2025-06",
+          "sourceUrl": "https://uefiscdi.gov.ro/resource-865584-JCR_2024.iunie2025.pdf",
+          "sourceTitle": "2024 JCR政府公开转录（2025年6月）",
+          "sourceType": "secondary",
+          "sourceAuthority": "government",
+          "verifiedAt": "2026-10-19",
+          "reviewedAt": "2026-10-19",
+          "status": "reported",
+          "value": "Q1",
+          "category": "TELECOMMUNICATIONS",
+          "categories": [
+            {
+              "category": "TELECOMMUNICATIONS",
+              "value": "Q1",
+              "page": 753
+            }
+          ],
+          "page": 753,
+          "issn": "2468-5925",
+          "eissn": "2352-8648",
+          "appliesToName": "Digital Communications and Networks",
+          "note": "对照完整2024 JCR政府转录，默认电信学优先，保留全部学科；不取最好分区，不冒充最新原库。"
+        },
+        {
+          "system": "cas",
+          "year": 2025,
+          "edition": "2025升级版",
+          "snapshotDate": "2026-09-28",
+          "sourceUrl": "https://cce.ncepu.edu.cn/xzzx/yjsjx1/7632005045644e61a0d12c7bbeff6204.htm",
+          "sourceFileUrl": "https://cce.ncepu.edu.cn/docs//2026-09/0e77800bf2744596a26e43c83acceed0.xlsx",
+          "sourceTitle": "华北电力大学公开的中科院2025升级版转录",
+          "sourceType": "secondary",
+          "sourceAuthority": "university",
+          "verifiedAt": "2026-10-19",
+          "reviewedAt": "2026-10-19",
+          "sheet": "期刊汇总",
+          "status": "reported",
+          "value": "2",
+          "category": "计算机科学",
+          "top": false,
+          "appliesToName": "Digital Communications and Networks",
+          "issn": "2468-5925",
+          "row": 4214,
+          "minorCategories": [
+            {
+              "category": "TELECOMMUNICATIONS 电信学",
+              "quartile": 2
+            }
+          ],
+          "note": "按ISSN或正式全名对照高校公开的2025升级版完整转录；保留大类及全部小类，不冒充原库或2026数据。"
+        },
+        {
+          "system": "ccf",
+          "year": 2026,
+          "edition": "第七版公开副本",
+          "sourceUrl": "https://scdm-shu.github.io/ccf/2026-CCF-Ranking.pdf",
+          "sourceTitle": "CCF2026国际会议期刊目录公开副本",
+          "sourceType": "document-copy",
+          "verifiedAt": "2026-10-19",
+          "reviewedAt": "2026-10-19",
+          "reviewedNames": [
+            "Digital Communications and Networks",
+            "数字通信与网络"
+          ],
+          "status": "unlisted",
+          "value": null,
+          "note": "按正式全名与已核实别名对照CCF2026公开副本完整目录未列；不等于低等级，不含另行发布的中文期刊推荐目录。"
+        }
+      ],
+      "catalogScope": "communications",
+      "scopeReviewedAt": "2026-10-19",
+      "submissionStatus": "open",
+      "identityNote": "当前科爱主页有投稿入口、2026论文及2027专题征稿，明确SCIE与Scopus；未以CiteScore或IF代替索引证据。",
+      "indexing": {
+        "value": "SCIE",
+        "status": "verified",
+        "year": null,
+        "sourceUrl": "https://www.keaipublishing.com/en/journals/digital-communications-and-networks/",
+        "sourceTitle": "Digital Communications and Networks索引列表",
+        "sourceType": "publisher",
+        "verifiedAt": "2026-10-19",
+        "reviewedAt": "2026-10-19",
+        "note": "出版方逐刊索引列表明确列出；独立于影响因子、分区与其他数据库，未登录原索引库逐篇检索。"
+      },
+      "otherIndexes": [
+        {
+          "value": "Scopus",
+          "status": "verified",
+          "year": null,
+          "sourceUrl": "https://www.keaipublishing.com/en/journals/digital-communications-and-networks/",
+          "sourceTitle": "Digital Communications and Networks索引列表",
+          "sourceType": "publisher",
+          "verifiedAt": "2026-10-19",
+          "reviewedAt": "2026-10-19",
+          "note": "出版方逐刊索引列表明确列出；独立于影响因子、分区与其他数据库，未登录原索引库逐篇检索。"
+        },
+        {
+          "value": "CSCD",
+          "status": "reported",
+          "year": 2025,
+          "edition": "2025—2026",
+          "coverage": "核心库",
+          "issn": "2468-5925",
+          "sourceUrl": "https://nssc.cas.cn/yjsb/xspy/py/wjgd/202209/P020250901365885026876.pdf",
+          "sourcePageUrl": "https://nssc.cas.cn/yjsb/xspy/py/wjgd/202209/t20220909_6510993.html",
+          "sourceTitle": "CSCD来源期刊列表2025—2026（国家空间科学中心公开附件）",
+          "sourceType": "document-copy",
+          "sourceAuthority": "cas-institute",
+          "verifiedAt": "2026-10-19",
+          "note": "按正式ISSN对照CSCD2025—2026完整名单，明确为核心库；数据库原始名单的科研机构公开副本，保留副本属性、年度和核心/扩展类别，不冒充原库查询，不推断其他索引。"
+        }
+      ],
+      "ratingReviewedAt": "2026-10-19"
+    },
+    {
+      "id": "electronics-letters",
+      "kind": "journal",
+      "short": "Electronics Letters",
+      "nameEn": "Electronics Letters",
+      "nameZh": "电子快报",
+      "aliases": [],
+      "issn": "0013-5194",
+      "eissn": "1350-911X",
+      "url": "https://ietresearch.onlinelibrary.wiley.com/journal/1350911x",
+      "sourceUrl": "https://ietresearch.onlinelibrary.wiley.com/hub/journal/1350911x/homepage/productinformation.html",
+      "sourceType": "publisher",
+      "verification": "verified",
+      "verifiedAt": "2026-10-19",
+      "identityReviewedAt": "2026-10-19",
+      "catalogStatus": "current",
+      "areas": [
+        "wireless",
+        "signal",
+        "rf",
+        "optical"
+      ],
+      "topics": [
+        "physical",
+        "mimo",
+        "antennas",
+        "microwave",
+        "photonics"
+      ],
+      "topicReviewedAt": "2026-10-19",
+      "publicationType": "简报型期刊",
+      "articleTypes": [
+        "研究快报",
+        "评论与回复"
+      ],
+      "submissionMode": "在线投稿研究快报；评论与回复按作者指南",
+      "summary": "通信、信号处理、射频及光电子研究快报。",
+      "assessments": [],
+      "evaluations": [
+        {
+          "system": "jcr",
+          "year": 2024,
+          "releaseYear": 2025,
+          "snapshotDate": "2025-06",
+          "sourceUrl": "https://uefiscdi.gov.ro/resource-865584-JCR_2024.iunie2025.pdf",
+          "sourceTitle": "2024 JCR政府公开转录（2025年6月）",
+          "sourceType": "secondary",
+          "sourceAuthority": "government",
+          "verifiedAt": "2026-10-19",
+          "reviewedAt": "2026-10-19",
+          "status": "reported",
+          "value": "Q4",
+          "category": "ENGINEERING, ELECTRICAL & ELECTRONIC",
+          "categories": [
+            {
+              "category": "ENGINEERING, ELECTRICAL & ELECTRONIC",
+              "value": "Q4",
+              "page": 236
+            }
+          ],
+          "page": 236,
+          "issn": "0013-5194",
+          "eissn": "1350-911X",
+          "appliesToName": "ELECTRONICS LETTERS",
+          "note": "对照完整2024 JCR政府转录，默认电信学优先，保留全部学科；不取最好分区，不冒充最新原库。"
+        },
+        {
+          "system": "cas",
+          "year": 2025,
+          "edition": "2025升级版",
+          "snapshotDate": "2026-09-28",
+          "sourceUrl": "https://cce.ncepu.edu.cn/xzzx/yjsjx1/7632005045644e61a0d12c7bbeff6204.htm",
+          "sourceFileUrl": "https://cce.ncepu.edu.cn/docs//2026-09/0e77800bf2744596a26e43c83acceed0.xlsx",
+          "sourceTitle": "华北电力大学公开的中科院2025升级版转录",
+          "sourceType": "secondary",
+          "sourceAuthority": "university",
+          "verifiedAt": "2026-10-19",
+          "reviewedAt": "2026-10-19",
+          "sheet": "期刊汇总",
+          "status": "reported",
+          "value": "4",
+          "category": "工程技术",
+          "top": false,
+          "appliesToName": "ELECTRONICS LETTERS",
+          "issn": "0013-5194",
+          "row": 14409,
+          "minorCategories": [
+            {
+              "category": "ENGINEERING, ELECTRICAL & ELECTRONIC 工程：电子与电气",
+              "quartile": 4
+            }
+          ],
+          "note": "按ISSN或正式全名对照高校公开的2025升级版完整转录；保留大类及全部小类，不冒充原库或2026数据。"
+        },
+        {
+          "system": "ccf",
+          "year": 2026,
+          "edition": "第七版公开副本",
+          "sourceUrl": "https://scdm-shu.github.io/ccf/2026-CCF-Ranking.pdf",
+          "sourceTitle": "CCF2026国际会议期刊目录公开副本",
+          "sourceType": "document-copy",
+          "verifiedAt": "2026-10-19",
+          "reviewedAt": "2026-10-19",
+          "reviewedNames": [
+            "Electronics Letters",
+            "电子快报"
+          ],
+          "status": "unlisted",
+          "value": null,
+          "note": "按正式全名与已核实别名对照CCF2026公开副本完整目录未列；不等于低等级，不含另行发布的中文期刊推荐目录。"
+        }
+      ],
+      "catalogScope": "communications",
+      "scopeReviewedAt": "2026-10-19",
+      "submissionStatus": "open",
+      "identityNote": "作者指南2026年6月更新，明确Letter和Commentary，不能标为常规综述期刊。",
+      "indexing": {
+        "value": "SCIE",
+        "status": "verified",
+        "year": null,
+        "sourceUrl": "https://ietresearch.onlinelibrary.wiley.com/hub/journal/1350911x/homepage/productinformation.html",
+        "sourceTitle": "Electronics Letters索引列表",
+        "sourceType": "publisher",
+        "verifiedAt": "2026-10-19",
+        "reviewedAt": "2026-10-19",
+        "note": "出版方逐刊索引列表明确列出；独立于影响因子、分区与其他数据库，未登录原索引库逐篇检索。"
+      },
+      "otherIndexes": [
+        {
+          "value": "EI",
+          "status": "verified",
+          "year": null,
+          "sourceUrl": "https://ietresearch.onlinelibrary.wiley.com/hub/journal/1350911x/homepage/productinformation.html",
+          "sourceTitle": "Electronics Letters索引列表",
+          "sourceType": "publisher",
+          "verifiedAt": "2026-10-19",
+          "reviewedAt": "2026-10-19",
+          "note": "出版方逐刊索引列表明确列出；独立于影响因子、分区与其他数据库，未登录原索引库逐篇检索。"
+        },
+        {
+          "value": "Scopus",
+          "status": "verified",
+          "year": null,
+          "sourceUrl": "https://ietresearch.onlinelibrary.wiley.com/hub/journal/1350911x/homepage/productinformation.html",
+          "sourceTitle": "Electronics Letters索引列表",
+          "sourceType": "publisher",
+          "verifiedAt": "2026-10-19",
+          "reviewedAt": "2026-10-19",
+          "note": "出版方逐刊索引列表明确列出；独立于影响因子、分区与其他数据库，未登录原索引库逐篇检索。"
+        }
+      ],
+      "submissionSourceUrl": "https://ietresearch.onlinelibrary.wiley.com/hub/journal/1350911x/homepage/author-guidelines",
+      "ratingReviewedAt": "2026-10-19"
+    },
+    {
+      "id": "ieice-com",
+      "kind": "journal",
+      "short": "IEICE COM",
+      "nameEn": "IEICE Transactions on Communications",
+      "nameZh": "IEICE通信汇刊",
+      "aliases": [],
+      "issn": "0916-8516",
+      "eissn": "1745-1345",
+      "url": "https://globals.ieice.org/en_transactions/communications",
+      "sourceUrl": "https://www.ieice.org/eng/shiori/page2_cs.html",
+      "sourceType": "publisher",
+      "verification": "verified",
+      "verifiedAt": "2026-10-19",
+      "identityReviewedAt": "2026-10-19",
+      "catalogStatus": "current",
+      "areas": [
+        "wireless",
+        "network",
+        "optical",
+        "rf"
+      ],
+      "topics": [
+        "physical",
+        "protocols",
+        "fiber",
+        "antennas"
+      ],
+      "topicReviewedAt": "2026-10-19",
+      "publicationType": "研究型期刊",
+      "articleTypes": [
+        "研究论文",
+        "综述论文",
+        "观点论文",
+        "书面讨论"
+      ],
+      "submissionMode": "常规论文在线投稿；专题按对应征稿日期",
+      "summary": "通信理论、系统与网络。",
+      "assessments": [],
+      "evaluations": [
+        {
+          "system": "jcr",
+          "year": 2024,
+          "releaseYear": 2025,
+          "snapshotDate": "2025-06",
+          "sourceUrl": "https://uefiscdi.gov.ro/resource-865584-JCR_2024.iunie2025.pdf",
+          "sourceTitle": "2024 JCR政府公开转录（2025年6月）",
+          "sourceType": "secondary",
+          "sourceAuthority": "government",
+          "verifiedAt": "2026-10-19",
+          "reviewedAt": "2026-10-19",
+          "status": "reported",
+          "value": "Q4",
+          "category": "TELECOMMUNICATIONS",
+          "categories": [
+            {
+              "category": "ENGINEERING, ELECTRICAL & ELECTRONIC",
+              "value": "Q4",
+              "page": 240
+            },
+            {
+              "category": "TELECOMMUNICATIONS",
+              "value": "Q4",
+              "page": 754
+            }
+          ],
+          "page": 754,
+          "issn": "0916-8516",
+          "eissn": "1745-1345",
+          "appliesToName": "IEICE TRANSACTIONS ON COMMUNICATIONS",
+          "note": "对照完整2024 JCR政府转录，默认电信学优先，保留全部学科；不取最好分区，不冒充最新原库。"
+        },
+        {
+          "system": "cas",
+          "year": 2025,
+          "edition": "2025升级版",
+          "snapshotDate": "2026-09-28",
+          "sourceUrl": "https://cce.ncepu.edu.cn/xzzx/yjsjx1/7632005045644e61a0d12c7bbeff6204.htm",
+          "sourceFileUrl": "https://cce.ncepu.edu.cn/docs//2026-09/0e77800bf2744596a26e43c83acceed0.xlsx",
+          "sourceTitle": "华北电力大学公开的中科院2025升级版转录",
+          "sourceType": "secondary",
+          "sourceAuthority": "university",
+          "verifiedAt": "2026-10-19",
+          "reviewedAt": "2026-10-19",
+          "sheet": "期刊汇总",
+          "status": "reported",
+          "value": "4",
+          "category": "计算机科学",
+          "top": false,
+          "appliesToName": "IEICE TRANSACTIONS ON COMMUNICATIONS",
+          "issn": "0916-8516",
+          "row": 21459,
+          "minorCategories": [
+            {
+              "category": "ENGINEERING, ELECTRICAL & ELECTRONIC 工程：电子与电气",
+              "quartile": 4
+            },
+            {
+              "category": "TELECOMMUNICATIONS 电信学",
+              "quartile": 4
+            }
+          ],
+          "note": "按ISSN或正式全名对照高校公开的2025升级版完整转录；保留大类及全部小类，不冒充原库或2026数据。"
+        },
+        {
+          "system": "ccf",
+          "year": 2026,
+          "edition": "第七版公开副本",
+          "sourceUrl": "https://scdm-shu.github.io/ccf/2026-CCF-Ranking.pdf",
+          "sourceTitle": "CCF2026国际会议期刊目录公开副本",
+          "sourceType": "document-copy",
+          "verifiedAt": "2026-10-19",
+          "reviewedAt": "2026-10-19",
+          "reviewedNames": [
+            "IEICE Transactions on Communications",
+            "IEICE通信汇刊"
+          ],
+          "status": "unlisted",
+          "value": null,
+          "note": "按正式全名与已核实别名对照CCF2026公开副本完整目录未列；不等于低等级，不含另行发布的中文期刊推荐目录。"
+        }
+      ],
+      "catalogScope": "communications",
+      "scopeReviewedAt": "2026-10-19",
+      "submissionStatus": "open",
+      "identityNote": "官方作者指南可读并有投递步骤，Communications版2026-09-12更新；官方引用索引页明确SCIE，FAQ列出Scopus适用截至2025年4月。",
+      "indexing": {
+        "value": "SCIE",
+        "status": "verified",
+        "year": null,
+        "sourceUrl": "https://search.ieice.org/bin/citation_index.php?lang=Jabst%3D",
+        "sourceTitle": "IEICE Transactions on Communications索引列表",
+        "sourceType": "publisher",
+        "verifiedAt": "2026-10-19",
+        "reviewedAt": "2026-10-19",
+        "note": "出版方逐刊索引列表明确列出；独立于影响因子、分区与其他数据库，未登录原索引库逐篇检索。"
+      },
+      "otherIndexes": [
+        {
+          "value": "Scopus",
+          "status": "verified",
+          "year": 2025,
+          "sourceUrl": "https://www.ieice.org/jpn_r/shiori/faq_transactions.html",
+          "sourceTitle": "IEICE官方论文期刊FAQ",
+          "sourceType": "publisher",
+          "verifiedAt": "2026-10-19",
+          "reviewedAt": "2026-10-19",
+          "note": "官方FAQ明确列出本英文刊，标示截至2025年4月；不把旧快照升级为2026原库核验。",
+          "snapshotDate": "2025-04"
+        }
+      ],
+      "submissionSourceUrl": "https://www.ieice.org/eng/shiori/page2_cs.html",
+      "ratingReviewedAt": "2026-10-19"
+    },
+    {
+      "id": "ieice-fundamentals",
+      "kind": "journal",
+      "short": "IEICE Fundamentals",
+      "nameEn": "IEICE Transactions on Fundamentals of Electronics, Communications and Computer Sciences",
+      "nameZh": "IEICE电子、通信与计算机科学基础汇刊",
+      "aliases": [],
+      "issn": "0916-8508",
+      "eissn": "1745-1337",
+      "url": "https://globals.ieice.org/en_transactions/fundamentals",
+      "sourceUrl": "https://www.ieice.org/eng/shiori/page2_ess.html",
+      "sourceType": "publisher",
+      "verification": "verified",
+      "verifiedAt": "2026-10-19",
+      "identityReviewedAt": "2026-10-19",
+      "catalogStatus": "current",
+      "areas": [
+        "theory",
+        "signal",
+        "wireless"
+      ],
+      "topics": [
+        "information-theory",
+        "channel-coding",
+        "source-coding",
+        "estimation-sync"
+      ],
+      "topicReviewedAt": "2026-10-19",
+      "publicationType": "研究型期刊",
+      "articleTypes": [
+        "研究论文",
+        "综述论文",
+        "简报",
+        "书面讨论"
+      ],
+      "submissionMode": "常规论文在线投稿；专题按对应征稿日期",
+      "summary": "信息论、编码与信号处理基础。",
+      "assessments": [],
+      "evaluations": [
+        {
+          "system": "jcr",
+          "year": 2024,
+          "releaseYear": 2025,
+          "snapshotDate": "2025-06",
+          "sourceUrl": "https://uefiscdi.gov.ro/resource-865584-JCR_2024.iunie2025.pdf",
+          "sourceTitle": "2024 JCR政府公开转录（2025年6月）",
+          "sourceType": "secondary",
+          "sourceAuthority": "government",
+          "verifiedAt": "2026-10-19",
+          "reviewedAt": "2026-10-19",
+          "status": "reported",
+          "value": "Q4",
+          "category": "COMPUTER SCIENCE, HARDWARE & ARCHITECTURE",
+          "categories": [
+            {
+              "category": "COMPUTER SCIENCE, HARDWARE & ARCHITECTURE",
+              "value": "Q4",
+              "page": 127
+            },
+            {
+              "category": "COMPUTER SCIENCE, INFORMATION SYSTEMS",
+              "value": "Q4",
+              "page": 131
+            },
+            {
+              "category": "ENGINEERING, ELECTRICAL & ELECTRONIC",
+              "value": "Q4",
+              "page": 240
+            }
+          ],
+          "page": 127,
+          "issn": "0916-8508",
+          "eissn": "1745-1337",
+          "appliesToName": "IEICE TRANSACTIONS ON FUNDAMENTALS OF ELECTRONICS COMMUNICATIONS AND COMPUTER SCIENCES",
+          "note": "对照完整2024 JCR政府转录，默认电信学优先，保留全部学科；不取最好分区，不冒充最新原库。"
+        },
+        {
+          "system": "cas",
+          "year": 2025,
+          "edition": "2025升级版",
+          "snapshotDate": "2026-09-28",
+          "sourceUrl": "https://cce.ncepu.edu.cn/xzzx/yjsjx1/7632005045644e61a0d12c7bbeff6204.htm",
+          "sourceFileUrl": "https://cce.ncepu.edu.cn/docs//2026-09/0e77800bf2744596a26e43c83acceed0.xlsx",
+          "sourceTitle": "华北电力大学公开的中科院2025升级版转录",
+          "sourceType": "secondary",
+          "sourceAuthority": "university",
+          "verifiedAt": "2026-10-19",
+          "reviewedAt": "2026-10-19",
+          "sheet": "期刊汇总",
+          "status": "reported",
+          "value": "4",
+          "category": "计算机科学",
+          "top": false,
+          "appliesToName": "IEICE TRANSACTIONS ON FUNDAMENTALS OF ELECTRONICS COMMUNICATIONS AND COMPUTER SCIENCES",
+          "issn": "0916-8508",
+          "row": 21460,
+          "minorCategories": [
+            {
+              "category": "COMPUTER SCIENCE, HARDWARE & ARCHITECTURE 计算机：硬件",
+              "quartile": 4
+            },
+            {
+              "category": "COMPUTER SCIENCE, INFORMATION SYSTEMS 计算机：信息系统",
+              "quartile": 4
+            },
+            {
+              "category": "ENGINEERING, ELECTRICAL & ELECTRONIC 工程：电子与电气",
+              "quartile": 4
+            }
+          ],
+          "note": "按ISSN或正式全名对照高校公开的2025升级版完整转录；保留大类及全部小类，不冒充原库或2026数据。"
+        },
+        {
+          "system": "ccf",
+          "year": 2026,
+          "edition": "第七版公开副本",
+          "sourceUrl": "https://scdm-shu.github.io/ccf/2026-CCF-Ranking.pdf",
+          "sourceTitle": "CCF2026国际会议期刊目录公开副本",
+          "sourceType": "document-copy",
+          "verifiedAt": "2026-10-19",
+          "reviewedAt": "2026-10-19",
+          "reviewedNames": [
+            "IEICE Transactions on Fundamentals of Electronics, Communications and Computer Sciences",
+            "IEICE电子、通信与计算机科学基础汇刊"
+          ],
+          "status": "unlisted",
+          "value": null,
+          "note": "按正式全名与已核实别名对照CCF2026公开副本完整目录未列；不等于低等级，不含另行发布的中文期刊推荐目录。"
+        }
+      ],
+      "catalogScope": "communications",
+      "scopeReviewedAt": "2026-10-19",
+      "submissionStatus": "open",
+      "identityNote": "官方作者指南可读并有投递步骤，Communications版2026-09-12更新；官方引用索引页明确SCIE，FAQ列出Scopus适用截至2025年4月。",
+      "indexing": {
+        "value": "SCIE",
+        "status": "verified",
+        "year": null,
+        "sourceUrl": "https://search.ieice.org/bin/citation_index.php?lang=Jabst%3D",
+        "sourceTitle": "IEICE Transactions on Fundamentals of Electronics, Communications and Computer Sciences索引列表",
+        "sourceType": "publisher",
+        "verifiedAt": "2026-10-19",
+        "reviewedAt": "2026-10-19",
+        "note": "出版方逐刊索引列表明确列出；独立于影响因子、分区与其他数据库，未登录原索引库逐篇检索。"
+      },
+      "otherIndexes": [
+        {
+          "value": "Scopus",
+          "status": "verified",
+          "year": 2025,
+          "sourceUrl": "https://www.ieice.org/jpn_r/shiori/faq_transactions.html",
+          "sourceTitle": "IEICE官方论文期刊FAQ",
+          "sourceType": "publisher",
+          "verifiedAt": "2026-10-19",
+          "reviewedAt": "2026-10-19",
+          "note": "官方FAQ明确列出本英文刊，标示截至2025年4月；不把旧快照升级为2026原库核验。",
+          "snapshotDate": "2025-04"
+        }
+      ],
+      "submissionSourceUrl": "https://www.ieice.org/eng/shiori/page2_ess.html",
+      "ratingReviewedAt": "2026-10-19"
+    },
+    {
+      "id": "iet-opto",
+      "kind": "journal",
+      "short": "IET Optoelectronics",
+      "nameEn": "IET Optoelectronics",
+      "nameZh": "IET光电子学",
+      "aliases": [],
+      "issn": "1751-8768",
+      "eissn": "1751-8776",
+      "url": "https://ietresearch.onlinelibrary.wiley.com/journal/17518776",
+      "sourceUrl": "https://ietresearch.onlinelibrary.wiley.com/hub/journal/17518776/homepage/productinformation.html",
+      "sourceType": "publisher",
+      "verification": "verified",
+      "verifiedAt": "2026-10-19",
+      "identityReviewedAt": "2026-10-19",
+      "catalogStatus": "current",
+      "areas": [
+        "optical",
+        "signal"
+      ],
+      "topics": [
+        "fiber",
+        "photonics",
+        "optical-wireless"
+      ],
+      "topicReviewedAt": "2026-10-19",
+      "publicationType": "研究型期刊",
+      "articleTypes": [
+        "研究论文",
+        "综述论文"
+      ],
+      "submissionMode": "常规论文在线投稿；专题按对应征稿日期",
+      "summary": "光调制、光纤传输、光接收与光子集成。",
+      "assessments": [],
+      "evaluations": [
+        {
+          "system": "jcr",
+          "year": 2024,
+          "releaseYear": 2025,
+          "snapshotDate": "2025-06",
+          "sourceUrl": "https://uefiscdi.gov.ro/resource-865584-JCR_2024.iunie2025.pdf",
+          "sourceTitle": "2024 JCR政府公开转录（2025年6月）",
+          "sourceType": "secondary",
+          "sourceAuthority": "government",
+          "verifiedAt": "2026-10-19",
+          "reviewedAt": "2026-10-19",
+          "status": "reported",
+          "value": "Q4",
+          "category": "TELECOMMUNICATIONS",
+          "categories": [
+            {
+              "category": "ENGINEERING, ELECTRICAL & ELECTRONIC",
+              "value": "Q3",
+              "page": 240
+            },
+            {
+              "category": "OPTICS",
+              "value": "Q3",
+              "page": 566
+            },
+            {
+              "category": "TELECOMMUNICATIONS",
+              "value": "Q4",
+              "page": 755
+            }
+          ],
+          "page": 755,
+          "issn": "1751-8768",
+          "eissn": "1751-8776",
+          "appliesToName": "IET Optoelectronics",
+          "note": "对照完整2024 JCR政府转录，默认电信学优先，保留全部学科；不取最好分区，不冒充最新原库。"
+        },
+        {
+          "system": "cas",
+          "year": 2025,
+          "edition": "2025升级版",
+          "snapshotDate": "2026-09-28",
+          "sourceUrl": "https://cce.ncepu.edu.cn/xzzx/yjsjx1/7632005045644e61a0d12c7bbeff6204.htm",
+          "sourceFileUrl": "https://cce.ncepu.edu.cn/docs//2026-09/0e77800bf2744596a26e43c83acceed0.xlsx",
+          "sourceTitle": "华北电力大学公开的中科院2025升级版转录",
+          "sourceType": "secondary",
+          "sourceAuthority": "university",
+          "verifiedAt": "2026-10-19",
+          "reviewedAt": "2026-10-19",
+          "sheet": "期刊汇总",
+          "status": "reported",
+          "value": "4",
+          "category": "计算机科学",
+          "top": false,
+          "appliesToName": "IET Optoelectronics",
+          "issn": "1751-8768",
+          "row": 21473,
+          "minorCategories": [
+            {
+              "category": "ENGINEERING, ELECTRICAL & ELECTRONIC 工程：电子与电气",
+              "quartile": 4
+            },
+            {
+              "category": "OPTICS 光学",
+              "quartile": 4
+            },
+            {
+              "category": "TELECOMMUNICATIONS 电信学",
+              "quartile": 4
+            }
+          ],
+          "note": "按ISSN或正式全名对照高校公开的2025升级版完整转录；保留大类及全部小类，不冒充原库或2026数据。"
+        },
+        {
+          "system": "ccf",
+          "year": 2026,
+          "edition": "第七版公开副本",
+          "sourceUrl": "https://scdm-shu.github.io/ccf/2026-CCF-Ranking.pdf",
+          "sourceTitle": "CCF2026国际会议期刊目录公开副本",
+          "sourceType": "document-copy",
+          "verifiedAt": "2026-10-19",
+          "reviewedAt": "2026-10-19",
+          "reviewedNames": [
+            "IET Optoelectronics",
+            "IET光电子学"
+          ],
+          "status": "unlisted",
+          "value": null,
+          "note": "按正式全名与已核实别名对照CCF2026公开副本完整目录未列；不等于低等级，不含另行发布的中文期刊推荐目录。"
+        }
+      ],
+      "catalogScope": "communications",
+      "scopeReviewedAt": "2026-10-19",
+      "submissionStatus": "open",
+      "identityNote": "逐刊出版简介明确SCIE、Compendex、Scopus，作者指南存在当前在线投稿说明。",
+      "indexing": {
+        "value": "SCIE",
+        "status": "verified",
+        "year": null,
+        "sourceUrl": "https://ietresearch.onlinelibrary.wiley.com/hub/journal/17518776/homepage/productinformation.html",
+        "sourceTitle": "IET Optoelectronics索引列表",
+        "sourceType": "publisher",
+        "verifiedAt": "2026-10-19",
+        "reviewedAt": "2026-10-19",
+        "note": "出版方逐刊索引列表明确列出；独立于影响因子、分区与其他数据库，未登录原索引库逐篇检索。"
+      },
+      "otherIndexes": [
+        {
+          "value": "EI",
+          "status": "verified",
+          "year": null,
+          "sourceUrl": "https://ietresearch.onlinelibrary.wiley.com/hub/journal/17518776/homepage/productinformation.html",
+          "sourceTitle": "IET Optoelectronics索引列表",
+          "sourceType": "publisher",
+          "verifiedAt": "2026-10-19",
+          "reviewedAt": "2026-10-19",
+          "note": "出版方逐刊索引列表明确列出；独立于影响因子、分区与其他数据库，未登录原索引库逐篇检索。"
+        },
+        {
+          "value": "Scopus",
+          "status": "verified",
+          "year": null,
+          "sourceUrl": "https://ietresearch.onlinelibrary.wiley.com/hub/journal/17518776/homepage/productinformation.html",
+          "sourceTitle": "IET Optoelectronics索引列表",
+          "sourceType": "publisher",
+          "verifiedAt": "2026-10-19",
+          "reviewedAt": "2026-10-19",
+          "note": "出版方逐刊索引列表明确列出；独立于影响因子、分区与其他数据库，未登录原索引库逐篇检索。"
+        }
+      ],
+      "submissionSourceUrl": "https://ietresearch.onlinelibrary.wiley.com/hub/journal/17518776/homepage/author-guidelines",
+      "ratingReviewedAt": "2026-10-19"
+    },
+    {
+      "id": "ijsnet",
+      "kind": "journal",
+      "short": "IJSNet",
+      "nameEn": "International Journal of Sensor Networks",
+      "nameZh": "国际传感器网络学报",
+      "aliases": [],
+      "issn": "1748-1279",
+      "eissn": "1748-1287",
+      "url": "https://www.inderscience.com/jhome.php?jcode=IJSNET",
+      "sourceUrl": "https://www.inderscience.com/jhome.php?jcode=IJSNET",
+      "sourceType": "publisher",
+      "verification": "verified",
+      "verifiedAt": "2026-10-19",
+      "identityReviewedAt": "2026-10-19",
+      "catalogStatus": "current",
+      "areas": [
+        "iot",
+        "network",
+        "wireless"
+      ],
+      "topics": [
+        "iot-sensing",
+        "protocols",
+        "access",
+        "security"
+      ],
+      "topicReviewedAt": "2026-10-19",
+      "publicationType": "研究型期刊",
+      "articleTypes": [
+        "研究论文",
+        "专题论文"
+      ],
+      "submissionMode": "常规论文在线投稿；专题按对应征稿日期",
+      "summary": "有线及无线传感器网络、组网与传感网络系统。",
+      "assessments": [],
+      "evaluations": [
+        {
+          "system": "jcr",
+          "year": 2024,
+          "releaseYear": 2025,
+          "snapshotDate": "2025-06",
+          "sourceUrl": "https://uefiscdi.gov.ro/resource-865584-JCR_2024.iunie2025.pdf",
+          "sourceTitle": "2024 JCR政府公开转录（2025年6月）",
+          "sourceType": "secondary",
+          "sourceAuthority": "government",
+          "verifiedAt": "2026-10-19",
+          "reviewedAt": "2026-10-19",
+          "status": "reported",
+          "value": "Q4",
+          "category": "TELECOMMUNICATIONS",
+          "categories": [
+            {
+              "category": "COMPUTER SCIENCE, INFORMATION SYSTEMS",
+              "value": "Q4",
+              "page": 132
+            },
+            {
+              "category": "TELECOMMUNICATIONS",
+              "value": "Q4",
+              "page": 755
+            }
+          ],
+          "page": 755,
+          "issn": "1748-1279",
+          "eissn": "1748-1287",
+          "appliesToName": "International Journal of Sensor Networks",
+          "note": "对照完整2024 JCR政府转录，默认电信学优先，保留全部学科；不取最好分区，不冒充最新原库。"
+        },
+        {
+          "system": "cas",
+          "year": 2025,
+          "edition": "2025升级版",
+          "snapshotDate": "2026-09-28",
+          "sourceUrl": "https://cce.ncepu.edu.cn/xzzx/yjsjx1/7632005045644e61a0d12c7bbeff6204.htm",
+          "sourceFileUrl": "https://cce.ncepu.edu.cn/docs//2026-09/0e77800bf2744596a26e43c83acceed0.xlsx",
+          "sourceTitle": "华北电力大学公开的中科院2025升级版转录",
+          "sourceType": "secondary",
+          "sourceAuthority": "university",
+          "verifiedAt": "2026-10-19",
+          "reviewedAt": "2026-10-19",
+          "sheet": "期刊汇总",
+          "status": "reported",
+          "value": "4",
+          "category": "计算机科学",
+          "top": false,
+          "appliesToName": "International Journal of Sensor Networks",
+          "issn": "1748-1279",
+          "row": 21590,
+          "minorCategories": [
+            {
+              "category": "COMPUTER SCIENCE, INFORMATION SYSTEMS 计算机：信息系统",
+              "quartile": 4
+            },
+            {
+              "category": "TELECOMMUNICATIONS 电信学",
+              "quartile": 4
+            }
+          ],
+          "note": "按ISSN或正式全名对照高校公开的2025升级版完整转录；保留大类及全部小类，不冒充原库或2026数据。"
+        },
+        {
+          "system": "ccf",
+          "year": 2026,
+          "edition": "第七版公开副本",
+          "sourceUrl": "https://scdm-shu.github.io/ccf/2026-CCF-Ranking.pdf",
+          "sourceTitle": "CCF2026国际会议期刊目录公开副本",
+          "sourceType": "document-copy",
+          "verifiedAt": "2026-10-19",
+          "reviewedAt": "2026-10-19",
+          "reviewedNames": [
+            "International Journal of Sensor Networks",
+            "国际传感器网络学报"
+          ],
+          "status": "unlisted",
+          "value": null,
+          "note": "按正式全名与已核实别名对照CCF2026公开副本完整目录未列；不等于低等级，不含另行发布的中文期刊推荐目录。"
+        }
+      ],
+      "catalogScope": "communications",
+      "scopeReviewedAt": "2026-10-19",
+      "submissionStatus": "open",
+      "identityNote": "出版社当前页明确在线投稿入口及SCIE/Scopus/Compendex；稿件类别以研究论文与专题稿件为主。",
+      "indexing": {
+        "value": "SCIE",
+        "status": "verified",
+        "year": null,
+        "sourceUrl": "https://www.inderscience.com/jhome.php?jcode=IJSNET",
+        "sourceTitle": "International Journal of Sensor Networks索引列表",
+        "sourceType": "publisher",
+        "verifiedAt": "2026-10-19",
+        "reviewedAt": "2026-10-19",
+        "note": "出版方逐刊索引列表明确列出；独立于影响因子、分区与其他数据库，未登录原索引库逐篇检索。"
+      },
+      "otherIndexes": [
+        {
+          "value": "EI",
+          "status": "verified",
+          "year": null,
+          "sourceUrl": "https://www.inderscience.com/jhome.php?jcode=IJSNET",
+          "sourceTitle": "International Journal of Sensor Networks索引列表",
+          "sourceType": "publisher",
+          "verifiedAt": "2026-10-19",
+          "reviewedAt": "2026-10-19",
+          "note": "出版方逐刊索引列表明确列出；独立于影响因子、分区与其他数据库，未登录原索引库逐篇检索。"
+        },
+        {
+          "value": "Scopus",
+          "status": "verified",
+          "year": null,
+          "sourceUrl": "https://www.inderscience.com/jhome.php?jcode=IJSNET",
+          "sourceTitle": "International Journal of Sensor Networks索引列表",
+          "sourceType": "publisher",
+          "verifiedAt": "2026-10-19",
+          "reviewedAt": "2026-10-19",
+          "note": "出版方逐刊索引列表明确列出；独立于影响因子、分区与其他数据库，未登录原索引库逐篇检索。"
+        }
+      ],
+      "ratingReviewedAt": "2026-10-19"
+    },
+    {
+      "id": "motl",
+      "kind": "journal",
+      "short": "MOTL",
+      "nameEn": "Microwave and Optical Technology Letters",
+      "nameZh": "微波与光技术快报",
+      "aliases": [],
+      "issn": "0895-2477",
+      "eissn": "1098-2760",
+      "url": "https://onlinelibrary.wiley.com/journal/10982760",
+      "sourceUrl": "https://onlinelibrary.wiley.com/page/journal/10982760/homepage/productinformation.html",
+      "sourceType": "publisher",
+      "verification": "verified",
+      "verifiedAt": "2026-10-19",
+      "identityReviewedAt": "2026-10-19",
+      "catalogStatus": "current",
+      "areas": [
+        "rf",
+        "optical",
+        "wireless"
+      ],
+      "topics": [
+        "microwave",
+        "antennas",
+        "photonics",
+        "thz"
+      ],
+      "topicReviewedAt": "2026-10-19",
+      "publicationType": "简报型期刊",
+      "articleTypes": [
+        "研究快报"
+      ],
+      "submissionMode": "常规论文在线投稿；专题按对应征稿日期",
+      "summary": "射频、微波、天线与光技术研究快报。",
+      "assessments": [],
+      "evaluations": [
+        {
+          "system": "jcr",
+          "year": 2024,
+          "releaseYear": 2025,
+          "snapshotDate": "2025-06",
+          "sourceUrl": "https://uefiscdi.gov.ro/resource-865584-JCR_2024.iunie2025.pdf",
+          "sourceTitle": "2024 JCR政府公开转录（2025年6月）",
+          "sourceType": "secondary",
+          "sourceAuthority": "government",
+          "verifiedAt": "2026-10-19",
+          "reviewedAt": "2026-10-19",
+          "status": "reported",
+          "value": "Q4",
+          "category": "ENGINEERING, ELECTRICAL & ELECTRONIC",
+          "categories": [
+            {
+              "category": "ENGINEERING, ELECTRICAL & ELECTRONIC",
+              "value": "Q4",
+              "page": 242
+            },
+            {
+              "category": "OPTICS",
+              "value": "Q4",
+              "page": 567
+            }
+          ],
+          "page": 242,
+          "issn": "0895-2477",
+          "eissn": "1098-2760",
+          "appliesToName": "MICROWAVE AND OPTICAL TECHNOLOGY LETTERS",
+          "note": "对照完整2024 JCR政府转录，默认电信学优先，保留全部学科；不取最好分区，不冒充最新原库。"
+        },
+        {
+          "system": "cas",
+          "year": 2025,
+          "edition": "2025升级版",
+          "snapshotDate": "2026-09-28",
+          "sourceUrl": "https://cce.ncepu.edu.cn/xzzx/yjsjx1/7632005045644e61a0d12c7bbeff6204.htm",
+          "sourceFileUrl": "https://cce.ncepu.edu.cn/docs//2026-09/0e77800bf2744596a26e43c83acceed0.xlsx",
+          "sourceTitle": "华北电力大学公开的中科院2025升级版转录",
+          "sourceType": "secondary",
+          "sourceAuthority": "university",
+          "verifiedAt": "2026-10-19",
+          "reviewedAt": "2026-10-19",
+          "sheet": "期刊汇总",
+          "status": "reported",
+          "value": "4",
+          "category": "工程技术",
+          "top": false,
+          "appliesToName": "MICROWAVE AND OPTICAL TECHNOLOGY LETTERS",
+          "issn": "0895-2477",
+          "row": 14879,
+          "minorCategories": [
+            {
+              "category": "ENGINEERING, ELECTRICAL & ELECTRONIC 工程：电子与电气",
+              "quartile": 4
+            },
+            {
+              "category": "OPTICS 光学",
+              "quartile": 4
+            }
+          ],
+          "note": "按ISSN或正式全名对照高校公开的2025升级版完整转录；保留大类及全部小类，不冒充原库或2026数据。"
+        },
+        {
+          "system": "ccf",
+          "year": 2026,
+          "edition": "第七版公开副本",
+          "sourceUrl": "https://scdm-shu.github.io/ccf/2026-CCF-Ranking.pdf",
+          "sourceTitle": "CCF2026国际会议期刊目录公开副本",
+          "sourceType": "document-copy",
+          "verifiedAt": "2026-10-19",
+          "reviewedAt": "2026-10-19",
+          "reviewedNames": [
+            "Microwave and Optical Technology Letters",
+            "微波与光技术快报"
+          ],
+          "status": "unlisted",
+          "value": null,
+          "note": "按正式全名与已核实别名对照CCF2026公开副本完整目录未列；不等于低等级，不含另行发布的中文期刊推荐目录。"
+        }
+      ],
+      "catalogScope": "communications",
+      "scopeReviewedAt": "2026-10-19",
+      "submissionStatus": "open",
+      "identityNote": "当前主页可读，列有2026-10论文与Submit an article入口；出版简介索引全文由官方搜索索引读取，后续详情请求超时，未绕过WAF。",
+      "indexing": {
+        "value": "SCIE",
+        "status": "verified",
+        "year": null,
+        "sourceUrl": "https://onlinelibrary.wiley.com/page/journal/10982760/homepage/productinformation.html",
+        "sourceTitle": "Microwave and Optical Technology Letters索引列表",
+        "sourceType": "publisher",
+        "verifiedAt": "2026-10-19",
+        "reviewedAt": "2026-10-19",
+        "note": "出版方逐刊索引列表明确列出；独立于影响因子、分区与其他数据库，未登录原索引库逐篇检索。"
+      },
+      "otherIndexes": [
+        {
+          "value": "EI",
+          "status": "verified",
+          "year": null,
+          "sourceUrl": "https://onlinelibrary.wiley.com/page/journal/10982760/homepage/productinformation.html",
+          "sourceTitle": "Microwave and Optical Technology Letters索引列表",
+          "sourceType": "publisher",
+          "verifiedAt": "2026-10-19",
+          "reviewedAt": "2026-10-19",
+          "note": "出版方逐刊索引列表明确列出；独立于影响因子、分区与其他数据库，未登录原索引库逐篇检索。"
+        },
+        {
+          "value": "Scopus",
+          "status": "verified",
+          "year": null,
+          "sourceUrl": "https://onlinelibrary.wiley.com/page/journal/10982760/homepage/productinformation.html",
+          "sourceTitle": "Microwave and Optical Technology Letters索引列表",
+          "sourceType": "publisher",
+          "verifiedAt": "2026-10-19",
+          "reviewedAt": "2026-10-19",
+          "note": "出版方逐刊索引列表明确列出；独立于影响因子、分区与其他数据库，未登录原索引库逐篇检索。"
+        }
+      ],
+      "ratingReviewedAt": "2026-10-19"
+    },
+    {
+      "id": "mona",
+      "kind": "journal",
+      "short": "MONA",
+      "nameEn": "Mobile Networks and Applications",
+      "nameZh": "移动网络与应用",
+      "aliases": [],
+      "issn": "1383-469X",
+      "eissn": "1572-8153",
+      "url": "https://link.springer.com/journal/11036",
+      "sourceUrl": "https://link.springer.com/journal/11036",
+      "sourceType": "publisher",
+      "verification": "verified",
+      "verifiedAt": "2026-10-19",
+      "identityReviewedAt": "2026-10-19",
+      "catalogStatus": "current",
+      "areas": [
+        "network",
+        "wireless",
+        "ai"
+      ],
+      "topics": [
+        "mobile-systems",
+        "protocols",
+        "edge-cloud",
+        "security"
+      ],
+      "topicReviewedAt": "2026-10-19",
+      "publicationType": "研究型期刊",
+      "articleTypes": [
+        "研究论文",
+        "综述论文"
+      ],
+      "submissionMode": "以专题征稿为主；按对应专题入口在线提交",
+      "summary": "移动系统、无线网络与边缘计算。",
+      "assessments": [],
+      "evaluations": [
+        {
+          "system": "jcr",
+          "year": 2024,
+          "releaseYear": 2025,
+          "snapshotDate": "2025-06",
+          "sourceUrl": "https://uefiscdi.gov.ro/resource-865584-JCR_2024.iunie2025.pdf",
+          "sourceTitle": "2024 JCR政府公开转录（2025年6月）",
+          "sourceType": "secondary",
+          "sourceAuthority": "government",
+          "verifiedAt": "2026-10-19",
+          "reviewedAt": "2026-10-19",
+          "status": "reported",
+          "value": "Q3",
+          "category": "TELECOMMUNICATIONS",
+          "categories": [
+            {
+              "category": "COMPUTER SCIENCE, HARDWARE & ARCHITECTURE",
+              "value": "Q3",
+              "page": 128
+            },
+            {
+              "category": "COMPUTER SCIENCE, INFORMATION SYSTEMS",
+              "value": "Q3",
+              "page": 134
+            },
+            {
+              "category": "TELECOMMUNICATIONS",
+              "value": "Q3",
+              "page": 756
+            }
+          ],
+          "page": 756,
+          "issn": "1383-469X",
+          "eissn": "1572-8153",
+          "appliesToName": "MOBILE NETWORKS & APPLICATIONS",
+          "note": "对照完整2024 JCR政府转录，默认电信学优先，保留全部学科；不取最好分区，不冒充最新原库。"
+        },
+        {
+          "system": "cas",
+          "year": 2025,
+          "edition": "2025升级版",
+          "snapshotDate": "2026-09-28",
+          "sourceUrl": "https://cce.ncepu.edu.cn/xzzx/yjsjx1/7632005045644e61a0d12c7bbeff6204.htm",
+          "sourceFileUrl": "https://cce.ncepu.edu.cn/docs//2026-09/0e77800bf2744596a26e43c83acceed0.xlsx",
+          "sourceTitle": "华北电力大学公开的中科院2025升级版转录",
+          "sourceType": "secondary",
+          "sourceAuthority": "university",
+          "verifiedAt": "2026-10-19",
+          "reviewedAt": "2026-10-19",
+          "sheet": "期刊汇总",
+          "status": "reported",
+          "value": "4",
+          "category": "计算机科学",
+          "top": false,
+          "appliesToName": "MOBILE NETWORKS & APPLICATIONS",
+          "issn": "1383-469X",
+          "row": 21687,
+          "minorCategories": [
+            {
+              "category": "COMPUTER SCIENCE, HARDWARE & ARCHITECTURE 计算机：硬件",
+              "quartile": 4
+            },
+            {
+              "category": "COMPUTER SCIENCE, INFORMATION SYSTEMS 计算机：信息系统",
+              "quartile": 4
+            },
+            {
+              "category": "TELECOMMUNICATIONS 电信学",
+              "quartile": 4
+            }
+          ],
+          "note": "按ISSN或正式全名对照高校公开的2025升级版完整转录；保留大类及全部小类，不冒充原库或2026数据。"
+        },
+        {
+          "system": "ccf",
+          "year": 2026,
+          "edition": "第七版公开副本",
+          "sourceUrl": "https://scdm-shu.github.io/ccf/2026-CCF-Ranking.pdf",
+          "sourceTitle": "CCF2026国际会议期刊目录公开副本",
+          "sourceType": "document-copy",
+          "verifiedAt": "2026-10-19",
+          "reviewedAt": "2026-10-19",
+          "reviewedNames": [
+            "Mobile Networks and Applications",
+            "移动网络与应用"
+          ],
+          "status": "reported",
+          "value": "C",
+          "category": "计算机网络",
+          "page": 12,
+          "appliesToName": "Mobile Networks and Applications",
+          "note": "按正式全名或已核实旧名对照CCF2026公开副本；保留副本属性，仅对应正式论文，不适用于附属研讨会及演示。"
+        }
+      ],
+      "catalogScope": "communications",
+      "scopeReviewedAt": "2026-10-19",
+      "submissionStatus": "open",
+      "identityNote": "Springer当前主页同时列SCIE、EI Compendex、SCOPUS，以及投稿入口和2026论文。MONA明确为专题期刊，不把常规全年收稿作为默认模式。",
+      "indexing": {
+        "value": "SCIE",
+        "status": "verified",
+        "year": null,
+        "sourceUrl": "https://link.springer.com/journal/11036",
+        "sourceTitle": "Mobile Networks and Applications索引列表",
+        "sourceType": "publisher",
+        "verifiedAt": "2026-10-19",
+        "reviewedAt": "2026-10-19",
+        "note": "出版方逐刊索引列表明确列出；独立于影响因子、分区与其他数据库，未登录原索引库逐篇检索。"
+      },
+      "otherIndexes": [
+        {
+          "value": "EI",
+          "status": "verified",
+          "year": null,
+          "sourceUrl": "https://link.springer.com/journal/11036",
+          "sourceTitle": "Mobile Networks and Applications索引列表",
+          "sourceType": "publisher",
+          "verifiedAt": "2026-10-19",
+          "reviewedAt": "2026-10-19",
+          "note": "出版方逐刊索引列表明确列出；独立于影响因子、分区与其他数据库，未登录原索引库逐篇检索。"
+        },
+        {
+          "value": "Scopus",
+          "status": "verified",
+          "year": null,
+          "sourceUrl": "https://link.springer.com/journal/11036",
+          "sourceTitle": "Mobile Networks and Applications索引列表",
+          "sourceType": "publisher",
+          "verifiedAt": "2026-10-19",
+          "reviewedAt": "2026-10-19",
+          "note": "出版方逐刊索引列表明确列出；独立于影响因子、分区与其他数据库，未登录原索引库逐篇检索。"
+        }
+      ],
+      "ratingReviewedAt": "2026-10-19"
+    },
+    {
+      "id": "p2pna",
+      "kind": "journal",
+      "short": "P2PNA",
+      "nameEn": "Peer-to-Peer Networking and Applications",
+      "nameZh": "对等网络与应用",
+      "aliases": [],
+      "issn": "1936-6442",
+      "eissn": "1936-6450",
+      "url": "https://link.springer.com/journal/12083",
+      "sourceUrl": "https://link.springer.com/journal/12083",
+      "sourceType": "publisher",
+      "verification": "verified",
+      "verifiedAt": "2026-10-19",
+      "identityReviewedAt": "2026-10-19",
+      "catalogStatus": "current",
+      "areas": [
+        "network",
+        "iot"
+      ],
+      "topics": [
+        "protocols",
+        "edge-cloud",
+        "security",
+        "distributed-learning"
+      ],
+      "topicReviewedAt": "2026-10-19",
+      "publicationType": "研究型期刊",
+      "articleTypes": [
+        "研究论文",
+        "综述论文"
+      ],
+      "submissionMode": "常规论文在线投稿；专题按对应征稿日期",
+      "summary": "对等网络、分布式通信与网络应用。",
+      "assessments": [],
+      "evaluations": [
+        {
+          "system": "jcr",
+          "year": 2024,
+          "releaseYear": 2025,
+          "snapshotDate": "2025-06",
+          "sourceUrl": "https://uefiscdi.gov.ro/resource-865584-JCR_2024.iunie2025.pdf",
+          "sourceTitle": "2024 JCR政府公开转录（2025年6月）",
+          "sourceType": "secondary",
+          "sourceAuthority": "government",
+          "verifiedAt": "2026-10-19",
+          "reviewedAt": "2026-10-19",
+          "status": "reported",
+          "value": "Q3",
+          "category": "TELECOMMUNICATIONS",
+          "categories": [
+            {
+              "category": "COMPUTER SCIENCE, INFORMATION SYSTEMS",
+              "value": "Q3",
+              "page": 134
+            },
+            {
+              "category": "TELECOMMUNICATIONS",
+              "value": "Q3",
+              "page": 756
+            }
+          ],
+          "page": 756,
+          "issn": "1936-6442",
+          "eissn": "1936-6450",
+          "appliesToName": "Peer-to-Peer Networking and Applications",
+          "note": "对照完整2024 JCR政府转录，默认电信学优先，保留全部学科；不取最好分区，不冒充最新原库。"
+        },
+        {
+          "system": "cas",
+          "year": 2025,
+          "edition": "2025升级版",
+          "snapshotDate": "2026-09-28",
+          "sourceUrl": "https://cce.ncepu.edu.cn/xzzx/yjsjx1/7632005045644e61a0d12c7bbeff6204.htm",
+          "sourceFileUrl": "https://cce.ncepu.edu.cn/docs//2026-09/0e77800bf2744596a26e43c83acceed0.xlsx",
+          "sourceTitle": "华北电力大学公开的中科院2025升级版转录",
+          "sourceType": "secondary",
+          "sourceAuthority": "university",
+          "verifiedAt": "2026-10-19",
+          "reviewedAt": "2026-10-19",
+          "sheet": "期刊汇总",
+          "status": "reported",
+          "value": "4",
+          "category": "计算机科学",
+          "top": false,
+          "appliesToName": "Peer-to-Peer Networking and Applications",
+          "issn": "1936-6442",
+          "row": 21716,
+          "minorCategories": [
+            {
+              "category": "COMPUTER SCIENCE, INFORMATION SYSTEMS 计算机：信息系统",
+              "quartile": 4
+            },
+            {
+              "category": "TELECOMMUNICATIONS 电信学",
+              "quartile": 4
+            }
+          ],
+          "note": "按ISSN或正式全名对照高校公开的2025升级版完整转录；保留大类及全部小类，不冒充原库或2026数据。"
+        },
+        {
+          "system": "ccf",
+          "year": 2026,
+          "edition": "第七版公开副本",
+          "sourceUrl": "https://scdm-shu.github.io/ccf/2026-CCF-Ranking.pdf",
+          "sourceTitle": "CCF2026国际会议期刊目录公开副本",
+          "sourceType": "document-copy",
+          "verifiedAt": "2026-10-19",
+          "reviewedAt": "2026-10-19",
+          "reviewedNames": [
+            "Peer-to-Peer Networking and Applications",
+            "对等网络与应用"
+          ],
+          "status": "reported",
+          "value": "C",
+          "category": "计算机网络",
+          "page": 12,
+          "appliesToName": "Peer-to-Peer Networking and Applications",
+          "note": "按正式全名或已核实旧名对照CCF2026公开副本；保留副本属性，仅对应正式论文，不适用于附属研讨会及演示。"
+        }
+      ],
+      "catalogScope": "communications",
+      "scopeReviewedAt": "2026-10-19",
+      "submissionStatus": "open",
+      "identityNote": "Springer当前主页同时列SCIE、EI Compendex、SCOPUS，以及投稿入口和2026论文。",
+      "indexing": {
+        "value": "SCIE",
+        "status": "verified",
+        "year": null,
+        "sourceUrl": "https://link.springer.com/journal/12083",
+        "sourceTitle": "Peer-to-Peer Networking and Applications索引列表",
+        "sourceType": "publisher",
+        "verifiedAt": "2026-10-19",
+        "reviewedAt": "2026-10-19",
+        "note": "出版方逐刊索引列表明确列出；独立于影响因子、分区与其他数据库，未登录原索引库逐篇检索。"
+      },
+      "otherIndexes": [
+        {
+          "value": "EI",
+          "status": "verified",
+          "year": null,
+          "sourceUrl": "https://link.springer.com/journal/12083",
+          "sourceTitle": "Peer-to-Peer Networking and Applications索引列表",
+          "sourceType": "publisher",
+          "verifiedAt": "2026-10-19",
+          "reviewedAt": "2026-10-19",
+          "note": "出版方逐刊索引列表明确列出；独立于影响因子、分区与其他数据库，未登录原索引库逐篇检索。"
+        },
+        {
+          "value": "Scopus",
+          "status": "verified",
+          "year": null,
+          "sourceUrl": "https://link.springer.com/journal/12083",
+          "sourceTitle": "Peer-to-Peer Networking and Applications索引列表",
+          "sourceType": "publisher",
+          "verifiedAt": "2026-10-19",
+          "reviewedAt": "2026-10-19",
+          "note": "出版方逐刊索引列表明确列出；独立于影响因子、分区与其他数据库，未登录原索引库逐篇检索。"
+        }
+      ],
+      "ratingReviewedAt": "2026-10-19"
+    },
+    {
+      "id": "radio-science",
+      "kind": "journal",
+      "short": "Radio Science",
+      "nameEn": "Radio Science",
+      "nameZh": "无线电科学",
+      "aliases": [],
+      "issn": "0048-6604",
+      "eissn": "1944-799X",
+      "url": "https://agupubs.onlinelibrary.wiley.com/journal/1944799x",
+      "sourceUrl": "https://agupubs.onlinelibrary.wiley.com/hub/journal/1944799X/aims-and-scope/read-full-aims-and-scope",
+      "sourceType": "publisher",
+      "verification": "verified",
+      "verifiedAt": "2026-10-19",
+      "identityReviewedAt": "2026-10-19",
+      "catalogStatus": "current",
+      "areas": [
+        "rf",
+        "wireless",
+        "space"
+      ],
+      "topics": [
+        "propagation",
+        "antennas",
+        "microwave",
+        "satellite-ntn"
+      ],
+      "topicReviewedAt": "2026-10-19",
+      "publicationType": "研究型期刊",
+      "articleTypes": [
+        "研究论文"
+      ],
+      "submissionMode": "常规论文在线投稿；专题按对应征稿日期",
+      "summary": "电磁传播、天线、无线电测量与空间无线电系统。",
+      "assessments": [],
+      "evaluations": [
+        {
+          "system": "jcr",
+          "year": 2024,
+          "releaseYear": 2025,
+          "snapshotDate": "2025-06",
+          "sourceUrl": "https://uefiscdi.gov.ro/resource-865584-JCR_2024.iunie2025.pdf",
+          "sourceTitle": "2024 JCR政府公开转录（2025年6月）",
+          "sourceType": "secondary",
+          "sourceAuthority": "government",
+          "verifiedAt": "2026-10-19",
+          "reviewedAt": "2026-10-19",
+          "status": "reported",
+          "value": "Q4",
+          "category": "TELECOMMUNICATIONS",
+          "categories": [
+            {
+              "category": "ASTRONOMY & ASTROPHYSICS",
+              "value": "Q3",
+              "page": 35
+            },
+            {
+              "category": "GEOCHEMISTRY & GEOPHYSICS",
+              "value": "Q3",
+              "page": 303
+            },
+            {
+              "category": "METEOROLOGY & ATMOSPHERIC SCIENCES",
+              "value": "Q4",
+              "page": 513
+            },
+            {
+              "category": "REMOTE SENSING",
+              "value": "Q3",
+              "page": 711
+            },
+            {
+              "category": "TELECOMMUNICATIONS",
+              "value": "Q4",
+              "page": 756
+            }
+          ],
+          "page": 756,
+          "issn": "0048-6604",
+          "eissn": "1944-799X",
+          "appliesToName": "RADIO SCIENCE",
+          "note": "对照完整2024 JCR政府转录，默认电信学优先，保留全部学科；不取最好分区，不冒充最新原库。"
+        },
+        {
+          "system": "cas",
+          "year": 2025,
+          "edition": "2025升级版",
+          "snapshotDate": "2026-09-28",
+          "sourceUrl": "https://cce.ncepu.edu.cn/xzzx/yjsjx1/7632005045644e61a0d12c7bbeff6204.htm",
+          "sourceFileUrl": "https://cce.ncepu.edu.cn/docs//2026-09/0e77800bf2744596a26e43c83acceed0.xlsx",
+          "sourceTitle": "华北电力大学公开的中科院2025升级版转录",
+          "sourceType": "secondary",
+          "sourceAuthority": "university",
+          "verifiedAt": "2026-10-19",
+          "reviewedAt": "2026-10-19",
+          "sheet": "期刊汇总",
+          "status": "reported",
+          "value": "4",
+          "category": "地球科学",
+          "top": false,
+          "appliesToName": "RADIO SCIENCE",
+          "issn": "0048-6604",
+          "row": 14214,
+          "minorCategories": [
+            {
+              "category": "ASTRONOMY & ASTROPHYSICS 天文与天体物理",
+              "quartile": 3
+            },
+            {
+              "category": "GEOCHEMISTRY & GEOPHYSICS 地球化学与地球物理",
+              "quartile": 4
+            },
+            {
+              "category": "METEOROLOGY & ATMOSPHERIC SCIENCES 气象与大气科学",
+              "quartile": 4
+            },
+            {
+              "category": "REMOTE SENSING 遥感",
+              "quartile": 4
+            },
+            {
+              "category": "TELECOMMUNICATIONS 电信学",
+              "quartile": 4
+            }
+          ],
+          "note": "按ISSN或正式全名对照高校公开的2025升级版完整转录；保留大类及全部小类，不冒充原库或2026数据。"
+        },
+        {
+          "system": "ccf",
+          "year": 2026,
+          "edition": "第七版公开副本",
+          "sourceUrl": "https://scdm-shu.github.io/ccf/2026-CCF-Ranking.pdf",
+          "sourceTitle": "CCF2026国际会议期刊目录公开副本",
+          "sourceType": "document-copy",
+          "verifiedAt": "2026-10-19",
+          "reviewedAt": "2026-10-19",
+          "reviewedNames": [
+            "Radio Science",
+            "无线电科学"
+          ],
+          "status": "unlisted",
+          "value": null,
+          "note": "按正式全名与已核实别名对照CCF2026公开副本完整目录未列；不等于低等级，不含另行发布的中文期刊推荐目录。"
+        }
+      ],
+      "catalogScope": "communications",
+      "scopeReviewedAt": "2026-10-19",
+      "submissionStatus": "open",
+      "identityNote": "AGU与URSI共同主办；出版方当前介绍与索引页明确SCIE/COMPENDEX/SCOPUS。",
+      "indexing": {
+        "value": "SCIE",
+        "status": "verified",
+        "year": null,
+        "sourceUrl": "https://agupubs.onlinelibrary.wiley.com/hub/journal/1944799X/aims-and-scope/read-full-aims-and-scope",
+        "sourceTitle": "Radio Science索引列表",
+        "sourceType": "publisher",
+        "verifiedAt": "2026-10-19",
+        "reviewedAt": "2026-10-19",
+        "note": "出版方逐刊索引列表明确列出；独立于影响因子、分区与其他数据库，未登录原索引库逐篇检索。"
+      },
+      "otherIndexes": [
+        {
+          "value": "EI",
+          "status": "verified",
+          "year": null,
+          "sourceUrl": "https://agupubs.onlinelibrary.wiley.com/hub/journal/1944799X/aims-and-scope/read-full-aims-and-scope",
+          "sourceTitle": "Radio Science索引列表",
+          "sourceType": "publisher",
+          "verifiedAt": "2026-10-19",
+          "reviewedAt": "2026-10-19",
+          "note": "出版方逐刊索引列表明确列出；独立于影响因子、分区与其他数据库，未登录原索引库逐篇检索。"
+        },
+        {
+          "value": "Scopus",
+          "status": "verified",
+          "year": null,
+          "sourceUrl": "https://agupubs.onlinelibrary.wiley.com/hub/journal/1944799X/aims-and-scope/read-full-aims-and-scope",
+          "sourceTitle": "Radio Science索引列表",
+          "sourceType": "publisher",
+          "verifiedAt": "2026-10-19",
+          "reviewedAt": "2026-10-19",
+          "note": "出版方逐刊索引列表明确列出；独立于影响因子、分区与其他数据库，未登录原索引库逐篇检索。"
+        }
+      ],
+      "ratingReviewedAt": "2026-10-19"
+    },
+    {
+      "id": "iet-networks",
+      "kind": "journal",
+      "short": "IET Networks",
+      "nameEn": "IET Networks",
+      "nameZh": "IET网络",
+      "aliases": [],
+      "issn": "2047-4954",
+      "eissn": "2047-4962",
+      "url": "https://ietresearch.onlinelibrary.wiley.com/journal/20474962",
+      "sourceUrl": "https://ietresearch.onlinelibrary.wiley.com/hub/journal/20474962/homepage/productinformation.html",
+      "sourceType": "publisher",
+      "verification": "verified",
+      "verifiedAt": "2026-10-19",
+      "identityReviewedAt": "2026-10-19",
+      "catalogStatus": "current",
+      "areas": [
+        "network",
+        "wireless",
+        "iot"
+      ],
+      "topics": [
+        "protocols",
+        "network-management",
+        "mobile-systems",
+        "iot-sensing"
+      ],
+      "topicReviewedAt": "2026-10-19",
+      "publicationType": "研究型期刊",
+      "articleTypes": [
+        "研究论文"
+      ],
+      "submissionMode": "常规论文在线投稿；专题按对应征稿日期",
+      "summary": "网络协议、体系结构、无线与传感网络。",
+      "assessments": [],
+      "evaluations": [
+        {
+          "system": "jcr",
+          "year": 2024,
+          "releaseYear": 2025,
+          "snapshotDate": "2025-06",
+          "sourceUrl": "https://uefiscdi.gov.ro/resource-865584-JCR_2024.iunie2025.pdf",
+          "sourceTitle": "2024 JCR政府公开转录（2025年6月）",
+          "sourceType": "secondary",
+          "sourceAuthority": "government",
+          "verifiedAt": "2026-10-19",
+          "reviewedAt": "2026-10-19",
+          "status": "reported",
+          "value": "Q3",
+          "category": "COMPUTER SCIENCE, INFORMATION SYSTEMS",
+          "categories": [
+            {
+              "category": "COMPUTER SCIENCE, INFORMATION SYSTEMS",
+              "value": "Q3",
+              "page": 131
+            }
+          ],
+          "page": 131,
+          "issn": "2047-4954",
+          "eissn": "2047-4962",
+          "appliesToName": "IET Networks",
+          "note": "对照完整2024 JCR政府转录，默认电信学优先，保留全部学科；不取最好分区，不冒充最新原库。"
+        },
+        {
+          "system": "cas",
+          "year": 2025,
+          "edition": "2025升级版",
+          "snapshotDate": "2026-09-28",
+          "sourceUrl": "https://cce.ncepu.edu.cn/xzzx/yjsjx1/7632005045644e61a0d12c7bbeff6204.htm",
+          "sourceFileUrl": "https://cce.ncepu.edu.cn/docs//2026-09/0e77800bf2744596a26e43c83acceed0.xlsx",
+          "sourceTitle": "华北电力大学公开的中科院2025升级版转录",
+          "sourceType": "secondary",
+          "sourceAuthority": "university",
+          "verifiedAt": "2026-10-19",
+          "reviewedAt": "2026-10-19",
+          "sheet": "期刊汇总",
+          "status": "reported",
+          "value": "4",
+          "category": "计算机科学",
+          "top": false,
+          "appliesToName": "IET Networks",
+          "issn": "2047-4954",
+          "row": 21472,
+          "minorCategories": [
+            {
+              "category": "COMPUTER SCIENCE, INFORMATION SYSTEMS 计算机：信息系统",
+              "quartile": 4
+            }
+          ],
+          "note": "按ISSN或正式全名对照高校公开的2025升级版完整转录；保留大类及全部小类，不冒充原库或2026数据。"
+        },
+        {
+          "system": "ccf",
+          "year": 2026,
+          "edition": "第七版公开副本",
+          "sourceUrl": "https://scdm-shu.github.io/ccf/2026-CCF-Ranking.pdf",
+          "sourceTitle": "CCF2026国际会议期刊目录公开副本",
+          "sourceType": "document-copy",
+          "verifiedAt": "2026-10-19",
+          "reviewedAt": "2026-10-19",
+          "reviewedNames": [
+            "IET Networks",
+            "IET网络"
+          ],
+          "status": "unlisted",
+          "value": null,
+          "note": "按正式全名与已核实别名对照CCF2026公开副本完整目录未列；不等于低等级，不含另行发布的中文期刊推荐目录。"
+        }
+      ],
+      "catalogScope": "communications",
+      "scopeReviewedAt": "2026-10-19",
+      "submissionStatus": "open",
+      "identityNote": "当前出版方逐刊明确ESCI而非SCIE，同时列Compendex及Scopus；作者指南2026-06更新。",
+      "indexing": {
+        "value": "ESCI",
+        "status": "verified",
+        "year": null,
+        "sourceUrl": "https://ietresearch.onlinelibrary.wiley.com/hub/journal/20474962/homepage/productinformation.html",
+        "sourceTitle": "IET Networks索引列表",
+        "sourceType": "publisher",
+        "verifiedAt": "2026-10-19",
+        "reviewedAt": "2026-10-19",
+        "note": "出版方逐刊索引列表明确列出；独立于影响因子、分区与其他数据库，未登录原索引库逐篇检索。"
+      },
+      "otherIndexes": [
+        {
+          "value": "EI",
+          "status": "verified",
+          "year": null,
+          "sourceUrl": "https://ietresearch.onlinelibrary.wiley.com/hub/journal/20474962/homepage/productinformation.html",
+          "sourceTitle": "IET Networks索引列表",
+          "sourceType": "publisher",
+          "verifiedAt": "2026-10-19",
+          "reviewedAt": "2026-10-19",
+          "note": "出版方逐刊索引列表明确列出；独立于影响因子、分区与其他数据库，未登录原索引库逐篇检索。"
+        },
+        {
+          "value": "Scopus",
+          "status": "verified",
+          "year": null,
+          "sourceUrl": "https://ietresearch.onlinelibrary.wiley.com/hub/journal/20474962/homepage/productinformation.html",
+          "sourceTitle": "IET Networks索引列表",
+          "sourceType": "publisher",
+          "verifiedAt": "2026-10-19",
+          "reviewedAt": "2026-10-19",
+          "note": "出版方逐刊索引列表明确列出；独立于影响因子、分区与其他数据库，未登录原索引库逐篇检索。"
+        }
+      ],
+      "submissionSourceUrl": "https://ietresearch.onlinelibrary.wiley.com/hub/journal/20474962/homepage/author-guidelines",
+      "ratingReviewedAt": "2026-10-19"
+    },
+    {
+      "id": "icn",
+      "kind": "journal",
+      "short": "ICN",
+      "nameEn": "Intelligent and Converged Networks",
+      "nameZh": "智能与融合网络",
+      "aliases": [],
+      "issn": null,
+      "eissn": "2708-6240",
+      "url": "https://www.sciopen.com/journal/2708-6240",
+      "sourceUrl": "https://www.sciopen.com/journal/2708-6240",
+      "sourceType": "publisher",
+      "verification": "verified",
+      "verifiedAt": "2026-10-19",
+      "identityReviewedAt": "2026-10-19",
+      "catalogStatus": "current",
+      "areas": [
+        "wireless",
+        "network",
+        "ai",
+        "optical"
+      ],
+      "topics": [
+        "ai-communications",
+        "protocols",
+        "semantic-task",
+        "optical-networks"
+      ],
+      "topicReviewedAt": "2026-10-19",
+      "publicationType": "研究型期刊",
+      "articleTypes": [
+        "研究论文",
+        "综述论文"
+      ],
+      "submissionMode": "常规论文在线投稿；专题按对应征稿日期",
+      "summary": "智能通信、融合网络、光网络与通信系统。",
+      "assessments": [],
+      "evaluations": [
+        {
+          "system": "jcr",
+          "year": 2024,
+          "releaseYear": 2025,
+          "snapshotDate": "2025-06",
+          "sourceUrl": "https://uefiscdi.gov.ro/resource-865584-JCR_2024.iunie2025.pdf",
+          "sourceTitle": "2024 JCR政府公开转录（2025年6月）",
+          "sourceType": "secondary",
+          "sourceAuthority": "government",
+          "verifiedAt": "2026-10-19",
+          "reviewedAt": "2026-10-19",
+          "status": "unlisted",
+          "value": null,
+          "reviewedNames": [
+            "Intelligent and Converged Networks",
+            "智能与融合网络"
+          ],
+          "note": "完整2024 JCR转录按全名/别名及可得ISSN核查，未取得本刊明确JIF分区；只针对该旧年度，不判定当前WoS收录。"
+        },
+        {
+          "system": "cas",
+          "year": 2025,
+          "edition": "2025升级版",
+          "snapshotDate": "2026-09-28",
+          "sourceUrl": "https://cce.ncepu.edu.cn/xzzx/yjsjx1/7632005045644e61a0d12c7bbeff6204.htm",
+          "sourceFileUrl": "https://cce.ncepu.edu.cn/docs//2026-09/0e77800bf2744596a26e43c83acceed0.xlsx",
+          "sourceTitle": "华北电力大学公开的中科院2025升级版转录",
+          "sourceType": "secondary",
+          "sourceAuthority": "university",
+          "verifiedAt": "2026-10-19",
+          "reviewedAt": "2026-10-19",
+          "sheet": "期刊汇总",
+          "status": "unlisted",
+          "value": null,
+          "reviewedNames": [
+            "Intelligent and Converged Networks",
+            "智能与融合网络"
+          ],
+          "note": "已对照完整21772刊的2025转录，正式全名/别名及可得ISSN未列；只代表所查2025表，不判断WoS收录。"
+        },
+        {
+          "system": "ccf",
+          "year": 2026,
+          "edition": "第七版公开副本",
+          "sourceUrl": "https://scdm-shu.github.io/ccf/2026-CCF-Ranking.pdf",
+          "sourceTitle": "CCF2026国际会议期刊目录公开副本",
+          "sourceType": "document-copy",
+          "verifiedAt": "2026-10-19",
+          "reviewedAt": "2026-10-19",
+          "reviewedNames": [
+            "Intelligent and Converged Networks",
+            "智能与融合网络"
+          ],
+          "status": "unlisted",
+          "value": null,
+          "note": "按正式全名与已核实别名对照CCF2026公开副本完整目录未列；不等于低等级，不含另行发布的中文期刊推荐目录。"
+        }
+      ],
+      "catalogScope": "communications",
+      "scopeReviewedAt": "2026-10-19",
+      "submissionStatus": "open",
+      "identityNote": "当前SciOpen期刊页有2026年第7卷第3期、投稿入口及征稿，索引页只明确DOAJ、EI Compendex、INSPEC与Scopus；未声明SCIE/ESCI，不能据此认定非SCI。",
+      "indexing": {
+        "value": null,
+        "status": "unresolved",
+        "year": null,
+        "sourceUrl": "https://www.sciopen.com/journal/join_journal/abstracted_indexed?id=1395371874742476801&issn=2708-6240",
+        "sourceTitle": "Intelligent and Converged Networks索引列表",
+        "sourceType": "publisher",
+        "verifiedAt": "2026-10-19",
+        "reviewedAt": "2026-10-19",
+        "note": "当前SciOpen期刊页有2026年第7卷第3期、投稿入口及征稿，索引页只明确DOAJ、EI Compendex、INSPEC与Scopus；未声明SCIE/ESCI，不能据此认定非SCI。",
+        "attempts": [
+          "读取当前SciOpen期刊主页",
+          "读取出版方完整Abstracting & Indexing页，明确4项但无WoS系列标识",
+          "等待完整JCR与CAS版本匹配；不凭IF推断SCI"
+        ]
+      },
+      "otherIndexes": [
+        {
+          "value": "EI",
+          "status": "verified",
+          "year": null,
+          "sourceUrl": "https://www.sciopen.com/journal/join_journal/abstracted_indexed?id=1395371874742476801&issn=2708-6240",
+          "sourceTitle": "Intelligent and Converged Networks索引列表",
+          "sourceType": "publisher",
+          "verifiedAt": "2026-10-19",
+          "reviewedAt": "2026-10-19",
+          "note": "出版方逐刊索引列表明确列出；独立于影响因子、分区与其他数据库，未登录原索引库逐篇检索。"
+        },
+        {
+          "value": "Scopus",
+          "status": "verified",
+          "year": null,
+          "sourceUrl": "https://www.sciopen.com/journal/join_journal/abstracted_indexed?id=1395371874742476801&issn=2708-6240",
+          "sourceTitle": "Intelligent and Converged Networks索引列表",
+          "sourceType": "publisher",
+          "verifiedAt": "2026-10-19",
+          "reviewedAt": "2026-10-19",
+          "note": "出版方逐刊索引列表明确列出；独立于影响因子、分区与其他数据库，未登录原索引库逐篇检索。"
+        }
+      ],
+      "submissionSourceUrl": "https://www.sciopen.com/journal/join_journal/submission_guidelines?id=1395371874742476801&issn=2708-6240",
+      "ratingReviewedAt": "2026-10-19"
+    },
+    {
+      "id": "tosn",
+      "kind": "journal",
+      "short": "TOSN",
+      "nameEn": "ACM Transactions on Sensor Networks",
+      "nameZh": "ACM传感器网络汇刊",
+      "aliases": [],
+      "issn": "1550-4859",
+      "eissn": "1550-4867",
+      "url": "https://dl.acm.org/journal/tosn",
+      "sourceUrl": "https://www.glsvlsi.hosting.acm.org/archive/glsvlsi21/acm/tosn-cfp.pdf",
+      "sourceType": "publisher",
+      "verification": "verified",
+      "verifiedAt": "2026-10-19",
+      "identityReviewedAt": "2026-10-19",
+      "catalogStatus": "needs-review",
+      "areas": [
+        "iot",
+        "network",
+        "signal"
+      ],
+      "topics": [
+        "iot-sensing",
+        "protocols",
+        "estimation-sync",
+        "security"
+      ],
+      "topicReviewedAt": "2026-10-19",
+      "publicationType": "研究型期刊",
+      "articleTypes": [
+        "研究论文"
+      ],
+      "submissionMode": "官方作者指南入口；本轮无法直接读取当前收稿状态",
+      "summary": "传感器网络、分布式感知及网络系统。",
+      "assessments": [],
+      "evaluations": [
+        {
+          "system": "jcr",
+          "year": 2024,
+          "releaseYear": 2025,
+          "snapshotDate": "2025-06",
+          "sourceUrl": "https://uefiscdi.gov.ro/resource-865584-JCR_2024.iunie2025.pdf",
+          "sourceTitle": "2024 JCR政府公开转录（2025年6月）",
+          "sourceType": "secondary",
+          "sourceAuthority": "government",
+          "verifiedAt": "2026-10-19",
+          "reviewedAt": "2026-10-19",
+          "status": "reported",
+          "value": "Q2",
+          "category": "TELECOMMUNICATIONS",
+          "categories": [
+            {
+              "category": "COMPUTER SCIENCE, INFORMATION SYSTEMS",
+              "value": "Q1",
+              "page": 129
+            },
+            {
+              "category": "TELECOMMUNICATIONS",
+              "value": "Q2",
+              "page": 753
+            }
+          ],
+          "page": 753,
+          "issn": "1550-4859",
+          "eissn": "1550-4867",
+          "appliesToName": "ACM Transactions on Sensor Networks",
+          "note": "对照完整2024 JCR政府转录，默认电信学优先，保留全部学科；不取最好分区，不冒充最新原库。"
+        },
+        {
+          "system": "cas",
+          "year": 2025,
+          "edition": "2025升级版",
+          "snapshotDate": "2026-09-28",
+          "sourceUrl": "https://cce.ncepu.edu.cn/xzzx/yjsjx1/7632005045644e61a0d12c7bbeff6204.htm",
+          "sourceFileUrl": "https://cce.ncepu.edu.cn/docs//2026-09/0e77800bf2744596a26e43c83acceed0.xlsx",
+          "sourceTitle": "华北电力大学公开的中科院2025升级版转录",
+          "sourceType": "secondary",
+          "sourceAuthority": "university",
+          "verifiedAt": "2026-10-19",
+          "reviewedAt": "2026-10-19",
+          "sheet": "期刊汇总",
+          "status": "reported",
+          "value": "4",
+          "category": "计算机科学",
+          "top": false,
+          "appliesToName": "ACM Transactions on Sensor Networks",
+          "issn": "1550-4859",
+          "row": 21334,
+          "minorCategories": [
+            {
+              "category": "COMPUTER SCIENCE, INFORMATION SYSTEMS 计算机：信息系统",
+              "quartile": 4
+            },
+            {
+              "category": "TELECOMMUNICATIONS 电信学",
+              "quartile": 4
+            }
+          ],
+          "note": "按ISSN或正式全名对照高校公开的2025升级版完整转录；保留大类及全部小类，不冒充原库或2026数据。"
+        },
+        {
+          "system": "ccf",
+          "year": 2026,
+          "edition": "第七版公开副本",
+          "sourceUrl": "https://scdm-shu.github.io/ccf/2026-CCF-Ranking.pdf",
+          "sourceTitle": "CCF2026国际会议期刊目录公开副本",
+          "sourceType": "document-copy",
+          "verifiedAt": "2026-10-19",
+          "reviewedAt": "2026-10-19",
+          "reviewedNames": [
+            "ACM Transactions on Sensor Networks",
+            "ACM传感器网络汇刊"
+          ],
+          "status": "reported",
+          "value": "B",
+          "category": "计算机网络",
+          "page": 11,
+          "appliesToName": "ACM Transactions on Sensor Networks",
+          "note": "按正式全名或已核实旧名对照CCF2026公开副本；保留副本属性，仅对应正式论文，不适用于附属研讨会及演示。"
+        }
+      ],
+      "catalogScope": "communications",
+      "scopeReviewedAt": "2026-10-19",
+      "submissionStatus": "unresolved",
+      "identityNote": "已读取ACM主办会议域名归档的官方期刊CFP确认身份和ISSN；当前DL首页、作者指南和ACM期刊总表均403，未绕过。2026研究机构索引目录仍列此刊，但不作为2026实时开放收稿证明。",
+      "indexing": {
+        "value": "SCIE",
+        "status": "reported",
+        "year": 2024,
+        "sourceUrl": "https://uefiscdi.gov.ro/resource-865584-JCR_2024.iunie2025.pdf",
+        "sourceTitle": "2024 JCR 政府公开转录（2025年6月）",
+        "sourceType": "secondary",
+        "verifiedAt": "2026-10-19",
+        "reviewedAt": "2026-10-19",
+        "note": "完整期刊名与ISSN精确匹配，读取edition=SCIE；已核实第129/753页。此为2024版本，非2026原库实时核验。",
+        "releaseYear": 2025,
+        "pages": [
+          129,
+          753
+        ]
+      },
+      "otherIndexes": [
+        {
+          "value": "Scopus",
+          "status": "reported",
+          "year": 2026,
+          "sourceUrl": "https://bib-pubdb1.desy.de/record/21297",
+          "sourceTitle": "德国电子同步加速器研究所DESY期刊目录",
+          "sourceType": "secondary",
+          "verifiedAt": "2026-10-19",
+          "reviewedAt": "2026-10-19",
+          "note": "研究机构图书目录明确SCOPUS，记录更新2026-01-31；非Scopus原库直接核验。",
+          "snapshotDate": "2026-01-31"
+        }
+      ],
+      "submissionSourceUrl": "https://dl.acm.org/journal/tosn/author-guidelines",
+      "identitySupportingSourceUrl": "https://bib-pubdb1.desy.de/record/21297",
+      "ratingReviewedAt": "2026-10-19"
+    },
+    {
+      "id": "vehicular-comms",
+      "kind": "journal",
+      "short": "Vehicular Communications",
+      "nameEn": "Vehicular Communications",
+      "nameZh": "车载通信",
+      "aliases": [],
+      "issn": "2214-2096",
+      "eissn": "2214-210X",
+      "url": "https://www.sciencedirect.com/journal/vehicular-communications",
+      "sourceUrl": "https://apps.lib.whu.edu.cn/ensci/editnew/upfile/730290.pdf",
+      "sourceType": "document-copy",
+      "verification": "verified",
+      "verifiedAt": "2026-10-19",
+      "identityReviewedAt": "2026-10-19",
+      "catalogStatus": "needs-review",
+      "areas": [
+        "iot",
+        "wireless",
+        "network"
+      ],
+      "topics": [
+        "vehicular",
+        "mobile-systems",
+        "protocols",
+        "security"
+      ],
+      "topicReviewedAt": "2026-10-19",
+      "publicationType": "研究型期刊",
+      "articleTypes": [
+        "研究论文",
+        "综述论文"
+      ],
+      "submissionMode": "出版方作者指南入口；本轮无法直接读取当前收稿页面",
+      "summary": "车联网、车路协同及车辆无线网络。",
+      "assessments": [],
+      "evaluations": [
+        {
+          "system": "jcr",
+          "year": 2024,
+          "releaseYear": 2025,
+          "snapshotDate": "2025-06",
+          "sourceUrl": "https://uefiscdi.gov.ro/resource-865584-JCR_2024.iunie2025.pdf",
+          "sourceTitle": "2024 JCR政府公开转录（2025年6月）",
+          "sourceType": "secondary",
+          "sourceAuthority": "government",
+          "verifiedAt": "2026-10-19",
+          "reviewedAt": "2026-10-19",
+          "status": "reported",
+          "value": "Q1",
+          "category": "TELECOMMUNICATIONS",
+          "categories": [
+            {
+              "category": "TELECOMMUNICATIONS",
+              "value": "Q1",
+              "page": 756
+            },
+            {
+              "category": "TRANSPORTATION SCIENCE & TECHNOLOGY",
+              "value": "Q1",
+              "page": 766
+            }
+          ],
+          "page": 756,
+          "issn": "2214-2096",
+          "eissn": "2214-2096",
+          "appliesToName": "Vehicular Communications",
+          "note": "对照完整2024 JCR政府转录，默认电信学优先，保留全部学科；不取最好分区，不冒充最新原库。"
+        },
+        {
+          "system": "cas",
+          "year": 2025,
+          "edition": "2025升级版",
+          "snapshotDate": "2026-09-28",
+          "sourceUrl": "https://cce.ncepu.edu.cn/xzzx/yjsjx1/7632005045644e61a0d12c7bbeff6204.htm",
+          "sourceFileUrl": "https://cce.ncepu.edu.cn/docs//2026-09/0e77800bf2744596a26e43c83acceed0.xlsx",
+          "sourceTitle": "华北电力大学公开的中科院2025升级版转录",
+          "sourceType": "secondary",
+          "sourceAuthority": "university",
+          "verifiedAt": "2026-10-19",
+          "reviewedAt": "2026-10-19",
+          "sheet": "期刊汇总",
+          "status": "reported",
+          "value": "2",
+          "category": "计算机科学",
+          "top": false,
+          "appliesToName": "Vehicular Communications",
+          "issn": "2214-2096",
+          "row": 4295,
+          "minorCategories": [
+            {
+              "category": "TELECOMMUNICATIONS 电信学",
+              "quartile": 2
+            },
+            {
+              "category": "TRANSPORTATION SCIENCE & TECHNOLOGY 运输科技",
+              "quartile": 3
+            }
+          ],
+          "note": "按ISSN或正式全名对照高校公开的2025升级版完整转录；保留大类及全部小类，不冒充原库或2026数据。"
+        },
+        {
+          "system": "ccf",
+          "year": 2026,
+          "edition": "第七版公开副本",
+          "sourceUrl": "https://scdm-shu.github.io/ccf/2026-CCF-Ranking.pdf",
+          "sourceTitle": "CCF2026国际会议期刊目录公开副本",
+          "sourceType": "document-copy",
+          "verifiedAt": "2026-10-19",
+          "reviewedAt": "2026-10-19",
+          "reviewedNames": [
+            "Vehicular Communications",
+            "车载通信"
+          ],
+          "status": "unlisted",
+          "value": null,
+          "note": "按正式全名与已核实别名对照CCF2026公开副本完整目录未列；不等于低等级，不含另行发布的中文期刊推荐目录。"
+        }
+      ],
+      "catalogScope": "communications",
+      "scopeReviewedAt": "2026-10-19",
+      "submissionStatus": "unresolved",
+      "identityNote": "高校保存的Elsevier作者资料确认身份，但内容日期为2018-09-17；当前出版社首页、insights、call-for-papers均403，未绕过，不能把旧资料时间当成2026。2025研究机构目录与2024JCR明确SCIE/Scopus。",
+      "indexing": {
+        "value": "SCIE",
+        "status": "reported",
+        "year": 2024,
+        "sourceUrl": "https://uefiscdi.gov.ro/resource-865584-JCR_2024.iunie2025.pdf",
+        "sourceTitle": "2024 JCR 政府公开转录（2025年6月）",
+        "sourceType": "secondary",
+        "verifiedAt": "2026-10-19",
+        "reviewedAt": "2026-10-19",
+        "note": "完整英文名与ISSN匹配，第756/766页edition=SCIE；旧年度明确索引，与2026当前状态区分。",
+        "releaseYear": 2025,
+        "pages": [
+          756,
+          766
+        ]
+      },
+      "otherIndexes": [
+        {
+          "value": "Scopus",
+          "status": "reported",
+          "year": 2025,
+          "sourceUrl": "https://juser.fz-juelich.de/record/162153",
+          "sourceTitle": "德国于利希研究中心JuSER期刊目录",
+          "sourceType": "secondary",
+          "verifiedAt": "2026-10-19",
+          "reviewedAt": "2026-10-19",
+          "note": "研究机构图书目录明确SCOPUS，记录2025-01-10更新；不是原库实时核验。",
+          "snapshotDate": "2025-01-10"
+        }
+      ],
+      "submissionSourceUrl": "https://www.sciencedirect.com/journal/vehicular-communications/publish/guide-for-authors",
+      "identitySupportingSourceUrl": "https://juser.fz-juelich.de/record/162153",
+      "ratingReviewedAt": "2026-10-19"
+    },
+    {
+      "id": "icct",
+      "kind": "conference",
+      "short": "ICCT",
+      "nameZh": "IEEE 通信技术国际会议",
+      "nameEn": "IEEE International Conference on Communication Technology",
+      "aliases": [
+        "ICCT",
+        "IEEE ICCT",
+        "International Conference on Communications Technology"
+      ],
+      "areas": [
+        "wireless",
+        "network",
+        "signal",
+        "theory"
+      ],
+      "topics": [
+        "physical",
+        "information-theory",
+        "channel-coding",
+        "isac",
+        "protocols",
+        "satellite-ntn",
+        "ai-communications"
+      ],
+      "url": "https://www.ieee-icct.org/",
+      "summary": "无线通信、信息论、通信信号处理及通信网络。",
+      "publicationType": "会议系列",
+      "articleTypes": [
+        "研究论文"
+      ],
+      "submissionMode": "查看具体届次",
+      "sourceUrl": "https://www.ieee-icct.org/",
+      "sourceType": "official",
+      "verification": "verified",
+      "verifiedAt": "2026-10-19",
+      "assessments": [],
+      "evaluations": [
+        {
+          "system": "ccf",
+          "year": 2026,
+          "edition": "第七版公开副本",
+          "sourceUrl": "https://scdm-shu.github.io/ccf/2026-CCF-Ranking.pdf",
+          "sourceTitle": "CCF2026国际会议期刊目录公开副本",
+          "sourceType": "document-copy",
+          "verifiedAt": "2026-10-19",
+          "reviewedAt": "2026-10-19",
+          "reviewedNames": [
+            "IEEE International Conference on Communication Technology",
+            "IEEE 通信技术国际会议",
+            "ICCT",
+            "IEEE ICCT",
+            "International Conference on Communications Technology"
+          ],
+          "status": "unlisted",
+          "value": null,
+          "note": "按正式全名与已核实别名对照CCF2026公开副本完整目录未列；不等于低等级，不含另行发布的中文期刊推荐目录。"
+        },
+        {
+          "system": "core",
+          "year": 2026,
+          "edition": "ICORE2026",
+          "sourceUrl": "https://portal.core.edu.au/conf-ranks/?search=&by=all&source=ICORE2026&sort=atitle",
+          "sourceTitle": "ICORE2026官方完整987条会议库",
+          "sourceType": "official",
+          "verifiedAt": "2026-10-19",
+          "reviewedAt": "2026-10-19",
+          "reviewedNames": [
+            "IEEE International Conference on Communication Technology",
+            "IEEE 通信技术国际会议",
+            "ICCT",
+            "IEEE ICCT",
+            "International Conference on Communications Technology"
+          ],
+          "status": "unlisted",
+          "value": null,
+          "note": "按正式全名与已核实别名对照ICORE2026官方987条完整库未列，不等于低等级；未按同简称的其他会议赋级。"
+        }
+      ],
+      "catalogScope": "communications",
+      "catalogStatus": "current",
+      "scopeReviewedAt": "2026-10-19",
+      "topicReviewedAt": "2026-10-19",
+      "deadlineReviewedAt": "2026-10-19",
+      "ratingReviewedAt": "2026-10-19"
+    },
+    {
+      "id": "wpmc",
+      "kind": "conference",
+      "short": "WPMC",
+      "nameZh": "无线个人多媒体通信国际研讨会",
+      "nameEn": "International Symposium on Wireless Personal Multimedia Communications",
+      "aliases": [
+        "WPMC"
+      ],
+      "areas": [
+        "wireless",
+        "network",
+        "iot",
+        "ai"
+      ],
+      "topics": [
+        "physical",
+        "mimo",
+        "resources",
+        "isac",
+        "satellite-ntn",
+        "ai-communications",
+        "iot-sensing",
+        "quantum"
+      ],
+      "url": "https://wpmc.imd.ufrn.br/",
+      "summary": "无线个人通信、多媒体网络、6G 和绿色连接。",
+      "publicationType": "会议系列",
+      "articleTypes": [
+        "研究论文"
+      ],
+      "submissionMode": "查看具体届次",
+      "sourceUrl": "https://wpmc.imd.ufrn.br/",
+      "sourceType": "official",
+      "verification": "verified",
+      "verifiedAt": "2026-10-19",
+      "assessments": [],
+      "evaluations": [
+        {
+          "system": "ccf",
+          "year": 2026,
+          "edition": "第七版公开副本",
+          "sourceUrl": "https://scdm-shu.github.io/ccf/2026-CCF-Ranking.pdf",
+          "sourceTitle": "CCF2026国际会议期刊目录公开副本",
+          "sourceType": "document-copy",
+          "verifiedAt": "2026-10-19",
+          "reviewedAt": "2026-10-19",
+          "reviewedNames": [
+            "International Symposium on Wireless Personal Multimedia Communications",
+            "无线个人多媒体通信国际研讨会",
+            "WPMC"
+          ],
+          "status": "unlisted",
+          "value": null,
+          "note": "按正式全名与已核实别名对照CCF2026公开副本完整目录未列；不等于低等级，不含另行发布的中文期刊推荐目录。"
+        },
+        {
+          "system": "core",
+          "year": 2026,
+          "edition": "ICORE2026",
+          "sourceUrl": "https://portal.core.edu.au/conf-ranks/?search=&by=all&source=ICORE2026&sort=atitle",
+          "sourceTitle": "ICORE2026官方完整987条会议库",
+          "sourceType": "official",
+          "verifiedAt": "2026-10-19",
+          "reviewedAt": "2026-10-19",
+          "reviewedNames": [
+            "International Symposium on Wireless Personal Multimedia Communications",
+            "无线个人多媒体通信国际研讨会",
+            "WPMC"
+          ],
+          "status": "unlisted",
+          "value": null,
+          "note": "按正式全名与已核实别名对照ICORE2026官方987条完整库未列，不等于低等级；未按同简称的其他会议赋级。"
+        }
+      ],
+      "catalogScope": "communications",
+      "catalogStatus": "current",
+      "scopeReviewedAt": "2026-10-19",
+      "topicReviewedAt": "2026-10-19",
+      "deadlineReviewedAt": "2026-10-19",
+      "ratingReviewedAt": "2026-10-19"
+    },
+    {
+      "id": "apwcs",
+      "kind": "conference",
+      "short": "APWCS",
+      "nameZh": "IEEE VTS 亚太无线通信研讨会",
+      "nameEn": "IEEE VTS Asia Pacific Wireless Communications Symposium",
+      "aliases": [
+        "APWCS",
+        "IEEE VTS APWCS",
+        "Asia Pacific Wireless Communications Symposium"
+      ],
+      "areas": [
+        "wireless",
+        "network",
+        "signal",
+        "iot"
+      ],
+      "topics": [
+        "physical",
+        "mimo",
+        "resources",
+        "propagation",
+        "isac",
+        "vehicular",
+        "satellite-ntn",
+        "ai-communications"
+      ],
+      "url": "https://apwcs2026.org/",
+      "summary": "无线通信、移动网络、车联网和通信信号处理。",
+      "publicationType": "会议系列",
+      "articleTypes": [
+        "研究论文"
+      ],
+      "submissionMode": "查看具体届次",
+      "sourceUrl": "https://apwcs2026.org/",
+      "sourceType": "official",
+      "verification": "verified",
+      "verifiedAt": "2026-10-19",
+      "assessments": [],
+      "evaluations": [
+        {
+          "system": "ccf",
+          "year": 2026,
+          "edition": "第七版公开副本",
+          "sourceUrl": "https://scdm-shu.github.io/ccf/2026-CCF-Ranking.pdf",
+          "sourceTitle": "CCF2026国际会议期刊目录公开副本",
+          "sourceType": "document-copy",
+          "verifiedAt": "2026-10-19",
+          "reviewedAt": "2026-10-19",
+          "reviewedNames": [
+            "IEEE VTS Asia Pacific Wireless Communications Symposium",
+            "IEEE VTS 亚太无线通信研讨会",
+            "APWCS",
+            "IEEE VTS APWCS",
+            "Asia Pacific Wireless Communications Symposium"
+          ],
+          "status": "unlisted",
+          "value": null,
+          "note": "按正式全名与已核实别名对照CCF2026公开副本完整目录未列；不等于低等级，不含另行发布的中文期刊推荐目录。"
+        },
+        {
+          "system": "core",
+          "year": 2026,
+          "edition": "ICORE2026",
+          "sourceUrl": "https://portal.core.edu.au/conf-ranks/?search=&by=all&source=ICORE2026&sort=atitle",
+          "sourceTitle": "ICORE2026官方完整987条会议库",
+          "sourceType": "official",
+          "verifiedAt": "2026-10-19",
+          "reviewedAt": "2026-10-19",
+          "reviewedNames": [
+            "IEEE VTS Asia Pacific Wireless Communications Symposium",
+            "IEEE VTS 亚太无线通信研讨会",
+            "APWCS",
+            "IEEE VTS APWCS",
+            "Asia Pacific Wireless Communications Symposium"
+          ],
+          "status": "unlisted",
+          "value": null,
+          "note": "按正式全名与已核实别名对照ICORE2026官方987条完整库未列，不等于低等级；未按同简称的其他会议赋级。"
+        }
+      ],
+      "catalogScope": "communications",
+      "catalogStatus": "current",
+      "scopeReviewedAt": "2026-10-19",
+      "topicReviewedAt": "2026-10-19",
+      "deadlineReviewedAt": "2026-10-19",
+      "ratingReviewedAt": "2026-10-19"
+    },
+    {
+      "id": "ispcs",
+      "kind": "conference",
+      "short": "ISPCS",
+      "nameZh": "IEEE 测量、控制与通信精密时钟同步国际研讨会",
+      "nameEn": "International IEEE Symposium on Precision Clock Synchronization for Measurement, Control, and Communication",
+      "aliases": [
+        "ISPCS",
+        "IEEE ISPCS",
+        "IEEE International Symposium on Precision Clock Synchronization for Measurement, Control and Communication"
+      ],
+      "areas": [
+        "signal",
+        "network",
+        "iot"
+      ],
+      "topics": [
+        "estimation-sync",
+        "measurement",
+        "industrial",
+        "navigation-pnt"
+      ],
+      "url": "https://ispcs.org/2026/",
+      "summary": "精密时钟同步、网络时间分发及分布式授时应用。",
+      "publicationType": "会议系列",
+      "articleTypes": [
+        "研究论文"
+      ],
+      "submissionMode": "查看具体届次",
+      "sourceUrl": "https://ispcs.org/2026/",
+      "sourceType": "official",
+      "verification": "verified",
+      "verifiedAt": "2026-10-19",
+      "assessments": [],
+      "evaluations": [
+        {
+          "system": "ccf",
+          "year": 2026,
+          "edition": "第七版公开副本",
+          "sourceUrl": "https://scdm-shu.github.io/ccf/2026-CCF-Ranking.pdf",
+          "sourceTitle": "CCF2026国际会议期刊目录公开副本",
+          "sourceType": "document-copy",
+          "verifiedAt": "2026-10-19",
+          "reviewedAt": "2026-10-19",
+          "reviewedNames": [
+            "International IEEE Symposium on Precision Clock Synchronization for Measurement, Control, and Communication",
+            "IEEE 测量、控制与通信精密时钟同步国际研讨会",
+            "ISPCS",
+            "IEEE ISPCS",
+            "IEEE International Symposium on Precision Clock Synchronization for Measurement, Control and Communication"
+          ],
+          "status": "unlisted",
+          "value": null,
+          "note": "按正式全名与已核实别名对照CCF2026公开副本完整目录未列；不等于低等级，不含另行发布的中文期刊推荐目录。"
+        },
+        {
+          "system": "core",
+          "year": 2026,
+          "edition": "ICORE2026",
+          "sourceUrl": "https://portal.core.edu.au/conf-ranks/?search=&by=all&source=ICORE2026&sort=atitle",
+          "sourceTitle": "ICORE2026官方完整987条会议库",
+          "sourceType": "official",
+          "verifiedAt": "2026-10-19",
+          "reviewedAt": "2026-10-19",
+          "reviewedNames": [
+            "International IEEE Symposium on Precision Clock Synchronization for Measurement, Control, and Communication",
+            "IEEE 测量、控制与通信精密时钟同步国际研讨会",
+            "ISPCS",
+            "IEEE ISPCS",
+            "IEEE International Symposium on Precision Clock Synchronization for Measurement, Control and Communication"
+          ],
+          "status": "unlisted",
+          "value": null,
+          "note": "按正式全名与已核实别名对照ICORE2026官方987条完整库未列，不等于低等级；未按同简称的其他会议赋级。"
+        }
+      ],
+      "catalogScope": "communications",
+      "catalogStatus": "current",
+      "scopeReviewedAt": "2026-10-19",
+      "topicReviewedAt": "2026-10-19",
+      "deadlineReviewedAt": "2026-10-19",
+      "ratingReviewedAt": "2026-10-19"
+    },
+    {
+      "id": "iet-radar",
+      "kind": "conference",
+      "short": "IET Radar",
+      "nameZh": "IET 雷达系统国际会议",
+      "nameEn": "IET International Conference on Radar Systems",
+      "aliases": [
+        "IET Radar",
+        "International Conference on Radar Systems"
+      ],
+      "areas": [
+        "signal",
+        "rf",
+        "space"
+      ],
+      "topics": [
+        "radar",
+        "arrays",
+        "isac",
+        "propagation",
+        "imaging",
+        "mimo",
+        "thz",
+        "navigation-pnt"
+      ],
+      "url": "https://radar.theiet.org/",
+      "summary": "雷达系统、阵列处理、通感一体化及雷达成像。",
+      "publicationType": "会议系列",
+      "articleTypes": [
+        "研究论文"
+      ],
+      "submissionMode": "查看具体届次",
+      "sourceUrl": "https://radar.theiet.org/",
+      "sourceType": "official",
+      "verification": "verified",
+      "verifiedAt": "2026-10-19",
+      "assessments": [],
+      "evaluations": [
+        {
+          "system": "ccf",
+          "year": 2026,
+          "edition": "第七版公开副本",
+          "sourceUrl": "https://scdm-shu.github.io/ccf/2026-CCF-Ranking.pdf",
+          "sourceTitle": "CCF2026国际会议期刊目录公开副本",
+          "sourceType": "document-copy",
+          "verifiedAt": "2026-10-19",
+          "reviewedAt": "2026-10-19",
+          "reviewedNames": [
+            "IET International Conference on Radar Systems",
+            "IET 雷达系统国际会议",
+            "IET Radar",
+            "International Conference on Radar Systems"
+          ],
+          "status": "unlisted",
+          "value": null,
+          "note": "按正式全名与已核实别名对照CCF2026公开副本完整目录未列；不等于低等级，不含另行发布的中文期刊推荐目录。"
+        },
+        {
+          "system": "core",
+          "year": 2026,
+          "edition": "ICORE2026",
+          "sourceUrl": "https://portal.core.edu.au/conf-ranks/?search=&by=all&source=ICORE2026&sort=atitle",
+          "sourceTitle": "ICORE2026官方完整987条会议库",
+          "sourceType": "official",
+          "verifiedAt": "2026-10-19",
+          "reviewedAt": "2026-10-19",
+          "reviewedNames": [
+            "IET International Conference on Radar Systems",
+            "IET 雷达系统国际会议",
+            "IET Radar",
+            "International Conference on Radar Systems"
+          ],
+          "status": "unlisted",
+          "value": null,
+          "note": "按正式全名与已核实别名对照ICORE2026官方987条完整库未列，不等于低等级；未按同简称的其他会议赋级。"
+        }
+      ],
+      "catalogScope": "communications",
+      "catalogStatus": "current",
+      "scopeReviewedAt": "2026-10-19",
+      "topicReviewedAt": "2026-10-19",
+      "deadlineReviewedAt": "2026-10-19",
+      "ratingReviewedAt": "2026-10-19"
+    },
+    {
+      "id": "icccas",
+      "kind": "conference",
+      "short": "ICCCAS",
+      "nameZh": "通信、电路与系统国际会议",
+      "nameEn": "International Conference on Communications, Circuits, and Systems",
+      "aliases": [
+        "ICCCAS",
+        "International Conference on Communications, Circuits and Systems"
+      ],
+      "areas": [
+        "wireless",
+        "rf",
+        "signal",
+        "network"
+      ],
+      "topics": [
+        "physical",
+        "microwave",
+        "thz",
+        "satellite-ntn",
+        "ai-communications",
+        "semantic-task",
+        "security"
+      ],
+      "url": "https://icccas.org/index.html",
+      "summary": "通信技术、通信射频电路、信号处理与系统。",
+      "publicationType": "会议系列",
+      "articleTypes": [
+        "研究论文"
+      ],
+      "submissionMode": "查看具体届次",
+      "sourceUrl": "https://icccas.org/index.html",
+      "sourceType": "official",
+      "verification": "verified",
+      "verifiedAt": "2026-10-19",
+      "assessments": [],
+      "evaluations": [
+        {
+          "system": "ccf",
+          "year": 2026,
+          "edition": "第七版公开副本",
+          "sourceUrl": "https://scdm-shu.github.io/ccf/2026-CCF-Ranking.pdf",
+          "sourceTitle": "CCF2026国际会议期刊目录公开副本",
+          "sourceType": "document-copy",
+          "verifiedAt": "2026-10-19",
+          "reviewedAt": "2026-10-19",
+          "reviewedNames": [
+            "International Conference on Communications, Circuits, and Systems",
+            "通信、电路与系统国际会议",
+            "ICCCAS",
+            "International Conference on Communications, Circuits and Systems"
+          ],
+          "status": "unlisted",
+          "value": null,
+          "note": "按正式全名与已核实别名对照CCF2026公开副本完整目录未列；不等于低等级，不含另行发布的中文期刊推荐目录。"
+        },
+        {
+          "system": "core",
+          "year": 2026,
+          "edition": "ICORE2026",
+          "sourceUrl": "https://portal.core.edu.au/conf-ranks/?search=&by=all&source=ICORE2026&sort=atitle",
+          "sourceTitle": "ICORE2026官方完整987条会议库",
+          "sourceType": "official",
+          "verifiedAt": "2026-10-19",
+          "reviewedAt": "2026-10-19",
+          "reviewedNames": [
+            "International Conference on Communications, Circuits, and Systems",
+            "通信、电路与系统国际会议",
+            "ICCCAS",
+            "International Conference on Communications, Circuits and Systems"
+          ],
+          "status": "unlisted",
+          "value": null,
+          "note": "按正式全名与已核实别名对照ICORE2026官方987条完整库未列，不等于低等级；未按同简称的其他会议赋级。"
+        }
+      ],
+      "catalogScope": "communications",
+      "catalogStatus": "current",
+      "scopeReviewedAt": "2026-10-19",
+      "topicReviewedAt": "2026-10-19",
+      "deadlineReviewedAt": "2026-10-19",
+      "ratingReviewedAt": "2026-10-19"
     }
   ],
   "calls": [
@@ -32389,6 +38104,529 @@ window.COMMDDL_DATA = {
           "checkedAt": "2026-10-18"
         }
       ]
+    },
+    {
+      "id": "icct-2026-main",
+      "venueId": "icct",
+      "title": "ICCT 2026 · 主会论文",
+      "titleEn": "IEEE International Conference on Communication Technology 2026",
+      "year": 2026,
+      "kind": "conference",
+      "areas": [
+        "wireless",
+        "network",
+        "signal",
+        "theory"
+      ],
+      "topics": [
+        "physical",
+        "information-theory",
+        "channel-coding",
+        "isac",
+        "protocols",
+        "satellite-ntn",
+        "ai-communications"
+      ],
+      "tags": [],
+      "summary": "无线通信、信息论、通信信号处理及通信网络。",
+      "sourceUrl": "https://www.ieee-icct.org/",
+      "url": "https://www.ieee-icct.org/",
+      "sourceType": "official",
+      "nodes": [
+        {
+          "id": "paper",
+          "label": "全文提交",
+          "type": "paper",
+          "primary": true,
+          "precision": "date",
+          "date": "2026-09-01",
+          "instant": null,
+          "timezone": null,
+          "original": "2026-Sep. 1 — Submission Due — Final Call!!!",
+          "revision": 0,
+          "sourceUrl": "https://www.ieee-icct.org/",
+          "notes": "",
+          "updatedAt": "2026-10-19T00:00:00Z"
+        },
+        {
+          "id": "decision",
+          "label": "录用通知",
+          "type": "decision",
+          "primary": false,
+          "precision": "date",
+          "date": "2026-09-15",
+          "instant": null,
+          "timezone": null,
+          "original": "2026-Sept. 15 — Notification Due",
+          "revision": 0,
+          "sourceUrl": "https://www.ieee-icct.org/",
+          "notes": "",
+          "updatedAt": "2026-10-19T00:00:00Z"
+        },
+        {
+          "id": "final",
+          "label": "终稿提交",
+          "type": "final",
+          "primary": false,
+          "precision": "date",
+          "date": "2026-09-20",
+          "instant": null,
+          "timezone": null,
+          "original": "2026-Sept. 20 — Camera-ready Due",
+          "revision": 0,
+          "sourceUrl": "https://www.ieee-icct.org/",
+          "notes": "",
+          "updatedAt": "2026-10-19T00:00:00Z"
+        }
+      ],
+      "verification": "verified",
+      "verifiedAt": "2026-10-19",
+      "checkedAt": "2026-10-19",
+      "updatedAt": "2026-10-19T00:00:00Z",
+      "status": "announced",
+      "notes": "官网中英文页一致，2026 届投稿和举办日期均已过；本轮未找到该 IEEE 系列的 2027 届官方征稿公告。日期未给钟点或时区，保留日期精度。官网称论文由 IEEE 出版并提交 Ei Compendex、Scopus；不据此认定 2026 每篇论文已完成检索。",
+      "location": "中国·珠海",
+      "eventStart": "2026-10-16",
+      "eventEnd": "2026-10-18",
+      "eventDates": "2026-10-16 / 2026-10-18",
+      "publication": null,
+      "history": []
+    },
+    {
+      "id": "wpmc-2026-main",
+      "venueId": "wpmc",
+      "title": "WPMC 2026 · 主会论文",
+      "titleEn": "International Symposium on Wireless Personal Multimedia Communications 2026",
+      "year": 2026,
+      "kind": "conference",
+      "areas": [
+        "wireless",
+        "network",
+        "iot",
+        "ai"
+      ],
+      "topics": [
+        "physical",
+        "mimo",
+        "resources",
+        "isac",
+        "satellite-ntn",
+        "ai-communications",
+        "iot-sensing",
+        "quantum"
+      ],
+      "tags": [],
+      "summary": "无线个人通信、多媒体网络、6G 和绿色连接。",
+      "sourceUrl": "https://wpmc.imd.ufrn.br/",
+      "url": "https://wpmc.imd.ufrn.br/",
+      "sourceType": "official",
+      "nodes": [
+        {
+          "id": "paper",
+          "label": "全文提交",
+          "type": "paper",
+          "primary": true,
+          "precision": "date",
+          "date": "2026-09-02",
+          "instant": null,
+          "timezone": null,
+          "original": "Full Paper Submission: SEPTEMBER 02 [firm], 2026",
+          "revision": 0,
+          "sourceUrl": "https://wpmc.imd.ufrn.br/",
+          "notes": "首页该日期已加删除线，表示已结束；日期区标题明确 UTC-4，但没有钟点。",
+          "updatedAt": "2026-10-19T00:00:00Z",
+          "sourceTimezone": "UTC-4"
+        },
+        {
+          "id": "decision",
+          "label": "录用通知",
+          "type": "decision",
+          "primary": false,
+          "precision": "date",
+          "date": "2026-09-20",
+          "instant": null,
+          "timezone": null,
+          "original": "Paper Acceptance Notification: SEPTEMBER 20, 2026",
+          "revision": 0,
+          "sourceUrl": "https://wpmc.imd.ufrn.br/",
+          "notes": "",
+          "updatedAt": "2026-10-19T00:00:00Z",
+          "sourceTimezone": "UTC-4"
+        },
+        {
+          "id": "final",
+          "label": "终稿提交",
+          "type": "final",
+          "primary": false,
+          "precision": "date",
+          "date": "2026-10-01",
+          "instant": null,
+          "timezone": null,
+          "original": "Camera-Ready Paper Submission: OCTOBER 1, 2026",
+          "revision": 0,
+          "sourceUrl": "https://wpmc.imd.ufrn.br/",
+          "notes": "",
+          "updatedAt": "2026-10-19T00:00:00Z",
+          "sourceTimezone": "UTC-4"
+        }
+      ],
+      "verification": "verified",
+      "verifiedAt": "2026-10-19",
+      "checkedAt": "2026-10-19",
+      "updatedAt": "2026-10-19T00:00:00Z",
+      "status": "announced",
+      "notes": "2026 第 29 届，官网当前举办地为 Natal（纳塔尔），不沿用 2024 年筹备纪要的 São Paulo（圣保罗）计划。主会投稿及终稿已截止。首页日期区注明 UTC-4 但未给钟点，所以不生成精确倒计时。官网承诺符合要求的论文拟提交 IEEE Xplore；未将出版计划当作 Ei/Scopus 已检索证明。",
+      "location": "巴西·纳塔尔",
+      "eventStart": "2026-11-08",
+      "eventEnd": "2026-11-11",
+      "eventDates": "2026-11-08 / 2026-11-11",
+      "publication": null,
+      "history": []
+    },
+    {
+      "id": "apwcs-2026-main",
+      "venueId": "apwcs",
+      "title": "APWCS 2026 · 主会论文",
+      "titleEn": "IEEE VTS Asia Pacific Wireless Communications Symposium 2026",
+      "year": 2026,
+      "kind": "conference",
+      "areas": [
+        "wireless",
+        "network",
+        "signal",
+        "iot"
+      ],
+      "topics": [
+        "physical",
+        "mimo",
+        "resources",
+        "propagation",
+        "isac",
+        "vehicular",
+        "satellite-ntn",
+        "ai-communications"
+      ],
+      "tags": [],
+      "summary": "无线通信、移动网络、车联网和通信信号处理。",
+      "sourceUrl": "https://apwcs2026.org/assets/apwcs2026_cfp.pdf",
+      "url": "https://apwcs2026.org/",
+      "sourceType": "official",
+      "nodes": [
+        {
+          "id": "paper",
+          "label": "论文提交",
+          "type": "paper",
+          "primary": true,
+          "precision": "date",
+          "date": "2026-06-15",
+          "instant": null,
+          "timezone": null,
+          "original": "Paper submission due: 15 June, 2026",
+          "revision": 0,
+          "sourceUrl": "https://apwcs2026.org/assets/apwcs2026_cfp.pdf",
+          "notes": "",
+          "updatedAt": "2026-10-19T00:00:00Z"
+        },
+        {
+          "id": "decision",
+          "label": "录用通知",
+          "type": "decision",
+          "primary": false,
+          "precision": "date",
+          "date": "2026-07-08",
+          "instant": null,
+          "timezone": null,
+          "original": "Acceptance notification: 8 July, 2026",
+          "revision": 0,
+          "sourceUrl": "https://apwcs2026.org/assets/apwcs2026_cfp.pdf",
+          "notes": "",
+          "updatedAt": "2026-10-19T00:00:00Z"
+        },
+        {
+          "id": "final",
+          "label": "终稿提交",
+          "type": "final",
+          "primary": false,
+          "precision": "date",
+          "date": "2026-07-24",
+          "instant": null,
+          "timezone": null,
+          "original": "Camera-ready paper submission due: 24 July, 2026",
+          "revision": 0,
+          "sourceUrl": "https://apwcs2026.org/assets/apwcs2026_cfp.pdf",
+          "notes": "",
+          "updatedAt": "2026-10-19T00:00:00Z"
+        }
+      ],
+      "verification": "verified",
+      "verifiedAt": "2026-10-19",
+      "checkedAt": "2026-10-19",
+      "updatedAt": "2026-10-19T00:00:00Z",
+      "status": "announced",
+      "notes": "2026 第 22 届已结束。日期来自当前官网链接的 2026 征稿 PDF；投稿系统也明确不再接稿。官网页面底部有 2022 遗留模板文字及旧链接，本条仅使用标明 APWCS 2026 的 PDF 与投稿系统。论文拟提交 IEEE Xplore，不把这一计划视为已完成 Ei/Scopus 检索。",
+      "location": "韩国·首尔·崇实大学",
+      "eventStart": "2026-08-12",
+      "eventEnd": "2026-08-14",
+      "eventDates": "2026-08-12 / 2026-08-14",
+      "publication": null,
+      "history": []
+    },
+    {
+      "id": "ispcs-2026-main",
+      "venueId": "ispcs",
+      "title": "ISPCS 2026 · 主会论文",
+      "titleEn": "International IEEE Symposium on Precision Clock Synchronization for Measurement, Control, and Communication 2026",
+      "year": 2026,
+      "kind": "conference",
+      "areas": [
+        "signal",
+        "network",
+        "iot"
+      ],
+      "topics": [
+        "estimation-sync",
+        "measurement",
+        "industrial",
+        "navigation-pnt"
+      ],
+      "tags": [],
+      "summary": "精密时钟同步、网络时间分发及分布式授时应用。",
+      "sourceUrl": "https://ispcs.org/2026/authors/call-for-papers",
+      "url": "https://ispcs.org/2026/",
+      "sourceType": "official",
+      "nodes": [
+        {
+          "id": "paper",
+          "label": "论文提交",
+          "type": "paper",
+          "primary": true,
+          "precision": "date",
+          "date": "2026-06-14",
+          "instant": null,
+          "timezone": null,
+          "original": "Initial Submission Deadlines: Jun 14, 2026",
+          "revision": 0,
+          "sourceUrl": "https://ispcs.org/2026/authors/call-for-papers",
+          "notes": "",
+          "updatedAt": "2026-10-19T00:00:00Z"
+        },
+        {
+          "id": "decision",
+          "label": "录用通知",
+          "type": "decision",
+          "primary": false,
+          "precision": "date",
+          "date": "2026-08-05",
+          "instant": null,
+          "timezone": null,
+          "original": "Accept/Reject Notification: Aug 05, 2026",
+          "revision": 0,
+          "sourceUrl": "https://ispcs.org/2026/events/acceptreject-notification",
+          "notes": "当前 CFP HTML 与独立日期页面一致；下载 PDF 仍列 6 月 26 日，保留冲突记录。",
+          "updatedAt": "2026-10-19T00:00:00Z"
+        },
+        {
+          "id": "final",
+          "label": "终稿提交",
+          "type": "final",
+          "primary": false,
+          "precision": "date",
+          "date": "2026-08-15",
+          "instant": null,
+          "timezone": null,
+          "original": "Final Submission Deadline: Aug 15, 2026",
+          "revision": 0,
+          "sourceUrl": "https://ispcs.org/2026/events/final-submission-deadline",
+          "notes": "当前 CFP HTML 与独立日期页面一致；下载 PDF 仍列 7 月 31 日，保留冲突记录。",
+          "updatedAt": "2026-10-19T00:00:00Z"
+        }
+      ],
+      "verification": "verified",
+      "verifiedAt": "2026-10-19",
+      "checkedAt": "2026-10-19",
+      "updatedAt": "2026-10-19T00:00:00Z",
+      "status": "announced",
+      "notes": "2026 届已结束。2026-10-05 至 10-09 为官网整周活动日期，包含 IEEE 1588 Plugfest（互操作测试活动），不是断言全部五天均为论文报告。录用/终稿采用当前 CFP HTML 和各自日期页一致的 8 月 5 日/8 月 15 日；下载 PDF 仍为 6 月 26 日/7 月 31 日，官网未解释更改原因。全部仅日期精度。",
+      "location": "意大利·布雷西亚",
+      "eventStart": "2026-10-05",
+      "eventEnd": "2026-10-09",
+      "eventDates": "2026-10-05 / 2026-10-09",
+      "publication": null,
+      "history": []
+    },
+    {
+      "id": "iet-radar-2027-main",
+      "venueId": "iet-radar",
+      "title": "IET Radar 2027 · 主会论文",
+      "titleEn": "IET International Conference on Radar Systems 2027",
+      "year": 2027,
+      "kind": "conference",
+      "areas": [
+        "signal",
+        "rf",
+        "space"
+      ],
+      "topics": [
+        "radar",
+        "arrays",
+        "isac",
+        "propagation",
+        "imaging",
+        "mimo",
+        "thz",
+        "navigation-pnt"
+      ],
+      "tags": [],
+      "summary": "雷达系统、阵列处理、通感一体化及雷达成像。",
+      "sourceUrl": "https://radar.theiet.org/call-for-submissions/",
+      "url": "https://radar.theiet.org/",
+      "sourceType": "official",
+      "nodes": [
+        {
+          "id": "paper",
+          "label": "全文提交",
+          "type": "paper",
+          "primary": true,
+          "precision": "date",
+          "date": "2027-02-22",
+          "instant": null,
+          "timezone": null,
+          "original": "Full paper submission deadline: 22 February 2027",
+          "revision": 0,
+          "sourceUrl": "https://radar.theiet.org/call-for-submissions/",
+          "notes": "",
+          "updatedAt": "2026-10-19T00:00:00Z"
+        },
+        {
+          "id": "decision",
+          "label": "录用通知",
+          "type": "decision",
+          "primary": false,
+          "precision": "date",
+          "date": "2027-05-28",
+          "instant": null,
+          "timezone": null,
+          "original": "Notification of acceptance: 28 May 2027",
+          "revision": 0,
+          "sourceUrl": "https://radar.theiet.org/call-for-submissions/",
+          "notes": "",
+          "updatedAt": "2026-10-19T00:00:00Z"
+        },
+        {
+          "id": "final",
+          "label": "终稿提交",
+          "type": "final",
+          "primary": false,
+          "precision": "date",
+          "date": "2027-09-01",
+          "instant": null,
+          "timezone": null,
+          "original": "Final paper submission deadline for accepted authors: 1 September 2027",
+          "revision": 0,
+          "sourceUrl": "https://radar.theiet.org/call-for-submissions/",
+          "notes": "",
+          "updatedAt": "2026-10-19T00:00:00Z"
+        }
+      ],
+      "verification": "verified",
+      "verifiedAt": "2026-10-19",
+      "checkedAt": "2026-10-19",
+      "updatedAt": "2026-10-19T00:00:00Z",
+      "status": "announced",
+      "notes": "2027 届征稿已开放；主会直接提交全文，不把 2026-11-27 的教程提案截止当作论文截止。官网只列日期，未给钟点/时区。出版计划为 IET Digital Library 和 IEEE Xplore，并拟提交 IET Inspec、Ei Compendex、Scopus，不表示当前已检索。该会议为 IET 英国 Radar 系列，与 IEEE RadarConf 独立。",
+      "location": "英国·格拉斯哥",
+      "eventStart": "2027-10-25",
+      "eventEnd": "2027-10-28",
+      "eventDates": "2027-10-25 / 2027-10-28",
+      "publication": null,
+      "history": []
+    },
+    {
+      "id": "icccas-2027-main",
+      "venueId": "icccas",
+      "title": "ICCCAS 2027 · 主会论文",
+      "titleEn": "International Conference on Communications, Circuits, and Systems 2027",
+      "year": 2027,
+      "kind": "conference",
+      "areas": [
+        "wireless",
+        "rf",
+        "signal",
+        "network"
+      ],
+      "topics": [
+        "physical",
+        "microwave",
+        "thz",
+        "satellite-ntn",
+        "ai-communications",
+        "semantic-task",
+        "security"
+      ],
+      "tags": [],
+      "summary": "通信技术、通信射频电路、信号处理与系统。",
+      "sourceUrl": "https://icccas.org/index.html",
+      "url": "https://icccas.org/index.html",
+      "sourceType": "official",
+      "nodes": [
+        {
+          "id": "paper",
+          "label": "全文提交",
+          "type": "paper",
+          "primary": true,
+          "precision": "date",
+          "date": "2027-01-01",
+          "instant": null,
+          "timezone": null,
+          "original": "Submission Due: Jan. 1, 2027",
+          "revision": 0,
+          "sourceUrl": "https://icccas.org/index.html",
+          "notes": "",
+          "updatedAt": "2026-10-19T00:00:00Z"
+        },
+        {
+          "id": "decision",
+          "label": "录用通知",
+          "type": "decision",
+          "primary": false,
+          "precision": "date",
+          "date": "2027-02-01",
+          "instant": null,
+          "timezone": null,
+          "original": "Notification Date: Feb. 1, 2027",
+          "revision": 0,
+          "sourceUrl": "https://icccas.org/index.html",
+          "notes": "",
+          "updatedAt": "2026-10-19T00:00:00Z"
+        },
+        {
+          "id": "final",
+          "label": "终稿提交",
+          "type": "final",
+          "primary": false,
+          "precision": "unknown",
+          "date": null,
+          "instant": null,
+          "timezone": null,
+          "original": "当前主站及作者指南未列独立 camera-ready 截止日期。",
+          "revision": 0,
+          "sourceUrl": "https://icccas.org/index.html",
+          "notes": "2027-02-25 是注册截止，不能填作终稿日期。",
+          "updatedAt": "2026-10-19T00:00:00Z"
+        }
+      ],
+      "verification": "verified",
+      "verifiedAt": "2026-10-19",
+      "checkedAt": "2026-10-19",
+      "updatedAt": "2026-10-19T00:00:00Z",
+      "status": "announced",
+      "notes": "2027 第 16 届征稿已开放，电子科技大学主办。官网中英文截止、通知、举办日期一致。2027-02-25 为注册截止，终稿未公布；主站注册页另列 3 月 1 日早鸟分界，不影响主会论文截止。中文官网称论文集拟由 IEEE Xplore 收录、提交 Ei/Scopus，英文页表述更保守，仅拟提交主要数据库；据此只记录出版计划，不给 2027 届或整个系列标记已检索。推荐扩展到 SCI 期刊不等于会议论文 SCI 收录。",
+      "location": "中国·成都",
+      "eventStart": "2027-05-21",
+      "eventEnd": "2027-05-24",
+      "eventDates": "2027-05-21 / 2027-05-24",
+      "publication": null,
+      "history": []
     }
   ],
   "sources": [
@@ -32491,6 +38729,206 @@ window.COMMDDL_DATA = {
       "title": "中科院2025升级版 · 华北电力大学公开转录",
       "url": "https://cce.ncepu.edu.cn/xzzx/yjsjx1/7632005045644e61a0d12c7bbeff6204.htm",
       "verifiedAt": "2026-10-18"
+    },
+    {
+      "title": "中国科学：信息科学官方身份来源",
+      "url": "https://cdn.sciengine.com/SSI/issue/54/7",
+      "verifiedAt": "2026-10-19"
+    },
+    {
+      "title": "北京邮电大学学报官方身份来源",
+      "url": "https://cjournal.hep.com.cn/1007-5321/CN/qkjs",
+      "verifiedAt": "2026-10-19"
+    },
+    {
+      "title": "电子科技大学学报官方身份来源",
+      "url": "https://www.juestc.uestc.edu.cn/",
+      "verifiedAt": "2026-10-19"
+    },
+    {
+      "title": "西安电子科技大学学报官方身份来源",
+      "url": "https://journal.xidian.edu.cn/xdxb/CN/1001-2400/home.shtml",
+      "verifiedAt": "2026-10-19"
+    },
+    {
+      "title": "南京邮电大学学报官方身份来源",
+      "url": "https://qks.njupt.edu.cn/2024/0522/c17653a263481/page.htm",
+      "verifiedAt": "2026-10-19"
+    },
+    {
+      "title": "重庆邮电大学学报官方身份来源",
+      "url": "https://cjournal.hep.com.cn/1673-825X/CN/qkjs",
+      "verifiedAt": "2026-10-19"
+    },
+    {
+      "title": "西安邮电大学学报官方身份来源",
+      "url": "https://xayd.cbpt.cnki.net/portal",
+      "verifiedAt": "2026-10-19"
+    },
+    {
+      "title": "电信科学官方身份来源",
+      "url": "https://www.telecomsci.com/zh/info/15311/",
+      "verifiedAt": "2026-10-19"
+    },
+    {
+      "title": "物联网学报官方身份来源",
+      "url": "https://www.wlwxb.com.cn/zh/info/15336/",
+      "verifiedAt": "2026-10-19"
+    },
+    {
+      "title": "网络与信息安全学报官方身份来源",
+      "url": "https://www.cjnis.com.cn/zh/info/15408/",
+      "verifiedAt": "2026-10-19"
+    },
+    {
+      "title": "电波科学学报官方身份来源",
+      "url": "https://www.cie.org.cn/49/4353.html",
+      "verifiedAt": "2026-10-19"
+    },
+    {
+      "title": "系统工程与电子技术官方身份来源",
+      "url": "https://www.sys-ele.com/CN/1001-506X/home.shtml",
+      "verifiedAt": "2026-10-19"
+    },
+    {
+      "title": "雷达学报官方身份来源",
+      "url": "https://radars.ac.cn/news/qikanjianjie.htm",
+      "verifiedAt": "2026-10-19"
+    },
+    {
+      "title": "光通信技术官方身份来源",
+      "url": "https://gtxs.cbpt.cnki.net/EditorD3N/PromptPageInfo.aspx?c=1&t=v",
+      "verifiedAt": "2026-10-19"
+    },
+    {
+      "title": "光通信研究官方身份来源",
+      "url": "https://www.gtxyj.com.cn/zh/info/7697/",
+      "verifiedAt": "2026-10-19"
+    },
+    {
+      "title": "移动通信官方身份来源",
+      "url": "https://ydtx.cbpt.cnki.net/EditorE3N/PromptPageInfo.aspx?c=4&t=v",
+      "verifiedAt": "2026-10-19"
+    },
+    {
+      "title": "电讯技术官方身份来源",
+      "url": "https://castjournals.cast.org.cn/joweb/dxjs/CN/journal",
+      "verifiedAt": "2026-10-19"
+    },
+    {
+      "title": "中兴通讯技术官方身份来源",
+      "url": "https://tech.zte.com.cn/content/zte-tech/about.html",
+      "verifiedAt": "2026-10-19"
+    },
+    {
+      "title": "微波学报官方身份来源",
+      "url": "https://www.cie.org.cn/site/content/4354.html",
+      "verifiedAt": "2026-10-19"
+    },
+    {
+      "title": "太赫兹科学与电子信息学报官方身份来源",
+      "url": "http://www.iaeej.com/xxydzgc/home",
+      "verifiedAt": "2026-10-19"
+    },
+    {
+      "title": "DCN官方身份来源",
+      "url": "https://www.keaipublishing.com/en/journals/digital-communications-and-networks/",
+      "verifiedAt": "2026-10-19"
+    },
+    {
+      "title": "Electronics Letters官方身份来源",
+      "url": "https://ietresearch.onlinelibrary.wiley.com/hub/journal/1350911x/homepage/productinformation.html",
+      "verifiedAt": "2026-10-19"
+    },
+    {
+      "title": "IEICE COM官方身份来源",
+      "url": "https://www.ieice.org/eng/shiori/page2_cs.html",
+      "verifiedAt": "2026-10-19"
+    },
+    {
+      "title": "IEICE Fundamentals官方身份来源",
+      "url": "https://www.ieice.org/eng/shiori/page2_ess.html",
+      "verifiedAt": "2026-10-19"
+    },
+    {
+      "title": "IET Optoelectronics官方身份来源",
+      "url": "https://ietresearch.onlinelibrary.wiley.com/hub/journal/17518776/homepage/productinformation.html",
+      "verifiedAt": "2026-10-19"
+    },
+    {
+      "title": "IJSNet官方身份来源",
+      "url": "https://www.inderscience.com/jhome.php?jcode=IJSNET",
+      "verifiedAt": "2026-10-19"
+    },
+    {
+      "title": "MOTL官方身份来源",
+      "url": "https://onlinelibrary.wiley.com/page/journal/10982760/homepage/productinformation.html",
+      "verifiedAt": "2026-10-19"
+    },
+    {
+      "title": "MONA官方身份来源",
+      "url": "https://link.springer.com/journal/11036",
+      "verifiedAt": "2026-10-19"
+    },
+    {
+      "title": "P2PNA官方身份来源",
+      "url": "https://link.springer.com/journal/12083",
+      "verifiedAt": "2026-10-19"
+    },
+    {
+      "title": "Radio Science官方身份来源",
+      "url": "https://agupubs.onlinelibrary.wiley.com/hub/journal/1944799X/aims-and-scope/read-full-aims-and-scope",
+      "verifiedAt": "2026-10-19"
+    },
+    {
+      "title": "IET Networks官方身份来源",
+      "url": "https://ietresearch.onlinelibrary.wiley.com/hub/journal/20474962/homepage/productinformation.html",
+      "verifiedAt": "2026-10-19"
+    },
+    {
+      "title": "ICN官方身份来源",
+      "url": "https://www.sciopen.com/journal/2708-6240",
+      "verifiedAt": "2026-10-19"
+    },
+    {
+      "title": "TOSN官方身份来源",
+      "url": "https://www.glsvlsi.hosting.acm.org/archive/glsvlsi21/acm/tosn-cfp.pdf",
+      "verifiedAt": "2026-10-19"
+    },
+    {
+      "title": "Vehicular Communications官方身份来源",
+      "url": "https://apps.lib.whu.edu.cn/ensci/editnew/upfile/730290.pdf",
+      "verifiedAt": "2026-10-19"
+    },
+    {
+      "title": "ICCT官方身份来源",
+      "url": "https://www.ieee-icct.org/",
+      "verifiedAt": "2026-10-19"
+    },
+    {
+      "title": "WPMC官方身份来源",
+      "url": "https://wpmc.imd.ufrn.br/",
+      "verifiedAt": "2026-10-19"
+    },
+    {
+      "title": "APWCS官方身份来源",
+      "url": "https://apwcs2026.org/",
+      "verifiedAt": "2026-10-19"
+    },
+    {
+      "title": "ISPCS官方身份来源",
+      "url": "https://ispcs.org/2026/",
+      "verifiedAt": "2026-10-19"
+    },
+    {
+      "title": "IET Radar官方身份来源",
+      "url": "https://radar.theiet.org/",
+      "verifiedAt": "2026-10-19"
+    },
+    {
+      "title": "ICCCAS官方身份来源",
+      "url": "https://icccas.org/index.html",
+      "verifiedAt": "2026-10-19"
     }
   ],
   "topics": [

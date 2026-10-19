@@ -1,6 +1,6 @@
-# v0.5.0 目录与证据覆盖
+# v0.7.0 目录与证据覆盖
 
-整理日期：2026-10-18。通信目录 108 本期刊、136 个会议系列；历史参考库 39 项。9 个方向、37 个主题。具体活动另计 80 项。
+整理日期：2026-10-19。通信目录 142 本期刊、142 个会议系列；历史参考库 39 项。9 个方向、37 个主题。具体活动另计 86 项。
 
 ## 评级版本
 
@@ -15,15 +15,15 @@
 
 | 代码 | 方向 | 期刊 | 会议 |
 |---|---|---:|---:|
-| WC | 无线通信 | 48 | 78 |
-| SP | 信号处理与通感 | 41 | 63 |
-| IT | 信息论与编码 | 15 | 31 |
-| NET | 网络与移动系统 | 47 | 84 |
-| OPT | 光通信与光网络 | 13 | 15 |
-| EM | 天线射频与电磁 | 23 | 25 |
-| SAT | 卫星与空天地通信 | 14 | 17 |
-| IoT | 物联网与车联网 | 16 | 33 |
-| AI | 智能通信与网络 | 15 | 19 |
+| WC | 无线通信 | 76 | 82 |
+| SP | 信号处理与通感 | 57 | 68 |
+| IT | 信息论与编码 | 17 | 32 |
+| NET | 网络与移动系统 | 70 | 89 |
+| OPT | 光通信与光网络 | 21 | 15 |
+| EM | 天线射频与电磁 | 36 | 27 |
+| SAT | 卫星与空天地通信 | 21 | 18 |
+| IoT | 物联网与车联网 | 25 | 36 |
+| AI | 智能通信与网络 | 20 | 20 |
 
 ## 通信期刊
 
@@ -48,7 +48,7 @@
 | TMC | IEEE Transactions on Mobile Computing | SCIE 2026-09-15（一手来源）；JCR 2025 Q1（一手来源）；中科院 2025 1（副本／转录）；CCF 2026 A（副本／转录） | [身份来源](https://www.comsoc.org/publications/journals) · 2026-10-17 |
 | JOCN | Journal of Optical Communications and Networking | SCIE 2024（副本／转录）；JCR 2024 Q2（副本／转录）；中科院 2025 2（副本／转录）；CCF 2026 —（所查版本未列入） | [身份来源](https://www.comsoc.org/publications/journals) · 2026-10-17 |
 | JLT | Journal of Lightwave Technology | SCIE 2026-09-15（一手来源）；JCR 2025 Q1（一手来源）；中科院 2025 2（副本／转录）；CCF 2026 —（所查版本未列入） | [身份来源](https://www.comsoc.org/publications/journals) · 2026-10-17 |
-| JCIN | Journal of Communications and Information Networks | WoS （已复查，证据不足）；EI；JCR 2024 —（所查版本未列入）；中科院 2025 —（所查版本未列入）；CCF 2026 —（所查版本未列入） | [身份来源](https://www.ptpress.com.cn/about/) · 2026-10-18 |
+| JCIN | Journal of Communications and Information Networks | WoS （已复查，证据不足）；EI；CSCD 2025—2026 · 核心库；JCR 2024 —（所查版本未列入）；中科院 2025 —（所查版本未列入）；CCF 2026 —（所查版本未列入） | [身份来源](https://www.ptpress.com.cn/about/) · 2026-10-18 |
 | TSP | IEEE Transactions on Signal Processing | SCIE 2026-09-15（一手来源）；JCR 2025 Q1（一手来源）；中科院 2025 2（副本／转录）；CCF 2026 —（所查版本未列入） | [身份来源](https://signalprocessingsociety.org/publications-resources/publications) · 2026-10-17 |
 | SPL | IEEE Signal Processing Letters | SCIE 2026-09-15（一手来源）；JCR 2025 Q2（一手来源）；中科院 2025 3（副本／转录）；CCF 2026 C（副本／转录） | [身份来源](https://signalprocessingsociety.org/publications-resources/publications) · 2026-10-17 |
 | JSTSP | IEEE Journal of Selected Topics in Signal Processing | SCIE 2026-09-15（一手来源）；JCR 2025 Q1（一手来源）；中科院 2025 2（副本／转录）；CCF 2026 —（所查版本未列入） | [身份来源](https://signalprocessingsociety.org/publications-resources/publications) · 2026-10-17 |
@@ -92,33 +92,33 @@
 | JETCAS | IEEE Journal on Emerging and Selected Topics in Circuits and Systems | SCIE 2026-09-15（一手来源）；JCR 2025 Q2（一手来源）；中科院 2025 2（副本／转录）；CCF 2026 —（所查版本未列入） | [身份来源](https://ieee-cas.org/publications) · 2026-10-18 |
 | Optics Express | Optics Express | SCIE 2024（副本／转录）；JCR 2024 Q2（副本／转录）；中科院 2025 2（副本／转录）；CCF 2026 —（所查版本未列入） | [身份来源](https://opg.optica.org/) · 2026-10-18 |
 | Optics Letters | Optics Letters | SCIE 2024（副本／转录）；JCR 2024 Q2（副本／转录）；中科院 2025 2（副本／转录）；CCF 2026 —（所查版本未列入） | [身份来源](https://opg.optica.org/) · 2026-10-18 |
-| Photonics Research | Photonics Research | SCIE 2024（副本／转录）；JCR 2024 Q1（副本／转录）；中科院 2025 1（副本／转录）；CCF 2026 —（所查版本未列入） | [身份来源](https://opg.optica.org/) · 2026-10-18 |
+| Photonics Research | Photonics Research | SCIE 2024（副本／转录）；CSCD 2025—2026 · 核心库；JCR 2024 Q1（副本／转录）；中科院 2025 1（副本／转录）；CCF 2026 —（所查版本未列入） | [身份来源](https://opg.optica.org/) · 2026-10-18 |
 | Wireless Networks | Wireless Networks | SCIE （一手来源）；JCR 2024 Q3（副本／转录）；中科院 2025 4（副本／转录）；CCF 2026 C（副本／转录） | [身份来源](https://link.springer.com/journal/11276) · 2026-10-18 |
 | GPS Solutions | GPS Solutions | SCIE （一手来源）；JCR 2024 Q2（副本／转录）；中科院 2025 1（副本／转录）；CCF 2026 —（所查版本未列入） | [身份来源](https://link.springer.com/journal/10291) · 2026-10-18 |
 | NAVIGATION | NAVIGATION: Journal of the Institute of Navigation | SCIE （一手来源）；JCR 2024 Q3（副本／转录）；中科院 2025 3（副本／转录）；CCF 2026 —（所查版本未列入） | [身份来源](https://www.ion.org/navi/index.cfm) · 2026-10-18 |
-| China Communications | China Communications | SCIE 2024（副本／转录）；JCR 2024 Q2（副本／转录）；中科院 2025 4（副本／转录）；CCF 2026 —（所查版本未列入） | [身份来源](https://www.comsoc.org/publications/magazines) · 2026-10-18 |
-| 通信学报 | Journal on Communications | WoS （已复查，证据不足）；EI；JCR 2024 —（所查版本未列入）；中科院 2025 —（所查版本未列入）；CCF 2026 —（所查版本未列入） | [身份来源](https://www.china-cic.cn/upload/202305/09/14da867935254d8193efe21e6aa56636.pdf) · 2026-10-18 |
+| China Communications | China Communications | SCIE 2024（副本／转录）；CSCD 2025—2026 · 核心库；JCR 2024 Q2（副本／转录）；中科院 2025 4（副本／转录）；CCF 2026 —（所查版本未列入） | [身份来源](https://www.comsoc.org/publications/magazines) · 2026-10-18 |
+| 通信学报 | Journal on Communications | WoS （已复查，证据不足）；EI；CSCD 2025—2026 · 核心库；JCR 2024 —（所查版本未列入）；中科院 2025 —（所查版本未列入）；CCF 2026 —（所查版本未列入） | [身份来源](https://www.china-cic.cn/upload/202305/09/14da867935254d8193efe21e6aa56636.pdf) · 2026-10-18 |
 | Signal Processing | Signal Processing | SCIE 2024（副本／转录）；JCR 2024 Q2（副本／转录）；中科院 2025 2（副本／转录）；CCF 2026 C（副本／转录） | [身份来源](https://shop.elsevier.com/journals/signal-processing/0165-1684) · 2026-10-18 |
 | PHYCOM | Physical Communication | SCIE 2024（副本／转录）；JCR 2024 Q3（副本／转录）；中科院 2025 4（副本／转录）；CCF 2026 —（所查版本未列入） | [身份来源](https://shop.elsevier.com/journals/physical-communication/1874-4907) · 2026-10-18 |
 | Computer Networks | Computer Networks | SCIE 2024（副本／转录）；JCR 2024 Q2（副本／转录）；中科院 2025 3（副本／转录）；CCF 2026 B（副本／转录） | [身份来源](https://shop.elsevier.com/journals/computer-networks/1389-1286) · 2026-10-18 |
 | JSAIT | IEEE Journal on Selected Areas in Information Theory | ESCI 2026-09-15（一手来源）；JCR 2025 Q3（一手来源）；中科院 2025 —（所查版本未列入）；CCF 2026 —（所查版本未列入） | [身份来源](https://www.itsoc.org/jsait) · 2026-10-18 |
-| IET Communications | IET Communications | SCIE （一手来源）；JCR 2024 Q3（副本／转录）；中科院 2025 4（副本／转录）；CCF 2026 C（副本／转录） | [身份来源](https://ietresearch.onlinelibrary.wiley.com/hub/journal/17518636/homepage/productinformation.html) · 2026-10-18 |
+| IET Communications | IET Communications | SCIE （一手来源）；EI；Scopus；JCR 2024 Q3（副本／转录）；中科院 2025 4（副本／转录）；CCF 2026 C（副本／转录） | [身份来源](https://ietresearch.onlinelibrary.wiley.com/hub/journal/17518636/homepage/productinformation.html) · 2026-10-18 |
 | Computer Communications | Computer Communications | SCIE 2024（副本／转录）；JCR 2024 Q2（副本／转录）；中科院 2025 3（副本／转录）；CCF 2026 C（副本／转录） | [身份来源](https://www.sciencedirect.com/browse/calls-for-papers?subject=computer-networks-and-communications) · 2026-10-18 |
-| 电子学报 | Acta Electronica Sinica | WoS （已复查，证据不足）；EI；Scopus；CSCD；北大核心；JCR 2024 —（所查版本未列入）；中科院 2025 —（所查版本未列入）；CCF 2026 —（所查版本未列入） | [身份来源](https://www.cie.org.cn/site/content/4349.html) · 2026-10-18 |
-| 电子与信息学报 | Journal of Electronics and Information Technology | ESCI 2026（一手来源）；EI；JCR 2024 —（所查版本未列入）；中科院 2025 3（副本／转录）；CCF 2026 —（所查版本未列入） | [身份来源](https://www.jeit.ac.cn/) · 2026-10-18 |
-| 信号处理 | Journal of Signal Processing | WoS （已复查，证据不足）；CSCD；北大核心；CSTPCD；JCR 2024 —（所查版本未列入）；中科院 2025 —（所查版本未列入）；CCF 2026 —（所查版本未列入） | [身份来源](https://coaa.istic.ac.cn/openjournal/periodical/xhcl?searchWord=undefined&tabId=article) · 2026-10-18 |
-| SCIS | SCIENCE CHINA Information Sciences | SCIE （一手来源）；EI；Scopus；CSCD；JCR 2024 Q1（副本／转录）；中科院 2025 1（副本／转录）；CCF 2026 A（副本／转录） | [身份来源](https://link.springer.com/journal/11432) · 2026-10-18 |
+| 电子学报 | Acta Electronica Sinica | WoS （已复查，证据不足）；EI；Scopus；北大核心；CSCD 2025—2026 · 核心库；JCR 2024 —（所查版本未列入）；中科院 2025 —（所查版本未列入）；CCF 2026 —（所查版本未列入） | [身份来源](https://www.cie.org.cn/site/content/4349.html) · 2026-10-18 |
+| 电子与信息学报 | Journal of Electronics and Information Technology | ESCI 2026（一手来源）；EI；CSCD 2025—2026 · 核心库；JCR 2024 —（所查版本未列入）；中科院 2025 3（副本／转录）；CCF 2026 —（所查版本未列入） | [身份来源](https://www.jeit.ac.cn/) · 2026-10-18 |
+| 信号处理 | Journal of Signal Processing | WoS （已复查，证据不足）；北大核心；科技核心；CSCD 2025—2026 · 核心库；JCR 2024 —（所查版本未列入）；中科院 2025 —（所查版本未列入）；CCF 2026 —（所查版本未列入） | [身份来源](https://coaa.istic.ac.cn/openjournal/periodical/xhcl?searchWord=undefined&tabId=article) · 2026-10-18 |
+| SCIS | SCIENCE CHINA Information Sciences | SCIE （一手来源）；EI；Scopus；CSCD 2025—2026 · 核心库；JCR 2024 Q1（副本／转录）；中科院 2025 1（副本／转录）；CCF 2026 A（副本／转录） | [身份来源](https://link.springer.com/journal/11432) · 2026-10-18 |
 | IEEE Access | IEEE Access | SCIE 2026-09-15（一手来源）；JCR 2025 Q2（一手来源）；中科院 2025 4（副本／转录）；CCF 2026 —（所查版本未列入） | [身份来源](https://open.ieee.org/wp-content/uploads/IEEE-Title-List-September-2026.pdf) · 2026-10-18 |
 | JWCN | Journal on Wireless Communications and Networking | SCIE （一手来源）；JCR 2024 Q3（副本／转录）；CCF 2026 —（所查版本未列入）；中科院 2025 4（副本／转录） | [身份来源](https://link.springer.com/journal/13638) · 2026-10-18 |
 | JASP | Journal on Advances in Signal Processing | SCIE （一手来源）；JCR 2024 Q3（副本／转录）；CCF 2026 —（所查版本未列入）；中科院 2025 4（副本／转录） | [身份来源](https://link.springer.com/journal/13634) · 2026-10-18 |
 | WPC | Wireless Personal Communications | SCIE （一手来源）；JCR 2024 Q3（副本／转录）；CCF 2026 —（所查版本未列入）；中科院 2025 4（副本／转录） | [身份来源](https://link.springer.com/journal/11277) · 2026-10-18 |
 | Telecommunication Systems | Telecommunication Systems | SCIE （一手来源）；JCR 2024 Q3（副本／转录）；CCF 2026 —（所查版本未列入）；中科院 2025 4（副本／转录） | [身份来源](https://link.springer.com/journal/11235) · 2026-10-18 |
-| IET SP | IET Signal Processing | SCIE （一手来源）；JCR 2024 Q4（副本／转录）；CCF 2026 C（副本／转录）；中科院 2025 4（副本／转录） | [身份来源](https://ietresearch.onlinelibrary.wiley.com/page/journal/ietsp/homepage/productinformation.html) · 2026-10-18 |
-| IET RSN | IET Radar, Sonar & Navigation | SCIE （一手来源）；JCR 2024 Q3（副本／转录）；CCF 2026 —（所查版本未列入）；中科院 2025 4（副本／转录） | [身份来源](https://ietresearch.onlinelibrary.wiley.com/hub/journal/17518792/homepage/productinformation.html) · 2026-10-18 |
-| IET MAP | IET Microwaves, Antennas & Propagation | SCIE （一手来源）；JCR 2024 Q4（副本／转录）；CCF 2026 —（所查版本未列入）；中科院 2025 4（副本／转录） | [身份来源](https://ietresearch.onlinelibrary.wiley.com/hub/journal/17518733/homepage/productinformation.html) · 2026-10-18 |
+| IET SP | IET Signal Processing | SCIE （一手来源）；EI；Scopus；JCR 2024 Q4（副本／转录）；CCF 2026 C（副本／转录）；中科院 2025 4（副本／转录） | [身份来源](https://ietresearch.onlinelibrary.wiley.com/page/journal/ietsp/homepage/productinformation.html) · 2026-10-18 |
+| IET RSN | IET Radar, Sonar & Navigation | SCIE （一手来源）；EI；Scopus；JCR 2024 Q3（副本／转录）；CCF 2026 —（所查版本未列入）；中科院 2025 4（副本／转录） | [身份来源](https://ietresearch.onlinelibrary.wiley.com/hub/journal/17518792/homepage/productinformation.html) · 2026-10-18 |
+| IET MAP | IET Microwaves, Antennas & Propagation | SCIE （一手来源）；EI；Scopus；JCR 2024 Q4（副本／转录）；CCF 2026 —（所查版本未列入）；中科院 2025 4（副本／转录） | [身份来源](https://ietresearch.onlinelibrary.wiley.com/hub/journal/17518733/homepage/productinformation.html) · 2026-10-18 |
 | IJCS | International Journal of Communication Systems | SCIE （一手来源）；JCR 2024 Q3（副本／转录）；CCF 2026 —（所查版本未列入）；中科院 2025 4（副本／转录） | [身份来源](https://onlinelibrary.wiley.com/page/journal/10991131/homepage/productinformation.html) · 2026-10-18 |
 | ETT | Transactions on Emerging Telecommunications Technologies | SCIE 2024（副本／转录）；JCR 2024 Q3（副本／转录）；CCF 2026 —（所查版本未列入）；中科院 2025 4（副本／转录） | [身份来源](https://onlinelibrary.wiley.com/page/journal/21613915/homepage/homepageb.html) · 2026-10-18 |
-| EITEE | ENGINEERING Information Technology & Electronic Engineering | SCIE （一手来源）；JCR 2024 Q2（副本／转录）；CCF 2026 —（所查版本未列入）；中科院 2025 3（副本／转录） | [身份来源](https://jzus.zju.edu.cn/current_c.php) · 2026-10-18 |
+| EITEE | ENGINEERING Information Technology & Electronic Engineering | SCIE （一手来源）；CSCD 2025—2026 · 核心库；JCR 2024 Q2（副本／转录）；CCF 2026 —（所查版本未列入）；中科院 2025 3（副本／转录） | [身份来源](https://jzus.zju.edu.cn/current_c.php) · 2026-10-18 |
 | Proc. IEEE | Proceedings of the IEEE | SCIE 2025（一手来源）；JCR 2025 Q1（一手来源）；CCF 2026 —（所查版本未列入）；中科院 2025 1（副本／转录） | [身份来源](https://proceedingsoftheieee.ieee.org/) · 2026-10-18 |
 | JOE | IEEE Journal of Oceanic Engineering | SCIE 2025（一手来源）；JCR 2025 Q1（一手来源）；CCF 2026 —（所查版本未列入）；中科院 2025 3（副本／转录） | [身份来源](https://ieeeoes.org/publication/ieee-joe/) · 2026-10-18 |
 | IEEE SysJ | IEEE Systems Journal | SCIE 2025（一手来源）；JCR 2025 Q2（一手来源）；CCF 2026 —（所查版本未列入）；中科院 2025 3（副本／转录） | [身份来源](https://ieeesystemscouncil.org/publication/ieee-systems-journal) · 2026-10-18 |
@@ -137,6 +137,40 @@
 | NanoComNet | Nano Communication Networks | SCIE 2024（副本／转录）；JCR 2024 Q2（副本／转录）；CCF 2026 —（所查版本未列入）；中科院 2025 4（副本／转录） | [身份来源](https://shop.elsevier.com/subjects/journals/physical-sciences-and-engineering/computer-science/computer-systems-organization/computer-communication-networks) · 2026-10-18 |
 | DSP | Digital Signal Processing | SCIE 2024（副本／转录）；JCR 2024 Q2（副本／转录）；CCF 2026 —（所查版本未列入）；中科院 2025 3（副本／转录） | [身份来源](https://shop.elsevier.com/subjects/journals/physical-sciences-and-engineering/computer-science/computer-systems-organization/computer-communication-networks) · 2026-10-18 |
 | AEU | AEU - International Journal of Electronics and Communications | SCIE 2024（副本／转录）；JCR 2024 Q2（副本／转录）；CCF 2026 —（所查版本未列入）；中科院 2025 3（副本／转录） | [身份来源](https://libraryguides.itu.int/az/databases) · 2026-10-18 |
+| 中国科学：信息科学 | SCIENTIA SINICA Informationis | WoS （已复查，证据不足）；CSCD 2025—2026 · 核心库；JCR 2024 —（所查版本未列入）；中科院 2025 —（所查版本未列入）；CCF 2026 —（所查版本未列入） | [身份来源](https://cdn.sciengine.com/SSI/issue/54/7) · 2026-10-19 |
+| 北京邮电大学学报 | Journal of Beijing University of Posts and Telecommunications | WoS （已复查，证据不足）；EI；Scopus；北大核心；CSCD 2025—2026 · 扩展库；JCR 2024 —（所查版本未列入）；中科院 2025 —（所查版本未列入）；CCF 2026 —（所查版本未列入） | [身份来源](https://cjournal.hep.com.cn/1007-5321/CN/qkjs) · 2026-10-19 |
+| 电子科技大学学报 | Journal of University of Electronic Science and Technology of China | WoS （已复查，证据不足）；EI；Scopus；北大核心；CSCD 2025—2026 · 核心库；JCR 2024 —（所查版本未列入）；中科院 2025 —（所查版本未列入）；CCF 2026 —（所查版本未列入） | [身份来源](https://www.juestc.uestc.edu.cn/) · 2026-10-19 |
+| 西安电子科技大学学报 | Journal of Xidian University | WoS （已复查，证据不足）；EI；Scopus；CSCD 2025—2026 · 核心库；JCR 2024 —（所查版本未列入）；中科院 2025 —（所查版本未列入）；CCF 2026 —（所查版本未列入） | [身份来源](https://journal.xidian.edu.cn/xdxb/CN/1001-2400/home.shtml) · 2026-10-19 |
+| 南京邮电大学学报 | Journal of Nanjing University of Posts and Telecommunications (Natural Science Edition) | WoS （已复查，证据不足）；Scopus；北大核心 2023年第10版；科技核心；JCR 2024 —（所查版本未列入）；中科院 2025 —（所查版本未列入）；CCF 2026 —（所查版本未列入） | [身份来源](https://qks.njupt.edu.cn/2024/0522/c17653a263481/page.htm) · 2026-10-19 |
+| 重庆邮电大学学报 | Journal of Chongqing University of Posts and Telecommunications (Natural Science Edition) | WoS （已复查，证据不足）；北大核心；CSCD 2025—2026 · 扩展库；JCR 2024 —（所查版本未列入）；中科院 2025 —（所查版本未列入）；CCF 2026 —（所查版本未列入） | [身份来源](https://cjournal.hep.com.cn/1673-825X/CN/qkjs) · 2026-10-19 |
+| 西安邮电大学学报 | Journal of Xi'an University of Posts and Telecommunications | WoS （已复查，证据不足）；JCR 2024 —（所查版本未列入）；中科院 2025 —（所查版本未列入）；CCF 2026 —（所查版本未列入） | [身份来源](https://xayd.cbpt.cnki.net/portal) · 2026-10-19 |
+| 电信科学 | Telecommunications Science | WoS （已复查，证据不足）；北大核心 2023年第10版；科技核心 2009—2023官方介绍范围；JCR 2024 —（所查版本未列入）；中科院 2025 —（所查版本未列入）；CCF 2026 —（所查版本未列入） | [身份来源](https://www.telecomsci.com/zh/info/15311/) · 2026-10-19 |
+| 物联网学报 | Chinese Journal on Internet of Things | WoS （已复查，证据不足）；JCR 2024 —（所查版本未列入）；中科院 2025 —（所查版本未列入）；CCF 2026 —（所查版本未列入） | [身份来源](https://www.wlwxb.com.cn/zh/info/15336/) · 2026-10-19 |
+| 网络与信息安全学报 | Chinese Journal of Network and Information Security | WoS （已复查，证据不足）；Scopus；JCR 2024 —（所查版本未列入）；中科院 2025 —（所查版本未列入）；CCF 2026 —（所查版本未列入） | [身份来源](https://www.cjnis.com.cn/zh/info/15408/) · 2026-10-19 |
+| 电波科学学报 | Chinese Journal of Radio Science | WoS （已复查，证据不足）；Scopus；北大核心 2023年第10版；科技核心；CSCD 2025—2026 · 扩展库；JCR 2024 —（所查版本未列入）；中科院 2025 —（所查版本未列入）；CCF 2026 —（所查版本未列入） | [身份来源](https://www.cie.org.cn/49/4353.html) · 2026-10-19 |
+| 系统工程与电子技术 | Systems Engineering and Electronics | WoS （已复查，证据不足）；EI；Scopus；CSCD 2025—2026 · 核心库；JCR 2024 —（所查版本未列入）；中科院 2025 —（所查版本未列入）；CCF 2026 —（所查版本未列入） | [身份来源](https://www.sys-ele.com/CN/1001-506X/home.shtml) · 2026-10-19 |
+| 雷达学报 | Journal of Radars | WoS （已复查，证据不足）；EI；Scopus；北大核心 2023年第10版；CSCD 2025—2026 · 核心库；JCR 2024 —（所查版本未列入）；中科院 2025 —（所查版本未列入）；CCF 2026 —（所查版本未列入） | [身份来源](https://radars.ac.cn/news/qikanjianjie.htm) · 2026-10-19 |
+| 光通信技术 | Optical Communication Technology | WoS （已复查，证据不足）；北大核心 2023年第10版；JCR 2024 —（所查版本未列入）；中科院 2025 —（所查版本未列入）；CCF 2026 —（所查版本未列入） | [身份来源](https://gtxs.cbpt.cnki.net/EditorD3N/PromptPageInfo.aspx?c=1&t=v) · 2026-10-19 |
+| 光通信研究 | Study on Optical Communications | WoS （已复查，证据不足）；JCR 2024 —（所查版本未列入）；中科院 2025 —（所查版本未列入）；CCF 2026 —（所查版本未列入） | [身份来源](https://www.gtxyj.com.cn/zh/info/7697/) · 2026-10-19 |
+| 移动通信 | Mobile Communications | WoS （已复查，证据不足）；JCR 2024 —（所查版本未列入）；中科院 2025 —（所查版本未列入）；CCF 2026 —（所查版本未列入） | [身份来源](https://ydtx.cbpt.cnki.net/EditorE3N/PromptPageInfo.aspx?c=4&t=v) · 2026-10-19 |
+| 电讯技术 | Telecommunication Engineering | WoS （已复查，证据不足）；北大核心；科技核心；JCR 2024 —（所查版本未列入）；中科院 2025 —（所查版本未列入）；CCF 2026 —（所查版本未列入） | [身份来源](https://castjournals.cast.org.cn/joweb/dxjs/CN/journal) · 2026-10-19 |
+| 中兴通讯技术 | ZTE Technology Journal | WoS （已复查，证据不足）；北大核心 2023年第10版；JCR 2024 —（所查版本未列入）；中科院 2025 —（所查版本未列入）；CCF 2026 —（所查版本未列入） | [身份来源](https://tech.zte.com.cn/content/zte-tech/about.html) · 2026-10-19 |
+| 微波学报 | Journal of Microwaves | WoS （已复查，证据不足）；北大核心；科技核心；CSCD 2025—2026 · 扩展库；JCR 2024 —（所查版本未列入）；中科院 2025 —（所查版本未列入）；CCF 2026 —（所查版本未列入） | [身份来源](https://www.cie.org.cn/site/content/4354.html) · 2026-10-19 |
+| 太赫兹科学与电子信息学报 | Journal of Terahertz Science and Electronic Information Technology | WoS （已复查，证据不足）；北大核心 2017；科技核心；JCR 2024 —（所查版本未列入）；中科院 2025 —（所查版本未列入）；CCF 2026 —（所查版本未列入） | [身份来源](http://www.iaeej.com/xxydzgc/home) · 2026-10-19 |
+| DCN | Digital Communications and Networks | SCIE （一手来源）；Scopus；CSCD 2025—2026 · 核心库；JCR 2024 Q1（副本／转录）；中科院 2025 2（副本／转录）；CCF 2026 —（所查版本未列入） | [身份来源](https://www.keaipublishing.com/en/journals/digital-communications-and-networks/) · 2026-10-19 |
+| Electronics Letters | Electronics Letters | SCIE （一手来源）；EI；Scopus；JCR 2024 Q4（副本／转录）；中科院 2025 4（副本／转录）；CCF 2026 —（所查版本未列入） | [身份来源](https://ietresearch.onlinelibrary.wiley.com/hub/journal/1350911x/homepage/productinformation.html) · 2026-10-19 |
+| IEICE COM | IEICE Transactions on Communications | SCIE （一手来源）；Scopus 2025；JCR 2024 Q4（副本／转录）；中科院 2025 4（副本／转录）；CCF 2026 —（所查版本未列入） | [身份来源](https://www.ieice.org/eng/shiori/page2_cs.html) · 2026-10-19 |
+| IEICE Fundamentals | IEICE Transactions on Fundamentals of Electronics, Communications and Computer Sciences | SCIE （一手来源）；Scopus 2025；JCR 2024 Q4（副本／转录）；中科院 2025 4（副本／转录）；CCF 2026 —（所查版本未列入） | [身份来源](https://www.ieice.org/eng/shiori/page2_ess.html) · 2026-10-19 |
+| IET Optoelectronics | IET Optoelectronics | SCIE （一手来源）；EI；Scopus；JCR 2024 Q4（副本／转录）；中科院 2025 4（副本／转录）；CCF 2026 —（所查版本未列入） | [身份来源](https://ietresearch.onlinelibrary.wiley.com/hub/journal/17518776/homepage/productinformation.html) · 2026-10-19 |
+| IJSNet | International Journal of Sensor Networks | SCIE （一手来源）；EI；Scopus；JCR 2024 Q4（副本／转录）；中科院 2025 4（副本／转录）；CCF 2026 —（所查版本未列入） | [身份来源](https://www.inderscience.com/jhome.php?jcode=IJSNET) · 2026-10-19 |
+| MOTL | Microwave and Optical Technology Letters | SCIE （一手来源）；EI；Scopus；JCR 2024 Q4（副本／转录）；中科院 2025 4（副本／转录）；CCF 2026 —（所查版本未列入） | [身份来源](https://onlinelibrary.wiley.com/page/journal/10982760/homepage/productinformation.html) · 2026-10-19 |
+| MONA | Mobile Networks and Applications | SCIE （一手来源）；EI；Scopus；JCR 2024 Q3（副本／转录）；中科院 2025 4（副本／转录）；CCF 2026 C（副本／转录） | [身份来源](https://link.springer.com/journal/11036) · 2026-10-19 |
+| P2PNA | Peer-to-Peer Networking and Applications | SCIE （一手来源）；EI；Scopus；JCR 2024 Q3（副本／转录）；中科院 2025 4（副本／转录）；CCF 2026 C（副本／转录） | [身份来源](https://link.springer.com/journal/12083) · 2026-10-19 |
+| Radio Science | Radio Science | SCIE （一手来源）；EI；Scopus；JCR 2024 Q4（副本／转录）；中科院 2025 4（副本／转录）；CCF 2026 —（所查版本未列入） | [身份来源](https://agupubs.onlinelibrary.wiley.com/hub/journal/1944799X/aims-and-scope/read-full-aims-and-scope) · 2026-10-19 |
+| IET Networks | IET Networks | ESCI （一手来源）；EI；Scopus；JCR 2024 Q3（副本／转录）；中科院 2025 4（副本／转录）；CCF 2026 —（所查版本未列入） | [身份来源](https://ietresearch.onlinelibrary.wiley.com/hub/journal/20474962/homepage/productinformation.html) · 2026-10-19 |
+| ICN | Intelligent and Converged Networks | WoS （已复查，证据不足）；EI；Scopus；JCR 2024 —（所查版本未列入）；中科院 2025 —（所查版本未列入）；CCF 2026 —（所查版本未列入） | [身份来源](https://www.sciopen.com/journal/2708-6240) · 2026-10-19 |
+| TOSN | ACM Transactions on Sensor Networks | SCIE 2024（副本／转录）；Scopus 2026；JCR 2024 Q2（副本／转录）；中科院 2025 4（副本／转录）；CCF 2026 B（副本／转录） | [身份来源](https://www.glsvlsi.hosting.acm.org/archive/glsvlsi21/acm/tosn-cfp.pdf) · 2026-10-19 |
+| Vehicular Communications | Vehicular Communications | SCIE 2024（副本／转录）；Scopus 2025；JCR 2024 Q1（副本／转录）；中科院 2025 2（副本／转录）；CCF 2026 —（所查版本未列入） | [身份来源](https://apps.lib.whu.edu.cn/ensci/editnew/upfile/730290.pdf) · 2026-10-19 |
 
 ## 通信会议
 
@@ -278,6 +312,12 @@
 | EuMC | European Microwave Conference | CCF 2026 —（所查版本未列入）；ICORE 2026 —（所查版本未列入） | [身份来源](https://www.eumwa.org/en/publications/proceedings.html) · 2026-10-18 |
 | EuMIC | European Microwave Integrated Circuits Conference | CCF 2026 —（所查版本未列入）；ICORE 2026 —（所查版本未列入） | [身份来源](https://www.eumwa.org/en/publications/proceedings.html) · 2026-10-18 |
 | EuRAD | European Radar Conference | CCF 2026 —（所查版本未列入）；ICORE 2026 —（所查版本未列入） | [身份来源](https://www.eumwa.org/en/publications/proceedings.html) · 2026-10-18 |
+| ICCT | IEEE International Conference on Communication Technology | CCF 2026 —（所查版本未列入）；ICORE 2026 —（所查版本未列入） | [身份来源](https://www.ieee-icct.org/) · 2026-10-19 |
+| WPMC | International Symposium on Wireless Personal Multimedia Communications | CCF 2026 —（所查版本未列入）；ICORE 2026 —（所查版本未列入） | [身份来源](https://wpmc.imd.ufrn.br/) · 2026-10-19 |
+| APWCS | IEEE VTS Asia Pacific Wireless Communications Symposium | CCF 2026 —（所查版本未列入）；ICORE 2026 —（所查版本未列入） | [身份来源](https://apwcs2026.org/) · 2026-10-19 |
+| ISPCS | International IEEE Symposium on Precision Clock Synchronization for Measurement, Control, and Communication | CCF 2026 —（所查版本未列入）；ICORE 2026 —（所查版本未列入） | [身份来源](https://ispcs.org/2026/) · 2026-10-19 |
+| IET Radar | IET International Conference on Radar Systems | CCF 2026 —（所查版本未列入）；ICORE 2026 —（所查版本未列入） | [身份来源](https://radar.theiet.org/) · 2026-10-19 |
+| ICCCAS | International Conference on Communications, Circuits, and Systems | CCF 2026 —（所查版本未列入）；ICORE 2026 —（所查版本未列入） | [身份来源](https://icccas.org/index.html) · 2026-10-19 |
 
 ## 历史参考库
 
