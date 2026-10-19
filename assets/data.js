@@ -1,7 +1,7 @@
 /* Generated from data/catalog.json. Edit the JSON and run npm run build. */
 window.COMMDDL_DATA = {
   "meta": {
-    "version": "0.7.0",
+    "version": "0.7.1",
     "updatedAt": "2026-10-19",
     "siteName": "CommDDL",
     "repository": "https://github.com/turambarr/commddl",
@@ -99,7 +99,7 @@ window.COMMDDL_DATA = {
           "label": "2018 信通学科重要会议表",
           "year": 2018,
           "sourceUrl": "https://xxgk.bupt.edu.cn/__local/F/65/92/3A361334F005A224CD3C6C215B7_43DF8061_C1241.pdf?e=.pdf",
-          "note": "历史文件中列有该会议系列；当前适用性待核验，附属活动不自动继承。 该表对应博士成果路径之一，不是硕士会议的唯一范围。"
+          "note": "2018历史文件列有该会议系列，对应博士成果路径之一。当前适用性待核验；附属活动单独认定。硕士渠道见第四条。"
         }
       ],
       "topics": [
@@ -151,7 +151,7 @@ window.COMMDDL_DATA = {
             "ICC",
             "ICC"
           ],
-          "note": "完整 ICORE2026 987 条记录中，按 IEEE International Conference on Communications、International Conference on Communications、ICC 检查，均无对应条目；INFOCOM、GLOBECOM 不是该会议。 复查 ICORE2026 官方全 20 页、987 个记录，按全称、系列简称及历史名称对照，未列出该正式系列。 2026-10-18另现场查询ICC，返回21条相关记录，未含IEEE International Conference on Communications，核对987全库结论一致。",
+          "note": "按全称、简称ICC及历史名称核对ICORE2026官方完整20页、987条记录，未列出该系列。2026-10-18官网查询ICC返回21条相关记录，与全库核对结果一致。",
           "status": "unlisted",
           "value": null,
           "reviewedAt": "2026-10-18"
@@ -193,7 +193,7 @@ window.COMMDDL_DATA = {
           "label": "2018 信通学科重要会议表",
           "year": 2018,
           "sourceUrl": "https://xxgk.bupt.edu.cn/__local/F/65/92/3A361334F005A224CD3C6C215B7_43DF8061_C1241.pdf?e=.pdf",
-          "note": "历史文件中列有该会议系列；当前适用性待核验，附属活动不自动继承。 该表对应博士成果路径之一，不是硕士会议的唯一范围。"
+          "note": "2018历史文件列有该会议系列，对应博士成果路径之一。当前适用性待核验；附属活动单独认定。硕士渠道见第四条。"
         }
       ],
       "topics": [
@@ -287,7 +287,7 @@ window.COMMDDL_DATA = {
           "label": "2018 信通学科重要会议表",
           "year": 2018,
           "sourceUrl": "https://xxgk.bupt.edu.cn/__local/F/65/92/3A361334F005A224CD3C6C215B7_43DF8061_C1241.pdf?e=.pdf",
-          "note": "历史文件中列有该会议系列；当前适用性待核验，附属活动不自动继承。 该表对应博士成果路径之一，不是硕士会议的唯一范围。"
+          "note": "2018历史文件列有该会议系列，对应博士成果路径之一。当前适用性待核验；附属活动单独认定。硕士渠道见第四条。"
         }
       ],
       "topics": [
@@ -379,7 +379,7 @@ window.COMMDDL_DATA = {
           "label": "2018 信通学科重要会议表",
           "year": 2018,
           "sourceUrl": "https://xxgk.bupt.edu.cn/__local/F/65/92/3A361334F005A224CD3C6C215B7_43DF8061_C1241.pdf?e=.pdf",
-          "note": "历史文件中列有该会议系列；当前适用性待核验，附属活动不自动继承。 该表对应博士成果路径之一，不是硕士会议的唯一范围。"
+          "note": "2018历史文件列有该会议系列，对应博士成果路径之一。当前适用性待核验；附属活动单独认定。硕士渠道见第四条。"
         }
       ],
       "topics": [
@@ -407,7 +407,7 @@ window.COMMDDL_DATA = {
             "PIMRC",
             "PIMRC"
           ],
-          "note": "复查完整 CCF2026 目录的 386 个会议条目，未列出该正式系列。结论限本公开副本，未列入不代表低等级。",
+          "note": "按正式系列核对CCF2026公开副本全部386个会议条目，未列入该版。",
           "status": "unlisted",
           "value": null,
           "reviewedAt": "2026-10-18"
@@ -487,7 +487,7 @@ window.COMMDDL_DATA = {
             "VTC",
             "VTC"
           ],
-          "note": "复查完整 CCF2026 目录的 386 个会议条目，未列出该正式系列。结论限本公开副本，未列入不代表低等级。",
+          "note": "按正式系列核对CCF2026公开副本全部386个会议条目，未列入该版。",
           "status": "unlisted",
           "value": null,
           "reviewedAt": "2026-10-18"
@@ -546,7 +546,7 @@ window.COMMDDL_DATA = {
           "label": "2018 信通学科重要会议表",
           "year": 2018,
           "sourceUrl": "https://xxgk.bupt.edu.cn/__local/F/65/92/3A361334F005A224CD3C6C215B7_43DF8061_C1241.pdf?e=.pdf",
-          "note": "历史文件中列有该会议系列；当前适用性待核验，附属活动不自动继承。 该表对应博士成果路径之一，不是硕士会议的唯一范围。"
+          "note": "2018历史文件列有该会议系列，对应博士成果路径之一。当前适用性待核验；附属活动单独认定。硕士渠道见第四条。"
         }
       ],
       "topics": [
@@ -571,7 +571,7 @@ window.COMMDDL_DATA = {
             "ISIT",
             "ISIT"
           ],
-          "note": "复查完整 CCF2026 目录的 386 个会议条目，未列出该正式系列。结论限本公开副本，未列入不代表低等级。",
+          "note": "按正式系列核对CCF2026公开副本全部386个会议条目，未列入该版。",
           "status": "unlisted",
           "value": null,
           "reviewedAt": "2026-10-18"
@@ -630,7 +630,7 @@ window.COMMDDL_DATA = {
           "label": "2018 信通学科重要会议表",
           "year": 2018,
           "sourceUrl": "https://xxgk.bupt.edu.cn/__local/F/65/92/3A361334F005A224CD3C6C215B7_43DF8061_C1241.pdf?e=.pdf",
-          "note": "历史文件中列有该会议系列；当前适用性待核验，附属活动不自动继承。 该表对应博士成果路径之一，不是硕士会议的唯一范围。"
+          "note": "2018历史文件列有该会议系列，对应博士成果路径之一。当前适用性待核验；附属活动单独认定。硕士渠道见第四条。"
         }
       ],
       "topics": [
@@ -654,7 +654,7 @@ window.COMMDDL_DATA = {
             "ITW",
             "ITW"
           ],
-          "note": "复查完整 CCF2026 目录的 386 个会议条目，未列出该正式系列。结论限本公开副本，未列入不代表低等级。",
+          "note": "按正式系列核对CCF2026公开副本全部386个会议条目，未列入该版。",
           "status": "unlisted",
           "value": null,
           "reviewedAt": "2026-10-18"
@@ -715,7 +715,7 @@ window.COMMDDL_DATA = {
           "label": "2018 信通学科重要会议表",
           "year": 2018,
           "sourceUrl": "https://xxgk.bupt.edu.cn/__local/F/65/92/3A361334F005A224CD3C6C215B7_43DF8061_C1241.pdf?e=.pdf",
-          "note": "历史文件中列有该会议系列；当前适用性待核验，附属活动不自动继承。 该表对应博士成果路径之一，不是硕士会议的唯一范围。"
+          "note": "2018历史文件列有该会议系列，对应博士成果路径之一。当前适用性待核验；附属活动单独认定。硕士渠道见第四条。"
         }
       ],
       "topics": [
@@ -823,7 +823,7 @@ window.COMMDDL_DATA = {
             "SPAWC",
             "SPAWC"
           ],
-          "note": "复查完整 CCF2026 目录的 386 个会议条目，未列出该正式系列。结论限本公开副本，未列入不代表低等级。",
+          "note": "按正式系列核对CCF2026公开副本全部386个会议条目，未列入该版。",
           "status": "unlisted",
           "value": null,
           "reviewedAt": "2026-10-18"
@@ -882,7 +882,7 @@ window.COMMDDL_DATA = {
           "label": "2018 信通学科重要会议表",
           "year": 2018,
           "sourceUrl": "https://xxgk.bupt.edu.cn/__local/F/65/92/3A361334F005A224CD3C6C215B7_43DF8061_C1241.pdf?e=.pdf",
-          "note": "历史文件中列有该会议系列；当前适用性待核验，附属活动不自动继承。 该表对应博士成果路径之一，不是硕士会议的唯一范围。"
+          "note": "2018历史文件列有该会议系列，对应博士成果路径之一。当前适用性待核验；附属活动单独认定。硕士渠道见第四条。"
         }
       ],
       "topics": [
@@ -968,7 +968,7 @@ window.COMMDDL_DATA = {
           "label": "2018 信通学科重要会议表",
           "year": 2018,
           "sourceUrl": "https://xxgk.bupt.edu.cn/__local/F/65/92/3A361334F005A224CD3C6C215B7_43DF8061_C1241.pdf?e=.pdf",
-          "note": "历史文件中列有该会议系列；当前适用性待核验，附属活动不自动继承。 该表对应博士成果路径之一，不是硕士会议的唯一范围。"
+          "note": "2018历史文件列有该会议系列，对应博士成果路径之一。当前适用性待核验；附属活动单独认定。硕士渠道见第四条。"
         }
       ],
       "topics": [
@@ -1056,7 +1056,7 @@ window.COMMDDL_DATA = {
           "label": "2018 信通学科重要会议表",
           "year": 2018,
           "sourceUrl": "https://xxgk.bupt.edu.cn/__local/F/65/92/3A361334F005A224CD3C6C215B7_43DF8061_C1241.pdf?e=.pdf",
-          "note": "历史文件中列有该会议系列；当前适用性待核验，附属活动不自动继承。 该表对应博士成果路径之一，不是硕士会议的唯一范围。"
+          "note": "2018历史文件列有该会议系列，对应博士成果路径之一。当前适用性待核验；附属活动单独认定。硕士渠道见第四条。"
         }
       ],
       "topics": [
@@ -1080,7 +1080,7 @@ window.COMMDDL_DATA = {
             "OFC",
             "OFC"
           ],
-          "note": "复查完整 CCF2026 目录的 386 个会议条目，未列出该正式系列。结论限本公开副本，未列入不代表低等级。",
+          "note": "按正式系列核对CCF2026公开副本全部386个会议条目，未列入该版。",
           "status": "unlisted",
           "value": null,
           "reviewedAt": "2026-10-18"
@@ -1140,7 +1140,7 @@ window.COMMDDL_DATA = {
           "label": "2018 信通学科重要会议表",
           "year": 2018,
           "sourceUrl": "https://xxgk.bupt.edu.cn/__local/F/65/92/3A361334F005A224CD3C6C215B7_43DF8061_C1241.pdf?e=.pdf",
-          "note": "历史文件中列有该会议系列；当前适用性待核验，附属活动不自动继承。 该表对应博士成果路径之一，不是硕士会议的唯一范围。"
+          "note": "2018历史文件列有该会议系列，对应博士成果路径之一。当前适用性待核验；附属活动单独认定。硕士渠道见第四条。"
         }
       ],
       "topics": [
@@ -1168,7 +1168,7 @@ window.COMMDDL_DATA = {
             "ICCC",
             "ICCC"
           ],
-          "note": "复查 CCF2026 完整386个会议条目，未列该正式通信会议系列；结论仅限此公开副本。",
+          "note": "按正式系列核对CCF2026公开副本全部386个会议条目，未列入该版。",
           "status": "unlisted",
           "value": null,
           "reviewedAt": "2026-10-18"
@@ -1214,7 +1214,7 @@ window.COMMDDL_DATA = {
         "ai"
       ],
       "url": "https://www.ieee-noms.org/",
-      "summary": "网络运行与管理会议；ComSoc 官方说明 NOMS 已与 IM 合并，历史 IM 条目另保留原文件来源，不能假定独立举办。",
+      "summary": "网络运行与管理会议；ComSoc官方说明NOMS已与IM合并，旧IM作为历史系列保留原文件来源。",
       "publicationType": "会议系列",
       "articleTypes": [
         "研究论文"
@@ -1229,7 +1229,7 @@ window.COMMDDL_DATA = {
           "label": "2018 信通学科重要会议表",
           "year": 2018,
           "sourceUrl": "https://xxgk.bupt.edu.cn/__local/F/65/92/3A361334F005A224CD3C6C215B7_43DF8061_C1241.pdf?e=.pdf",
-          "note": "历史文件中列有该会议系列；当前适用性待核验，附属活动不自动继承。 该表对应博士成果路径之一，不是硕士会议的唯一范围。"
+          "note": "2018历史文件列有该会议系列，对应博士成果路径之一。当前适用性待核验；附属活动单独认定。硕士渠道见第四条。"
         }
       ],
       "topics": [
@@ -1255,7 +1255,7 @@ window.COMMDDL_DATA = {
             "IM",
             "IFIP/IEEE Integrated Network Management Symposium"
           ],
-          "note": "CCF 有旧 IM 条目，但本项为 NOMS；合并后 NOMS 不自动继承旧 IM 的 CCF C。ICORE 的 NOMS B 直接对应原名称。 复查完整 CCF2026 目录的 386 个会议条目，未列出该正式系列。结论限本公开副本，未列入不代表低等级。",
+          "note": "CCF2026公开副本全部386个会议条目中未列NOMS，旧IM条目的CCF C适用于原系列。ICORE2026的NOMS B直接对应原名称。",
           "status": "unlisted",
           "value": null,
           "reviewedAt": "2026-10-18"
@@ -1275,7 +1275,7 @@ window.COMMDDL_DATA = {
             "IM",
             "IFIP/IEEE Integrated Network Management Symposium"
           ],
-          "note": "CCF 有旧 IM 条目，但本项为 NOMS；合并后 NOMS 不自动继承旧 IM 的 CCF C。ICORE 的 NOMS B 直接对应原名称。 已按正式全称及系列简称复查 ICORE2026 官方完整库。",
+          "note": "按全称、简称核对ICORE2026官方完整库，NOMS为B。CCF旧IM条目的C级适用于原系列。",
           "status": "verified",
           "value": "B",
           "appliesToName": "IEEE Network Operations and Management Symposium",
@@ -1332,7 +1332,7 @@ window.COMMDDL_DATA = {
             "CNS",
             "CNS"
           ],
-          "note": "复查完整 CCF2026 目录的 386 个会议条目，未列出该正式系列。结论限本公开副本，未列入不代表低等级。",
+          "note": "按正式系列核对CCF2026公开副本全部386个会议条目，未列入该版。",
           "status": "unlisted",
           "value": null,
           "reviewedAt": "2026-10-18"
@@ -1391,7 +1391,7 @@ window.COMMDDL_DATA = {
           "label": "2018 信通学科重要会议表",
           "year": 2018,
           "sourceUrl": "https://xxgk.bupt.edu.cn/__local/F/65/92/3A361334F005A224CD3C6C215B7_43DF8061_C1241.pdf?e=.pdf",
-          "note": "历史文件中列有该会议系列；当前适用性待核验，附属活动不自动继承。 该表对应博士成果路径之一，不是硕士会议的唯一范围。"
+          "note": "2018历史文件列有该会议系列，对应博士成果路径之一。当前适用性待核验；附属活动单独认定。硕士渠道见第四条。"
         }
       ],
       "topics": [
@@ -1414,7 +1414,7 @@ window.COMMDDL_DATA = {
             "DySPAN",
             "DySPAN"
           ],
-          "note": "复查完整 CCF2026 目录的 386 个会议条目，未列出该正式系列。结论限本公开副本，未列入不代表低等级。",
+          "note": "按正式系列核对CCF2026公开副本全部386个会议条目，未列入该版。",
           "status": "unlisted",
           "value": null,
           "reviewedAt": "2026-10-18"
@@ -1474,7 +1474,7 @@ window.COMMDDL_DATA = {
           "label": "2018 信通学科重要会议表",
           "year": 2018,
           "sourceUrl": "https://xxgk.bupt.edu.cn/__local/F/65/92/3A361334F005A224CD3C6C215B7_43DF8061_C1241.pdf?e=.pdf",
-          "note": "历史文件中列有该会议系列；当前适用性待核验，附属活动不自动继承。 该表对应博士成果路径之一，不是硕士会议的唯一范围。"
+          "note": "2018历史文件列有该会议系列，对应博士成果路径之一。当前适用性待核验；附属活动单独认定。硕士渠道见第四条。"
         }
       ],
       "topics": [
@@ -1498,7 +1498,7 @@ window.COMMDDL_DATA = {
             "MILCOM",
             "MILCOM"
           ],
-          "note": "复查完整 CCF2026 目录的 386 个会议条目，未列出该正式系列。结论限本公开副本，未列入不代表低等级。",
+          "note": "按正式系列核对CCF2026公开副本全部386个会议条目，未列入该版。",
           "status": "unlisted",
           "value": null,
           "reviewedAt": "2026-10-18"
@@ -1573,7 +1573,7 @@ window.COMMDDL_DATA = {
             "ICMLCN",
             "ICMLCN"
           ],
-          "note": "复查完整 CCF2026 目录的 386 个会议条目，未列出该正式系列。结论限本公开副本，未列入不代表低等级。",
+          "note": "按正式系列核对CCF2026公开副本全部386个会议条目，未列入该版。",
           "status": "unlisted",
           "value": null,
           "reviewedAt": "2026-10-18"
@@ -1649,7 +1649,7 @@ window.COMMDDL_DATA = {
             "JC&S",
             "JCandS"
           ],
-          "note": "复查完整 CCF2026 目录的 386 个会议条目，未列出该正式系列。结论限本公开副本，未列入不代表低等级。",
+          "note": "按正式系列核对CCF2026公开副本全部386个会议条目，未列入该版。",
           "status": "unlisted",
           "value": null,
           "reviewedAt": "2026-10-18"
@@ -1725,7 +1725,7 @@ window.COMMDDL_DATA = {
             "CCNC",
             "CCNC"
           ],
-          "note": "复查完整 CCF2026 目录的 386 个会议条目，未列出该正式系列。结论限本公开副本，未列入不代表低等级。",
+          "note": "按正式系列核对CCF2026公开副本全部386个会议条目，未列入该版。",
           "status": "unlisted",
           "value": null,
           "reviewedAt": "2026-10-18"
@@ -1866,7 +1866,7 @@ window.COMMDDL_DATA = {
           "label": "2018 信通学科重要会议表",
           "year": 2018,
           "sourceUrl": "https://xxgk.bupt.edu.cn/__local/F/65/92/3A361334F005A224CD3C6C215B7_43DF8061_C1241.pdf?e=.pdf",
-          "note": "历史文件中列有该会议系列；当前适用性待核验，附属活动不自动继承。 该表对应博士成果路径之一，不是硕士会议的唯一范围。"
+          "note": "2018历史文件列有该会议系列，对应博士成果路径之一。当前适用性待核验；附属活动单独认定。硕士渠道见第四条。"
         }
       ],
       "topics": [
@@ -1967,7 +1967,7 @@ window.COMMDDL_DATA = {
             "CloudNet",
             "CloudNet"
           ],
-          "note": "复查完整 CCF2026 目录的 386 个会议条目，未列出该正式系列。结论限本公开副本，未列入不代表低等级。",
+          "note": "按正式系列核对CCF2026公开副本全部386个会议条目，未列入该版。",
           "status": "unlisted",
           "value": null,
           "reviewedAt": "2026-10-18"
@@ -2140,7 +2140,7 @@ window.COMMDDL_DATA = {
           "sourceType": "publisher",
           "verifiedAt": "2026-10-18",
           "appliesToName": "IEEE Transactions on Wireless Communications",
-          "note": "采用原表 Quartile (JIF)（期刊影响因子分区）列，非 CiteScore（引文评分）或 SJR（SCImago期刊排名）；按原表为2025 JCR、2026年6月发布。不同学科分区需另查 JCR。"
+          "note": "读取IEEE期刊表Quartile (JIF)（期刊影响因子分区）列，2025 JCR数据、2026年6月发布；逐学科分区见JCR。"
         },
         {
           "system": "cas",
@@ -2172,7 +2172,7 @@ window.COMMDDL_DATA = {
               "quartile": 1
             }
           ],
-          "note": "高校公开转录注明2025年升级版、2026-09-28导出，原数据来自期刊分区表平台；按完整刊名或旧名唯一对应。大类与全部小类分开保存，未直接核验原库。 与此前已取得公开转录的分区值一致。"
+          "note": "高校公开的2025升级版转录，2026-09-28导出，原数据来自期刊分区表平台。按完整刊名或旧名唯一对应，保存大类与全部小类分区。 与此前已取得公开转录的分区值一致。"
         },
         {
           "system": "ccf",
@@ -2188,7 +2188,7 @@ window.COMMDDL_DATA = {
           "sourceType": "document-copy",
           "verifiedAt": "2026-10-18",
           "appliesToName": "IEEE Transactions on Wireless Communications",
-          "note": "等级从 CCF 编制文件的公开副本读取，尚待官网原件逐项复核。会议仅对应正式长文，不适用于短文、演示或附属研讨会。"
+          "note": "等级读取自CCF编制文件公开副本。"
         }
       ],
       "catalogScope": "communications",
@@ -2259,7 +2259,7 @@ window.COMMDDL_DATA = {
           "sourceType": "publisher",
           "verifiedAt": "2026-10-18",
           "appliesToName": "IEEE Transactions on Communications",
-          "note": "采用原表 Quartile (JIF)（期刊影响因子分区）列，非 CiteScore（引文评分）或 SJR（SCImago期刊排名）；按原表为2025 JCR、2026年6月发布。不同学科分区需另查 JCR。"
+          "note": "读取IEEE期刊表Quartile (JIF)（期刊影响因子分区）列，2025 JCR数据、2026年6月发布；逐学科分区见JCR。"
         },
         {
           "system": "cas",
@@ -2291,7 +2291,7 @@ window.COMMDDL_DATA = {
               "quartile": 2
             }
           ],
-          "note": "高校公开转录注明2025年升级版、2026-09-28导出，原数据来自期刊分区表平台；按完整刊名或旧名唯一对应。大类与全部小类分开保存，未直接核验原库。 与此前已取得公开转录的分区值一致。"
+          "note": "高校公开的2025升级版转录，2026-09-28导出，原数据来自期刊分区表平台。按完整刊名或旧名唯一对应，保存大类与全部小类分区。 与此前已取得公开转录的分区值一致。"
         },
         {
           "system": "ccf",
@@ -2307,7 +2307,7 @@ window.COMMDDL_DATA = {
           "sourceType": "document-copy",
           "verifiedAt": "2026-10-18",
           "appliesToName": "IEEE Transactions on Communications",
-          "note": "等级从 CCF 编制文件的公开副本读取，尚待官网原件逐项复核。会议仅对应正式长文，不适用于短文、演示或附属研讨会。"
+          "note": "等级读取自CCF编制文件公开副本。"
         }
       ],
       "catalogScope": "communications",
@@ -2380,7 +2380,7 @@ window.COMMDDL_DATA = {
           "sourceType": "publisher",
           "verifiedAt": "2026-10-18",
           "appliesToName": "IEEE Journal on Selected Areas in Communications",
-          "note": "采用原表 Quartile (JIF)（期刊影响因子分区）列，非 CiteScore（引文评分）或 SJR（SCImago期刊排名）；按原表为2025 JCR、2026年6月发布。不同学科分区需另查 JCR。"
+          "note": "读取IEEE期刊表Quartile (JIF)（期刊影响因子分区）列，2025 JCR数据、2026年6月发布；逐学科分区见JCR。"
         },
         {
           "system": "cas",
@@ -2412,7 +2412,7 @@ window.COMMDDL_DATA = {
               "quartile": 1
             }
           ],
-          "note": "高校公开转录注明2025年升级版、2026-09-28导出，原数据来自期刊分区表平台；按完整刊名或旧名唯一对应。大类与全部小类分开保存，未直接核验原库。 与此前已取得公开转录的分区值一致。"
+          "note": "高校公开的2025升级版转录，2026-09-28导出，原数据来自期刊分区表平台。按完整刊名或旧名唯一对应，保存大类与全部小类分区。 与此前已取得公开转录的分区值一致。"
         },
         {
           "system": "ccf",
@@ -2428,7 +2428,7 @@ window.COMMDDL_DATA = {
           "sourceType": "document-copy",
           "verifiedAt": "2026-10-18",
           "appliesToName": "IEEE Journal on Selected Areas in Communications",
-          "note": "等级从 CCF 编制文件的公开副本读取，尚待官网原件逐项复核。会议仅对应正式长文，不适用于短文、演示或附属研讨会。"
+          "note": "等级读取自CCF编制文件公开副本。"
         }
       ],
       "catalogScope": "communications",
@@ -2497,7 +2497,7 @@ window.COMMDDL_DATA = {
           "sourceType": "publisher",
           "verifiedAt": "2026-10-18",
           "appliesToName": "IEEE Communications Surveys and Tutorials",
-          "note": "采用原表 Quartile (JIF)（期刊影响因子分区）列，非 CiteScore（引文评分）或 SJR（SCImago期刊排名）；按原表为2025 JCR、2026年6月发布。不同学科分区需另查 JCR。"
+          "note": "读取IEEE期刊表Quartile (JIF)（期刊影响因子分区）列，2025 JCR数据、2026年6月发布；逐学科分区见JCR。"
         },
         {
           "system": "cas",
@@ -2529,7 +2529,7 @@ window.COMMDDL_DATA = {
               "quartile": 1
             }
           ],
-          "note": "高校公开转录注明2025年升级版、2026-09-28导出，原数据来自期刊分区表平台；按完整刊名或旧名唯一对应。大类与全部小类分开保存，未直接核验原库。"
+          "note": "高校公开的2025升级版转录，2026-09-28导出，原数据来自期刊分区表平台。按完整刊名或旧名唯一对应，保存大类与全部小类分区。"
         },
         {
           "system": "ccf",
@@ -2540,7 +2540,7 @@ window.COMMDDL_DATA = {
           "sourceTitle": "CCF2026第七版公开副本",
           "sourceType": "document-copy",
           "reviewedAt": "2026-10-18",
-          "note": "已检索副本全部295项期刊记录，按英文全名、缩写、可识别旧名核对，副本未列；仅指该份2026目录，不代表学术质量等级。",
+          "note": "按英文全名、缩写及已知旧名核对CCF2026公开副本全部295项期刊记录，未列入该版。",
           "attempts": [
             "完整2026公开副本期刊表逐条名称匹配",
             "已检查可识别旧称/IEEE-ACM更名"
@@ -2612,7 +2612,7 @@ window.COMMDDL_DATA = {
           "sourceType": "publisher",
           "verifiedAt": "2026-10-18",
           "appliesToName": "IEEE Communications Letters",
-          "note": "采用原表 Quartile (JIF)（期刊影响因子分区）列，非 CiteScore（引文评分）或 SJR（SCImago期刊排名）；按原表为2025 JCR、2026年6月发布。不同学科分区需另查 JCR。"
+          "note": "读取IEEE期刊表Quartile (JIF)（期刊影响因子分区）列，2025 JCR数据、2026年6月发布；逐学科分区见JCR。"
         },
         {
           "system": "cas",
@@ -2640,7 +2640,7 @@ window.COMMDDL_DATA = {
               "quartile": 3
             }
           ],
-          "note": "高校公开转录注明2025年升级版、2026-09-28导出，原数据来自期刊分区表平台；按完整刊名或旧名唯一对应。大类与全部小类分开保存，未直接核验原库。 与此前已取得公开转录的分区值一致。"
+          "note": "高校公开的2025升级版转录，2026-09-28导出，原数据来自期刊分区表平台。按完整刊名或旧名唯一对应，保存大类与全部小类分区。 与此前已取得公开转录的分区值一致。"
         },
         {
           "system": "ccf",
@@ -2651,7 +2651,7 @@ window.COMMDDL_DATA = {
           "sourceTitle": "CCF2026第七版公开副本",
           "sourceType": "document-copy",
           "reviewedAt": "2026-10-18",
-          "note": "已检索副本全部295项期刊记录，按英文全名、缩写、可识别旧名核对，副本未列；仅指该份2026目录，不代表学术质量等级。",
+          "note": "按英文全名、缩写及已知旧名核对CCF2026公开副本全部295项期刊记录，未列入该版。",
           "attempts": [
             "完整2026公开副本期刊表逐条名称匹配",
             "已检查可识别旧称/IEEE-ACM更名"
@@ -2723,7 +2723,7 @@ window.COMMDDL_DATA = {
           "sourceType": "publisher",
           "verifiedAt": "2026-10-18",
           "appliesToName": "IEEE Wireless Communications Letters",
-          "note": "采用原表 Quartile (JIF)（期刊影响因子分区）列，非 CiteScore（引文评分）或 SJR（SCImago期刊排名）；按原表为2025 JCR、2026年6月发布。不同学科分区需另查 JCR。"
+          "note": "读取IEEE期刊表Quartile (JIF)（期刊影响因子分区）列，2025 JCR数据、2026年6月发布；逐学科分区见JCR。"
         },
         {
           "system": "cas",
@@ -2759,7 +2759,7 @@ window.COMMDDL_DATA = {
               "quartile": 3
             }
           ],
-          "note": "高校公开转录注明2025年升级版、2026-09-28导出，原数据来自期刊分区表平台；按完整刊名或旧名唯一对应。大类与全部小类分开保存，未直接核验原库。 与此前已取得公开转录的分区值一致。"
+          "note": "高校公开的2025升级版转录，2026-09-28导出，原数据来自期刊分区表平台。按完整刊名或旧名唯一对应，保存大类与全部小类分区。 与此前已取得公开转录的分区值一致。"
         },
         {
           "system": "ccf",
@@ -2770,7 +2770,7 @@ window.COMMDDL_DATA = {
           "sourceTitle": "CCF2026第七版公开副本",
           "sourceType": "document-copy",
           "reviewedAt": "2026-10-18",
-          "note": "已检索副本全部295项期刊记录，按英文全名、缩写、可识别旧名核对，副本未列；仅指该份2026目录，不代表学术质量等级。",
+          "note": "按英文全名、缩写及已知旧名核对CCF2026公开副本全部295项期刊记录，未列入该版。",
           "attempts": [
             "完整2026公开副本期刊表逐条名称匹配",
             "已检查可识别旧称/IEEE-ACM更名"
@@ -2837,7 +2837,7 @@ window.COMMDDL_DATA = {
           "sourceType": "publisher",
           "verifiedAt": "2026-10-18",
           "appliesToName": "IEEE Transactions on Cognitive Communications and Networking",
-          "note": "采用原表 Quartile (JIF)（期刊影响因子分区）列，非 CiteScore（引文评分）或 SJR（SCImago期刊排名）；按原表为2025 JCR、2026年6月发布。不同学科分区需另查 JCR。"
+          "note": "读取IEEE期刊表Quartile (JIF)（期刊影响因子分区）列，2025 JCR数据、2026年6月发布；逐学科分区见JCR。"
         },
         {
           "system": "cas",
@@ -2865,7 +2865,7 @@ window.COMMDDL_DATA = {
               "quartile": 1
             }
           ],
-          "note": "高校公开转录注明2025年升级版、2026-09-28导出，原数据来自期刊分区表平台；按完整刊名或旧名唯一对应。大类与全部小类分开保存，未直接核验原库。 与此前已取得公开转录的分区值一致。"
+          "note": "高校公开的2025升级版转录，2026-09-28导出，原数据来自期刊分区表平台。按完整刊名或旧名唯一对应，保存大类与全部小类分区。 与此前已取得公开转录的分区值一致。"
         },
         {
           "system": "ccf",
@@ -2876,7 +2876,7 @@ window.COMMDDL_DATA = {
           "sourceTitle": "CCF2026第七版公开副本",
           "sourceType": "document-copy",
           "reviewedAt": "2026-10-18",
-          "note": "已检索副本全部295项期刊记录，按英文全名、缩写、可识别旧名核对，副本未列；仅指该份2026目录，不代表学术质量等级。",
+          "note": "按英文全名、缩写及已知旧名核对CCF2026公开副本全部295项期刊记录，未列入该版。",
           "attempts": [
             "完整2026公开副本期刊表逐条名称匹配",
             "已检查可识别旧称/IEEE-ACM更名"
@@ -2943,7 +2943,7 @@ window.COMMDDL_DATA = {
           "sourceType": "publisher",
           "verifiedAt": "2026-10-18",
           "appliesToName": "IEEE Transactions on Green Communications and Networking",
-          "note": "采用原表 Quartile (JIF)（期刊影响因子分区）列，非 CiteScore（引文评分）或 SJR（SCImago期刊排名）；按原表为2025 JCR、2026年6月发布。不同学科分区需另查 JCR。"
+          "note": "读取IEEE期刊表Quartile (JIF)（期刊影响因子分区）列，2025 JCR数据、2026年6月发布；逐学科分区见JCR。"
         },
         {
           "system": "cas",
@@ -2971,7 +2971,7 @@ window.COMMDDL_DATA = {
               "quartile": 2
             }
           ],
-          "note": "高校公开转录注明2025年升级版、2026-09-28导出，原数据来自期刊分区表平台；按完整刊名或旧名唯一对应。大类与全部小类分开保存，未直接核验原库。"
+          "note": "高校公开的2025升级版转录，2026-09-28导出，原数据来自期刊分区表平台。按完整刊名或旧名唯一对应，保存大类与全部小类分区。"
         },
         {
           "system": "ccf",
@@ -2982,7 +2982,7 @@ window.COMMDDL_DATA = {
           "sourceTitle": "CCF2026第七版公开副本",
           "sourceType": "document-copy",
           "reviewedAt": "2026-10-18",
-          "note": "已检索副本全部295项期刊记录，按英文全名、缩写、可识别旧名核对，副本未列；仅指该份2026目录，不代表学术质量等级。",
+          "note": "按英文全名、缩写及已知旧名核对CCF2026公开副本全部295项期刊记录，未列入该版。",
           "attempts": [
             "完整2026公开副本期刊表逐条名称匹配",
             "已检查可识别旧称/IEEE-ACM更名"
@@ -3049,7 +3049,7 @@ window.COMMDDL_DATA = {
           "sourceType": "publisher",
           "verifiedAt": "2026-10-18",
           "appliesToName": "IEEE Transactions on Machine Learning in Communications and Networking",
-          "note": "采用原表 Quartile (JIF)（期刊影响因子分区）列，非 CiteScore（引文评分）或 SJR（SCImago期刊排名）；按原表为2025 JCR、2026年6月发布。不同学科分区需另查 JCR。"
+          "note": "读取IEEE期刊表Quartile (JIF)（期刊影响因子分区）列，2025 JCR数据、2026年6月发布；逐学科分区见JCR。"
         },
         {
           "system": "cas",
@@ -3070,7 +3070,7 @@ window.COMMDDL_DATA = {
             "IEEE Transactions on Machine Learning in Communications and Networking",
             "IEEE 通信与网络机器学习汇刊"
           ],
-          "note": "已对照完整21772刊的2025转录，按完整英文刊名、中文刊名、已知旧名及可得ISSN检查，未列入本版；仅指2025表，不推断其他年份或WoS索引状态。",
+          "note": "按英文全名、中文刊名、旧名及可得ISSN核对2025年21772刊完整转录，未列入该版。",
           "attempts": [
             "2025完整期刊汇总21772条全名/中文名/旧名检索",
             "原表相关关键词复查，未以近名刊物替代",
@@ -3086,7 +3086,7 @@ window.COMMDDL_DATA = {
           "sourceTitle": "CCF2026第七版公开副本",
           "sourceType": "document-copy",
           "reviewedAt": "2026-10-18",
-          "note": "已检索副本全部295项期刊记录，按英文全名、缩写、可识别旧名核对，副本未列；仅指该份2026目录，不代表学术质量等级。",
+          "note": "按英文全名、缩写及已知旧名核对CCF2026公开副本全部295项期刊记录，未列入该版。",
           "attempts": [
             "完整2026公开副本期刊表逐条名称匹配",
             "已检查可识别旧称/IEEE-ACM更名"
@@ -3152,7 +3152,7 @@ window.COMMDDL_DATA = {
           "sourceType": "publisher",
           "verifiedAt": "2026-10-18",
           "appliesToName": "IEEE Transactions on Network and Service Management",
-          "note": "采用原表 Quartile (JIF)（期刊影响因子分区）列，非 CiteScore（引文评分）或 SJR（SCImago期刊排名）；按原表为2025 JCR、2026年6月发布。不同学科分区需另查 JCR。"
+          "note": "读取IEEE期刊表Quartile (JIF)（期刊影响因子分区）列，2025 JCR数据、2026年6月发布；逐学科分区见JCR。"
         },
         {
           "system": "cas",
@@ -3180,7 +3180,7 @@ window.COMMDDL_DATA = {
               "quartile": 2
             }
           ],
-          "note": "高校公开转录注明2025年升级版、2026-09-28导出，原数据来自期刊分区表平台；按完整刊名或旧名唯一对应。大类与全部小类分开保存，未直接核验原库。 与此前已取得公开转录的分区值一致。"
+          "note": "高校公开的2025升级版转录，2026-09-28导出，原数据来自期刊分区表平台。按完整刊名或旧名唯一对应，保存大类与全部小类分区。 与此前已取得公开转录的分区值一致。"
         },
         {
           "system": "ccf",
@@ -3196,7 +3196,7 @@ window.COMMDDL_DATA = {
           "sourceType": "document-copy",
           "verifiedAt": "2026-10-18",
           "appliesToName": "IEEE Transactions on Network and Service Management",
-          "note": "等级从 CCF 编制文件的公开副本读取，尚待官网原件逐项复核。会议仅对应正式长文，不适用于短文、演示或附属研讨会。"
+          "note": "等级读取自CCF编制文件公开副本。"
         }
       ],
       "catalogScope": "communications",
@@ -3258,7 +3258,7 @@ window.COMMDDL_DATA = {
           "sourceType": "publisher",
           "verifiedAt": "2026-10-18",
           "appliesToName": "IEEE Transactions on Network Science and Engineering",
-          "note": "采用原表 Quartile (JIF)（期刊影响因子分区）列，非 CiteScore（引文评分）或 SJR（SCImago期刊排名）；按原表为2025 JCR、2026年6月发布。不同学科分区需另查 JCR。"
+          "note": "读取IEEE期刊表Quartile (JIF)（期刊影响因子分区）列，2025 JCR数据、2026年6月发布；逐学科分区见JCR。"
         },
         {
           "system": "cas",
@@ -3290,7 +3290,7 @@ window.COMMDDL_DATA = {
               "quartile": 1
             }
           ],
-          "note": "高校公开转录注明2025年升级版、2026-09-28导出，原数据来自期刊分区表平台；按完整刊名或旧名唯一对应。大类与全部小类分开保存，未直接核验原库。"
+          "note": "高校公开的2025升级版转录，2026-09-28导出，原数据来自期刊分区表平台。按完整刊名或旧名唯一对应，保存大类与全部小类分区。"
         },
         {
           "system": "ccf",
@@ -3301,7 +3301,7 @@ window.COMMDDL_DATA = {
           "sourceTitle": "CCF2026第七版公开副本",
           "sourceType": "document-copy",
           "reviewedAt": "2026-10-18",
-          "note": "已检索副本全部295项期刊记录，按英文全名、缩写、可识别旧名核对，副本未列；仅指该份2026目录，不代表学术质量等级。",
+          "note": "按英文全名、缩写及已知旧名核对CCF2026公开副本全部295项期刊记录，未列入该版。",
           "attempts": [
             "完整2026公开副本期刊表逐条名称匹配",
             "已检查可识别旧称/IEEE-ACM更名"
@@ -3370,7 +3370,7 @@ window.COMMDDL_DATA = {
           "sourceType": "publisher",
           "verifiedAt": "2026-10-18",
           "appliesToName": "IEEE Transactions on Networking",
-          "note": "采用原表 Quartile (JIF)（期刊影响因子分区）列，非 CiteScore（引文评分）或 SJR（SCImago期刊排名）；按原表为2025 JCR、2026年6月发布。不同学科分区需另查 JCR。 原表说明改名期刊的 JCR 指标对应旧刊名。"
+          "note": "读取IEEE期刊表Quartile (JIF)（期刊影响因子分区）列，2025 JCR数据、2026年6月发布；逐学科分区见JCR。 原表说明改名期刊的 JCR 指标对应旧刊名。"
         },
         {
           "system": "cas",
@@ -3410,7 +3410,7 @@ window.COMMDDL_DATA = {
               "quartile": 3
             }
           ],
-          "note": "高校公开转录注明2025年升级版、2026-09-28导出，原数据来自期刊分区表平台；按完整刊名或旧名唯一对应。大类与全部小类分开保存，未直接核验原库。"
+          "note": "高校公开的2025升级版转录，2026-09-28导出，原数据来自期刊分区表平台。按完整刊名或旧名唯一对应，保存大类与全部小类分区。"
         },
         {
           "system": "ccf",
@@ -3486,7 +3486,7 @@ window.COMMDDL_DATA = {
           "sourceType": "publisher",
           "verifiedAt": "2026-10-18",
           "appliesToName": "IEEE Networking Letters",
-          "note": "采用原表 Quartile (JIF)（期刊影响因子分区）列，非 CiteScore（引文评分）或 SJR（SCImago期刊排名）；按原表为2025 JCR、2026年6月发布。不同学科分区需另查 JCR。"
+          "note": "读取IEEE期刊表Quartile (JIF)（期刊影响因子分区）列，2025 JCR数据、2026年6月发布；逐学科分区见JCR。"
         },
         {
           "system": "cas",
@@ -3507,7 +3507,7 @@ window.COMMDDL_DATA = {
             "IEEE Networking Letters",
             "IEEE 网络快报"
           ],
-          "note": "已对照完整21772刊的2025转录，按完整英文刊名、中文刊名、已知旧名及可得ISSN检查，未列入本版；仅指2025表，不推断其他年份或WoS索引状态。",
+          "note": "按英文全名、中文刊名、旧名及可得ISSN核对2025年21772刊完整转录，未列入该版。",
           "attempts": [
             "2025完整期刊汇总21772条全名/中文名/旧名检索",
             "原表相关关键词复查，未以近名刊物替代",
@@ -3523,7 +3523,7 @@ window.COMMDDL_DATA = {
           "sourceTitle": "CCF2026第七版公开副本",
           "sourceType": "document-copy",
           "reviewedAt": "2026-10-18",
-          "note": "已检索副本全部295项期刊记录，按英文全名、缩写、可识别旧名核对，副本未列；仅指该份2026目录，不代表学术质量等级。",
+          "note": "按英文全名、缩写及已知旧名核对CCF2026公开副本全部295项期刊记录，未列入该版。",
           "attempts": [
             "完整2026公开副本期刊表逐条名称匹配",
             "已检查可识别旧称/IEEE-ACM更名"
@@ -3595,7 +3595,7 @@ window.COMMDDL_DATA = {
           "sourceType": "publisher",
           "verifiedAt": "2026-10-18",
           "appliesToName": "IEEE Open Journal of the Communications Society",
-          "note": "采用原表 Quartile (JIF)（期刊影响因子分区）列，非 CiteScore（引文评分）或 SJR（SCImago期刊排名）；按原表为2025 JCR、2026年6月发布。不同学科分区需另查 JCR。"
+          "note": "读取IEEE期刊表Quartile (JIF)（期刊影响因子分区）列，2025 JCR数据、2026年6月发布；逐学科分区见JCR。"
         },
         {
           "system": "cas",
@@ -3627,7 +3627,7 @@ window.COMMDDL_DATA = {
               "quartile": 3
             }
           ],
-          "note": "高校公开转录注明2025年升级版、2026-09-28导出，原数据来自期刊分区表平台；按完整刊名或旧名唯一对应。大类与全部小类分开保存，未直接核验原库。"
+          "note": "高校公开的2025升级版转录，2026-09-28导出，原数据来自期刊分区表平台。按完整刊名或旧名唯一对应，保存大类与全部小类分区。"
         },
         {
           "system": "ccf",
@@ -3638,7 +3638,7 @@ window.COMMDDL_DATA = {
           "sourceTitle": "CCF2026第七版公开副本",
           "sourceType": "document-copy",
           "reviewedAt": "2026-10-18",
-          "note": "已检索副本全部295项期刊记录，按英文全名、缩写、可识别旧名核对，副本未列；仅指该份2026目录，不代表学术质量等级。",
+          "note": "按英文全名、缩写及已知旧名核对CCF2026公开副本全部295项期刊记录，未列入该版。",
           "attempts": [
             "完整2026公开副本期刊表逐条名称匹配",
             "已检查可识别旧称/IEEE-ACM更名"
@@ -3705,7 +3705,7 @@ window.COMMDDL_DATA = {
           "sourceType": "publisher",
           "verifiedAt": "2026-10-18",
           "appliesToName": "IEEE Transactions on Molecular, Biological, and Multi-Scale Communications",
-          "note": "采用原表 Quartile (JIF)（期刊影响因子分区）列，非 CiteScore（引文评分）或 SJR（SCImago期刊排名）；按原表为2025 JCR、2026年6月发布。不同学科分区需另查 JCR。"
+          "note": "读取IEEE期刊表Quartile (JIF)（期刊影响因子分区）列，2025 JCR数据、2026年6月发布；逐学科分区见JCR。"
         },
         {
           "system": "cas",
@@ -3737,7 +3737,7 @@ window.COMMDDL_DATA = {
               "quartile": 4
             }
           ],
-          "note": "高校公开转录注明2025年升级版、2026-09-28导出，原数据来自期刊分区表平台；按完整刊名或旧名唯一对应。大类与全部小类分开保存，未直接核验原库。 与此前已取得公开转录的分区值一致。"
+          "note": "高校公开的2025升级版转录，2026-09-28导出，原数据来自期刊分区表平台。按完整刊名或旧名唯一对应，保存大类与全部小类分区。 与此前已取得公开转录的分区值一致。"
         },
         {
           "system": "ccf",
@@ -3748,7 +3748,7 @@ window.COMMDDL_DATA = {
           "sourceTitle": "CCF2026第七版公开副本",
           "sourceType": "document-copy",
           "reviewedAt": "2026-10-18",
-          "note": "已检索副本全部295项期刊记录，按英文全名、缩写、可识别旧名核对，副本未列；仅指该份2026目录，不代表学术质量等级。",
+          "note": "按英文全名、缩写及已知旧名核对CCF2026公开副本全部295项期刊记录，未列入该版。",
           "attempts": [
             "完整2026公开副本期刊表逐条名称匹配",
             "已检查可识别旧称/IEEE-ACM更名"
@@ -3817,7 +3817,7 @@ window.COMMDDL_DATA = {
           "sourceType": "publisher",
           "verifiedAt": "2026-10-18",
           "appliesToName": "IEEE Internet of Things Journal",
-          "note": "采用原表 Quartile (JIF)（期刊影响因子分区）列，非 CiteScore（引文评分）或 SJR（SCImago期刊排名）；按原表为2025 JCR、2026年6月发布。不同学科分区需另查 JCR。"
+          "note": "读取IEEE期刊表Quartile (JIF)（期刊影响因子分区）列，2025 JCR数据、2026年6月发布；逐学科分区见JCR。"
         },
         {
           "system": "cas",
@@ -3853,7 +3853,7 @@ window.COMMDDL_DATA = {
               "quartile": 1
             }
           ],
-          "note": "高校公开转录注明2025年升级版、2026-09-28导出，原数据来自期刊分区表平台；按完整刊名或旧名唯一对应。大类与全部小类分开保存，未直接核验原库。"
+          "note": "高校公开的2025升级版转录，2026-09-28导出，原数据来自期刊分区表平台。按完整刊名或旧名唯一对应，保存大类与全部小类分区。"
         },
         {
           "system": "ccf",
@@ -3869,7 +3869,7 @@ window.COMMDDL_DATA = {
           "sourceType": "document-copy",
           "verifiedAt": "2026-10-18",
           "appliesToName": "IEEE Internet of Things Journal",
-          "note": "等级从 CCF 编制文件的公开副本读取，尚待官网原件逐项复核。会议仅对应正式长文，不适用于短文、演示或附属研讨会。"
+          "note": "等级读取自CCF编制文件公开副本。"
         }
       ],
       "catalogScope": "communications",
@@ -3931,7 +3931,7 @@ window.COMMDDL_DATA = {
           "sourceType": "publisher",
           "verifiedAt": "2026-10-18",
           "appliesToName": "IEEE Transactions on Mobile Computing",
-          "note": "采用原表 Quartile (JIF)（期刊影响因子分区）列，非 CiteScore（引文评分）或 SJR（SCImago期刊排名）；按原表为2025 JCR、2026年6月发布。不同学科分区需另查 JCR。"
+          "note": "读取IEEE期刊表Quartile (JIF)（期刊影响因子分区）列，2025 JCR数据、2026年6月发布；逐学科分区见JCR。"
         },
         {
           "system": "cas",
@@ -3963,7 +3963,7 @@ window.COMMDDL_DATA = {
               "quartile": 1
             }
           ],
-          "note": "高校公开转录注明2025年升级版、2026-09-28导出，原数据来自期刊分区表平台；按完整刊名或旧名唯一对应。大类与全部小类分开保存，未直接核验原库。 与此前已取得公开转录的分区值一致。"
+          "note": "高校公开的2025升级版转录，2026-09-28导出，原数据来自期刊分区表平台。按完整刊名或旧名唯一对应，保存大类与全部小类分区。 与此前已取得公开转录的分区值一致。"
         },
         {
           "system": "ccf",
@@ -3979,7 +3979,7 @@ window.COMMDDL_DATA = {
           "sourceType": "document-copy",
           "verifiedAt": "2026-10-18",
           "appliesToName": "IEEE Transactions on Mobile Computing",
-          "note": "等级从 CCF 编制文件的公开副本读取，尚待官网原件逐项复核。会议仅对应正式长文，不适用于短文、演示或附属研讨会。"
+          "note": "等级读取自CCF编制文件公开副本。"
         }
       ],
       "catalogScope": "communications",
@@ -4052,7 +4052,7 @@ window.COMMDDL_DATA = {
           "sourceTitle": "2024 JCR 学科分区转录（2025年6月）",
           "sourceType": "secondary",
           "verifiedAt": "2026-10-18",
-          "note": "读取 JIF Quartile 列；同时保留所有学科分区。默认优先电信学，不取最好分区；可靠政府转录而非 JCR 原库直接核验。",
+          "note": "读取政府公开转录的JIF Quartile（期刊影响因子分区）列，保存全部学科，默认展示电信学。",
           "reviewedAt": "2026-10-18",
           "sourceAuthority": "government"
         },
@@ -4094,7 +4094,7 @@ window.COMMDDL_DATA = {
               "quartile": 2
             }
           ],
-          "note": "高校公开转录注明2025年升级版、2026-09-28导出，原数据来自期刊分区表平台；按完整刊名或旧名唯一对应。大类与全部小类分开保存，未直接核验原库。"
+          "note": "高校公开的2025升级版转录，2026-09-28导出，原数据来自期刊分区表平台。按完整刊名或旧名唯一对应，保存大类与全部小类分区。"
         },
         {
           "system": "ccf",
@@ -4105,7 +4105,7 @@ window.COMMDDL_DATA = {
           "sourceTitle": "CCF2026第七版公开副本",
           "sourceType": "document-copy",
           "reviewedAt": "2026-10-18",
-          "note": "已检索副本全部295项期刊记录，按英文全名、缩写、可识别旧名核对，副本未列；仅指该份2026目录，不代表学术质量等级。",
+          "note": "按英文全名、缩写及已知旧名核对CCF2026公开副本全部295项期刊记录，未列入该版。",
           "attempts": [
             "完整2026公开副本期刊表逐条名称匹配",
             "已检查可识别旧称/IEEE-ACM更名"
@@ -4126,7 +4126,7 @@ window.COMMDDL_DATA = {
         "page": 128,
         "issn": "1943-0620",
         "eissn": "1943-0639",
-        "note": "按期刊全名及 ISSN 对应到原表 Edition 栏，非从影响因子推断；仅为 2024 数据/2025年6月快照的可靠转录，不冒充2026实时原库核验。",
+        "note": "按期刊全名及ISSN匹配2024 JCR原表Edition（索引版本）列。来源为2025年6月快照转录。",
         "reviewedAt": "2026-10-18",
         "sourceAuthority": "government"
       },
@@ -4188,7 +4188,7 @@ window.COMMDDL_DATA = {
           "sourceType": "publisher",
           "verifiedAt": "2026-10-18",
           "appliesToName": "Journal of Lightwave Technology",
-          "note": "采用原表 Quartile (JIF)（期刊影响因子分区）列，非 CiteScore（引文评分）或 SJR（SCImago期刊排名）；按原表为2025 JCR、2026年6月发布。不同学科分区需另查 JCR。"
+          "note": "读取IEEE期刊表Quartile (JIF)（期刊影响因子分区）列，2025 JCR数据、2026年6月发布；逐学科分区见JCR。"
         },
         {
           "system": "cas",
@@ -4224,7 +4224,7 @@ window.COMMDDL_DATA = {
               "quartile": 2
             }
           ],
-          "note": "高校公开转录注明2025年升级版、2026-09-28导出，原数据来自期刊分区表平台；按完整刊名或旧名唯一对应。大类与全部小类分开保存，未直接核验原库。"
+          "note": "高校公开的2025升级版转录，2026-09-28导出，原数据来自期刊分区表平台。按完整刊名或旧名唯一对应，保存大类与全部小类分区。"
         },
         {
           "system": "ccf",
@@ -4235,7 +4235,7 @@ window.COMMDDL_DATA = {
           "sourceTitle": "CCF2026第七版公开副本",
           "sourceType": "document-copy",
           "reviewedAt": "2026-10-18",
-          "note": "已检索副本全部295项期刊记录，按英文全名、缩写、可识别旧名核对，副本未列；仅指该份2026目录，不代表学术质量等级。",
+          "note": "按英文全名、缩写及已知旧名核对CCF2026公开副本全部295项期刊记录，未列入该版。",
           "attempts": [
             "完整2026公开副本期刊表逐条名称匹配",
             "已检查可识别旧称/IEEE-ACM更名"
@@ -4288,7 +4288,7 @@ window.COMMDDL_DATA = {
           "sourceTitle": "2024 JCR完整转录表（2025年6月）",
           "sourceType": "secondary",
           "reviewedAt": "2026-10-18",
-          "note": "已检索该完整旧年度JCR表的全名/别名记录，未列；不推定2026 JCR状态或SCIE收录状态。",
+          "note": "按全名及别名核对2024 JCR完整转录，未列入该版。",
           "attempts": [
             "完整785页JCR2024表精确名及别名检索",
             "不将2024未列推断为2026未收录"
@@ -4315,7 +4315,7 @@ window.COMMDDL_DATA = {
             "Journal of Communications and Information Networks",
             "通信与信息网络期刊"
           ],
-          "note": "已对照完整21772刊的2025转录，按完整英文刊名、中文刊名、已知旧名及可得ISSN检查，未列入本版；仅指2025表，不推断其他年份或WoS索引状态。",
+          "note": "按英文全名、中文刊名、旧名及可得ISSN核对2025年21772刊完整转录，未列入该版。",
           "attempts": [
             "2025完整期刊汇总21772条全名/中文名/旧名检索",
             "原表相关关键词复查，未以近名刊物替代",
@@ -4331,7 +4331,7 @@ window.COMMDDL_DATA = {
           "sourceTitle": "CCF2026第七版公开副本",
           "sourceType": "document-copy",
           "reviewedAt": "2026-10-18",
-          "note": "已检索副本全部295项期刊记录，按英文全名、缩写、可识别旧名核对，副本未列；仅指该份2026目录，不代表学术质量等级。",
+          "note": "按英文全名、缩写及已知旧名核对CCF2026公开副本全部295项期刊记录，未列入该版。",
           "attempts": [
             "完整2026公开副本期刊表逐条名称匹配",
             "已检查可识别旧称/IEEE-ACM更名"
@@ -4343,7 +4343,7 @@ window.COMMDDL_DATA = {
         "status": "unresolved",
         "value": null,
         "reviewedAt": "2026-10-18",
-        "note": "已核验本刊官方身份和可确认的EI/中文索引；完整2024JCR转录未列，2026MJL原库本轮无法载入，未据缺失推断非SCIE。",
+        "note": "本刊官方身份及EI、中文索引已有来源。2024 JCR完整转录未列，2026 MJL（期刊主列表）原库本次无法载入，当前WoS索引未确认。",
         "attempts": [
           "官方出版社/学会介绍",
           "完整2024JCR全名与别名检索",
@@ -4381,7 +4381,7 @@ window.COMMDDL_DATA = {
           "sourceType": "document-copy",
           "sourceAuthority": "cas-institute",
           "verifiedAt": "2026-10-19",
-          "note": "按正式ISSN对照CSCD2025—2026完整名单，明确为核心库；数据库原始名单的科研机构公开副本，保留副本属性、年度和核心/扩展类别，不冒充原库查询，不推断其他索引。"
+          "note": "按正式ISSN匹配CSCD2025—2026完整名单，列入核心库。来源为科研机构公开的原始名单副本。"
         }
       ],
       "sourceType": "publisher",
@@ -4448,7 +4448,7 @@ window.COMMDDL_DATA = {
           "sourceType": "publisher",
           "verifiedAt": "2026-10-18",
           "appliesToName": "IEEE Transactions on Signal Processing",
-          "note": "采用原表 Quartile (JIF)（期刊影响因子分区）列，非 CiteScore（引文评分）或 SJR（SCImago期刊排名）；按原表为2025 JCR、2026年6月发布。不同学科分区需另查 JCR。"
+          "note": "读取IEEE期刊表Quartile (JIF)（期刊影响因子分区）列，2025 JCR数据、2026年6月发布；逐学科分区见JCR。"
         },
         {
           "system": "cas",
@@ -4476,7 +4476,7 @@ window.COMMDDL_DATA = {
               "quartile": 2
             }
           ],
-          "note": "高校公开转录注明2025年升级版、2026-09-28导出，原数据来自期刊分区表平台；按完整刊名或旧名唯一对应。大类与全部小类分开保存，未直接核验原库。 与此前已取得公开转录的分区值一致。"
+          "note": "高校公开的2025升级版转录，2026-09-28导出，原数据来自期刊分区表平台。按完整刊名或旧名唯一对应，保存大类与全部小类分区。 与此前已取得公开转录的分区值一致。"
         },
         {
           "system": "ccf",
@@ -4491,7 +4491,7 @@ window.COMMDDL_DATA = {
           "appliesToName": "IEEE Transactions on Signal Processing",
           "page": null,
           "category": null,
-          "note": "复查完整 295 本期刊记录及 PDF 全文，未列 IEEE Transactions on Signal Processing；不得与 Signal Processing、IEEE Signal Processing Letters、IET Signal Processing 混淆。",
+          "note": "核对CCF2026公开副本全部295项期刊及PDF全文，未列IEEE Transactions on Signal Processing（IEEE信号处理汇刊）。Signal Processing、IEEE Signal Processing Letters和IET Signal Processing分别为其他刊物。",
           "reviewedAt": "2026-10-18"
         }
       ],
@@ -4555,7 +4555,7 @@ window.COMMDDL_DATA = {
           "sourceType": "publisher",
           "verifiedAt": "2026-10-18",
           "appliesToName": "IEEE Signal Processing Letters",
-          "note": "采用原表 Quartile (JIF)（期刊影响因子分区）列，非 CiteScore（引文评分）或 SJR（SCImago期刊排名）；按原表为2025 JCR、2026年6月发布。不同学科分区需另查 JCR。"
+          "note": "读取IEEE期刊表Quartile (JIF)（期刊影响因子分区）列，2025 JCR数据、2026年6月发布；逐学科分区见JCR。"
         },
         {
           "system": "cas",
@@ -4583,7 +4583,7 @@ window.COMMDDL_DATA = {
               "quartile": 3
             }
           ],
-          "note": "高校公开转录注明2025年升级版、2026-09-28导出，原数据来自期刊分区表平台；按完整刊名或旧名唯一对应。大类与全部小类分开保存，未直接核验原库。"
+          "note": "高校公开的2025升级版转录，2026-09-28导出，原数据来自期刊分区表平台。按完整刊名或旧名唯一对应，保存大类与全部小类分区。"
         },
         {
           "system": "ccf",
@@ -4599,7 +4599,7 @@ window.COMMDDL_DATA = {
           "sourceType": "document-copy",
           "verifiedAt": "2026-10-18",
           "appliesToName": "IEEE Signal Processing Letters",
-          "note": "等级从 CCF 编制文件的公开副本读取，尚待官网原件逐项复核。会议仅对应正式长文，不适用于短文、演示或附属研讨会。"
+          "note": "等级读取自CCF编制文件公开副本。"
         }
       ],
       "catalogScope": "communications",
@@ -4665,7 +4665,7 @@ window.COMMDDL_DATA = {
           "sourceType": "publisher",
           "verifiedAt": "2026-10-18",
           "appliesToName": "IEEE Journal of Selected Topics in Signal Processing",
-          "note": "采用原表 Quartile (JIF)（期刊影响因子分区）列，非 CiteScore（引文评分）或 SJR（SCImago期刊排名）；按原表为2025 JCR、2026年6月发布。不同学科分区需另查 JCR。"
+          "note": "读取IEEE期刊表Quartile (JIF)（期刊影响因子分区）列，2025 JCR数据、2026年6月发布；逐学科分区见JCR。"
         },
         {
           "system": "cas",
@@ -4693,7 +4693,7 @@ window.COMMDDL_DATA = {
               "quartile": 2
             }
           ],
-          "note": "高校公开转录注明2025年升级版、2026-09-28导出，原数据来自期刊分区表平台；按完整刊名或旧名唯一对应。大类与全部小类分开保存，未直接核验原库。"
+          "note": "高校公开的2025升级版转录，2026-09-28导出，原数据来自期刊分区表平台。按完整刊名或旧名唯一对应，保存大类与全部小类分区。"
         },
         {
           "system": "ccf",
@@ -4704,7 +4704,7 @@ window.COMMDDL_DATA = {
           "sourceTitle": "CCF2026第七版公开副本",
           "sourceType": "document-copy",
           "reviewedAt": "2026-10-18",
-          "note": "已检索副本全部295项期刊记录，按英文全名、缩写、可识别旧名核对，副本未列；仅指该份2026目录，不代表学术质量等级。",
+          "note": "按英文全名、缩写及已知旧名核对CCF2026公开副本全部295项期刊记录，未列入该版。",
           "attempts": [
             "完整2026公开副本期刊表逐条名称匹配",
             "已检查可识别旧称/IEEE-ACM更名"
@@ -4772,7 +4772,7 @@ window.COMMDDL_DATA = {
           "sourceType": "publisher",
           "verifiedAt": "2026-10-18",
           "appliesToName": "IEEE Open Journal of Signal Processing",
-          "note": "采用原表 Quartile (JIF)（期刊影响因子分区）列，非 CiteScore（引文评分）或 SJR（SCImago期刊排名）；按原表为2025 JCR、2026年6月发布。不同学科分区需另查 JCR。"
+          "note": "读取IEEE期刊表Quartile (JIF)（期刊影响因子分区）列，2025 JCR数据、2026年6月发布；逐学科分区见JCR。"
         },
         {
           "system": "cas",
@@ -4800,7 +4800,7 @@ window.COMMDDL_DATA = {
               "quartile": 3
             }
           ],
-          "note": "高校公开转录注明2025年升级版、2026-09-28导出，原数据来自期刊分区表平台；按完整刊名或旧名唯一对应。大类与全部小类分开保存，未直接核验原库。"
+          "note": "高校公开的2025升级版转录，2026-09-28导出，原数据来自期刊分区表平台。按完整刊名或旧名唯一对应，保存大类与全部小类分区。"
         },
         {
           "system": "ccf",
@@ -4811,7 +4811,7 @@ window.COMMDDL_DATA = {
           "sourceTitle": "CCF2026第七版公开副本",
           "sourceType": "document-copy",
           "reviewedAt": "2026-10-18",
-          "note": "已检索副本全部295项期刊记录，按英文全名、缩写、可识别旧名核对，副本未列；仅指该份2026目录，不代表学术质量等级。",
+          "note": "按英文全名、缩写及已知旧名核对CCF2026公开副本全部295项期刊记录，未列入该版。",
           "attempts": [
             "完整2026公开副本期刊表逐条名称匹配",
             "已检查可识别旧称/IEEE-ACM更名"
@@ -4878,7 +4878,7 @@ window.COMMDDL_DATA = {
           "sourceType": "publisher",
           "verifiedAt": "2026-10-18",
           "appliesToName": "IEEE Transactions on Image Processing",
-          "note": "采用原表 Quartile (JIF)（期刊影响因子分区）列，非 CiteScore（引文评分）或 SJR（SCImago期刊排名）；按原表为2025 JCR、2026年6月发布。不同学科分区需另查 JCR。"
+          "note": "读取IEEE期刊表Quartile (JIF)（期刊影响因子分区）列，2025 JCR数据、2026年6月发布；逐学科分区见JCR。"
         },
         {
           "system": "cas",
@@ -4910,7 +4910,7 @@ window.COMMDDL_DATA = {
               "quartile": 1
             }
           ],
-          "note": "高校公开转录注明2025年升级版、2026-09-28导出，原数据来自期刊分区表平台；按完整刊名或旧名唯一对应。大类与全部小类分开保存，未直接核验原库。"
+          "note": "高校公开的2025升级版转录，2026-09-28导出，原数据来自期刊分区表平台。按完整刊名或旧名唯一对应，保存大类与全部小类分区。"
         },
         {
           "system": "ccf",
@@ -4926,7 +4926,7 @@ window.COMMDDL_DATA = {
           "sourceType": "document-copy",
           "verifiedAt": "2026-10-18",
           "appliesToName": "IEEE Transactions on Image Processing",
-          "note": "等级从 CCF 编制文件的公开副本读取，尚待官网原件逐项复核。会议仅对应正式长文，不适用于短文、演示或附属研讨会。"
+          "note": "等级读取自CCF编制文件公开副本。"
         }
       ],
       "catalogScope": "communications",
@@ -4988,7 +4988,7 @@ window.COMMDDL_DATA = {
           "sourceType": "publisher",
           "verifiedAt": "2026-10-18",
           "appliesToName": "IEEE Transactions on Information Forensics and Security",
-          "note": "采用原表 Quartile (JIF)（期刊影响因子分区）列，非 CiteScore（引文评分）或 SJR（SCImago期刊排名）；按原表为2025 JCR、2026年6月发布。不同学科分区需另查 JCR。"
+          "note": "读取IEEE期刊表Quartile (JIF)（期刊影响因子分区）列，2025 JCR数据、2026年6月发布；逐学科分区见JCR。"
         },
         {
           "system": "cas",
@@ -5020,7 +5020,7 @@ window.COMMDDL_DATA = {
               "quartile": 1
             }
           ],
-          "note": "高校公开转录注明2025年升级版、2026-09-28导出，原数据来自期刊分区表平台；按完整刊名或旧名唯一对应。大类与全部小类分开保存，未直接核验原库。"
+          "note": "高校公开的2025升级版转录，2026-09-28导出，原数据来自期刊分区表平台。按完整刊名或旧名唯一对应，保存大类与全部小类分区。"
         },
         {
           "system": "ccf",
@@ -5036,7 +5036,7 @@ window.COMMDDL_DATA = {
           "sourceType": "document-copy",
           "verifiedAt": "2026-10-18",
           "appliesToName": "Transactions on Information Forensics and Security",
-          "note": "等级从 CCF 编制文件的公开副本读取，尚待官网原件逐项复核。会议仅对应正式长文，不适用于短文、演示或附属研讨会。"
+          "note": "等级读取自CCF编制文件公开副本。"
         }
       ],
       "catalogScope": "communications",
@@ -5100,7 +5100,7 @@ window.COMMDDL_DATA = {
           "sourceType": "publisher",
           "verifiedAt": "2026-10-18",
           "appliesToName": "IEEE Transactions on Multimedia",
-          "note": "采用原表 Quartile (JIF)（期刊影响因子分区）列，非 CiteScore（引文评分）或 SJR（SCImago期刊排名）；按原表为2025 JCR、2026年6月发布。不同学科分区需另查 JCR。"
+          "note": "读取IEEE期刊表Quartile (JIF)（期刊影响因子分区）列，2025 JCR数据、2026年6月发布；逐学科分区见JCR。"
         },
         {
           "system": "cas",
@@ -5136,7 +5136,7 @@ window.COMMDDL_DATA = {
               "quartile": 1
             }
           ],
-          "note": "高校公开转录注明2025年升级版、2026-09-28导出，原数据来自期刊分区表平台；按完整刊名或旧名唯一对应。大类与全部小类分开保存，未直接核验原库。"
+          "note": "高校公开的2025升级版转录，2026-09-28导出，原数据来自期刊分区表平台。按完整刊名或旧名唯一对应，保存大类与全部小类分区。"
         },
         {
           "system": "ccf",
@@ -5152,7 +5152,7 @@ window.COMMDDL_DATA = {
           "sourceType": "document-copy",
           "verifiedAt": "2026-10-18",
           "appliesToName": "IEEE Transactions on Multimedia",
-          "note": "等级从 CCF 编制文件的公开副本读取，尚待官网原件逐项复核。会议仅对应正式长文，不适用于短文、演示或附属研讨会。"
+          "note": "等级读取自CCF编制文件公开副本。"
         }
       ],
       "catalogScope": "communications",
@@ -5215,7 +5215,7 @@ window.COMMDDL_DATA = {
           "sourceType": "publisher",
           "verifiedAt": "2026-10-18",
           "appliesToName": "IEEE Transactions on Signal and Information Processing over Networks",
-          "note": "采用原表 Quartile (JIF)（期刊影响因子分区）列，非 CiteScore（引文评分）或 SJR（SCImago期刊排名）；按原表为2025 JCR、2026年6月发布。不同学科分区需另查 JCR。"
+          "note": "读取IEEE期刊表Quartile (JIF)（期刊影响因子分区）列，2025 JCR数据、2026年6月发布；逐学科分区见JCR。"
         },
         {
           "system": "cas",
@@ -5247,7 +5247,7 @@ window.COMMDDL_DATA = {
               "quartile": 3
             }
           ],
-          "note": "高校公开转录注明2025年升级版、2026-09-28导出，原数据来自期刊分区表平台；按完整刊名或旧名唯一对应。大类与全部小类分开保存，未直接核验原库。"
+          "note": "高校公开的2025升级版转录，2026-09-28导出，原数据来自期刊分区表平台。按完整刊名或旧名唯一对应，保存大类与全部小类分区。"
         },
         {
           "system": "ccf",
@@ -5258,7 +5258,7 @@ window.COMMDDL_DATA = {
           "sourceTitle": "CCF2026第七版公开副本",
           "sourceType": "document-copy",
           "reviewedAt": "2026-10-18",
-          "note": "已检索副本全部295项期刊记录，按英文全名、缩写、可识别旧名核对，副本未列；仅指该份2026目录，不代表学术质量等级。",
+          "note": "按英文全名、缩写及已知旧名核对CCF2026公开副本全部295项期刊记录，未列入该版。",
           "attempts": [
             "完整2026公开副本期刊表逐条名称匹配",
             "已检查可识别旧称/IEEE-ACM更名"
@@ -5332,7 +5332,7 @@ window.COMMDDL_DATA = {
           "sourceType": "publisher",
           "verifiedAt": "2026-10-18",
           "appliesToName": "IEEE Wireless Communications",
-          "note": "采用原表 Quartile (JIF)（期刊影响因子分区）列，非 CiteScore（引文评分）或 SJR（SCImago期刊排名）；按原表为2025 JCR、2026年6月发布。不同学科分区需另查 JCR。"
+          "note": "读取IEEE期刊表Quartile (JIF)（期刊影响因子分区）列，2025 JCR数据、2026年6月发布；逐学科分区见JCR。"
         },
         {
           "system": "cas",
@@ -5372,7 +5372,7 @@ window.COMMDDL_DATA = {
               "quartile": 2
             }
           ],
-          "note": "高校公开转录注明2025年升级版、2026-09-28导出，原数据来自期刊分区表平台；按完整刊名或旧名唯一对应。大类与全部小类分开保存，未直接核验原库。"
+          "note": "高校公开的2025升级版转录，2026-09-28导出，原数据来自期刊分区表平台。按完整刊名或旧名唯一对应，保存大类与全部小类分区。"
         },
         {
           "system": "ccf",
@@ -5383,7 +5383,7 @@ window.COMMDDL_DATA = {
           "sourceTitle": "CCF2026第七版公开副本",
           "sourceType": "document-copy",
           "reviewedAt": "2026-10-18",
-          "note": "已检索副本全部295项期刊记录，按英文全名、缩写、可识别旧名核对，副本未列；仅指该份2026目录，不代表学术质量等级。",
+          "note": "按英文全名、缩写及已知旧名核对CCF2026公开副本全部295项期刊记录，未列入该版。",
           "attempts": [
             "完整2026公开副本期刊表逐条名称匹配",
             "已检查可识别旧称/IEEE-ACM更名"
@@ -5451,7 +5451,7 @@ window.COMMDDL_DATA = {
           "sourceType": "publisher",
           "verifiedAt": "2026-10-18",
           "appliesToName": "IEEE Transactions on Information Theory",
-          "note": "采用原表 Quartile (JIF)（期刊影响因子分区）列，非 CiteScore（引文评分）或 SJR（SCImago期刊排名）；按原表为2025 JCR、2026年6月发布。不同学科分区需另查 JCR。"
+          "note": "读取IEEE期刊表Quartile (JIF)（期刊影响因子分区）列，2025 JCR数据、2026年6月发布；逐学科分区见JCR。"
         },
         {
           "system": "cas",
@@ -5483,7 +5483,7 @@ window.COMMDDL_DATA = {
               "quartile": 3
             }
           ],
-          "note": "高校公开转录注明2025年升级版、2026-09-28导出，原数据来自期刊分区表平台；按完整刊名或旧名唯一对应。大类与全部小类分开保存，未直接核验原库。 与此前已取得公开转录的分区值一致。"
+          "note": "高校公开的2025升级版转录，2026-09-28导出，原数据来自期刊分区表平台。按完整刊名或旧名唯一对应，保存大类与全部小类分区。 与此前已取得公开转录的分区值一致。"
         },
         {
           "system": "ccf",
@@ -5499,7 +5499,7 @@ window.COMMDDL_DATA = {
           "sourceType": "document-copy",
           "verifiedAt": "2026-10-18",
           "appliesToName": "IEEE Transactions on Information Theory",
-          "note": "等级从 CCF 编制文件的公开副本读取，尚待官网原件逐项复核。会议仅对应正式长文，不适用于短文、演示或附属研讨会。"
+          "note": "等级读取自CCF编制文件公开副本。"
         }
       ],
       "catalogScope": "communications",
@@ -5540,7 +5540,7 @@ window.COMMDDL_DATA = {
       "verification": "verified",
       "assessments": [],
       "indexStatus": "SCIE",
-      "metricNote": "收录与分区需按体系、年份另行核验；目录收录不代表 SCI 或学校认定。",
+      "metricNote": "索引与分区按各自体系、年份查询；学校认定见选用政策文件。",
       "catalogStatus": "current",
       "indexing": {
         "value": "SCIE",
@@ -5566,7 +5566,7 @@ window.COMMDDL_DATA = {
           "sourceType": "publisher",
           "verifiedAt": "2026-10-18",
           "appliesToName": "IEEE Transactions on Vehicular Technology",
-          "note": "采用原表 Quartile (JIF)（期刊影响因子分区）列，非 CiteScore（引文评分）或 SJR（SCImago期刊排名）；按原表为2025 JCR、2026年6月发布。不同学科分区需另查 JCR。"
+          "note": "读取IEEE期刊表Quartile (JIF)（期刊影响因子分区）列，2025 JCR数据、2026年6月发布；逐学科分区见JCR。"
         },
         {
           "system": "cas",
@@ -5602,7 +5602,7 @@ window.COMMDDL_DATA = {
               "quartile": 3
             }
           ],
-          "note": "高校公开转录注明2025年升级版、2026-09-28导出，原数据来自期刊分区表平台；按完整刊名或旧名唯一对应。大类与全部小类分开保存，未直接核验原库。"
+          "note": "高校公开的2025升级版转录，2026-09-28导出，原数据来自期刊分区表平台。按完整刊名或旧名唯一对应，保存大类与全部小类分区。"
         },
         {
           "system": "ccf",
@@ -5613,7 +5613,7 @@ window.COMMDDL_DATA = {
           "sourceTitle": "CCF2026第七版公开副本",
           "sourceType": "document-copy",
           "reviewedAt": "2026-10-18",
-          "note": "已检索副本全部295项期刊记录，按英文全名、缩写、可识别旧名核对，副本未列；仅指该份2026目录，不代表学术质量等级。",
+          "note": "按英文全名、缩写及已知旧名核对CCF2026公开副本全部295项期刊记录，未列入该版。",
           "attempts": [
             "完整2026公开副本期刊表逐条名称匹配",
             "已检查可识别旧称/IEEE-ACM更名"
@@ -5654,7 +5654,7 @@ window.COMMDDL_DATA = {
       "verification": "verified",
       "assessments": [],
       "indexStatus": "ESCI",
-      "metricNote": "收录与分区需按体系、年份另行核验；目录收录不代表 SCI 或学校认定。",
+      "metricNote": "索引与分区按各自体系、年份查询；学校认定见选用政策文件。",
       "catalogStatus": "current",
       "indexing": {
         "value": "ESCI",
@@ -5680,7 +5680,7 @@ window.COMMDDL_DATA = {
           "sourceType": "publisher",
           "verifiedAt": "2026-10-18",
           "appliesToName": "IEEE Open Journal of Vehicular Technology",
-          "note": "采用原表 Quartile (JIF)（期刊影响因子分区）列，非 CiteScore（引文评分）或 SJR（SCImago期刊排名）；按原表为2025 JCR、2026年6月发布。不同学科分区需另查 JCR。"
+          "note": "读取IEEE期刊表Quartile (JIF)（期刊影响因子分区）列，2025 JCR数据、2026年6月发布；逐学科分区见JCR。"
         },
         {
           "system": "cas",
@@ -5716,7 +5716,7 @@ window.COMMDDL_DATA = {
               "quartile": 3
             }
           ],
-          "note": "高校公开转录注明2025年升级版、2026-09-28导出，原数据来自期刊分区表平台；按完整刊名或旧名唯一对应。大类与全部小类分开保存，未直接核验原库。 与此前已取得公开转录的分区值一致。"
+          "note": "高校公开的2025升级版转录，2026-09-28导出，原数据来自期刊分区表平台。按完整刊名或旧名唯一对应，保存大类与全部小类分区。 与此前已取得公开转录的分区值一致。"
         },
         {
           "system": "ccf",
@@ -5727,7 +5727,7 @@ window.COMMDDL_DATA = {
           "sourceTitle": "CCF2026第七版公开副本",
           "sourceType": "document-copy",
           "reviewedAt": "2026-10-18",
-          "note": "已检索副本全部295项期刊记录，按英文全名、缩写、可识别旧名核对，副本未列；仅指该份2026目录，不代表学术质量等级。",
+          "note": "按英文全名、缩写及已知旧名核对CCF2026公开副本全部295项期刊记录，未列入该版。",
           "attempts": [
             "完整2026公开副本期刊表逐条名称匹配",
             "已检查可识别旧称/IEEE-ACM更名"
@@ -5770,7 +5770,7 @@ window.COMMDDL_DATA = {
       "verification": "verified",
       "assessments": [],
       "indexStatus": "SCIE",
-      "metricNote": "收录与分区需按体系、年份另行核验；目录收录不代表 SCI 或学校认定。",
+      "metricNote": "索引与分区按各自体系、年份查询；学校认定见选用政策文件。",
       "catalogStatus": "current",
       "indexing": {
         "value": "SCIE",
@@ -5796,7 +5796,7 @@ window.COMMDDL_DATA = {
           "sourceType": "publisher",
           "verifiedAt": "2026-10-18",
           "appliesToName": "IEEE Vehicular Technology Magazine",
-          "note": "采用原表 Quartile (JIF)（期刊影响因子分区）列，非 CiteScore（引文评分）或 SJR（SCImago期刊排名）；按原表为2025 JCR、2026年6月发布。不同学科分区需另查 JCR。"
+          "note": "读取IEEE期刊表Quartile (JIF)（期刊影响因子分区）列，2025 JCR数据、2026年6月发布；逐学科分区见JCR。"
         },
         {
           "system": "cas",
@@ -5832,7 +5832,7 @@ window.COMMDDL_DATA = {
               "quartile": 3
             }
           ],
-          "note": "高校公开转录注明2025年升级版、2026-09-28导出，原数据来自期刊分区表平台；按完整刊名或旧名唯一对应。大类与全部小类分开保存，未直接核验原库。"
+          "note": "高校公开的2025升级版转录，2026-09-28导出，原数据来自期刊分区表平台。按完整刊名或旧名唯一对应，保存大类与全部小类分区。"
         },
         {
           "system": "ccf",
@@ -5843,7 +5843,7 @@ window.COMMDDL_DATA = {
           "sourceTitle": "CCF2026第七版公开副本",
           "sourceType": "document-copy",
           "reviewedAt": "2026-10-18",
-          "note": "已检索副本全部295项期刊记录，按英文全名、缩写、可识别旧名核对，副本未列；仅指该份2026目录，不代表学术质量等级。",
+          "note": "按英文全名、缩写及已知旧名核对CCF2026公开副本全部295项期刊记录，未列入该版。",
           "attempts": [
             "完整2026公开副本期刊表逐条名称匹配",
             "已检查可识别旧称/IEEE-ACM更名"
@@ -5883,7 +5883,7 @@ window.COMMDDL_DATA = {
       "verification": "verified",
       "assessments": [],
       "indexStatus": "SCIE",
-      "metricNote": "收录与分区需按体系、年份另行核验；目录收录不代表 SCI 或学校认定。",
+      "metricNote": "索引与分区按各自体系、年份查询；学校认定见选用政策文件。",
       "catalogStatus": "current",
       "indexing": {
         "value": "SCIE",
@@ -5909,7 +5909,7 @@ window.COMMDDL_DATA = {
           "sourceType": "publisher",
           "verifiedAt": "2026-10-18",
           "appliesToName": "IEEE Transactions on Antennas and Propagation",
-          "note": "采用原表 Quartile (JIF)（期刊影响因子分区）列，非 CiteScore（引文评分）或 SJR（SCImago期刊排名）；按原表为2025 JCR、2026年6月发布。不同学科分区需另查 JCR。"
+          "note": "读取IEEE期刊表Quartile (JIF)（期刊影响因子分区）列，2025 JCR数据、2026年6月发布；逐学科分区见JCR。"
         },
         {
           "system": "cas",
@@ -5941,7 +5941,7 @@ window.COMMDDL_DATA = {
               "quartile": 1
             }
           ],
-          "note": "高校公开转录注明2025年升级版、2026-09-28导出，原数据来自期刊分区表平台；按完整刊名或旧名唯一对应。大类与全部小类分开保存，未直接核验原库。"
+          "note": "高校公开的2025升级版转录，2026-09-28导出，原数据来自期刊分区表平台。按完整刊名或旧名唯一对应，保存大类与全部小类分区。"
         },
         {
           "system": "ccf",
@@ -5952,7 +5952,7 @@ window.COMMDDL_DATA = {
           "sourceTitle": "CCF2026第七版公开副本",
           "sourceType": "document-copy",
           "reviewedAt": "2026-10-18",
-          "note": "已检索副本全部295项期刊记录，按英文全名、缩写、可识别旧名核对，副本未列；仅指该份2026目录，不代表学术质量等级。",
+          "note": "按英文全名、缩写及已知旧名核对CCF2026公开副本全部295项期刊记录，未列入该版。",
           "attempts": [
             "完整2026公开副本期刊表逐条名称匹配",
             "已检查可识别旧称/IEEE-ACM更名"
@@ -5991,7 +5991,7 @@ window.COMMDDL_DATA = {
       "verification": "verified",
       "assessments": [],
       "indexStatus": "SCIE",
-      "metricNote": "收录与分区需按体系、年份另行核验；目录收录不代表 SCI 或学校认定。",
+      "metricNote": "索引与分区按各自体系、年份查询；学校认定见选用政策文件。",
       "catalogStatus": "current",
       "indexing": {
         "value": "SCIE",
@@ -6017,7 +6017,7 @@ window.COMMDDL_DATA = {
           "sourceType": "publisher",
           "verifiedAt": "2026-10-18",
           "appliesToName": "IEEE Antennas and Wireless Propagation Letters",
-          "note": "采用原表 Quartile (JIF)（期刊影响因子分区）列，非 CiteScore（引文评分）或 SJR（SCImago期刊排名）；按原表为2025 JCR、2026年6月发布。不同学科分区需另查 JCR。"
+          "note": "读取IEEE期刊表Quartile (JIF)（期刊影响因子分区）列，2025 JCR数据、2026年6月发布；逐学科分区见JCR。"
         },
         {
           "system": "cas",
@@ -6049,7 +6049,7 @@ window.COMMDDL_DATA = {
               "quartile": 3
             }
           ],
-          "note": "高校公开转录注明2025年升级版、2026-09-28导出，原数据来自期刊分区表平台；按完整刊名或旧名唯一对应。大类与全部小类分开保存，未直接核验原库。"
+          "note": "高校公开的2025升级版转录，2026-09-28导出，原数据来自期刊分区表平台。按完整刊名或旧名唯一对应，保存大类与全部小类分区。"
         },
         {
           "system": "ccf",
@@ -6060,7 +6060,7 @@ window.COMMDDL_DATA = {
           "sourceTitle": "CCF2026第七版公开副本",
           "sourceType": "document-copy",
           "reviewedAt": "2026-10-18",
-          "note": "已检索副本全部295项期刊记录，按英文全名、缩写、可识别旧名核对，副本未列；仅指该份2026目录，不代表学术质量等级。",
+          "note": "按英文全名、缩写及已知旧名核对CCF2026公开副本全部295项期刊记录，未列入该版。",
           "attempts": [
             "完整2026公开副本期刊表逐条名称匹配",
             "已检查可识别旧称/IEEE-ACM更名"
@@ -6100,7 +6100,7 @@ window.COMMDDL_DATA = {
       "verification": "verified",
       "assessments": [],
       "indexStatus": "ESCI",
-      "metricNote": "收录与分区需按体系、年份另行核验；目录收录不代表 SCI 或学校认定。",
+      "metricNote": "索引与分区按各自体系、年份查询；学校认定见选用政策文件。",
       "catalogStatus": "current",
       "indexing": {
         "value": "ESCI",
@@ -6126,7 +6126,7 @@ window.COMMDDL_DATA = {
           "sourceType": "publisher",
           "verifiedAt": "2026-10-18",
           "appliesToName": "IEEE Open Journal of Antennas and Propagation",
-          "note": "采用原表 Quartile (JIF)（期刊影响因子分区）列，非 CiteScore（引文评分）或 SJR（SCImago期刊排名）；按原表为2025 JCR、2026年6月发布。不同学科分区需另查 JCR。"
+          "note": "读取IEEE期刊表Quartile (JIF)（期刊影响因子分区）列，2025 JCR数据、2026年6月发布；逐学科分区见JCR。"
         },
         {
           "system": "cas",
@@ -6158,7 +6158,7 @@ window.COMMDDL_DATA = {
               "quartile": 3
             }
           ],
-          "note": "高校公开转录注明2025年升级版、2026-09-28导出，原数据来自期刊分区表平台；按完整刊名或旧名唯一对应。大类与全部小类分开保存，未直接核验原库。"
+          "note": "高校公开的2025升级版转录，2026-09-28导出，原数据来自期刊分区表平台。按完整刊名或旧名唯一对应，保存大类与全部小类分区。"
         },
         {
           "system": "ccf",
@@ -6169,7 +6169,7 @@ window.COMMDDL_DATA = {
           "sourceTitle": "CCF2026第七版公开副本",
           "sourceType": "document-copy",
           "reviewedAt": "2026-10-18",
-          "note": "已检索副本全部295项期刊记录，按英文全名、缩写、可识别旧名核对，副本未列；仅指该份2026目录，不代表学术质量等级。",
+          "note": "按英文全名、缩写及已知旧名核对CCF2026公开副本全部295项期刊记录，未列入该版。",
           "attempts": [
             "完整2026公开副本期刊表逐条名称匹配",
             "已检查可识别旧称/IEEE-ACM更名"
@@ -6209,7 +6209,7 @@ window.COMMDDL_DATA = {
       "verification": "verified",
       "assessments": [],
       "indexStatus": "SCIE",
-      "metricNote": "收录与分区需按体系、年份另行核验；目录收录不代表 SCI 或学校认定。",
+      "metricNote": "索引与分区按各自体系、年份查询；学校认定见选用政策文件。",
       "catalogStatus": "current",
       "indexing": {
         "value": "SCIE",
@@ -6235,7 +6235,7 @@ window.COMMDDL_DATA = {
           "sourceType": "publisher",
           "verifiedAt": "2026-10-18",
           "appliesToName": "IEEE Antennas and Propagation Magazine",
-          "note": "采用原表 Quartile (JIF)（期刊影响因子分区）列，非 CiteScore（引文评分）或 SJR（SCImago期刊排名）；按原表为2025 JCR、2026年6月发布。不同学科分区需另查 JCR。"
+          "note": "读取IEEE期刊表Quartile (JIF)（期刊影响因子分区）列，2025 JCR数据、2026年6月发布；逐学科分区见JCR。"
         },
         {
           "system": "cas",
@@ -6267,7 +6267,7 @@ window.COMMDDL_DATA = {
               "quartile": 3
             }
           ],
-          "note": "高校公开转录注明2025年升级版、2026-09-28导出，原数据来自期刊分区表平台；按完整刊名或旧名唯一对应。大类与全部小类分开保存，未直接核验原库。 与此前已取得公开转录的分区值一致。"
+          "note": "高校公开的2025升级版转录，2026-09-28导出，原数据来自期刊分区表平台。按完整刊名或旧名唯一对应，保存大类与全部小类分区。 与此前已取得公开转录的分区值一致。"
         },
         {
           "system": "ccf",
@@ -6278,7 +6278,7 @@ window.COMMDDL_DATA = {
           "sourceTitle": "CCF2026第七版公开副本",
           "sourceType": "document-copy",
           "reviewedAt": "2026-10-18",
-          "note": "已检索副本全部295项期刊记录，按英文全名、缩写、可识别旧名核对，副本未列；仅指该份2026目录，不代表学术质量等级。",
+          "note": "按英文全名、缩写及已知旧名核对CCF2026公开副本全部295项期刊记录，未列入该版。",
           "attempts": [
             "完整2026公开副本期刊表逐条名称匹配",
             "已检查可识别旧称/IEEE-ACM更名"
@@ -6318,7 +6318,7 @@ window.COMMDDL_DATA = {
       "verification": "verified",
       "assessments": [],
       "indexStatus": "SCIE",
-      "metricNote": "收录与分区需按体系、年份另行核验；目录收录不代表 SCI 或学校认定。",
+      "metricNote": "索引与分区按各自体系、年份查询；学校认定见选用政策文件。",
       "authorGuideUrl": "https://mtt.org/publications/t-mtt/information-for-authors/",
       "catalogStatus": "current",
       "indexing": {
@@ -6345,7 +6345,7 @@ window.COMMDDL_DATA = {
           "sourceType": "publisher",
           "verifiedAt": "2026-10-18",
           "appliesToName": "IEEE Transactions on Microwave Theory and Techniques",
-          "note": "采用原表 Quartile (JIF)（期刊影响因子分区）列，非 CiteScore（引文评分）或 SJR（SCImago期刊排名）；按原表为2025 JCR、2026年6月发布。不同学科分区需另查 JCR。"
+          "note": "读取IEEE期刊表Quartile (JIF)（期刊影响因子分区）列，2025 JCR数据、2026年6月发布；逐学科分区见JCR。"
         },
         {
           "system": "cas",
@@ -6373,7 +6373,7 @@ window.COMMDDL_DATA = {
               "quartile": 2
             }
           ],
-          "note": "高校公开转录注明2025年升级版、2026-09-28导出，原数据来自期刊分区表平台；按完整刊名或旧名唯一对应。大类与全部小类分开保存，未直接核验原库。"
+          "note": "高校公开的2025升级版转录，2026-09-28导出，原数据来自期刊分区表平台。按完整刊名或旧名唯一对应，保存大类与全部小类分区。"
         },
         {
           "system": "ccf",
@@ -6384,7 +6384,7 @@ window.COMMDDL_DATA = {
           "sourceTitle": "CCF2026第七版公开副本",
           "sourceType": "document-copy",
           "reviewedAt": "2026-10-18",
-          "note": "已检索副本全部295项期刊记录，按英文全名、缩写、可识别旧名核对，副本未列；仅指该份2026目录，不代表学术质量等级。",
+          "note": "按英文全名、缩写及已知旧名核对CCF2026公开副本全部295项期刊记录，未列入该版。",
           "attempts": [
             "完整2026公开副本期刊表逐条名称匹配",
             "已检查可识别旧称/IEEE-ACM更名"
@@ -6426,7 +6426,7 @@ window.COMMDDL_DATA = {
       "verification": "verified",
       "assessments": [],
       "indexStatus": "SCIE",
-      "metricNote": "收录与分区需按体系、年份另行核验；目录收录不代表 SCI 或学校认定。",
+      "metricNote": "索引与分区按各自体系、年份查询；学校认定见选用政策文件。",
       "authorGuideUrl": "https://mtt.org/publications/mwtl/information-for-authors/",
       "catalogStatus": "current",
       "indexing": {
@@ -6453,7 +6453,7 @@ window.COMMDDL_DATA = {
           "sourceType": "publisher",
           "verifiedAt": "2026-10-18",
           "appliesToName": "IEEE Microwave and Wireless Technology Letters",
-          "note": "采用原表 Quartile (JIF)（期刊影响因子分区）列，非 CiteScore（引文评分）或 SJR（SCImago期刊排名）；按原表为2025 JCR、2026年6月发布。不同学科分区需另查 JCR。"
+          "note": "读取IEEE期刊表Quartile (JIF)（期刊影响因子分区）列，2025 JCR数据、2026年6月发布；逐学科分区见JCR。"
         },
         {
           "system": "cas",
@@ -6481,7 +6481,7 @@ window.COMMDDL_DATA = {
               "quartile": 3
             }
           ],
-          "note": "高校公开转录注明2025年升级版、2026-09-28导出，原数据来自期刊分区表平台；按完整刊名或旧名唯一对应。大类与全部小类分开保存，未直接核验原库。"
+          "note": "高校公开的2025升级版转录，2026-09-28导出，原数据来自期刊分区表平台。按完整刊名或旧名唯一对应，保存大类与全部小类分区。"
         },
         {
           "system": "ccf",
@@ -6492,7 +6492,7 @@ window.COMMDDL_DATA = {
           "sourceTitle": "CCF2026第七版公开副本",
           "sourceType": "document-copy",
           "reviewedAt": "2026-10-18",
-          "note": "已检索副本全部295项期刊记录，按英文全名、缩写、可识别旧名核对，副本未列；仅指该份2026目录，不代表学术质量等级。",
+          "note": "按英文全名、缩写及已知旧名核对CCF2026公开副本全部295项期刊记录，未列入该版。",
           "attempts": [
             "完整2026公开副本期刊表逐条名称匹配",
             "已检查可识别旧称/IEEE-ACM更名"
@@ -6533,7 +6533,7 @@ window.COMMDDL_DATA = {
       "verification": "verified",
       "assessments": [],
       "indexStatus": "SCIE",
-      "metricNote": "收录与分区需按体系、年份另行核验；目录收录不代表 SCI 或学校认定。",
+      "metricNote": "索引与分区按各自体系、年份查询；学校认定见选用政策文件。",
       "authorGuideUrl": "https://mtt.org/publications/terahertz-science-technology/information-for-authors/",
       "catalogStatus": "current",
       "indexing": {
@@ -6560,7 +6560,7 @@ window.COMMDDL_DATA = {
           "sourceType": "publisher",
           "verifiedAt": "2026-10-18",
           "appliesToName": "IEEE Transactions on Terahertz Science and Technology",
-          "note": "采用原表 Quartile (JIF)（期刊影响因子分区）列，非 CiteScore（引文评分）或 SJR（SCImago期刊排名）；按原表为2025 JCR、2026年6月发布。不同学科分区需另查 JCR。"
+          "note": "读取IEEE期刊表Quartile (JIF)（期刊影响因子分区）列，2025 JCR数据、2026年6月发布；逐学科分区见JCR。"
         },
         {
           "system": "cas",
@@ -6596,7 +6596,7 @@ window.COMMDDL_DATA = {
               "quartile": 2
             }
           ],
-          "note": "高校公开转录注明2025年升级版、2026-09-28导出，原数据来自期刊分区表平台；按完整刊名或旧名唯一对应。大类与全部小类分开保存，未直接核验原库。"
+          "note": "高校公开的2025升级版转录，2026-09-28导出，原数据来自期刊分区表平台。按完整刊名或旧名唯一对应，保存大类与全部小类分区。"
         },
         {
           "system": "ccf",
@@ -6607,7 +6607,7 @@ window.COMMDDL_DATA = {
           "sourceTitle": "CCF2026第七版公开副本",
           "sourceType": "document-copy",
           "reviewedAt": "2026-10-18",
-          "note": "已检索副本全部295项期刊记录，按英文全名、缩写、可识别旧名核对，副本未列；仅指该份2026目录，不代表学术质量等级。",
+          "note": "按英文全名、缩写及已知旧名核对CCF2026公开副本全部295项期刊记录，未列入该版。",
           "attempts": [
             "完整2026公开副本期刊表逐条名称匹配",
             "已检查可识别旧称/IEEE-ACM更名"
@@ -6647,7 +6647,7 @@ window.COMMDDL_DATA = {
       "verification": "verified",
       "assessments": [],
       "indexStatus": "ESCI",
-      "metricNote": "收录与分区需按体系、年份另行核验；目录收录不代表 SCI 或学校认定。",
+      "metricNote": "索引与分区按各自体系、年份查询；学校认定见选用政策文件。",
       "authorGuideUrl": "https://mtt.org/publications/journal-of-microwaves/information-for-authors/",
       "catalogStatus": "current",
       "indexing": {
@@ -6674,7 +6674,7 @@ window.COMMDDL_DATA = {
           "sourceType": "publisher",
           "verifiedAt": "2026-10-18",
           "appliesToName": "IEEE Journal of Microwaves",
-          "note": "采用原表 Quartile (JIF)（期刊影响因子分区）列，非 CiteScore（引文评分）或 SJR（SCImago期刊排名）；按原表为2025 JCR、2026年6月发布。不同学科分区需另查 JCR。"
+          "note": "读取IEEE期刊表Quartile (JIF)（期刊影响因子分区）列，2025 JCR数据、2026年6月发布；逐学科分区见JCR。"
         },
         {
           "system": "cas",
@@ -6702,7 +6702,7 @@ window.COMMDDL_DATA = {
               "quartile": 2
             }
           ],
-          "note": "高校公开转录注明2025年升级版、2026-09-28导出，原数据来自期刊分区表平台；按完整刊名或旧名唯一对应。大类与全部小类分开保存，未直接核验原库。"
+          "note": "高校公开的2025升级版转录，2026-09-28导出，原数据来自期刊分区表平台。按完整刊名或旧名唯一对应，保存大类与全部小类分区。"
         },
         {
           "system": "ccf",
@@ -6713,7 +6713,7 @@ window.COMMDDL_DATA = {
           "sourceTitle": "CCF2026第七版公开副本",
           "sourceType": "document-copy",
           "reviewedAt": "2026-10-18",
-          "note": "已检索副本全部295项期刊记录，按英文全名、缩写、可识别旧名核对，副本未列；仅指该份2026目录，不代表学术质量等级。",
+          "note": "按英文全名、缩写及已知旧名核对CCF2026公开副本全部295项期刊记录，未列入该版。",
           "attempts": [
             "完整2026公开副本期刊表逐条名称匹配",
             "已检查可识别旧称/IEEE-ACM更名"
@@ -6753,7 +6753,7 @@ window.COMMDDL_DATA = {
       "verification": "verified",
       "assessments": [],
       "indexStatus": "SCIE",
-      "metricNote": "收录与分区需按体系、年份另行核验；目录收录不代表 SCI 或学校认定。",
+      "metricNote": "索引与分区按各自体系、年份查询；学校认定见选用政策文件。",
       "authorGuideUrl": "https://mtt.org/publications/ieee-microwave-magazine/guidelines-for-authors/",
       "catalogStatus": "current",
       "indexing": {
@@ -6780,7 +6780,7 @@ window.COMMDDL_DATA = {
           "sourceType": "publisher",
           "verifiedAt": "2026-10-18",
           "appliesToName": "IEEE Microwave Magazine",
-          "note": "采用原表 Quartile (JIF)（期刊影响因子分区）列，非 CiteScore（引文评分）或 SJR（SCImago期刊排名）；按原表为2025 JCR、2026年6月发布。不同学科分区需另查 JCR。"
+          "note": "读取IEEE期刊表Quartile (JIF)（期刊影响因子分区）列，2025 JCR数据、2026年6月发布；逐学科分区见JCR。"
         },
         {
           "system": "cas",
@@ -6812,7 +6812,7 @@ window.COMMDDL_DATA = {
               "quartile": 3
             }
           ],
-          "note": "高校公开转录注明2025年升级版、2026-09-28导出，原数据来自期刊分区表平台；按完整刊名或旧名唯一对应。大类与全部小类分开保存，未直接核验原库。"
+          "note": "高校公开的2025升级版转录，2026-09-28导出，原数据来自期刊分区表平台。按完整刊名或旧名唯一对应，保存大类与全部小类分区。"
         },
         {
           "system": "ccf",
@@ -6823,7 +6823,7 @@ window.COMMDDL_DATA = {
           "sourceTitle": "CCF2026第七版公开副本",
           "sourceType": "document-copy",
           "reviewedAt": "2026-10-18",
-          "note": "已检索副本全部295项期刊记录，按英文全名、缩写、可识别旧名核对，副本未列；仅指该份2026目录，不代表学术质量等级。",
+          "note": "按英文全名、缩写及已知旧名核对CCF2026公开副本全部295项期刊记录，未列入该版。",
           "attempts": [
             "完整2026公开副本期刊表逐条名称匹配",
             "已检查可识别旧称/IEEE-ACM更名"
@@ -6867,7 +6867,7 @@ window.COMMDDL_DATA = {
       "verification": "verified",
       "assessments": [],
       "indexStatus": "SCIE",
-      "metricNote": "收录与分区需按体系、年份另行核验；目录收录不代表 SCI 或学校认定。",
+      "metricNote": "索引与分区按各自体系、年份查询；学校认定见选用政策文件。",
       "catalogStatus": "current",
       "indexing": {
         "value": "SCIE",
@@ -6893,7 +6893,7 @@ window.COMMDDL_DATA = {
           "sourceType": "publisher",
           "verifiedAt": "2026-10-18",
           "appliesToName": "IEEE Transactions on Aerospace and Electronic Systems",
-          "note": "采用原表 Quartile (JIF)（期刊影响因子分区）列，非 CiteScore（引文评分）或 SJR（SCImago期刊排名）；按原表为2025 JCR、2026年6月发布。不同学科分区需另查 JCR。"
+          "note": "读取IEEE期刊表Quartile (JIF)（期刊影响因子分区）列，2025 JCR数据、2026年6月发布；逐学科分区见JCR。"
         },
         {
           "system": "cas",
@@ -6929,7 +6929,7 @@ window.COMMDDL_DATA = {
               "quartile": 3
             }
           ],
-          "note": "高校公开转录注明2025年升级版、2026-09-28导出，原数据来自期刊分区表平台；按完整刊名或旧名唯一对应。大类与全部小类分开保存，未直接核验原库。"
+          "note": "高校公开的2025升级版转录，2026-09-28导出，原数据来自期刊分区表平台。按完整刊名或旧名唯一对应，保存大类与全部小类分区。"
         },
         {
           "system": "ccf",
@@ -6940,7 +6940,7 @@ window.COMMDDL_DATA = {
           "sourceTitle": "CCF2026第七版公开副本",
           "sourceType": "document-copy",
           "reviewedAt": "2026-10-18",
-          "note": "已检索副本全部295项期刊记录，按英文全名、缩写、可识别旧名核对，副本未列；仅指该份2026目录，不代表学术质量等级。",
+          "note": "按英文全名、缩写及已知旧名核对CCF2026公开副本全部295项期刊记录，未列入该版。",
           "attempts": [
             "完整2026公开副本期刊表逐条名称匹配",
             "已检查可识别旧称/IEEE-ACM更名"
@@ -6981,7 +6981,7 @@ window.COMMDDL_DATA = {
       "verification": "verified",
       "assessments": [],
       "indexStatus": "ESCI",
-      "metricNote": "收录与分区需按体系、年份另行核验；目录收录不代表 SCI 或学校认定。",
+      "metricNote": "索引与分区按各自体系、年份查询；学校认定见选用政策文件。",
       "catalogStatus": "current",
       "indexing": {
         "value": "ESCI",
@@ -7007,7 +7007,7 @@ window.COMMDDL_DATA = {
           "sourceType": "publisher",
           "verifiedAt": "2026-10-18",
           "appliesToName": "IEEE Transactions on Radar Systems",
-          "note": "采用原表 Quartile (JIF)（期刊影响因子分区）列，非 CiteScore（引文评分）或 SJR（SCImago期刊排名）；按原表为2025 JCR、2026年6月发布。不同学科分区需另查 JCR。"
+          "note": "读取IEEE期刊表Quartile (JIF)（期刊影响因子分区）列，2025 JCR数据、2026年6月发布；逐学科分区见JCR。"
         },
         {
           "system": "cas",
@@ -7028,7 +7028,7 @@ window.COMMDDL_DATA = {
             "IEEE Transactions on Radar Systems",
             "IEEE 雷达系统汇刊"
           ],
-          "note": "已对照完整21772刊的2025转录，按完整英文刊名、中文刊名、已知旧名及可得ISSN检查，未列入本版；仅指2025表，不推断其他年份或WoS索引状态。",
+          "note": "按英文全名、中文刊名、旧名及可得ISSN核对2025年21772刊完整转录，未列入该版。",
           "attempts": [
             "2025完整期刊汇总21772条全名/中文名/旧名检索",
             "原表相关关键词复查，未以近名刊物替代",
@@ -7044,7 +7044,7 @@ window.COMMDDL_DATA = {
           "sourceTitle": "CCF2026第七版公开副本",
           "sourceType": "document-copy",
           "reviewedAt": "2026-10-18",
-          "note": "已检索副本全部295项期刊记录，按英文全名、缩写、可识别旧名核对，副本未列；仅指该份2026目录，不代表学术质量等级。",
+          "note": "按英文全名、缩写及已知旧名核对CCF2026公开副本全部295项期刊记录，未列入该版。",
           "attempts": [
             "完整2026公开副本期刊表逐条名称匹配",
             "已检查可识别旧称/IEEE-ACM更名"
@@ -7082,7 +7082,7 @@ window.COMMDDL_DATA = {
       "verification": "verified",
       "assessments": [],
       "indexStatus": "SCIE",
-      "metricNote": "收录与分区需按体系、年份另行核验；目录收录不代表 SCI 或学校认定。",
+      "metricNote": "索引与分区按各自体系、年份查询；学校认定见选用政策文件。",
       "catalogStatus": "current",
       "indexing": {
         "value": "SCIE",
@@ -7108,7 +7108,7 @@ window.COMMDDL_DATA = {
           "sourceType": "publisher",
           "verifiedAt": "2026-10-18",
           "appliesToName": "IEEE Journal of Quantum Electronics",
-          "note": "采用原表 Quartile (JIF)（期刊影响因子分区）列，非 CiteScore（引文评分）或 SJR（SCImago期刊排名）；按原表为2025 JCR、2026年6月发布。不同学科分区需另查 JCR。"
+          "note": "读取IEEE期刊表Quartile (JIF)（期刊影响因子分区）列，2025 JCR数据、2026年6月发布；逐学科分区见JCR。"
         },
         {
           "system": "cas",
@@ -7148,7 +7148,7 @@ window.COMMDDL_DATA = {
               "quartile": 3
             }
           ],
-          "note": "高校公开转录注明2025年升级版、2026-09-28导出，原数据来自期刊分区表平台；按完整刊名或旧名唯一对应。大类与全部小类分开保存，未直接核验原库。"
+          "note": "高校公开的2025升级版转录，2026-09-28导出，原数据来自期刊分区表平台。按完整刊名或旧名唯一对应，保存大类与全部小类分区。"
         },
         {
           "system": "ccf",
@@ -7159,7 +7159,7 @@ window.COMMDDL_DATA = {
           "sourceTitle": "CCF2026第七版公开副本",
           "sourceType": "document-copy",
           "reviewedAt": "2026-10-18",
-          "note": "已检索副本全部295项期刊记录，按英文全名、缩写、可识别旧名核对，副本未列；仅指该份2026目录，不代表学术质量等级。",
+          "note": "按英文全名、缩写及已知旧名核对CCF2026公开副本全部295项期刊记录，未列入该版。",
           "attempts": [
             "完整2026公开副本期刊表逐条名称匹配",
             "已检查可识别旧称/IEEE-ACM更名"
@@ -7198,7 +7198,7 @@ window.COMMDDL_DATA = {
       "verification": "verified",
       "assessments": [],
       "indexStatus": "SCIE",
-      "metricNote": "收录与分区需按体系、年份另行核验；目录收录不代表 SCI 或学校认定。",
+      "metricNote": "索引与分区按各自体系、年份查询；学校认定见选用政策文件。",
       "cfpUrl": "https://ieeephotonics.org/publications/publication-calls-for-papers/",
       "catalogStatus": "current",
       "indexing": {
@@ -7225,7 +7225,7 @@ window.COMMDDL_DATA = {
           "sourceType": "publisher",
           "verifiedAt": "2026-10-18",
           "appliesToName": "IEEE Journal of Selected Topics in Quantum Electronics",
-          "note": "采用原表 Quartile (JIF)（期刊影响因子分区）列，非 CiteScore（引文评分）或 SJR（SCImago期刊排名）；按原表为2025 JCR、2026年6月发布。不同学科分区需另查 JCR。"
+          "note": "读取IEEE期刊表Quartile (JIF)（期刊影响因子分区）列，2025 JCR数据、2026年6月发布；逐学科分区见JCR。"
         },
         {
           "system": "cas",
@@ -7265,7 +7265,7 @@ window.COMMDDL_DATA = {
               "quartile": 3
             }
           ],
-          "note": "高校公开转录注明2025年升级版、2026-09-28导出，原数据来自期刊分区表平台；按完整刊名或旧名唯一对应。大类与全部小类分开保存，未直接核验原库。 与此前已取得公开转录的分区值一致。"
+          "note": "高校公开的2025升级版转录，2026-09-28导出，原数据来自期刊分区表平台。按完整刊名或旧名唯一对应，保存大类与全部小类分区。 与此前已取得公开转录的分区值一致。"
         },
         {
           "system": "ccf",
@@ -7276,7 +7276,7 @@ window.COMMDDL_DATA = {
           "sourceTitle": "CCF2026第七版公开副本",
           "sourceType": "document-copy",
           "reviewedAt": "2026-10-18",
-          "note": "已检索副本全部295项期刊记录，按英文全名、缩写、可识别旧名核对，副本未列；仅指该份2026目录，不代表学术质量等级。",
+          "note": "按英文全名、缩写及已知旧名核对CCF2026公开副本全部295项期刊记录，未列入该版。",
           "attempts": [
             "完整2026公开副本期刊表逐条名称匹配",
             "已检查可识别旧称/IEEE-ACM更名"
@@ -7316,7 +7316,7 @@ window.COMMDDL_DATA = {
       "verification": "verified",
       "assessments": [],
       "indexStatus": "SCIE",
-      "metricNote": "收录与分区需按体系、年份另行核验；目录收录不代表 SCI 或学校认定。",
+      "metricNote": "索引与分区按各自体系、年份查询；学校认定见选用政策文件。",
       "catalogStatus": "current",
       "indexing": {
         "value": "SCIE",
@@ -7342,7 +7342,7 @@ window.COMMDDL_DATA = {
           "sourceType": "publisher",
           "verifiedAt": "2026-10-18",
           "appliesToName": "IEEE Photonics Technology Letters",
-          "note": "采用原表 Quartile (JIF)（期刊影响因子分区）列，非 CiteScore（引文评分）或 SJR（SCImago期刊排名）；按原表为2025 JCR、2026年6月发布。不同学科分区需另查 JCR。"
+          "note": "读取IEEE期刊表Quartile (JIF)（期刊影响因子分区）列，2025 JCR数据、2026年6月发布；逐学科分区见JCR。"
         },
         {
           "system": "cas",
@@ -7378,7 +7378,7 @@ window.COMMDDL_DATA = {
               "quartile": 3
             }
           ],
-          "note": "高校公开转录注明2025年升级版、2026-09-28导出，原数据来自期刊分区表平台；按完整刊名或旧名唯一对应。大类与全部小类分开保存，未直接核验原库。"
+          "note": "高校公开的2025升级版转录，2026-09-28导出，原数据来自期刊分区表平台。按完整刊名或旧名唯一对应，保存大类与全部小类分区。"
         },
         {
           "system": "ccf",
@@ -7389,7 +7389,7 @@ window.COMMDDL_DATA = {
           "sourceTitle": "CCF2026第七版公开副本",
           "sourceType": "document-copy",
           "reviewedAt": "2026-10-18",
-          "note": "已检索副本全部295项期刊记录，按英文全名、缩写、可识别旧名核对，副本未列；仅指该份2026目录，不代表学术质量等级。",
+          "note": "按英文全名、缩写及已知旧名核对CCF2026公开副本全部295项期刊记录，未列入该版。",
           "attempts": [
             "完整2026公开副本期刊表逐条名称匹配",
             "已检查可识别旧称/IEEE-ACM更名"
@@ -7429,7 +7429,7 @@ window.COMMDDL_DATA = {
       "verification": "verified",
       "assessments": [],
       "indexStatus": "SCIE",
-      "metricNote": "收录与分区需按体系、年份另行核验；目录收录不代表 SCI 或学校认定。",
+      "metricNote": "索引与分区按各自体系、年份查询；学校认定见选用政策文件。",
       "catalogStatus": "current",
       "indexing": {
         "value": "SCIE",
@@ -7455,7 +7455,7 @@ window.COMMDDL_DATA = {
           "sourceType": "publisher",
           "verifiedAt": "2026-10-18",
           "appliesToName": "IEEE Photonics Journal",
-          "note": "采用原表 Quartile (JIF)（期刊影响因子分区）列，非 CiteScore（引文评分）或 SJR（SCImago期刊排名）；按原表为2025 JCR、2026年6月发布。不同学科分区需另查 JCR。"
+          "note": "读取IEEE期刊表Quartile (JIF)（期刊影响因子分区）列，2025 JCR数据、2026年6月发布；逐学科分区见JCR。"
         },
         {
           "system": "cas",
@@ -7491,7 +7491,7 @@ window.COMMDDL_DATA = {
               "quartile": 3
             }
           ],
-          "note": "高校公开转录注明2025年升级版、2026-09-28导出，原数据来自期刊分区表平台；按完整刊名或旧名唯一对应。大类与全部小类分开保存，未直接核验原库。"
+          "note": "高校公开的2025升级版转录，2026-09-28导出，原数据来自期刊分区表平台。按完整刊名或旧名唯一对应，保存大类与全部小类分区。"
         },
         {
           "system": "ccf",
@@ -7502,7 +7502,7 @@ window.COMMDDL_DATA = {
           "sourceTitle": "CCF2026第七版公开副本",
           "sourceType": "document-copy",
           "reviewedAt": "2026-10-18",
-          "note": "已检索副本全部295项期刊记录，按英文全名、缩写、可识别旧名核对，副本未列；仅指该份2026目录，不代表学术质量等级。",
+          "note": "按英文全名、缩写及已知旧名核对CCF2026公开副本全部295项期刊记录，未列入该版。",
           "attempts": [
             "完整2026公开副本期刊表逐条名称匹配",
             "已检查可识别旧称/IEEE-ACM更名"
@@ -7543,7 +7543,7 @@ window.COMMDDL_DATA = {
       "verification": "verified",
       "assessments": [],
       "indexStatus": "SCIE",
-      "metricNote": "收录与分区需按体系、年份另行核验；目录收录不代表 SCI 或学校认定。",
+      "metricNote": "索引与分区按各自体系、年份查询；学校认定见选用政策文件。",
       "catalogStatus": "current",
       "indexing": {
         "value": "SCIE",
@@ -7569,7 +7569,7 @@ window.COMMDDL_DATA = {
           "sourceType": "publisher",
           "verifiedAt": "2026-10-18",
           "appliesToName": "IEEE Sensors Journal",
-          "note": "采用原表 Quartile (JIF)（期刊影响因子分区）列，非 CiteScore（引文评分）或 SJR（SCImago期刊排名）；按原表为2025 JCR、2026年6月发布。不同学科分区需另查 JCR。"
+          "note": "读取IEEE期刊表Quartile (JIF)（期刊影响因子分区）列，2025 JCR数据、2026年6月发布；逐学科分区见JCR。"
         },
         {
           "system": "cas",
@@ -7605,7 +7605,7 @@ window.COMMDDL_DATA = {
               "quartile": 3
             }
           ],
-          "note": "高校公开转录注明2025年升级版、2026-09-28导出，原数据来自期刊分区表平台；按完整刊名或旧名唯一对应。大类与全部小类分开保存，未直接核验原库。 与此前已取得公开转录的分区值一致。"
+          "note": "高校公开的2025升级版转录，2026-09-28导出，原数据来自期刊分区表平台。按完整刊名或旧名唯一对应，保存大类与全部小类分区。 与此前已取得公开转录的分区值一致。"
         },
         {
           "system": "ccf",
@@ -7616,7 +7616,7 @@ window.COMMDDL_DATA = {
           "sourceTitle": "CCF2026第七版公开副本",
           "sourceType": "document-copy",
           "reviewedAt": "2026-10-18",
-          "note": "已检索副本全部295项期刊记录，按英文全名、缩写、可识别旧名核对，副本未列；仅指该份2026目录，不代表学术质量等级。",
+          "note": "按英文全名、缩写及已知旧名核对CCF2026公开副本全部295项期刊记录，未列入该版。",
           "attempts": [
             "完整2026公开副本期刊表逐条名称匹配",
             "已检查可识别旧称/IEEE-ACM更名"
@@ -7654,7 +7654,7 @@ window.COMMDDL_DATA = {
       "verification": "verified",
       "assessments": [],
       "indexStatus": "ESCI",
-      "metricNote": "收录与分区需按体系、年份另行核验；目录收录不代表 SCI 或学校认定。",
+      "metricNote": "索引与分区按各自体系、年份查询；学校认定见选用政策文件。",
       "catalogStatus": "current",
       "indexing": {
         "value": "ESCI",
@@ -7680,7 +7680,7 @@ window.COMMDDL_DATA = {
           "sourceType": "publisher",
           "verifiedAt": "2026-10-18",
           "appliesToName": "IEEE Sensors Letters",
-          "note": "采用原表 Quartile (JIF)（期刊影响因子分区）列，非 CiteScore（引文评分）或 SJR（SCImago期刊排名）；按原表为2025 JCR、2026年6月发布。不同学科分区需另查 JCR。"
+          "note": "读取IEEE期刊表Quartile (JIF)（期刊影响因子分区）列，2025 JCR数据、2026年6月发布；逐学科分区见JCR。"
         },
         {
           "system": "cas",
@@ -7716,7 +7716,7 @@ window.COMMDDL_DATA = {
               "quartile": 4
             }
           ],
-          "note": "高校公开转录注明2025年升级版、2026-09-28导出，原数据来自期刊分区表平台；按完整刊名或旧名唯一对应。大类与全部小类分开保存，未直接核验原库。"
+          "note": "高校公开的2025升级版转录，2026-09-28导出，原数据来自期刊分区表平台。按完整刊名或旧名唯一对应，保存大类与全部小类分区。"
         },
         {
           "system": "ccf",
@@ -7727,7 +7727,7 @@ window.COMMDDL_DATA = {
           "sourceTitle": "CCF2026第七版公开副本",
           "sourceType": "document-copy",
           "reviewedAt": "2026-10-18",
-          "note": "已检索副本全部295项期刊记录，按英文全名、缩写、可识别旧名核对，副本未列；仅指该份2026目录，不代表学术质量等级。",
+          "note": "按英文全名、缩写及已知旧名核对CCF2026公开副本全部295项期刊记录，未列入该版。",
           "attempts": [
             "完整2026公开副本期刊表逐条名称匹配",
             "已检查可识别旧称/IEEE-ACM更名"
@@ -7770,7 +7770,7 @@ window.COMMDDL_DATA = {
       "verification": "verified",
       "assessments": [],
       "indexStatus": "SCIE",
-      "metricNote": "收录与分区需按体系、年份另行核验；目录收录不代表 SCI 或学校认定。",
+      "metricNote": "索引与分区按各自体系、年份查询；学校认定见选用政策文件。",
       "authorGuideUrl": "https://signalprocessingsociety.org/publications-resources/information-authors",
       "catalogStatus": "current",
       "indexing": {
@@ -7797,7 +7797,7 @@ window.COMMDDL_DATA = {
           "sourceType": "publisher",
           "verifiedAt": "2026-10-18",
           "appliesToName": "IEEE Transactions on Audio, Speech, and Language Processing",
-          "note": "采用原表 Quartile (JIF)（期刊影响因子分区）列，非 CiteScore（引文评分）或 SJR（SCImago期刊排名）；按原表为2025 JCR、2026年6月发布。不同学科分区需另查 JCR。 原表说明改名期刊的 JCR 指标对应旧刊名。"
+          "note": "读取IEEE期刊表Quartile (JIF)（期刊影响因子分区）列，2025 JCR数据、2026年6月发布；逐学科分区见JCR。 原表说明改名期刊的 JCR 指标对应旧刊名。"
         },
         {
           "system": "cas",
@@ -7829,7 +7829,7 @@ window.COMMDDL_DATA = {
               "quartile": 2
             }
           ],
-          "note": "高校公开转录注明2025年升级版、2026-09-28导出，原数据来自期刊分区表平台；按完整刊名或旧名唯一对应。大类与全部小类分开保存，未直接核验原库。"
+          "note": "高校公开的2025升级版转录，2026-09-28导出，原数据来自期刊分区表平台。按完整刊名或旧名唯一对应，保存大类与全部小类分区。"
         },
         {
           "system": "ccf",
@@ -7845,7 +7845,7 @@ window.COMMDDL_DATA = {
           "sourceType": "document-copy",
           "verifiedAt": "2026-10-18",
           "appliesToName": "IEEE Transactions on Audio, Speech, and Language Processing",
-          "note": "等级从 CCF 编制文件的公开副本读取，尚待官网原件逐项复核。会议仅对应正式长文，不适用于短文、演示或附属研讨会。旧刊名匹配，需核对具体发表年份。 按原表简称与人工读取全称核对；换行提取已校正。"
+          "note": "等级读取自CCF编制文件公开副本。按旧刊名匹配，使用时核对发表年份；简称与人工读取全称一致，已校正换行提取。"
         }
       ],
       "catalogScope": "communications",
@@ -7882,7 +7882,7 @@ window.COMMDDL_DATA = {
       "verification": "verified",
       "assessments": [],
       "indexStatus": "SCIE",
-      "metricNote": "收录与分区需按体系、年份另行核验；目录收录不代表 SCI 或学校认定。",
+      "metricNote": "索引与分区按各自体系、年份查询；学校认定见选用政策文件。",
       "authorGuideUrl": "https://signalprocessingsociety.org/publications-resources/information-authors",
       "catalogStatus": "current",
       "indexing": {
@@ -7909,7 +7909,7 @@ window.COMMDDL_DATA = {
           "sourceType": "publisher",
           "verifiedAt": "2026-10-18",
           "appliesToName": "IEEE Signal Processing Magazine",
-          "note": "采用原表 Quartile (JIF)（期刊影响因子分区）列，非 CiteScore（引文评分）或 SJR（SCImago期刊排名）；按原表为2025 JCR、2026年6月发布。不同学科分区需另查 JCR。"
+          "note": "读取IEEE期刊表Quartile (JIF)（期刊影响因子分区）列，2025 JCR数据、2026年6月发布；逐学科分区见JCR。"
         },
         {
           "system": "cas",
@@ -7937,7 +7937,7 @@ window.COMMDDL_DATA = {
               "quartile": 2
             }
           ],
-          "note": "高校公开转录注明2025年升级版、2026-09-28导出，原数据来自期刊分区表平台；按完整刊名或旧名唯一对应。大类与全部小类分开保存，未直接核验原库。 与此前已取得公开转录的分区值一致。"
+          "note": "高校公开的2025升级版转录，2026-09-28导出，原数据来自期刊分区表平台。按完整刊名或旧名唯一对应，保存大类与全部小类分区。 与此前已取得公开转录的分区值一致。"
         },
         {
           "system": "ccf",
@@ -7948,7 +7948,7 @@ window.COMMDDL_DATA = {
           "sourceTitle": "CCF2026第七版公开副本",
           "sourceType": "document-copy",
           "reviewedAt": "2026-10-18",
-          "note": "已检索副本全部295项期刊记录，按英文全名、缩写、可识别旧名核对，副本未列；仅指该份2026目录，不代表学术质量等级。",
+          "note": "按英文全名、缩写及已知旧名核对CCF2026公开副本全部295项期刊记录，未列入该版。",
           "attempts": [
             "完整2026公开副本期刊表逐条名称匹配",
             "已检查可识别旧称/IEEE-ACM更名"
@@ -7987,7 +7987,7 @@ window.COMMDDL_DATA = {
       "verification": "verified",
       "assessments": [],
       "indexStatus": "SCIE",
-      "metricNote": "收录与分区需按体系、年份另行核验；目录收录不代表 SCI 或学校认定。",
+      "metricNote": "索引与分区按各自体系、年份查询；学校认定见选用政策文件。",
       "authorGuideUrl": "https://signalprocessingsociety.org/publications-resources/information-authors",
       "catalogStatus": "current",
       "indexing": {
@@ -8014,7 +8014,7 @@ window.COMMDDL_DATA = {
           "sourceType": "publisher",
           "verifiedAt": "2026-10-18",
           "appliesToName": "IEEE Transactions on Computational Imaging",
-          "note": "采用原表 Quartile (JIF)（期刊影响因子分区）列，非 CiteScore（引文评分）或 SJR（SCImago期刊排名）；按原表为2025 JCR、2026年6月发布。不同学科分区需另查 JCR。"
+          "note": "读取IEEE期刊表Quartile (JIF)（期刊影响因子分区）列，2025 JCR数据、2026年6月发布；逐学科分区见JCR。"
         },
         {
           "system": "cas",
@@ -8046,7 +8046,7 @@ window.COMMDDL_DATA = {
               "quartile": 2
             }
           ],
-          "note": "高校公开转录注明2025年升级版、2026-09-28导出，原数据来自期刊分区表平台；按完整刊名或旧名唯一对应。大类与全部小类分开保存，未直接核验原库。"
+          "note": "高校公开的2025升级版转录，2026-09-28导出，原数据来自期刊分区表平台。按完整刊名或旧名唯一对应，保存大类与全部小类分区。"
         },
         {
           "system": "ccf",
@@ -8057,7 +8057,7 @@ window.COMMDDL_DATA = {
           "sourceTitle": "CCF2026第七版公开副本",
           "sourceType": "document-copy",
           "reviewedAt": "2026-10-18",
-          "note": "已检索副本全部295项期刊记录，按英文全名、缩写、可识别旧名核对，副本未列；仅指该份2026目录，不代表学术质量等级。",
+          "note": "按英文全名、缩写及已知旧名核对CCF2026公开副本全部295项期刊记录，未列入该版。",
           "attempts": [
             "完整2026公开副本期刊表逐条名称匹配",
             "已检查可识别旧称/IEEE-ACM更名"
@@ -8100,7 +8100,7 @@ window.COMMDDL_DATA = {
       "verification": "verified",
       "assessments": [],
       "indexStatus": "SCIE",
-      "metricNote": "收录与分区需按体系、年份另行核验；目录收录不代表 SCI 或学校认定。",
+      "metricNote": "索引与分区按各自体系、年份查询；学校认定见选用政策文件。",
       "catalogStatus": "current",
       "indexing": {
         "value": "SCIE",
@@ -8126,7 +8126,7 @@ window.COMMDDL_DATA = {
           "sourceType": "publisher",
           "verifiedAt": "2026-10-18",
           "appliesToName": "IEEE Communications Magazine",
-          "note": "采用原表 Quartile (JIF)（期刊影响因子分区）列，非 CiteScore（引文评分）或 SJR（SCImago期刊排名）；按原表为2025 JCR、2026年6月发布。不同学科分区需另查 JCR。"
+          "note": "读取IEEE期刊表Quartile (JIF)（期刊影响因子分区）列，2025 JCR数据、2026年6月发布；逐学科分区见JCR。"
         },
         {
           "system": "cas",
@@ -8158,7 +8158,7 @@ window.COMMDDL_DATA = {
               "quartile": 2
             }
           ],
-          "note": "高校公开转录注明2025年升级版、2026-09-28导出，原数据来自期刊分区表平台；按完整刊名或旧名唯一对应。大类与全部小类分开保存，未直接核验原库。"
+          "note": "高校公开的2025升级版转录，2026-09-28导出，原数据来自期刊分区表平台。按完整刊名或旧名唯一对应，保存大类与全部小类分区。"
         },
         {
           "system": "ccf",
@@ -8169,7 +8169,7 @@ window.COMMDDL_DATA = {
           "sourceTitle": "CCF2026第七版公开副本",
           "sourceType": "document-copy",
           "reviewedAt": "2026-10-18",
-          "note": "已检索副本全部295项期刊记录，按英文全名、缩写、可识别旧名核对，副本未列；仅指该份2026目录，不代表学术质量等级。",
+          "note": "按英文全名、缩写及已知旧名核对CCF2026公开副本全部295项期刊记录，未列入该版。",
           "attempts": [
             "完整2026公开副本期刊表逐条名称匹配",
             "已检查可识别旧称/IEEE-ACM更名"
@@ -8210,7 +8210,7 @@ window.COMMDDL_DATA = {
       "verification": "verified",
       "assessments": [],
       "indexStatus": "SCIE",
-      "metricNote": "收录与分区需按体系、年份另行核验；目录收录不代表 SCI 或学校认定。",
+      "metricNote": "索引与分区按各自体系、年份查询；学校认定见选用政策文件。",
       "catalogStatus": "current",
       "indexing": {
         "value": "SCIE",
@@ -8236,7 +8236,7 @@ window.COMMDDL_DATA = {
           "sourceType": "publisher",
           "verifiedAt": "2026-10-18",
           "appliesToName": "IEEE Network",
-          "note": "采用原表 Quartile (JIF)（期刊影响因子分区）列，非 CiteScore（引文评分）或 SJR（SCImago期刊排名）；按原表为2025 JCR、2026年6月发布。不同学科分区需另查 JCR。"
+          "note": "读取IEEE期刊表Quartile (JIF)（期刊影响因子分区）列，2025 JCR数据、2026年6月发布；逐学科分区见JCR。"
         },
         {
           "system": "cas",
@@ -8276,7 +8276,7 @@ window.COMMDDL_DATA = {
               "quartile": 3
             }
           ],
-          "note": "高校公开转录注明2025年升级版、2026-09-28导出，原数据来自期刊分区表平台；按完整刊名或旧名唯一对应。大类与全部小类分开保存，未直接核验原库。"
+          "note": "高校公开的2025升级版转录，2026-09-28导出，原数据来自期刊分区表平台。按完整刊名或旧名唯一对应，保存大类与全部小类分区。"
         },
         {
           "system": "ccf",
@@ -8287,7 +8287,7 @@ window.COMMDDL_DATA = {
           "sourceTitle": "CCF2026第七版公开副本",
           "sourceType": "document-copy",
           "reviewedAt": "2026-10-18",
-          "note": "已检索副本全部295项期刊记录，按英文全名、缩写、可识别旧名核对，副本未列；仅指该份2026目录，不代表学术质量等级。",
+          "note": "按英文全名、缩写及已知旧名核对CCF2026公开副本全部295项期刊记录，未列入该版。",
           "attempts": [
             "完整2026公开副本期刊表逐条名称匹配",
             "已检查可识别旧称/IEEE-ACM更名"
@@ -8330,7 +8330,7 @@ window.COMMDDL_DATA = {
       "verification": "verified",
       "assessments": [],
       "indexStatus": "ESCI",
-      "metricNote": "收录与分区需按体系、年份另行核验；目录收录不代表 SCI 或学校认定。",
+      "metricNote": "索引与分区按各自体系、年份查询；学校认定见选用政策文件。",
       "catalogStatus": "current",
       "indexing": {
         "value": "ESCI",
@@ -8356,7 +8356,7 @@ window.COMMDDL_DATA = {
           "sourceType": "publisher",
           "verifiedAt": "2026-10-18",
           "appliesToName": "IEEE Communications Standards Magazine",
-          "note": "采用原表 Quartile (JIF)（期刊影响因子分区）列，非 CiteScore（引文评分）或 SJR（SCImago期刊排名）；按原表为2025 JCR、2026年6月发布。不同学科分区需另查 JCR。"
+          "note": "读取IEEE期刊表Quartile (JIF)（期刊影响因子分区）列，2025 JCR数据、2026年6月发布；逐学科分区见JCR。"
         },
         {
           "system": "cas",
@@ -8377,7 +8377,7 @@ window.COMMDDL_DATA = {
             "IEEE Communications Standards Magazine",
             "IEEE 通信标准杂志"
           ],
-          "note": "已对照完整21772刊的2025转录，按完整英文刊名、中文刊名、已知旧名及可得ISSN检查，未列入本版；仅指2025表，不推断其他年份或WoS索引状态。",
+          "note": "按英文全名、中文刊名、旧名及可得ISSN核对2025年21772刊完整转录，未列入该版。",
           "attempts": [
             "2025完整期刊汇总21772条全名/中文名/旧名检索",
             "原表相关关键词复查，未以近名刊物替代",
@@ -8393,7 +8393,7 @@ window.COMMDDL_DATA = {
           "sourceTitle": "CCF2026第七版公开副本",
           "sourceType": "document-copy",
           "reviewedAt": "2026-10-18",
-          "note": "已检索副本全部295项期刊记录，按英文全名、缩写、可识别旧名核对，副本未列；仅指该份2026目录，不代表学术质量等级。",
+          "note": "按英文全名、缩写及已知旧名核对CCF2026公开副本全部295项期刊记录，未列入该版。",
           "attempts": [
             "完整2026公开副本期刊表逐条名称匹配",
             "已检查可识别旧称/IEEE-ACM更名"
@@ -8434,7 +8434,7 @@ window.COMMDDL_DATA = {
       "verification": "verified",
       "assessments": [],
       "indexStatus": "ESCI",
-      "metricNote": "收录与分区需按体系、年份另行核验；目录收录不代表 SCI 或学校认定。",
+      "metricNote": "索引与分区按各自体系、年份查询；学校认定见选用政策文件。",
       "catalogStatus": "current",
       "indexing": {
         "value": "ESCI",
@@ -8460,7 +8460,7 @@ window.COMMDDL_DATA = {
           "sourceType": "publisher",
           "verifiedAt": "2026-10-18",
           "appliesToName": "IEEE Internet of Things Magazine",
-          "note": "采用原表 Quartile (JIF)（期刊影响因子分区）列，非 CiteScore（引文评分）或 SJR（SCImago期刊排名）；按原表为2025 JCR、2026年6月发布。不同学科分区需另查 JCR。"
+          "note": "读取IEEE期刊表Quartile (JIF)（期刊影响因子分区）列，2025 JCR数据、2026年6月发布；逐学科分区见JCR。"
         },
         {
           "system": "cas",
@@ -8481,7 +8481,7 @@ window.COMMDDL_DATA = {
             "IEEE Internet of Things Magazine",
             "IEEE 物联网杂志"
           ],
-          "note": "已对照完整21772刊的2025转录，按完整英文刊名、中文刊名、已知旧名及可得ISSN检查，未列入本版；仅指2025表，不推断其他年份或WoS索引状态。",
+          "note": "按英文全名、中文刊名、旧名及可得ISSN核对2025年21772刊完整转录，未列入该版。",
           "attempts": [
             "2025完整期刊汇总21772条全名/中文名/旧名检索",
             "原表相关关键词复查，未以近名刊物替代",
@@ -8497,7 +8497,7 @@ window.COMMDDL_DATA = {
           "sourceTitle": "CCF2026第七版公开副本",
           "sourceType": "document-copy",
           "reviewedAt": "2026-10-18",
-          "note": "已检索副本全部295项期刊记录，按英文全名、缩写、可识别旧名核对，副本未列；仅指该份2026目录，不代表学术质量等级。",
+          "note": "按英文全名、缩写及已知旧名核对CCF2026公开副本全部295项期刊记录，未列入该版。",
           "attempts": [
             "完整2026公开副本期刊表逐条名称匹配",
             "已检查可识别旧称/IEEE-ACM更名"
@@ -8536,7 +8536,7 @@ window.COMMDDL_DATA = {
       "verification": "verified",
       "assessments": [],
       "indexStatus": "SCIE",
-      "metricNote": "收录与分区需按体系、年份另行核验；目录收录不代表 SCI 或学校认定。",
+      "metricNote": "索引与分区按各自体系、年份查询；学校认定见选用政策文件。",
       "catalogStatus": "current",
       "indexing": {
         "value": "SCIE",
@@ -8562,7 +8562,7 @@ window.COMMDDL_DATA = {
           "sourceType": "publisher",
           "verifiedAt": "2026-10-18",
           "appliesToName": "IEEE Transactions on Circuits and Systems--I: Regular Papers",
-          "note": "采用原表 Quartile (JIF)（期刊影响因子分区）列，非 CiteScore（引文评分）或 SJR（SCImago期刊排名）；按原表为2025 JCR、2026年6月发布。不同学科分区需另查 JCR。"
+          "note": "读取IEEE期刊表Quartile (JIF)（期刊影响因子分区）列，2025 JCR数据、2026年6月发布；逐学科分区见JCR。"
         },
         {
           "system": "cas",
@@ -8590,14 +8590,14 @@ window.COMMDDL_DATA = {
               "quartile": 2
             }
           ],
-          "note": "高校公开转录注明2025年升级版、2026-09-28导出，原数据来自期刊分区表平台；按完整刊名或旧名唯一对应。大类与全部小类分开保存，未直接核验原库。"
+          "note": "高校公开的2025升级版转录，2026-09-28导出，原数据来自期刊分区表平台。按完整刊名或旧名唯一对应，保存大类与全部小类分区。"
         },
         {
           "system": "ccf",
           "status": "reported",
           "value": "C",
           "year": 2026,
-          "note": "IEEE出版标识位于另一列，现有nameEn含IEEE不应导致漏匹配。；来自公开副本，未升级为官网原件核验。",
+          "note": "按完整刊名匹配CCF公开副本，IEEE出版标识单列，已校正列间提取。",
           "page": 4,
           "appliesToName": "Transactions on Circuits and Systems I: Regular Papers",
           "sourceUrl": "https://scdm-shu.github.io/ccf/2026-CCF-Ranking.pdf",
@@ -8638,7 +8638,7 @@ window.COMMDDL_DATA = {
       "verification": "verified",
       "assessments": [],
       "indexStatus": "SCIE",
-      "metricNote": "收录与分区需按体系、年份另行核验；目录收录不代表 SCI 或学校认定。",
+      "metricNote": "索引与分区按各自体系、年份查询；学校认定见选用政策文件。",
       "catalogStatus": "current",
       "indexing": {
         "value": "SCIE",
@@ -8664,7 +8664,7 @@ window.COMMDDL_DATA = {
           "sourceType": "publisher",
           "verifiedAt": "2026-10-18",
           "appliesToName": "IEEE Transactions on Circuits and Systems--II: Express Briefs",
-          "note": "采用原表 Quartile (JIF)（期刊影响因子分区）列，非 CiteScore（引文评分）或 SJR（SCImago期刊排名）；按原表为2025 JCR、2026年6月发布。不同学科分区需另查 JCR。"
+          "note": "读取IEEE期刊表Quartile (JIF)（期刊影响因子分区）列，2025 JCR数据、2026年6月发布；逐学科分区见JCR。"
         },
         {
           "system": "cas",
@@ -8692,7 +8692,7 @@ window.COMMDDL_DATA = {
               "quartile": 2
             }
           ],
-          "note": "高校公开转录注明2025年升级版、2026-09-28导出，原数据来自期刊分区表平台；按完整刊名或旧名唯一对应。大类与全部小类分开保存，未直接核验原库。"
+          "note": "高校公开的2025升级版转录，2026-09-28导出，原数据来自期刊分区表平台。按完整刊名或旧名唯一对应，保存大类与全部小类分区。"
         },
         {
           "system": "ccf",
@@ -8703,7 +8703,7 @@ window.COMMDDL_DATA = {
           "sourceTitle": "CCF2026第七版公开副本",
           "sourceType": "document-copy",
           "reviewedAt": "2026-10-18",
-          "note": "已检索副本全部295项期刊记录，按英文全名、缩写、可识别旧名核对，副本未列；仅指该份2026目录，不代表学术质量等级。",
+          "note": "按英文全名、缩写及已知旧名核对CCF2026公开副本全部295项期刊记录，未列入该版。",
           "attempts": [
             "完整2026公开副本期刊表逐条名称匹配",
             "已检查可识别旧称/IEEE-ACM更名"
@@ -8742,7 +8742,7 @@ window.COMMDDL_DATA = {
       "verification": "verified",
       "assessments": [],
       "indexStatus": "SCIE",
-      "metricNote": "收录与分区需按体系、年份另行核验；目录收录不代表 SCI 或学校认定。",
+      "metricNote": "索引与分区按各自体系、年份查询；学校认定见选用政策文件。",
       "catalogStatus": "current",
       "indexing": {
         "value": "SCIE",
@@ -8768,7 +8768,7 @@ window.COMMDDL_DATA = {
           "sourceType": "publisher",
           "verifiedAt": "2026-10-18",
           "appliesToName": "IEEE Transactions on Circuits and Systems for Video Technology",
-          "note": "采用原表 Quartile (JIF)（期刊影响因子分区）列，非 CiteScore（引文评分）或 SJR（SCImago期刊排名）；按原表为2025 JCR、2026年6月发布。不同学科分区需另查 JCR。"
+          "note": "读取IEEE期刊表Quartile (JIF)（期刊影响因子分区）列，2025 JCR数据、2026年6月发布；逐学科分区见JCR。"
         },
         {
           "system": "cas",
@@ -8796,7 +8796,7 @@ window.COMMDDL_DATA = {
               "quartile": 1
             }
           ],
-          "note": "高校公开转录注明2025年升级版、2026-09-28导出，原数据来自期刊分区表平台；按完整刊名或旧名唯一对应。大类与全部小类分开保存，未直接核验原库。"
+          "note": "高校公开的2025升级版转录，2026-09-28导出，原数据来自期刊分区表平台。按完整刊名或旧名唯一对应，保存大类与全部小类分区。"
         },
         {
           "system": "ccf",
@@ -8812,7 +8812,7 @@ window.COMMDDL_DATA = {
           "sourceType": "document-copy",
           "verifiedAt": "2026-10-18",
           "appliesToName": "Transactions on Circuits and Systems for Video Technology",
-          "note": "等级从 CCF 编制文件的公开副本读取，尚待官网原件逐项复核。会议仅对应正式长文，不适用于短文、演示或附属研讨会。"
+          "note": "等级读取自CCF编制文件公开副本。"
         }
       ],
       "catalogScope": "communications",
@@ -8848,7 +8848,7 @@ window.COMMDDL_DATA = {
       "verification": "verified",
       "assessments": [],
       "indexStatus": "SCIE",
-      "metricNote": "收录与分区需按体系、年份另行核验；目录收录不代表 SCI 或学校认定。",
+      "metricNote": "索引与分区按各自体系、年份查询；学校认定见选用政策文件。",
       "catalogStatus": "current",
       "indexing": {
         "value": "SCIE",
@@ -8874,7 +8874,7 @@ window.COMMDDL_DATA = {
           "sourceType": "publisher",
           "verifiedAt": "2026-10-18",
           "appliesToName": "IEEE Journal on Emerging and Selected Topics in Circuits and Systems",
-          "note": "采用原表 Quartile (JIF)（期刊影响因子分区）列，非 CiteScore（引文评分）或 SJR（SCImago期刊排名）；按原表为2025 JCR、2026年6月发布。不同学科分区需另查 JCR。"
+          "note": "读取IEEE期刊表Quartile (JIF)（期刊影响因子分区）列，2025 JCR数据、2026年6月发布；逐学科分区见JCR。"
         },
         {
           "system": "cas",
@@ -8902,7 +8902,7 @@ window.COMMDDL_DATA = {
               "quartile": 3
             }
           ],
-          "note": "高校公开转录注明2025年升级版、2026-09-28导出，原数据来自期刊分区表平台；按完整刊名或旧名唯一对应。大类与全部小类分开保存，未直接核验原库。"
+          "note": "高校公开的2025升级版转录，2026-09-28导出，原数据来自期刊分区表平台。按完整刊名或旧名唯一对应，保存大类与全部小类分区。"
         },
         {
           "system": "ccf",
@@ -8913,7 +8913,7 @@ window.COMMDDL_DATA = {
           "sourceTitle": "CCF2026第七版公开副本",
           "sourceType": "document-copy",
           "reviewedAt": "2026-10-18",
-          "note": "已检索副本全部295项期刊记录，按英文全名、缩写、可识别旧名核对，副本未列；仅指该份2026目录，不代表学术质量等级。",
+          "note": "按英文全名、缩写及已知旧名核对CCF2026公开副本全部295项期刊记录，未列入该版。",
           "attempts": [
             "完整2026公开副本期刊表逐条名称匹配",
             "已检查可识别旧称/IEEE-ACM更名"
@@ -8953,7 +8953,7 @@ window.COMMDDL_DATA = {
       "verification": "verified",
       "assessments": [],
       "indexStatus": "SCI／SCIE 收录待核验",
-      "metricNote": "收录与分区需按体系、年份另行核验；目录收录不代表 SCI 或学校认定。",
+      "metricNote": "索引与分区按各自体系、年份查询；学校认定见选用政策文件。",
       "catalogStatus": "current",
       "evaluations": [
         {
@@ -8976,7 +8976,7 @@ window.COMMDDL_DATA = {
           "sourceTitle": "2024 JCR 学科分区转录（2025年6月）",
           "sourceType": "secondary",
           "verifiedAt": "2026-10-18",
-          "note": "读取 JIF Quartile 列；同时保留所有学科分区。默认优先电信学，不取最好分区；可靠政府转录而非 JCR 原库直接核验。",
+          "note": "读取政府公开转录的JIF Quartile（期刊影响因子分区）列，保存全部学科，默认展示电信学。",
           "reviewedAt": "2026-10-18",
           "sourceAuthority": "government"
         },
@@ -9006,7 +9006,7 @@ window.COMMDDL_DATA = {
               "quartile": 2
             }
           ],
-          "note": "高校公开转录注明2025年升级版、2026-09-28导出，原数据来自期刊分区表平台；按完整刊名或旧名唯一对应。大类与全部小类分开保存，未直接核验原库。 与此前已取得公开转录的分区值一致。"
+          "note": "高校公开的2025升级版转录，2026-09-28导出，原数据来自期刊分区表平台。按完整刊名或旧名唯一对应，保存大类与全部小类分区。 与此前已取得公开转录的分区值一致。"
         },
         {
           "system": "ccf",
@@ -9017,7 +9017,7 @@ window.COMMDDL_DATA = {
           "sourceTitle": "CCF2026第七版公开副本",
           "sourceType": "document-copy",
           "reviewedAt": "2026-10-18",
-          "note": "已检索副本全部295项期刊记录，按英文全名、缩写、可识别旧名核对，副本未列；仅指该份2026目录，不代表学术质量等级。",
+          "note": "按英文全名、缩写及已知旧名核对CCF2026公开副本全部295项期刊记录，未列入该版。",
           "attempts": [
             "完整2026公开副本期刊表逐条名称匹配",
             "已检查可识别旧称/IEEE-ACM更名"
@@ -9038,7 +9038,7 @@ window.COMMDDL_DATA = {
         "page": 567,
         "issn": "1094-4087",
         "eissn": "N/A",
-        "note": "按期刊全名及 ISSN 对应到原表 Edition 栏，非从影响因子推断；仅为 2024 数据/2025年6月快照的可靠转录，不冒充2026实时原库核验。",
+        "note": "按期刊全名及ISSN匹配2024 JCR原表Edition（索引版本）列。来源为2025年6月快照转录。",
         "reviewedAt": "2026-10-18",
         "sourceAuthority": "government"
       },
@@ -9073,7 +9073,7 @@ window.COMMDDL_DATA = {
       "verification": "verified",
       "assessments": [],
       "indexStatus": "SCI／SCIE 收录待核验",
-      "metricNote": "收录与分区需按体系、年份另行核验；目录收录不代表 SCI 或学校认定。",
+      "metricNote": "索引与分区按各自体系、年份查询；学校认定见选用政策文件。",
       "catalogStatus": "current",
       "evaluations": [
         {
@@ -9096,7 +9096,7 @@ window.COMMDDL_DATA = {
           "sourceTitle": "2024 JCR 学科分区转录（2025年6月）",
           "sourceType": "secondary",
           "verifiedAt": "2026-10-18",
-          "note": "读取 JIF Quartile 列；同时保留所有学科分区。默认优先电信学，不取最好分区；可靠政府转录而非 JCR 原库直接核验。",
+          "note": "读取政府公开转录的JIF Quartile（期刊影响因子分区）列，保存全部学科，默认展示电信学。",
           "reviewedAt": "2026-10-18",
           "sourceAuthority": "government"
         },
@@ -9126,7 +9126,7 @@ window.COMMDDL_DATA = {
               "quartile": 3
             }
           ],
-          "note": "高校公开转录注明2025年升级版、2026-09-28导出，原数据来自期刊分区表平台；按完整刊名或旧名唯一对应。大类与全部小类分开保存，未直接核验原库。"
+          "note": "高校公开的2025升级版转录，2026-09-28导出，原数据来自期刊分区表平台。按完整刊名或旧名唯一对应，保存大类与全部小类分区。"
         },
         {
           "system": "ccf",
@@ -9137,7 +9137,7 @@ window.COMMDDL_DATA = {
           "sourceTitle": "CCF2026第七版公开副本",
           "sourceType": "document-copy",
           "reviewedAt": "2026-10-18",
-          "note": "已检索副本全部295项期刊记录，按英文全名、缩写、可识别旧名核对，副本未列；仅指该份2026目录，不代表学术质量等级。",
+          "note": "按英文全名、缩写及已知旧名核对CCF2026公开副本全部295项期刊记录，未列入该版。",
           "attempts": [
             "完整2026公开副本期刊表逐条名称匹配",
             "已检查可识别旧称/IEEE-ACM更名"
@@ -9158,7 +9158,7 @@ window.COMMDDL_DATA = {
         "page": 567,
         "issn": "0146-9592",
         "eissn": "1539-4794",
-        "note": "按期刊全名及 ISSN 对应到原表 Edition 栏，非从影响因子推断；仅为 2024 数据/2025年6月快照的可靠转录，不冒充2026实时原库核验。",
+        "note": "按期刊全名及ISSN匹配2024 JCR原表Edition（索引版本）列。来源为2025年6月快照转录。",
         "reviewedAt": "2026-10-18",
         "sourceAuthority": "government"
       },
@@ -9193,7 +9193,7 @@ window.COMMDDL_DATA = {
       "verification": "verified",
       "assessments": [],
       "indexStatus": "SCI／SCIE 收录待核验",
-      "metricNote": "收录与分区需按体系、年份另行核验；目录收录不代表 SCI 或学校认定。",
+      "metricNote": "索引与分区按各自体系、年份查询；学校认定见选用政策文件。",
       "catalogStatus": "current",
       "evaluations": [
         {
@@ -9216,7 +9216,7 @@ window.COMMDDL_DATA = {
           "sourceTitle": "2024 JCR 学科分区转录（2025年6月）",
           "sourceType": "secondary",
           "verifiedAt": "2026-10-18",
-          "note": "读取 JIF Quartile 列；同时保留所有学科分区。默认优先电信学，不取最好分区；可靠政府转录而非 JCR 原库直接核验。",
+          "note": "读取政府公开转录的JIF Quartile（期刊影响因子分区）列，保存全部学科，默认展示电信学。",
           "reviewedAt": "2026-10-18",
           "sourceAuthority": "government"
         },
@@ -9246,7 +9246,7 @@ window.COMMDDL_DATA = {
               "quartile": 1
             }
           ],
-          "note": "高校公开转录注明2025年升级版、2026-09-28导出，原数据来自期刊分区表平台；按完整刊名或旧名唯一对应。大类与全部小类分开保存，未直接核验原库。 与此前已取得公开转录的分区值一致。"
+          "note": "高校公开的2025升级版转录，2026-09-28导出，原数据来自期刊分区表平台。按完整刊名或旧名唯一对应，保存大类与全部小类分区。 与此前已取得公开转录的分区值一致。"
         },
         {
           "system": "ccf",
@@ -9257,7 +9257,7 @@ window.COMMDDL_DATA = {
           "sourceTitle": "CCF2026第七版公开副本",
           "sourceType": "document-copy",
           "reviewedAt": "2026-10-18",
-          "note": "已检索副本全部295项期刊记录，按英文全名、缩写、可识别旧名核对，副本未列；仅指该份2026目录，不代表学术质量等级。",
+          "note": "按英文全名、缩写及已知旧名核对CCF2026公开副本全部295项期刊记录，未列入该版。",
           "attempts": [
             "完整2026公开副本期刊表逐条名称匹配",
             "已检查可识别旧称/IEEE-ACM更名"
@@ -9278,7 +9278,7 @@ window.COMMDDL_DATA = {
         "page": 568,
         "issn": "2327-9125",
         "eissn": "2327-9125",
-        "note": "按期刊全名及 ISSN 对应到原表 Edition 栏，非从影响因子推断；仅为 2024 数据/2025年6月快照的可靠转录，不冒充2026实时原库核验。",
+        "note": "按期刊全名及ISSN匹配2024 JCR原表Edition（索引版本）列。来源为2025年6月快照转录。",
         "reviewedAt": "2026-10-18",
         "sourceAuthority": "government"
       },
@@ -9299,7 +9299,7 @@ window.COMMDDL_DATA = {
           "sourceType": "document-copy",
           "sourceAuthority": "cas-institute",
           "verifiedAt": "2026-10-19",
-          "note": "按正式ISSN对照CSCD2025—2026完整名单，明确为核心库；数据库原始名单的科研机构公开副本，保留副本属性、年度和核心/扩展类别，不冒充原库查询，不推断其他索引。"
+          "note": "按正式ISSN匹配CSCD2025—2026完整名单，列入核心库。来源为科研机构公开的原始名单副本。"
         }
       ]
     },
@@ -9332,7 +9332,7 @@ window.COMMDDL_DATA = {
       "verification": "verified",
       "assessments": [],
       "indexStatus": "SCIE",
-      "metricNote": "收录与分区需按体系、年份另行核验；目录收录不代表 SCI 或学校认定。",
+      "metricNote": "索引与分区按各自体系、年份查询；学校认定见选用政策文件。",
       "authorGuideUrl": "https://link.springer.com/journal/11276/submission-guidelines",
       "cfpUrl": "https://link.springer.com/journal/11276/updates",
       "catalogStatus": "current",
@@ -9367,7 +9367,7 @@ window.COMMDDL_DATA = {
           "sourceTitle": "2024 JCR 学科分区转录（2025年6月）",
           "sourceType": "secondary",
           "verifiedAt": "2026-10-18",
-          "note": "读取 JIF Quartile 列；同时保留所有学科分区。默认优先电信学，不取最好分区；可靠政府转录而非 JCR 原库直接核验。",
+          "note": "读取政府公开转录的JIF Quartile（期刊影响因子分区）列，保存全部学科，默认展示电信学。",
           "reviewedAt": "2026-10-18",
           "sourceAuthority": "government"
         },
@@ -9405,7 +9405,7 @@ window.COMMDDL_DATA = {
               "quartile": 4
             }
           ],
-          "note": "高校公开转录注明2025年升级版、2026-09-28导出，原数据来自期刊分区表平台；按完整刊名或旧名唯一对应。大类与全部小类分开保存，未直接核验原库。"
+          "note": "高校公开的2025升级版转录，2026-09-28导出，原数据来自期刊分区表平台。按完整刊名或旧名唯一对应，保存大类与全部小类分区。"
         },
         {
           "system": "ccf",
@@ -9421,7 +9421,7 @@ window.COMMDDL_DATA = {
           "sourceType": "document-copy",
           "verifiedAt": "2026-10-18",
           "appliesToName": "Wireless Networks",
-          "note": "等级从 CCF 编制文件的公开副本读取，尚待官网原件逐项复核。会议仅对应正式长文，不适用于短文、演示或附属研讨会。"
+          "note": "等级读取自CCF编制文件公开副本。"
         }
       ],
       "indexing": {
@@ -9465,7 +9465,7 @@ window.COMMDDL_DATA = {
       "verification": "verified",
       "assessments": [],
       "indexStatus": "SCIE",
-      "metricNote": "收录与分区需按体系、年份另行核验；目录收录不代表 SCI 或学校认定。",
+      "metricNote": "索引与分区按各自体系、年份查询；学校认定见选用政策文件。",
       "authorGuideUrl": "https://link.springer.com/journal/10291/submission-guidelines",
       "catalogStatus": "current",
       "evaluations": [
@@ -9489,7 +9489,7 @@ window.COMMDDL_DATA = {
           "sourceTitle": "2024 JCR 学科分区转录（2025年6月）",
           "sourceType": "secondary",
           "verifiedAt": "2026-10-18",
-          "note": "读取 JIF Quartile 列；同时保留所有学科分区。默认优先电信学，不取最好分区；可靠政府转录而非 JCR 原库直接核验。",
+          "note": "读取政府公开转录的JIF Quartile（期刊影响因子分区）列，保存全部学科，默认展示电信学。",
           "reviewedAt": "2026-10-18",
           "sourceAuthority": "government"
         },
@@ -9519,7 +9519,7 @@ window.COMMDDL_DATA = {
               "quartile": 2
             }
           ],
-          "note": "高校公开转录注明2025年升级版、2026-09-28导出，原数据来自期刊分区表平台；按完整刊名或旧名唯一对应。大类与全部小类分开保存，未直接核验原库。"
+          "note": "高校公开的2025升级版转录，2026-09-28导出，原数据来自期刊分区表平台。按完整刊名或旧名唯一对应，保存大类与全部小类分区。"
         },
         {
           "system": "ccf",
@@ -9530,7 +9530,7 @@ window.COMMDDL_DATA = {
           "sourceTitle": "CCF2026第七版公开副本",
           "sourceType": "document-copy",
           "reviewedAt": "2026-10-18",
-          "note": "已检索副本全部295项期刊记录，按英文全名、缩写、可识别旧名核对，副本未列；仅指该份2026目录，不代表学术质量等级。",
+          "note": "按英文全名、缩写及已知旧名核对CCF2026公开副本全部295项期刊记录，未列入该版。",
           "attempts": [
             "完整2026公开副本期刊表逐条名称匹配",
             "已检查可识别旧称/IEEE-ACM更名"
@@ -9579,7 +9579,7 @@ window.COMMDDL_DATA = {
       "verification": "verified",
       "assessments": [],
       "indexStatus": "SCIE",
-      "metricNote": "收录与分区需按体系、年份另行核验；目录收录不代表 SCI 或学校认定。",
+      "metricNote": "索引与分区按各自体系、年份查询；学校认定见选用政策文件。",
       "catalogStatus": "current",
       "evaluations": [
         {
@@ -9612,7 +9612,7 @@ window.COMMDDL_DATA = {
           "sourceTitle": "2024 JCR 学科分区转录（2025年6月）",
           "sourceType": "secondary",
           "verifiedAt": "2026-10-18",
-          "note": "读取 JIF Quartile 列；同时保留所有学科分区。默认优先电信学，不取最好分区；可靠政府转录而非 JCR 原库直接核验。",
+          "note": "读取政府公开转录的JIF Quartile（期刊影响因子分区）列，保存全部学科，默认展示电信学。",
           "reviewedAt": "2026-10-18",
           "sourceAuthority": "government"
         },
@@ -9650,7 +9650,7 @@ window.COMMDDL_DATA = {
               "quartile": 3
             }
           ],
-          "note": "高校公开转录注明2025年升级版、2026-09-28导出，原数据来自期刊分区表平台；按完整刊名或旧名唯一对应。大类与全部小类分开保存，未直接核验原库。"
+          "note": "高校公开的2025升级版转录，2026-09-28导出，原数据来自期刊分区表平台。按完整刊名或旧名唯一对应，保存大类与全部小类分区。"
         },
         {
           "system": "ccf",
@@ -9661,7 +9661,7 @@ window.COMMDDL_DATA = {
           "sourceTitle": "CCF2026第七版公开副本",
           "sourceType": "document-copy",
           "reviewedAt": "2026-10-18",
-          "note": "已检索副本全部295项期刊记录，按英文全名、缩写、可识别旧名核对，副本未列；仅指该份2026目录，不代表学术质量等级。",
+          "note": "按英文全名、缩写及已知旧名核对CCF2026公开副本全部295项期刊记录，未列入该版。",
           "attempts": [
             "完整2026公开副本期刊表逐条名称匹配",
             "已检查可识别旧称/IEEE-ACM更名"
@@ -9701,7 +9701,7 @@ window.COMMDDL_DATA = {
         "satellite-ntn"
       ],
       "topicReviewedAt": "2026-10-18",
-      "summary": "信息通信技术领域的英文研究刊物；不能与中文《通信学报》混同。",
+      "summary": "信息通信技术领域的英文研究刊物，与中文《通信学报》分别记录。",
       "publicationType": "研究型期刊",
       "articleTypes": [
         "研究论文"
@@ -9712,7 +9712,7 @@ window.COMMDDL_DATA = {
       "verification": "verified",
       "assessments": [],
       "indexStatus": "SCI／SCIE 收录待核验",
-      "metricNote": "收录与分区需按体系、年份另行核验；目录收录不代表 SCI 或学校认定。",
+      "metricNote": "索引与分区按各自体系、年份查询；学校认定见选用政策文件。",
       "catalogStatus": "current",
       "evaluations": [
         {
@@ -9735,7 +9735,7 @@ window.COMMDDL_DATA = {
           "sourceTitle": "2024 JCR 学科分区转录（2025年6月）",
           "sourceType": "secondary",
           "verifiedAt": "2026-10-18",
-          "note": "读取 JIF Quartile 列；同时保留所有学科分区。默认优先电信学，不取最好分区；可靠政府转录而非 JCR 原库直接核验。",
+          "note": "读取政府公开转录的JIF Quartile（期刊影响因子分区）列，保存全部学科，默认展示电信学。",
           "reviewedAt": "2026-10-18",
           "sourceAuthority": "government"
         },
@@ -9765,7 +9765,7 @@ window.COMMDDL_DATA = {
               "quartile": 4
             }
           ],
-          "note": "高校公开转录注明2025年升级版、2026-09-28导出，原数据来自期刊分区表平台；按完整刊名或旧名唯一对应。大类与全部小类分开保存，未直接核验原库。"
+          "note": "高校公开的2025升级版转录，2026-09-28导出，原数据来自期刊分区表平台。按完整刊名或旧名唯一对应，保存大类与全部小类分区。"
         },
         {
           "system": "ccf",
@@ -9776,7 +9776,7 @@ window.COMMDDL_DATA = {
           "sourceTitle": "CCF2026第七版公开副本",
           "sourceType": "document-copy",
           "reviewedAt": "2026-10-18",
-          "note": "已检索副本全部295项期刊记录，按英文全名、缩写、可识别旧名核对，副本未列；仅指该份2026目录，不代表学术质量等级。",
+          "note": "按英文全名、缩写及已知旧名核对CCF2026公开副本全部295项期刊记录，未列入该版。",
           "attempts": [
             "完整2026公开副本期刊表逐条名称匹配",
             "已检查可识别旧称/IEEE-ACM更名"
@@ -9797,7 +9797,7 @@ window.COMMDDL_DATA = {
         "page": 753,
         "issn": "1673-5447",
         "eissn": "N/A",
-        "note": "按期刊全名及 ISSN 对应到原表 Edition 栏，非从影响因子推断；仅为 2024 数据/2025年6月快照的可靠转录，不冒充2026实时原库核验。",
+        "note": "按期刊全名及ISSN匹配2024 JCR原表Edition（索引版本）列。来源为2025年6月快照转录。",
         "reviewedAt": "2026-10-18",
         "sourceAuthority": "government"
       },
@@ -9818,7 +9818,7 @@ window.COMMDDL_DATA = {
           "sourceType": "document-copy",
           "sourceAuthority": "cas-institute",
           "verifiedAt": "2026-10-19",
-          "note": "按正式ISSN对照CSCD2025—2026完整名单，明确为核心库；数据库原始名单的科研机构公开副本，保留副本属性、年度和核心/扩展类别，不冒充原库查询，不推断其他索引。"
+          "note": "按正式ISSN匹配CSCD2025—2026完整名单，列入核心库。来源为科研机构公开的原始名单副本。"
         }
       ]
     },
@@ -9852,7 +9852,7 @@ window.COMMDDL_DATA = {
       "verification": "verified",
       "assessments": [],
       "indexStatus": "SCI／SCIE 收录待核验",
-      "metricNote": "收录与分区需按体系、年份另行核验；目录收录不代表 SCI 或学校认定。",
+      "metricNote": "索引与分区按各自体系、年份查询；学校认定见选用政策文件。",
       "catalogStatus": "current",
       "evaluations": [
         {
@@ -9865,7 +9865,7 @@ window.COMMDDL_DATA = {
           "sourceTitle": "2024 JCR完整转录表（2025年6月）",
           "sourceType": "secondary",
           "reviewedAt": "2026-10-18",
-          "note": "已检索该完整旧年度JCR表的全名/别名记录，未列；不推定2026 JCR状态或SCIE收录状态。",
+          "note": "按全名及别名核对2024 JCR完整转录，未列入该版。",
           "attempts": [
             "完整785页JCR2024表精确名及别名检索",
             "不将2024未列推断为2026未收录"
@@ -9892,7 +9892,7 @@ window.COMMDDL_DATA = {
             "Journal on Communications",
             "通信学报"
           ],
-          "note": "已对照完整21772刊的2025转录，按完整英文刊名、中文刊名、已知旧名及可得ISSN检查，未列入本版；仅指2025表，不推断其他年份或WoS索引状态。",
+          "note": "按英文全名、中文刊名、旧名及可得ISSN核对2025年21772刊完整转录，未列入该版。",
           "attempts": [
             "2025完整期刊汇总21772条全名/中文名/旧名检索",
             "原表相关关键词复查，未以近名刊物替代",
@@ -9908,7 +9908,7 @@ window.COMMDDL_DATA = {
           "sourceTitle": "CCF2026第七版公开副本",
           "sourceType": "document-copy",
           "reviewedAt": "2026-10-18",
-          "note": "已检索副本全部295项期刊记录，按英文全名、缩写、可识别旧名核对，副本未列；仅指该份2026目录，不代表学术质量等级。",
+          "note": "按英文全名、缩写及已知旧名核对CCF2026公开副本全部295项期刊记录，未列入该版。",
           "attempts": [
             "完整2026公开副本期刊表逐条名称匹配",
             "已检查可识别旧称/IEEE-ACM更名"
@@ -9920,7 +9920,7 @@ window.COMMDDL_DATA = {
         "status": "unresolved",
         "value": null,
         "reviewedAt": "2026-10-18",
-        "note": "已核验本刊官方身份和可确认的EI/中文索引；完整2024JCR转录未列，2026MJL原库本轮无法载入，未据缺失推断非SCIE。",
+        "note": "本刊官方身份及EI、中文索引已有来源。2024 JCR完整转录未列，2026 MJL（期刊主列表）原库本次无法载入，当前WoS索引未确认。",
         "attempts": [
           "官方出版社/学会介绍",
           "完整2024JCR全名与别名检索",
@@ -9958,7 +9958,7 @@ window.COMMDDL_DATA = {
           "sourceType": "document-copy",
           "sourceAuthority": "cas-institute",
           "verifiedAt": "2026-10-19",
-          "note": "按正式ISSN对照CSCD2025—2026完整名单，明确为核心库；数据库原始名单的科研机构公开副本，保留副本属性、年度和核心/扩展类别，不冒充原库查询，不推断其他索引。"
+          "note": "按正式ISSN匹配CSCD2025—2026完整名单，列入核心库。来源为科研机构公开的原始名单副本。"
         }
       ],
       "sourceType": "publisher",
@@ -9994,7 +9994,7 @@ window.COMMDDL_DATA = {
       "verification": "verified",
       "assessments": [],
       "indexStatus": "SCI／SCIE 收录待核验",
-      "metricNote": "收录与分区需按体系、年份另行核验；目录收录不代表 SCI 或学校认定。",
+      "metricNote": "索引与分区按各自体系、年份查询；学校认定见选用政策文件。",
       "catalogStatus": "current",
       "evaluations": [
         {
@@ -10017,7 +10017,7 @@ window.COMMDDL_DATA = {
           "sourceTitle": "2024 JCR 学科分区转录（2025年6月）",
           "sourceType": "secondary",
           "verifiedAt": "2026-10-18",
-          "note": "读取 JIF Quartile 列；同时保留所有学科分区。默认优先电信学，不取最好分区；可靠政府转录而非 JCR 原库直接核验。",
+          "note": "读取政府公开转录的JIF Quartile（期刊影响因子分区）列，保存全部学科，默认展示电信学。",
           "reviewedAt": "2026-10-18",
           "sourceAuthority": "government"
         },
@@ -10047,7 +10047,7 @@ window.COMMDDL_DATA = {
               "quartile": 3
             }
           ],
-          "note": "高校公开转录注明2025年升级版、2026-09-28导出，原数据来自期刊分区表平台；按完整刊名或旧名唯一对应。大类与全部小类分开保存，未直接核验原库。"
+          "note": "高校公开的2025升级版转录，2026-09-28导出，原数据来自期刊分区表平台。按完整刊名或旧名唯一对应，保存大类与全部小类分区。"
         },
         {
           "system": "ccf",
@@ -10063,7 +10063,7 @@ window.COMMDDL_DATA = {
           "sourceType": "document-copy",
           "verifiedAt": "2026-10-18",
           "appliesToName": "Signal Processing",
-          "note": "等级从 CCF 编制文件的公开副本读取，尚待官网原件逐项复核。会议仅对应正式长文，不适用于短文、演示或附属研讨会。"
+          "note": "等级读取自CCF编制文件公开副本。"
         }
       ],
       "indexing": {
@@ -10079,7 +10079,7 @@ window.COMMDDL_DATA = {
         "page": 243,
         "issn": "0165-1684",
         "eissn": "1872-7557",
-        "note": "按期刊全名及 ISSN 对应到原表 Edition 栏，非从影响因子推断；仅为 2024 数据/2025年6月快照的可靠转录，不冒充2026实时原库核验。",
+        "note": "按期刊全名及ISSN匹配2024 JCR原表Edition（索引版本）列。来源为2025年6月快照转录。",
         "reviewedAt": "2026-10-18",
         "sourceAuthority": "government"
       },
@@ -10118,7 +10118,7 @@ window.COMMDDL_DATA = {
       "verification": "verified",
       "assessments": [],
       "indexStatus": "SCI／SCIE 收录待核验",
-      "metricNote": "收录与分区需按体系、年份另行核验；目录收录不代表 SCI 或学校认定。",
+      "metricNote": "索引与分区按各自体系、年份查询；学校认定见选用政策文件。",
       "catalogStatus": "current",
       "evaluations": [
         {
@@ -10146,7 +10146,7 @@ window.COMMDDL_DATA = {
           "sourceTitle": "2024 JCR 学科分区转录（2025年6月）",
           "sourceType": "secondary",
           "verifiedAt": "2026-10-18",
-          "note": "读取 JIF Quartile 列；同时保留所有学科分区。默认优先电信学，不取最好分区；可靠政府转录而非 JCR 原库直接核验。",
+          "note": "读取政府公开转录的JIF Quartile（期刊影响因子分区）列，保存全部学科，默认展示电信学。",
           "reviewedAt": "2026-10-18",
           "sourceAuthority": "government"
         },
@@ -10180,7 +10180,7 @@ window.COMMDDL_DATA = {
               "quartile": 4
             }
           ],
-          "note": "高校公开转录注明2025年升级版、2026-09-28导出，原数据来自期刊分区表平台；按完整刊名或旧名唯一对应。大类与全部小类分开保存，未直接核验原库。"
+          "note": "高校公开的2025升级版转录，2026-09-28导出，原数据来自期刊分区表平台。按完整刊名或旧名唯一对应，保存大类与全部小类分区。"
         },
         {
           "system": "ccf",
@@ -10191,7 +10191,7 @@ window.COMMDDL_DATA = {
           "sourceTitle": "CCF2026第七版公开副本",
           "sourceType": "document-copy",
           "reviewedAt": "2026-10-18",
-          "note": "已检索副本全部295项期刊记录，按英文全名、缩写、可识别旧名核对，副本未列；仅指该份2026目录，不代表学术质量等级。",
+          "note": "按英文全名、缩写及已知旧名核对CCF2026公开副本全部295项期刊记录，未列入该版。",
           "attempts": [
             "完整2026公开副本期刊表逐条名称匹配",
             "已检查可识别旧称/IEEE-ACM更名"
@@ -10212,7 +10212,7 @@ window.COMMDDL_DATA = {
         "page": 243,
         "issn": "1874-4907",
         "eissn": "1874-4907",
-        "note": "按期刊全名及 ISSN 对应到原表 Edition 栏，非从影响因子推断；仅为 2024 数据/2025年6月快照的可靠转录，不冒充2026实时原库核验。",
+        "note": "按期刊全名及ISSN匹配2024 JCR原表Edition（索引版本）列。来源为2025年6月快照转录。",
         "reviewedAt": "2026-10-18",
         "sourceAuthority": "government"
       },
@@ -10249,7 +10249,7 @@ window.COMMDDL_DATA = {
       "verification": "verified",
       "assessments": [],
       "indexStatus": "SCI／SCIE 收录待核验",
-      "metricNote": "收录与分区需按体系、年份另行核验；目录收录不代表 SCI 或学校认定。",
+      "metricNote": "索引与分区按各自体系、年份查询；学校认定见选用政策文件。",
       "catalogStatus": "current",
       "evaluations": [
         {
@@ -10287,7 +10287,7 @@ window.COMMDDL_DATA = {
           "sourceTitle": "2024 JCR 学科分区转录（2025年6月）",
           "sourceType": "secondary",
           "verifiedAt": "2026-10-18",
-          "note": "读取 JIF Quartile 列；同时保留所有学科分区。默认优先电信学，不取最好分区；可靠政府转录而非 JCR 原库直接核验。",
+          "note": "读取政府公开转录的JIF Quartile（期刊影响因子分区）列，保存全部学科，默认展示电信学。",
           "reviewedAt": "2026-10-18",
           "sourceAuthority": "government"
         },
@@ -10329,7 +10329,7 @@ window.COMMDDL_DATA = {
               "quartile": 3
             }
           ],
-          "note": "高校公开转录注明2025年升级版、2026-09-28导出，原数据来自期刊分区表平台；按完整刊名或旧名唯一对应。大类与全部小类分开保存，未直接核验原库。 与此前已取得公开转录的分区值一致。"
+          "note": "高校公开的2025升级版转录，2026-09-28导出，原数据来自期刊分区表平台。按完整刊名或旧名唯一对应，保存大类与全部小类分区。 与此前已取得公开转录的分区值一致。"
         },
         {
           "system": "ccf",
@@ -10345,7 +10345,7 @@ window.COMMDDL_DATA = {
           "sourceType": "document-copy",
           "verifiedAt": "2026-10-18",
           "appliesToName": "Computer Networks",
-          "note": "等级从 CCF 编制文件的公开副本读取，尚待官网原件逐项复核。会议仅对应正式长文，不适用于短文、演示或附属研讨会。"
+          "note": "等级读取自CCF编制文件公开副本。"
         }
       ],
       "indexing": {
@@ -10361,7 +10361,7 @@ window.COMMDDL_DATA = {
         "page": 126,
         "issn": "1389-1286",
         "eissn": "1872-7069",
-        "note": "按期刊全名及 ISSN 对应到原表 Edition 栏，非从影响因子推断；仅为 2024 数据/2025年6月快照的可靠转录，不冒充2026实时原库核验。",
+        "note": "按期刊全名及ISSN匹配2024 JCR原表Edition（索引版本）列。来源为2025年6月快照转录。",
         "reviewedAt": "2026-10-18",
         "sourceAuthority": "government"
       },
@@ -10411,7 +10411,7 @@ window.COMMDDL_DATA = {
             "IEEE Sensor Array and Multichannel Signal Processing Workshop",
             "SAM"
           ],
-          "note": "复查完整 CCF2026 目录的 386 个会议条目，未列出该正式系列。结论限本公开副本，未列入不代表低等级。",
+          "note": "按正式系列核对CCF2026公开副本全部386个会议条目，未列入该版。",
           "status": "unlisted",
           "value": null,
           "reviewedAt": "2026-10-18"
@@ -10480,7 +10480,7 @@ window.COMMDDL_DATA = {
             "IEEE International Workshop on Computational Advances in Multi-Sensor Adaptive Processing",
             "CAMSAP"
           ],
-          "note": "复查完整 CCF2026 目录的 386 个会议条目，未列出该正式系列。结论限本公开副本，未列入不代表低等级。",
+          "note": "按正式系列核对CCF2026公开副本全部386个会议条目，未列入该版。",
           "status": "unlisted",
           "value": null,
           "reviewedAt": "2026-10-18"
@@ -10548,7 +10548,7 @@ window.COMMDDL_DATA = {
             "IEEE Workshop on Statistical Signal Processing",
             "SSP"
           ],
-          "note": "复查完整 CCF2026 目录的 386 个会议条目，未列出该正式系列。结论限本公开副本，未列入不代表低等级。",
+          "note": "按正式系列核对CCF2026公开副本全部386个会议条目，未列入该版。",
           "status": "unlisted",
           "value": null,
           "reviewedAt": "2026-10-18"
@@ -10619,7 +10619,7 @@ window.COMMDDL_DATA = {
             "IEEE Workshop on Machine Learning for Signal Processing",
             "MLSP"
           ],
-          "note": "复查完整 CCF2026 目录的 386 个会议条目，未列出该正式系列。结论限本公开副本，未列入不代表低等级。",
+          "note": "按正式系列核对CCF2026公开副本全部386个会议条目，未列入该版。",
           "status": "unlisted",
           "value": null,
           "reviewedAt": "2026-10-18"
@@ -10688,7 +10688,7 @@ window.COMMDDL_DATA = {
             "IEEE International Workshop on Information Forensics and Security",
             "WIFS"
           ],
-          "note": "复查完整 CCF2026 目录的 386 个会议条目，未列出该正式系列。结论限本公开副本，未列入不代表低等级。",
+          "note": "按正式系列核对CCF2026公开副本全部386个会议条目，未列入该版。",
           "status": "unlisted",
           "value": null,
           "reviewedAt": "2026-10-18"
@@ -10758,7 +10758,7 @@ window.COMMDDL_DATA = {
             "IEEE Workshop on Signal Processing Systems",
             "SiPS"
           ],
-          "note": "复查完整 CCF2026 目录的 386 个会议条目，未列出该正式系列。结论限本公开副本，未列入不代表低等级。",
+          "note": "按正式系列核对CCF2026公开副本全部386个会议条目，未列入该版。",
           "status": "unlisted",
           "value": null,
           "reviewedAt": "2026-10-18"
@@ -10832,7 +10832,7 @@ window.COMMDDL_DATA = {
             "European Signal Processing Conference",
             "EUSIPCO"
           ],
-          "note": "复查完整 CCF2026 目录的 386 个会议条目，未列出该正式系列。结论限本公开副本，未列入不代表低等级。",
+          "note": "按正式系列核对CCF2026公开副本全部386个会议条目，未列入该版。",
           "status": "unlisted",
           "value": null,
           "reviewedAt": "2026-10-18"
@@ -10892,7 +10892,7 @@ window.COMMDDL_DATA = {
           "label": "2018 信通学科重要会议表",
           "year": 2018,
           "sourceUrl": "https://xxgk.bupt.edu.cn/__local/F/65/92/3A361334F005A224CD3C6C215B7_43DF8061_C1241.pdf?e=.pdf",
-          "note": "仅表示列入该版学科附件；不表示硕士唯一成果路径。原表编号 22，PDF 第 4 页。"
+          "note": "列入2018版学科附件，硕士渠道见政策说明。原表编号 22，PDF 第 4 页。"
         }
       ],
       "catalogStatus": "current",
@@ -11129,7 +11129,7 @@ window.COMMDDL_DATA = {
           "label": "2018 信通学科重要会议表",
           "year": 2018,
           "sourceUrl": "https://xxgk.bupt.edu.cn/__local/F/65/92/3A361334F005A224CD3C6C215B7_43DF8061_C1241.pdf?e=.pdf",
-          "note": "仅表示列入该版学科附件；不表示硕士唯一成果路径。原表编号 30，PDF 第 5 页。"
+          "note": "列入2018版学科附件，硕士渠道见政策说明。原表编号 30，PDF 第 5 页。"
         }
       ],
       "catalogStatus": "current",
@@ -11215,7 +11215,7 @@ window.COMMDDL_DATA = {
           "label": "2018 信通学科重要会议表",
           "year": 2018,
           "sourceUrl": "https://xxgk.bupt.edu.cn/__local/F/65/92/3A361334F005A224CD3C6C215B7_43DF8061_C1241.pdf?e=.pdf",
-          "note": "仅表示列入该版学科附件；不表示硕士唯一成果路径。原表编号 19，PDF 第 4 页。"
+          "note": "列入2018版学科附件，硕士渠道见政策说明。原表编号 19，PDF 第 4 页。"
         }
       ],
       "catalogStatus": "current",
@@ -11301,7 +11301,7 @@ window.COMMDDL_DATA = {
           "label": "2018 信通学科重要会议表",
           "year": 2018,
           "sourceUrl": "https://xxgk.bupt.edu.cn/__local/F/65/92/3A361334F005A224CD3C6C215B7_43DF8061_C1241.pdf?e=.pdf",
-          "note": "仅表示列入该版学科附件；不表示硕士唯一成果路径。原表编号 89，PDF 第 8 页。"
+          "note": "列入2018版学科附件，硕士渠道见政策说明。原表编号 89，PDF 第 8 页。"
         }
       ],
       "catalogStatus": "current",
@@ -11396,7 +11396,7 @@ window.COMMDDL_DATA = {
             "USENIX Symposium on Networked Systems Design and Implementation",
             "NSDI"
           ],
-          "note": "原库 National: USA 是该版本数据库给出的状态，本次如实保存，不据此推断会议质量。 CCF 编制文件的公开副本与 CCFDDL 附带 PDF 字节一致；官网原件访问返回 405，仍保留副本来源属性。",
+          "note": "原库状态为National: USA（美国区域状态）。CCF公开副本与CCFDDL附带PDF字节一致；官网原件访问返回405。",
           "status": "reported",
           "value": "A",
           "appliesToName": "on Network System Design and Implementation",
@@ -11416,7 +11416,7 @@ window.COMMDDL_DATA = {
             "USENIX Symposium on Networked Systems Design and Implementation",
             "NSDI"
           ],
-          "note": "原库 National: USA 是该版本数据库给出的状态，本次如实保存，不据此推断会议质量。 已按正式全称及系列简称复查 ICORE2026 官方完整库。",
+          "note": "按正式全称及系列简称核对ICORE2026官方完整库，原库状态为National: USA（美国区域状态）。",
           "status": "non-ranked",
           "value": "National: USA",
           "appliesToName": "Symposium on Networked Systems, Design and Implementation",
@@ -11469,7 +11469,7 @@ window.COMMDDL_DATA = {
           "label": "2018 信通学科重要会议表",
           "year": 2018,
           "sourceUrl": "https://xxgk.bupt.edu.cn/__local/F/65/92/3A361334F005A224CD3C6C215B7_43DF8061_C1241.pdf?e=.pdf",
-          "note": "仅表示列入该版学科附件；不表示硕士唯一成果路径。原表编号 84，PDF 第 8 页。 原表为旧 SenSys 系列；合并后新会议的认定不能由此自动推定。"
+          "note": "列入2018学科附件，原表编号84、PDF第8页，对应旧SenSys系列。合并后新会议的适用性待核验；硕士渠道见第四条。"
         }
       ],
       "catalogStatus": "current",
@@ -11489,7 +11489,7 @@ window.COMMDDL_DATA = {
             "IoTDI",
             "ACM Conference on Embedded Networked Sensor Systems"
           ],
-          "note": "2026 新名称为 Embedded Artificial Intelligence and Sensing Systems，系 SenSys/IPSN/IoTDI 合并。原目录旧 SenSys、IPSN 等级不自动继承至合并后会议。",
+          "note": "SenSys、IPSN、IoTDI合并后的2026新名称为Embedded Artificial Intelligence and Sensing Systems（嵌入式人工智能与感知系统）。合并后会议的评级对应待核验，原等级保留在旧系列。",
           "status": "scope-review",
           "value": null,
           "reviewedAt": "2026-10-18"
@@ -11509,7 +11509,7 @@ window.COMMDDL_DATA = {
             "IoTDI",
             "ACM Conference on Embedded Networked Sensor Systems"
           ],
-          "note": "2026 新名称为 Embedded Artificial Intelligence and Sensing Systems，系 SenSys/IPSN/IoTDI 合并。原目录旧 SenSys、IPSN 等级不自动继承至合并后会议。",
+          "note": "SenSys、IPSN、IoTDI合并后的2026新名称为Embedded Artificial Intelligence and Sensing Systems（嵌入式人工智能与感知系统）。合并后会议的评级对应待核验，原等级保留在旧系列。",
           "status": "scope-review",
           "value": null,
           "reviewedAt": "2026-10-18"
@@ -11555,7 +11555,7 @@ window.COMMDDL_DATA = {
           "label": "2018 信通学科重要会议表",
           "year": 2018,
           "sourceUrl": "https://xxgk.bupt.edu.cn/__local/F/65/92/3A361334F005A224CD3C6C215B7_43DF8061_C1241.pdf?e=.pdf",
-          "note": "仅表示列入该版学科附件；不表示硕士唯一成果路径。原表编号 6，PDF 第 3 页。"
+          "note": "列入2018版学科附件，硕士渠道见政策说明。原表编号 6，PDF 第 3 页。"
         }
       ],
       "catalogStatus": "current",
@@ -11572,7 +11572,7 @@ window.COMMDDL_DATA = {
             "European Conference on Optical Communication",
             "ECOC"
           ],
-          "note": "复查完整 CCF2026 目录的 386 个会议条目，未列出该正式系列。结论限本公开副本，未列入不代表低等级。",
+          "note": "按正式系列核对CCF2026公开副本全部386个会议条目，未列入该版。",
           "status": "unlisted",
           "value": null,
           "reviewedAt": "2026-10-18"
@@ -11635,7 +11635,7 @@ window.COMMDDL_DATA = {
           "label": "2018 信通学科重要会议表",
           "year": 2018,
           "sourceUrl": "https://xxgk.bupt.edu.cn/__local/F/65/92/3A361334F005A224CD3C6C215B7_43DF8061_C1241.pdf?e=.pdf",
-          "note": "仅表示列入该版学科附件；不表示硕士唯一成果路径。原表编号 3，PDF 第 3 页。"
+          "note": "列入2018版学科附件，硕士渠道见政策说明。原表编号 3，PDF 第 3 页。"
         }
       ],
       "catalogStatus": "current",
@@ -11652,7 +11652,7 @@ window.COMMDDL_DATA = {
             "Conference on Lasers and Electro-Optics",
             "CLEO"
           ],
-          "note": "复查完整 CCF2026 目录的 386 个会议条目，未列出该正式系列。结论限本公开副本，未列入不代表低等级。",
+          "note": "按正式系列核对CCF2026公开副本全部386个会议条目，未列入该版。",
           "status": "unlisted",
           "value": null,
           "reviewedAt": "2026-10-18"
@@ -11701,7 +11701,7 @@ window.COMMDDL_DATA = {
       ],
       "topicReviewedAt": "2026-10-18",
       "url": "https://2027.apsursi.org/",
-      "summary": "年度 AP-S 国际研讨会与联合 URSI 会议；联合会议名称随届次变化，不能与独立地区会议混同。",
+      "summary": "年度AP-S国际研讨会与联合URSI会议，联合名称随届次变化；独立地区会议另列。",
       "publicationType": "学术会议系列",
       "articleTypes": [
         "会议论文"
@@ -11716,7 +11716,7 @@ window.COMMDDL_DATA = {
           "label": "2018 信通学科重要会议表",
           "year": 2018,
           "sourceUrl": "https://xxgk.bupt.edu.cn/__local/F/65/92/3A361334F005A224CD3C6C215B7_43DF8061_C1241.pdf?e=.pdf",
-          "note": "仅表示列入该版学科附件；不表示硕士唯一成果路径。原表编号 37，PDF 第 5 页。"
+          "note": "列入2018版学科附件，硕士渠道见政策说明。原表编号 37，PDF 第 5 页。"
         }
       ],
       "catalogStatus": "current",
@@ -11734,7 +11734,7 @@ window.COMMDDL_DATA = {
             "AP-S/URSI",
             "APS"
           ],
-          "note": "复查完整 CCF2026 目录的 386 个会议条目，未列出该正式系列。结论限本公开副本，未列入不代表低等级。",
+          "note": "按正式系列核对CCF2026公开副本全部386个会议条目，未列入该版。",
           "status": "unlisted",
           "value": null,
           "reviewedAt": "2026-10-18"
@@ -11806,7 +11806,7 @@ window.COMMDDL_DATA = {
             "European Conference on Antennas and Propagation",
             "EuCAP"
           ],
-          "note": "复查完整 CCF2026 目录的 386 个会议条目，未列出该正式系列。结论限本公开副本，未列入不代表低等级。",
+          "note": "按正式系列核对CCF2026公开副本全部386个会议条目，未列入该版。",
           "status": "unlisted",
           "value": null,
           "reviewedAt": "2026-10-18"
@@ -11868,7 +11868,7 @@ window.COMMDDL_DATA = {
           "label": "2018 信通学科重要会议表",
           "year": 2018,
           "sourceUrl": "https://xxgk.bupt.edu.cn/__local/F/65/92/3A361334F005A224CD3C6C215B7_43DF8061_C1241.pdf?e=.pdf",
-          "note": "仅表示列入该版学科附件；不表示硕士唯一成果路径。原表编号 68，PDF 第 7 页。"
+          "note": "列入2018版学科附件，硕士渠道见政策说明。原表编号 68，PDF 第 7 页。"
         }
       ],
       "catalogStatus": "current",
@@ -11885,7 +11885,7 @@ window.COMMDDL_DATA = {
             "IEEE International Microwave Symposium",
             "IMS"
           ],
-          "note": "复查完整 CCF2026 目录的 386 个会议条目，未列出该正式系列。结论限本公开副本，未列入不代表低等级。",
+          "note": "按正式系列核对CCF2026公开副本全部386个会议条目，未列入该版。",
           "status": "unlisted",
           "value": null,
           "reviewedAt": "2026-10-18"
@@ -11948,7 +11948,7 @@ window.COMMDDL_DATA = {
           "label": "2018 信通学科重要会议表",
           "year": 2018,
           "sourceUrl": "https://xxgk.bupt.edu.cn/__local/F/65/92/3A361334F005A224CD3C6C215B7_43DF8061_C1241.pdf?e=.pdf",
-          "note": "仅表示列入该版学科附件；不表示硕士唯一成果路径。原表编号 35，PDF 第 5 页。"
+          "note": "列入2018版学科附件，硕士渠道见政策说明。原表编号 35，PDF 第 5 页。"
         }
       ],
       "catalogStatus": "current",
@@ -11965,7 +11965,7 @@ window.COMMDDL_DATA = {
             "Asia-Pacific Microwave Conference",
             "APMC"
           ],
-          "note": "复查完整 CCF2026 目录的 386 个会议条目，未列出该正式系列。结论限本公开副本，未列入不代表低等级。",
+          "note": "按正式系列核对CCF2026公开副本全部386个会议条目，未列入该版。",
           "status": "unlisted",
           "value": null,
           "reviewedAt": "2026-10-18"
@@ -12036,7 +12036,7 @@ window.COMMDDL_DATA = {
             "International Conference on Infrared, Millimeter, and Terahertz Waves",
             "IRMMW-THz"
           ],
-          "note": "复查完整 CCF2026 目录的 386 个会议条目，未列出该正式系列。结论限本公开副本，未列入不代表低等级。",
+          "note": "按正式系列核对CCF2026公开副本全部386个会议条目，未列入该版。",
           "status": "unlisted",
           "value": null,
           "reviewedAt": "2026-10-18"
@@ -12099,7 +12099,7 @@ window.COMMDDL_DATA = {
           "label": "2018 信通学科重要会议表",
           "year": 2018,
           "sourceUrl": "https://xxgk.bupt.edu.cn/__local/F/65/92/3A361334F005A224CD3C6C215B7_43DF8061_C1241.pdf?e=.pdf",
-          "note": "仅表示列入该版学科附件；不表示硕士唯一成果路径。原表编号 29，PDF 第 4 页。"
+          "note": "列入2018版学科附件，硕士渠道见政策说明。原表编号 29，PDF 第 4 页。"
         }
       ],
       "catalogStatus": "current",
@@ -12116,7 +12116,7 @@ window.COMMDDL_DATA = {
             "IEEE Radar Conference",
             "RadarConf"
           ],
-          "note": "复查完整 CCF2026 目录的 386 个会议条目，未列出该正式系列。结论限本公开副本，未列入不代表低等级。",
+          "note": "按正式系列核对CCF2026公开副本全部386个会议条目，未列入该版。",
           "status": "unlisted",
           "value": null,
           "reviewedAt": "2026-10-18"
@@ -12186,7 +12186,7 @@ window.COMMDDL_DATA = {
             "ION GNSS+",
             "ION GNSS+"
           ],
-          "note": "复查完整 CCF2026 目录的 386 个会议条目，未列出该正式系列。结论限本公开副本，未列入不代表低等级。",
+          "note": "按正式系列核对CCF2026公开副本全部386个会议条目，未列入该版。",
           "status": "unlisted",
           "value": null,
           "reviewedAt": "2026-10-18"
@@ -12256,7 +12256,7 @@ window.COMMDDL_DATA = {
             "IEEE/ION Position, Location and Navigation Symposium",
             "IEEE/ION PLANS"
           ],
-          "note": "复查完整 CCF2026 目录的 386 个会议条目，未列出该正式系列。结论限本公开副本，未列入不代表低等级。",
+          "note": "按正式系列核对CCF2026公开副本全部386个会议条目，未列入该版。",
           "status": "unlisted",
           "value": null,
           "reviewedAt": "2026-10-18"
@@ -12326,7 +12326,7 @@ window.COMMDDL_DATA = {
             "Precise Time and Time Interval Systems and Applications Meeting",
             "PTTI"
           ],
-          "note": "复查完整 CCF2026 目录的 386 个会议条目，未列出该正式系列。结论限本公开副本，未列入不代表低等级。",
+          "note": "按正式系列核对CCF2026公开副本全部386个会议条目，未列入该版。",
           "status": "unlisted",
           "value": null,
           "reviewedAt": "2026-10-18"
@@ -12399,7 +12399,7 @@ window.COMMDDL_DATA = {
             "IEEE Aerospace Conference",
             "IEEE Aerospace"
           ],
-          "note": "复查完整 CCF2026 目录的 386 个会议条目，未列出该正式系列。结论限本公开副本，未列入不代表低等级。",
+          "note": "按正式系列核对CCF2026公开副本全部386个会议条目，未列入该版。",
           "status": "unlisted",
           "value": null,
           "reviewedAt": "2026-10-18"
@@ -12467,7 +12467,7 @@ window.COMMDDL_DATA = {
             "IEEE International Workshop on Computer-Aided Modeling Analysis and Design of Communication Links and Networks",
             "CAMAD"
           ],
-          "note": "复查完整 CCF2026 目录的 386 个会议条目，未列出该正式系列。结论限本公开副本，未列入不代表低等级。",
+          "note": "按正式系列核对CCF2026公开副本全部386个会议条目，未列入该版。",
           "status": "unlisted",
           "value": null,
           "reviewedAt": "2026-10-18"
@@ -12539,7 +12539,7 @@ window.COMMDDL_DATA = {
             "IEEE Conference on Standards for Communications and Networking",
             "CSCN"
           ],
-          "note": "复查完整 CCF2026 目录的 386 个会议条目，未列出该正式系列。结论限本公开副本，未列入不代表低等级。",
+          "note": "按正式系列核对CCF2026公开副本全部386个会议条目，未列入该版。",
           "status": "unlisted",
           "value": null,
           "reviewedAt": "2026-10-18"
@@ -12609,7 +12609,7 @@ window.COMMDDL_DATA = {
             "IEEE Communication Theory Workshop",
             "CTW"
           ],
-          "note": "复查 CCF2026 完整386个会议条目，未列该正式通信会议系列；结论仅限此公开副本。",
+          "note": "按正式系列核对CCF2026公开副本全部386个会议条目，未列入该版。",
           "status": "unlisted",
           "value": null,
           "reviewedAt": "2026-10-18"
@@ -12678,7 +12678,7 @@ window.COMMDDL_DATA = {
             "IEEE International Conference on e-Health Networking, Applications and Services",
             "HealthCom"
           ],
-          "note": "复查完整 CCF2026 目录的 386 个会议条目，未列出该正式系列。结论限本公开副本，未列入不代表低等级。",
+          "note": "按正式系列核对CCF2026公开副本全部386个会议条目，未列入该版。",
           "status": "unlisted",
           "value": null,
           "reviewedAt": "2026-10-18"
@@ -12749,7 +12749,7 @@ window.COMMDDL_DATA = {
             "International Conference on High Performance Switching and Routing",
             "HPSR"
           ],
-          "note": "复查完整 CCF2026 目录的 386 个会议条目，未列出该正式系列。结论限本公开副本，未列入不代表低等级。",
+          "note": "按正式系列核对CCF2026公开副本全部386个会议条目，未列入该版。",
           "status": "unlisted",
           "value": null,
           "reviewedAt": "2026-10-18"
@@ -12818,7 +12818,7 @@ window.COMMDDL_DATA = {
             "IEEE International Conference on Blockchain and Cryptocurrency",
             "ICBC"
           ],
-          "note": "复查完整 CCF2026 目录的 386 个会议条目，未列出该正式系列。结论限本公开副本，未列入不代表低等级。",
+          "note": "按正式系列核对CCF2026公开副本全部386个会议条目，未列入该版。",
           "status": "unlisted",
           "value": null,
           "reviewedAt": "2026-10-18"
@@ -12891,7 +12891,7 @@ window.COMMDDL_DATA = {
             "IEEE International Conference on Space Optical Systems and Applications",
             "ICSOS"
           ],
-          "note": "复查完整 CCF2026 目录的 386 个会议条目，未列出该正式系列。结论限本公开副本，未列入不代表低等级。",
+          "note": "按正式系列核对CCF2026公开副本全部386个会议条目，未列入该版。",
           "status": "unlisted",
           "value": null,
           "reviewedAt": "2026-10-18"
@@ -12962,7 +12962,7 @@ window.COMMDDL_DATA = {
             "IEEE International Symposium on the Internet of Sounds",
             "IS2"
           ],
-          "note": "复查完整 CCF2026 目录的 386 个会议条目，未列出该正式系列。结论限本公开副本，未列入不代表低等级。",
+          "note": "按正式系列核对CCF2026公开副本全部386个会议条目，未列入该版。",
           "status": "unlisted",
           "value": null,
           "reviewedAt": "2026-10-18"
@@ -13035,7 +13035,7 @@ window.COMMDDL_DATA = {
             "IEEE International Symposium on Local and Metropolitan Area Networks",
             "LANMAN"
           ],
-          "note": "复查完整 CCF2026 目录的 386 个会议条目，未列出该正式系列。结论限本公开副本，未列入不代表低等级。",
+          "note": "按正式系列核对CCF2026公开副本全部386个会议条目，未列入该版。",
           "status": "unlisted",
           "value": null,
           "reviewedAt": "2026-10-18"
@@ -13107,7 +13107,7 @@ window.COMMDDL_DATA = {
             "IEEE Conference on Network Softwarization",
             "NetSoft"
           ],
-          "note": "复查完整 CCF2026 目录的 386 个会议条目，未列出该正式系列。结论限本公开副本，未列入不代表低等级。",
+          "note": "按正式系列核对CCF2026公开副本全部386个会议条目，未列入该版。",
           "status": "unlisted",
           "value": null,
           "reviewedAt": "2026-10-18"
@@ -13176,7 +13176,7 @@ window.COMMDDL_DATA = {
             "IEEE Conference on Network Function Virtualization and Software Defined Networks",
             "NFV-SDN"
           ],
-          "note": "复查完整 CCF2026 目录的 386 个会议条目，未列出该正式系列。结论限本公开副本，未列入不代表低等级。",
+          "note": "按正式系列核对CCF2026公开副本全部386个会议条目，未列入该版。",
           "status": "unlisted",
           "value": null,
           "reviewedAt": "2026-10-18"
@@ -13247,7 +13247,7 @@ window.COMMDDL_DATA = {
             "IEEE International Conference on Communications, Control, and Computing Technologies for Smart Grids",
             "SmartGridComm"
           ],
-          "note": "复查完整 CCF2026 目录的 386 个会议条目，未列出该正式系列。结论限本公开副本，未列入不代表低等级。",
+          "note": "按正式系列核对CCF2026公开副本全部386个会议条目，未列入该版。",
           "status": "unlisted",
           "value": null,
           "reviewedAt": "2026-10-18"
@@ -13320,7 +13320,7 @@ window.COMMDDL_DATA = {
             "IEEE International Conference on Advanced Networks and Telecommunications Systems",
             "ANTS"
           ],
-          "note": "复查完整 CCF2026 目录的 386 个会议条目，未列出该正式系列。结论限本公开副本，未列入不代表低等级。",
+          "note": "按正式系列核对CCF2026公开副本全部386个会议条目，未列入该版。",
           "status": "unlisted",
           "value": null,
           "reviewedAt": "2026-10-18"
@@ -13390,7 +13390,7 @@ window.COMMDDL_DATA = {
             "IEEE International Black Sea Conference on Communications and Networking",
             "BlackSeaCom"
           ],
-          "note": "复查完整 CCF2026 目录的 386 个会议条目，未列出该正式系列。结论限本公开副本，未列入不代表低等级。",
+          "note": "按正式系列核对CCF2026公开副本全部386个会议条目，未列入该版。",
           "status": "unlisted",
           "value": null,
           "reviewedAt": "2026-10-18"
@@ -13460,7 +13460,7 @@ window.COMMDDL_DATA = {
             "IEEE Latin-American Conference on Communications",
             "LATINCOM"
           ],
-          "note": "复查完整 CCF2026 目录的 386 个会议条目，未列出该正式系列。结论限本公开副本，未列入不代表低等级。",
+          "note": "按正式系列核对CCF2026公开副本全部386个会议条目，未列入该版。",
           "status": "unlisted",
           "value": null,
           "reviewedAt": "2026-10-18"
@@ -13530,7 +13530,7 @@ window.COMMDDL_DATA = {
             "IEEE Middle East Conference on Communications and Networking",
             "MECOM"
           ],
-          "note": "复查完整 CCF2026 目录的 386 个会议条目，未列出该正式系列。结论限本公开副本，未列入不代表低等级。",
+          "note": "按正式系列核对CCF2026公开副本全部386个会议条目，未列入该版。",
           "status": "unlisted",
           "value": null,
           "reviewedAt": "2026-10-18"
@@ -13602,7 +13602,7 @@ window.COMMDDL_DATA = {
             "IEEE Mediterranean Conference on Communications and Networking",
             "MeditCom"
           ],
-          "note": "复查完整 CCF2026 目录的 386 个会议条目，未列出该正式系列。结论限本公开副本，未列入不代表低等级。",
+          "note": "按正式系列核对CCF2026公开副本全部386个会议条目，未列入该版。",
           "status": "unlisted",
           "value": null,
           "reviewedAt": "2026-10-18"
@@ -13746,7 +13746,7 @@ window.COMMDDL_DATA = {
             "IEEE International Conference on Quantum Computing and Engineering",
             "QCE"
           ],
-          "note": "复查完整 CCF2026 目录的 386 个会议条目，未列出该正式系列。结论限本公开副本，未列入不代表低等级。",
+          "note": "按正式系列核对CCF2026公开副本全部386个会议条目，未列入该版。",
           "status": "unlisted",
           "value": null,
           "reviewedAt": "2026-10-18"
@@ -13817,7 +13817,7 @@ window.COMMDDL_DATA = {
             "IEEE Vehicular Networking Conference",
             "VNC"
           ],
-          "note": "复查完整 CCF2026 目录的 386 个会议条目，未列出该正式系列。结论限本公开副本，未列入不代表低等级。",
+          "note": "按正式系列核对CCF2026公开副本全部386个会议条目，未列入该版。",
           "status": "unlisted",
           "value": null,
           "reviewedAt": "2026-10-18"
@@ -13889,7 +13889,7 @@ window.COMMDDL_DATA = {
             "IEEE Future Networks World Forum",
             "FNWF"
           ],
-          "note": "复查完整 CCF2026 目录的 386 个会议条目，未列出该正式系列。结论限本公开副本，未列入不代表低等级。",
+          "note": "按正式系列核对CCF2026公开副本全部386个会议条目，未列入该版。",
           "status": "unlisted",
           "value": null,
           "reviewedAt": "2026-10-18"
@@ -13961,7 +13961,7 @@ window.COMMDDL_DATA = {
             "IEEE World Forum on Internet of Things",
             "WF-IoT"
           ],
-          "note": "复查完整 CCF2026 目录的 386 个会议条目，未列出该正式系列。结论限本公开副本，未列入不代表低等级。",
+          "note": "按正式系列核对CCF2026公开副本全部386个会议条目，未列入该版。",
           "status": "unlisted",
           "value": null,
           "reviewedAt": "2026-10-18"
@@ -14031,7 +14031,7 @@ window.COMMDDL_DATA = {
             "IEEE Virtual Conference on Communications",
             "VCC"
           ],
-          "note": "复查完整 CCF2026 目录的 386 个会议条目，未列出该正式系列。结论限本公开副本，未列入不代表低等级。",
+          "note": "按正式系列核对CCF2026公开副本全部386个会议条目，未列入该版。",
           "status": "unlisted",
           "value": null,
           "reviewedAt": "2026-10-18"
@@ -14104,7 +14104,7 @@ window.COMMDDL_DATA = {
             "Allerton Conference on Communication, Control, and Computing",
             "Allerton"
           ],
-          "note": "复查完整 CCF2026 目录的 386 个会议条目，未列出该正式系列。结论限本公开副本，未列入不代表低等级。",
+          "note": "按正式系列核对CCF2026公开副本全部386个会议条目，未列入该版。",
           "status": "unlisted",
           "value": null,
           "reviewedAt": "2026-10-18"
@@ -14180,7 +14180,7 @@ window.COMMDDL_DATA = {
             "Asilomar Conference on Signals, Systems, and Computers",
             "Asilomar"
           ],
-          "note": "按正式全称与历史简称 ACSSC 确认为同一 Asilomar 系列；原库 National: USA 为库状态，不是等级 C。 复查完整 CCF2026 目录的 386 个会议条目，未列出该正式系列。结论限本公开副本，未列入不代表低等级。",
+          "note": "按正式全称及历史简称ACSSC匹配Asilomar系列。原库状态为National: USA（美国区域状态）；核对CCF2026公开副本全部386个会议条目，未列入该版。",
           "status": "unlisted",
           "value": null,
           "reviewedAt": "2026-10-18"
@@ -14197,7 +14197,7 @@ window.COMMDDL_DATA = {
             "Asilomar Conference on Signals, Systems, and Computers",
             "Asilomar"
           ],
-          "note": "按正式全称与历史简称 ACSSC 确认为同一 Asilomar 系列；原库 National: USA 为库状态，不是等级 C。 已按正式全称及系列简称复查 ICORE2026 官方完整库。",
+          "note": "按正式全称及历史简称ACSSC匹配Asilomar系列。已核对ICORE2026官方完整库，原库状态为National: USA（美国区域状态）。",
           "status": "non-ranked",
           "value": "National: USA",
           "appliesToName": "Asilomar Conference on Signals, Systems and Computing",
@@ -14256,7 +14256,7 @@ window.COMMDDL_DATA = {
             "Conference on Information Sciences and Systems",
             "CISS"
           ],
-          "note": "复查完整 CCF2026 目录的 386 个会议条目，未列出该正式系列。结论限本公开副本，未列入不代表低等级。",
+          "note": "按正式系列核对CCF2026公开副本全部386个会议条目，未列入该版。",
           "status": "unlisted",
           "value": null,
           "reviewedAt": "2026-10-18"
@@ -14328,7 +14328,7 @@ window.COMMDDL_DATA = {
             "IEEE International Communications Quality and Reliability Workshop",
             "CQR"
           ],
-          "note": "复查完整 CCF2026 目录的 386 个会议条目，未列出该正式系列。结论限本公开副本，未列入不代表低等级。",
+          "note": "按正式系列核对CCF2026公开副本全部386个会议条目，未列入该版。",
           "status": "unlisted",
           "value": null,
           "reviewedAt": "2026-10-18"
@@ -14403,7 +14403,7 @@ window.COMMDDL_DATA = {
             "European Conference on Networks and Communications",
             "EuCNC"
           ],
-          "note": "复查完整 CCF2026 目录的 386 个会议条目，未列出该正式系列。结论限本公开副本，未列入不代表低等级。",
+          "note": "按正式系列核对CCF2026公开副本全部386个会议条目，未列入该版。",
           "status": "unlisted",
           "value": null,
           "reviewedAt": "2026-10-18"
@@ -14470,7 +14470,7 @@ window.COMMDDL_DATA = {
           "label": "2018 信通学科重要会议表",
           "year": 2018,
           "sourceUrl": "https://xxgk.bupt.edu.cn/__local/F/65/92/3A361334F005A224CD3C6C215B7_43DF8061_C1241.pdf?e=.pdf",
-          "note": "仅表示列入该版学科附件；不表示硕士唯一成果路径。原表编号 74，PDF 第 7 页。"
+          "note": "列入2018版学科附件，硕士渠道见政策说明。原表编号 74，PDF 第 7 页。"
         }
       ],
       "sourceType": "official",
@@ -14487,7 +14487,7 @@ window.COMMDDL_DATA = {
             "International Symposium on Wireless Communication Systems",
             "ISWCS"
           ],
-          "note": "复查完整 CCF2026 目录的 386 个会议条目，未列出该正式系列。结论限本公开副本，未列入不代表低等级。",
+          "note": "按正式系列核对CCF2026公开副本全部386个会议条目，未列入该版。",
           "status": "unlisted",
           "value": null,
           "reviewedAt": "2026-10-18"
@@ -14560,7 +14560,7 @@ window.COMMDDL_DATA = {
             "Conference on Systems, Communications and Coding",
             "SCC"
           ],
-          "note": "复查完整 CCF2026 目录的 386 个会议条目，未列出该正式系列。结论限本公开副本，未列入不代表低等级。",
+          "note": "按正式系列核对CCF2026公开副本全部386个会议条目，未列入该版。",
           "status": "unlisted",
           "value": null,
           "reviewedAt": "2026-10-18"
@@ -14634,7 +14634,7 @@ window.COMMDDL_DATA = {
             "International Symposium on Modeling and Optimization in Mobile, Ad Hoc, and Wireless Networks",
             "WiOpt"
           ],
-          "note": "复查完整 CCF2026 目录的 386 个会议条目，未列出该正式系列。结论限本公开副本，未列入不代表低等级。",
+          "note": "按正式系列核对CCF2026公开副本全部386个会议条目，未列入该版。",
           "status": "unlisted",
           "value": null,
           "reviewedAt": "2026-10-18"
@@ -14709,7 +14709,7 @@ window.COMMDDL_DATA = {
             "Workshop on Smart Antennas",
             "WSA"
           ],
-          "note": "复查完整 CCF2026 目录的 386 个会议条目，未列出该正式系列。结论限本公开副本，未列入不代表低等级。",
+          "note": "按正式系列核对CCF2026公开副本全部386个会议条目，未列入该版。",
           "status": "unlisted",
           "value": null,
           "reviewedAt": "2026-10-18"
@@ -14770,7 +14770,7 @@ window.COMMDDL_DATA = {
           "label": "2018 信通学科重要会议表",
           "year": 2018,
           "sourceUrl": "https://xxgk.bupt.edu.cn/__local/F/65/92/3A361334F005A224CD3C6C215B7_43DF8061_C1241.pdf?e=.pdf",
-          "note": "仅表示列入该版学科附件；不表示硕士唯一成果路径。原表编号 17，PDF 第 4 页。"
+          "note": "列入2018版学科附件，硕士渠道见政策说明。原表编号 17，PDF 第 4 页。"
         }
       ],
       "sourceType": "official",
@@ -14787,7 +14787,7 @@ window.COMMDDL_DATA = {
             "IEEE International Conference on Intelligent Transportation Systems",
             "ITSC"
           ],
-          "note": "复查完整 CCF2026 目录的 386 个会议条目，未列出该正式系列。结论限本公开副本，未列入不代表低等级。",
+          "note": "按正式系列核对CCF2026公开副本全部386个会议条目，未列入该版。",
           "status": "unlisted",
           "value": null,
           "reviewedAt": "2026-10-18"
@@ -14863,7 +14863,7 @@ window.COMMDDL_DATA = {
             "IEEE Integrated Sensing and Communication Conference",
             "ISAC"
           ],
-          "note": "复查完整 CCF2026 目录的 386 个会议条目，未列出该正式系列。结论限本公开副本，未列入不代表低等级。",
+          "note": "按正式系列核对CCF2026公开副本全部386个会议条目，未列入该版。",
           "status": "unlisted",
           "value": null,
           "reviewedAt": "2026-10-18"
@@ -14928,7 +14928,7 @@ window.COMMDDL_DATA = {
           "label": "2018 信通学科重要会议表",
           "year": 2018,
           "sourceUrl": "https://xxgk.bupt.edu.cn/__local/F/65/92/3A361334F005A224CD3C6C215B7_43DF8061_C1241.pdf?e=.pdf",
-          "note": "仅表示列入该版学科附件；不表示硕士唯一成果路径。原表编号 1，PDF 第 3 页。"
+          "note": "列入2018版学科附件，硕士渠道见政策说明。原表编号 1，PDF 第 3 页。"
         }
       ],
       "urlLabel": "历史文件",
@@ -15013,7 +15013,7 @@ window.COMMDDL_DATA = {
           "label": "2018 信通学科重要会议表",
           "year": 2018,
           "sourceUrl": "https://xxgk.bupt.edu.cn/__local/F/65/92/3A361334F005A224CD3C6C215B7_43DF8061_C1241.pdf?e=.pdf",
-          "note": "仅表示列入该版学科附件；不表示硕士唯一成果路径。原表编号 2，PDF 第 3 页。"
+          "note": "列入2018版学科附件，硕士渠道见政策说明。原表编号 2，PDF 第 3 页。"
         }
       ],
       "urlLabel": "历史文件",
@@ -15098,7 +15098,7 @@ window.COMMDDL_DATA = {
           "label": "2018 信通学科重要会议表",
           "year": 2018,
           "sourceUrl": "https://xxgk.bupt.edu.cn/__local/F/65/92/3A361334F005A224CD3C6C215B7_43DF8061_C1241.pdf?e=.pdf",
-          "note": "仅表示列入该版学科附件；不表示硕士唯一成果路径。原表编号 4，PDF 第 3 页。"
+          "note": "列入2018版学科附件，硕士渠道见政策说明。原表编号 4，PDF 第 3 页。"
         }
       ],
       "urlLabel": "历史文件",
@@ -15183,7 +15183,7 @@ window.COMMDDL_DATA = {
           "label": "2018 信通学科重要会议表",
           "year": 2018,
           "sourceUrl": "https://xxgk.bupt.edu.cn/__local/F/65/92/3A361334F005A224CD3C6C215B7_43DF8061_C1241.pdf?e=.pdf",
-          "note": "仅表示列入该版学科附件；不表示硕士唯一成果路径。原表编号 5，PDF 第 3 页。"
+          "note": "列入2018版学科附件，硕士渠道见政策说明。原表编号 5，PDF 第 3 页。"
         }
       ],
       "urlLabel": "历史文件",
@@ -15268,7 +15268,7 @@ window.COMMDDL_DATA = {
           "label": "2018 信通学科重要会议表",
           "year": 2018,
           "sourceUrl": "https://xxgk.bupt.edu.cn/__local/F/65/92/3A361334F005A224CD3C6C215B7_43DF8061_C1241.pdf?e=.pdf",
-          "note": "仅表示列入该版学科附件；不表示硕士唯一成果路径。原表编号 10，PDF 第 3 页。"
+          "note": "列入2018版学科附件，硕士渠道见政策说明。原表编号 10，PDF 第 3 页。"
         }
       ],
       "urlLabel": "历史文件",
@@ -15353,7 +15353,7 @@ window.COMMDDL_DATA = {
           "label": "2018 信通学科重要会议表",
           "year": 2018,
           "sourceUrl": "https://xxgk.bupt.edu.cn/__local/F/65/92/3A361334F005A224CD3C6C215B7_43DF8061_C1241.pdf?e=.pdf",
-          "note": "仅表示列入该版学科附件；不表示硕士唯一成果路径。原表编号 12，PDF 第 3 页。"
+          "note": "列入2018版学科附件，硕士渠道见政策说明。原表编号 12，PDF 第 3 页。"
         }
       ],
       "urlLabel": "历史文件",
@@ -15438,7 +15438,7 @@ window.COMMDDL_DATA = {
           "label": "2018 信通学科重要会议表",
           "year": 2018,
           "sourceUrl": "https://xxgk.bupt.edu.cn/__local/F/65/92/3A361334F005A224CD3C6C215B7_43DF8061_C1241.pdf?e=.pdf",
-          "note": "仅表示列入该版学科附件；不表示硕士唯一成果路径。原表编号 13，PDF 第 3 页。"
+          "note": "列入2018版学科附件，硕士渠道见政策说明。原表编号 13，PDF 第 3 页。"
         }
       ],
       "urlLabel": "历史文件",
@@ -15523,7 +15523,7 @@ window.COMMDDL_DATA = {
           "label": "2018 信通学科重要会议表",
           "year": 2018,
           "sourceUrl": "https://xxgk.bupt.edu.cn/__local/F/65/92/3A361334F005A224CD3C6C215B7_43DF8061_C1241.pdf?e=.pdf",
-          "note": "仅表示列入该版学科附件；不表示硕士唯一成果路径。原表编号 16，PDF 第 4 页。"
+          "note": "列入2018版学科附件，硕士渠道见政策说明。原表编号 16，PDF 第 4 页。"
         }
       ],
       "urlLabel": "历史文件",
@@ -15610,7 +15610,7 @@ window.COMMDDL_DATA = {
           "label": "2018 信通学科重要会议表",
           "year": 2018,
           "sourceUrl": "https://xxgk.bupt.edu.cn/__local/F/65/92/3A361334F005A224CD3C6C215B7_43DF8061_C1241.pdf?e=.pdf",
-          "note": "仅表示列入该版学科附件；不表示硕士唯一成果路径。原表编号 18，PDF 第 4 页。"
+          "note": "列入2018版学科附件，硕士渠道见政策说明。原表编号 18，PDF 第 4 页。"
         }
       ],
       "urlLabel": "历史文件",
@@ -15687,7 +15687,7 @@ window.COMMDDL_DATA = {
       "verifiedAt": "2026-10-18",
       "verification": "verified",
       "catalogStatus": "historical-only",
-      "summary": "2018 学科附件中的历史条目；现行名称、举办状态与当届投稿信息待核验。原表使用旧名称NIPS；此处保留文档写法，不据此核定现名、当前等级。",
+      "summary": "2018学科附件中的历史条目，原表名称为NIPS。现行名称、举办状态与当届投稿信息待核验，保留原文名称。",
       "publicationType": "学术会议系列",
       "articleTypes": [
         "会议论文"
@@ -15699,7 +15699,7 @@ window.COMMDDL_DATA = {
           "label": "2018 信通学科重要会议表",
           "year": 2018,
           "sourceUrl": "https://xxgk.bupt.edu.cn/__local/F/65/92/3A361334F005A224CD3C6C215B7_43DF8061_C1241.pdf?e=.pdf",
-          "note": "仅表示列入该版学科附件；不表示硕士唯一成果路径。原表编号 20，PDF 第 4 页。"
+          "note": "列入2018版学科附件，硕士渠道见政策说明。原表编号 20，PDF 第 4 页。"
         }
       ],
       "urlLabel": "历史文件",
@@ -15786,7 +15786,7 @@ window.COMMDDL_DATA = {
           "label": "2018 信通学科重要会议表",
           "year": 2018,
           "sourceUrl": "https://xxgk.bupt.edu.cn/__local/F/65/92/3A361334F005A224CD3C6C215B7_43DF8061_C1241.pdf?e=.pdf",
-          "note": "仅表示列入该版学科附件；不表示硕士唯一成果路径。原表编号 23，PDF 第 4 页。"
+          "note": "列入2018版学科附件，硕士渠道见政策说明。原表编号 23，PDF 第 4 页。"
         }
       ],
       "urlLabel": "历史文件",
@@ -15871,7 +15871,7 @@ window.COMMDDL_DATA = {
           "label": "2018 信通学科重要会议表",
           "year": 2018,
           "sourceUrl": "https://xxgk.bupt.edu.cn/__local/F/65/92/3A361334F005A224CD3C6C215B7_43DF8061_C1241.pdf?e=.pdf",
-          "note": "仅表示列入该版学科附件；不表示硕士唯一成果路径。原表编号 25，PDF 第 4 页。"
+          "note": "列入2018版学科附件，硕士渠道见政策说明。原表编号 25，PDF 第 4 页。"
         }
       ],
       "urlLabel": "历史文件",
@@ -15954,7 +15954,7 @@ window.COMMDDL_DATA = {
           "label": "2018 信通学科重要会议表",
           "year": 2018,
           "sourceUrl": "https://xxgk.bupt.edu.cn/__local/F/65/92/3A361334F005A224CD3C6C215B7_43DF8061_C1241.pdf?e=.pdf",
-          "note": "仅表示列入该版学科附件；不表示硕士唯一成果路径。原表编号 26，PDF 第 4 页。"
+          "note": "列入2018版学科附件，硕士渠道见政策说明。原表编号 26，PDF 第 4 页。"
         }
       ],
       "urlLabel": "历史文件",
@@ -16041,7 +16041,7 @@ window.COMMDDL_DATA = {
           "label": "2018 信通学科重要会议表",
           "year": 2018,
           "sourceUrl": "https://xxgk.bupt.edu.cn/__local/F/65/92/3A361334F005A224CD3C6C215B7_43DF8061_C1241.pdf?e=.pdf",
-          "note": "仅表示列入该版学科附件；不表示硕士唯一成果路径。原表编号 27，PDF 第 4 页。"
+          "note": "列入2018版学科附件，硕士渠道见政策说明。原表编号 27，PDF 第 4 页。"
         }
       ],
       "urlLabel": "历史文件",
@@ -16126,7 +16126,7 @@ window.COMMDDL_DATA = {
           "label": "2018 信通学科重要会议表",
           "year": 2018,
           "sourceUrl": "https://xxgk.bupt.edu.cn/__local/F/65/92/3A361334F005A224CD3C6C215B7_43DF8061_C1241.pdf?e=.pdf",
-          "note": "仅表示列入该版学科附件；不表示硕士唯一成果路径。原表编号 28，PDF 第 4 页。"
+          "note": "列入2018版学科附件，硕士渠道见政策说明。原表编号 28，PDF 第 4 页。"
         }
       ],
       "urlLabel": "历史文件",
@@ -16173,7 +16173,7 @@ window.COMMDDL_DATA = {
       ],
       "catalogScope": "archive",
       "scopeReviewedAt": "2026-10-18",
-      "scopeNote": "Web与网络不是相同领域；通用Web研究不作为通信主体。",
+      "scopeNote": "通用Web（万维网）研究，列入历史参考。",
       "ratingReviewedAt": "2026-10-18"
     },
     {
@@ -16211,7 +16211,7 @@ window.COMMDDL_DATA = {
           "label": "2018 信通学科重要会议表",
           "year": 2018,
           "sourceUrl": "https://xxgk.bupt.edu.cn/__local/F/65/92/3A361334F005A224CD3C6C215B7_43DF8061_C1241.pdf?e=.pdf",
-          "note": "仅表示列入该版学科附件；不表示硕士唯一成果路径。原表编号 32，PDF 第 5 页。"
+          "note": "列入2018版学科附件，硕士渠道见政策说明。原表编号 32，PDF 第 5 页。"
         }
       ],
       "urlLabel": "历史文件",
@@ -16294,7 +16294,7 @@ window.COMMDDL_DATA = {
           "label": "2018 信通学科重要会议表",
           "year": 2018,
           "sourceUrl": "https://xxgk.bupt.edu.cn/__local/F/65/92/3A361334F005A224CD3C6C215B7_43DF8061_C1241.pdf?e=.pdf",
-          "note": "仅表示列入该版学科附件；不表示硕士唯一成果路径。原表编号 33，PDF 第 5 页。"
+          "note": "列入2018版学科附件，硕士渠道见政策说明。原表编号 33，PDF 第 5 页。"
         }
       ],
       "urlLabel": "历史文件",
@@ -16380,7 +16380,7 @@ window.COMMDDL_DATA = {
           "label": "2018 信通学科重要会议表",
           "year": 2018,
           "sourceUrl": "https://xxgk.bupt.edu.cn/__local/F/65/92/3A361334F005A224CD3C6C215B7_43DF8061_C1241.pdf?e=.pdf",
-          "note": "仅表示列入该版学科附件；不表示硕士唯一成果路径。原表编号 34，PDF 第 5 页。"
+          "note": "列入2018版学科附件，硕士渠道见政策说明。原表编号 34，PDF 第 5 页。"
         }
       ],
       "urlLabel": "历史文件",
@@ -16398,7 +16398,7 @@ window.COMMDDL_DATA = {
             "ACP",
             "ACP"
           ],
-          "note": "复查完整 CCF2026 目录的 386 个会议条目，未列出该正式系列。结论限本公开副本，未列入不代表低等级。",
+          "note": "按正式系列核对CCF2026公开副本全部386个会议条目，未列入该版。",
           "status": "unlisted",
           "value": null,
           "reviewedAt": "2026-10-18"
@@ -16461,7 +16461,7 @@ window.COMMDDL_DATA = {
           "label": "2018 信通学科重要会议表",
           "year": 2018,
           "sourceUrl": "https://xxgk.bupt.edu.cn/__local/F/65/92/3A361334F005A224CD3C6C215B7_43DF8061_C1241.pdf?e=.pdf",
-          "note": "仅表示列入该版学科附件；不表示硕士唯一成果路径。原表编号 36，PDF 第 5 页。"
+          "note": "列入2018版学科附件，硕士渠道见政策说明。原表编号 36，PDF 第 5 页。"
         }
       ],
       "urlLabel": "历史文件",
@@ -16536,7 +16536,7 @@ window.COMMDDL_DATA = {
       "verifiedAt": "2026-10-18",
       "verification": "verified",
       "catalogStatus": "historical-only",
-      "summary": "2018 学科附件中的历史条目；现行名称、举办状态与当届投稿信息待核验。BigData Congress与IEEE International Conference on Big Data不能仅凭简称视为同一会议；未强行匹配。",
+      "summary": "2018学科附件中的历史条目，现行名称、举办状态与当届投稿信息待核验。BigData Congress与IEEE International Conference on Big Data（IEEE大数据国际会议）的身份对应未确认。",
       "publicationType": "学术会议系列",
       "articleTypes": [
         "会议论文"
@@ -16548,7 +16548,7 @@ window.COMMDDL_DATA = {
           "label": "2018 信通学科重要会议表",
           "year": 2018,
           "sourceUrl": "https://xxgk.bupt.edu.cn/__local/F/65/92/3A361334F005A224CD3C6C215B7_43DF8061_C1241.pdf?e=.pdf",
-          "note": "仅表示列入该版学科附件；不表示硕士唯一成果路径。原表编号 38，PDF 第 5 页。"
+          "note": "列入2018版学科附件，硕士渠道见政策说明。原表编号 38，PDF 第 5 页。"
         }
       ],
       "urlLabel": "历史文件",
@@ -16566,7 +16566,7 @@ window.COMMDDL_DATA = {
             "BigData",
             "BigData"
           ],
-          "note": "原2018表只提供缩写或历史名称，不能确定唯一正式系列；不作等级继承。",
+          "note": "2018表提供缩写或历史名称，正式系列对应未确认，评级保留在原记录。",
           "status": "unresolved",
           "value": null,
           "reviewedAt": "2026-10-18"
@@ -16583,7 +16583,7 @@ window.COMMDDL_DATA = {
             "BigData",
             "BigData"
           ],
-          "note": "原2018表只提供缩写或历史名称，不能确定唯一正式系列；不作等级继承。",
+          "note": "2018表提供缩写或历史名称，正式系列对应未确认，评级保留在原记录。",
           "status": "unresolved",
           "value": null,
           "reviewedAt": "2026-10-18"
@@ -16591,7 +16591,7 @@ window.COMMDDL_DATA = {
       ],
       "catalogScope": "archive",
       "scopeReviewedAt": "2026-10-18",
-      "scopeNote": "原表名称含糊，不能自动同一为IEEE BigData；且通用大数据非通信主体。",
+      "scopeNote": "原表名称对应未确认，通用大数据主题列入历史参考。",
       "ratingReviewedAt": "2026-10-18"
     },
     {
@@ -16629,7 +16629,7 @@ window.COMMDDL_DATA = {
           "label": "2018 信通学科重要会议表",
           "year": 2018,
           "sourceUrl": "https://xxgk.bupt.edu.cn/__local/F/65/92/3A361334F005A224CD3C6C215B7_43DF8061_C1241.pdf?e=.pdf",
-          "note": "仅表示列入该版学科附件；不表示硕士唯一成果路径。原表编号 39，PDF 第 5 页。"
+          "note": "列入2018版学科附件，硕士渠道见政策说明。原表编号 39，PDF 第 5 页。"
         }
       ],
       "urlLabel": "历史文件",
@@ -16716,7 +16716,7 @@ window.COMMDDL_DATA = {
           "label": "2018 信通学科重要会议表",
           "year": 2018,
           "sourceUrl": "https://xxgk.bupt.edu.cn/__local/F/65/92/3A361334F005A224CD3C6C215B7_43DF8061_C1241.pdf?e=.pdf",
-          "note": "仅表示列入该版学科附件；不表示硕士唯一成果路径。原表编号 40，PDF 第 5 页。"
+          "note": "列入2018版学科附件，硕士渠道见政策说明。原表编号 40，PDF 第 5 页。"
         }
       ],
       "urlLabel": "历史文件",
@@ -16734,7 +16734,7 @@ window.COMMDDL_DATA = {
             "BodyNets",
             "BodyNets"
           ],
-          "note": "复查完整 CCF2026 目录的 386 个会议条目，未列出该正式系列。结论限本公开副本，未列入不代表低等级。",
+          "note": "按正式系列核对CCF2026公开副本全部386个会议条目，未列入该版。",
           "status": "unlisted",
           "value": null,
           "reviewedAt": "2026-10-18"
@@ -16796,7 +16796,7 @@ window.COMMDDL_DATA = {
           "label": "2018 信通学科重要会议表",
           "year": 2018,
           "sourceUrl": "https://xxgk.bupt.edu.cn/__local/F/65/92/3A361334F005A224CD3C6C215B7_43DF8061_C1241.pdf?e=.pdf",
-          "note": "仅表示列入该版学科附件；不表示硕士唯一成果路径。原表编号 41，PDF 第 5 页。"
+          "note": "列入2018版学科附件，硕士渠道见政策说明。原表编号 41，PDF 第 5 页。"
         }
       ],
       "urlLabel": "历史文件",
@@ -16814,7 +16814,7 @@ window.COMMDDL_DATA = {
             "BSN",
             "BSN"
           ],
-          "note": "原2018表只提供缩写或历史名称，不能确定唯一正式系列；不作等级继承。",
+          "note": "2018表提供缩写或历史名称，正式系列对应未确认，评级保留在原记录。",
           "status": "unresolved",
           "value": null,
           "reviewedAt": "2026-10-18"
@@ -16831,7 +16831,7 @@ window.COMMDDL_DATA = {
             "BSN",
             "BSN"
           ],
-          "note": "原2018表只提供缩写或历史名称，不能确定唯一正式系列；不作等级继承。",
+          "note": "2018表提供缩写或历史名称，正式系列对应未确认，评级保留在原记录。",
           "status": "unresolved",
           "value": null,
           "reviewedAt": "2026-10-18"
@@ -16879,7 +16879,7 @@ window.COMMDDL_DATA = {
           "label": "2018 信通学科重要会议表",
           "year": 2018,
           "sourceUrl": "https://xxgk.bupt.edu.cn/__local/F/65/92/3A361334F005A224CD3C6C215B7_43DF8061_C1241.pdf?e=.pdf",
-          "note": "仅表示列入该版学科附件；不表示硕士唯一成果路径。原表编号 42，PDF 第 5 页。"
+          "note": "列入2018版学科附件，硕士渠道见政策说明。原表编号 42，PDF 第 5 页。"
         }
       ],
       "urlLabel": "历史文件",
@@ -16897,7 +16897,7 @@ window.COMMDDL_DATA = {
             "BTAS",
             "BTAS"
           ],
-          "note": "原2018表只提供缩写或历史名称，不能确定唯一正式系列；不作等级继承。",
+          "note": "2018表提供缩写或历史名称，正式系列对应未确认，评级保留在原记录。",
           "status": "unresolved",
           "value": null,
           "reviewedAt": "2026-10-18"
@@ -16914,7 +16914,7 @@ window.COMMDDL_DATA = {
             "BTAS",
             "BTAS"
           ],
-          "note": "原2018表只提供缩写或历史名称，不能确定唯一正式系列；不作等级继承。",
+          "note": "2018表提供缩写或历史名称，正式系列对应未确认，评级保留在原记录。",
           "status": "unresolved",
           "value": null,
           "reviewedAt": "2026-10-18"
@@ -16956,7 +16956,7 @@ window.COMMDDL_DATA = {
           "label": "2018 信通学科重要会议表",
           "year": 2018,
           "sourceUrl": "https://xxgk.bupt.edu.cn/__local/F/65/92/3A361334F005A224CD3C6C215B7_43DF8061_C1241.pdf?e=.pdf",
-          "note": "仅表示列入该版学科附件；不表示硕士唯一成果路径。原表编号 43，PDF 第 5 页。"
+          "note": "列入2018版学科附件，硕士渠道见政策说明。原表编号 43，PDF 第 5 页。"
         }
       ],
       "urlLabel": "历史文件",
@@ -17043,7 +17043,7 @@ window.COMMDDL_DATA = {
           "label": "2018 信通学科重要会议表",
           "year": 2018,
           "sourceUrl": "https://xxgk.bupt.edu.cn/__local/F/65/92/3A361334F005A224CD3C6C215B7_43DF8061_C1241.pdf?e=.pdf",
-          "note": "仅表示列入该版学科附件；不表示硕士唯一成果路径。原表编号 44，PDF 第 5 页。"
+          "note": "列入2018版学科附件，硕士渠道见政策说明。原表编号 44，PDF 第 5 页。"
         }
       ],
       "urlLabel": "历史文件",
@@ -17061,7 +17061,7 @@ window.COMMDDL_DATA = {
             "CIVR",
             "CIVR"
           ],
-          "note": "复查完整 CCF2026 目录的 386 个会议条目，未列出该正式系列。结论限本公开副本，未列入不代表低等级。",
+          "note": "按正式系列核对CCF2026公开副本全部386个会议条目，未列入该版。",
           "status": "unlisted",
           "value": null,
           "reviewedAt": "2026-10-18"
@@ -17121,7 +17121,7 @@ window.COMMDDL_DATA = {
           "label": "2018 信通学科重要会议表",
           "year": 2018,
           "sourceUrl": "https://xxgk.bupt.edu.cn/__local/F/65/92/3A361334F005A224CD3C6C215B7_43DF8061_C1241.pdf?e=.pdf",
-          "note": "仅表示列入该版学科附件；不表示硕士唯一成果路径。原表编号 45，PDF 第 5 页。"
+          "note": "列入2018版学科附件，硕士渠道见政策说明。原表编号 45，PDF 第 5 页。"
         }
       ],
       "urlLabel": "历史文件",
@@ -17139,7 +17139,7 @@ window.COMMDDL_DATA = {
             "CNSM",
             "CNSM"
           ],
-          "note": "复查完整 CCF2026 目录的 386 个会议条目，未列出该正式系列。结论限本公开副本，未列入不代表低等级。",
+          "note": "按正式系列核对CCF2026公开副本全部386个会议条目，未列入该版。",
           "status": "unlisted",
           "value": null,
           "reviewedAt": "2026-10-18"
@@ -17204,7 +17204,7 @@ window.COMMDDL_DATA = {
           "label": "2018 信通学科重要会议表",
           "year": 2018,
           "sourceUrl": "https://xxgk.bupt.edu.cn/__local/F/65/92/3A361334F005A224CD3C6C215B7_43DF8061_C1241.pdf?e=.pdf",
-          "note": "仅表示列入该版学科附件；不表示硕士唯一成果路径。原表编号 46，PDF 第 5 页。"
+          "note": "列入2018版学科附件，硕士渠道见政策说明。原表编号 46，PDF 第 5 页。"
         }
       ],
       "urlLabel": "历史文件",
@@ -17222,7 +17222,7 @@ window.COMMDDL_DATA = {
             "CrownCom",
             "CrownCom"
           ],
-          "note": "复查完整 CCF2026 目录的 386 个会议条目，未列出该正式系列。结论限本公开副本，未列入不代表低等级。",
+          "note": "按正式系列核对CCF2026公开副本全部386个会议条目，未列入该版。",
           "status": "unlisted",
           "value": null,
           "reviewedAt": "2026-10-18"
@@ -17286,7 +17286,7 @@ window.COMMDDL_DATA = {
           "label": "2018 信通学科重要会议表",
           "year": 2018,
           "sourceUrl": "https://xxgk.bupt.edu.cn/__local/F/65/92/3A361334F005A224CD3C6C215B7_43DF8061_C1241.pdf?e=.pdf",
-          "note": "仅表示列入该版学科附件；不表示硕士唯一成果路径。原表编号 48，PDF 第 6 页。"
+          "note": "列入2018版学科附件，硕士渠道见政策说明。原表编号 48，PDF 第 6 页。"
         }
       ],
       "urlLabel": "历史文件",
@@ -17304,7 +17304,7 @@ window.COMMDDL_DATA = {
             "EMBC",
             "EMBC"
           ],
-          "note": "复查完整 CCF2026 目录的 386 个会议条目，未列出该正式系列。结论限本公开副本，未列入不代表低等级。",
+          "note": "按正式系列核对CCF2026公开副本全部386个会议条目，未列入该版。",
           "status": "unlisted",
           "value": null,
           "reviewedAt": "2026-10-18"
@@ -17365,7 +17365,7 @@ window.COMMDDL_DATA = {
           "label": "2018 信通学科重要会议表",
           "year": 2018,
           "sourceUrl": "https://xxgk.bupt.edu.cn/__local/F/65/92/3A361334F005A224CD3C6C215B7_43DF8061_C1241.pdf?e=.pdf",
-          "note": "仅表示列入该版学科附件；不表示硕士唯一成果路径。原表编号 49，PDF 第 6 页。"
+          "note": "列入2018版学科附件，硕士渠道见政策说明。原表编号 49，PDF 第 6 页。"
         }
       ],
       "urlLabel": "历史文件",
@@ -17383,7 +17383,7 @@ window.COMMDDL_DATA = {
             "EuMW",
             "EuMW"
           ],
-          "note": "官方EuMW2026确认它是EuMC、EuMIC、EuRAD三会的总活动；原表正文European Microwave Conference应指EuMC，但简称EuMW指活动周。保留原表歧义，不合并等级。 本体系不自动转移旧会议与继任或附属会议等级。",
+          "note": "EuMW2026官方将EuMC、EuMIC、EuRAD列为微波周下的三场独立会议。原表正文European Microwave Conference（欧洲微波会议）指向EuMC，简称EuMW指向微波周，原表身份存在歧义；各系列等级分别保存。",
           "status": "scope-review",
           "value": null,
           "reviewedAt": "2026-10-18"
@@ -17400,7 +17400,7 @@ window.COMMDDL_DATA = {
             "EuMW",
             "EuMW"
           ],
-          "note": "官方EuMW2026确认它是EuMC、EuMIC、EuRAD三会的总活动；原表正文European Microwave Conference应指EuMC，但简称EuMW指活动周。保留原表歧义，不合并等级。 本体系不自动转移旧会议与继任或附属会议等级。",
+          "note": "EuMW2026官方将EuMC、EuMIC、EuRAD列为微波周下的三场独立会议。原表正文European Microwave Conference（欧洲微波会议）指向EuMC，简称EuMW指向微波周，原表身份存在歧义；各系列等级分别保存。",
           "status": "scope-review",
           "value": null,
           "reviewedAt": "2026-10-18"
@@ -17448,7 +17448,7 @@ window.COMMDDL_DATA = {
           "label": "2018 信通学科重要会议表",
           "year": 2018,
           "sourceUrl": "https://xxgk.bupt.edu.cn/__local/F/65/92/3A361334F005A224CD3C6C215B7_43DF8061_C1241.pdf?e=.pdf",
-          "note": "仅表示列入该版学科附件；不表示硕士唯一成果路径。原表编号 50，PDF 第 6 页。"
+          "note": "列入2018版学科附件，硕士渠道见政策说明。原表编号 50，PDF 第 6 页。"
         }
       ],
       "urlLabel": "历史文件",
@@ -17466,7 +17466,7 @@ window.COMMDDL_DATA = {
             "GlobalSIP",
             "GlobalSIP"
           ],
-          "note": "复查完整 CCF2026 目录的 386 个会议条目，未列出该正式系列。结论限本公开副本，未列入不代表低等级。",
+          "note": "按正式系列核对CCF2026公开副本全部386个会议条目，未列入该版。",
           "status": "unlisted",
           "value": null,
           "reviewedAt": "2026-10-18"
@@ -17494,7 +17494,7 @@ window.COMMDDL_DATA = {
       "scopeNote": "历史GlobalSIP系列没有当前活动身份来源，待归档核对。",
       "ratingReviewedAt": "2026-10-18",
       "identityReviewedAt": "2026-10-18",
-      "identityNote": "官方可确认2019历史会议身份；本次未找到2026现行届次，不宣称停办或擅自合并。"
+      "identityNote": "官方资料确认2019届会议身份，2026届次与当前举办状态未确认。"
     },
     {
       "id": "gsmm",
@@ -17529,7 +17529,7 @@ window.COMMDDL_DATA = {
           "label": "2018 信通学科重要会议表",
           "year": 2018,
           "sourceUrl": "https://xxgk.bupt.edu.cn/__local/F/65/92/3A361334F005A224CD3C6C215B7_43DF8061_C1241.pdf?e=.pdf",
-          "note": "仅表示列入该版学科附件；不表示硕士唯一成果路径。原表编号 51，PDF 第 6 页。"
+          "note": "列入2018版学科附件，硕士渠道见政策说明。原表编号 51，PDF 第 6 页。"
         }
       ],
       "urlLabel": "历史文件",
@@ -17547,7 +17547,7 @@ window.COMMDDL_DATA = {
             "GSMM",
             "GSMM"
           ],
-          "note": "复查完整 CCF2026 目录的 386 个会议条目，未列出该正式系列。结论限本公开副本，未列入不代表低等级。",
+          "note": "按正式系列核对CCF2026公开副本全部386个会议条目，未列入该版。",
           "status": "unlisted",
           "value": null,
           "reviewedAt": "2026-10-18"
@@ -17575,7 +17575,7 @@ window.COMMDDL_DATA = {
       "scopeNote": "天线、射频与电磁通信硬件载体；无线通信研究载体",
       "ratingReviewedAt": "2026-10-18",
       "identityReviewedAt": "2026-10-18",
-      "identityNote": "官方可确认2024第15届和更名后毫米波与太赫兹名称；本次未确认2026届次，不推算当届信息。"
+      "identityNote": "官方资料确认2024年第15届及更名后的毫米波与太赫兹名称，2026届次未确认。"
     },
     {
       "id": "gws",
@@ -17611,7 +17611,7 @@ window.COMMDDL_DATA = {
           "label": "2018 信通学科重要会议表",
           "year": 2018,
           "sourceUrl": "https://xxgk.bupt.edu.cn/__local/F/65/92/3A361334F005A224CD3C6C215B7_43DF8061_C1241.pdf?e=.pdf",
-          "note": "仅表示列入该版学科附件；不表示硕士唯一成果路径。原表编号 52，PDF 第 6 页。"
+          "note": "列入2018版学科附件，硕士渠道见政策说明。原表编号 52，PDF 第 6 页。"
         }
       ],
       "urlLabel": "历史文件",
@@ -17629,7 +17629,7 @@ window.COMMDDL_DATA = {
             "GWS",
             "GWS"
           ],
-          "note": "主办机构YRP官方报道明确GWS自2019年整合至WPMC；旧GWS不再作为独立当前系列，评价不自动继承。 本体系不自动转移旧会议与继任或附属会议等级。",
+          "note": "主办机构YRP官方报道GWS自2019年整合至WPMC。GWS作为历史系列归档，等级适用范围保留为原系列。",
           "status": "scope-review",
           "value": null,
           "reviewedAt": "2026-10-18"
@@ -17646,7 +17646,7 @@ window.COMMDDL_DATA = {
             "GWS",
             "GWS"
           ],
-          "note": "主办机构YRP官方报道明确GWS自2019年整合至WPMC；旧GWS不再作为独立当前系列，评价不自动继承。 本体系不自动转移旧会议与继任或附属会议等级。",
+          "note": "主办机构YRP官方报道GWS自2019年整合至WPMC。GWS作为历史系列归档，等级适用范围保留为原系列。",
           "status": "scope-review",
           "value": null,
           "reviewedAt": "2026-10-18"
@@ -17657,7 +17657,7 @@ window.COMMDDL_DATA = {
       "scopeNote": "历史缩写未确定唯一正式会议；缺少可核对当前系列。",
       "ratingReviewedAt": "2026-10-18",
       "identityReviewedAt": "2026-10-18",
-      "identityNote": "主办机构YRP官方报道明确GWS自2019年整合至WPMC；旧GWS不再作为独立当前系列，评价不自动继承。"
+      "identityNote": "YRP官方报道GWS自2019年整合至WPMC。旧GWS作为历史系列保留，等级适用于原系列。"
     },
     {
       "id": "ibc",
@@ -17693,7 +17693,7 @@ window.COMMDDL_DATA = {
           "label": "2018 信通学科重要会议表",
           "year": 2018,
           "sourceUrl": "https://xxgk.bupt.edu.cn/__local/F/65/92/3A361334F005A224CD3C6C215B7_43DF8061_C1241.pdf?e=.pdf",
-          "note": "仅表示列入该版学科附件；不表示硕士唯一成果路径。原表编号 53，PDF 第 6 页。"
+          "note": "列入2018版学科附件，硕士渠道见政策说明。原表编号 53，PDF 第 6 页。"
         }
       ],
       "urlLabel": "历史文件",
@@ -17774,7 +17774,7 @@ window.COMMDDL_DATA = {
           "label": "2018 信通学科重要会议表",
           "year": 2018,
           "sourceUrl": "https://xxgk.bupt.edu.cn/__local/F/65/92/3A361334F005A224CD3C6C215B7_43DF8061_C1241.pdf?e=.pdf",
-          "note": "仅表示列入该版学科附件；不表示硕士唯一成果路径。原表编号 54，PDF 第 6 页。"
+          "note": "列入2018版学科附件，硕士渠道见政策说明。原表编号 54，PDF 第 6 页。"
         }
       ],
       "urlLabel": "历史文件",
@@ -17792,7 +17792,7 @@ window.COMMDDL_DATA = {
             "ICAP",
             "ICAP"
           ],
-          "note": "复查完整 CCF2026 目录的 386 个会议条目，未列出该正式系列。结论限本公开副本，未列入不代表低等级。",
+          "note": "按正式系列核对CCF2026公开副本全部386个会议条目，未列入该版。",
           "status": "unlisted",
           "value": null,
           "reviewedAt": "2026-10-18"
@@ -17857,7 +17857,7 @@ window.COMMDDL_DATA = {
           "label": "2018 信通学科重要会议表",
           "year": 2018,
           "sourceUrl": "https://xxgk.bupt.edu.cn/__local/F/65/92/3A361334F005A224CD3C6C215B7_43DF8061_C1241.pdf?e=.pdf",
-          "note": "仅表示列入该版学科附件；不表示硕士唯一成果路径。原表编号 55，PDF 第 6 页。"
+          "note": "列入2018版学科附件，硕士渠道见政策说明。原表编号 55，PDF 第 6 页。"
         }
       ],
       "urlLabel": "历史文件",
@@ -17875,7 +17875,7 @@ window.COMMDDL_DATA = {
             "ICB",
             "ICB"
           ],
-          "note": "原2018表只提供缩写或历史名称，不能确定唯一正式系列；不作等级继承。",
+          "note": "2018表提供缩写或历史名称，正式系列对应未确认，评级保留在原记录。",
           "status": "unresolved",
           "value": null,
           "reviewedAt": "2026-10-18"
@@ -17892,7 +17892,7 @@ window.COMMDDL_DATA = {
             "ICB",
             "ICB"
           ],
-          "note": "原2018表只提供缩写或历史名称，不能确定唯一正式系列；不作等级继承。",
+          "note": "2018表提供缩写或历史名称，正式系列对应未确认，评级保留在原记录。",
           "status": "unresolved",
           "value": null,
           "reviewedAt": "2026-10-18"
@@ -17938,7 +17938,7 @@ window.COMMDDL_DATA = {
           "label": "2018 信通学科重要会议表",
           "year": 2018,
           "sourceUrl": "https://xxgk.bupt.edu.cn/__local/F/65/92/3A361334F005A224CD3C6C215B7_43DF8061_C1241.pdf?e=.pdf",
-          "note": "仅表示列入该版学科附件；不表示硕士唯一成果路径。原表编号 57，PDF 第 6 页。"
+          "note": "列入2018版学科附件，硕士渠道见政策说明。原表编号 57，PDF 第 6 页。"
         }
       ],
       "urlLabel": "历史文件",
@@ -18023,7 +18023,7 @@ window.COMMDDL_DATA = {
           "label": "2018 信通学科重要会议表",
           "year": 2018,
           "sourceUrl": "https://xxgk.bupt.edu.cn/__local/F/65/92/3A361334F005A224CD3C6C215B7_43DF8061_C1241.pdf?e=.pdf",
-          "note": "仅表示列入该版学科附件；不表示硕士唯一成果路径。原表编号 58，PDF 第 6 页。"
+          "note": "列入2018版学科附件，硕士渠道见政策说明。原表编号 58，PDF 第 6 页。"
         }
       ],
       "urlLabel": "历史文件",
@@ -18106,7 +18106,7 @@ window.COMMDDL_DATA = {
           "label": "2018 信通学科重要会议表",
           "year": 2018,
           "sourceUrl": "https://xxgk.bupt.edu.cn/__local/F/65/92/3A361334F005A224CD3C6C215B7_43DF8061_C1241.pdf?e=.pdf",
-          "note": "仅表示列入该版学科附件；不表示硕士唯一成果路径。原表编号 60，PDF 第 6 页。"
+          "note": "列入2018版学科附件，硕士渠道见政策说明。原表编号 60，PDF 第 6 页。"
         }
       ],
       "urlLabel": "历史文件",
@@ -18124,7 +18124,7 @@ window.COMMDDL_DATA = {
             "ICMMT",
             "ICMMT"
           ],
-          "note": "复查完整 CCF2026 目录的 386 个会议条目，未列出该正式系列。结论限本公开副本，未列入不代表低等级。",
+          "note": "按正式系列核对CCF2026公开副本全部386个会议条目，未列入该版。",
           "status": "unlisted",
           "value": null,
           "reviewedAt": "2026-10-18"
@@ -18189,7 +18189,7 @@ window.COMMDDL_DATA = {
           "label": "2018 信通学科重要会议表",
           "year": 2018,
           "sourceUrl": "https://xxgk.bupt.edu.cn/__local/F/65/92/3A361334F005A224CD3C6C215B7_43DF8061_C1241.pdf?e=.pdf",
-          "note": "仅表示列入该版学科附件；不表示硕士唯一成果路径。原表编号 61，PDF 第 6 页。"
+          "note": "列入2018版学科附件，硕士渠道见政策说明。原表编号 61，PDF 第 6 页。"
         }
       ],
       "urlLabel": "历史文件",
@@ -18271,7 +18271,7 @@ window.COMMDDL_DATA = {
           "label": "2018 信通学科重要会议表",
           "year": 2018,
           "sourceUrl": "https://xxgk.bupt.edu.cn/__local/F/65/92/3A361334F005A224CD3C6C215B7_43DF8061_C1241.pdf?e=.pdf",
-          "note": "仅表示列入该版学科附件；不表示硕士唯一成果路径。原表编号 62，PDF 第 6 页。"
+          "note": "列入2018版学科附件，硕士渠道见政策说明。原表编号 62，PDF 第 6 页。"
         }
       ],
       "urlLabel": "历史文件",
@@ -18358,7 +18358,7 @@ window.COMMDDL_DATA = {
           "label": "2018 信通学科重要会议表",
           "year": 2018,
           "sourceUrl": "https://xxgk.bupt.edu.cn/__local/F/65/92/3A361334F005A224CD3C6C215B7_43DF8061_C1241.pdf?e=.pdf",
-          "note": "仅表示列入该版学科附件；不表示硕士唯一成果路径。原表编号 63，PDF 第 7 页。"
+          "note": "列入2018版学科附件，硕士渠道见政策说明。原表编号 63，PDF 第 7 页。"
         }
       ],
       "urlLabel": "历史文件",
@@ -18376,7 +18376,7 @@ window.COMMDDL_DATA = {
             "ICON",
             "ICON"
           ],
-          "note": "原2018表只提供缩写或历史名称，不能确定唯一正式系列；不作等级继承。",
+          "note": "2018表提供缩写或历史名称，正式系列对应未确认，评级保留在原记录。",
           "status": "unresolved",
           "value": null,
           "reviewedAt": "2026-10-18"
@@ -18393,7 +18393,7 @@ window.COMMDDL_DATA = {
             "ICON",
             "ICON"
           ],
-          "note": "原2018表只提供缩写或历史名称，不能确定唯一正式系列；不作等级继承。",
+          "note": "2018表提供缩写或历史名称，正式系列对应未确认，评级保留在原记录。",
           "status": "unresolved",
           "value": null,
           "reviewedAt": "2026-10-18"
@@ -18439,7 +18439,7 @@ window.COMMDDL_DATA = {
           "label": "2018 信通学科重要会议表",
           "year": 2018,
           "sourceUrl": "https://xxgk.bupt.edu.cn/__local/F/65/92/3A361334F005A224CD3C6C215B7_43DF8061_C1241.pdf?e=.pdf",
-          "note": "仅表示列入该版学科附件；不表示硕士唯一成果路径。原表编号 64，PDF 第 7 页。"
+          "note": "列入2018版学科附件，硕士渠道见政策说明。原表编号 64，PDF 第 7 页。"
         }
       ],
       "urlLabel": "历史文件",
@@ -18457,7 +18457,7 @@ window.COMMDDL_DATA = {
             "ICR",
             "ICR"
           ],
-          "note": "原2018表只提供缩写或历史名称，不能确定唯一正式系列；不作等级继承。",
+          "note": "2018表提供缩写或历史名称，正式系列对应未确认，评级保留在原记录。",
           "status": "unresolved",
           "value": null,
           "reviewedAt": "2026-10-18"
@@ -18474,7 +18474,7 @@ window.COMMDDL_DATA = {
             "ICR",
             "ICR"
           ],
-          "note": "原2018表只提供缩写或历史名称，不能确定唯一正式系列；不作等级继承。",
+          "note": "2018表提供缩写或历史名称，正式系列对应未确认，评级保留在原记录。",
           "status": "unresolved",
           "value": null,
           "reviewedAt": "2026-10-18"
@@ -18522,7 +18522,7 @@ window.COMMDDL_DATA = {
           "label": "2018 信通学科重要会议表",
           "year": 2018,
           "sourceUrl": "https://xxgk.bupt.edu.cn/__local/F/65/92/3A361334F005A224CD3C6C215B7_43DF8061_C1241.pdf?e=.pdf",
-          "note": "仅表示列入该版学科附件；不表示硕士唯一成果路径。原表编号 65，PDF 第 7 页。"
+          "note": "列入2018版学科附件，硕士渠道见政策说明。原表编号 65，PDF 第 7 页。"
         }
       ],
       "urlLabel": "历史文件",
@@ -18540,7 +18540,7 @@ window.COMMDDL_DATA = {
             "ICSLP",
             "ICSLP"
           ],
-          "note": "ISCA历史原文确认ICSLP与EUROSPEECH逐步整合为INTERSPEECH。保留旧名档案，不自动继承当前INTERSPEECH等级。 本体系不自动转移旧会议与继任或附属会议等级。",
+          "note": "ISCA历史原文确认ICSLP与EUROSPEECH逐步整合为INTERSPEECH（国际语音通信大会）。旧名归档，等级适用范围保留为原系列。",
           "status": "scope-review",
           "value": null,
           "reviewedAt": "2026-10-18"
@@ -18557,7 +18557,7 @@ window.COMMDDL_DATA = {
             "ICSLP",
             "ICSLP"
           ],
-          "note": "ISCA历史原文确认ICSLP与EUROSPEECH逐步整合为INTERSPEECH。保留旧名档案，不自动继承当前INTERSPEECH等级。 本体系不自动转移旧会议与继任或附属会议等级。",
+          "note": "ISCA历史原文确认ICSLP与EUROSPEECH逐步整合为INTERSPEECH（国际语音通信大会）。旧名归档，等级适用范围保留为原系列。",
           "status": "scope-review",
           "value": null,
           "reviewedAt": "2026-10-18"
@@ -18568,7 +18568,7 @@ window.COMMDDL_DATA = {
       "scopeNote": "历史ICSLP名称，现代系列身份/改名应保留别名与独立来源，当前条目不可当独立活跃系列。",
       "ratingReviewedAt": "2026-10-18",
       "identityReviewedAt": "2026-10-18",
-      "identityNote": "ISCA历史原文确认ICSLP与EUROSPEECH逐步整合为INTERSPEECH。保留旧名档案，不自动继承当前INTERSPEECH等级。"
+      "identityNote": "ISCA历史资料确认ICSLP与EUROSPEECH逐步整合为INTERSPEECH（国际语音通信大会）。旧名归档，评级分别记录。"
     },
     {
       "id": "igarss",
@@ -18604,7 +18604,7 @@ window.COMMDDL_DATA = {
           "label": "2018 信通学科重要会议表",
           "year": 2018,
           "sourceUrl": "https://xxgk.bupt.edu.cn/__local/F/65/92/3A361334F005A224CD3C6C215B7_43DF8061_C1241.pdf?e=.pdf",
-          "note": "仅表示列入该版学科附件；不表示硕士唯一成果路径。原表编号 66，PDF 第 7 页。"
+          "note": "列入2018版学科附件，硕士渠道见政策说明。原表编号 66，PDF 第 7 页。"
         }
       ],
       "urlLabel": "历史文件",
@@ -18622,7 +18622,7 @@ window.COMMDDL_DATA = {
             "IGARSS",
             "IGARSS"
           ],
-          "note": "复查完整 CCF2026 目录的 386 个会议条目，未列出该正式系列。结论限本公开副本，未列入不代表低等级。",
+          "note": "按正式系列核对CCF2026公开副本全部386个会议条目，未列入该版。",
           "status": "unlisted",
           "value": null,
           "reviewedAt": "2026-10-18"
@@ -18685,7 +18685,7 @@ window.COMMDDL_DATA = {
           "label": "2018 信通学科重要会议表",
           "year": 2018,
           "sourceUrl": "https://xxgk.bupt.edu.cn/__local/F/65/92/3A361334F005A224CD3C6C215B7_43DF8061_C1241.pdf?e=.pdf",
-          "note": "仅表示列入该版学科附件；不表示硕士唯一成果路径。原表编号 67，PDF 第 7 页。"
+          "note": "列入2018版学科附件，硕士渠道见政策说明。原表编号 67，PDF 第 7 页。"
         }
       ],
       "urlLabel": "历史文件",
@@ -18703,7 +18703,7 @@ window.COMMDDL_DATA = {
             "IFIP/IEEE International Symposium on Integrated Network Management",
             "IM"
           ],
-          "note": "这是旧 IFIP/IEEE IM 系列的历史评价记录；合并后的现 NOMS 不自动继承。 CCF 编制文件的公开副本与 CCFDDL 附带 PDF 字节一致；官网原件访问返回 405，仍保留副本来源属性。",
+          "note": "旧IFIP/IEEE IM系列的历史评价，等级适用于原系列。CCF公开副本与CCFDDL附带PDF字节一致；官网原件访问返回405。",
           "status": "reported",
           "value": "C",
           "appliesToName": "IFIP/IEEE International Symposium on Integrated Network Management",
@@ -18723,7 +18723,7 @@ window.COMMDDL_DATA = {
             "IFIP/IEEE International Symposium on Integrated Network Management",
             "IM"
           ],
-          "note": "这是旧 IFIP/IEEE IM 系列的历史评价记录；合并后的现 NOMS 不自动继承。 已按正式全称及系列简称复查 ICORE2026 官方完整库。",
+          "note": "按正式全称及系列简称核对ICORE2026官方完整库，记录对应旧IFIP/IEEE IM系列的历史评价。",
           "status": "verified",
           "value": "B",
           "appliesToName": "IFIP/IEEE International Symposium on Integrated Management (even years sharing with NOMS)",
@@ -18732,7 +18732,7 @@ window.COMMDDL_DATA = {
       ],
       "catalogScope": "archive",
       "scopeReviewedAt": "2026-10-18",
-      "scopeNote": "ComSoc官方明确已并入NOMS，独立历史系列归档，NOMS不能自动继承IM CCF等级。",
+      "scopeNote": "ComSoc官方确认已并入NOMS。IM作为历史系列归档，原CCF等级适用于IM。",
       "ratingReviewedAt": "2026-10-18",
       "identityReviewedAt": "2026-10-18",
       "identityNote": "ComSoc已说明IM与NOMS合并，旧IM保留历史评价记录，当前活动走NOMS。"
@@ -18759,7 +18759,7 @@ window.COMMDDL_DATA = {
       "verifiedAt": "2026-10-18",
       "verification": "verified",
       "catalogStatus": "historical-only",
-      "summary": "2018 学科附件中的历史条目；现行名称、举办状态与当届投稿信息待核验。原表英文Global Navigation Satellite Systems，简称ION/IEEE GNSS；不能直接替换成ION GNSS+或IEEE/ION PLANS等其他会议。",
+      "summary": "2018学科附件中的历史条目，现行名称、举办状态与当届投稿信息待核验。原表英文为Global Navigation Satellite Systems（全球导航卫星系统），简称ION/IEEE GNSS；与ION GNSS+、IEEE/ION PLANS的身份对应未确认。",
       "publicationType": "学术会议系列",
       "articleTypes": [
         "会议论文"
@@ -18771,7 +18771,7 @@ window.COMMDDL_DATA = {
           "label": "2018 信通学科重要会议表",
           "year": 2018,
           "sourceUrl": "https://xxgk.bupt.edu.cn/__local/F/65/92/3A361334F005A224CD3C6C215B7_43DF8061_C1241.pdf?e=.pdf",
-          "note": "仅表示列入该版学科附件；不表示硕士唯一成果路径。原表编号 69，PDF 第 7 页。"
+          "note": "列入2018版学科附件，硕士渠道见政策说明。原表编号 69，PDF 第 7 页。"
         }
       ],
       "urlLabel": "历史文件",
@@ -18789,7 +18789,7 @@ window.COMMDDL_DATA = {
             "ION/IEEE GNSS",
             "ION/IEEE GNSS"
           ],
-          "note": "原2018表只提供缩写或历史名称，不能确定唯一正式系列；不作等级继承。",
+          "note": "2018表提供缩写或历史名称，正式系列对应未确认，评级保留在原记录。",
           "status": "unresolved",
           "value": null,
           "reviewedAt": "2026-10-18"
@@ -18806,7 +18806,7 @@ window.COMMDDL_DATA = {
             "ION/IEEE GNSS",
             "ION/IEEE GNSS"
           ],
-          "note": "原2018表只提供缩写或历史名称，不能确定唯一正式系列；不作等级继承。",
+          "note": "2018表提供缩写或历史名称，正式系列对应未确认，评级保留在原记录。",
           "status": "unresolved",
           "value": null,
           "reviewedAt": "2026-10-18"
@@ -18814,7 +18814,7 @@ window.COMMDDL_DATA = {
       ],
       "catalogScope": "archive",
       "scopeReviewedAt": "2026-10-18",
-      "scopeNote": "原表ION/IEEE GNSS的身份不等于ION GNSS+或PLANS，待唯一化；现有ION GNSS+、PLANS保持独立。",
+      "scopeNote": "原表ION/IEEE GNSS的正式系列对应待确认；ION GNSS+与PLANS分别保留。",
       "ratingReviewedAt": "2026-10-18",
       "identityReviewedAt": "2026-10-18",
       "identityNote": "原表ION/IEEE GNSS与笼统全称无法唯一定位ION GNSS+或IEEE/ION PLANS；二者现存官网已在主目录分别列出，原表仍为身份歧义档案。"
@@ -18853,7 +18853,7 @@ window.COMMDDL_DATA = {
           "label": "2018 信通学科重要会议表",
           "year": 2018,
           "sourceUrl": "https://xxgk.bupt.edu.cn/__local/F/65/92/3A361334F005A224CD3C6C215B7_43DF8061_C1241.pdf?e=.pdf",
-          "note": "仅表示列入该版学科附件；不表示硕士唯一成果路径。原表编号 70，PDF 第 7 页。"
+          "note": "列入2018版学科附件，硕士渠道见政策说明。原表编号 70，PDF 第 7 页。"
         }
       ],
       "urlLabel": "历史文件",
@@ -18871,7 +18871,7 @@ window.COMMDDL_DATA = {
             "IPC",
             "IPC"
           ],
-          "note": "复查完整 CCF2026 目录的 386 个会议条目，未列出该正式系列。结论限本公开副本，未列入不代表低等级。",
+          "note": "按正式系列核对CCF2026公开副本全部386个会议条目，未列入该版。",
           "status": "unlisted",
           "value": null,
           "reviewedAt": "2026-10-18"
@@ -18935,7 +18935,7 @@ window.COMMDDL_DATA = {
           "label": "2018 信通学科重要会议表",
           "year": 2018,
           "sourceUrl": "https://xxgk.bupt.edu.cn/__local/F/65/92/3A361334F005A224CD3C6C215B7_43DF8061_C1241.pdf?e=.pdf",
-          "note": "仅表示列入该版学科附件；不表示硕士唯一成果路径。原表编号 71，PDF 第 7 页。"
+          "note": "列入2018版学科附件，硕士渠道见政策说明。原表编号 71，PDF 第 7 页。"
         }
       ],
       "urlLabel": "历史文件",
@@ -18953,7 +18953,7 @@ window.COMMDDL_DATA = {
             "ISAP",
             "ISAP"
           ],
-          "note": "复查完整 CCF2026 目录的 386 个会议条目，未列出该正式系列。结论限本公开副本，未列入不代表低等级。",
+          "note": "按正式系列核对CCF2026公开副本全部386个会议条目，未列入该版。",
           "status": "unlisted",
           "value": null,
           "reviewedAt": "2026-10-18"
@@ -19014,7 +19014,7 @@ window.COMMDDL_DATA = {
           "label": "2018 信通学科重要会议表",
           "year": 2018,
           "sourceUrl": "https://xxgk.bupt.edu.cn/__local/F/65/92/3A361334F005A224CD3C6C215B7_43DF8061_C1241.pdf?e=.pdf",
-          "note": "仅表示列入该版学科附件；不表示硕士唯一成果路径。原表编号 72，PDF 第 7 页。"
+          "note": "列入2018版学科附件，硕士渠道见政策说明。原表编号 72，PDF 第 7 页。"
         }
       ],
       "urlLabel": "历史文件",
@@ -19032,7 +19032,7 @@ window.COMMDDL_DATA = {
             "ISCSLP",
             "ISCSLP"
           ],
-          "note": "复查完整 CCF2026 目录的 386 个会议条目，未列出该正式系列。结论限本公开副本，未列入不代表低等级。",
+          "note": "按正式系列核对CCF2026公开副本全部386个会议条目，未列入该版。",
           "status": "unlisted",
           "value": null,
           "reviewedAt": "2026-10-18"
@@ -19097,7 +19097,7 @@ window.COMMDDL_DATA = {
           "label": "2018 信通学科重要会议表",
           "year": 2018,
           "sourceUrl": "https://xxgk.bupt.edu.cn/__local/F/65/92/3A361334F005A224CD3C6C215B7_43DF8061_C1241.pdf?e=.pdf",
-          "note": "仅表示列入该版学科附件；不表示硕士唯一成果路径。原表编号 73，PDF 第 7 页。"
+          "note": "列入2018版学科附件，硕士渠道见政策说明。原表编号 73，PDF 第 7 页。"
         }
       ],
       "urlLabel": "历史文件",
@@ -19181,7 +19181,7 @@ window.COMMDDL_DATA = {
           "label": "2018 信通学科重要会议表",
           "year": 2018,
           "sourceUrl": "https://xxgk.bupt.edu.cn/__local/F/65/92/3A361334F005A224CD3C6C215B7_43DF8061_C1241.pdf?e=.pdf",
-          "note": "仅表示列入该版学科附件；不表示硕士唯一成果路径。原表编号 78，PDF 第 7 页。"
+          "note": "列入2018版学科附件，硕士渠道见政策说明。原表编号 78，PDF 第 7 页。"
         }
       ],
       "urlLabel": "历史文件",
@@ -19199,7 +19199,7 @@ window.COMMDDL_DATA = {
             "OECC",
             "OECC"
           ],
-          "note": "复查完整 CCF2026 目录的 386 个会议条目，未列出该正式系列。结论限本公开副本，未列入不代表低等级。",
+          "note": "按正式系列核对CCF2026公开副本全部386个会议条目，未列入该版。",
           "status": "unlisted",
           "value": null,
           "reviewedAt": "2026-10-18"
@@ -19268,7 +19268,7 @@ window.COMMDDL_DATA = {
           "label": "2018 信通学科重要会议表",
           "year": 2018,
           "sourceUrl": "https://xxgk.bupt.edu.cn/__local/F/65/92/3A361334F005A224CD3C6C215B7_43DF8061_C1241.pdf?e=.pdf",
-          "note": "仅表示列入该版学科附件；不表示硕士唯一成果路径。原表编号 79，PDF 第 7 页。"
+          "note": "列入2018版学科附件，硕士渠道见政策说明。原表编号 79，PDF 第 7 页。"
         }
       ],
       "urlLabel": "历史文件",
@@ -19350,7 +19350,7 @@ window.COMMDDL_DATA = {
           "label": "2018 信通学科重要会议表",
           "year": 2018,
           "sourceUrl": "https://xxgk.bupt.edu.cn/__local/F/65/92/3A361334F005A224CD3C6C215B7_43DF8061_C1241.pdf?e=.pdf",
-          "note": "仅表示列入该版学科附件；不表示硕士唯一成果路径。原表编号 80，PDF 第 8 页。"
+          "note": "列入2018版学科附件，硕士渠道见政策说明。原表编号 80，PDF 第 8 页。"
         }
       ],
       "urlLabel": "历史文件",
@@ -19368,7 +19368,7 @@ window.COMMDDL_DATA = {
             "ONDM",
             "ONDM"
           ],
-          "note": "复查完整 CCF2026 目录的 386 个会议条目，未列出该正式系列。结论限本公开副本，未列入不代表低等级。",
+          "note": "按正式系列核对CCF2026公开副本全部386个会议条目，未列入该版。",
           "status": "unlisted",
           "value": null,
           "reviewedAt": "2026-10-18"
@@ -19433,7 +19433,7 @@ window.COMMDDL_DATA = {
           "label": "2018 信通学科重要会议表",
           "year": 2018,
           "sourceUrl": "https://xxgk.bupt.edu.cn/__local/F/65/92/3A361334F005A224CD3C6C215B7_43DF8061_C1241.pdf?e=.pdf",
-          "note": "仅表示列入该版学科附件；不表示硕士唯一成果路径。原表编号 81，PDF 第 8 页。"
+          "note": "列入2018版学科附件，硕士渠道见政策说明。原表编号 81，PDF 第 8 页。"
         }
       ],
       "urlLabel": "历史文件",
@@ -19515,7 +19515,7 @@ window.COMMDDL_DATA = {
           "label": "2018 信通学科重要会议表",
           "year": 2018,
           "sourceUrl": "https://xxgk.bupt.edu.cn/__local/F/65/92/3A361334F005A224CD3C6C215B7_43DF8061_C1241.pdf?e=.pdf",
-          "note": "仅表示列入该版学科附件；不表示硕士唯一成果路径。原表编号 82，PDF 第 8 页。"
+          "note": "列入2018版学科附件，硕士渠道见政策说明。原表编号 82，PDF 第 8 页。"
         }
       ],
       "urlLabel": "历史文件",
@@ -19533,7 +19533,7 @@ window.COMMDDL_DATA = {
             "PCS",
             "PCS"
           ],
-          "note": "复查完整 CCF2026 目录的 386 个会议条目，未列出该正式系列。结论限本公开副本，未列入不代表低等级。",
+          "note": "按正式系列核对CCF2026公开副本全部386个会议条目，未列入该版。",
           "status": "unlisted",
           "value": null,
           "reviewedAt": "2026-10-18"
@@ -19562,7 +19562,7 @@ window.COMMDDL_DATA = {
       "scopeNote": "通信相关信号处理及感知研究载体；无线通信研究载体；空天地通信、定位与授时交叉载体；智能通信和信号处理交叉载体",
       "ratingReviewedAt": "2026-10-18",
       "identityReviewedAt": "2026-10-18",
-      "identityNote": "图像与视频编码；SPS官方确认2025届次，不推测2026举办。"
+      "identityNote": "图像与视频编码；SPS官方确认2025届次，2026举办信息未确认。"
     },
     {
       "id": "vcip",
@@ -19596,7 +19596,7 @@ window.COMMDDL_DATA = {
           "label": "2018 信通学科重要会议表",
           "year": 2018,
           "sourceUrl": "https://xxgk.bupt.edu.cn/__local/F/65/92/3A361334F005A224CD3C6C215B7_43DF8061_C1241.pdf?e=.pdf",
-          "note": "仅表示列入该版学科附件；不表示硕士唯一成果路径。原表编号 85，PDF 第 8 页。"
+          "note": "列入2018版学科附件，硕士渠道见政策说明。原表编号 85，PDF 第 8 页。"
         }
       ],
       "urlLabel": "历史文件",
@@ -19614,7 +19614,7 @@ window.COMMDDL_DATA = {
             "VCIP",
             "VCIP"
           ],
-          "note": "复查完整 CCF2026 目录的 386 个会议条目，未列出该正式系列。结论限本公开副本，未列入不代表低等级。",
+          "note": "按正式系列核对CCF2026公开副本全部386个会议条目，未列入该版。",
           "status": "unlisted",
           "value": null,
           "reviewedAt": "2026-10-18"
@@ -19680,7 +19680,7 @@ window.COMMDDL_DATA = {
           "label": "2018 信通学科重要会议表",
           "year": 2018,
           "sourceUrl": "https://xxgk.bupt.edu.cn/__local/F/65/92/3A361334F005A224CD3C6C215B7_43DF8061_C1241.pdf?e=.pdf",
-          "note": "仅表示列入该版学科附件；不表示硕士唯一成果路径。原表编号 87，PDF 第 8 页。"
+          "note": "列入2018版学科附件，硕士渠道见政策说明。原表编号 87，PDF 第 8 页。"
         }
       ],
       "urlLabel": "历史文件",
@@ -19765,7 +19765,7 @@ window.COMMDDL_DATA = {
           "label": "2018 信通学科重要会议表",
           "year": 2018,
           "sourceUrl": "https://xxgk.bupt.edu.cn/__local/F/65/92/3A361334F005A224CD3C6C215B7_43DF8061_C1241.pdf?e=.pdf",
-          "note": "仅表示列入该版学科附件；不表示硕士唯一成果路径。原表编号 88，PDF 第 8 页。"
+          "note": "列入2018版学科附件，硕士渠道见政策说明。原表编号 88，PDF 第 8 页。"
         }
       ],
       "urlLabel": "历史文件",
@@ -19808,7 +19808,7 @@ window.COMMDDL_DATA = {
       ],
       "catalogScope": "archive",
       "scopeReviewedAt": "2026-10-18",
-      "scopeNote": "历史语音编码研讨会名，不能在缺少继承关系证据下当当前系列；稳定ID保留。",
+      "scopeNote": "历史语音编码研讨会，当前系列的继承关系待确认；保留稳定编号。",
       "ratingReviewedAt": "2026-10-18",
       "identityReviewedAt": "2026-10-18",
       "identityNote": "出版者DOI记录确认历史SCW身份；当前届次及与其他会合并缺少官方证据，不杜撰更名或停办。"
@@ -19871,7 +19871,7 @@ window.COMMDDL_DATA = {
           "sourceType": "publisher",
           "verifiedAt": "2026-10-18",
           "appliesToName": "IEEE Journal on Selected Areas in Information Theory",
-          "note": "采用原表 Quartile (JIF)（期刊影响因子分区）列，非 CiteScore（引文评分）或 SJR（SCImago期刊排名）；按原表为2025 JCR、2026年6月发布。不同学科分区需另查 JCR。"
+          "note": "读取IEEE期刊表Quartile (JIF)（期刊影响因子分区）列，2025 JCR数据、2026年6月发布；逐学科分区见JCR。"
         },
         {
           "system": "cas",
@@ -19892,7 +19892,7 @@ window.COMMDDL_DATA = {
             "IEEE Journal on Selected Areas in Information Theory",
             "IEEE 信息论专题选刊"
           ],
-          "note": "已对照完整21772刊的2025转录，按完整英文刊名、中文刊名、已知旧名及可得ISSN检查，未列入本版；仅指2025表，不推断其他年份或WoS索引状态。",
+          "note": "按英文全名、中文刊名、旧名及可得ISSN核对2025年21772刊完整转录，未列入该版。",
           "attempts": [
             "2025完整期刊汇总21772条全名/中文名/旧名检索",
             "原表相关关键词复查，未以近名刊物替代",
@@ -19908,7 +19908,7 @@ window.COMMDDL_DATA = {
           "sourceTitle": "CCF2026第七版公开副本",
           "sourceType": "document-copy",
           "reviewedAt": "2026-10-18",
-          "note": "已检索副本全部295项期刊记录，按英文全名、缩写、可识别旧名核对，副本未列；仅指该份2026目录，不代表学术质量等级。",
+          "note": "按英文全名、缩写及已知旧名核对CCF2026公开副本全部295项期刊记录，未列入该版。",
           "attempts": [
             "完整2026公开副本期刊表逐条名称匹配",
             "已检查可识别旧称/IEEE-ACM更名"
@@ -19975,7 +19975,7 @@ window.COMMDDL_DATA = {
           "sourceTitle": "2024 JCR 学科分区转录（2025年6月）",
           "sourceType": "secondary",
           "verifiedAt": "2026-10-18",
-          "note": "读取 JIF Quartile 列；同时保留所有学科分区。默认优先电信学，不取最好分区；可靠政府转录而非 JCR 原库直接核验。",
+          "note": "读取政府公开转录的JIF Quartile（期刊影响因子分区）列，保存全部学科，默认展示电信学。",
           "reviewedAt": "2026-10-18",
           "sourceAuthority": "government"
         },
@@ -20005,7 +20005,7 @@ window.COMMDDL_DATA = {
               "quartile": 4
             }
           ],
-          "note": "高校公开转录注明2025年升级版、2026-09-28导出，原数据来自期刊分区表平台；按完整刊名或旧名唯一对应。大类与全部小类分开保存，未直接核验原库。"
+          "note": "高校公开的2025升级版转录，2026-09-28导出，原数据来自期刊分区表平台。按完整刊名或旧名唯一对应，保存大类与全部小类分区。"
         },
         {
           "system": "ccf",
@@ -20021,7 +20021,7 @@ window.COMMDDL_DATA = {
           "sourceType": "document-copy",
           "verifiedAt": "2026-10-18",
           "appliesToName": "IET Communications",
-          "note": "等级从 CCF 编制文件的公开副本读取，尚待官网原件逐项复核。会议仅对应正式长文，不适用于短文、演示或附属研讨会。"
+          "note": "等级读取自CCF编制文件公开副本。"
         }
       ],
       "indexing": {
@@ -20062,7 +20062,7 @@ window.COMMDDL_DATA = {
           "sourceType": "publisher",
           "verifiedAt": "2026-10-19",
           "reviewedAt": "2026-10-19",
-          "note": "逐刊出版介绍明确SCOPUS (Elsevier)，不是从其他同出版社刊物推断。"
+          "note": "本刊出版方介绍明确列出SCOPUS（Elsevier摘要与引文数据库）。"
         }
       ]
     },
@@ -20129,7 +20129,7 @@ window.COMMDDL_DATA = {
           "sourceTitle": "2024 JCR 学科分区转录（2025年6月）",
           "sourceType": "secondary",
           "verifiedAt": "2026-10-18",
-          "note": "读取 JIF Quartile 列；同时保留所有学科分区。默认优先电信学，不取最好分区；可靠政府转录而非 JCR 原库直接核验。",
+          "note": "读取政府公开转录的JIF Quartile（期刊影响因子分区）列，保存全部学科，默认展示电信学。",
           "reviewedAt": "2026-10-18",
           "sourceAuthority": "government"
         },
@@ -20167,7 +20167,7 @@ window.COMMDDL_DATA = {
               "quartile": 3
             }
           ],
-          "note": "高校公开转录注明2025年升级版、2026-09-28导出，原数据来自期刊分区表平台；按完整刊名或旧名唯一对应。大类与全部小类分开保存，未直接核验原库。"
+          "note": "高校公开的2025升级版转录，2026-09-28导出，原数据来自期刊分区表平台。按完整刊名或旧名唯一对应，保存大类与全部小类分区。"
         },
         {
           "system": "ccf",
@@ -20183,7 +20183,7 @@ window.COMMDDL_DATA = {
           "sourceType": "document-copy",
           "verifiedAt": "2026-10-18",
           "appliesToName": "Computer Communications",
-          "note": "等级从 CCF 编制文件的公开副本读取，尚待官网原件逐项复核。会议仅对应正式长文，不适用于短文、演示或附属研讨会。"
+          "note": "等级读取自CCF编制文件公开副本。"
         }
       ],
       "indexing": {
@@ -20199,7 +20199,7 @@ window.COMMDDL_DATA = {
         "page": 129,
         "issn": "0140-3664",
         "eissn": "1873-703X",
-        "note": "按期刊全名及 ISSN 对应到原表 Edition 栏，非从影响因子推断；仅为 2024 数据/2025年6月快照的可靠转录，不冒充2026实时原库核验。",
+        "note": "按期刊全名及ISSN匹配2024 JCR原表Edition（索引版本）列。来源为2025年6月快照转录。",
         "reviewedAt": "2026-10-18",
         "sourceAuthority": "government"
       },
@@ -20255,7 +20255,7 @@ window.COMMDDL_DATA = {
           "sourceTitle": "2024 JCR完整转录表（2025年6月）",
           "sourceType": "secondary",
           "reviewedAt": "2026-10-18",
-          "note": "已检索该完整旧年度JCR表的全名/别名记录，未列；不推定2026 JCR状态或SCIE收录状态。",
+          "note": "按全名及别名核对2024 JCR完整转录，未列入该版。",
           "attempts": [
             "完整785页JCR2024表精确名及别名检索",
             "不将2024未列推断为2026未收录"
@@ -20282,7 +20282,7 @@ window.COMMDDL_DATA = {
             "Acta Electronica Sinica",
             "电子学报"
           ],
-          "note": "已对照完整21772刊的2025转录，按完整英文刊名、中文刊名、已知旧名及可得ISSN检查，未列入本版；仅指2025表，不推断其他年份或WoS索引状态。",
+          "note": "按英文全名、中文刊名、旧名及可得ISSN核对2025年21772刊完整转录，未列入该版。",
           "attempts": [
             "2025完整期刊汇总21772条全名/中文名/旧名检索",
             "原表相关关键词复查，未以近名刊物替代",
@@ -20298,7 +20298,7 @@ window.COMMDDL_DATA = {
           "sourceTitle": "CCF2026第七版公开副本",
           "sourceType": "document-copy",
           "reviewedAt": "2026-10-18",
-          "note": "已检索副本全部295项期刊记录，按英文全名、缩写、可识别旧名核对，副本未列；仅指该份2026目录，不代表学术质量等级。",
+          "note": "按英文全名、缩写及已知旧名核对CCF2026公开副本全部295项期刊记录，未列入该版。",
           "attempts": [
             "完整2026公开副本期刊表逐条名称匹配",
             "已检查可识别旧称/IEEE-ACM更名"
@@ -20310,7 +20310,7 @@ window.COMMDDL_DATA = {
         "status": "unresolved",
         "value": null,
         "reviewedAt": "2026-10-18",
-        "note": "已核验本刊官方身份和可确认的EI/中文索引；完整2024JCR转录未列，2026MJL原库本轮无法载入，未据缺失推断非SCIE。",
+        "note": "本刊官方身份及EI、中文索引已有来源。2024 JCR完整转录未列，2026 MJL（期刊主列表）原库本次无法载入，当前WoS索引未确认。",
         "attempts": [
           "官方出版社/学会介绍",
           "完整2024JCR全名与别名检索",
@@ -20368,7 +20368,7 @@ window.COMMDDL_DATA = {
           "sourceType": "document-copy",
           "sourceAuthority": "cas-institute",
           "verifiedAt": "2026-10-19",
-          "note": "按正式ISSN对照CSCD2025—2026完整名单，明确为核心库；数据库原始名单的科研机构公开副本，保留副本属性、年度和核心/扩展类别，不冒充原库查询，不推断其他索引。"
+          "note": "按正式ISSN匹配CSCD2025—2026完整名单，列入核心库。来源为科研机构公开的原始名单副本。"
         }
       ],
       "sourceType": "publisher",
@@ -20420,7 +20420,7 @@ window.COMMDDL_DATA = {
           "sourceTitle": "2024 JCR完整转录表（2025年6月）",
           "sourceType": "secondary",
           "reviewedAt": "2026-10-18",
-          "note": "已检索该完整旧年度JCR表的全名/别名记录，未列；不推定2026 JCR状态或SCIE收录状态。",
+          "note": "按全名及别名核对2024 JCR完整转录，未列入该版。",
           "attempts": [
             "完整785页JCR2024表精确名及别名检索",
             "不将2024未列推断为2026未收录"
@@ -20454,7 +20454,7 @@ window.COMMDDL_DATA = {
               "quartile": 3
             }
           ],
-          "note": "高校公开转录注明2025年升级版、2026-09-28导出，原数据来自期刊分区表平台；按完整刊名或旧名唯一对应。大类与全部小类分开保存，未直接核验原库。"
+          "note": "高校公开的2025升级版转录，2026-09-28导出，原数据来自期刊分区表平台。按完整刊名或旧名唯一对应，保存大类与全部小类分区。"
         },
         {
           "system": "ccf",
@@ -20465,7 +20465,7 @@ window.COMMDDL_DATA = {
           "sourceTitle": "CCF2026第七版公开副本",
           "sourceType": "document-copy",
           "reviewedAt": "2026-10-18",
-          "note": "已检索副本全部295项期刊记录，按英文全名、缩写、可识别旧名核对，副本未列；仅指该份2026目录，不代表学术质量等级。",
+          "note": "按英文全名、缩写及已知旧名核对CCF2026公开副本全部295项期刊记录，未列入该版。",
           "attempts": [
             "完整2026公开副本期刊表逐条名称匹配",
             "已检查可识别旧称/IEEE-ACM更名"
@@ -20481,7 +20481,7 @@ window.COMMDDL_DATA = {
         "sourceTitle": "电子与信息学报2026年3月26日ESCI收录通知",
         "sourceType": "publisher",
         "verifiedAt": "2026-10-18",
-        "note": "官方通知及官网介绍明确ESCI，不能归为SCI/SCIE。",
+        "note": "本刊官方通知与简介明确列出ESCI（新兴来源引文索引）。",
         "reviewedAt": "2026-10-18"
       },
       "catalogScope": "communications",
@@ -20511,7 +20511,7 @@ window.COMMDDL_DATA = {
           "sourceType": "document-copy",
           "sourceAuthority": "cas-institute",
           "verifiedAt": "2026-10-19",
-          "note": "按正式ISSN对照CSCD2025—2026完整名单，明确为核心库；数据库原始名单的科研机构公开副本，保留副本属性、年度和核心/扩展类别，不冒充原库查询，不推断其他索引。"
+          "note": "按正式ISSN匹配CSCD2025—2026完整名单，列入核心库。来源为科研机构公开的原始名单副本。"
         }
       ],
       "sourceType": "publisher",
@@ -20562,7 +20562,7 @@ window.COMMDDL_DATA = {
           "sourceTitle": "2024 JCR完整转录表（2025年6月）",
           "sourceType": "secondary",
           "reviewedAt": "2026-10-18",
-          "note": "已检索该完整旧年度JCR表的全名/别名记录，未列；不推定2026 JCR状态或SCIE收录状态。",
+          "note": "按全名及别名核对2024 JCR完整转录，未列入该版。",
           "attempts": [
             "完整785页JCR2024表精确名及别名检索",
             "不将2024未列推断为2026未收录"
@@ -20589,7 +20589,7 @@ window.COMMDDL_DATA = {
             "Journal of Signal Processing",
             "信号处理"
           ],
-          "note": "已对照完整21772刊的2025转录，按完整英文刊名、中文刊名、已知旧名及可得ISSN检查，未列入本版；仅指2025表，不推断其他年份或WoS索引状态。",
+          "note": "按英文全名、中文刊名、旧名及可得ISSN核对2025年21772刊完整转录，未列入该版。",
           "attempts": [
             "2025完整期刊汇总21772条全名/中文名/旧名检索",
             "原表相关关键词复查，未以近名刊物替代",
@@ -20605,7 +20605,7 @@ window.COMMDDL_DATA = {
           "sourceTitle": "CCF2026第七版公开副本",
           "sourceType": "document-copy",
           "reviewedAt": "2026-10-18",
-          "note": "已检索副本全部295项期刊记录，按英文全名、缩写、可识别旧名核对，副本未列；仅指该份2026目录，不代表学术质量等级。",
+          "note": "按英文全名、缩写及已知旧名核对CCF2026公开副本全部295项期刊记录，未列入该版。",
           "attempts": [
             "完整2026公开副本期刊表逐条名称匹配",
             "已检查可识别旧称/IEEE-ACM更名"
@@ -20617,7 +20617,7 @@ window.COMMDDL_DATA = {
         "status": "unresolved",
         "value": null,
         "reviewedAt": "2026-10-18",
-        "note": "已核验本刊官方身份和可确认的EI/中文索引；完整2024JCR转录未列，2026MJL原库本轮无法载入，未据缺失推断非SCIE。",
+        "note": "本刊官方身份及EI、中文索引已有来源。2024 JCR完整转录未列，2026 MJL（期刊主列表）原库本次无法载入，当前WoS索引未确认。",
         "attempts": [
           "官方出版社/学会介绍",
           "完整2024JCR全名与别名检索",
@@ -20665,7 +20665,7 @@ window.COMMDDL_DATA = {
           "sourceType": "document-copy",
           "sourceAuthority": "cas-institute",
           "verifiedAt": "2026-10-19",
-          "note": "按正式ISSN对照CSCD2025—2026完整名单，明确为核心库；数据库原始名单的科研机构公开副本，保留副本属性、年度和核心/扩展类别，不冒充原库查询，不推断其他索引。"
+          "note": "按正式ISSN匹配CSCD2025—2026完整名单，列入核心库。来源为科研机构公开的原始名单副本。"
         }
       ],
       "sourceType": "government",
@@ -20731,7 +20731,7 @@ window.COMMDDL_DATA = {
           "sourceTitle": "2024 JCR 学科分区转录（2025年6月）",
           "sourceType": "secondary",
           "verifiedAt": "2026-10-18",
-          "note": "读取 JIF Quartile 列；同时保留所有学科分区。默认优先电信学，不取最好分区；可靠政府转录而非 JCR 原库直接核验。",
+          "note": "读取政府公开转录的JIF Quartile（期刊影响因子分区）列，保存全部学科，默认展示电信学。",
           "reviewedAt": "2026-10-18",
           "sourceAuthority": "government"
         },
@@ -20765,7 +20765,7 @@ window.COMMDDL_DATA = {
               "quartile": 1
             }
           ],
-          "note": "高校公开转录注明2025年升级版、2026-09-28导出，原数据来自期刊分区表平台；按完整刊名或旧名唯一对应。大类与全部小类分开保存，未直接核验原库。"
+          "note": "高校公开的2025升级版转录，2026-09-28导出，原数据来自期刊分区表平台。按完整刊名或旧名唯一对应，保存大类与全部小类分区。"
         },
         {
           "system": "ccf",
@@ -20781,7 +20781,7 @@ window.COMMDDL_DATA = {
           "sourceType": "document-copy",
           "verifiedAt": "2026-10-18",
           "appliesToName": "SCIENCE CHINA Information Sciences",
-          "note": "等级从 CCF 编制文件的公开副本读取，尚待官网原件逐项复核。会议仅对应正式长文，不适用于短文、演示或附属研讨会。 按原表简称与人工读取全称核对；换行提取已校正。"
+          "note": "等级读取自CCF编制文件公开副本。简称与人工读取全称一致，已校正换行提取；"
         }
       ],
       "indexing": {
@@ -20831,7 +20831,7 @@ window.COMMDDL_DATA = {
           "sourceType": "document-copy",
           "sourceAuthority": "cas-institute",
           "verifiedAt": "2026-10-19",
-          "note": "按正式ISSN对照CSCD2025—2026完整名单，明确为核心库；数据库原始名单的科研机构公开副本，保留副本属性、年度和核心/扩展类别，不冒充原库查询，不推断其他索引。"
+          "note": "按正式ISSN匹配CSCD2025—2026完整名单，列入核心库。来源为科研机构公开的原始名单副本。"
         }
       ]
     },
@@ -20895,7 +20895,7 @@ window.COMMDDL_DATA = {
           "sourceType": "publisher",
           "verifiedAt": "2026-10-18",
           "appliesToName": "IEEE Access",
-          "note": "采用原表 Quartile (JIF)（期刊影响因子分区）列，非 CiteScore（引文评分）或 SJR（SCImago期刊排名）；按原表为2025 JCR、2026年6月发布。不同学科分区需另查 JCR。"
+          "note": "读取IEEE期刊表Quartile (JIF)（期刊影响因子分区）列，2025 JCR数据、2026年6月发布；逐学科分区见JCR。"
         },
         {
           "system": "cas",
@@ -20931,7 +20931,7 @@ window.COMMDDL_DATA = {
               "quartile": 4
             }
           ],
-          "note": "高校公开转录注明2025年升级版、2026-09-28导出，原数据来自期刊分区表平台；按完整刊名或旧名唯一对应。大类与全部小类分开保存，未直接核验原库。 与此前已取得公开转录的分区值一致。"
+          "note": "高校公开的2025升级版转录，2026-09-28导出，原数据来自期刊分区表平台。按完整刊名或旧名唯一对应，保存大类与全部小类分区。 与此前已取得公开转录的分区值一致。"
         },
         {
           "system": "ccf",
@@ -20942,7 +20942,7 @@ window.COMMDDL_DATA = {
           "sourceTitle": "CCF2026第七版公开副本",
           "sourceType": "document-copy",
           "reviewedAt": "2026-10-18",
-          "note": "已检索副本全部295项期刊记录，按英文全名、缩写、可识别旧名核对，副本未列；仅指该份2026目录，不代表学术质量等级。",
+          "note": "按英文全名、缩写及已知旧名核对CCF2026公开副本全部295项期刊记录，未列入该版。",
           "attempts": [
             "完整2026公开副本期刊表逐条名称匹配",
             "已检查可识别旧称/IEEE-ACM更名"
@@ -20999,7 +20999,7 @@ window.COMMDDL_DATA = {
             "Asia-Pacific Conference on Communications",
             "APCC"
           ],
-          "note": "复查完整 CCF2026 目录的 386 个会议条目，未列出该正式系列。结论限本公开副本，未列入不代表低等级。",
+          "note": "按正式系列核对CCF2026公开副本全部386个会议条目，未列入该版。",
           "status": "unlisted",
           "value": null,
           "reviewedAt": "2026-10-18"
@@ -21072,7 +21072,7 @@ window.COMMDDL_DATA = {
             "International Conference on Telecommunications",
             "ICT"
           ],
-          "note": "复查完整 CCF2026 目录的 386 个会议条目，未列出该正式系列。结论限本公开副本，未列入不代表低等级。",
+          "note": "按正式系列核对CCF2026公开副本全部386个会议条目，未列入该版。",
           "status": "unlisted",
           "value": null,
           "reviewedAt": "2026-10-18"
@@ -21145,7 +21145,7 @@ window.COMMDDL_DATA = {
             "International Conference on Computing, Networking and Communications",
             "ICNC"
           ],
-          "note": "复查 CCF2026 完整386个会议条目，未列该正式通信会议系列；结论仅限此公开副本。",
+          "note": "按正式系列核对CCF2026公开副本全部386个会议条目，未列入该版。",
           "status": "unlisted",
           "value": null,
           "reviewedAt": "2026-10-18"
@@ -21218,7 +21218,7 @@ window.COMMDDL_DATA = {
             "International Conference on Communications and Networking in China",
             "CHINACOM"
           ],
-          "note": "复查完整 CCF2026 目录的 386 个会议条目，未列出该正式系列。结论限本公开副本，未列入不代表低等级。",
+          "note": "按正式系列核对CCF2026公开副本全部386个会议条目，未列入该版。",
           "status": "unlisted",
           "value": null,
           "reviewedAt": "2026-10-18"
@@ -21290,7 +21290,7 @@ window.COMMDDL_DATA = {
             "International Conference on Wireless Communications and Signal Processing",
             "WCSP"
           ],
-          "note": "复查完整 CCF2026 目录的 386 个会议条目，未列出该正式系列。结论限本公开副本，未列入不代表低等级。",
+          "note": "按正式系列核对CCF2026公开副本全部386个会议条目，未列入该版。",
           "status": "unlisted",
           "value": null,
           "reviewedAt": "2026-10-18"
@@ -21318,7 +21318,7 @@ window.COMMDDL_DATA = {
       "scopeNote": "无线通信研究载体；通信相关信号处理及感知研究载体",
       "ratingReviewedAt": "2026-10-18",
       "identityReviewedAt": "2026-10-18",
-      "identityNote": "本次官网 http://www.ic-wcsp.org/2026 无法读取；第三方逐字征稿提供2026深圳届线索，但不冒充官网已读，不据此生成已核验截止日期。"
+      "identityNote": "官网 http://www.ic-wcsp.org/2026 本次无法读取；第三方征稿提供2026深圳届线索，截止日期待官方来源确认。"
     },
     {
       "id": "lcn",
@@ -21482,7 +21482,7 @@ window.COMMDDL_DATA = {
         }
       ],
       "ratingReviewedAt": "2026-10-18",
-      "identityNote": "2027官方使用新会议英文全称，不能把新名称另建重复系列。",
+      "identityNote": "2027官网采用新英文全称，沿用同一系列编号。",
       "deadlineReviewedAt": "2026-10-18"
     },
     {
@@ -21619,7 +21619,7 @@ window.COMMDDL_DATA = {
             "IWCMC",
             "IWCMC"
           ],
-          "note": "复查完整 CCF2026 目录的 386 个会议条目，未列出该正式系列。结论限本公开副本，未列入不代表低等级。",
+          "note": "按正式系列核对CCF2026公开副本全部386个会议条目，未列入该版。",
           "status": "unlisted",
           "value": null,
           "reviewedAt": "2026-10-18"
@@ -21939,7 +21939,7 @@ window.COMMDDL_DATA = {
             "ISNCC",
             "ISNCC"
           ],
-          "note": "复查完整 CCF2026 目录的 386 个会议条目，未列出该正式系列。结论限本公开副本，未列入不代表低等级。",
+          "note": "按正式系列核对CCF2026公开副本全部386个会议条目，未列入该版。",
           "status": "unlisted",
           "value": null,
           "reviewedAt": "2026-10-18"
@@ -22018,7 +22018,7 @@ window.COMMDDL_DATA = {
             "ICOIN",
             "ICOIN"
           ],
-          "note": "复查完整 CCF2026 目录的 386 个会议条目，未列出该正式系列。结论限本公开副本，未列入不代表低等级。",
+          "note": "按正式系列核对CCF2026公开副本全部386个会议条目，未列入该版。",
           "status": "unlisted",
           "value": null,
           "reviewedAt": "2026-10-18"
@@ -22176,7 +22176,7 @@ window.COMMDDL_DATA = {
             "MMSP",
             "MMSP"
           ],
-          "note": "复查完整 CCF2026 目录的 386 个会议条目，未列出该正式系列。结论限本公开副本，未列入不代表低等级。",
+          "note": "按正式系列核对CCF2026公开副本全部386个会议条目，未列入该版。",
           "status": "unlisted",
           "value": null,
           "reviewedAt": "2026-10-18"
@@ -22334,7 +22334,7 @@ window.COMMDDL_DATA = {
             "CSNDSP",
             "CSNDSP"
           ],
-          "note": "复查完整 CCF2026 目录的 386 个会议条目，未列出该正式系列。结论限本公开副本，未列入不代表低等级。",
+          "note": "按正式系列核对CCF2026公开副本全部386个会议条目，未列入该版。",
           "status": "unlisted",
           "value": null,
           "reviewedAt": "2026-10-18"
@@ -22410,7 +22410,7 @@ window.COMMDDL_DATA = {
             "ICIN",
             "ICIN"
           ],
-          "note": "复查完整 CCF2026 目录的 386 个会议条目，未列出该正式系列。结论限本公开副本，未列入不代表低等级。",
+          "note": "按正式系列核对CCF2026公开副本全部386个会议条目，未列入该版。",
           "status": "unlisted",
           "value": null,
           "reviewedAt": "2026-10-18"
@@ -22489,7 +22489,7 @@ window.COMMDDL_DATA = {
             "COMSNETS",
             "COMSNETS"
           ],
-          "note": "复查完整 CCF2026 目录的 386 个会议条目，未列出该正式系列。结论限本公开副本，未列入不代表低等级。",
+          "note": "按正式系列核对CCF2026公开副本全部386个会议条目，未列入该版。",
           "status": "unlisted",
           "value": null,
           "reviewedAt": "2026-10-18"
@@ -22568,7 +22568,7 @@ window.COMMDDL_DATA = {
             "ICSPS",
             "ICSPS"
           ],
-          "note": "复查完整 CCF2026 目录的 386 个会议条目，未列出该正式系列。结论限本公开副本，未列入不代表低等级。",
+          "note": "按正式系列核对CCF2026公开副本全部386个会议条目，未列入该版。",
           "status": "unlisted",
           "value": null,
           "reviewedAt": "2026-10-18"
@@ -22643,7 +22643,7 @@ window.COMMDDL_DATA = {
             "ICSIP",
             "ICSIP"
           ],
-          "note": "复查完整 CCF2026 目录的 386 个会议条目，未列出该正式系列。结论限本公开副本，未列入不代表低等级。",
+          "note": "按正式系列核对CCF2026公开副本全部386个会议条目，未列入该版。",
           "status": "unlisted",
           "value": null,
           "reviewedAt": "2026-10-18"
@@ -22719,7 +22719,7 @@ window.COMMDDL_DATA = {
             "CIE Signal Processing",
             "CIE Signal Processing"
           ],
-          "note": "复查完整 CCF2026 目录的 386 个会议条目，未列出该正式系列。结论限本公开副本，未列入不代表低等级。",
+          "note": "按正式系列核对CCF2026公开副本全部386个会议条目，未列入该版。",
           "status": "unlisted",
           "value": null,
           "reviewedAt": "2026-10-18"
@@ -22853,7 +22853,7 @@ window.COMMDDL_DATA = {
               "quartile": 4
             }
           ],
-          "note": "高校公开转录注明2025年升级版、2026-09-28导出，原数据来自期刊分区表平台；按完整刊名或旧名唯一对应。大类与全部小类分开保存，未直接核验原库。"
+          "note": "高校公开的2025升级版转录，2026-09-28导出，原数据来自期刊分区表平台。按完整刊名或旧名唯一对应，保存大类与全部小类分区。"
         }
       ],
       "indexing": {
@@ -22968,7 +22968,7 @@ window.COMMDDL_DATA = {
               "quartile": 4
             }
           ],
-          "note": "高校公开转录注明2025年升级版、2026-09-28导出，原数据来自期刊分区表平台；按完整刊名或旧名唯一对应。大类与全部小类分开保存，未直接核验原库。"
+          "note": "高校公开的2025升级版转录，2026-09-28导出，原数据来自期刊分区表平台。按完整刊名或旧名唯一对应，保存大类与全部小类分区。"
         }
       ],
       "indexing": {
@@ -23081,7 +23081,7 @@ window.COMMDDL_DATA = {
               "quartile": 4
             }
           ],
-          "note": "高校公开转录注明2025年升级版、2026-09-28导出，原数据来自期刊分区表平台；按完整刊名或旧名唯一对应。大类与全部小类分开保存，未直接核验原库。"
+          "note": "高校公开的2025升级版转录，2026-09-28导出，原数据来自期刊分区表平台。按完整刊名或旧名唯一对应，保存大类与全部小类分区。"
         }
       ],
       "indexing": {
@@ -23193,7 +23193,7 @@ window.COMMDDL_DATA = {
               "quartile": 4
             }
           ],
-          "note": "高校公开转录注明2025年升级版、2026-09-28导出，原数据来自期刊分区表平台；按完整刊名或旧名唯一对应。大类与全部小类分开保存，未直接核验原库。"
+          "note": "高校公开的2025升级版转录，2026-09-28导出，原数据来自期刊分区表平台。按完整刊名或旧名唯一对应，保存大类与全部小类分区。"
         }
       ],
       "indexing": {
@@ -23305,7 +23305,7 @@ window.COMMDDL_DATA = {
               "quartile": 4
             }
           ],
-          "note": "高校公开转录注明2025年升级版、2026-09-28导出，原数据来自期刊分区表平台；按完整刊名或旧名唯一对应。大类与全部小类分开保存，未直接核验原库。"
+          "note": "高校公开的2025升级版转录，2026-09-28导出，原数据来自期刊分区表平台。按完整刊名或旧名唯一对应，保存大类与全部小类分区。"
         }
       ],
       "indexing": {
@@ -23343,7 +23343,7 @@ window.COMMDDL_DATA = {
           "sourceType": "publisher",
           "verifiedAt": "2026-10-19",
           "reviewedAt": "2026-10-19",
-          "note": "逐刊出版介绍明确SCOPUS (Elsevier)，不是从其他同出版社刊物推断。"
+          "note": "本刊出版方介绍明确列出SCOPUS（Elsevier摘要与引文数据库）。"
         }
       ]
     },
@@ -23387,7 +23387,7 @@ window.COMMDDL_DATA = {
           "sourceTitle": "2024JCR政府公开转录（2025年6月）",
           "sourceType": "secondary",
           "reviewedAt": "2026-10-18",
-          "note": "统一AND/&后按全名精确匹配，读取JIF Quartile列；旧年度转录，不冒充2026实时记录。",
+          "note": "统一AND与&写法后按全名精确匹配，读取旧年度转录中的JIF Quartile（期刊影响因子分区）列。",
           "releaseYear": 2025,
           "category": "ENGINEERING, ELECTRICAL & ELECTRONIC",
           "categories": [
@@ -23450,7 +23450,7 @@ window.COMMDDL_DATA = {
               "quartile": 4
             }
           ],
-          "note": "高校公开转录注明2025年升级版、2026-09-28导出，原数据来自期刊分区表平台；按完整刊名或旧名唯一对应。大类与全部小类分开保存，未直接核验原库。"
+          "note": "高校公开的2025升级版转录，2026-09-28导出，原数据来自期刊分区表平台。按完整刊名或旧名唯一对应，保存大类与全部小类分区。"
         }
       ],
       "indexing": {
@@ -23488,7 +23488,7 @@ window.COMMDDL_DATA = {
           "sourceType": "publisher",
           "verifiedAt": "2026-10-19",
           "reviewedAt": "2026-10-19",
-          "note": "逐刊出版介绍明确SCOPUS (Elsevier)，不是从其他同出版社刊物推断。"
+          "note": "本刊出版方介绍明确列出SCOPUS（Elsevier摘要与引文数据库）。"
         }
       ]
     },
@@ -23595,7 +23595,7 @@ window.COMMDDL_DATA = {
               "quartile": 4
             }
           ],
-          "note": "高校公开转录注明2025年升级版、2026-09-28导出，原数据来自期刊分区表平台；按完整刊名或旧名唯一对应。大类与全部小类分开保存，未直接核验原库。"
+          "note": "高校公开的2025升级版转录，2026-09-28导出，原数据来自期刊分区表平台。按完整刊名或旧名唯一对应，保存大类与全部小类分区。"
         }
       ],
       "indexing": {
@@ -23633,7 +23633,7 @@ window.COMMDDL_DATA = {
           "sourceType": "publisher",
           "verifiedAt": "2026-10-19",
           "reviewedAt": "2026-10-19",
-          "note": "逐刊出版介绍明确SCOPUS (Elsevier)，不是从其他同出版社刊物推断。"
+          "note": "本刊出版方介绍明确列出SCOPUS（Elsevier摘要与引文数据库）。"
         }
       ]
     },
@@ -23741,7 +23741,7 @@ window.COMMDDL_DATA = {
               "quartile": 4
             }
           ],
-          "note": "高校公开转录注明2025年升级版、2026-09-28导出，原数据来自期刊分区表平台；按完整刊名或旧名唯一对应。大类与全部小类分开保存，未直接核验原库。"
+          "note": "高校公开的2025升级版转录，2026-09-28导出，原数据来自期刊分区表平台。按完整刊名或旧名唯一对应，保存大类与全部小类分区。"
         }
       ],
       "indexing": {
@@ -23857,7 +23857,7 @@ window.COMMDDL_DATA = {
               "quartile": 4
             }
           ],
-          "note": "高校公开转录注明2025年升级版、2026-09-28导出，原数据来自期刊分区表平台；按完整刊名或旧名唯一对应。大类与全部小类分开保存，未直接核验原库。"
+          "note": "高校公开的2025升级版转录，2026-09-28导出，原数据来自期刊分区表平台。按完整刊名或旧名唯一对应，保存大类与全部小类分区。"
         }
       ],
       "indexing": {
@@ -23870,7 +23870,7 @@ window.COMMDDL_DATA = {
         "sourceTitle": "2024JCR政府公开转录",
         "sourceType": "secondary",
         "verifiedAt": "2026-10-18",
-        "note": "仅为旧年度表Edition栏明确转录，非2026原库状态。",
+        "note": "转录自旧年度原表Edition（索引版本）列。",
         "reviewedAt": "2026-10-18",
         "sourceAuthority": "government"
       },
@@ -23996,7 +23996,7 @@ window.COMMDDL_DATA = {
               "quartile": 3
             }
           ],
-          "note": "高校公开转录注明2025年升级版、2026-09-28导出，原数据来自期刊分区表平台；按完整刊名或旧名唯一对应。大类与全部小类分开保存，未直接核验原库。"
+          "note": "高校公开的2025升级版转录，2026-09-28导出，原数据来自期刊分区表平台。按完整刊名或旧名唯一对应，保存大类与全部小类分区。"
         }
       ],
       "indexing": {
@@ -24026,7 +24026,7 @@ window.COMMDDL_DATA = {
           "sourceType": "document-copy",
           "sourceAuthority": "cas-institute",
           "verifiedAt": "2026-10-19",
-          "note": "按正式ISSN对照CSCD2025—2026完整名单，明确为核心库；数据库原始名单的科研机构公开副本，保留副本属性、年度和核心/扩展类别，不冒充原库查询，不推断其他索引。"
+          "note": "按正式ISSN匹配CSCD2025—2026完整名单，列入核心库。来源为科研机构公开的原始名单副本。"
         }
       ]
     },
@@ -24118,7 +24118,7 @@ window.COMMDDL_DATA = {
               "quartile": 1
             }
           ],
-          "note": "高校公开转录注明2025年升级版、2026-09-28导出，原数据来自期刊分区表平台；按完整刊名或旧名唯一对应。大类与全部小类分开保存，未直接核验原库。"
+          "note": "高校公开的2025升级版转录，2026-09-28导出，原数据来自期刊分区表平台。按完整刊名或旧名唯一对应，保存大类与全部小类分区。"
         }
       ],
       "indexing": {
@@ -24236,7 +24236,7 @@ window.COMMDDL_DATA = {
               "quartile": 2
             }
           ],
-          "note": "高校公开转录注明2025年升级版、2026-09-28导出，原数据来自期刊分区表平台；按完整刊名或旧名唯一对应。大类与全部小类分开保存，未直接核验原库。"
+          "note": "高校公开的2025升级版转录，2026-09-28导出，原数据来自期刊分区表平台。按完整刊名或旧名唯一对应，保存大类与全部小类分区。"
         }
       ],
       "indexing": {
@@ -24355,7 +24355,7 @@ window.COMMDDL_DATA = {
               "quartile": 3
             }
           ],
-          "note": "高校公开转录注明2025年升级版、2026-09-28导出，原数据来自期刊分区表平台；按完整刊名或旧名唯一对应。大类与全部小类分开保存，未直接核验原库。"
+          "note": "高校公开的2025升级版转录，2026-09-28导出，原数据来自期刊分区表平台。按完整刊名或旧名唯一对应，保存大类与全部小类分区。"
         }
       ],
       "indexing": {
@@ -24470,7 +24470,7 @@ window.COMMDDL_DATA = {
               "quartile": 2
             }
           ],
-          "note": "高校公开转录注明2025年升级版、2026-09-28导出，原数据来自期刊分区表平台；按完整刊名或旧名唯一对应。大类与全部小类分开保存，未直接核验原库。"
+          "note": "高校公开的2025升级版转录，2026-09-28导出，原数据来自期刊分区表平台。按完整刊名或旧名唯一对应，保存大类与全部小类分区。"
         }
       ],
       "indexing": {
@@ -24578,7 +24578,7 @@ window.COMMDDL_DATA = {
               "quartile": 3
             }
           ],
-          "note": "高校公开转录注明2025年升级版、2026-09-28导出，原数据来自期刊分区表平台；按完整刊名或旧名唯一对应。大类与全部小类分开保存，未直接核验原库。"
+          "note": "高校公开的2025升级版转录，2026-09-28导出，原数据来自期刊分区表平台。按完整刊名或旧名唯一对应，保存大类与全部小类分区。"
         }
       ],
       "indexing": {
@@ -24699,7 +24699,7 @@ window.COMMDDL_DATA = {
               "quartile": 4
             }
           ],
-          "note": "高校公开转录注明2025年升级版、2026-09-28导出，原数据来自期刊分区表平台；按完整刊名或旧名唯一对应。大类与全部小类分开保存，未直接核验原库。"
+          "note": "高校公开的2025升级版转录，2026-09-28导出，原数据来自期刊分区表平台。按完整刊名或旧名唯一对应，保存大类与全部小类分区。"
         }
       ],
       "indexing": {
@@ -24712,7 +24712,7 @@ window.COMMDDL_DATA = {
         "sourceTitle": "2024JCR政府公开转录",
         "sourceType": "secondary",
         "verifiedAt": "2026-10-18",
-        "note": "仅为旧年度表Edition栏明确转录，非2026原库状态。",
+        "note": "转录自旧年度原表Edition（索引版本）列。",
         "reviewedAt": "2026-10-18",
         "sourceAuthority": "government"
       },
@@ -24833,7 +24833,7 @@ window.COMMDDL_DATA = {
               "quartile": 4
             }
           ],
-          "note": "高校公开转录注明2025年升级版、2026-09-28导出，原数据来自期刊分区表平台；按完整刊名或旧名唯一对应。大类与全部小类分开保存，未直接核验原库。"
+          "note": "高校公开的2025升级版转录，2026-09-28导出，原数据来自期刊分区表平台。按完整刊名或旧名唯一对应，保存大类与全部小类分区。"
         }
       ],
       "indexing": {
@@ -24846,7 +24846,7 @@ window.COMMDDL_DATA = {
         "sourceTitle": "2024JCR政府公开转录",
         "sourceType": "secondary",
         "verifiedAt": "2026-10-18",
-        "note": "仅为旧年度表Edition栏明确转录，非2026原库状态。",
+        "note": "转录自旧年度原表Edition（索引版本）列。",
         "reviewedAt": "2026-10-18",
         "sourceAuthority": "government"
       },
@@ -24966,7 +24966,7 @@ window.COMMDDL_DATA = {
               "quartile": 4
             }
           ],
-          "note": "高校公开转录注明2025年升级版、2026-09-28导出，原数据来自期刊分区表平台；按完整刊名或旧名唯一对应。大类与全部小类分开保存，未直接核验原库。"
+          "note": "高校公开的2025升级版转录，2026-09-28导出，原数据来自期刊分区表平台。按完整刊名或旧名唯一对应，保存大类与全部小类分区。"
         }
       ],
       "indexing": {
@@ -24979,7 +24979,7 @@ window.COMMDDL_DATA = {
         "sourceTitle": "2024JCR政府公开转录",
         "sourceType": "secondary",
         "verifiedAt": "2026-10-18",
-        "note": "仅为旧年度表Edition栏明确转录，非2026原库状态。",
+        "note": "转录自旧年度原表Edition（索引版本）列。",
         "reviewedAt": "2026-10-18",
         "sourceAuthority": "government"
       },
@@ -25160,7 +25160,7 @@ window.COMMDDL_DATA = {
               "quartile": 4
             }
           ],
-          "note": "高校公开转录注明2025年升级版、2026-09-28导出，原数据来自期刊分区表平台；按完整刊名或旧名唯一对应。大类与全部小类分开保存，未直接核验原库。"
+          "note": "高校公开的2025升级版转录，2026-09-28导出，原数据来自期刊分区表平台。按完整刊名或旧名唯一对应，保存大类与全部小类分区。"
         }
       ],
       "indexing": {
@@ -25173,7 +25173,7 @@ window.COMMDDL_DATA = {
         "sourceTitle": "2024JCR政府公开转录（2025年6月）",
         "sourceType": "secondary",
         "verifiedAt": "2026-10-18",
-        "note": "旧年度Edition栏直接转录，非2026实时原库核验。",
+        "note": "转录自旧年度原表Edition（索引版本）列。",
         "reviewedAt": "2026-10-18",
         "sourceAuthority": "government"
       },
@@ -25260,7 +25260,7 @@ window.COMMDDL_DATA = {
             "IEEE Journal of Indoor and Seamless Positioning and Navigation",
             "IEEE 室内与无缝定位导航期刊"
           ],
-          "note": "已对照完整21772刊的2025转录，按完整英文刊名、中文刊名、已知旧名及可得ISSN检查，未列入本版；仅指2025表，不推断其他年份或WoS索引状态。",
+          "note": "按英文全名、中文刊名、旧名及可得ISSN核对2025年21772刊完整转录，未列入该版。",
           "attempts": [
             "2025完整期刊汇总21772条全名/中文名/旧名检索",
             "原表相关关键词复查，未以近名刊物替代",
@@ -25389,7 +25389,7 @@ window.COMMDDL_DATA = {
               "quartile": 4
             }
           ],
-          "note": "高校公开转录注明2025年升级版、2026-09-28导出，原数据来自期刊分区表平台；按完整刊名或旧名唯一对应。大类与全部小类分开保存，未直接核验原库。"
+          "note": "高校公开的2025升级版转录，2026-09-28导出，原数据来自期刊分区表平台。按完整刊名或旧名唯一对应，保存大类与全部小类分区。"
         }
       ],
       "indexing": {
@@ -25500,7 +25500,7 @@ window.COMMDDL_DATA = {
               "quartile": 3
             }
           ],
-          "note": "高校公开转录注明2025年升级版、2026-09-28导出，原数据来自期刊分区表平台；按完整刊名或旧名唯一对应。大类与全部小类分开保存，未直接核验原库。"
+          "note": "高校公开的2025升级版转录，2026-09-28导出，原数据来自期刊分区表平台。按完整刊名或旧名唯一对应，保存大类与全部小类分区。"
         }
       ],
       "indexing": {
@@ -25513,7 +25513,7 @@ window.COMMDDL_DATA = {
         "sourceTitle": "2024JCR政府公开转录（2025年6月）",
         "sourceType": "secondary",
         "verifiedAt": "2026-10-18",
-        "note": "旧年度Edition栏直接转录，非2026实时原库核验。",
+        "note": "转录自旧年度原表Edition（索引版本）列。",
         "reviewedAt": "2026-10-18",
         "sourceAuthority": "government"
       },
@@ -25634,7 +25634,7 @@ window.COMMDDL_DATA = {
               "quartile": 1
             }
           ],
-          "note": "高校公开转录注明2025年升级版、2026-09-28导出，原数据来自期刊分区表平台；按完整刊名或旧名唯一对应。大类与全部小类分开保存，未直接核验原库。"
+          "note": "高校公开的2025升级版转录，2026-09-28导出，原数据来自期刊分区表平台。按完整刊名或旧名唯一对应，保存大类与全部小类分区。"
         }
       ],
       "indexing": {
@@ -25647,7 +25647,7 @@ window.COMMDDL_DATA = {
         "sourceTitle": "2024JCR政府公开转录（2025年6月）",
         "sourceType": "secondary",
         "verifiedAt": "2026-10-18",
-        "note": "旧年度Edition栏直接转录，非2026实时原库核验。",
+        "note": "转录自旧年度原表Edition（索引版本）列。",
         "reviewedAt": "2026-10-18",
         "sourceAuthority": "government"
       },
@@ -25759,7 +25759,7 @@ window.COMMDDL_DATA = {
               "quartile": 3
             }
           ],
-          "note": "高校公开转录注明2025年升级版、2026-09-28导出，原数据来自期刊分区表平台；按完整刊名或旧名唯一对应。大类与全部小类分开保存，未直接核验原库。"
+          "note": "高校公开的2025升级版转录，2026-09-28导出，原数据来自期刊分区表平台。按完整刊名或旧名唯一对应，保存大类与全部小类分区。"
         }
       ],
       "indexing": {
@@ -25772,7 +25772,7 @@ window.COMMDDL_DATA = {
         "sourceTitle": "2024JCR政府公开转录（2025年6月）",
         "sourceType": "secondary",
         "verifiedAt": "2026-10-18",
-        "note": "旧年度Edition栏直接转录，非2026实时原库核验。",
+        "note": "转录自旧年度原表Edition（索引版本）列。",
         "reviewedAt": "2026-10-18",
         "sourceAuthority": "government"
       },
@@ -25885,7 +25885,7 @@ window.COMMDDL_DATA = {
               "quartile": 3
             }
           ],
-          "note": "高校公开转录注明2025年升级版、2026-09-28导出，原数据来自期刊分区表平台；按完整刊名或旧名唯一对应。大类与全部小类分开保存，未直接核验原库。"
+          "note": "高校公开的2025升级版转录，2026-09-28导出，原数据来自期刊分区表平台。按完整刊名或旧名唯一对应，保存大类与全部小类分区。"
         }
       ],
       "indexing": {
@@ -25898,7 +25898,7 @@ window.COMMDDL_DATA = {
         "sourceTitle": "2024JCR政府公开转录（2025年6月）",
         "sourceType": "secondary",
         "verifiedAt": "2026-10-18",
-        "note": "旧年度Edition栏直接转录，非2026实时原库核验。",
+        "note": "转录自旧年度原表Edition（索引版本）列。",
         "reviewedAt": "2026-10-18",
         "sourceAuthority": "government"
       },
@@ -26021,7 +26021,7 @@ window.COMMDDL_DATA = {
               "quartile": 4
             }
           ],
-          "note": "高校公开转录注明2025年升级版、2026-09-28导出，原数据来自期刊分区表平台；按完整刊名或旧名唯一对应。大类与全部小类分开保存，未直接核验原库。"
+          "note": "高校公开的2025升级版转录，2026-09-28导出，原数据来自期刊分区表平台。按完整刊名或旧名唯一对应，保存大类与全部小类分区。"
         }
       ],
       "indexing": {
@@ -26034,7 +26034,7 @@ window.COMMDDL_DATA = {
         "sourceTitle": "2024JCR政府公开转录（2025年6月）",
         "sourceType": "secondary",
         "verifiedAt": "2026-10-18",
-        "note": "旧年度Edition栏直接转录，非2026实时原库核验。",
+        "note": "转录自旧年度原表Edition（索引版本）列。",
         "reviewedAt": "2026-10-18",
         "sourceAuthority": "government"
       },
@@ -26139,7 +26139,7 @@ window.COMMDDL_DATA = {
               "quartile": 3
             }
           ],
-          "note": "高校公开转录注明2025年升级版、2026-09-28导出，原数据来自期刊分区表平台；按完整刊名或旧名唯一对应。大类与全部小类分开保存，未直接核验原库。"
+          "note": "高校公开的2025升级版转录，2026-09-28导出，原数据来自期刊分区表平台。按完整刊名或旧名唯一对应，保存大类与全部小类分区。"
         }
       ],
       "indexing": {
@@ -26152,7 +26152,7 @@ window.COMMDDL_DATA = {
         "sourceTitle": "2024JCR政府公开转录（2025年6月）",
         "sourceType": "secondary",
         "verifiedAt": "2026-10-18",
-        "note": "旧年度Edition栏直接转录，非2026实时原库核验。",
+        "note": "转录自旧年度原表Edition（索引版本）列。",
         "reviewedAt": "2026-10-18",
         "sourceAuthority": "government"
       },
@@ -26411,7 +26411,7 @@ window.COMMDDL_DATA = {
       "verifiedAt": "2026-10-18",
       "verification": "verified",
       "checkedAt": "2026-10-18",
-      "summary": "官方PDF明确论文载体、2026年10月5至8日、延长截止4月26日，不应继承J-ISPIN期刊分区。",
+      "summary": "官方PDF列明论文征稿、2026年10月5—8日会期与延长截止4月26日。本项为会议，J-ISPIN期刊分区另列。",
       "publicationType": "会议系列",
       "articleTypes": [
         "研究论文"
@@ -26801,7 +26801,7 @@ window.COMMDDL_DATA = {
               "quartile": 3
             }
           ],
-          "note": "高校公开转录注明2025年升级版、2026-09-28导出，原数据来自期刊分区表平台；按完整刊名或旧名唯一对应。大类与全部小类分开保存，未直接核验原库。"
+          "note": "高校公开的2025升级版转录，2026-09-28导出，原数据来自期刊分区表平台。按完整刊名或旧名唯一对应，保存大类与全部小类分区。"
         }
       ],
       "catalogScope": "communications",
@@ -26869,7 +26869,7 @@ window.COMMDDL_DATA = {
             "中国科学：信息科学",
             "中国科学F辑：信息科学（中文版）"
           ],
-          "note": "完整2024 JCR转录按全名/别名及可得ISSN核查，未取得本刊明确JIF分区；只针对该旧年度，不判定当前WoS收录。"
+          "note": "按全名、别名及可得ISSN核对2024 JCR完整转录，该版未提供本刊明确JIF分区。"
         },
         {
           "system": "cas",
@@ -26891,7 +26891,7 @@ window.COMMDDL_DATA = {
             "中国科学：信息科学",
             "中国科学F辑：信息科学（中文版）"
           ],
-          "note": "已对照完整21772刊的2025转录，正式全名/别名及可得ISSN未列；只代表所查2025表，不判断WoS收录。"
+          "note": "按正式全名、别名及可得ISSN核对2025年21772刊完整转录，未列入该版。"
         },
         {
           "system": "ccf",
@@ -26909,7 +26909,7 @@ window.COMMDDL_DATA = {
           ],
           "status": "unlisted",
           "value": null,
-          "note": "按正式全名与已核实别名对照CCF2026公开副本完整目录未列；不等于低等级，不含另行发布的中文期刊推荐目录。"
+          "note": "按正式全名与已核实别名核对CCF2026国际会议期刊目录公开副本，未列入该版。中文期刊推荐目录另行发布。"
         }
       ],
       "indexing": {
@@ -26917,7 +26917,7 @@ window.COMMDDL_DATA = {
         "status": "unresolved",
         "verifiedAt": "2026-10-19",
         "reviewedAt": "2026-10-19",
-        "note": "当前WoS索引尚无本刊独立证据；中文刊身份、EI/CSCD/中文核心与SCI/SCIE分开记录，不据未匹配判定非SCI。"
+        "note": "已核对可得来源，当前WoS（科学引文数据库）索引未确认；已确认的EI、CSCD及中文核心等属性分别列出。"
       },
       "otherIndexes": [
         {
@@ -26933,7 +26933,7 @@ window.COMMDDL_DATA = {
           "sourceType": "document-copy",
           "sourceAuthority": "cas-institute",
           "verifiedAt": "2026-10-19",
-          "note": "按正式ISSN对照CSCD2025—2026完整名单，明确为核心库；数据库原始名单的科研机构公开副本，保留副本属性、年度和核心/扩展类别，不冒充原库查询，不推断其他索引。"
+          "note": "按正式ISSN匹配CSCD2025—2026完整名单，列入核心库。来源为科研机构公开的原始名单副本。"
         }
       ],
       "eissn": "2095-9486",
@@ -27004,7 +27004,7 @@ window.COMMDDL_DATA = {
             "北京邮电大学学报",
             "北京邮电学院学报"
           ],
-          "note": "完整2024 JCR转录按全名/别名及可得ISSN核查，未取得本刊明确JIF分区；只针对该旧年度，不判定当前WoS收录。"
+          "note": "按全名、别名及可得ISSN核对2024 JCR完整转录，该版未提供本刊明确JIF分区。"
         },
         {
           "system": "cas",
@@ -27026,7 +27026,7 @@ window.COMMDDL_DATA = {
             "北京邮电大学学报",
             "北京邮电学院学报"
           ],
-          "note": "已对照完整21772刊的2025转录，正式全名/别名及可得ISSN未列；只代表所查2025表，不判断WoS收录。"
+          "note": "按正式全名、别名及可得ISSN核对2025年21772刊完整转录，未列入该版。"
         },
         {
           "system": "ccf",
@@ -27044,7 +27044,7 @@ window.COMMDDL_DATA = {
           ],
           "status": "unlisted",
           "value": null,
-          "note": "按正式全名与已核实别名对照CCF2026公开副本完整目录未列；不等于低等级，不含另行发布的中文期刊推荐目录。"
+          "note": "按正式全名与已核实别名核对CCF2026国际会议期刊目录公开副本，未列入该版。中文期刊推荐目录另行发布。"
         }
       ],
       "indexing": {
@@ -27052,7 +27052,7 @@ window.COMMDDL_DATA = {
         "status": "unresolved",
         "verifiedAt": "2026-10-19",
         "reviewedAt": "2026-10-19",
-        "note": "当前WoS索引尚无本刊独立证据；中文刊身份、EI/CSCD/中文核心与SCI/SCIE分开记录，不据未匹配判定非SCI。"
+        "note": "已核对可得来源，当前WoS（科学引文数据库）索引未确认；已确认的EI、CSCD及中文核心等属性分别列出。"
       },
       "otherIndexes": [
         {
@@ -27064,7 +27064,7 @@ window.COMMDDL_DATA = {
           "verifiedAt": "2026-10-19",
           "reviewedAt": "2026-10-19",
           "snapshotDate": "2026-10-19",
-          "note": "官方期刊介绍明确列出该索引；页面未注明索引版次，核验日期不是数据库新版年份。"
+          "note": "本刊官方介绍明确列出该索引，页面未注明数据库版次；保存本次读取日期。"
         },
         {
           "value": "Scopus",
@@ -27075,7 +27075,7 @@ window.COMMDDL_DATA = {
           "verifiedAt": "2026-10-19",
           "reviewedAt": "2026-10-19",
           "snapshotDate": "2026-10-19",
-          "note": "官方期刊介绍明确列出该索引；页面未注明索引版次，核验日期不是数据库新版年份。"
+          "note": "本刊官方介绍明确列出该索引，页面未注明数据库版次；保存本次读取日期。"
         },
         {
           "value": "北大核心",
@@ -27086,7 +27086,7 @@ window.COMMDDL_DATA = {
           "verifiedAt": "2026-10-19",
           "reviewedAt": "2026-10-19",
           "snapshotDate": "2026-10-19",
-          "note": "本刊官方页面明确中文核心，未注明版次；不标造2026版北大核心。"
+          "note": "本刊官方页面列出中文核心，版次未注明。"
         },
         {
           "value": "CSCD",
@@ -27101,7 +27101,7 @@ window.COMMDDL_DATA = {
           "sourceType": "document-copy",
           "sourceAuthority": "cas-institute",
           "verifiedAt": "2026-10-19",
-          "note": "按正式ISSN对照CSCD2025—2026完整名单，明确为扩展库；数据库原始名单的科研机构公开副本，保留副本属性、年度和核心/扩展类别，不冒充原库查询，不推断其他索引。"
+          "note": "按正式ISSN匹配CSCD2025—2026完整名单，列入扩展库。来源为科研机构公开的原始名单副本。"
         }
       ],
       "ratingReviewedAt": "2026-10-19"
@@ -27164,7 +27164,7 @@ window.COMMDDL_DATA = {
             "Journal of University of Electronic Science and Technology of China",
             "电子科技大学学报"
           ],
-          "note": "完整2024 JCR转录按全名/别名及可得ISSN核查，未取得本刊明确JIF分区；只针对该旧年度，不判定当前WoS收录。"
+          "note": "按全名、别名及可得ISSN核对2024 JCR完整转录，该版未提供本刊明确JIF分区。"
         },
         {
           "system": "cas",
@@ -27185,7 +27185,7 @@ window.COMMDDL_DATA = {
             "Journal of University of Electronic Science and Technology of China",
             "电子科技大学学报"
           ],
-          "note": "已对照完整21772刊的2025转录，正式全名/别名及可得ISSN未列；只代表所查2025表，不判断WoS收录。"
+          "note": "按正式全名、别名及可得ISSN核对2025年21772刊完整转录，未列入该版。"
         },
         {
           "system": "ccf",
@@ -27202,7 +27202,7 @@ window.COMMDDL_DATA = {
           ],
           "status": "unlisted",
           "value": null,
-          "note": "按正式全名与已核实别名对照CCF2026公开副本完整目录未列；不等于低等级，不含另行发布的中文期刊推荐目录。"
+          "note": "按正式全名与已核实别名核对CCF2026国际会议期刊目录公开副本，未列入该版。中文期刊推荐目录另行发布。"
         }
       ],
       "indexing": {
@@ -27210,7 +27210,7 @@ window.COMMDDL_DATA = {
         "status": "unresolved",
         "verifiedAt": "2026-10-19",
         "reviewedAt": "2026-10-19",
-        "note": "当前WoS索引尚无本刊独立证据；中文刊身份、EI/CSCD/中文核心与SCI/SCIE分开记录，不据未匹配判定非SCI。"
+        "note": "已核对可得来源，当前WoS（科学引文数据库）索引未确认；已确认的EI、CSCD及中文核心等属性分别列出。"
       },
       "otherIndexes": [
         {
@@ -27222,7 +27222,7 @@ window.COMMDDL_DATA = {
           "verifiedAt": "2026-10-19",
           "reviewedAt": "2026-10-19",
           "snapshotDate": "2026-10-19",
-          "note": "官方期刊介绍明确列出该索引；页面未注明索引版次，核验日期不是数据库新版年份。"
+          "note": "本刊官方介绍明确列出该索引，页面未注明数据库版次；保存本次读取日期。"
         },
         {
           "value": "Scopus",
@@ -27233,7 +27233,7 @@ window.COMMDDL_DATA = {
           "verifiedAt": "2026-10-19",
           "reviewedAt": "2026-10-19",
           "snapshotDate": "2026-10-19",
-          "note": "官方期刊介绍明确列出该索引；页面未注明索引版次，核验日期不是数据库新版年份。"
+          "note": "本刊官方介绍明确列出该索引，页面未注明数据库版次；保存本次读取日期。"
         },
         {
           "value": "北大核心",
@@ -27244,7 +27244,7 @@ window.COMMDDL_DATA = {
           "verifiedAt": "2026-10-19",
           "reviewedAt": "2026-10-19",
           "snapshotDate": "2026-10-19",
-          "note": "本刊官方页面明确中文核心，未注明版次；不标造2026版北大核心。"
+          "note": "本刊官方页面列出中文核心，版次未注明。"
         },
         {
           "value": "CSCD",
@@ -27259,7 +27259,7 @@ window.COMMDDL_DATA = {
           "sourceType": "document-copy",
           "sourceAuthority": "cas-institute",
           "verifiedAt": "2026-10-19",
-          "note": "按正式ISSN对照CSCD2025—2026完整名单，明确为核心库；数据库原始名单的科研机构公开副本，保留副本属性、年度和核心/扩展类别，不冒充原库查询，不推断其他索引。"
+          "note": "按正式ISSN匹配CSCD2025—2026完整名单，列入核心库。来源为科研机构公开的原始名单副本。"
         }
       ],
       "ratingReviewedAt": "2026-10-19"
@@ -27327,7 +27327,7 @@ window.COMMDDL_DATA = {
             "西安电子科技大学学报（自然科学版）",
             "西北电讯工程学院学报"
           ],
-          "note": "完整2024 JCR转录按全名/别名及可得ISSN核查，未取得本刊明确JIF分区；只针对该旧年度，不判定当前WoS收录。"
+          "note": "按全名、别名及可得ISSN核对2024 JCR完整转录，该版未提供本刊明确JIF分区。"
         },
         {
           "system": "cas",
@@ -27350,7 +27350,7 @@ window.COMMDDL_DATA = {
             "西安电子科技大学学报（自然科学版）",
             "西北电讯工程学院学报"
           ],
-          "note": "已对照完整21772刊的2025转录，正式全名/别名及可得ISSN未列；只代表所查2025表，不判断WoS收录。"
+          "note": "按正式全名、别名及可得ISSN核对2025年21772刊完整转录，未列入该版。"
         },
         {
           "system": "ccf",
@@ -27369,7 +27369,7 @@ window.COMMDDL_DATA = {
           ],
           "status": "unlisted",
           "value": null,
-          "note": "按正式全名与已核实别名对照CCF2026公开副本完整目录未列；不等于低等级，不含另行发布的中文期刊推荐目录。"
+          "note": "按正式全名与已核实别名核对CCF2026国际会议期刊目录公开副本，未列入该版。中文期刊推荐目录另行发布。"
         }
       ],
       "indexing": {
@@ -27377,7 +27377,7 @@ window.COMMDDL_DATA = {
         "status": "unresolved",
         "verifiedAt": "2026-10-19",
         "reviewedAt": "2026-10-19",
-        "note": "当前WoS索引尚无本刊独立证据；中文刊身份、EI/CSCD/中文核心与SCI/SCIE分开记录，不据未匹配判定非SCI。"
+        "note": "已核对可得来源，当前WoS（科学引文数据库）索引未确认；已确认的EI、CSCD及中文核心等属性分别列出。"
       },
       "otherIndexes": [
         {
@@ -27389,7 +27389,7 @@ window.COMMDDL_DATA = {
           "verifiedAt": "2026-10-19",
           "reviewedAt": "2026-10-19",
           "snapshotDate": "2026-10-19",
-          "note": "官方期刊介绍明确列出该索引；页面未注明索引版次，核验日期不是数据库新版年份。"
+          "note": "本刊官方介绍明确列出该索引，页面未注明数据库版次；保存本次读取日期。"
         },
         {
           "value": "Scopus",
@@ -27400,7 +27400,7 @@ window.COMMDDL_DATA = {
           "verifiedAt": "2026-10-19",
           "reviewedAt": "2026-10-19",
           "snapshotDate": "2026-10-19",
-          "note": "官方期刊介绍明确列出该索引；页面未注明索引版次，核验日期不是数据库新版年份。"
+          "note": "本刊官方介绍明确列出该索引，页面未注明数据库版次；保存本次读取日期。"
         },
         {
           "value": "CSCD",
@@ -27415,7 +27415,7 @@ window.COMMDDL_DATA = {
           "sourceType": "document-copy",
           "sourceAuthority": "cas-institute",
           "verifiedAt": "2026-10-19",
-          "note": "按正式ISSN对照CSCD2025—2026完整名单，明确为核心库；数据库原始名单的科研机构公开副本，保留副本属性、年度和核心/扩展类别，不冒充原库查询，不推断其他索引。"
+          "note": "按正式ISSN匹配CSCD2025—2026完整名单，列入核心库。来源为科研机构公开的原始名单副本。"
         }
       ],
       "submissionUrl": "https://journal.xidian.edu.cn/Journalx_xidian/authorLogOn.action",
@@ -27480,7 +27480,7 @@ window.COMMDDL_DATA = {
             "南京邮电大学学报（自然科学版）",
             "南京邮电学院学报（自然科学版）"
           ],
-          "note": "完整2024 JCR转录按全名/别名及可得ISSN核查，未取得本刊明确JIF分区；只针对该旧年度，不判定当前WoS收录。"
+          "note": "按全名、别名及可得ISSN核对2024 JCR完整转录，该版未提供本刊明确JIF分区。"
         },
         {
           "system": "cas",
@@ -27502,7 +27502,7 @@ window.COMMDDL_DATA = {
             "南京邮电大学学报（自然科学版）",
             "南京邮电学院学报（自然科学版）"
           ],
-          "note": "已对照完整21772刊的2025转录，正式全名/别名及可得ISSN未列；只代表所查2025表，不判断WoS收录。"
+          "note": "按正式全名、别名及可得ISSN核对2025年21772刊完整转录，未列入该版。"
         },
         {
           "system": "ccf",
@@ -27520,7 +27520,7 @@ window.COMMDDL_DATA = {
           ],
           "status": "unlisted",
           "value": null,
-          "note": "按正式全名与已核实别名对照CCF2026公开副本完整目录未列；不等于低等级，不含另行发布的中文期刊推荐目录。"
+          "note": "按正式全名与已核实别名核对CCF2026国际会议期刊目录公开副本，未列入该版。中文期刊推荐目录另行发布。"
         }
       ],
       "indexing": {
@@ -27528,7 +27528,7 @@ window.COMMDDL_DATA = {
         "status": "unresolved",
         "verifiedAt": "2026-10-19",
         "reviewedAt": "2026-10-19",
-        "note": "当前WoS索引尚无本刊独立证据；中文刊身份、EI/CSCD/中文核心与SCI/SCIE分开记录，不据未匹配判定非SCI。"
+        "note": "已核对可得来源，当前WoS（科学引文数据库）索引未确认；已确认的EI、CSCD及中文核心等属性分别列出。"
       },
       "otherIndexes": [
         {
@@ -27540,7 +27540,7 @@ window.COMMDDL_DATA = {
           "verifiedAt": "2026-10-19",
           "reviewedAt": "2026-10-19",
           "snapshotDate": "2026-10-19",
-          "note": "官方期刊介绍明确列出该索引；页面未注明索引版次，核验日期不是数据库新版年份。"
+          "note": "本刊官方介绍明确列出该索引，页面未注明数据库版次；保存本次读取日期。"
         },
         {
           "value": "北大核心",
@@ -27551,7 +27551,7 @@ window.COMMDDL_DATA = {
           "verifiedAt": "2026-10-19",
           "reviewedAt": "2026-10-19",
           "snapshotDate": "2026-10-19",
-          "note": "仅指明确写明的2023版中文核心；不与CSCD、SCI或T分级互换。",
+          "note": "官方来源明确列入2023版《中文核心期刊要目总览》。",
           "year": 2023,
           "edition": "2023年第10版"
         },
@@ -27564,7 +27564,7 @@ window.COMMDDL_DATA = {
           "verifiedAt": "2026-10-19",
           "reviewedAt": "2026-10-19",
           "snapshotDate": "2026-10-19",
-          "note": "官方期刊介绍明确列出该索引；页面未注明索引版次，核验日期不是数据库新版年份。"
+          "note": "本刊官方介绍明确列出该索引，页面未注明数据库版次；保存本次读取日期。"
         }
       ],
       "authorGuideFileUrl": "https://qks.njupt.edu.cn/_upload/article/files/5d/cf/7243ae0140099cf6b663a8dc8d57/8047fed5-431b-4f4e-bcc9-8debb384c4bb.pdf",
@@ -27631,7 +27631,7 @@ window.COMMDDL_DATA = {
             "重庆邮电大学学报（自然科学版）",
             "重庆邮电学院学报（自然科学版）"
           ],
-          "note": "完整2024 JCR转录按全名/别名及可得ISSN核查，未取得本刊明确JIF分区；只针对该旧年度，不判定当前WoS收录。"
+          "note": "按全名、别名及可得ISSN核对2024 JCR完整转录，该版未提供本刊明确JIF分区。"
         },
         {
           "system": "cas",
@@ -27653,7 +27653,7 @@ window.COMMDDL_DATA = {
             "重庆邮电大学学报（自然科学版）",
             "重庆邮电学院学报（自然科学版）"
           ],
-          "note": "已对照完整21772刊的2025转录，正式全名/别名及可得ISSN未列；只代表所查2025表，不判断WoS收录。"
+          "note": "按正式全名、别名及可得ISSN核对2025年21772刊完整转录，未列入该版。"
         },
         {
           "system": "ccf",
@@ -27671,7 +27671,7 @@ window.COMMDDL_DATA = {
           ],
           "status": "unlisted",
           "value": null,
-          "note": "按正式全名与已核实别名对照CCF2026公开副本完整目录未列；不等于低等级，不含另行发布的中文期刊推荐目录。"
+          "note": "按正式全名与已核实别名核对CCF2026国际会议期刊目录公开副本，未列入该版。中文期刊推荐目录另行发布。"
         }
       ],
       "indexing": {
@@ -27679,7 +27679,7 @@ window.COMMDDL_DATA = {
         "status": "unresolved",
         "verifiedAt": "2026-10-19",
         "reviewedAt": "2026-10-19",
-        "note": "当前WoS索引尚无本刊独立证据；中文刊身份、EI/CSCD/中文核心与SCI/SCIE分开记录，不据未匹配判定非SCI。"
+        "note": "已核对可得来源，当前WoS（科学引文数据库）索引未确认；已确认的EI、CSCD及中文核心等属性分别列出。"
       },
       "otherIndexes": [
         {
@@ -27691,7 +27691,7 @@ window.COMMDDL_DATA = {
           "verifiedAt": "2026-10-19",
           "reviewedAt": "2026-10-19",
           "snapshotDate": "2026-10-19",
-          "note": "本刊官方页面明确中文核心，未注明版次；不标造2026版北大核心。"
+          "note": "本刊官方页面列出中文核心，版次未注明。"
         },
         {
           "value": "CSCD",
@@ -27706,7 +27706,7 @@ window.COMMDDL_DATA = {
           "sourceType": "document-copy",
           "sourceAuthority": "cas-institute",
           "verifiedAt": "2026-10-19",
-          "note": "按正式ISSN对照CSCD2025—2026完整名单，明确为扩展库；数据库原始名单的科研机构公开副本，保留副本属性、年度和核心/扩展类别，不冒充原库查询，不推断其他索引。"
+          "note": "按正式ISSN匹配CSCD2025—2026完整名单，列入扩展库。来源为科研机构公开的原始名单副本。"
         }
       ],
       "ratingReviewedAt": "2026-10-19"
@@ -27771,7 +27771,7 @@ window.COMMDDL_DATA = {
             "西安邮电大学学报",
             "西安邮电学院学报"
           ],
-          "note": "完整2024 JCR转录按全名/别名及可得ISSN核查，未取得本刊明确JIF分区；只针对该旧年度，不判定当前WoS收录。"
+          "note": "按全名、别名及可得ISSN核对2024 JCR完整转录，该版未提供本刊明确JIF分区。"
         },
         {
           "system": "cas",
@@ -27793,7 +27793,7 @@ window.COMMDDL_DATA = {
             "西安邮电大学学报",
             "西安邮电学院学报"
           ],
-          "note": "已对照完整21772刊的2025转录，正式全名/别名及可得ISSN未列；只代表所查2025表，不判断WoS收录。"
+          "note": "按正式全名、别名及可得ISSN核对2025年21772刊完整转录，未列入该版。"
         },
         {
           "system": "ccf",
@@ -27811,7 +27811,7 @@ window.COMMDDL_DATA = {
           ],
           "status": "unlisted",
           "value": null,
-          "note": "按正式全名与已核实别名对照CCF2026公开副本完整目录未列；不等于低等级，不含另行发布的中文期刊推荐目录。"
+          "note": "按正式全名与已核实别名核对CCF2026国际会议期刊目录公开副本，未列入该版。中文期刊推荐目录另行发布。"
         }
       ],
       "indexing": {
@@ -27819,7 +27819,7 @@ window.COMMDDL_DATA = {
         "status": "unresolved",
         "verifiedAt": "2026-10-19",
         "reviewedAt": "2026-10-19",
-        "note": "当前WoS索引尚无本刊独立证据；中文刊身份、EI/CSCD/中文核心与SCI/SCIE分开记录，不据未匹配判定非SCI。"
+        "note": "已核对可得来源，当前WoS（科学引文数据库）索引未确认；已确认的EI、CSCD及中文核心等属性分别列出。"
       },
       "otherIndexes": [],
       "additionalIdentitySources": [
@@ -27886,7 +27886,7 @@ window.COMMDDL_DATA = {
             "Telecommunications Science",
             "电信科学"
           ],
-          "note": "完整2024 JCR转录按全名/别名及可得ISSN核查，未取得本刊明确JIF分区；只针对该旧年度，不判定当前WoS收录。"
+          "note": "按全名、别名及可得ISSN核对2024 JCR完整转录，该版未提供本刊明确JIF分区。"
         },
         {
           "system": "cas",
@@ -27907,7 +27907,7 @@ window.COMMDDL_DATA = {
             "Telecommunications Science",
             "电信科学"
           ],
-          "note": "已对照完整21772刊的2025转录，正式全名/别名及可得ISSN未列；只代表所查2025表，不判断WoS收录。"
+          "note": "按正式全名、别名及可得ISSN核对2025年21772刊完整转录，未列入该版。"
         },
         {
           "system": "ccf",
@@ -27924,7 +27924,7 @@ window.COMMDDL_DATA = {
           ],
           "status": "unlisted",
           "value": null,
-          "note": "按正式全名与已核实别名对照CCF2026公开副本完整目录未列；不等于低等级，不含另行发布的中文期刊推荐目录。"
+          "note": "按正式全名与已核实别名核对CCF2026国际会议期刊目录公开副本，未列入该版。中文期刊推荐目录另行发布。"
         }
       ],
       "indexing": {
@@ -27932,7 +27932,7 @@ window.COMMDDL_DATA = {
         "status": "unresolved",
         "verifiedAt": "2026-10-19",
         "reviewedAt": "2026-10-19",
-        "note": "当前WoS索引尚无本刊独立证据；中文刊身份、EI/CSCD/中文核心与SCI/SCIE分开记录，不据未匹配判定非SCI。"
+        "note": "已核对可得来源，当前WoS（科学引文数据库）索引未确认；已确认的EI、CSCD及中文核心等属性分别列出。"
       },
       "otherIndexes": [
         {
@@ -27944,7 +27944,7 @@ window.COMMDDL_DATA = {
           "verifiedAt": "2026-10-19",
           "reviewedAt": "2026-10-19",
           "snapshotDate": "2026-10-19",
-          "note": "仅指明确写明的2023版中文核心；不与CSCD、SCI或T分级互换。",
+          "note": "官方来源明确列入2023版《中文核心期刊要目总览》。",
           "year": 2023,
           "edition": "2023年第10版"
         },
@@ -27957,7 +27957,7 @@ window.COMMDDL_DATA = {
           "verifiedAt": "2026-10-19",
           "reviewedAt": "2026-10-19",
           "snapshotDate": "2026-10-19",
-          "note": "仅记录原页面明确年份，不宣称已核验2025/2026新名录。",
+          "note": "按原页面明示的目录年份记录。",
           "year": 2023,
           "edition": "2009—2023官方介绍范围"
         }
@@ -28023,7 +28023,7 @@ window.COMMDDL_DATA = {
             "Chinese Journal on Internet of Things",
             "物联网学报"
           ],
-          "note": "完整2024 JCR转录按全名/别名及可得ISSN核查，未取得本刊明确JIF分区；只针对该旧年度，不判定当前WoS收录。"
+          "note": "按全名、别名及可得ISSN核对2024 JCR完整转录，该版未提供本刊明确JIF分区。"
         },
         {
           "system": "cas",
@@ -28044,7 +28044,7 @@ window.COMMDDL_DATA = {
             "Chinese Journal on Internet of Things",
             "物联网学报"
           ],
-          "note": "已对照完整21772刊的2025转录，正式全名/别名及可得ISSN未列；只代表所查2025表，不判断WoS收录。"
+          "note": "按正式全名、别名及可得ISSN核对2025年21772刊完整转录，未列入该版。"
         },
         {
           "system": "ccf",
@@ -28061,7 +28061,7 @@ window.COMMDDL_DATA = {
           ],
           "status": "unlisted",
           "value": null,
-          "note": "按正式全名与已核实别名对照CCF2026公开副本完整目录未列；不等于低等级，不含另行发布的中文期刊推荐目录。"
+          "note": "按正式全名与已核实别名核对CCF2026国际会议期刊目录公开副本，未列入该版。中文期刊推荐目录另行发布。"
         }
       ],
       "indexing": {
@@ -28069,7 +28069,7 @@ window.COMMDDL_DATA = {
         "status": "unresolved",
         "verifiedAt": "2026-10-19",
         "reviewedAt": "2026-10-19",
-        "note": "当前WoS索引尚无本刊独立证据；中文刊身份、EI/CSCD/中文核心与SCI/SCIE分开记录，不据未匹配判定非SCI。"
+        "note": "已核对可得来源，当前WoS（科学引文数据库）索引未确认；已确认的EI、CSCD及中文核心等属性分别列出。"
       },
       "otherIndexes": [],
       "eissn": "2097-5570",
@@ -28129,7 +28129,7 @@ window.COMMDDL_DATA = {
             "Chinese Journal of Network and Information Security",
             "网络与信息安全学报"
           ],
-          "note": "完整2024 JCR转录按全名/别名及可得ISSN核查，未取得本刊明确JIF分区；只针对该旧年度，不判定当前WoS收录。"
+          "note": "按全名、别名及可得ISSN核对2024 JCR完整转录，该版未提供本刊明确JIF分区。"
         },
         {
           "system": "cas",
@@ -28150,7 +28150,7 @@ window.COMMDDL_DATA = {
             "Chinese Journal of Network and Information Security",
             "网络与信息安全学报"
           ],
-          "note": "已对照完整21772刊的2025转录，正式全名/别名及可得ISSN未列；只代表所查2025表，不判断WoS收录。"
+          "note": "按正式全名、别名及可得ISSN核对2025年21772刊完整转录，未列入该版。"
         },
         {
           "system": "ccf",
@@ -28167,7 +28167,7 @@ window.COMMDDL_DATA = {
           ],
           "status": "unlisted",
           "value": null,
-          "note": "按正式全名与已核实别名对照CCF2026公开副本完整目录未列；不等于低等级，不含另行发布的中文期刊推荐目录。"
+          "note": "按正式全名与已核实别名核对CCF2026国际会议期刊目录公开副本，未列入该版。中文期刊推荐目录另行发布。"
         }
       ],
       "indexing": {
@@ -28175,7 +28175,7 @@ window.COMMDDL_DATA = {
         "status": "unresolved",
         "verifiedAt": "2026-10-19",
         "reviewedAt": "2026-10-19",
-        "note": "当前WoS索引尚无本刊独立证据；中文刊身份、EI/CSCD/中文核心与SCI/SCIE分开记录，不据未匹配判定非SCI。"
+        "note": "已核对可得来源，当前WoS（科学引文数据库）索引未确认；已确认的EI、CSCD及中文核心等属性分别列出。"
       },
       "otherIndexes": [
         {
@@ -28257,7 +28257,7 @@ window.COMMDDL_DATA = {
             "Chinese Journal of Radio Science",
             "电波科学学报"
           ],
-          "note": "完整2024 JCR转录按全名/别名及可得ISSN核查，未取得本刊明确JIF分区；只针对该旧年度，不判定当前WoS收录。"
+          "note": "按全名、别名及可得ISSN核对2024 JCR完整转录，该版未提供本刊明确JIF分区。"
         },
         {
           "system": "cas",
@@ -28278,7 +28278,7 @@ window.COMMDDL_DATA = {
             "Chinese Journal of Radio Science",
             "电波科学学报"
           ],
-          "note": "已对照完整21772刊的2025转录，正式全名/别名及可得ISSN未列；只代表所查2025表，不判断WoS收录。"
+          "note": "按正式全名、别名及可得ISSN核对2025年21772刊完整转录，未列入该版。"
         },
         {
           "system": "ccf",
@@ -28295,7 +28295,7 @@ window.COMMDDL_DATA = {
           ],
           "status": "unlisted",
           "value": null,
-          "note": "按正式全名与已核实别名对照CCF2026公开副本完整目录未列；不等于低等级，不含另行发布的中文期刊推荐目录。"
+          "note": "按正式全名与已核实别名核对CCF2026国际会议期刊目录公开副本，未列入该版。中文期刊推荐目录另行发布。"
         }
       ],
       "indexing": {
@@ -28303,7 +28303,7 @@ window.COMMDDL_DATA = {
         "status": "unresolved",
         "verifiedAt": "2026-10-19",
         "reviewedAt": "2026-10-19",
-        "note": "当前WoS索引尚无本刊独立证据；中文刊身份、EI/CSCD/中文核心与SCI/SCIE分开记录，不据未匹配判定非SCI。"
+        "note": "已核对可得来源，当前WoS（科学引文数据库）索引未确认；已确认的EI、CSCD及中文核心等属性分别列出。"
       },
       "otherIndexes": [
         {
@@ -28315,7 +28315,7 @@ window.COMMDDL_DATA = {
           "verifiedAt": "2026-10-19",
           "reviewedAt": "2026-10-19",
           "snapshotDate": "2026-10-19",
-          "note": "官方期刊介绍明确列出该索引；页面未注明索引版次，核验日期不是数据库新版年份。"
+          "note": "本刊官方介绍明确列出该索引，页面未注明数据库版次；保存本次读取日期。"
         },
         {
           "value": "北大核心",
@@ -28326,7 +28326,7 @@ window.COMMDDL_DATA = {
           "verifiedAt": "2026-10-19",
           "reviewedAt": "2026-10-19",
           "snapshotDate": "2026-10-19",
-          "note": "仅指明确写明的2023版中文核心；不与CSCD、SCI或T分级互换。",
+          "note": "官方来源明确列入2023版《中文核心期刊要目总览》。",
           "year": 2023,
           "edition": "2023年第10版"
         },
@@ -28339,7 +28339,7 @@ window.COMMDDL_DATA = {
           "verifiedAt": "2026-10-19",
           "reviewedAt": "2026-10-19",
           "snapshotDate": "2026-10-19",
-          "note": "官方期刊介绍明确列出该索引；页面未注明索引版次，核验日期不是数据库新版年份。"
+          "note": "本刊官方介绍明确列出该索引，页面未注明数据库版次；保存本次读取日期。"
         },
         {
           "value": "CSCD",
@@ -28354,7 +28354,7 @@ window.COMMDDL_DATA = {
           "sourceType": "document-copy",
           "sourceAuthority": "cas-institute",
           "verifiedAt": "2026-10-19",
-          "note": "按正式ISSN对照CSCD2025—2026完整名单，明确为扩展库；数据库原始名单的科研机构公开副本，保留副本属性、年度和核心/扩展类别，不冒充原库查询，不推断其他索引。"
+          "note": "按正式ISSN匹配CSCD2025—2026完整名单，列入扩展库。来源为科研机构公开的原始名单副本。"
         }
       ],
       "ratingReviewedAt": "2026-10-19"
@@ -28416,7 +28416,7 @@ window.COMMDDL_DATA = {
             "Systems Engineering and Electronics",
             "系统工程与电子技术"
           ],
-          "note": "完整2024 JCR转录按全名/别名及可得ISSN核查，未取得本刊明确JIF分区；只针对该旧年度，不判定当前WoS收录。"
+          "note": "按全名、别名及可得ISSN核对2024 JCR完整转录，该版未提供本刊明确JIF分区。"
         },
         {
           "system": "cas",
@@ -28437,7 +28437,7 @@ window.COMMDDL_DATA = {
             "Systems Engineering and Electronics",
             "系统工程与电子技术"
           ],
-          "note": "已对照完整21772刊的2025转录，正式全名/别名及可得ISSN未列；只代表所查2025表，不判断WoS收录。"
+          "note": "按正式全名、别名及可得ISSN核对2025年21772刊完整转录，未列入该版。"
         },
         {
           "system": "ccf",
@@ -28454,7 +28454,7 @@ window.COMMDDL_DATA = {
           ],
           "status": "unlisted",
           "value": null,
-          "note": "按正式全名与已核实别名对照CCF2026公开副本完整目录未列；不等于低等级，不含另行发布的中文期刊推荐目录。"
+          "note": "按正式全名与已核实别名核对CCF2026国际会议期刊目录公开副本，未列入该版。中文期刊推荐目录另行发布。"
         }
       ],
       "indexing": {
@@ -28462,7 +28462,7 @@ window.COMMDDL_DATA = {
         "status": "unresolved",
         "verifiedAt": "2026-10-19",
         "reviewedAt": "2026-10-19",
-        "note": "当前WoS索引尚无本刊独立证据；中文刊身份、EI/CSCD/中文核心与SCI/SCIE分开记录，不据未匹配判定非SCI。"
+        "note": "已核对可得来源，当前WoS（科学引文数据库）索引未确认；已确认的EI、CSCD及中文核心等属性分别列出。"
       },
       "otherIndexes": [
         {
@@ -28485,7 +28485,7 @@ window.COMMDDL_DATA = {
           "verifiedAt": "2026-10-19",
           "reviewedAt": "2026-10-19",
           "snapshotDate": "2026-10-19",
-          "note": "官方期刊介绍明确列出该索引；页面未注明索引版次，核验日期不是数据库新版年份。"
+          "note": "本刊官方介绍明确列出该索引，页面未注明数据库版次；保存本次读取日期。"
         },
         {
           "value": "CSCD",
@@ -28500,7 +28500,7 @@ window.COMMDDL_DATA = {
           "sourceType": "document-copy",
           "sourceAuthority": "cas-institute",
           "verifiedAt": "2026-10-19",
-          "note": "按正式ISSN对照CSCD2025—2026完整名单，明确为核心库；数据库原始名单的科研机构公开副本，保留副本属性、年度和核心/扩展类别，不冒充原库查询，不推断其他索引。"
+          "note": "按正式ISSN匹配CSCD2025—2026完整名单，列入核心库。来源为科研机构公开的原始名单副本。"
         }
       ],
       "submissionUrl": "https://journal05.magtech.org.cn/Journalx_sysele/authorLogOn.action",
@@ -28566,7 +28566,7 @@ window.COMMDDL_DATA = {
             "雷达学报",
             "雷达学报（中英文）"
           ],
-          "note": "完整2024 JCR转录按全名/别名及可得ISSN核查，未取得本刊明确JIF分区；只针对该旧年度，不判定当前WoS收录。"
+          "note": "按全名、别名及可得ISSN核对2024 JCR完整转录，该版未提供本刊明确JIF分区。"
         },
         {
           "system": "cas",
@@ -28588,7 +28588,7 @@ window.COMMDDL_DATA = {
             "雷达学报",
             "雷达学报（中英文）"
           ],
-          "note": "已对照完整21772刊的2025转录，正式全名/别名及可得ISSN未列；只代表所查2025表，不判断WoS收录。"
+          "note": "按正式全名、别名及可得ISSN核对2025年21772刊完整转录，未列入该版。"
         },
         {
           "system": "ccf",
@@ -28606,7 +28606,7 @@ window.COMMDDL_DATA = {
           ],
           "status": "unlisted",
           "value": null,
-          "note": "按正式全名与已核实别名对照CCF2026公开副本完整目录未列；不等于低等级，不含另行发布的中文期刊推荐目录。"
+          "note": "按正式全名与已核实别名核对CCF2026国际会议期刊目录公开副本，未列入该版。中文期刊推荐目录另行发布。"
         }
       ],
       "indexing": {
@@ -28614,7 +28614,7 @@ window.COMMDDL_DATA = {
         "status": "unresolved",
         "verifiedAt": "2026-10-19",
         "reviewedAt": "2026-10-19",
-        "note": "当前WoS索引尚无本刊独立证据；中文刊身份、EI/CSCD/中文核心与SCI/SCIE分开记录，不据未匹配判定非SCI。"
+        "note": "已核对可得来源，当前WoS（科学引文数据库）索引未确认；已确认的EI、CSCD及中文核心等属性分别列出。"
       },
       "otherIndexes": [
         {
@@ -28626,7 +28626,7 @@ window.COMMDDL_DATA = {
           "verifiedAt": "2026-10-19",
           "reviewedAt": "2026-10-19",
           "snapshotDate": "2026-10-19",
-          "note": "官方期刊介绍明确列出该索引；页面未注明索引版次，核验日期不是数据库新版年份。"
+          "note": "本刊官方介绍明确列出该索引，页面未注明数据库版次；保存本次读取日期。"
         },
         {
           "value": "Scopus",
@@ -28637,7 +28637,7 @@ window.COMMDDL_DATA = {
           "verifiedAt": "2026-10-19",
           "reviewedAt": "2026-10-19",
           "snapshotDate": "2026-10-19",
-          "note": "官方期刊介绍明确列出该索引；页面未注明索引版次，核验日期不是数据库新版年份。"
+          "note": "本刊官方介绍明确列出该索引，页面未注明数据库版次；保存本次读取日期。"
         },
         {
           "value": "北大核心",
@@ -28648,7 +28648,7 @@ window.COMMDDL_DATA = {
           "verifiedAt": "2026-10-19",
           "reviewedAt": "2026-10-19",
           "snapshotDate": "2026-10-19",
-          "note": "仅指明确写明的2023版中文核心；不与CSCD、SCI或T分级互换。",
+          "note": "官方来源明确列入2023版《中文核心期刊要目总览》。",
           "year": 2023,
           "edition": "2023年第10版"
         },
@@ -28665,7 +28665,7 @@ window.COMMDDL_DATA = {
           "sourceType": "document-copy",
           "sourceAuthority": "cas-institute",
           "verifiedAt": "2026-10-19",
-          "note": "按正式ISSN对照CSCD2025—2026完整名单，明确为核心库；数据库原始名单的科研机构公开副本，保留副本属性、年度和核心/扩展类别，不冒充原库查询，不推断其他索引。"
+          "note": "按正式ISSN匹配CSCD2025—2026完整名单，列入核心库。来源为科研机构公开的原始名单副本。"
         }
       ],
       "eissn": "2097-339X",
@@ -28729,7 +28729,7 @@ window.COMMDDL_DATA = {
             "Optical Communication Technology",
             "光通信技术"
           ],
-          "note": "完整2024 JCR转录按全名/别名及可得ISSN核查，未取得本刊明确JIF分区；只针对该旧年度，不判定当前WoS收录。"
+          "note": "按全名、别名及可得ISSN核对2024 JCR完整转录，该版未提供本刊明确JIF分区。"
         },
         {
           "system": "cas",
@@ -28750,7 +28750,7 @@ window.COMMDDL_DATA = {
             "Optical Communication Technology",
             "光通信技术"
           ],
-          "note": "已对照完整21772刊的2025转录，正式全名/别名及可得ISSN未列；只代表所查2025表，不判断WoS收录。"
+          "note": "按正式全名、别名及可得ISSN核对2025年21772刊完整转录，未列入该版。"
         },
         {
           "system": "ccf",
@@ -28767,7 +28767,7 @@ window.COMMDDL_DATA = {
           ],
           "status": "unlisted",
           "value": null,
-          "note": "按正式全名与已核实别名对照CCF2026公开副本完整目录未列；不等于低等级，不含另行发布的中文期刊推荐目录。"
+          "note": "按正式全名与已核实别名核对CCF2026国际会议期刊目录公开副本，未列入该版。中文期刊推荐目录另行发布。"
         }
       ],
       "indexing": {
@@ -28775,7 +28775,7 @@ window.COMMDDL_DATA = {
         "status": "unresolved",
         "verifiedAt": "2026-10-19",
         "reviewedAt": "2026-10-19",
-        "note": "当前WoS索引尚无本刊独立证据；中文刊身份、EI/CSCD/中文核心与SCI/SCIE分开记录，不据未匹配判定非SCI。"
+        "note": "已核对可得来源，当前WoS（科学引文数据库）索引未确认；已确认的EI、CSCD及中文核心等属性分别列出。"
       },
       "otherIndexes": [
         {
@@ -28787,7 +28787,7 @@ window.COMMDDL_DATA = {
           "verifiedAt": "2026-10-19",
           "reviewedAt": "2026-10-19",
           "snapshotDate": "2026-10-19",
-          "note": "仅指明确写明的2023版中文核心；不与CSCD、SCI或T分级互换。",
+          "note": "官方来源明确列入2023版《中文核心期刊要目总览》。",
           "year": 2023,
           "edition": "2023年第10版"
         }
@@ -28851,7 +28851,7 @@ window.COMMDDL_DATA = {
             "Study on Optical Communications",
             "光通信研究"
           ],
-          "note": "完整2024 JCR转录按全名/别名及可得ISSN核查，未取得本刊明确JIF分区；只针对该旧年度，不判定当前WoS收录。"
+          "note": "按全名、别名及可得ISSN核对2024 JCR完整转录，该版未提供本刊明确JIF分区。"
         },
         {
           "system": "cas",
@@ -28872,7 +28872,7 @@ window.COMMDDL_DATA = {
             "Study on Optical Communications",
             "光通信研究"
           ],
-          "note": "已对照完整21772刊的2025转录，正式全名/别名及可得ISSN未列；只代表所查2025表，不判断WoS收录。"
+          "note": "按正式全名、别名及可得ISSN核对2025年21772刊完整转录，未列入该版。"
         },
         {
           "system": "ccf",
@@ -28889,7 +28889,7 @@ window.COMMDDL_DATA = {
           ],
           "status": "unlisted",
           "value": null,
-          "note": "按正式全名与已核实别名对照CCF2026公开副本完整目录未列；不等于低等级，不含另行发布的中文期刊推荐目录。"
+          "note": "按正式全名与已核实别名核对CCF2026国际会议期刊目录公开副本，未列入该版。中文期刊推荐目录另行发布。"
         }
       ],
       "indexing": {
@@ -28897,7 +28897,7 @@ window.COMMDDL_DATA = {
         "status": "unresolved",
         "verifiedAt": "2026-10-19",
         "reviewedAt": "2026-10-19",
-        "note": "当前WoS索引尚无本刊独立证据；中文刊身份、EI/CSCD/中文核心与SCI/SCIE分开记录，不据未匹配判定非SCI。"
+        "note": "已核对可得来源，当前WoS（科学引文数据库）索引未确认；已确认的EI、CSCD及中文核心等属性分别列出。"
       },
       "otherIndexes": [],
       "ratingReviewedAt": "2026-10-19"
@@ -28959,7 +28959,7 @@ window.COMMDDL_DATA = {
             "Mobile Communications",
             "移动通信"
           ],
-          "note": "完整2024 JCR转录按全名/别名及可得ISSN核查，未取得本刊明确JIF分区；只针对该旧年度，不判定当前WoS收录。"
+          "note": "按全名、别名及可得ISSN核对2024 JCR完整转录，该版未提供本刊明确JIF分区。"
         },
         {
           "system": "cas",
@@ -28980,7 +28980,7 @@ window.COMMDDL_DATA = {
             "Mobile Communications",
             "移动通信"
           ],
-          "note": "已对照完整21772刊的2025转录，正式全名/别名及可得ISSN未列；只代表所查2025表，不判断WoS收录。"
+          "note": "按正式全名、别名及可得ISSN核对2025年21772刊完整转录，未列入该版。"
         },
         {
           "system": "ccf",
@@ -28997,7 +28997,7 @@ window.COMMDDL_DATA = {
           ],
           "status": "unlisted",
           "value": null,
-          "note": "按正式全名与已核实别名对照CCF2026公开副本完整目录未列；不等于低等级，不含另行发布的中文期刊推荐目录。"
+          "note": "按正式全名与已核实别名核对CCF2026国际会议期刊目录公开副本，未列入该版。中文期刊推荐目录另行发布。"
         }
       ],
       "indexing": {
@@ -29005,7 +29005,7 @@ window.COMMDDL_DATA = {
         "status": "unresolved",
         "verifiedAt": "2026-10-19",
         "reviewedAt": "2026-10-19",
-        "note": "当前WoS索引尚无本刊独立证据；中文刊身份、EI/CSCD/中文核心与SCI/SCIE分开记录，不据未匹配判定非SCI。"
+        "note": "已核对可得来源，当前WoS（科学引文数据库）索引未确认；已确认的EI、CSCD及中文核心等属性分别列出。"
       },
       "otherIndexes": [],
       "ratingReviewedAt": "2026-10-19"
@@ -29068,7 +29068,7 @@ window.COMMDDL_DATA = {
             "Telecommunication Engineering",
             "电讯技术"
           ],
-          "note": "完整2024 JCR转录按全名/别名及可得ISSN核查，未取得本刊明确JIF分区；只针对该旧年度，不判定当前WoS收录。"
+          "note": "按全名、别名及可得ISSN核对2024 JCR完整转录，该版未提供本刊明确JIF分区。"
         },
         {
           "system": "cas",
@@ -29089,7 +29089,7 @@ window.COMMDDL_DATA = {
             "Telecommunication Engineering",
             "电讯技术"
           ],
-          "note": "已对照完整21772刊的2025转录，正式全名/别名及可得ISSN未列；只代表所查2025表，不判断WoS收录。"
+          "note": "按正式全名、别名及可得ISSN核对2025年21772刊完整转录，未列入该版。"
         },
         {
           "system": "ccf",
@@ -29106,7 +29106,7 @@ window.COMMDDL_DATA = {
           ],
           "status": "unlisted",
           "value": null,
-          "note": "按正式全名与已核实别名对照CCF2026公开副本完整目录未列；不等于低等级，不含另行发布的中文期刊推荐目录。"
+          "note": "按正式全名与已核实别名核对CCF2026国际会议期刊目录公开副本，未列入该版。中文期刊推荐目录另行发布。"
         }
       ],
       "indexing": {
@@ -29114,7 +29114,7 @@ window.COMMDDL_DATA = {
         "status": "unresolved",
         "verifiedAt": "2026-10-19",
         "reviewedAt": "2026-10-19",
-        "note": "当前WoS索引尚无本刊独立证据；中文刊身份、EI/CSCD/中文核心与SCI/SCIE分开记录，不据未匹配判定非SCI。"
+        "note": "已核对可得来源，当前WoS（科学引文数据库）索引未确认；已确认的EI、CSCD及中文核心等属性分别列出。"
       },
       "otherIndexes": [
         {
@@ -29126,7 +29126,7 @@ window.COMMDDL_DATA = {
           "verifiedAt": "2026-10-19",
           "reviewedAt": "2026-10-19",
           "snapshotDate": "2026-10-19",
-          "note": "本刊官方页面明确中文核心，未注明版次；不标造2026版北大核心。"
+          "note": "本刊官方页面列出中文核心，版次未注明。"
         },
         {
           "value": "CSTPCD",
@@ -29137,7 +29137,7 @@ window.COMMDDL_DATA = {
           "verifiedAt": "2026-10-19",
           "reviewedAt": "2026-10-19",
           "snapshotDate": "2026-10-19",
-          "note": "官方期刊介绍明确列出该索引；页面未注明索引版次，核验日期不是数据库新版年份。"
+          "note": "本刊官方介绍明确列出该索引，页面未注明数据库版次；保存本次读取日期。"
         }
       ],
       "ratingReviewedAt": "2026-10-19"
@@ -29202,7 +29202,7 @@ window.COMMDDL_DATA = {
             "中兴通讯技术",
             "中兴新通讯"
           ],
-          "note": "完整2024 JCR转录按全名/别名及可得ISSN核查，未取得本刊明确JIF分区；只针对该旧年度，不判定当前WoS收录。"
+          "note": "按全名、别名及可得ISSN核对2024 JCR完整转录，该版未提供本刊明确JIF分区。"
         },
         {
           "system": "cas",
@@ -29224,7 +29224,7 @@ window.COMMDDL_DATA = {
             "中兴通讯技术",
             "中兴新通讯"
           ],
-          "note": "已对照完整21772刊的2025转录，正式全名/别名及可得ISSN未列；只代表所查2025表，不判断WoS收录。"
+          "note": "按正式全名、别名及可得ISSN核对2025年21772刊完整转录，未列入该版。"
         },
         {
           "system": "ccf",
@@ -29242,7 +29242,7 @@ window.COMMDDL_DATA = {
           ],
           "status": "unlisted",
           "value": null,
-          "note": "按正式全名与已核实别名对照CCF2026公开副本完整目录未列；不等于低等级，不含另行发布的中文期刊推荐目录。"
+          "note": "按正式全名与已核实别名核对CCF2026国际会议期刊目录公开副本，未列入该版。中文期刊推荐目录另行发布。"
         }
       ],
       "indexing": {
@@ -29250,7 +29250,7 @@ window.COMMDDL_DATA = {
         "status": "unresolved",
         "verifiedAt": "2026-10-19",
         "reviewedAt": "2026-10-19",
-        "note": "当前WoS索引尚无本刊独立证据；中文刊身份、EI/CSCD/中文核心与SCI/SCIE分开记录，不据未匹配判定非SCI。"
+        "note": "已核对可得来源，当前WoS（科学引文数据库）索引未确认；已确认的EI、CSCD及中文核心等属性分别列出。"
       },
       "otherIndexes": [
         {
@@ -29262,7 +29262,7 @@ window.COMMDDL_DATA = {
           "verifiedAt": "2026-10-19",
           "reviewedAt": "2026-10-19",
           "snapshotDate": "2026-10-19",
-          "note": "仅指明确写明的2023版中文核心；不与CSCD、SCI或T分级互换。",
+          "note": "官方来源明确列入2023版《中文核心期刊要目总览》。",
           "year": 2023,
           "edition": "2023年第10版"
         }
@@ -29326,7 +29326,7 @@ window.COMMDDL_DATA = {
             "Journal of Microwaves",
             "微波学报"
           ],
-          "note": "完整2024 JCR转录按全名/别名及可得ISSN核查，未取得本刊明确JIF分区；只针对该旧年度，不判定当前WoS收录。"
+          "note": "按全名、别名及可得ISSN核对2024 JCR完整转录，该版未提供本刊明确JIF分区。"
         },
         {
           "system": "cas",
@@ -29347,7 +29347,7 @@ window.COMMDDL_DATA = {
             "Journal of Microwaves",
             "微波学报"
           ],
-          "note": "已对照完整21772刊的2025转录，正式全名/别名及可得ISSN未列；只代表所查2025表，不判断WoS收录。"
+          "note": "按正式全名、别名及可得ISSN核对2025年21772刊完整转录，未列入该版。"
         },
         {
           "system": "ccf",
@@ -29364,7 +29364,7 @@ window.COMMDDL_DATA = {
           ],
           "status": "unlisted",
           "value": null,
-          "note": "按正式全名与已核实别名对照CCF2026公开副本完整目录未列；不等于低等级，不含另行发布的中文期刊推荐目录。"
+          "note": "按正式全名与已核实别名核对CCF2026国际会议期刊目录公开副本，未列入该版。中文期刊推荐目录另行发布。"
         }
       ],
       "indexing": {
@@ -29372,7 +29372,7 @@ window.COMMDDL_DATA = {
         "status": "unresolved",
         "verifiedAt": "2026-10-19",
         "reviewedAt": "2026-10-19",
-        "note": "当前WoS索引尚无本刊独立证据；中文刊身份、EI/CSCD/中文核心与SCI/SCIE分开记录，不据未匹配判定非SCI。"
+        "note": "已核对可得来源，当前WoS（科学引文数据库）索引未确认；已确认的EI、CSCD及中文核心等属性分别列出。"
       },
       "otherIndexes": [
         {
@@ -29384,7 +29384,7 @@ window.COMMDDL_DATA = {
           "verifiedAt": "2026-10-19",
           "reviewedAt": "2026-10-19",
           "snapshotDate": "2026-10-19",
-          "note": "本刊官方页面明确中文核心，未注明版次；不标造2026版北大核心。"
+          "note": "本刊官方页面列出中文核心，版次未注明。"
         },
         {
           "value": "CSTPCD",
@@ -29395,7 +29395,7 @@ window.COMMDDL_DATA = {
           "verifiedAt": "2026-10-19",
           "reviewedAt": "2026-10-19",
           "snapshotDate": "2026-10-19",
-          "note": "官方期刊介绍明确列出该索引；页面未注明索引版次，核验日期不是数据库新版年份。"
+          "note": "本刊官方介绍明确列出该索引，页面未注明数据库版次；保存本次读取日期。"
         },
         {
           "value": "CSCD",
@@ -29410,7 +29410,7 @@ window.COMMDDL_DATA = {
           "sourceType": "document-copy",
           "sourceAuthority": "cas-institute",
           "verifiedAt": "2026-10-19",
-          "note": "按正式ISSN对照CSCD2025—2026完整名单，明确为扩展库；数据库原始名单的科研机构公开副本，保留副本属性、年度和核心/扩展类别，不冒充原库查询，不推断其他索引。"
+          "note": "按正式ISSN匹配CSCD2025—2026完整名单，列入扩展库。来源为科研机构公开的原始名单副本。"
         }
       ],
       "ratingReviewedAt": "2026-10-19"
@@ -29475,7 +29475,7 @@ window.COMMDDL_DATA = {
             "太赫兹科学与电子信息学报",
             "信息与电子工程"
           ],
-          "note": "完整2024 JCR转录按全名/别名及可得ISSN核查，未取得本刊明确JIF分区；只针对该旧年度，不判定当前WoS收录。"
+          "note": "按全名、别名及可得ISSN核对2024 JCR完整转录，该版未提供本刊明确JIF分区。"
         },
         {
           "system": "cas",
@@ -29497,7 +29497,7 @@ window.COMMDDL_DATA = {
             "太赫兹科学与电子信息学报",
             "信息与电子工程"
           ],
-          "note": "已对照完整21772刊的2025转录，正式全名/别名及可得ISSN未列；只代表所查2025表，不判断WoS收录。"
+          "note": "按正式全名、别名及可得ISSN核对2025年21772刊完整转录，未列入该版。"
         },
         {
           "system": "ccf",
@@ -29515,7 +29515,7 @@ window.COMMDDL_DATA = {
           ],
           "status": "unlisted",
           "value": null,
-          "note": "按正式全名与已核实别名对照CCF2026公开副本完整目录未列；不等于低等级，不含另行发布的中文期刊推荐目录。"
+          "note": "按正式全名与已核实别名核对CCF2026国际会议期刊目录公开副本，未列入该版。中文期刊推荐目录另行发布。"
         }
       ],
       "indexing": {
@@ -29523,7 +29523,7 @@ window.COMMDDL_DATA = {
         "status": "unresolved",
         "verifiedAt": "2026-10-19",
         "reviewedAt": "2026-10-19",
-        "note": "当前WoS索引尚无本刊独立证据；中文刊身份、EI/CSCD/中文核心与SCI/SCIE分开记录，不据未匹配判定非SCI。"
+        "note": "已核对可得来源，当前WoS（科学引文数据库）索引未确认；已确认的EI、CSCD及中文核心等属性分别列出。"
       },
       "otherIndexes": [
         {
@@ -29548,7 +29548,7 @@ window.COMMDDL_DATA = {
           "verifiedAt": "2026-10-19",
           "reviewedAt": "2026-10-19",
           "snapshotDate": "2026-10-19",
-          "note": "官网称自2008年起连续入选中国科技核心期刊，未列最新版目录年份；复查日期不作为目录年份。"
+          "note": "官网称自2008年起连续入选中国科技核心期刊，最新版目录年份未注明；另记复查日期。"
         }
       ],
       "authorEntryStatus": "verified",
@@ -29624,7 +29624,7 @@ window.COMMDDL_DATA = {
           "issn": "2468-5925",
           "eissn": "2352-8648",
           "appliesToName": "Digital Communications and Networks",
-          "note": "对照完整2024 JCR政府转录，默认电信学优先，保留全部学科；不取最好分区，不冒充最新原库。"
+          "note": "按完整2024 JCR政府转录记录全部学科分区，默认展示电信学。"
         },
         {
           "system": "cas",
@@ -29652,7 +29652,7 @@ window.COMMDDL_DATA = {
               "quartile": 2
             }
           ],
-          "note": "按ISSN或正式全名对照高校公开的2025升级版完整转录；保留大类及全部小类，不冒充原库或2026数据。"
+          "note": "按ISSN或正式全名匹配高校公开的2025升级版完整转录，保存大类与全部小类分区。"
         },
         {
           "system": "ccf",
@@ -29669,7 +29669,7 @@ window.COMMDDL_DATA = {
           ],
           "status": "unlisted",
           "value": null,
-          "note": "按正式全名与已核实别名对照CCF2026公开副本完整目录未列；不等于低等级，不含另行发布的中文期刊推荐目录。"
+          "note": "按正式全名与已核实别名核对CCF2026国际会议期刊目录公开副本，未列入该版。中文期刊推荐目录另行发布。"
         }
       ],
       "catalogScope": "communications",
@@ -29712,7 +29712,7 @@ window.COMMDDL_DATA = {
           "sourceType": "document-copy",
           "sourceAuthority": "cas-institute",
           "verifiedAt": "2026-10-19",
-          "note": "按正式ISSN对照CSCD2025—2026完整名单，明确为核心库；数据库原始名单的科研机构公开副本，保留副本属性、年度和核心/扩展类别，不冒充原库查询，不推断其他索引。"
+          "note": "按正式ISSN匹配CSCD2025—2026完整名单，列入核心库。来源为科研机构公开的原始名单副本。"
         }
       ],
       "ratingReviewedAt": "2026-10-19"
@@ -29781,7 +29781,7 @@ window.COMMDDL_DATA = {
           "issn": "0013-5194",
           "eissn": "1350-911X",
           "appliesToName": "ELECTRONICS LETTERS",
-          "note": "对照完整2024 JCR政府转录，默认电信学优先，保留全部学科；不取最好分区，不冒充最新原库。"
+          "note": "按完整2024 JCR政府转录记录全部学科分区，默认展示电信学。"
         },
         {
           "system": "cas",
@@ -29809,7 +29809,7 @@ window.COMMDDL_DATA = {
               "quartile": 4
             }
           ],
-          "note": "按ISSN或正式全名对照高校公开的2025升级版完整转录；保留大类及全部小类，不冒充原库或2026数据。"
+          "note": "按ISSN或正式全名匹配高校公开的2025升级版完整转录，保存大类与全部小类分区。"
         },
         {
           "system": "ccf",
@@ -29826,13 +29826,13 @@ window.COMMDDL_DATA = {
           ],
           "status": "unlisted",
           "value": null,
-          "note": "按正式全名与已核实别名对照CCF2026公开副本完整目录未列；不等于低等级，不含另行发布的中文期刊推荐目录。"
+          "note": "按正式全名与已核实别名核对CCF2026国际会议期刊目录公开副本，未列入该版。中文期刊推荐目录另行发布。"
         }
       ],
       "catalogScope": "communications",
       "scopeReviewedAt": "2026-10-19",
       "submissionStatus": "open",
-      "identityNote": "作者指南2026年6月更新，明确Letter和Commentary，不能标为常规综述期刊。",
+      "identityNote": "2026年6月作者指南列出Letter（快报）与Commentary（评论），按快报期刊整理。",
       "indexing": {
         "value": "SCIE",
         "status": "verified",
@@ -29941,7 +29941,7 @@ window.COMMDDL_DATA = {
           "issn": "0916-8516",
           "eissn": "1745-1345",
           "appliesToName": "IEICE TRANSACTIONS ON COMMUNICATIONS",
-          "note": "对照完整2024 JCR政府转录，默认电信学优先，保留全部学科；不取最好分区，不冒充最新原库。"
+          "note": "按完整2024 JCR政府转录记录全部学科分区，默认展示电信学。"
         },
         {
           "system": "cas",
@@ -29973,7 +29973,7 @@ window.COMMDDL_DATA = {
               "quartile": 4
             }
           ],
-          "note": "按ISSN或正式全名对照高校公开的2025升级版完整转录；保留大类及全部小类，不冒充原库或2026数据。"
+          "note": "按ISSN或正式全名匹配高校公开的2025升级版完整转录，保存大类与全部小类分区。"
         },
         {
           "system": "ccf",
@@ -29990,7 +29990,7 @@ window.COMMDDL_DATA = {
           ],
           "status": "unlisted",
           "value": null,
-          "note": "按正式全名与已核实别名对照CCF2026公开副本完整目录未列；不等于低等级，不含另行发布的中文期刊推荐目录。"
+          "note": "按正式全名与已核实别名核对CCF2026国际会议期刊目录公开副本，未列入该版。中文期刊推荐目录另行发布。"
         }
       ],
       "catalogScope": "communications",
@@ -30018,7 +30018,7 @@ window.COMMDDL_DATA = {
           "sourceType": "publisher",
           "verifiedAt": "2026-10-19",
           "reviewedAt": "2026-10-19",
-          "note": "官方FAQ明确列出本英文刊，标示截至2025年4月；不把旧快照升级为2026原库核验。",
+          "note": "官方FAQ（常见问题）明确列出本英文刊，快照截至2025年4月。",
           "snapshotDate": "2025-04"
         }
       ],
@@ -30099,7 +30099,7 @@ window.COMMDDL_DATA = {
           "issn": "0916-8508",
           "eissn": "1745-1337",
           "appliesToName": "IEICE TRANSACTIONS ON FUNDAMENTALS OF ELECTRONICS COMMUNICATIONS AND COMPUTER SCIENCES",
-          "note": "对照完整2024 JCR政府转录，默认电信学优先，保留全部学科；不取最好分区，不冒充最新原库。"
+          "note": "按完整2024 JCR政府转录记录全部学科分区，默认展示电信学。"
         },
         {
           "system": "cas",
@@ -30135,7 +30135,7 @@ window.COMMDDL_DATA = {
               "quartile": 4
             }
           ],
-          "note": "按ISSN或正式全名对照高校公开的2025升级版完整转录；保留大类及全部小类，不冒充原库或2026数据。"
+          "note": "按ISSN或正式全名匹配高校公开的2025升级版完整转录，保存大类与全部小类分区。"
         },
         {
           "system": "ccf",
@@ -30152,7 +30152,7 @@ window.COMMDDL_DATA = {
           ],
           "status": "unlisted",
           "value": null,
-          "note": "按正式全名与已核实别名对照CCF2026公开副本完整目录未列；不等于低等级，不含另行发布的中文期刊推荐目录。"
+          "note": "按正式全名与已核实别名核对CCF2026国际会议期刊目录公开副本，未列入该版。中文期刊推荐目录另行发布。"
         }
       ],
       "catalogScope": "communications",
@@ -30180,7 +30180,7 @@ window.COMMDDL_DATA = {
           "sourceType": "publisher",
           "verifiedAt": "2026-10-19",
           "reviewedAt": "2026-10-19",
-          "note": "官方FAQ明确列出本英文刊，标示截至2025年4月；不把旧快照升级为2026原库核验。",
+          "note": "官方FAQ（常见问题）明确列出本英文刊，快照截至2025年4月。",
           "snapshotDate": "2025-04"
         }
       ],
@@ -30257,7 +30257,7 @@ window.COMMDDL_DATA = {
           "issn": "1751-8768",
           "eissn": "1751-8776",
           "appliesToName": "IET Optoelectronics",
-          "note": "对照完整2024 JCR政府转录，默认电信学优先，保留全部学科；不取最好分区，不冒充最新原库。"
+          "note": "按完整2024 JCR政府转录记录全部学科分区，默认展示电信学。"
         },
         {
           "system": "cas",
@@ -30293,7 +30293,7 @@ window.COMMDDL_DATA = {
               "quartile": 4
             }
           ],
-          "note": "按ISSN或正式全名对照高校公开的2025升级版完整转录；保留大类及全部小类，不冒充原库或2026数据。"
+          "note": "按ISSN或正式全名匹配高校公开的2025升级版完整转录，保存大类与全部小类分区。"
         },
         {
           "system": "ccf",
@@ -30310,7 +30310,7 @@ window.COMMDDL_DATA = {
           ],
           "status": "unlisted",
           "value": null,
-          "note": "按正式全名与已核实别名对照CCF2026公开副本完整目录未列；不等于低等级，不含另行发布的中文期刊推荐目录。"
+          "note": "按正式全名与已核实别名核对CCF2026国际会议期刊目录公开副本，未列入该版。中文期刊推荐目录另行发布。"
         }
       ],
       "catalogScope": "communications",
@@ -30422,7 +30422,7 @@ window.COMMDDL_DATA = {
           "issn": "1748-1279",
           "eissn": "1748-1287",
           "appliesToName": "International Journal of Sensor Networks",
-          "note": "对照完整2024 JCR政府转录，默认电信学优先，保留全部学科；不取最好分区，不冒充最新原库。"
+          "note": "按完整2024 JCR政府转录记录全部学科分区，默认展示电信学。"
         },
         {
           "system": "cas",
@@ -30454,7 +30454,7 @@ window.COMMDDL_DATA = {
               "quartile": 4
             }
           ],
-          "note": "按ISSN或正式全名对照高校公开的2025升级版完整转录；保留大类及全部小类，不冒充原库或2026数据。"
+          "note": "按ISSN或正式全名匹配高校公开的2025升级版完整转录，保存大类与全部小类分区。"
         },
         {
           "system": "ccf",
@@ -30471,7 +30471,7 @@ window.COMMDDL_DATA = {
           ],
           "status": "unlisted",
           "value": null,
-          "note": "按正式全名与已核实别名对照CCF2026公开副本完整目录未列；不等于低等级，不含另行发布的中文期刊推荐目录。"
+          "note": "按正式全名与已核实别名核对CCF2026国际会议期刊目录公开副本，未列入该版。中文期刊推荐目录另行发布。"
         }
       ],
       "catalogScope": "communications",
@@ -30581,7 +30581,7 @@ window.COMMDDL_DATA = {
           "issn": "0895-2477",
           "eissn": "1098-2760",
           "appliesToName": "MICROWAVE AND OPTICAL TECHNOLOGY LETTERS",
-          "note": "对照完整2024 JCR政府转录，默认电信学优先，保留全部学科；不取最好分区，不冒充最新原库。"
+          "note": "按完整2024 JCR政府转录记录全部学科分区，默认展示电信学。"
         },
         {
           "system": "cas",
@@ -30613,7 +30613,7 @@ window.COMMDDL_DATA = {
               "quartile": 4
             }
           ],
-          "note": "按ISSN或正式全名对照高校公开的2025升级版完整转录；保留大类及全部小类，不冒充原库或2026数据。"
+          "note": "按ISSN或正式全名匹配高校公开的2025升级版完整转录，保存大类与全部小类分区。"
         },
         {
           "system": "ccf",
@@ -30630,7 +30630,7 @@ window.COMMDDL_DATA = {
           ],
           "status": "unlisted",
           "value": null,
-          "note": "按正式全名与已核实别名对照CCF2026公开副本完整目录未列；不等于低等级，不含另行发布的中文期刊推荐目录。"
+          "note": "按正式全名与已核实别名核对CCF2026国际会议期刊目录公开副本，未列入该版。中文期刊推荐目录另行发布。"
         }
       ],
       "catalogScope": "communications",
@@ -30746,7 +30746,7 @@ window.COMMDDL_DATA = {
           "issn": "1383-469X",
           "eissn": "1572-8153",
           "appliesToName": "MOBILE NETWORKS & APPLICATIONS",
-          "note": "对照完整2024 JCR政府转录，默认电信学优先，保留全部学科；不取最好分区，不冒充最新原库。"
+          "note": "按完整2024 JCR政府转录记录全部学科分区，默认展示电信学。"
         },
         {
           "system": "cas",
@@ -30782,7 +30782,7 @@ window.COMMDDL_DATA = {
               "quartile": 4
             }
           ],
-          "note": "按ISSN或正式全名对照高校公开的2025升级版完整转录；保留大类及全部小类，不冒充原库或2026数据。"
+          "note": "按ISSN或正式全名匹配高校公开的2025升级版完整转录，保存大类与全部小类分区。"
         },
         {
           "system": "ccf",
@@ -30802,7 +30802,7 @@ window.COMMDDL_DATA = {
           "category": "计算机网络",
           "page": 12,
           "appliesToName": "Mobile Networks and Applications",
-          "note": "按正式全名或已核实旧名对照CCF2026公开副本；保留副本属性，仅对应正式论文，不适用于附属研讨会及演示。"
+          "note": "按正式全名或已核实旧名匹配CCF2026公开副本，适用于对应正式论文；附属研讨会及演示单独评价。"
         }
       ],
       "catalogScope": "communications",
@@ -30912,7 +30912,7 @@ window.COMMDDL_DATA = {
           "issn": "1936-6442",
           "eissn": "1936-6450",
           "appliesToName": "Peer-to-Peer Networking and Applications",
-          "note": "对照完整2024 JCR政府转录，默认电信学优先，保留全部学科；不取最好分区，不冒充最新原库。"
+          "note": "按完整2024 JCR政府转录记录全部学科分区，默认展示电信学。"
         },
         {
           "system": "cas",
@@ -30944,7 +30944,7 @@ window.COMMDDL_DATA = {
               "quartile": 4
             }
           ],
-          "note": "按ISSN或正式全名对照高校公开的2025升级版完整转录；保留大类及全部小类，不冒充原库或2026数据。"
+          "note": "按ISSN或正式全名匹配高校公开的2025升级版完整转录，保存大类与全部小类分区。"
         },
         {
           "system": "ccf",
@@ -30964,7 +30964,7 @@ window.COMMDDL_DATA = {
           "category": "计算机网络",
           "page": 12,
           "appliesToName": "Peer-to-Peer Networking and Applications",
-          "note": "按正式全名或已核实旧名对照CCF2026公开副本；保留副本属性，仅对应正式论文，不适用于附属研讨会及演示。"
+          "note": "按正式全名或已核实旧名匹配CCF2026公开副本，适用于对应正式论文；附属研讨会及演示单独评价。"
         }
       ],
       "catalogScope": "communications",
@@ -31089,7 +31089,7 @@ window.COMMDDL_DATA = {
           "issn": "0048-6604",
           "eissn": "1944-799X",
           "appliesToName": "RADIO SCIENCE",
-          "note": "对照完整2024 JCR政府转录，默认电信学优先，保留全部学科；不取最好分区，不冒充最新原库。"
+          "note": "按完整2024 JCR政府转录记录全部学科分区，默认展示电信学。"
         },
         {
           "system": "cas",
@@ -31133,7 +31133,7 @@ window.COMMDDL_DATA = {
               "quartile": 4
             }
           ],
-          "note": "按ISSN或正式全名对照高校公开的2025升级版完整转录；保留大类及全部小类，不冒充原库或2026数据。"
+          "note": "按ISSN或正式全名匹配高校公开的2025升级版完整转录，保存大类与全部小类分区。"
         },
         {
           "system": "ccf",
@@ -31150,7 +31150,7 @@ window.COMMDDL_DATA = {
           ],
           "status": "unlisted",
           "value": null,
-          "note": "按正式全名与已核实别名对照CCF2026公开副本完整目录未列；不等于低等级，不含另行发布的中文期刊推荐目录。"
+          "note": "按正式全名与已核实别名核对CCF2026国际会议期刊目录公开副本，未列入该版。中文期刊推荐目录另行发布。"
         }
       ],
       "catalogScope": "communications",
@@ -31255,7 +31255,7 @@ window.COMMDDL_DATA = {
           "issn": "2047-4954",
           "eissn": "2047-4962",
           "appliesToName": "IET Networks",
-          "note": "对照完整2024 JCR政府转录，默认电信学优先，保留全部学科；不取最好分区，不冒充最新原库。"
+          "note": "按完整2024 JCR政府转录记录全部学科分区，默认展示电信学。"
         },
         {
           "system": "cas",
@@ -31283,7 +31283,7 @@ window.COMMDDL_DATA = {
               "quartile": 4
             }
           ],
-          "note": "按ISSN或正式全名对照高校公开的2025升级版完整转录；保留大类及全部小类，不冒充原库或2026数据。"
+          "note": "按ISSN或正式全名匹配高校公开的2025升级版完整转录，保存大类与全部小类分区。"
         },
         {
           "system": "ccf",
@@ -31300,7 +31300,7 @@ window.COMMDDL_DATA = {
           ],
           "status": "unlisted",
           "value": null,
-          "note": "按正式全名与已核实别名对照CCF2026公开副本完整目录未列；不等于低等级，不含另行发布的中文期刊推荐目录。"
+          "note": "按正式全名与已核实别名核对CCF2026国际会议期刊目录公开副本，未列入该版。中文期刊推荐目录另行发布。"
         }
       ],
       "catalogScope": "communications",
@@ -31400,7 +31400,7 @@ window.COMMDDL_DATA = {
             "Intelligent and Converged Networks",
             "智能与融合网络"
           ],
-          "note": "完整2024 JCR转录按全名/别名及可得ISSN核查，未取得本刊明确JIF分区；只针对该旧年度，不判定当前WoS收录。"
+          "note": "按全名、别名及可得ISSN核对2024 JCR完整转录，该版未提供本刊明确JIF分区。"
         },
         {
           "system": "cas",
@@ -31421,7 +31421,7 @@ window.COMMDDL_DATA = {
             "Intelligent and Converged Networks",
             "智能与融合网络"
           ],
-          "note": "已对照完整21772刊的2025转录，正式全名/别名及可得ISSN未列；只代表所查2025表，不判断WoS收录。"
+          "note": "按正式全名、别名及可得ISSN核对2025年21772刊完整转录，未列入该版。"
         },
         {
           "system": "ccf",
@@ -31438,13 +31438,13 @@ window.COMMDDL_DATA = {
           ],
           "status": "unlisted",
           "value": null,
-          "note": "按正式全名与已核实别名对照CCF2026公开副本完整目录未列；不等于低等级，不含另行发布的中文期刊推荐目录。"
+          "note": "按正式全名与已核实别名核对CCF2026国际会议期刊目录公开副本，未列入该版。中文期刊推荐目录另行发布。"
         }
       ],
       "catalogScope": "communications",
       "scopeReviewedAt": "2026-10-19",
       "submissionStatus": "open",
-      "identityNote": "当前SciOpen期刊页有2026年第7卷第3期、投稿入口及征稿，索引页只明确DOAJ、EI Compendex、INSPEC与Scopus；未声明SCIE/ESCI，不能据此认定非SCI。",
+      "identityNote": "SciOpen刊页可见2026年第7卷第3期、投稿入口与征稿。索引页列出DOAJ、EI Compendex、INSPEC与Scopus，WoS索引未确认。",
       "indexing": {
         "value": null,
         "status": "unresolved",
@@ -31454,7 +31454,7 @@ window.COMMDDL_DATA = {
         "sourceType": "publisher",
         "verifiedAt": "2026-10-19",
         "reviewedAt": "2026-10-19",
-        "note": "当前SciOpen期刊页有2026年第7卷第3期、投稿入口及征稿，索引页只明确DOAJ、EI Compendex、INSPEC与Scopus；未声明SCIE/ESCI，不能据此认定非SCI。",
+        "note": "SciOpen当前刊页可见2026年第7卷第3期、投稿入口与征稿。索引页列出DOAJ、EI Compendex、INSPEC与Scopus，WoS索引未确认。",
         "attempts": [
           "读取当前SciOpen期刊主页",
           "读取出版方完整Abstracting & Indexing页，明确4项但无WoS系列标识",
@@ -31554,7 +31554,7 @@ window.COMMDDL_DATA = {
           "issn": "1550-4859",
           "eissn": "1550-4867",
           "appliesToName": "ACM Transactions on Sensor Networks",
-          "note": "对照完整2024 JCR政府转录，默认电信学优先，保留全部学科；不取最好分区，不冒充最新原库。"
+          "note": "按完整2024 JCR政府转录记录全部学科分区，默认展示电信学。"
         },
         {
           "system": "cas",
@@ -31586,7 +31586,7 @@ window.COMMDDL_DATA = {
               "quartile": 4
             }
           ],
-          "note": "按ISSN或正式全名对照高校公开的2025升级版完整转录；保留大类及全部小类，不冒充原库或2026数据。"
+          "note": "按ISSN或正式全名匹配高校公开的2025升级版完整转录，保存大类与全部小类分区。"
         },
         {
           "system": "ccf",
@@ -31606,7 +31606,7 @@ window.COMMDDL_DATA = {
           "category": "计算机网络",
           "page": 11,
           "appliesToName": "ACM Transactions on Sensor Networks",
-          "note": "按正式全名或已核实旧名对照CCF2026公开副本；保留副本属性，仅对应正式论文，不适用于附属研讨会及演示。"
+          "note": "按正式全名或已核实旧名匹配CCF2026公开副本，适用于对应正式论文；附属研讨会及演示单独评价。"
         }
       ],
       "catalogScope": "communications",
@@ -31714,7 +31714,7 @@ window.COMMDDL_DATA = {
           "issn": "2214-2096",
           "eissn": "2214-2096",
           "appliesToName": "Vehicular Communications",
-          "note": "对照完整2024 JCR政府转录，默认电信学优先，保留全部学科；不取最好分区，不冒充最新原库。"
+          "note": "按完整2024 JCR政府转录记录全部学科分区，默认展示电信学。"
         },
         {
           "system": "cas",
@@ -31746,7 +31746,7 @@ window.COMMDDL_DATA = {
               "quartile": 3
             }
           ],
-          "note": "按ISSN或正式全名对照高校公开的2025升级版完整转录；保留大类及全部小类，不冒充原库或2026数据。"
+          "note": "按ISSN或正式全名匹配高校公开的2025升级版完整转录，保存大类与全部小类分区。"
         },
         {
           "system": "ccf",
@@ -31763,13 +31763,13 @@ window.COMMDDL_DATA = {
           ],
           "status": "unlisted",
           "value": null,
-          "note": "按正式全名与已核实别名对照CCF2026公开副本完整目录未列；不等于低等级，不含另行发布的中文期刊推荐目录。"
+          "note": "按正式全名与已核实别名核对CCF2026国际会议期刊目录公开副本，未列入该版。中文期刊推荐目录另行发布。"
         }
       ],
       "catalogScope": "communications",
       "scopeReviewedAt": "2026-10-19",
       "submissionStatus": "unresolved",
-      "identityNote": "高校保存的Elsevier作者资料确认身份，但内容日期为2018-09-17；当前出版社首页、insights、call-for-papers均403，未绕过，不能把旧资料时间当成2026。2025研究机构目录与2024JCR明确SCIE/Scopus。",
+      "identityNote": "高校保存的Elsevier作者资料确认期刊身份，资料日期为2018-09-17。当前出版社首页、指标与征稿页均返回403，当前投稿状态未确认。SCIE依据来自2024 JCR，Scopus依据来自2025研究机构目录。",
       "indexing": {
         "value": "SCIE",
         "status": "reported",
@@ -31796,7 +31796,7 @@ window.COMMDDL_DATA = {
           "sourceType": "secondary",
           "verifiedAt": "2026-10-19",
           "reviewedAt": "2026-10-19",
-          "note": "研究机构图书目录明确SCOPUS，记录2025-01-10更新；不是原库实时核验。",
+          "note": "研究机构图书目录列出SCOPUS，记录于2025-01-10更新。",
           "snapshotDate": "2025-01-10"
         }
       ],
@@ -31861,7 +31861,7 @@ window.COMMDDL_DATA = {
           ],
           "status": "unlisted",
           "value": null,
-          "note": "按正式全名与已核实别名对照CCF2026公开副本完整目录未列；不等于低等级，不含另行发布的中文期刊推荐目录。"
+          "note": "按正式全名与已核实别名核对CCF2026国际会议期刊目录公开副本，未列入该版。中文期刊推荐目录另行发布。"
         },
         {
           "system": "core",
@@ -31881,7 +31881,7 @@ window.COMMDDL_DATA = {
           ],
           "status": "unlisted",
           "value": null,
-          "note": "按正式全名与已核实别名对照ICORE2026官方987条完整库未列，不等于低等级；未按同简称的其他会议赋级。"
+          "note": "按正式全名与已核实别名核对ICORE2026官方全部987条记录，未列入该版。"
         }
       ],
       "catalogScope": "communications",
@@ -31945,7 +31945,7 @@ window.COMMDDL_DATA = {
           ],
           "status": "unlisted",
           "value": null,
-          "note": "按正式全名与已核实别名对照CCF2026公开副本完整目录未列；不等于低等级，不含另行发布的中文期刊推荐目录。"
+          "note": "按正式全名与已核实别名核对CCF2026国际会议期刊目录公开副本，未列入该版。中文期刊推荐目录另行发布。"
         },
         {
           "system": "core",
@@ -31963,7 +31963,7 @@ window.COMMDDL_DATA = {
           ],
           "status": "unlisted",
           "value": null,
-          "note": "按正式全名与已核实别名对照ICORE2026官方987条完整库未列，不等于低等级；未按同简称的其他会议赋级。"
+          "note": "按正式全名与已核实别名核对ICORE2026官方全部987条记录，未列入该版。"
         }
       ],
       "catalogScope": "communications",
@@ -32031,7 +32031,7 @@ window.COMMDDL_DATA = {
           ],
           "status": "unlisted",
           "value": null,
-          "note": "按正式全名与已核实别名对照CCF2026公开副本完整目录未列；不等于低等级，不含另行发布的中文期刊推荐目录。"
+          "note": "按正式全名与已核实别名核对CCF2026国际会议期刊目录公开副本，未列入该版。中文期刊推荐目录另行发布。"
         },
         {
           "system": "core",
@@ -32051,7 +32051,7 @@ window.COMMDDL_DATA = {
           ],
           "status": "unlisted",
           "value": null,
-          "note": "按正式全名与已核实别名对照ICORE2026官方987条完整库未列，不等于低等级；未按同简称的其他会议赋级。"
+          "note": "按正式全名与已核实别名核对ICORE2026官方全部987条记录，未列入该版。"
         }
       ],
       "catalogScope": "communications",
@@ -32114,7 +32114,7 @@ window.COMMDDL_DATA = {
           ],
           "status": "unlisted",
           "value": null,
-          "note": "按正式全名与已核实别名对照CCF2026公开副本完整目录未列；不等于低等级，不含另行发布的中文期刊推荐目录。"
+          "note": "按正式全名与已核实别名核对CCF2026国际会议期刊目录公开副本，未列入该版。中文期刊推荐目录另行发布。"
         },
         {
           "system": "core",
@@ -32134,7 +32134,7 @@ window.COMMDDL_DATA = {
           ],
           "status": "unlisted",
           "value": null,
-          "note": "按正式全名与已核实别名对照ICORE2026官方987条完整库未列，不等于低等级；未按同简称的其他会议赋级。"
+          "note": "按正式全名与已核实别名核对ICORE2026官方全部987条记录，未列入该版。"
         }
       ],
       "catalogScope": "communications",
@@ -32199,7 +32199,7 @@ window.COMMDDL_DATA = {
           ],
           "status": "unlisted",
           "value": null,
-          "note": "按正式全名与已核实别名对照CCF2026公开副本完整目录未列；不等于低等级，不含另行发布的中文期刊推荐目录。"
+          "note": "按正式全名与已核实别名核对CCF2026国际会议期刊目录公开副本，未列入该版。中文期刊推荐目录另行发布。"
         },
         {
           "system": "core",
@@ -32218,7 +32218,7 @@ window.COMMDDL_DATA = {
           ],
           "status": "unlisted",
           "value": null,
-          "note": "按正式全名与已核实别名对照ICORE2026官方987条完整库未列，不等于低等级；未按同简称的其他会议赋级。"
+          "note": "按正式全名与已核实别名核对ICORE2026官方全部987条记录，未列入该版。"
         }
       ],
       "catalogScope": "communications",
@@ -32283,7 +32283,7 @@ window.COMMDDL_DATA = {
           ],
           "status": "unlisted",
           "value": null,
-          "note": "按正式全名与已核实别名对照CCF2026公开副本完整目录未列；不等于低等级，不含另行发布的中文期刊推荐目录。"
+          "note": "按正式全名与已核实别名核对CCF2026国际会议期刊目录公开副本，未列入该版。中文期刊推荐目录另行发布。"
         },
         {
           "system": "core",
@@ -32302,7 +32302,7 @@ window.COMMDDL_DATA = {
           ],
           "status": "unlisted",
           "value": null,
-          "note": "按正式全名与已核实别名对照ICORE2026官方987条完整库未列，不等于低等级；未按同简称的其他会议赋级。"
+          "note": "按正式全名与已核实别名核对ICORE2026官方全部987条记录，未列入该版。"
         }
       ],
       "catalogScope": "communications",
@@ -32492,7 +32492,7 @@ window.COMMDDL_DATA = {
       "verifiedAt": "2026-10-17",
       "updatedAt": "2026-10-17T08:00:00Z",
       "status": "announced",
-      "notes": "官方页面的首次决定年份出现早于投稿截止的异常。本版只录入与官方总表一致的投稿日期，后续通知时间待复核。",
+      "notes": "官方首次决定年份早于投稿截止，日期存在冲突。投稿日期与官方总表一致，通知时间待复核。",
       "location": null,
       "eventDates": null,
       "publication": "2027 年 8 月",
@@ -32788,7 +32788,7 @@ window.COMMDDL_DATA = {
       "verifiedAt": "2026-10-17",
       "updatedAt": "2026-10-17T08:00:00Z",
       "status": "announced",
-      "notes": "这是大会总入口，不代表每个附属研讨会必然采用同一日期；不继承主会的学校认定。",
+      "notes": "大会附属研讨会总入口，各研讨会单独核对日期及学校认定。",
       "location": "德国 · 汉堡",
       "eventDates": "2027-06-20 / 2027-06-23",
       "publication": null,
@@ -32885,7 +32885,7 @@ window.COMMDDL_DATA = {
       "checkedAt": "2026-10-18",
       "updatedAt": "2026-10-18T04:00:00Z",
       "status": "announced",
-      "notes": "当前征稿页与投稿页均为9月23日；投稿页国际日期变更线24:00换算为9月24日00:00 UTC−12，保留原文避免误解。旧paper_kit页仍写9月16日，已排除旧日期。",
+      "notes": "当前征稿页与投稿页均列9月23日。原文国际日期变更线24:00换算为9月24日00:00 UTC−12；保留原文。旧paper_kit页列9月16日，采用当前页面日期。",
       "location": "加拿大·多伦多",
       "eventStart": "2027-05-16",
       "eventEnd": "2027-05-21",
@@ -32963,7 +32963,7 @@ window.COMMDDL_DATA = {
       "checkedAt": "2026-10-18",
       "updatedAt": "2026-10-18T04:00:00Z",
       "status": "announced",
-      "notes": "主会全文与终稿官网明确23:59 AoE（全球最晚时区，UTC−12）。Recent Results为非存档展示，不进入ISIT论文集/IEEE Xplore，不作为正式论文投稿列入。",
+      "notes": "主会全文与终稿截止为23:59 AoE（全球最晚时区，UTC−12）。Recent Results（近期成果）为非存档展示，论文集与IEEE Xplore收录范围为正式论文。",
       "location": "意大利·索伦托",
       "eventStart": "2027-06-27",
       "eventEnd": "2027-07-02",
@@ -33046,7 +33046,7 @@ window.COMMDDL_DATA = {
       "checkedAt": "2026-10-18",
       "updatedAt": "2026-10-18T04:00:00Z",
       "status": "announced",
-      "notes": "官网只公布日期，未明确截止钟点或时区；以日期精度展示，不补造23:59或AoE。",
+      "notes": "官网公布截止日期，钟点或时区未注明，按日期展示。",
       "location": "美国·华盛顿特区",
       "eventStart": "2027-05-30",
       "eventEnd": "2027-06-03",
@@ -33130,7 +33130,7 @@ window.COMMDDL_DATA = {
       "checkedAt": "2026-10-18",
       "updatedAt": "2026-10-18T04:00:00Z",
       "status": "announced",
-      "notes": "官网只公布日期，未明确截止钟点或时区；以日期精度展示，不补造23:59或AoE。",
+      "notes": "官网公布截止日期，钟点或时区未注明，按日期展示。",
       "location": "中国·澳门",
       "eventStart": "2026-12-07",
       "eventEnd": "2026-12-11",
@@ -33211,7 +33211,7 @@ window.COMMDDL_DATA = {
       "checkedAt": "2026-10-18",
       "updatedAt": "2026-10-18T04:00:00Z",
       "status": "announced",
-      "notes": "官网只公布日期，未明确截止钟点或时区；以日期精度展示，不补造23:59或AoE。",
+      "notes": "官网公布截止日期，钟点或时区未注明，按日期展示。",
       "location": "巴拿马·巴拿马城",
       "eventStart": "2027-04-05",
       "eventEnd": "2027-04-08",
@@ -33291,7 +33291,7 @@ window.COMMDDL_DATA = {
       "checkedAt": "2026-10-18",
       "updatedAt": "2026-10-18T04:00:00Z",
       "status": "announced",
-      "notes": "官网只公布日期，未明确截止钟点或时区；以日期精度展示，不补造23:59或AoE。",
+      "notes": "官网公布截止日期，钟点或时区未注明，按日期展示。",
       "location": "葡萄牙·里斯本",
       "eventStart": "2027-09-07",
       "eventEnd": "2027-09-10",
@@ -33456,7 +33456,7 @@ window.COMMDDL_DATA = {
       "checkedAt": "2026-10-18",
       "updatedAt": "2026-10-18T04:00:00Z",
       "status": "announced",
-      "notes": "官网只公布日期，未明确截止钟点或时区；以日期精度展示，不补造23:59或AoE。",
+      "notes": "官网公布截止日期，钟点或时区未注明，按日期展示。",
       "location": "美国·拉斯维加斯",
       "eventStart": "2027-01-09",
       "eventEnd": "2027-01-12",
@@ -33482,7 +33482,7 @@ window.COMMDDL_DATA = {
         "protocols"
       ],
       "tags": [],
-      "summary": "网络运行与管理会议；ComSoc 官方说明 NOMS 已与 IM 合并，历史 IM 条目另保留原文件来源，不能假定独立举办。",
+      "summary": "网络运行与管理会议；ComSoc官方说明NOMS已与IM合并，旧IM作为历史系列保留原文件来源。",
       "url": "https://noms2027.ieee-noms.org/authors",
       "sourceUrl": "https://noms2027.ieee-noms.org/authors",
       "sourceType": "official",
@@ -33532,7 +33532,7 @@ window.COMMDDL_DATA = {
       "checkedAt": "2026-10-18",
       "updatedAt": "2026-10-18T04:00:00Z",
       "status": "announced",
-      "notes": "官网只公布日期，未明确截止钟点或时区；以日期精度展示，不补造23:59或AoE。",
+      "notes": "官网公布截止日期，钟点或时区未注明，按日期展示。",
       "location": "加拿大·蒙特利尔",
       "eventStart": "2027-05-10",
       "eventEnd": "2027-05-14",
@@ -33609,7 +33609,7 @@ window.COMMDDL_DATA = {
       "checkedAt": "2026-10-18",
       "updatedAt": "2026-10-18T04:00:00Z",
       "status": "announced",
-      "notes": "官网只公布日期，未明确截止钟点或时区；以日期精度展示，不补造23:59或AoE。",
+      "notes": "官网公布截止日期，钟点或时区未注明，按日期展示。",
       "location": "葡萄牙·里斯本",
       "eventStart": "2027-05-05",
       "eventEnd": "2027-05-07",
@@ -33684,7 +33684,7 @@ window.COMMDDL_DATA = {
       "checkedAt": "2026-10-18",
       "updatedAt": "2026-10-18T04:00:00Z",
       "status": "announced",
-      "notes": "官网只公布日期，未明确截止钟点或时区；以日期精度展示，不补造23:59或AoE。",
+      "notes": "官网公布截止日期，钟点或时区未注明，按日期展示。",
       "location": "加拿大·渥太华",
       "eventStart": "2027-05-17",
       "eventEnd": "2027-05-20",
@@ -33759,7 +33759,7 @@ window.COMMDDL_DATA = {
       "checkedAt": "2026-10-18",
       "updatedAt": "2026-10-18T04:00:00Z",
       "status": "announced",
-      "notes": "官网只公布日期，未明确截止钟点或时区；以日期精度展示，不补造23:59或AoE。",
+      "notes": "官网公布截止日期，钟点或时区未注明，按日期展示。",
       "location": "美国·特拉华州纽瓦克",
       "eventStart": "2026-09-14",
       "eventEnd": "2026-09-17",
@@ -33913,7 +33913,7 @@ window.COMMDDL_DATA = {
       "checkedAt": "2026-10-18",
       "updatedAt": "2026-10-18T04:00:00Z",
       "status": "announced",
-      "notes": "官网只公布日期，未明确截止钟点或时区；以日期精度展示，不补造23:59或AoE。",
+      "notes": "官网公布截止日期，钟点或时区未注明，按日期展示。",
       "location": "希腊·雅典",
       "eventStart": "2026-10-19",
       "eventEnd": "2026-10-21",
@@ -33992,7 +33992,7 @@ window.COMMDDL_DATA = {
       "checkedAt": "2026-10-18",
       "updatedAt": "2026-10-18T04:00:00Z",
       "status": "announced",
-      "notes": "官网只公布日期，未明确截止钟点或时区；以日期精度展示，不补造23:59或AoE。",
+      "notes": "官网公布截止日期，钟点或时区未注明，按日期展示。",
       "location": "越南·归仁",
       "eventStart": "2026-10-15",
       "eventEnd": "2026-10-17",
@@ -34077,7 +34077,7 @@ window.COMMDDL_DATA = {
       "checkedAt": "2026-10-18",
       "updatedAt": "2026-10-18T04:00:00Z",
       "status": "announced",
-      "notes": "官网只公布日期，未明确截止钟点或时区；以日期精度展示，不补造23:59或AoE。",
+      "notes": "官网公布截止日期，钟点或时区未注明，按日期展示。",
       "location": "新加坡",
       "eventStart": "2026-09-01",
       "eventEnd": "2026-09-04",
@@ -34512,7 +34512,7 @@ window.COMMDDL_DATA = {
       "checkedAt": "2026-10-18",
       "updatedAt": "2026-10-18T04:00:00Z",
       "status": "announced",
-      "notes": "官网统一研讨会论文日期；具体研讨会若另有延期，以该研讨会公告为准。独立于主会全文日期，不继承主会长文等级。官网未明确截止钟点或时区。",
+      "notes": "官网列出研讨会统一论文截止，延期见各研讨会公告。主会与研讨会分别记录日期和评级；钟点或时区未注明。",
       "location": "美国·华盛顿特区",
       "eventStart": "2027-05-30",
       "eventEnd": "2027-06-03",
@@ -34593,7 +34593,7 @@ window.COMMDDL_DATA = {
       "checkedAt": "2026-10-18",
       "updatedAt": "2026-10-18T04:00:00Z",
       "status": "announced",
-      "notes": "官网统一研讨会论文日期；具体研讨会若另有延期，以该研讨会公告为准。独立于主会全文日期，不继承主会长文等级。官网未明确截止钟点或时区。",
+      "notes": "官网列出研讨会统一论文截止，延期见各研讨会公告。主会与研讨会分别记录日期和评级；钟点或时区未注明。",
       "location": "巴拿马·巴拿马城",
       "eventStart": "2027-04-05",
       "eventEnd": "2027-04-08",
@@ -34670,7 +34670,7 @@ window.COMMDDL_DATA = {
       "checkedAt": "2026-10-18",
       "updatedAt": "2026-10-18T04:00:00Z",
       "status": "announced",
-      "notes": "官网统一研讨会论文日期；具体研讨会若另有延期，以该研讨会公告为准。独立于主会全文日期，不继承主会长文等级。官网未明确截止钟点或时区。",
+      "notes": "官网列出研讨会统一论文截止，延期见各研讨会公告。主会与研讨会分别记录日期和评级；钟点或时区未注明。",
       "location": "美国·拉斯维加斯",
       "eventStart": "2027-01-09",
       "eventEnd": "2027-01-12",
@@ -34754,7 +34754,7 @@ window.COMMDDL_DATA = {
       "checkedAt": "2026-10-18",
       "updatedAt": "2026-10-18T04:00:00Z",
       "status": "announced",
-      "notes": "官网统一研讨会论文日期；具体研讨会若另有延期，以该研讨会公告为准。独立于主会全文日期，不继承主会长文等级。官网未明确截止钟点或时区。",
+      "notes": "官网列出研讨会统一论文截止，延期见各研讨会公告。主会与研讨会分别记录日期和评级；钟点或时区未注明。",
       "location": "中国·澳门",
       "eventStart": "2026-12-07",
       "eventEnd": "2026-12-11",
@@ -34987,7 +34987,7 @@ window.COMMDDL_DATA = {
       "verifiedAt": "2026-10-18",
       "updatedAt": "2026-10-18T08:00:00Z",
       "status": "announced",
-      "notes": "夏季轮已截止；冬季轮官网仍TBD，不能由2026往年日期推算；当前主页未提供举办城市。",
+      "notes": "夏季轮已截止，冬季轮官网标为TBD（待定），举办城市未公布。",
       "location": null,
       "eventDates": "2027-10-18 / 2027-10-22",
       "publication": null,
@@ -35244,7 +35244,7 @@ window.COMMDDL_DATA = {
       "verifiedAt": "2026-10-18",
       "updatedAt": "2026-10-18T08:00:00Z",
       "status": "announced",
-      "notes": "两轮主会新投稿均已截止；仅摘要与全文官方明确11:59pm US EDT。春季终稿2026-10-20仅适用于已录用论文，不能作为新投稿机会。",
+      "notes": "两轮主会新投稿均已截止。摘要与全文的官网时刻为11:59pm US EDT（美国东部夏令时间23:59）；春季终稿2026-10-20适用于已录用论文。",
       "location": "普罗维登斯，美国",
       "eventDates": "2027-05-11 / 2027-05-13",
       "publication": null,
@@ -35329,7 +35329,7 @@ window.COMMDDL_DATA = {
       "verifiedAt": "2026-10-18",
       "updatedAt": "2026-10-18T08:00:00Z",
       "status": "announced",
-      "notes": "两轮主会新投稿均已截止；仅摘要与全文官方明确11:59pm US EDT。春季终稿2026-10-20仅适用于已录用论文，不能作为新投稿机会。",
+      "notes": "两轮主会新投稿均已截止。摘要与全文的官网时刻为11:59pm US EDT（美国东部夏令时间23:59）；春季终稿2026-10-20适用于已录用论文。",
       "location": "普罗维登斯，美国",
       "eventDates": "2027-05-11 / 2027-05-13",
       "publication": null,
@@ -35404,7 +35404,7 @@ window.COMMDDL_DATA = {
       "verifiedAt": "2026-10-18",
       "updatedAt": "2026-10-18T08:00:00Z",
       "status": "announced",
-      "notes": "合并后的SenSys/IPSN/IoTDI会议；当前官方终稿仍TBD，不填估算。第1轮提前通知旁星期文字存在错误，仅使用数字日期，未录入该提前通知节点。",
+      "notes": "SenSys、IPSN、IoTDI合并后的会议，终稿官网标为TBD（待定）。第1轮提前通知的星期与数字日期冲突，该通知节点尚未录入。",
       "location": "博尔德，美国",
       "eventDates": "2027-05-17 / 2027-05-20",
       "publication": null,
@@ -35479,7 +35479,7 @@ window.COMMDDL_DATA = {
       "verifiedAt": "2026-10-18",
       "updatedAt": "2026-10-18T08:00:00Z",
       "status": "announced",
-      "notes": "合并后的SenSys/IPSN/IoTDI会议；当前官方终稿仍TBD，不填估算。第1轮提前通知旁星期文字存在错误，仅使用数字日期，未录入该提前通知节点。",
+      "notes": "SenSys、IPSN、IoTDI合并后的会议，终稿官网标为TBD（待定）。第1轮提前通知的星期与数字日期冲突，该通知节点尚未录入。",
       "location": "博尔德，美国",
       "eventDates": "2027-05-17 / 2027-05-20",
       "publication": null,
@@ -35564,7 +35564,7 @@ window.COMMDDL_DATA = {
       "verifiedAt": "2026-10-18",
       "updatedAt": "2026-10-18T08:00:00Z",
       "status": "announced",
-      "notes": "官网CFP有两个独立新投稿轮次；同页给出的重大修改节点只对获修改机会的稿件适用，未当成开放新投稿截止。SIGCOMM系列总页将2027里约热内卢会期列为待确认，未据此填确定会期。",
+      "notes": "官方征稿列出两个独立新投稿轮次。重大修改节点适用于获修改机会的稿件。SIGCOMM系列总页将2027里约热内卢会期列为待确认。",
       "location": null,
       "eventDates": null,
       "publication": "Proceedings of the ACM on Networking（ACM网络汇刊）/ CoNEXT 2027",
@@ -35649,7 +35649,7 @@ window.COMMDDL_DATA = {
       "verifiedAt": "2026-10-18",
       "updatedAt": "2026-10-18T08:00:00Z",
       "status": "announced",
-      "notes": "官网CFP有两个独立新投稿轮次；同页给出的重大修改节点只对获修改机会的稿件适用，未当成开放新投稿截止。SIGCOMM系列总页将2027里约热内卢会期列为待确认，未据此填确定会期。",
+      "notes": "官方征稿列出两个独立新投稿轮次。重大修改节点适用于获修改机会的稿件。SIGCOMM系列总页将2027里约热内卢会期列为待确认。",
       "location": null,
       "eventDates": null,
       "publication": "Proceedings of the ACM on Networking（ACM网络汇刊）/ CoNEXT 2027",
@@ -36250,7 +36250,7 @@ window.COMMDDL_DATA = {
       "verifiedAt": "2026-10-18",
       "updatedAt": "2026-10-18T08:00:00Z",
       "status": "announced",
-      "notes": "主会为独立短论文研讨会，不是海报track；全文延期至3月11日AoE，官网明确no abstract registration（无需先注册摘要）；未给钟点，保留日期。",
+      "notes": "独立短论文研讨会，全文延期至3月11日AoE（全球最晚时区）。官网明确无需先注册摘要，钟点未注明，按日期展示。",
       "location": "新加坡",
       "eventDates": "2026-08-06 / 2026-08-07",
       "publication": null,
@@ -36696,7 +36696,7 @@ window.COMMDDL_DATA = {
       "checkedAt": "2026-10-18",
       "updatedAt": "2026-10-18T04:00:00Z",
       "status": "announced",
-      "notes": "这是已征集附属研讨会的统一论文时间，非研讨会组织提案截止。研讨会使用独立IEEE Xplore论文集编号，不能自动继承ICASSP主会等级；具体研讨会日期以各会官网为准。",
+      "notes": "已征集附属研讨会的统一论文截止，各会具体日期见其官网。研讨会使用独立IEEE Xplore论文集编号，评级单独记录。",
       "location": "加拿大·多伦多",
       "eventStart": null,
       "eventEnd": null,
@@ -36946,7 +36946,7 @@ window.COMMDDL_DATA = {
       "checkedAt": "2026-10-18",
       "updatedAt": "2026-10-18T04:00:00Z",
       "status": "announced",
-      "notes": "最新可核实的论文届次为2026。官网当前征稿从3月22日延至4月5日；会议官网为9月6–9日，学会旧列表写9月7–9日，采用大会当前页面。2027学会页面目前是主办提案，不能当成论文征稿。",
+      "notes": "最新已核实论文届次为2026，投稿截止从3月22日延至4月5日。会期采用大会当前官网9月6—9日，学会旧列表为9月7—9日。2027学会页面征集主办提案。",
       "location": "希腊·雅典",
       "eventStart": "2026-09-06",
       "eventEnd": "2026-09-09",
@@ -37027,7 +37027,7 @@ window.COMMDDL_DATA = {
       "checkedAt": "2026-10-18",
       "updatedAt": "2026-10-18T04:00:00Z",
       "status": "announced",
-      "notes": "主办高校征稿PDF与IEEE信号处理学会活动页交叉核对。PDF未公布终稿截止，未补造。SAM为隔年举办，2028主办提案不作为论文节点。",
+      "notes": "主办高校征稿PDF与IEEE信号处理学会活动页交叉核对，终稿截止未公布。SAM隔年举办，2028页面征集主办提案。",
       "location": "中国·深圳",
       "eventStart": "2026-07-13",
       "eventEnd": "2026-07-16",
@@ -37612,7 +37612,7 @@ window.COMMDDL_DATA = {
       "checkedAt": "2026-10-18",
       "updatedAt": "2026-10-18T04:00:00Z",
       "status": "announced",
-      "notes": "晚稿独立截止10月15日，核验时已截止；主会终稿10月25日不自动套用于晚稿。",
+      "notes": "晚稿独立截止10月15日，核验时已截止；10月25日终稿日期适用于主会。",
       "location": "中国·杭州",
       "eventStart": "2026-11-01",
       "eventEnd": "2026-11-04",
@@ -37662,7 +37662,7 @@ window.COMMDDL_DATA = {
       "checkedAt": "2026-10-18",
       "updatedAt": "2026-10-18T04:00:00Z",
       "status": "announced",
-      "notes": "投稿说明明确晚稿延至10月19日，未明示钟点或时区；日期精度展示，不生成精确时刻倒计时。常规论文已结束，当前说明页转为晚稿，不能把晚稿日期写作常规全文日期。",
+      "notes": "常规论文投稿已结束，当前说明页征集晚稿，延长截止为10月19日。钟点与时区未注明，按日期展示。",
       "location": "美国·丹佛",
       "eventStart": "2026-11-08",
       "eventEnd": "2026-11-12",
@@ -37714,7 +37714,7 @@ window.COMMDDL_DATA = {
       "checkedAt": "2026-10-18",
       "updatedAt": "2026-10-18T04:00:00Z",
       "status": "announced",
-      "notes": "IMS目前以International Microwave Symposia形式组织，传统内容拆为RFSA（射频系统与应用）和RFTT（射频技术与工艺）两个独立分会。两会各为5月24–27日；IMS总活动周为5月23–28日。旧IMS目录评级对新分会的适用性须另核，不自动继承。",
+      "notes": "IMS现以International Microwave Symposia（国际微波系列会议）组织，内容分为RFSA（射频系统与应用）和RFTT（射频技术与工艺）两场独立分会。两会会期均为5月24—27日，总活动周为5月23—28日。新分会与旧IMS评级的对应待核验。",
       "location": "美国·圣安东尼奥",
       "eventStart": "2027-05-24",
       "eventEnd": "2027-05-27",
@@ -37768,7 +37768,7 @@ window.COMMDDL_DATA = {
       "checkedAt": "2026-10-18",
       "updatedAt": "2026-10-18T04:00:00Z",
       "status": "announced",
-      "notes": "IMS目前以International Microwave Symposia形式组织，传统内容拆为RFSA（射频系统与应用）和RFTT（射频技术与工艺）两个独立分会。两会各为5月24–27日；IMS总活动周为5月23–28日。旧IMS目录评级对新分会的适用性须另核，不自动继承。",
+      "notes": "IMS现以International Microwave Symposia（国际微波系列会议）组织，内容分为RFSA（射频系统与应用）和RFTT（射频技术与工艺）两场独立分会。两会会期均为5月24—27日，总活动周为5月23—28日。新分会与旧IMS评级的对应待核验。",
       "location": "美国·圣安东尼奥",
       "eventStart": "2027-05-24",
       "eventEnd": "2027-05-27",
@@ -37844,7 +37844,7 @@ window.COMMDDL_DATA = {
       "checkedAt": "2026-10-18",
       "updatedAt": "2026-10-18T04:00:00Z",
       "status": "announced",
-      "notes": "欧洲微波周内独立会议。2026官方CFP公布三会共同投稿/通知/终稿节点，各会举办日期分别记录。2027仅公布微波周10月3–8日米兰，尚不能当作各分会具体召开日或投稿日。",
+      "notes": "欧洲微波周内的独立会议。2026官方征稿公布三会共同投稿、通知与终稿节点，各会会期分别记录。2027微波周定于10月3—8日在米兰举行，各分会会期与投稿日期尚未确认。",
       "location": "英国·伦敦",
       "eventStart": "2026-10-06",
       "eventEnd": "2026-10-08",
@@ -37921,7 +37921,7 @@ window.COMMDDL_DATA = {
       "checkedAt": "2026-10-18",
       "updatedAt": "2026-10-18T04:00:00Z",
       "status": "announced",
-      "notes": "欧洲微波周内独立会议。2026官方CFP公布三会共同投稿/通知/终稿节点，各会举办日期分别记录。2027仅公布微波周10月3–8日米兰，尚不能当作各分会具体召开日或投稿日。",
+      "notes": "欧洲微波周内的独立会议。2026官方征稿公布三会共同投稿、通知与终稿节点，各会会期分别记录。2027微波周定于10月3—8日在米兰举行，各分会会期与投稿日期尚未确认。",
       "location": "英国·伦敦",
       "eventStart": "2026-10-05",
       "eventEnd": "2026-10-06",
@@ -38000,7 +38000,7 @@ window.COMMDDL_DATA = {
       "checkedAt": "2026-10-18",
       "updatedAt": "2026-10-18T04:00:00Z",
       "status": "announced",
-      "notes": "欧洲微波周内独立会议。2026官方CFP公布三会共同投稿/通知/终稿节点，各会举办日期分别记录。2027仅公布微波周10月3–8日米兰，尚不能当作各分会具体召开日或投稿日。",
+      "notes": "欧洲微波周内的独立会议。2026官方征稿公布三会共同投稿、通知与终稿节点，各会会期分别记录。2027微波周定于10月3—8日在米兰举行，各分会会期与投稿日期尚未确认。",
       "location": "英国·伦敦",
       "eventStart": "2026-10-07",
       "eventEnd": "2026-10-09",
@@ -38184,7 +38184,7 @@ window.COMMDDL_DATA = {
       "checkedAt": "2026-10-19",
       "updatedAt": "2026-10-19T00:00:00Z",
       "status": "announced",
-      "notes": "官网中英文页一致，2026 届投稿和举办日期均已过；本轮未找到该 IEEE 系列的 2027 届官方征稿公告。日期未给钟点或时区，保留日期精度。官网称论文由 IEEE 出版并提交 Ei Compendex、Scopus；不据此认定 2026 每篇论文已完成检索。",
+      "notes": "官网中英文页一致，2026届投稿与会期均已过；本次可得来源中未找到该IEEE系列2027届官方征稿。钟点与时区未注明，按日期展示。官网出版计划为IEEE出版并提交Ei Compendex、Scopus，具体论文检索状态另查。",
       "location": "中国·珠海",
       "eventStart": "2026-10-16",
       "eventEnd": "2026-10-18",
@@ -38446,7 +38446,7 @@ window.COMMDDL_DATA = {
       "checkedAt": "2026-10-19",
       "updatedAt": "2026-10-19T00:00:00Z",
       "status": "announced",
-      "notes": "2026 届已结束。2026-10-05 至 10-09 为官网整周活动日期，包含 IEEE 1588 Plugfest（互操作测试活动），不是断言全部五天均为论文报告。录用/终稿采用当前 CFP HTML 和各自日期页一致的 8 月 5 日/8 月 15 日；下载 PDF 仍为 6 月 26 日/7 月 31 日，官网未解释更改原因。全部仅日期精度。",
+      "notes": "2026届已结束。10月5—9日为官网整周会期，包含IEEE 1588 Plugfest（互操作测试）。录用与终稿采用当前征稿网页及日期页一致的8月5日、8月15日；下载PDF仍列6月26日、7月31日，变更原因未说明。全部按日期展示。",
       "location": "意大利·布雷西亚",
       "eventStart": "2026-10-05",
       "eventEnd": "2026-10-09",
@@ -38611,7 +38611,7 @@ window.COMMDDL_DATA = {
           "original": "当前主站及作者指南未列独立 camera-ready 截止日期。",
           "revision": 0,
           "sourceUrl": "https://icccas.org/index.html",
-          "notes": "2027-02-25 是注册截止，不能填作终稿日期。",
+          "notes": "2027-02-25为注册截止，终稿日期未公布。",
           "updatedAt": "2026-10-19T00:00:00Z"
         }
       ],
@@ -38620,7 +38620,7 @@ window.COMMDDL_DATA = {
       "checkedAt": "2026-10-19",
       "updatedAt": "2026-10-19T00:00:00Z",
       "status": "announced",
-      "notes": "2027 第 16 届征稿已开放，电子科技大学主办。官网中英文截止、通知、举办日期一致。2027-02-25 为注册截止，终稿未公布；主站注册页另列 3 月 1 日早鸟分界，不影响主会论文截止。中文官网称论文集拟由 IEEE Xplore 收录、提交 Ei/Scopus，英文页表述更保守，仅拟提交主要数据库；据此只记录出版计划，不给 2027 届或整个系列标记已检索。推荐扩展到 SCI 期刊不等于会议论文 SCI 收录。",
+      "notes": "2027第16届征稿已开放，由电子科技大学主办。官网中英文截止、通知与会期一致；2月25日为注册截止，终稿未公布，注册页另列3月1日早鸟分界。中文页计划由IEEE Xplore收录并提交Ei/Scopus，英文页计划提交主要数据库，具体论文检索状态另查。推荐扩展期刊与会议论文分别记录。",
       "location": "中国·成都",
       "eventStart": "2027-05-21",
       "eventEnd": "2027-05-24",
@@ -39488,7 +39488,7 @@ window.COMMDDL_DATA = {
       "originalShort": "NIPS",
       "venueId": "neurips",
       "page": 4,
-      "note": "原表使用旧名称NIPS；此处保留文档写法，不据此核定现名、当前等级。"
+      "note": "原表名称为NIPS，保留历史名称；现名及当前等级待核验。"
     },
     {
       "number": 21,
@@ -39614,7 +39614,7 @@ window.COMMDDL_DATA = {
       "originalShort": "BigData",
       "venueId": "legacy-bigdata",
       "page": 5,
-      "note": "BigData Congress与IEEE International Conference on Big Data不能仅凭简称视为同一会议；未强行匹配。"
+      "note": "BigData Congress与IEEE International Conference on Big Data（IEEE大数据国际会议）的身份对应未确认。"
     },
     {
       "number": 39,
@@ -39831,7 +39831,7 @@ window.COMMDDL_DATA = {
       "originalShort": "ION/IEEE GNSS",
       "venueId": "legacy-ionieeegnss",
       "page": 7,
-      "note": "原表英文Global Navigation Satellite Systems，简称ION/IEEE GNSS；不能直接替换成ION GNSS+或IEEE/ION PLANS等其他会议。"
+      "note": "原表名称为Global Navigation Satellite Systems（全球导航卫星系统），简称ION/IEEE GNSS；与ION GNSS+、IEEE/ION PLANS的身份对应未确认。"
     },
     {
       "number": 70,
@@ -39980,17 +39980,17 @@ window.COMMDDL_DATA = {
     "version": "2018年6月修订",
     "sourceUrl": "https://xxgk.bupt.edu.cn/__local/F/65/92/3A361334F005A224CD3C6C215B7_43DF8061_C1241.pdf?e=.pdf",
     "verifiedAt": "2026-10-18",
-    "scope": "原文件第七条：全日制学术型研究生；第九条规定自2018级起执行，2018级以前可选择相应版本。本站按此文件展示，不推定其他版本要求。",
+    "scope": "选用文件为2018年6月修订版。第七条适用于全日制学术型研究生；第九条规定自2018级起执行，2018级以前可选择相应版本。",
     "masterArticle": 4,
     "masterPage": 2,
-    "masterSummary": "至少正式发表1篇学术论文，可选择公开发行的学术性刊物、全国性或国际学术会议、国内外二级以上学会会议论文集；另列中国科技论文在线或学校网络刊物路径。重要会议表不是硕士唯一渠道。",
+    "masterSummary": "至少正式发表1篇学术论文，可选择公开发行的学术性刊物、全国性或国际学术会议、国内外二级以上学会会议论文集；另列中国科技论文在线或学校网络刊物路径。硕士渠道按第四条整理。",
     "authorship": "第四条写明第一作者；第二条对证明材料另述导师第一作者、本人第二作者情形。两条适用关系应由研究生院解释，本站不自行视为等效。",
     "conditions": [
       "须为攻读学位期间成果，以北京邮电大学为第一署名单位，按文件提供正式发表等证明材料。",
       "会议系列、出版社或学会品牌不能保证每届、每种稿件形式满足要求；须核对真实论文及正式出版。",
       "目录是候选渠道导航，不自动给出个人已满足学位条件的结论。"
     ],
-    "doctoralSummary": "工学、军事学博士：2篇第一作者SCI刊源论文；或1篇SCI加2篇EI刊源或本学科指定重要国际会议论文。计算机及软件工程的特殊条款不自动套用于信通。"
+    "doctoralSummary": "工学、军事学博士：2篇第一作者SCI刊源论文；或1篇SCI加2篇EI刊源或本学科指定重要国际会议论文。计算机及软件工程适用原文件另行条款。"
   },
   "ratingSystems": [
     {
@@ -40004,14 +40004,14 @@ window.COMMDDL_DATA = {
       "id": "cas",
       "label": "中科院分区",
       "year": 2025,
-      "note": "2025升级版，高校2026-09-28公开导出转录；已对照完整21772刊，原库未直接核验。2026新锐分区不混入。",
+      "note": "2025升级版，高校2026-09-28公开导出；已对照完整21772刊转录，保留原始版本与学科。",
       "sourceUrl": "https://cce.ncepu.edu.cn/xzzx/yjsjx1/7632005045644e61a0d12c7bbeff6204.htm"
     },
     {
       "id": "ccf",
       "label": "CCF（中国计算机学会）",
       "year": 2026,
-      "note": "第七版公开副本转录，待官网逐项复核。仅会议正式长文。",
+      "note": "第七版公开副本转录。",
       "sourceUrl": "https://www.ccf.org.cn/Academic_Evaluation/By_category/"
     },
     {

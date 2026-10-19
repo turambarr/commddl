@@ -12,10 +12,10 @@ DTSTART;VALUE=DATE:20270331
 DTEND;VALUE=DATE:20270401
 SUMMARY:JSAC · 下一代水声通信系统 · 稿件提交（日期提示
  ）
-DESCRIPTION:日期提示：官网未明确具体钟点或时区，此全天
- 事件不代表当天任何时间均可投稿。\n\n来源：https://www.c
- omsoc.org/publications/journals/ieee-jsac/cfp/next-generation-underwater-a
- coustic-communication-systems
+DESCRIPTION:日期提示：官网未明确具体钟点或时区，请在投
+ 稿前核对官方系统关闭时间。\n\n来源：https://www.comsoc.org
+ /publications/journals/ieee-jsac/cfp/next-generation-underwater-acoustic-c
+ ommunication-systems
 URL:https://www.comsoc.org/publications/journals/ieee-jsac/cfp/next-generat
  ion-underwater-acoustic-communication-systems
 TRANSP:TRANSPARENT
@@ -27,10 +27,10 @@ LAST-MODIFIED:20261018T040000Z
 SEQUENCE:0
 DTSTART:20270111T115900Z
 SUMMARY:ISIT · ISIT 2027 · 主会论文 · 全文提交
-DESCRIPTION:请同时核对官方投稿入口。\n主会全文与终稿官
- 网明确23:59 AoE（全球最晚时区，UTC−12）。Recent Results为
- 非存档展示，不进入ISIT论文集/IEEE Xplore，不作为正式论
- 文投稿列入。\n来源：https://2027.ieee-isit.org/index.php/
+DESCRIPTION:请同时核对官方投稿入口。\n主会全文与终稿截
+ 止为23:59 AoE（全球最晚时区，UTC−12）。Recent Results（近
+ 期成果）为非存档展示，论文集与IEEE Xplore收录范围为正
+ 式论文。\n来源：https://2027.ieee-isit.org/index.php/
 URL:https://2027.ieee-isit.org/index.php/
 TRANSP:TRANSPARENT
 END:VEVENT
@@ -41,10 +41,9 @@ LAST-MODIFIED:20261018T080000Z
 SEQUENCE:0
 DTSTART:20260827T115900Z
 SUMMARY:MobiCom · MobiCom 2027 · 夏季轮 · 摘要／注册
-DESCRIPTION:请同时核对官方投稿入口。\n夏季轮已截止；冬
- 季轮官网仍TBD，不能由2026往年日期推算；当前主页未提
- 供举办城市。\n来源：https://www.sigmobile.org/mobicom/2027/cfp.ht
- ml
+DESCRIPTION:请同时核对官方投稿入口。\n夏季轮已截止，冬
+ 季轮官网标为TBD（待定），举办城市未公布。\n来源：htt
+ ps://www.sigmobile.org/mobicom/2027/cfp.html
 URL:https://www.sigmobile.org/mobicom/2027/cfp.html
 TRANSP:TRANSPARENT
 END:VEVENT
@@ -56,9 +55,9 @@ SEQUENCE:0
 DTSTART:20260903T115900Z
 SUMMARY:MobiCom · MobiCom 2027 · 夏季轮 · 全文提交
 DESCRIPTION:请同时核对官方投稿入口。\n需先完成摘要或注
- 册等前置步骤。\n夏季轮已截止；冬季轮官网仍TBD，不能
- 由2026往年日期推算；当前主页未提供举办城市。\n来源
- ：https://www.sigmobile.org/mobicom/2027/cfp.html
+ 册等前置步骤。\n夏季轮已截止，冬季轮官网标为TBD（待
+ 定），举办城市未公布。\n来源：https://www.sigmobile.org/mobi
+ com/2027/cfp.html
 URL:https://www.sigmobile.org/mobicom/2027/cfp.html
 TRANSP:TRANSPARENT
 END:VEVENT
@@ -84,13 +83,12 @@ SEQUENCE:0
 DTSTART;VALUE=DATE:20260901
 DTEND;VALUE=DATE:20260902
 SUMMARY:ICCT · ICCT 2026 · 主会论文 · 全文提交（日期提示）
-DESCRIPTION:日期提示：官网未明确具体钟点或时区，此全天
- 事件不代表当天任何时间均可投稿。\n官网中英文页一致
- ，2026 届投稿和举办日期均已过；本轮未找到该 IEEE 系列
- 的 2027 届官方征稿公告。日期未给钟点或时区，保留日
- 期精度。官网称论文由 IEEE 出版并提交 Ei Compendex、Scopus
- ；不据此认定 2026 每篇论文已完成检索。\n来源：https://w
- ww.ieee-icct.org/
+DESCRIPTION:日期提示：官网未明确具体钟点或时区，请在投
+ 稿前核对官方系统关闭时间。\n官网中英文页一致，2026
+ 届投稿与会期均已过；本次可得来源中未找到该IEEE系列2
+ 027届官方征稿。钟点与时区未注明，按日期展示。官网
+ 出版计划为IEEE出版并提交Ei Compendex、Scopus，具体论文检
+ 索状态另查。\n来源：https://www.ieee-icct.org/
 URL:https://www.ieee-icct.org/
 TRANSP:TRANSPARENT
 END:VEVENT

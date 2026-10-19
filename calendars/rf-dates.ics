@@ -12,11 +12,11 @@ DTSTART;VALUE=DATE:20261030
 DTEND;VALUE=DATE:20261031
 SUMMARY:JSAC · 可移动与夹持天线：面向下一代无线网络 · 
  初稿提交（日期提示）
-DESCRIPTION:日期提示：官网未明确具体钟点或时区，此全天
- 事件不代表当天任何时间均可投稿。\n官方注明截止已延
- 期；本版未核实原截止日期，不填推测值。\n来源：https:
- //www.comsoc.org/publications/journals/ieee-jsac/cfp/exploiting-flexible-p
- ositioning-movable-and-pinching-antennas-next-generation-wireless-networks
+DESCRIPTION:日期提示：官网未明确具体钟点或时区，请在投
+ 稿前核对官方系统关闭时间。\n官方注明截止已延期；本
+ 版未核实原截止日期，不填推测值。\n来源：https://www.com
+ soc.org/publications/journals/ieee-jsac/cfp/exploiting-flexible-positionin
+ g-movable-and-pinching-antennas-next-generation-wireless-networks
 URL:https://www.comsoc.org/publications/journals/ieee-jsac/cfp/exploiting-f
  lexible-positioning-movable-and-pinching-antennas-next-generation-wireless
  -networks
@@ -31,11 +31,10 @@ DTSTART;VALUE=DATE:20270101
 DTEND;VALUE=DATE:20270102
 SUMMARY:IEEE WCM · 三维超表面辅助无线通信：从模型到智能
  方法 · 稿件提交（日期提示）
-DESCRIPTION:日期提示：官网未明确具体钟点或时区，此全天
- 事件不代表当天任何时间均可投稿。\n\n来源：https://www.c
- omsoc.org/publications/magazines/ieee-wireless-communications/cfp/3d-metas
- urface-assisted-wireless-communications-model-based-designs-ai-driven-appr
- oaches
+DESCRIPTION:日期提示：官网未明确具体钟点或时区，请在投
+ 稿前核对官方系统关闭时间。\n\n来源：https://www.comsoc.org
+ /publications/magazines/ieee-wireless-communications/cfp/3d-metasurface-as
+ sisted-wireless-communications-model-based-designs-ai-driven-approaches
 URL:https://www.comsoc.org/publications/magazines/ieee-wireless-communicati
  ons/cfp/3d-metasurface-assisted-wireless-communications-model-based-design
  s-ai-driven-approaches
@@ -50,10 +49,10 @@ DTSTART;VALUE=DATE:20270301
 DTEND;VALUE=DATE:20270302
 SUMMARY:IEEE WCM · 从原子到网络：6G 量子射频前端 · 稿件提
  交（日期提示）
-DESCRIPTION:日期提示：官网未明确具体钟点或时区，此全天
- 事件不代表当天任何时间均可投稿。\n\n来源：https://www.c
- omsoc.org/publications/magazines/ieee-wireless-communications/cfp/atomic-n
- etwork-quantum-radio-front-ends-6g-wireless-communications-and-sensing
+DESCRIPTION:日期提示：官网未明确具体钟点或时区，请在投
+ 稿前核对官方系统关闭时间。\n\n来源：https://www.comsoc.org
+ /publications/magazines/ieee-wireless-communications/cfp/atomic-network-qu
+ antum-radio-front-ends-6g-wireless-communications-and-sensing
 URL:https://www.comsoc.org/publications/magazines/ieee-wireless-communicati
  ons/cfp/atomic-network-quantum-radio-front-ends-6g-wireless-communications
  -and-sensing
@@ -67,10 +66,10 @@ SEQUENCE:2
 DTSTART;VALUE=DATE:20260715
 DTEND;VALUE=DATE:20260716
 SUMMARY:ATC · ATC 2026 · 主会论文 · 全文提交（日期提示）
-DESCRIPTION:日期提示：官网未明确具体钟点或时区，此全天
- 事件不代表当天任何时间均可投稿。\n官网只公布日期，
- 未明确截止钟点或时区；以日期精度展示，不补造23:59或
- AoE。\n来源：https://atc-conf.org/call-for-papers/call-for-papers
+DESCRIPTION:日期提示：官网未明确具体钟点或时区，请在投
+ 稿前核对官方系统关闭时间。\n官网公布截止日期，钟点
+ 或时区未注明，按日期展示。\n来源：https://atc-conf.org/cal
+ l-for-papers/call-for-papers
 URL:https://atc-conf.org/call-for-papers/call-for-papers
 TRANSP:TRANSPARENT
 END:VEVENT
@@ -82,11 +81,11 @@ SEQUENCE:1
 DTSTART;VALUE=DATE:20261026
 DTEND;VALUE=DATE:20261027
 SUMMARY:JC&S · JC&S 2027 · 主会论文 · 全文提交（日期提示）
-DESCRIPTION:日期提示：官网未明确具体钟点或时区，此全天
- 事件不代表当天任何时间均可投稿。\n官网总日程1月25–
- 29日含冬季学校；VDE官方活动正文明确主会1月27–29日。
- 采用官网明确延期后的10月26日；不使用旧PDF原截止。官
- 网未明确截止钟点或时区。\n来源：https://jcns-symposium.org/
+DESCRIPTION:日期提示：官网未明确具体钟点或时区，请在投
+ 稿前核对官方系统关闭时间。\n官网总日程1月25–29日含
+ 冬季学校；VDE官方活动正文明确主会1月27–29日。采用官
+ 网明确延期后的10月26日；不使用旧PDF原截止。官网未明
+ 确截止钟点或时区。\n来源：https://jcns-symposium.org/
 URL:https://jcns-symposium.org/
 TRANSP:TRANSPARENT
 END:VEVENT
@@ -98,13 +97,12 @@ SEQUENCE:1
 DTSTART;VALUE=DATE:20261026
 DTEND;VALUE=DATE:20261027
 SUMMARY:JC&S · JC&S 2027 · 演示论文 · 全文提交（日期提示）
-DESCRIPTION:日期提示：官网未明确具体钟点或时区，此全天
- 事件不代表当天任何时间均可投稿。\n官网总日程1月25–
- 29日含冬季学校；VDE官方活动正文明确主会1月27–29日。
- 采用官网明确延期后的10月26日；不使用旧PDF原截止。官
- 网未明确截止钟点或时区。演示投稿为2页摘要，现场演
- 示是必要条件，非6页技术全文。\n来源：https://jcns-symposi
- um.org/
+DESCRIPTION:日期提示：官网未明确具体钟点或时区，请在投
+ 稿前核对官方系统关闭时间。\n官网总日程1月25–29日含
+ 冬季学校；VDE官方活动正文明确主会1月27–29日。采用官
+ 网明确延期后的10月26日；不使用旧PDF原截止。官网未明
+ 确截止钟点或时区。演示投稿为2页摘要，现场演示是必
+ 要条件，非6页技术全文。\n来源：https://jcns-symposium.org/
 URL:https://jcns-symposium.org/
 TRANSP:TRANSPARENT
 END:VEVENT
@@ -116,12 +114,11 @@ SEQUENCE:0
 DTSTART;VALUE=DATE:20260128
 DTEND;VALUE=DATE:20260129
 SUMMARY:SAM · SAM 2026 · 主会论文 · 全文提交（日期提示）
-DESCRIPTION:日期提示：官网未明确具体钟点或时区，此全天
- 事件不代表当天任何时间均可投稿。\n主办高校征稿PDF与
- IEEE信号处理学会活动页交叉核对。PDF未公布终稿截止，
- 未补造。SAM为隔年举办，2028主办提案不作为论文节点。\
- n来源：https://www.tu-ilmenau.de/fileadmin/Bereiche/EI/nt/pdfs/upload_2
- 025/SAM2026_CFP_flyer_092025.pdf
+DESCRIPTION:日期提示：官网未明确具体钟点或时区，请在投
+ 稿前核对官方系统关闭时间。\n主办高校征稿PDF与IEEE信
+ 号处理学会活动页交叉核对，终稿截止未公布。SAM隔年
+ 举办，2028页面征集主办提案。\n来源：https://www.tu-ilmenau.
+ de/fileadmin/Bereiche/EI/nt/pdfs/upload_2025/SAM2026_CFP_flyer_092025.pdf
 URL:https://www.tu-ilmenau.de/fileadmin/Bereiche/EI/nt/pdfs/upload_2025/SAM
  2026_CFP_flyer_092025.pdf
 TRANSP:TRANSPARENT
@@ -134,12 +131,11 @@ SEQUENCE:0
 DTSTART;VALUE=DATE:20260507
 DTEND;VALUE=DATE:20260508
 SUMMARY:SAM · SAM 2026 · 主会论文 · 作者注册（日期提示）
-DESCRIPTION:日期提示：官网未明确具体钟点或时区，此全天
- 事件不代表当天任何时间均可投稿。\n主办高校征稿PDF与
- IEEE信号处理学会活动页交叉核对。PDF未公布终稿截止，
- 未补造。SAM为隔年举办，2028主办提案不作为论文节点。\
- n来源：https://www.tu-ilmenau.de/fileadmin/Bereiche/EI/nt/pdfs/upload_2
- 025/SAM2026_CFP_flyer_092025.pdf
+DESCRIPTION:日期提示：官网未明确具体钟点或时区，请在投
+ 稿前核对官方系统关闭时间。\n主办高校征稿PDF与IEEE信
+ 号处理学会活动页交叉核对，终稿截止未公布。SAM隔年
+ 举办，2028页面征集主办提案。\n来源：https://www.tu-ilmenau.
+ de/fileadmin/Bereiche/EI/nt/pdfs/upload_2025/SAM2026_CFP_flyer_092025.pdf
 URL:https://www.tu-ilmenau.de/fileadmin/Bereiche/EI/nt/pdfs/upload_2025/SAM
  2026_CFP_flyer_092025.pdf
 TRANSP:TRANSPARENT
@@ -153,13 +149,13 @@ DTSTART;VALUE=DATE:20261208
 DTEND;VALUE=DATE:20261209
 SUMMARY:IMS · IMS 2027 · RFSA 分会论文 · 全文提交（日期提示
  ）
-DESCRIPTION:日期提示：官网未明确具体钟点或时区，此全天
- 事件不代表当天任何时间均可投稿。\nIMS目前以Internationa
- l Microwave Symposia形式组织，传统内容拆为RFSA（射频系统
- 与应用）和RFTT（射频技术与工艺）两个独立分会。两会
- 各为5月24–27日；IMS总活动周为5月23–28日。旧IMS目录评
- 级对新分会的适用性须另核，不自动继承。\n来源：https:
- //ims-ieee.org/authortools2027
+DESCRIPTION:日期提示：官网未明确具体钟点或时区，请在投
+ 稿前核对官方系统关闭时间。\nIMS现以International Microwave 
+ Symposia（国际微波系列会议）组织，内容分为RFSA（射频
+ 系统与应用）和RFTT（射频技术与工艺）两场独立分会。
+ 两会会期均为5月24—27日，总活动周为5月23—28日。新分
+ 会与旧IMS评级的对应待核验。\n来源：https://ims-ieee.org/aut
+ hortools2027
 URL:https://ims-ieee.org/authortools2027
 TRANSP:TRANSPARENT
 END:VEVENT
@@ -172,13 +168,13 @@ DTSTART;VALUE=DATE:20261208
 DTEND;VALUE=DATE:20261209
 SUMMARY:IMS · IMS 2027 · RFTT 分会论文 · 全文提交（日期提示
  ）
-DESCRIPTION:日期提示：官网未明确具体钟点或时区，此全天
- 事件不代表当天任何时间均可投稿。\nIMS目前以Internationa
- l Microwave Symposia形式组织，传统内容拆为RFSA（射频系统
- 与应用）和RFTT（射频技术与工艺）两个独立分会。两会
- 各为5月24–27日；IMS总活动周为5月23–28日。旧IMS目录评
- 级对新分会的适用性须另核，不自动继承。\n来源：https:
- //ims-ieee.org/authortools2027
+DESCRIPTION:日期提示：官网未明确具体钟点或时区，请在投
+ 稿前核对官方系统关闭时间。\nIMS现以International Microwave 
+ Symposia（国际微波系列会议）组织，内容分为RFSA（射频
+ 系统与应用）和RFTT（射频技术与工艺）两场独立分会。
+ 两会会期均为5月24—27日，总活动周为5月23—28日。新分
+ 会与旧IMS评级的对应待核验。\n来源：https://ims-ieee.org/aut
+ hortools2027
 URL:https://ims-ieee.org/authortools2027
 TRANSP:TRANSPARENT
 END:VEVENT
@@ -190,12 +186,12 @@ SEQUENCE:0
 DTSTART;VALUE=DATE:20260327
 DTEND;VALUE=DATE:20260328
 SUMMARY:EuMC · EUMC 2026 · 主会论文 · 全文提交（日期提示）
-DESCRIPTION:日期提示：官网未明确具体钟点或时区，此全天
- 事件不代表当天任何时间均可投稿。\n欧洲微波周内独立
- 会议。2026官方CFP公布三会共同投稿/通知/终稿节点，各
- 会举办日期分别记录。2027仅公布微波周10月3–8日米兰，
- 尚不能当作各分会具体召开日或投稿日。\n来源：https://w
- ww.eumw.eu/wp-content/uploads/2025/10/4997_eumw2026_call_for_papers-06.pdf
+DESCRIPTION:日期提示：官网未明确具体钟点或时区，请在投
+ 稿前核对官方系统关闭时间。\n欧洲微波周内的独立会议
+ 。2026官方征稿公布三会共同投稿、通知与终稿节点，各
+ 会会期分别记录。2027微波周定于10月3—8日在米兰举行，
+ 各分会会期与投稿日期尚未确认。\n来源：https://www.eumw.e
+ u/wp-content/uploads/2025/10/4997_eumw2026_call_for_papers-06.pdf
 URL:https://www.eumw.eu/wp-content/uploads/2025/10/4997_eumw2026_call_for_p
  apers-06.pdf
 TRANSP:TRANSPARENT
@@ -209,12 +205,12 @@ DTSTART;VALUE=DATE:20260327
 DTEND;VALUE=DATE:20260328
 SUMMARY:EuMIC · EUMIC 2026 · 主会论文 · 全文提交（日期提示
  ）
-DESCRIPTION:日期提示：官网未明确具体钟点或时区，此全天
- 事件不代表当天任何时间均可投稿。\n欧洲微波周内独立
- 会议。2026官方CFP公布三会共同投稿/通知/终稿节点，各
- 会举办日期分别记录。2027仅公布微波周10月3–8日米兰，
- 尚不能当作各分会具体召开日或投稿日。\n来源：https://w
- ww.eumw.eu/wp-content/uploads/2025/10/4997_eumw2026_call_for_papers-06.pdf
+DESCRIPTION:日期提示：官网未明确具体钟点或时区，请在投
+ 稿前核对官方系统关闭时间。\n欧洲微波周内的独立会议
+ 。2026官方征稿公布三会共同投稿、通知与终稿节点，各
+ 会会期分别记录。2027微波周定于10月3—8日在米兰举行，
+ 各分会会期与投稿日期尚未确认。\n来源：https://www.eumw.e
+ u/wp-content/uploads/2025/10/4997_eumw2026_call_for_papers-06.pdf
 URL:https://www.eumw.eu/wp-content/uploads/2025/10/4997_eumw2026_call_for_p
  apers-06.pdf
 TRANSP:TRANSPARENT
@@ -228,12 +224,12 @@ DTSTART;VALUE=DATE:20260327
 DTEND;VALUE=DATE:20260328
 SUMMARY:EuRAD · EURAD 2026 · 主会论文 · 全文提交（日期提示
  ）
-DESCRIPTION:日期提示：官网未明确具体钟点或时区，此全天
- 事件不代表当天任何时间均可投稿。\n欧洲微波周内独立
- 会议。2026官方CFP公布三会共同投稿/通知/终稿节点，各
- 会举办日期分别记录。2027仅公布微波周10月3–8日米兰，
- 尚不能当作各分会具体召开日或投稿日。\n来源：https://w
- ww.eumw.eu/wp-content/uploads/2025/10/4997_eumw2026_call_for_papers-06.pdf
+DESCRIPTION:日期提示：官网未明确具体钟点或时区，请在投
+ 稿前核对官方系统关闭时间。\n欧洲微波周内的独立会议
+ 。2026官方征稿公布三会共同投稿、通知与终稿节点，各
+ 会会期分别记录。2027微波周定于10月3—8日在米兰举行，
+ 各分会会期与投稿日期尚未确认。\n来源：https://www.eumw.e
+ u/wp-content/uploads/2025/10/4997_eumw2026_call_for_papers-06.pdf
 URL:https://www.eumw.eu/wp-content/uploads/2025/10/4997_eumw2026_call_for_p
  apers-06.pdf
 TRANSP:TRANSPARENT
@@ -247,14 +243,14 @@ DTSTART;VALUE=DATE:20270222
 DTEND;VALUE=DATE:20270223
 SUMMARY:IET Radar · IET Radar 2027 · 主会论文 · 全文提交（日
  期提示）
-DESCRIPTION:日期提示：官网未明确具体钟点或时区，此全天
- 事件不代表当天任何时间均可投稿。\n2027 届征稿已开放
- ；主会直接提交全文，不把 2026-11-27 的教程提案截止当
- 作论文截止。官网只列日期，未给钟点/时区。出版计划
- 为 IET Digital Library 和 IEEE Xplore，并拟提交 IET Inspec、Ei Com
- pendex、Scopus，不表示当前已检索。该会议为 IET 英国 Radar
-  系列，与 IEEE RadarConf 独立。\n来源：https://radar.theiet.org/
- call-for-submissions/
+DESCRIPTION:日期提示：官网未明确具体钟点或时区，请在投
+ 稿前核对官方系统关闭时间。\n2027 届征稿已开放；主会
+ 直接提交全文，不把 2026-11-27 的教程提案截止当作论文
+ 截止。官网只列日期，未给钟点/时区。出版计划为 IET Di
+ gital Library 和 IEEE Xplore，并拟提交 IET Inspec、Ei Compendex、S
+ copus，不表示当前已检索。该会议为 IET 英国 Radar 系列，
+ 与 IEEE RadarConf 独立。\n来源：https://radar.theiet.org/call-for-s
+ ubmissions/
 URL:https://radar.theiet.org/call-for-submissions/
 TRANSP:TRANSPARENT
 END:VEVENT
@@ -267,16 +263,14 @@ DTSTART;VALUE=DATE:20270101
 DTEND;VALUE=DATE:20270102
 SUMMARY:ICCCAS · ICCCAS 2027 · 主会论文 · 全文提交（日期提
  示）
-DESCRIPTION:日期提示：官网未明确具体钟点或时区，此全天
- 事件不代表当天任何时间均可投稿。\n2027 第 16 届征稿已
- 开放，电子科技大学主办。官网中英文截止、通知、举
- 办日期一致。2027-02-25 为注册截止，终稿未公布；主站注
- 册页另列 3 月 1 日早鸟分界，不影响主会论文截止。中
- 文官网称论文集拟由 IEEE Xplore 收录、提交 Ei/Scopus，英文
- 页表述更保守，仅拟提交主要数据库；据此只记录出版
- 计划，不给 2027 届或整个系列标记已检索。推荐扩展到 S
- CI 期刊不等于会议论文 SCI 收录。\n来源：https://icccas.org/
- index.html
+DESCRIPTION:日期提示：官网未明确具体钟点或时区，请在投
+ 稿前核对官方系统关闭时间。\n2027第16届征稿已开放，由
+ 电子科技大学主办。官网中英文截止、通知与会期一致
+ ；2月25日为注册截止，终稿未公布，注册页另列3月1日早
+ 鸟分界。中文页计划由IEEE Xplore收录并提交Ei/Scopus，英文
+ 页计划提交主要数据库，具体论文检索状态另查。推荐
+ 扩展期刊与会议论文分别记录。\n来源：https://icccas.org/in
+ dex.html
 URL:https://icccas.org/index.html
 TRANSP:TRANSPARENT
 END:VEVENT

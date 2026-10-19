@@ -223,7 +223,7 @@
     for (const {call, node} of eligibleNodes(calls, options.includeDateOnly === true)) {
       const v = map.get(call.venueId);
       const dateOnly = node.precision === 'date';
-      const note = dateOnly ? '日期提示：官网未明确具体钟点或时区，此全天事件不代表当天任何时间均可投稿。' : '请同时核对官方投稿入口。';
+      const note = dateOnly ? '日期提示：官网未明确具体钟点或时区，请在投稿前核对官方系统关闭时间。' : '请同时核对官方投稿入口。';
       const prerequisite = (node.requires || []).length ? '\n需先完成摘要或注册等前置步骤。' : '';
       lines.push('BEGIN:VEVENT', 'UID:' + call.id + '-' + node.id + '@commddl', 'DTSTAMP:' + icsUTC(generated), 'LAST-MODIFIED:' + icsUTC(call.updatedAt || generated), 'SEQUENCE:' + (node.revision || 0));
       if (dateOnly) {

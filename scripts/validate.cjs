@@ -85,4 +85,4 @@ for(const call of data.calls){
 requireThat(data.legacyMappings?.length===89&&new Set(data.legacyMappings.map(m=>m.number)).size===89&&data.legacyMappings.every(m=>venueIds.has(m.venueId)&&Number.isInteger(m.page)), '2018 legacy mapping must account for all 89 numbered entries');
 requireThat(data.policy?.masterArticle===4&&url(data.policy.sourceUrl), 'Missing selected master policy source');
 if(errors.length){console.error(errors.join('\n'));process.exit(1);}
-console.log(`数据校验通过：${data.venues.length} 个载体，${data.calls.length} 项活动。格式检查不替代官方事实核验。`);
+console.log(`目录结构校验通过：${data.venues.length} 个载体，${data.calls.length} 项活动。`);

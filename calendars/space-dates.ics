@@ -12,10 +12,10 @@ DTSTART;VALUE=DATE:20261101
 DTEND;VALUE=DATE:20261102
 SUMMARY:IEEE WCM · 在轨计算：迈向空间智能时代 · 稿件提交
  （日期提示）
-DESCRIPTION:日期提示：官网未明确具体钟点或时区，此全天
- 事件不代表当天任何时间均可投稿。\n\n来源：https://www.c
- omsoc.org/publications/magazines/ieee-wireless-communications/cfp/orbit-co
- mputing-striding-era-space-centric-intelligence
+DESCRIPTION:日期提示：官网未明确具体钟点或时区，请在投
+ 稿前核对官方系统关闭时间。\n\n来源：https://www.comsoc.org
+ /publications/magazines/ieee-wireless-communications/cfp/orbit-computing-s
+ triding-era-space-centric-intelligence
 URL:https://www.comsoc.org/publications/magazines/ieee-wireless-communicati
  ons/cfp/orbit-computing-striding-era-space-centric-intelligence
 TRANSP:TRANSPARENT
@@ -29,10 +29,10 @@ DTSTART;VALUE=DATE:20270301
 DTEND;VALUE=DATE:20270302
 SUMMARY:IEEE WCM · 从原子到网络：6G 量子射频前端 · 稿件提
  交（日期提示）
-DESCRIPTION:日期提示：官网未明确具体钟点或时区，此全天
- 事件不代表当天任何时间均可投稿。\n\n来源：https://www.c
- omsoc.org/publications/magazines/ieee-wireless-communications/cfp/atomic-n
- etwork-quantum-radio-front-ends-6g-wireless-communications-and-sensing
+DESCRIPTION:日期提示：官网未明确具体钟点或时区，请在投
+ 稿前核对官方系统关闭时间。\n\n来源：https://www.comsoc.org
+ /publications/magazines/ieee-wireless-communications/cfp/atomic-network-qu
+ antum-radio-front-ends-6g-wireless-communications-and-sensing
 URL:https://www.comsoc.org/publications/magazines/ieee-wireless-communicati
  ons/cfp/atomic-network-quantum-radio-front-ends-6g-wireless-communications
  -and-sensing
@@ -47,12 +47,12 @@ DTSTART;VALUE=DATE:20260531
 DTEND;VALUE=DATE:20260601
 SUMMARY:MILCOM · MILCOM 2026 · 非涉密主会论文 · 全文提交（
  日期提示）
-DESCRIPTION:日期提示：官网未明确具体钟点或时区，此全天
- 事件不代表当天任何时间均可投稿。\n仅收录公开非涉密
- 论文通道。官方Important Dates标题注明Anywhere on Earth（地球
- 任一时区），未明确钟点，保持日期精度；不混入Restrict
- ed或Classified通道。\n来源：https://milcom2026.ieee-milcom.org/call
- -for-papers/call-unclassified-technical-papers
+DESCRIPTION:日期提示：官网未明确具体钟点或时区，请在投
+ 稿前核对官方系统关闭时间。\n仅收录公开非涉密论文通
+ 道。官方Important Dates标题注明Anywhere on Earth（地球任一时
+ 区），未明确钟点，保持日期精度；不混入Restricted或Clas
+ sified通道。\n来源：https://milcom2026.ieee-milcom.org/call-for-pape
+ rs/call-unclassified-technical-papers
 URL:https://milcom2026.ieee-milcom.org/call-for-papers/call-unclassified-te
  chnical-papers
 TRANSP:TRANSPARENT
@@ -65,10 +65,10 @@ SEQUENCE:0
 DTSTART;VALUE=DATE:20260607
 DTEND;VALUE=DATE:20260608
 SUMMARY:ISNCC · ISNCC 2026 · 全文提交（日期提示）
-DESCRIPTION:日期提示：官网未明确具体钟点或时区，此全天
- 事件不代表当天任何时间均可投稿。\n主会全文已截止，
- 采用官网最新最终延期6月7日；工业论坛摘要或博士论坛
- 非主会全文，不混入本条。\n来源：https://www.isncc-conf.org/
+DESCRIPTION:日期提示：官网未明确具体钟点或时区，请在投
+ 稿前核对官方系统关闭时间。\n主会全文已截止，采用官
+ 网最新最终延期6月7日；工业论坛摘要或博士论坛非主会
+ 全文，不混入本条。\n来源：https://www.isncc-conf.org/
 URL:https://www.isncc-conf.org/
 TRANSP:TRANSPARENT
 END:VEVENT
@@ -80,12 +80,12 @@ SEQUENCE:0
 DTSTART;VALUE=DATE:20260510
 DTEND;VALUE=DATE:20260511
 SUMMARY:IPIN · IPIN 2026 · 主会论文 · 全文提交（日期提示）
-DESCRIPTION:日期提示：官网未明确具体钟点或时区，此全天
- 事件不代表当天任何时间均可投稿。\n当前官网明确论文
- 延期至5月10日硬截止，终稿延期至8月31日硬截止。初版CF
- P仍为4月26日/8月15日，采用当前首页延期信息。2027只有
- 届次指向，未核得下一届日期或征稿。\n来源：https://ipin
- -conference.org/2026/
+DESCRIPTION:日期提示：官网未明确具体钟点或时区，请在投
+ 稿前核对官方系统关闭时间。\n当前官网明确论文延期至
+ 5月10日硬截止，终稿延期至8月31日硬截止。初版CFP仍为4
+ 月26日/8月15日，采用当前首页延期信息。2027只有届次指
+ 向，未核得下一届日期或征稿。\n来源：https://ipin-conferen
+ ce.org/2026/
 URL:https://ipin-conference.org/2026/
 TRANSP:TRANSPARENT
 END:VEVENT
@@ -98,14 +98,14 @@ DTSTART;VALUE=DATE:20270222
 DTEND;VALUE=DATE:20270223
 SUMMARY:IET Radar · IET Radar 2027 · 主会论文 · 全文提交（日
  期提示）
-DESCRIPTION:日期提示：官网未明确具体钟点或时区，此全天
- 事件不代表当天任何时间均可投稿。\n2027 届征稿已开放
- ；主会直接提交全文，不把 2026-11-27 的教程提案截止当
- 作论文截止。官网只列日期，未给钟点/时区。出版计划
- 为 IET Digital Library 和 IEEE Xplore，并拟提交 IET Inspec、Ei Com
- pendex、Scopus，不表示当前已检索。该会议为 IET 英国 Radar
-  系列，与 IEEE RadarConf 独立。\n来源：https://radar.theiet.org/
- call-for-submissions/
+DESCRIPTION:日期提示：官网未明确具体钟点或时区，请在投
+ 稿前核对官方系统关闭时间。\n2027 届征稿已开放；主会
+ 直接提交全文，不把 2026-11-27 的教程提案截止当作论文
+ 截止。官网只列日期，未给钟点/时区。出版计划为 IET Di
+ gital Library 和 IEEE Xplore，并拟提交 IET Inspec、Ei Compendex、S
+ copus，不表示当前已检索。该会议为 IET 英国 Radar 系列，
+ 与 IEEE RadarConf 独立。\n来源：https://radar.theiet.org/call-for-s
+ ubmissions/
 URL:https://radar.theiet.org/call-for-submissions/
 TRANSP:TRANSPARENT
 END:VEVENT

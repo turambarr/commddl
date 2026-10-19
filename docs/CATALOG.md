@@ -1,15 +1,15 @@
-# v0.7.0 目录与证据覆盖
+# v0.7.1 目录与证据覆盖
 
 整理日期：2026-10-19。通信目录 142 本期刊、142 个会议系列；历史参考库 39 项。9 个方向、37 个主题。具体活动另计 86 项。
 
 ## 评级版本
 
 - JCR（期刊引证报告） 2025：优先2025 JCR（IEEE出版社，2026年9月快照）；缺项使用2024 JCR政府转录（2025年6月），每条单独注明年份和学科。 [来源](https://open.ieee.org/wp-content/uploads/IEEE-Title-List-September-2026.pdf)
-- 中科院分区 2025：2025升级版，高校2026-09-28公开导出转录；已对照完整21772刊，原库未直接核验。2026新锐分区不混入。 [来源](https://cce.ncepu.edu.cn/xzzx/yjsjx1/7632005045644e61a0d12c7bbeff6204.htm)
-- CCF（中国计算机学会） 2026：第七版公开副本转录，待官网逐项复核。仅会议正式长文。 [来源](https://www.ccf.org.cn/Academic_Evaluation/By_category/)
+- 中科院分区 2025：2025升级版，高校2026-09-28公开导出；已对照完整21772刊转录，保留原始版本与学科。 [来源](https://cce.ncepu.edu.cn/xzzx/yjsjx1/7632005045644e61a0d12c7bbeff6204.htm)
+- CCF（中国计算机学会） 2026：第七版公开副本转录。 [来源](https://www.ccf.org.cn/Academic_Evaluation/By_category/)
 - ICORE（国际合作会议评级） 2026：已对照 ICORE2026 官方完整库987条；非等级、未列入和身份未明确分别记录。 [来源](https://portal.core.edu.au/conf-ranks/)
 
-同一体系多选为或，不同体系为且；主题分类与评级属性独立。未列入只针对已检查的版本；转录记录不升级为最新一手证据。
+同一体系多选为或，不同体系为且；主题分类与评级属性独立。未列入对应已检查版本，转录注明原始年份和来源。
 
 ## 方向覆盖
 
@@ -388,7 +388,7 @@
 | 17 | ITSC | itsc | 4 |  |
 | 18 | KDD | kdd | 4 | 与第24项SIGKDD按名称及研究对象指向同一会议，保留原表两项。 |
 | 19 | MobiSys | mobisys | 4 |  |
-| 20 | NIPS | neurips | 4 | 原表使用旧名称NIPS；此处保留文档写法，不据此核定现名、当前等级。 |
+| 20 | NIPS | neurips | 4 | 原表名称为NIPS，保留历史名称；现名及当前等级待核验。 |
 | 21 | OFC | ofc | 4 |  |
 | 22 | SIGCOMM | sigcomm | 4 |  |
 | 23 | SIGIR | sigir | 4 |  |
@@ -406,7 +406,7 @@
 | 35 | APMC | apmc | 5 |  |
 | 36 | APNOMS | apnoms | 5 |  |
 | 37 | APS | aps-ursi | 5 | 原表简称APS；具体规范名称及届次需核实。 |
-| 38 | BigData | legacy-bigdata | 5 | BigData Congress与IEEE International Conference on Big Data不能仅凭简称视为同一会议；未强行匹配。 |
+| 38 | BigData | legacy-bigdata | 5 | BigData Congress与IEEE International Conference on Big Data（IEEE大数据国际会议）的身份对应未确认。 |
 | 39 | BMVC | bmvc | 5 |  |
 | 40 | BodyNets | bodynets | 5 |  |
 | 41 | BSN | legacy-bsn | 5 | 原表英文Body Area Networks Conference及简称BSN存在身份核对需求。 |
@@ -437,7 +437,7 @@
 | 66 | IGARSS | igarss | 7 |  |
 | 67 | IM | im | 7 |  |
 | 68 | IMS | ims | 7 |  |
-| 69 | ION/IEEE GNSS | legacy-ionieeegnss | 7 | 原表英文Global Navigation Satellite Systems，简称ION/IEEE GNSS；不能直接替换成ION GNSS+或IEEE/ION PLANS等其他会议。 |
+| 69 | ION/IEEE GNSS | legacy-ionieeegnss | 7 | 原表名称为Global Navigation Satellite Systems（全球导航卫星系统），简称ION/IEEE GNSS；与ION GNSS+、IEEE/ION PLANS的身份对应未确认。 |
 | 70 | IPC | ipc | 7 |  |
 | 71 | ISAP | isap | 7 |  |
 | 72 | ISCSLP | iscslp | 7 |  |
