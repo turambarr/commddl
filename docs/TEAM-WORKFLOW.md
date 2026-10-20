@@ -73,7 +73,15 @@ git diff --check
 - **Settings → Collaborators（设置 → 协作者）**：普通开发者使用写权限，管理员权限按实际职责授予。
 - Actions 中的访问令牌、邮件及后台服务凭据由维护者配置；需要使用时提供测试环境或最小权限凭据，不在文档中填写真实值。
 
-GitHub 官方说明：[分支保护](https://docs.github.com/en/repositories/configuring-branches-and-merges-in-your-repository/managing-protected-branches/about-protected-branches) · [指定代码审核负责人](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-code-owners)。团队职责稳定后，可增加 `CODEOWNERS`（代码负责人清单）按目录分配审核者；先确定真实负责人，再配置对应账号。
+GitHub 官方说明：[分支保护](https://docs.github.com/en/repositories/configuring-branches-and-merges-in-your-repository/managing-protected-branches/about-protected-branches) · [指定代码审核负责人](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-code-owners)。审核职责变更时，通过 PR 修改 `CODEOWNERS`（代码负责人清单），先确定真实负责人，再配置对应账号。
+
+## 当前审核负责人
+
+2026-10-20 已通过 GitHub 设置并回读确认：`main` 必须经过 PR、一人批准和代码负责人审核；两项检查均限定由 GitHub Actions 提供，要求分支与主分支保持最新；新修改使旧审批失效，审核讨论需处理完毕，禁止强推和删除，管理员同样受约束。该段是当日设置记录，后续以仓库实际保护规则为准。
+
+按维护者约定，由仓库所有者 `@turambarr` 审批协作者的修改。[CODEOWNERS（代码审核负责人清单）](../.github/CODEOWNERS)使用 `* @turambarr` 覆盖全部文件，配合分支保护中的 Require review from Code Owners（必须由代码负责人批准）。该清单必须先进入目标分支 `main`，之后面向该分支的 PR 才会采用它；仅在任务分支中创建文件不会立即指定正式审核人。
+
+需要特别区分登录账号：PR 的作者不能批准自己的 PR。如果开发者或 Agent 使用 `turambarr` 的凭据创建 PR，该 PR 仍需要另一位有写权限的协作者批准；应由各成员使用自己的账号提交修改，再交给 `turambarr` 审核。不要为了规避作者限制而共享账号、伪造审核或关闭保护。
 
 ## 给 Agent 的任务开场
 
