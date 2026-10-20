@@ -73,6 +73,8 @@
 | A-SSCC | CORE / ICORE | 2026 | 所查版本未列入 | 2026-10-20 | 已在ICORE2026完整快照按全称、已核实旧名及简称复查，未取得本系列的明确对应记录；继续查历年版本。 [来源](https://portal.core.edu.au/conf-ranks/?search=&by=all&source=ICORE2026&sort=atitle) |
 | ATC | CCF | 2026 | 所查版本未列入 | 2026-10-18 | 按正式全称、历史名称及简称对照完整386个CCF会议条目，未列该系列。 已排除 USENIX Annual Technical Conference（USENIX年度技术会议）及 ICORE International Conference on Advanced and Trusted Computing（先进与可信计算会议）等同缩写会议。 [来源](https://scdm-shu.github.io/ccf/2026-CCF-Ranking.pdf) |
 | ATC | CORE / ICORE | 2026 | 所查版本未列入 | 2026-10-18 | 按正式全称、历史名称及简称对照完整20页987个ICORE记录，未列该系列。 已排除 USENIX Annual Technical Conference（USENIX年度技术会议）及 ICORE International Conference on Advanced and Trusted Computing（先进与可信计算会议）等同缩写会议。 [来源](https://portal.core.edu.au/conf-ranks/?search=&by=all&source=ICORE2026&sort=atitle) |
+| AVFOP | CCF | 2026 | 待核验 | 2026-10-20 | 官方作者页确认独立会议论文集及摘要提交形式；等级按独立目录另查。 |
+| AVFOP | CORE / ICORE | 2026 | 所查版本未列入 | 2026-10-20 | 按全称、Avionics/Fiber-Optics/Photonics旧名组合核对官方完整987条快照；未取得本系列明确对应等级。 [来源](https://portal.core.edu.au/conf-ranks/?search=&by=all&source=ICORE2026&sort=atitle) |
 | AWPL | CCF | 2026 | 所查版本未列入 | 2026-10-18 | 按英文全名、缩写及已知旧名核对CCF2026公开副本全部295项期刊记录，未列入该版。 [来源](https://scdm-shu.github.io/ccf/2026-CCF-Ranking.pdf) |
 | BalkanCom | CCF | 2026 | 待核验 | 2026-10-20 | 本次已核对会议身份；评级需补充对应完整系列的独立证据，未采用汇编推断。 |
 | BalkanCom | CORE / ICORE | 2026 | 所查版本未列入 | 2026-10-20 | 已在ICORE2026完整快照按全称、已核实旧名及简称复查，未取得本系列的明确对应记录；继续查历年版本。 [来源](https://portal.core.edu.au/conf-ranks/?search=&by=all&source=ICORE2026&sort=atitle) |

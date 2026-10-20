@@ -1,6 +1,6 @@
 # v0.10.0 目录与证据覆盖
 
-整理日期：2026-10-20。通信目录 325 本期刊、339 个会议系列；历史参考库 41 项。9 个方向、46 个主题。具体活动另计 93 项。
+整理日期：2026-10-20。通信目录 325 本期刊、340 个会议系列；历史参考库 41 项。9 个方向、46 个主题。具体活动另计 93 项。
 
 ## 评级版本
 
@@ -21,9 +21,9 @@
 | SP | 信号处理与通感 | 88 | 83 |
 | IT | 信息论与编码 | 34 | 54 |
 | NET | 网络与移动系统 | 110 | 174 |
-| OPT | 光通信与光网络 | 64 | 37 |
+| OPT | 光通信与光网络 | 64 | 38 |
 | EM | 天线射频与电磁 | 110 | 79 |
-| SAT | 卫星与空天地通信 | 22 | 25 |
+| SAT | 卫星与空天地通信 | 22 | 26 |
 | IoT | 物联网与车联网 | 42 | 50 |
 | AI | 智能通信与网络 | 57 | 41 |
 
@@ -396,6 +396,7 @@
 | ASRU | IEEE Workshop on Automatic Speech Recognition and Understanding | CCF 2026 —（所查版本未列入）；CORE / ICORE 2026 —（所查版本未列入） | [身份来源](https://signalprocessingsociety.org/events/conferences) · 2026-10-19 |
 | A-SSCC | IEEE Asian Solid-State Circuits Conference | CCF 2026 —（待核验）；CORE / ICORE 2026 —（所查版本未列入） | [身份来源](https://www.cie.org.cn/static/upload/file/20221202/1669968111348411.pdf) · 2026-10-20 |
 | ATC | International Conference on Advanced Technologies for Communications | CCF 2026 —（所查版本未列入）；CORE / ICORE 2026 —（所查版本未列入） | [身份来源](https://atc-conf.org/call-for-papers/call-for-papers) · 2026-10-18 |
+| AVFOP | IEEE Avionics and Vehicle Fiber-Optics and Photonics Conference | CCF 2026 —（待核验）；CORE / ICORE 2026 —（所查版本未列入） | [身份来源](https://ieee-avfop.org/paper-submission/) · 2026-10-20 |
 | BalkanCom | International Balkan Conference on Communications and Networking | CCF 2026 —（待核验）；CORE / ICORE 2026 —（所查版本未列入） | [身份来源](https://www.balkancom.info/2026/index.html) · 2026-10-20 |
 | BCICTS | IEEE BiCMOS and Compound Semiconductor Integrated Circuits and Technology Symposium | CCF 2026 —（所查版本未列入）；CORE / ICORE 2026 —（所查版本未列入） | [身份来源](https://mtt.org/mtt-s-sponsored-conferences/) · 2026-10-19 |
 | BlackSeaCom | IEEE International Black Sea Conference on Communications and Networking | CCF 2026 —（所查版本未列入）；CORE / ICORE 2026 —（所查版本未列入） | [身份来源](https://www.comsoc.org/conferences-events/portfolio-conferences-events) · 2026-10-18 |

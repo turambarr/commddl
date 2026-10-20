@@ -24,14 +24,14 @@
     "jsonUniqueIds": 682,
     "journalRows": 263,
     "journalMatches": 263,
-    "addedVenues": 124,
-    "addedActiveConferences": 123,
+    "addedVenues": 125,
+    "addedActiveConferences": 124,
     "addedArchives": 1,
     "addedCcfRanks": 46,
     "addedCoreRanks": 59,
     "addedHistoricalCoreRanks": 7,
     "activeJournals": 325,
-    "activeConferences": 339,
+    "activeConferences": 340,
     "archives": 41,
     "sourceCalls": 93,
     "publishedCalls": 89,
@@ -39,8 +39,8 @@
       "existing": 201,
       "outside-communications": 216,
       "identity-review": 7,
-      "source-review": 110,
-      "added": 133,
+      "source-review": 109,
+      "added": 134,
       "activity-group": 11,
       "publication-form-review": 7
     },
@@ -511,6 +511,34 @@
           "snapshotDate": "2026-10-19",
           "reviewedAt": "2026-10-20",
           "note": "已在ICORE2026完整快照按全称、已核实旧名及简称复查，未取得本系列的明确对应记录；继续查历年版本。"
+        }
+      ]
+    },
+    {
+      "id": "avfop",
+      "path": "data/venues/space/avfop.yml",
+      "name": "IEEE Avionics and Vehicle Fiber-Optics and Photonics Conference",
+      "sourceUrl": "https://ieee-avfop.org/paper-submission/",
+      "sourceType": "official",
+      "identitySourceYear": null,
+      "evaluations": [
+        {
+          "system": "ccf",
+          "year": 2026,
+          "status": "pending",
+          "value": null,
+          "reviewedAt": "2026-10-20",
+          "note": "官方作者页确认独立会议论文集及摘要提交形式；等级按独立目录另查。"
+        },
+        {
+          "system": "core",
+          "year": 2026,
+          "status": "unlisted",
+          "value": null,
+          "sourceUrl": "https://portal.core.edu.au/conf-ranks/?search=&by=all&source=ICORE2026&sort=atitle",
+          "snapshotDate": "2026-10-19",
+          "reviewedAt": "2026-10-20",
+          "note": "按全称、Avionics/Fiber-Optics/Photonics旧名组合核对官方完整987条快照；未取得本系列明确对应等级。"
         }
       ]
     },
@@ -7570,8 +7598,9 @@
       "inputId": "avfop",
       "name": "IEEE Avionics and Vehicle Fiber-Optics & Photonics Conference",
       "inputArea": "SAT",
-      "outcome": "source-review",
-      "reason": "保留会议线索及原分类；仍需补充独立身份、有效系列或正式出版资料。"
+      "outcome": "added",
+      "venueId": "avfop",
+      "reason": "对应稳定载体编号；新条目有独立身份来源，已有条目保留原有字段。"
     },
     {
       "row": 105,
@@ -13090,7 +13119,7 @@
     "CS_B": 126,
     "CS_C": 165,
     "SE": 129,
-    "note": "汇编编号覆盖完整不等于身份去重、评级和毕业资格已逐项获证。"
+    "note": "来源编号覆盖不等于身份去重、评级和毕业资格已逐项获证。"
   },
   "corrections": {
     "gfp": "映射已有siphotonics，核对IEEE官方更名记录。",

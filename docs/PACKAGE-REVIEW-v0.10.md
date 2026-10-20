@@ -20,8 +20,8 @@
 
 ## 本次加入
 
-- 新增124个独立会议载体：123个进入主目录，ISPLC作为历史会议保留。
-- 目录达到325本主目录期刊、339个主目录会议、41项历史参考。
+- 新增125个独立会议载体：124个进入主目录，ISPLC作为历史会议保留。
+- 目录达到325本主目录期刊、340个主目录会议、41项历史参考。
 - 新增载体中46项有CCF明确等级，59项有CORE明确等级；其中7项采用有明确数值的历史CORE版本。两组有重叠，不相加作为会议总数。
 - CCF2026来自独立公开副本，标为副本证据；CORE使用本项目2026-10-19保存的官方完整库快照，本次重新读取、按全称及核实旧名匹配，保留快照日期和原始年份。
 - 已有期刊的SCI/SCIE索引、分区、历年等级和来源保持原记录。材料中的未注明依据数值没有覆盖原证据。
@@ -40,13 +40,13 @@
 
 ## 逐项处置
 
-685条JSON候选和263条期刊逐行保存在[维护审计](../maintenance/catalog-package-v0.10.json)。同一新增载体可能被多个候选记录引用，因此“added”行数与124个新增载体不同。
+685条JSON候选和263条期刊逐行保存在[维护审计](../maintenance/catalog-package-v0.10.json)。同一新增载体可能被多个候选记录引用，因此“added”行数与125个新增载体不同。
 
 - `existing`：201行。
 - `outside-communications`：216行。
 - `identity-review`：7行。
-- `source-review`：110行。
-- `added`：133行。
+- `source-review`：109行。
+- `added`：134行。
 - `activity-group`：11行。
 - `publication-form-review`：7行。
 
@@ -69,6 +69,6 @@
 | 网络与移动系统 | [acisp](../data/venues/network/acisp.yml)、[acns](../data/venues/network/acns.yml)、[acsac](../data/venues/network/acsac.yml)、[aina](../data/venues/network/aina.yml)、[asiaccs](../data/venues/network/asiaccs.yml)、[cloud](../data/venues/network/cloud.yml)、[drcn](../data/venues/network/drcn.yml)、[esorics](../data/venues/network/esorics.yml)、[giis](../data/venues/network/giis.yml)、[hpcc](../data/venues/network/hpcc.yml)、[icdcs](../data/venues/network/icdcs.yml)、[icics](../data/venues/network/icics.yml)、[icpads](../data/venues/network/icpads.yml)、[isc](../data/venues/network/isc.yml)、[itc-teletraffic](../data/venues/network/itc-teletraffic.yml)、[mascots](../data/venues/network/mascots.yml)、[nocs](../data/venues/network/nocs.yml)、[npc](../data/venues/network/npc.yml)、[pam](../data/venues/network/pam.yml)、[pets](../data/venues/network/pets.yml)、[raid](../data/venues/network/raid.yml)、[sec](../data/venues/network/sec.yml)、[socc-cloud](../data/venues/network/socc-cloud.yml)、[sosr](../data/venues/network/sosr.yml)、[srds](../data/venues/network/srds.yml)、[tma](../data/venues/network/tma.yml)、[trustcom](../data/venues/network/trustcom.yml) |
 | 光通信与光网络 | [apos](../data/venues/optical/apos.yml)、[ciop](../data/venues/optical/ciop.yml)、[cos-annual](../data/venues/optical/cos-annual.yml)、[ecio](../data/venues/optical/ecio.yml)、[iprsn](../data/venues/optical/iprsn.yml)、[moc](../data/venues/optical/moc.yml)、[networks-optica](../data/venues/optical/networks-optica.yml)、[pgc](../data/venues/optical/pgc.yml)、[pw](../data/venues/optical/pw.yml)、[sppcom](../data/venues/optical/sppcom.yml) |
 | 天线射频与电磁 | [aces](../data/venues/rf/aces.yml)、[apemc](../data/venues/rf/apemc.yml)、[asscc](../data/venues/rf/asscc.yml)、[cie-emc](../data/venues/rf/cie-emc.yml)、[cie-ncap](../data/venues/rf/cie-ncap.yml)、[cie-ncmmw](../data/venues/rf/cie-ncmmw.yml)、[cie-radio](../data/venues/rf/cie-radio.yml)、[edaps](../data/venues/rf/edaps.yml)、[emceurope](../data/venues/rf/emceurope.yml)、[glsvlsi](../data/venues/rf/glsvlsi.yml)、[iceaa](../data/venues/rf/iceaa.yml)、[iedm](../data/venues/rf/iedm.yml)、[imbioc](../data/venues/rf/imbioc.yml)、[iscas](../data/venues/rf/iscas.yml)、[isvlsi](../data/venues/rf/isvlsi.yml)、[iwem](../data/venues/rf/iwem.yml)、[ursi-aprasc](../data/venues/rf/ursi-aprasc.yml)、[ursi-atrasc](../data/venues/rf/ursi-atrasc.yml)、[ursi-gass](../data/venues/rf/ursi-gass.yml) |
-| 卫星与空天地通信 | [dasc](../data/venues/space/dasc.yml)、[enc](../data/venues/space/enc.yml)、[iac](../data/venues/space/iac.yml) |
+| 卫星与空天地通信 | [avfop](../data/venues/space/avfop.yml)、[dasc](../data/venues/space/dasc.yml)、[enc](../data/venues/space/enc.yml)、[iac](../data/venues/space/iac.yml) |
 | 物联网与车联网 | [ccc-cn](../data/venues/iot/ccc-cn.yml)、[ccdc](../data/venues/iot/ccdc.yml)、[ccf-hhme](../data/venues/iot/ccf-hhme.yml)、[cic-iot](../data/venues/iot/cic-iot.yml)、[coins](../data/venues/iot/coins.yml)、[dcoss](../data/venues/iot/dcoss.yml)、[etfa](../data/venues/iot/etfa.yml)、[ewsn](../data/venues/iot/ewsn.yml)、[icce](../data/venues/iot/icce.yml)、[iecon](../data/venues/iot/iecon.yml)、[ieee-sensors](../data/venues/iot/ieee-sensors.yml)、[indin](../data/venues/iot/indin.yml)、[iv](../data/venues/iot/iv.yml)、[mobiquitous](../data/venues/iot/mobiquitous.yml)、[rfid](../data/venues/iot/rfid.yml)、[smartcomp](../data/venues/iot/smartcomp.yml)、[uic](../data/venues/iot/uic.yml)、[wfcs](../data/venues/iot/wfcs.yml) |
 | 智能通信与网络 | [acml](../data/venues/ai/acml.yml)、[aistats](../data/venues/ai/aistats.yml)、[ecai](../data/venues/ai/ecai.yml)、[ecmlpkdd](../data/venues/ai/ecmlpkdd.yml)、[emnlp](../data/venues/ai/emnlp.yml)、[icann](../data/venues/ai/icann.yml)、[iclr](../data/venues/ai/iclr.yml)、[iconip](../data/venues/ai/iconip.yml)、[ictai](../data/venues/ai/ictai.yml)、[ijcnn](../data/venues/ai/ijcnn.yml)、[kr](../data/venues/ai/kr.yml)、[mmm](../data/venues/ai/mmm.yml)、[pcm](../data/venues/ai/pcm.yml)、[pricai](../data/venues/ai/pricai.yml)、[uai](../data/venues/ai/uai.yml) |

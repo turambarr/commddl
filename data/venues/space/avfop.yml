@@ -1,0 +1,48 @@
+# AVFOP
+# 提交修改请发起 Pull Request（合并请求）；构建产物自动生成。
+id: avfop
+kind: conference
+short: AVFOP
+nameEn: IEEE Avionics and Vehicle Fiber-Optics and Photonics Conference
+nameZh: IEEE航空与车辆光纤及光子技术会议
+aliases:
+  - IEEE Avionics and Vehicle Fiber-Optics & Photonics Conference
+  - Avionics, Fiber-Optics and Photonics
+primaryArea: space
+secondaryAreas:
+  - optical
+areas:
+  - space
+  - optical
+topics:
+  - aerospace
+  - fiber
+  - optical-networks
+publicationType: 学术会议系列
+articleTypes:
+  - 会议论文
+url: https://ieee-avfop.org/paper-submission/
+sourceUrl: https://ieee-avfop.org/paper-submission/
+sourceType: official
+verifiedAt: 2026-10-20
+identityReviewedAt: 2026-10-20
+verification: verified
+catalogStatus: current
+catalogScope: communications
+assessments: []
+evaluations:
+  - system: ccf
+    year: 2026
+    status: pending
+    value: null
+    reviewedAt: 2026-10-20
+    note: 官方作者页确认独立会议论文集及摘要提交形式；等级按独立目录另查。
+  - system: core
+    year: 2026
+    status: unlisted
+    value: null
+    sourceUrl: https://portal.core.edu.au/conf-ranks/?search=&by=all&source=ICORE2026&sort=atitle
+    snapshotDate: 2026-10-19
+    reviewedAt: 2026-10-20
+    note: 按全称、Avionics/Fiber-Optics/Photonics旧名组合核对官方完整987条快照；未取得本系列明确对应等级。
+identityNote: 官方作者页说明两页摘要的会议论文集出版形式；来源未明确当前届次，不补造年度征稿或日期。
