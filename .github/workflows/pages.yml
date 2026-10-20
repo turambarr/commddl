@@ -39,21 +39,25 @@ jobs:
     steps:
       - uses: actions/checkout@v4
         with:
-          ref: main
+          ref: ${{ github.sha }}
+          fetch-depth: 1
       - uses: actions/setup-node@v4
         with:
           node-version: '22'
+          cache: npm
+      - name: Install the service client dependency
+        run: npm ci
       - name: Deploy
         id: deployment
         uses: actions/deploy-pages@v4
       - name: Record the verified deployed commit
-        if: success()
+        if: success() && vars.COMMDDL_RECONCILIATION_ENABLED == 'true'
         env:
           UPDATE_ADMIN_API_URL: ${{ vars.UPDATE_ADMIN_API_URL }}
           UPDATE_INTERNAL_HMAC_SECRET: ${{ secrets.UPDATE_INTERNAL_HMAC_SECRET }}
         run: node scripts/updates/service-client.cjs mark-deployed --sha "${GITHUB_SHA}"
       - name: Record a retryable failed deployment
-        if: always() && steps.deployment.outcome == 'failure'
+        if: always() && vars.COMMDDL_RECONCILIATION_ENABLED == 'true' && steps.deployment.outcome == 'failure'
         env:
           UPDATE_ADMIN_API_URL: ${{ vars.UPDATE_ADMIN_API_URL }}
           UPDATE_INTERNAL_HMAC_SECRET: ${{ secrets.UPDATE_INTERNAL_HMAC_SECRET }}
