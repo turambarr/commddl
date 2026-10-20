@@ -31,7 +31,7 @@
 
 ```text
 npm run check   通过，706 个载体、93 项活动
-npm test        通过，107 项
+npm test        通过，108 项
 npm run build   通过
 git diff --check 通过
 node --check scripts/updates/reconcile-closed-pr.cjs
