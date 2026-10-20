@@ -82,3 +82,18 @@ test('publication preserves primary directions while stripping editorial fields 
  assert(pub.venues.some(v=>v.evaluations.some(e=>e.system==='cic')));
  assert(!pub.calls.some(c=>c.nodes.some(n=>n.precision==='unknown')));
 });
+
+test('XinRui publication keeps version, subject, source and row and excludes similar-name collisions',()=>{
+ const publicData=makePublicCatalog(maintenance),audit=require('../maintenance/xinrui-v0.11.json');
+ const rows=publicData.venues.filter(v=>v.evaluations.some(e=>e.system==='xinrui'));
+ assert.equal(rows.length,248);assert.equal(audit.matched.length,rows.length);
+ for(const v of rows){const e=v.evaluations.find(e=>e.system==='xinrui'),m=audit.matched.find(m=>m.id===v.id);assert(e.year===2026&&e.status==='reported'&&e.sourceType==='document-copy'&&e.category&&e.row&&e.sheet&&e.sourceFileUrl&&e.officialUrl);assert.equal(e.row,m.source.row);assert(m.matchedISSNs.length);}
+ for(const id of ['big-data-journal','xxaqxb'])assert(!publicData.venues.find(v=>v.id===id).evaluations.some(e=>e.system==='xinrui'));
+ assert(!JSON.stringify(publicData).includes('rejectedTitleMatch'));
+});
+test('published BUPT conference markers retain their dated original school source',()=>{
+ const publicData=makePublicCatalog(maintenance),rows=publicData.venues.filter(C.isBuptImportant);
+ assert.equal(rows.length,87);assert.equal(C.filterVenues(publicData.venues,{historical:true}).length,87);
+ assert(rows.every(v=>v.assessments.every(a=>a.year===2018&&a.sourceUrl.includes('xxgk.bupt.edu.cn'))));
+ assert(!publicData.venues.some(v=>v.kind==='journal'&&C.isBuptImportant(v)));
+});

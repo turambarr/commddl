@@ -85,6 +85,25 @@ evaluations:
       - category: TELECOMMUNICATIONS 电信学
         quartile: 4
     note: 高校公开的2025升级版转录，2026-09-28导出，原数据来自期刊分区表平台。按完整刊名或旧名唯一对应，保存大类与全部小类分区。
+  - system: xinrui
+    year: 2026
+    value: "4"
+    status: reported
+    edition: 2026年新锐期刊分区表（高校公开副本，2026-04-01）
+    category: 计算机科学
+    issn: 1751-8784
+    eissn: 1751-8792
+    appliesToName: IET Radar Sonar and Navigation
+    sourceUrl: https://kjc.cdmc.edu.cn/art/2026/4/1/art_299_101218.html
+    sourceFileUrl: https://kjc.cdmc.edu.cn/module/download/downfile.jsp?classid=0&filename=77490d1d77c14c02936e1737479be025.xlsx
+    sourceTitle: 承德医学院科技处公开：2026新锐期刊分区表完整版名单
+    sourceType: document-copy
+    officialUrl: https://www.xr-scholar.com/
+    verifiedAt: 2026-10-20
+    reviewedAt: 2026-10-20
+    sheet: Sheet1
+    row: 20035
+    note: 读取高校公开Excel副本，以既有身份/评级证据中的ISSN或EISSN唯一匹配；采用表中大类分区，保留原始2026版本。新锐与中科院、JCR分别记录。
 indexing:
   value: SCIE
   status: verified

@@ -128,6 +128,25 @@ evaluations:
     category: 人机交互与普适计算
     page: 64
     note: 按完整英文名称核对 CCF2022 目录 PDF 第 64 页。该等级属于 2022 年版本；保存公开副本来源属性。
+  - system: xinrui
+    year: 2026
+    value: "3"
+    status: reported
+    edition: 2026年新锐期刊分区表（高校公开副本，2026-04-01）
+    category: 计算机科学
+    issn: 1574-1192
+    eissn: 1873-1589
+    appliesToName: Pervasive and Mobile Computing
+    sourceUrl: https://kjc.cdmc.edu.cn/art/2026/4/1/art_299_101218.html
+    sourceFileUrl: https://kjc.cdmc.edu.cn/module/download/downfile.jsp?classid=0&filename=77490d1d77c14c02936e1737479be025.xlsx
+    sourceTitle: 承德医学院科技处公开：2026新锐期刊分区表完整版名单
+    sourceType: document-copy
+    officialUrl: https://www.xr-scholar.com/
+    verifiedAt: 2026-10-20
+    reviewedAt: 2026-10-20
+    sheet: Sheet1
+    row: 19778
+    note: 读取高校公开Excel副本，以既有身份/评级证据中的ISSN或EISSN唯一匹配；采用表中大类分区，保留原始2026版本。新锐与中科院、JCR分别记录。
 indexing:
   value: SCIE
   status: reported

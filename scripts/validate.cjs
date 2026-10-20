@@ -40,7 +40,7 @@ for(const v of data.venues){
   for(const ix of v.otherIndexes||[])requireThat(ix.value&&['verified','reported'].includes(ix.status)&&url(ix.sourceUrl)&&C.validDate(ix.verifiedAt)&&ix.note,`${v.id}: other indexes need independent evidence`);
   const systems=new Set();
   for(const e of v.evaluations||[]){
-    requireThat(['jcr','cas','ccf','core','cie','cic'].includes(e.system)&&!systems.has(e.system+':'+e.year),`${v.id}: duplicate/invalid rating system`);systems.add(e.system+':'+e.year);
+    requireThat(['jcr','cas','xinrui','ccf','core','cie','cic'].includes(e.system)&&!systems.has(e.system+':'+e.year),`${v.id}: duplicate/invalid rating system`);systems.add(e.system+':'+e.year);
     requireThat(Number.isInteger(e.year)&&e.year>=2000&&e.note,`${v.id}: rating needs dated scope`);
     requireThat(['verified','reported','pending','not-matched','scope-review','non-ranked','unlisted','unresolved','not-applicable'].includes(e.status),`${v.id}: invalid rating status`);
     if(['verified','reported','non-ranked'].includes(e.status))requireThat(e.value&&url(e.sourceUrl)&&e.sourceTitle&&C.validDate(e.verifiedAt)&&e.sourceType,`${v.id}: published evaluation needs value, source and verification date`);
@@ -48,6 +48,7 @@ for(const v of data.venues){
     if(['unlisted','unresolved'].includes(e.status))requireThat(C.validDate(e.reviewedAt||e.verifiedAt)&&e.note,`${v.id}: reviewed status needs evidence date`);
     if(e.system==='jcr')requireThat(v.kind==='journal'&&(!e.value||/^Q[1-4]$/.test(e.value)),`${v.id}: JCR applies to journals only`);
     if(e.system==='cas')requireThat(v.kind==='journal'&&(!e.value||/^[1-4]$/.test(e.value))&&e.year<=2025,`${v.id}: invalid CAS edition/grade`);
+    if(e.system==='xinrui')requireThat(v.kind==='journal'&&(!e.value||/^[1-4]$/.test(e.value)),`${v.id}: invalid XinRui journal quartile`);
     if(e.system==='core')requireThat(v.kind==='conference',`${v.id}: ICORE applies to conferences`);
     if(['cie','cic'].includes(e.system))requireThat(v.kind==='journal'&&(!e.value||/^T[1-3]$/.test(e.value)),`${v.id}: invalid CIE journal tier`);
     if(e.system==='ccf'&&e.value)requireThat(/^[ABC]$/.test(e.value),`${v.id}: invalid CCF category`);
@@ -84,6 +85,7 @@ for(const call of data.calls){
   if(call.kind==='special')requireThat(data.venues.find(v=>v.id===call.venueId)?.kind==='journal',`${call.id}: special issue parent must be a journal`);
 }
 requireThat(data.legacyMappings?.length===89&&new Set(data.legacyMappings.map(m=>m.number)).size===89&&data.legacyMappings.every(m=>venueIds.has(m.venueId)&&Number.isInteger(m.page)), '2018 legacy mapping must account for all 89 numbered entries');
+requireThat(data.venues.every(v=>C.isBuptImportant(v)===data.legacyMappings.some(m=>m.venueId===v.id)), 'BUPT important markers must match the original 89-row ICT list');
 requireThat(data.policy?.masterArticle===4&&url(data.policy.sourceUrl), 'Missing selected master policy source');
 if(errors.length){
   const {sourcePath}=require('./catalog.cjs'),by=new Map([...data.venues,...data.calls].map(x=>[x.id,x]));

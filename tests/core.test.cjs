@@ -76,7 +76,7 @@ test('master discovery includes conferences outside the historical doctoral list
   assert.equal(data.legacyMappings.length,89);assert.equal(new Set(data.legacyMappings.map(m=>m.number)).size,89);
 });
 test('an attached workshop cannot inherit a main-conference school tag',()=>{
-  const parent={...venue,assessments:[{system:'bupt-ict-2018'}]};
+  const parent={...venue,kind:'conference',assessments:[{system:'bupt-ict-2018'}]};
   const calls=[{...base,kind:'conference'},{...base,id:'workshop',kind:'workshop'}];
   assert.deepEqual(C.filterCalls(calls,[parent],{historical:true},NOW).map(c=>c.id),['sample-call']);
 });
@@ -193,4 +193,67 @@ test('Chinese core indexes remain independent overlapping evidence-backed attrib
   assert(!C.indexMatches(unknown,'北大核心'));
   assert.deepEqual(C.filterVenues([indexed,unknown],{query:'中文核心'}).map(v=>v.id),['cn-core']);
   assert.deepEqual(C.parseVenueQuery('科技核心').indexes,['CSTPCD']);
+});
+
+test('custom deadline ranges include both endpoints and reject invalid inputs',()=>{
+ const f={window:'custom',daysFrom:'30',daysTo:'40'};
+ const at=days=>({...base,nodes:[{...base.nodes[0],date:new Date(Date.parse('2026-10-17')+days*86400000).toISOString().slice(0,10)}]});
+ for(const days of [29,30,35,40,41])assert.equal(C.deadlineMatches(at(days),f,NOW),days>=30&&days<=40);
+ for(const [daysFrom,daysTo] of [['40','30'],['-1','40'],['1.5','40'],['abc','40'],['0','36501']]){
+  const invalid={window:'custom',daysFrom,daysTo};assert(!C.deadlineRange(invalid).valid);assert(!C.deadlineMatches(at(35),invalid,NOW));
+ }
+ assert(C.deadlineMatches(at(35),{window:'custom',daysFrom:'30',daysTo:''},NOW));
+ assert(!C.deadlineMatches(at(29),{window:'custom',daysFrom:'30'},NOW));
+ assert(C.deadlineMatches(at(0),{window:'custom',daysTo:'0'},NOW));
+ assert(!C.deadlineMatches(at(1),{window:'custom',daysTo:'0'},NOW));
+ assert(C.deadlineMatches(at(35),{window:'custom'},NOW));
+ assert(C.deadlineMatches(at(7),{window:'7'},NOW));assert(!C.deadlineMatches(at(8),{window:'7'},NOW));
+});
+test('finite ranges exclude rolling, undated, past, cancelled and conflicting calls',()=>{
+ const f={window:'custom',daysFrom:'0',daysTo:'40'};
+ for(const c of [{...base,status:'rolling'},{...base,nodes:[]},{...base,status:'cancelled'},{...base,status:'conflict'},{...base,verification:'pending'},{...base,nodes:[{...base.nodes[0],date:'2026-10-16'}]}])assert(!C.deadlineMatches(c,f,NOW));
+});
+test('ranges use the selected timezone for exact instants and keep prerequisites visible',()=>{
+ const c={...base,nodes:[{...base.nodes[0],precision:'instant',instant:'2026-11-15T23:30:00Z',date:null}]};
+ const f={window:'custom',daysFrom:'30',daysTo:'30'};
+ assert(C.deadlineMatches(c,f,NOW,'Asia/Shanghai'));assert(!C.deadlineMatches(c,f,NOW,'UTC'));
+ const restricted={...base,nodes:[{id:'abstract',type:'abstract',precision:'date',date:'2026-10-16'},{...base.nodes[0],date:'2026-11-16',requires:['abstract']}]};
+ assert(C.deadlineMatches(restricted,f,NOW));assert.equal(C.stateOf(restricted,NOW).code,'restricted');
+});
+test('venue ranges find any matching round and display that exact round, including journal issues',()=>{
+ const f={window:'custom',daysFrom:'30',daysTo:'40',now:NOW};
+ for(const [kind,callKind] of [['conference','conference'],['journal','special']]){
+  const v={...venue,kind};
+  const calls=[{...base,id:'early',kind:callKind,nodes:[{...base.nodes[0],date:'2026-11-01'}]},{...base,id:'match',kind:callKind,nodes:[{...base.nodes[0],date:'2026-11-20'}]}];
+  assert.equal(C.venueActivity(v,calls,NOW,'Asia/Shanghai',f).id,'match');
+  assert.deepEqual(C.filterVenues([v],{...f,calls}).map(v=>v.id),['sample']);
+  assert.deepEqual(C.filterCalls(calls,[v],f,NOW).map(c=>c.id),['match']);
+  assert.equal(C.filterVenues([v],{...f,calls:[calls[0]]}).length,0);
+  assert.equal(C.filterVenues([v],f).length,0);
+ }
+});
+test('XinRui searches do not become CAS filters, and rankings remain independent',()=>{
+ assert.deepEqual(C.parseVenueQuery('SCI 新锐一区 无线').grades,['xinrui:1']);
+ assert.equal(C.parseVenueQuery('SCI 新锐一区 无线').text,'无线');
+ assert.deepEqual(C.parseVenueQuery('新锐分区 2区 中科院一区').grades,['xinrui:2','cas:1']);
+ assert.deepEqual(C.cleanGrades(['xinrui:1','xinrui:5'],'journal'),['xinrui:1']);
+ assert.deepEqual(C.cleanGrades(['xinrui:1'],'conference'),[]);
+ const v={...venue,kind:'journal',evaluations:[{system:'xinrui',year:2026,value:'1',status:'reported'},{system:'cas',year:2025,value:'2',status:'verified'}]};
+ assert(C.evaluationMatches(v,['xinrui:1','cas:2']));assert(!C.evaluationMatches(v,'cas:1'));
+ assert.deepEqual(C.filterVenues([v],{query:'新锐一区'}).map(v=>v.id),['sample']);
+});
+test('BUPT markers cover the original 89 rows as 87 distinct conferences, including archives',()=>{
+ const expected=[...new Set(data.legacyMappings.map(m=>m.venueId))].sort();
+ assert.equal(expected.length,87);
+ const got=C.filterVenues(data.venues,{venueKind:'conference',historical:true}).map(v=>v.id).sort();
+ assert.deepEqual(got,expected);
+ assert.deepEqual(C.filterVenues(data.venues,{query:'BUPT重要'}).map(v=>v.id).sort(),expected);
+ assert.deepEqual(C.filterVenues(data.venues,{query:'北邮重要会议'}).map(v=>v.id).sort(),expected);
+ assert(!C.isBuptImportant({kind:'journal',assessments:[{system:'bupt-ict-2018'}]}));
+});
+test('BUPT membership never extends to attached workshops, demos or independent tracks',()=>{
+ const v={...venue,kind:'conference',assessments:[{system:'bupt-ict-2018'}]};
+ const calls=[{...base,kind:'conference'},...['demo','poster','short'].map(t=>({...base,id:t,kind:'conference',submissionCategory:t})),{...base,id:'workshop',kind:'workshop'},{...base,id:'independent',kind:'conference',inheritsVenueEvaluation:false}];
+ assert.deepEqual(C.filterCalls(calls,[v],{historical:true},NOW).map(c=>c.id),['sample-call']);
+ assert.deepEqual(C.filterCalls(calls,[v],{query:'BUPT重要'},NOW).map(c=>c.id),['sample-call']);
 });

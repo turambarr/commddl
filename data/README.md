@@ -101,13 +101,17 @@ nodes:
 
 - `indexing` 保存明确的 WoS（科学网）索引列；SCIE（科学引文索引扩展版）与 ESCI（新兴来源引文索引）分别记录。
 - `otherIndexes` 保存 EI（工程索引）、CSCD（中国科学引文数据库）、Scopus（摘要与引文数据库）等独立证据。
-- `evaluations` 保存 JCR（期刊引证报告）、中科院、CCF（中国计算机学会）、CORE/ICORE（会议评级）、CIE（中国电子学会）、CIC（中国通信学会）等。
+- `evaluations` 保存 JCR（期刊引证报告）、中科院、新锐分区、CCF（中国计算机学会）、CORE/ICORE（会议评级）、CIE（中国电子学会）、CIC（中国通信学会）等。
 - 每项评级按 `system + year` 唯一，填写明确数值、原始年份、来源类型、来源网址和核对说明。已有历年证据继续保留。
 - 转录或公开副本使用 `reported` 并注明 `secondary` 或 `document-copy`；一手明确证据使用 `verified`。
 - 期刊保留 JCR、中科院、CCF 的覆盖记录；会议保留 CCF、CORE 的覆盖记录。没有明确等级时保留 `value: null` 及实际编辑状态，模板提供了结构。
 - 新增条目不要求修改公共 `sources.yml`；每项自己的来源字段必须完整。公共来源索引由维护者整理。
 
 同缩写不等于同一载体，等级不能通过简称强行匹配。SCI 收录取自明确索引证据，不能从分区或学会 T 等级推断。历史等级保留原年份。学校历史身份、毕业条款、学会评级分别维护。
+
+新锐分区使用 `system: xinrui`、原始年份和字符串 `value: "1"` 至 `"4"`，大类记录在 `category`。高校公开副本使用 `status: reported`、`sourceType: document-copy`，保存源页、下载地址、工作表与行号；独立于 `cas` 和 `jcr`。按有效刊号匹配；英文名相似但刊号不同的期刊不赋级。未匹配记录进入维护区。
+
+“BUPT重要”来自 `assessments.system: bupt-ict-2018`，必须与 `legacy-mappings.yml` 的89条原始记录对应（去重87个会议）。新增会议不能因为主题相近继承学校标记；附属研讨会、短文、演示和独立轨道不继承。
 
 ## 5. 新增具体征稿
 
