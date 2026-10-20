@@ -3,6 +3,21 @@ function validateCatalog(data){
 const errors=[];
 const requireThat=(condition,message)=>{if(!condition)errors.push(message);};
 const url=value=>{try{const u=new URL(value);return ['https:','http:'].includes(u.protocol)&&!/[\s]/.test(value);}catch{return false;}};
+function validateSections(item){
+ const ids=new Set();
+ for(const section of item.officialSections||[]){
+  const valid=section&&typeof section.heading==='string'&&section.heading.trim()&&(!section.sectionId||typeof section.sectionId==='string')&&(!section.parentId||typeof section.parentId==='string')&&(!section.headingLevel||Number.isInteger(section.headingLevel)&&section.headingLevel>=1&&section.headingLevel<=6)&&(!section.order||Number.isInteger(section.order)&&section.order>=0)&&(!section.sourceUrl||url(section.sourceUrl))&&(!section.sourceAnchor||typeof section.sourceAnchor==='string')&&(!section.content||typeof section.content==='string')&&(!section.items||Array.isArray(section.items)&&section.items.every(entry=>typeof entry==='string'))&&(!section.verifiedAt||/^\d{4}-\d{2}-\d{2}$/.test(section.verifiedAt))&&(!section.blocks||Array.isArray(section.blocks)&&section.blocks.every(block=>{
+   if(!block||!['paragraph','list','table','links'].includes(block.type))return false;
+   if(block.type==='paragraph')return typeof block.text==='string';
+   if(block.type==='table')return Array.isArray(block.rows)&&block.rows.every(row=>Array.isArray(row)&&row.every(cell=>typeof cell==='string'));
+   if(block.type==='links')return Array.isArray(block.items)&&block.items.every(link=>typeof link.label==='string'&&url(link.href));
+   const check=items=>Array.isArray(items)&&items.every(entry=>entry&&typeof entry.text==='string'&&(!entry.items||check(entry.items)));
+   return typeof block.ordered==='boolean'&&check(block.items);
+  }));
+  requireThat(valid,`${item.id}: invalid official website section`);
+  if(section?.sectionId){requireThat(!ids.has(section.sectionId),`${item.id}: duplicate official section id ${section.sectionId}`);ids.add(section.sectionId);}
+ }
+}
 requireThat(C.validDate(data.meta.updatedAt),'data/meta.yml: invalid catalog update date');
 const ids=new Set(), venueIds=new Set(data.venues.map(v=>v.id)), areas=new Set(data.areas.map(a=>a.id));
 const topicIds=new Set();
@@ -27,6 +42,7 @@ for(const v of data.venues){
   requireThat(['journal','conference'].includes(v.kind),`${v.id}: invalid venue kind`);
   requireThat(v.short&&v.nameZh&&v.nameEn,`${v.id}: missing identity fields`);
   requireThat(Array.isArray(v.articleTypes)&&v.articleTypes.length,`${v.id}: missing article types`);
+  validateSections(v);
   requireThat(['current','needs-review','historical-only'].includes(v.catalogStatus),`${v.id}: invalid catalog status`);
   requireThat(!v.catalogScope||['communications','archive'].includes(v.catalogScope),`${v.id}: invalid catalog scope`);
   if(v.kind==='journal'){
@@ -65,6 +81,7 @@ for(const v of data.venues){
   requireThat(!identities.has(identity),`${v.id}: duplicate venue identity`);identities.add(identity);
 }
 for(const call of data.calls){
+  validateSections(call);
   requireThat(venueIds.has(call.venueId),`${call.id}: missing parent venue`);
   requireThat(['conference','workshop','special','series'].includes(call.kind),`${call.id}: invalid activity kind`);
   if(call.eventStart||call.eventEnd)requireThat(C.validDate(call.eventStart)&&C.validDate(call.eventEnd)&&call.eventStart<=call.eventEnd,`${call.id}: invalid conference dates`);

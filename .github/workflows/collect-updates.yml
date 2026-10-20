@@ -1,0 +1,86 @@
+name: Collect official CommDDL updates
+on:
+  schedule:
+    - cron: '17 5,11,17,23 * * *'
+  workflow_dispatch:
+    inputs:
+      ids:
+        description: 'Optional comma-separated venue/call IDs'
+        required: false
+        type: string
+      dry_run:
+        description: 'Collect and upload a preview without saving candidates or sending email'
+        required: true
+        default: true
+        type: boolean
+      retry_failed:
+        description: 'Retry failed sources instead of the normal due queue'
+        required: true
+        default: false
+        type: boolean
+permissions:
+  contents: read
+concurrency:
+  group: commddl-collector
+  cancel-in-progress: false
+jobs:
+  collect:
+    # Missing repository variables evaluate as empty/false. Scheduled runs are
+    # opt-in; workflow_dispatch remains available for a controlled dry-run.
+    if: github.ref == 'refs/heads/main' && (github.event_name != 'schedule' || vars.UPDATE_AUTOMATION_ENABLED == 'true')
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: npm
+      - run: npm ci
+      - name: Register catalog sources
+        if: github.event_name == 'schedule'
+        env:
+          UPDATE_ADMIN_API_URL: ${{ vars.UPDATE_ADMIN_API_URL }}
+          UPDATE_INTERNAL_HMAC_SECRET: ${{ secrets.UPDATE_INTERNAL_HMAC_SECRET }}
+        run: node scripts/updates/service-client.cjs register-sources
+      - name: Select due sources
+        if: github.event_name == 'schedule' || (inputs.ids == '' && inputs.retry_failed != true)
+        env:
+          UPDATE_ADMIN_API_URL: ${{ vars.UPDATE_ADMIN_API_URL }}
+          UPDATE_INTERNAL_HMAC_SECRET: ${{ secrets.UPDATE_INTERNAL_HMAC_SECRET }}
+        run: node scripts/updates/service-client.cjs get-due --output /tmp/commddl-due.json
+      - name: Select failed sources for retry
+        if: github.event_name == 'workflow_dispatch' && inputs.ids == '' && inputs.retry_failed == true
+        env:
+          UPDATE_ADMIN_API_URL: ${{ vars.UPDATE_ADMIN_API_URL }}
+          UPDATE_INTERNAL_HMAC_SECRET: ${{ secrets.UPDATE_INTERNAL_HMAC_SECRET }}
+        run: node scripts/updates/service-client.cjs get-failed --output /tmp/commddl-due.json
+      - name: Read explicit source baselines
+        if: github.event_name == 'workflow_dispatch' && inputs.ids != ''
+        env:
+          UPDATE_ADMIN_API_URL: ${{ vars.UPDATE_ADMIN_API_URL }}
+          UPDATE_INTERNAL_HMAC_SECRET: ${{ secrets.UPDATE_INTERNAL_HMAC_SECRET }}
+          SELECTED_IDS: ${{ inputs.ids }}
+        run: node scripts/updates/service-client.cjs get-baselines --ids "$SELECTED_IDS" --output /tmp/commddl-due.json
+      - name: Collect due sources
+        if: github.event_name == 'schedule' || inputs.ids == ''
+        run: node scripts/updates/collector.cjs --due --baselines /tmp/commddl-due.json --out /tmp/commddl-candidates.json
+      - name: Collect selected sources
+        if: github.event_name == 'workflow_dispatch' && inputs.ids != ''
+        env:
+          SELECTED_IDS: ${{ inputs.ids }}
+        run: node scripts/updates/collector.cjs --ids "$SELECTED_IDS" --baselines /tmp/commddl-due.json --out /tmp/commddl-candidates.json
+      - name: Save and notify review batch
+        if: github.event_name == 'schedule' || inputs.dry_run == false
+        env:
+          UPDATE_ADMIN_API_URL: ${{ vars.UPDATE_ADMIN_API_URL }}
+          UPDATE_INTERNAL_HMAC_SECRET: ${{ secrets.UPDATE_INTERNAL_HMAC_SECRET }}
+        run: node scripts/updates/service-client.cjs submit --file /tmp/commddl-candidates.json
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: commddl-collection-${{ github.run_id }}
+          path: /tmp/commddl-candidates.json
+          if-no-files-found: ignore
+          retention-days: 14

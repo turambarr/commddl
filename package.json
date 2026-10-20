@@ -5,16 +5,22 @@
   "description": "通信科研投稿日历：会议、期刊与专题征稿导航",
   "scripts": {
     "build": "node scripts/build.cjs",
+    "extract:official": "node scripts/extract-official-sections.cjs",
     "check": "node scripts/validate.cjs",
-    "test": "node --test tests/core.test.cjs tests/public-catalog.test.cjs tests/catalog.test.cjs",
+    "test": "node --test tests/core.test.cjs tests/public-catalog.test.cjs tests/catalog.test.cjs tests/updates.test.cjs tests/admin-review-api.test.cjs tests/date-update.integration.test.cjs",
     "serve": "node scripts/serve.cjs",
-    "compile": "node scripts/catalog.cjs"
+    "compile": "node scripts/catalog.cjs",
+    "update:collect": "node scripts/updates/collector.cjs",
+    "update:apply": "node scripts/updates/apply.cjs",
+    "update:service": "node scripts/updates/service-client.cjs"
   },
   "engines": {
     "node": ">=20"
   },
   "license": "MIT",
   "dependencies": {
+    "cheerio": "1.2.0",
+    "https-proxy-agent": "9.1.0",
     "yaml": "2.9.1"
   }
 }

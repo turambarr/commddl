@@ -93,6 +93,9 @@ nodes:
 - `topics`：使用 `topics.yml` 中已有的主题编号。新增主题属于分类调整，另行说明依据。
 - `nameEn`、`nameZh`、`short`、`aliases`：保存全称、中文名称、简称和已核实旧名。
 - `url`：官网或刊物资料入口；注册资料入口使用 `urlKind: registry`。
+- `summary`：详情页的基本介绍；优先根据官网概述撰写，并保持简洁。
+- `officialSections`：可选的官网详情分段，按官网标题保存 `heading`、`content`、`items`，并为每段注明 `sourceUrl`。例如 `GENERAL INFORMATION`、`RELATED TOPICS`；只录入能在所列官方页面核对的内容。
+- 可用 `npm run extract:official -- <venue-id[,venue-id...]>` 读取官网 HTML，按 h1–h3 标题预览简介和主题候选段落；默认只预览。核对输出后添加 `--apply` 才会写入对应载体 YAML，既有同名标题不会被覆盖。脚本使用 `HTTPS_PROXY`/`https_proxy` 环境变量（例如 `http://127.0.0.1:7890`）访问官网。
 - `sourceUrl`、`sourceType`、`verification`、`verifiedAt`：记录身份来源及核对状态。核实过的身份使用 `verified`，尚未读取的身份使用 `pending`。
 - `catalogScope`：`communications` 为通信目录，`archive` 为历史参考；停刊信息进入档案。
 - `catalogStatus`：编辑状态与学术等级独立，按已有数据约定填写。
@@ -150,3 +153,11 @@ npm run build
 多个贡献者修改不同文件时可独立提交。同一条目被并行修改时，仍需按 Git 的正常流程协调合并。
 
 更多规则：[完整数据约定](../docs/DATA.md) · [部署流程](../docs/DEPLOYMENT.md) · [贡献说明](../CONTRIBUTING.md)。
+
+## Official website sections and scheduled update candidates
+
+The approved `officialSections` field is public content only. It keeps the source heading, heading level/order, stable section ID, official URL/anchor, and typed paragraph/list/table/link blocks. Maintainer-only fetch timestamps, response hashes, parser versions, recipient addresses, decisions, and audit records stay in the update service database and are not copied to the public catalog.
+
+Official pages are parsed into candidates by `npm run update:collect -- --ids <venue-or-call-id,...> --dry-run`. The parser preserves discovered headings and their hierarchy; category labels such as `general-information`, `related-topics`, and `submission-guidelines` are supplemental classifications. It does not claim that every source site uses those labels or that every relevant heading can be identified without review. Use the source URL and preview to verify the extracted structure. To apply data, use an approved batch and its saved decisions through `npm run update:apply`; the apply step requires the exact Git base SHA, validates a temporary copy of the complete catalog, and only then updates YAML. Do not use `verifiedAt` as a fetch timestamp: it records human verification.
+
+The compatibility command `npm run extract:official -- <id,...>` now creates a preview candidate only. Its former `--apply` mode is intentionally disabled so that a scrape cannot mark content verified or bypass review.

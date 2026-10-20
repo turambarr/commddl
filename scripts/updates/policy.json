@@ -1,0 +1,16 @@
+{
+  "schedule": "17 5,11,17,23 * * *",
+  "batchLimit": 20,
+  "globalConcurrency": 3,
+  "pageBudget": 6,
+  "linkDepth": 2,
+  "extractorVersion": "1.0.0",
+  "reviewedAgesHours": {
+    "urgentDeadlines": 6,
+    "activeCalls": 24,
+    "venueDetails": 168,
+    "expiredCallsFirstRetry": 168,
+    "expiredCallsLaterRetry": 720,
+    "ratings": 720
+  }
+}

@@ -1,0 +1,82 @@
+name: Build reviewed CommDDL update PR
+on:
+  repository_dispatch:
+    types: [commddl_review_batch]
+permissions:
+  contents: read
+jobs:
+  build-pr:
+    if: github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pull-requests: write
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: npm
+      - run: npm ci
+      - name: Load approved review decisions
+        env:
+          UPDATE_ADMIN_API_URL: ${{ vars.UPDATE_ADMIN_API_URL }}
+          UPDATE_INTERNAL_HMAC_SECRET: ${{ secrets.UPDATE_INTERNAL_HMAC_SECRET }}
+          BATCH_ID: ${{ github.event.client_payload.batchId }}
+        run: node scripts/updates/service-client.cjs export-batch --id "$BATCH_ID" --directory /tmp/commddl-review
+      - name: Verify dispatched batch version
+        env:
+          BATCH_VERSION: ${{ github.event.client_payload.version }}
+        run: node -e "const m=require('/tmp/commddl-review/metadata.json');if(m.version!==Number(process.env.BATCH_VERSION)||m.status!=='building-pr')process.exit(1)"
+      - name: Apply reviewed source changes
+        run: node scripts/updates/apply.cjs --batch /tmp/commddl-review/candidate.json --decisions /tmp/commddl-review/decisions.json
+      - run: npm run check
+      - run: npm test
+      - run: npm run build
+      - uses: actions/create-github-app-token@v3
+        id: app-token
+        with:
+          app-id: ${{ secrets.UPDATE_GITHUB_APP_ID }}
+          private-key: ${{ secrets.UPDATE_GITHUB_APP_PRIVATE_KEY }}
+          owner: turambarr
+          repositories: commddl
+          permission-contents: write
+          permission-pull-requests: write
+      - name: Create or update candidate PR
+        uses: peter-evans/create-pull-request@v8
+        id: cpr
+        with:
+          token: ${{ steps.app-token.outputs.token }}
+          base: main
+          branch: codex/official-updates-${{ github.event.client_payload.batchId }}-v${{ github.event.client_payload.version }}
+          delete-branch: true
+          commit-message: 'data: apply reviewed official updates'
+          title: 'Review official CommDDL updates: ${{ github.event.client_payload.batchId }}'
+          body: |
+            This PR applies the decisions saved in the CommDDL admin review page.
+
+            Batch: `${{ github.event.client_payload.batchId }}`
+            Version: `${{ github.event.client_payload.version }}`
+
+            The public data build and catalog validation completed in this workflow.
+          add-paths: data/**
+      - name: Record final PR revision and notify reviewers
+        if: steps.cpr.outputs.pull-request-number != ''
+        env:
+          UPDATE_ADMIN_API_URL: ${{ vars.UPDATE_ADMIN_API_URL }}
+          UPDATE_INTERNAL_HMAC_SECRET: ${{ secrets.UPDATE_INTERNAL_HMAC_SECRET }}
+          BATCH_ID: ${{ github.event.client_payload.batchId }}
+          BATCH_VERSION: ${{ github.event.client_payload.version }}
+          PR_NUMBER: ${{ steps.cpr.outputs.pull-request-number }}
+          PR_URL: ${{ steps.cpr.outputs.pull-request-url }}
+          FINAL_SHA: ${{ steps.cpr.outputs.pull-request-head-sha }}
+        run: node scripts/updates/service-client.cjs record-pr --id "$BATCH_ID" --version "$BATCH_VERSION" --pr-number "$PR_NUMBER" --pr-url "$PR_URL" --final-sha "$FINAL_SHA"
+      - name: Release and reset a batch when PR generation failed
+        if: failure() && steps.cpr.outputs.pull-request-number == ''
+        env:
+          UPDATE_ADMIN_API_URL: ${{ vars.UPDATE_ADMIN_API_URL }}
+          UPDATE_INTERNAL_HMAC_SECRET: ${{ secrets.UPDATE_INTERNAL_HMAC_SECRET }}
+          BATCH_ID: ${{ github.event.client_payload.batchId }}
+        run: node scripts/updates/service-client.cjs fail-batch --id "$BATCH_ID" --reason "update-pr-workflow-failed"
