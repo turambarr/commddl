@@ -1,4 +1,4 @@
-# v0.9.0 核验记录
+# v0.10.0 核验记录
 
 复查日期：2026-10-20。完整字段及正面证据保存在 data/venues/、data/calls/ 的 YAML 源文件，以下列出尚无明确数值的记录及处理依据。
 
@@ -7,7 +7,10 @@
 | 载体 | 属性 | 年份 | 复查结果 | 复查日期 | 依据及说明 |
 |---|---|---|---|---|---|
 | IEEE Access | CCF | 2026 | 所查版本未列入 | 2026-10-18 | 按英文全名、缩写及已知旧名核对CCF2026公开副本全部295项期刊记录，未列入该版。 [来源](https://scdm-shu.github.io/ccf/2026-CCF-Ranking.pdf) |
+| ACES | CCF | 2026 | 待核验 | 2026-10-20 | 本次已核对会议身份；评级需补充对应完整系列的独立证据，未采用汇编推断。 |
+| ACES | CORE / ICORE | 2026 | 所查版本未列入 | 2026-10-20 | 已在ICORE2026完整快照按全称、已核实旧名及简称复查，未取得本系列的明确对应记录；继续查历年版本。 [来源](https://portal.core.edu.au/conf-ranks/?search=&by=all&source=ICORE2026&sort=atitle) |
 | ACES J. | CCF | 2026 | 所查版本未列入 | 2026-10-19 | 按正式全名与已核实别名对照CCF2026公开副本完整目录未列；不等于低等级，不含另行发布的中文期刊推荐目录。 [来源](https://scdm-shu.github.io/ccf/2026-CCF-Ranking.pdf) |
+| ACISP | CORE / ICORE | 2026 | 非等级状态 | 2026-10-20 | 本次重读本项目保存的官方版本快照，按正式全称和已核实旧名对应；同缩写不同会议分别处理。等级保留原始年份；National、Australasian等带地域状态不转换为A/B/C。 [来源](https://portal.core.edu.au/conf-ranks/?search=ACISP&by=acronym&source=ICORE2026) |
 | ACP | CCF | 2026 | 所查版本未列入 | 2026-10-18 | 按正式系列核对CCF2026公开副本全部386个会议条目，未列入该版。 [来源](https://scdm-shu.github.io/ccf/2026-CCF-Ranking.pdf) |
 | ACP | CORE / ICORE | 2026 | 所查版本未列入 | 2026-10-18 | 复查 ICORE2026 官方全 20 页、987 个记录，按全称、系列简称及历史名称对照，未列出该正式系列。 [来源](https://portal.core.edu.au/conf-ranks/?search=&by=all&source=ICORE2026&sort=atitle) |
 | ACS Photonics | CCF | 2026 | 所查版本未列入 | 2026-10-19 | 按正式全名与已核实别名对照CCF2026公开副本完整目录未列；不等于低等级，不含另行发布的中文期刊推荐目录。 [来源](https://scdm-shu.github.io/ccf/2026-CCF-Ranking.pdf) |
@@ -19,7 +22,10 @@
 | IEEE Aerospace | CCF | 2026 | 所查版本未列入 | 2026-10-18 | 按正式系列核对CCF2026公开副本全部386个会议条目，未列入该版。 [来源](https://scdm-shu.github.io/ccf/2026-CCF-Ranking.pdf) |
 | IEEE Aerospace | CORE / ICORE | 2026 | 所查版本未列入 | 2026-10-18 | 复查 ICORE2026 官方全 20 页、987 个记录，按全称、系列简称及历史名称对照，未列出该正式系列。 [来源](https://portal.core.edu.au/conf-ranks/?search=&by=all&source=ICORE2026&sort=atitle) |
 | AEU | CCF | 2026 | 所查版本未列入 | 2026-10-18 | 完整期刊表按全名与缩写未列。 [来源](https://scdm-shu.github.io/ccf/2026-CCF-Ranking.pdf) |
+| IEEE AFRICON | CCF | 2026 | 待核验 | 2026-10-20 | 本次已核对会议身份；评级需补充对应完整系列的独立证据，未采用汇编推断。 |
+| IEEE AFRICON | CORE / ICORE | 2026 | 所查版本未列入 | 2026-10-20 | 已在ICORE2026完整快照按全称、已核实旧名及简称复查，未取得本系列的明确对应记录；继续查历年版本。 [来源](https://portal.core.edu.au/conf-ranks/?search=&by=all&source=ICORE2026&sort=atitle) |
 | Analog Integr. Circuits Signal Process. | CCF | 2026 | 所查版本未列入 | 2026-10-19 | 按正式全名与已核实别名对照CCF2026公开副本完整目录未列；不等于低等级，不含另行发布的中文期刊推荐目录。 [来源](https://scdm-shu.github.io/ccf/2026-CCF-Ranking.pdf) |
+| AINA | CCF | 2026 | 待核验 | 2026-10-20 | 本次已核对会议身份；评级需补充对应完整系列的独立证据，未采用汇编推断。 |
 | Adv. Intell. Syst. | CCF | 2026 | 所查版本未列入 | 2026-10-19 | 按正式全名与已核实别名对照CCF2026公开副本完整目录未列；不等于低等级，不含另行发布的中文期刊推荐目录。 [来源](https://scdm-shu.github.io/ccf/2026-CCF-Ranking.pdf) |
 | Allerton | CCF | 2026 | 所查版本未列入 | 2026-10-18 | 按正式系列核对CCF2026公开副本全部386个会议条目，未列入该版。 [来源](https://scdm-shu.github.io/ccf/2026-CCF-Ranking.pdf) |
 | Allerton | CORE / ICORE | 2026 | 所查版本未列入 | 2026-10-18 | 复查 ICORE2026 官方全 20 页、987 个记录，按全称、系列简称及历史名称对照，未列出该正式系列。 [来源](https://portal.core.edu.au/conf-ranks/?search=&by=all&source=ICORE2026&sort=atitle) |
@@ -33,15 +39,21 @@
 | APCAP | CCF | 2026 | 所查版本未列入 | 2026-10-19 | 按正式全名与已核实别名对照CCF2026公开副本完整目录未列；不等于低等级，不含另行发布的中文期刊推荐目录。 [来源](https://scdm-shu.github.io/ccf/2026-CCF-Ranking.pdf) |
 | APCAP | CORE / ICORE | 2026 | 所查版本未列入 | 2026-10-19 | 按正式全名与已核实别名对照ICORE2026官方987条完整库未列，不等于低等级；未按同简称的其他会议赋级。 [来源](https://portal.core.edu.au/conf-ranks/?search=&by=all&source=ICORE2026&sort=atitle) |
 | APCC | CCF | 2026 | 所查版本未列入 | 2026-10-18 | 按正式系列核对CCF2026公开副本全部386个会议条目，未列入该版。 [来源](https://scdm-shu.github.io/ccf/2026-CCF-Ranking.pdf) |
+| APEMC | CCF | 2026 | 待核验 | 2026-10-20 | 本次已核对会议身份；评级需补充对应完整系列的独立证据，未采用汇编推断。 |
+| APEMC | CORE / ICORE | 2026 | 所查版本未列入 | 2026-10-20 | 已在ICORE2026完整快照按全称、已核实旧名及简称复查，未取得本系列的明确对应记录；继续查历年版本。 [来源](https://portal.core.edu.au/conf-ranks/?search=&by=all&source=ICORE2026&sort=atitle) |
 | Appl. Phys. Lett. | CCF | 2026 | 所查版本未列入 | 2026-10-19 | 按正式全名与已核实别名对照CCF2026公开副本完整目录未列；不等于低等级，不含另行发布的中文期刊推荐目录。 [来源](https://scdm-shu.github.io/ccf/2026-CCF-Ranking.pdf) |
 | APL Photonics | CCF | 2026 | 所查版本未列入 | 2026-10-19 | 按正式全名与已核实别名对照CCF2026公开副本完整目录未列；不等于低等级，不含另行发布的中文期刊推荐目录。 [来源](https://scdm-shu.github.io/ccf/2026-CCF-Ranking.pdf) |
 | IEEE APM | CCF | 2026 | 所查版本未列入 | 2026-10-18 | 按英文全名、缩写及已知旧名核对CCF2026公开副本全部295项期刊记录，未列入该版。 [来源](https://scdm-shu.github.io/ccf/2026-CCF-Ranking.pdf) |
 | APMC | CCF | 2026 | 所查版本未列入 | 2026-10-18 | 按正式系列核对CCF2026公开副本全部386个会议条目，未列入该版。 [来源](https://scdm-shu.github.io/ccf/2026-CCF-Ranking.pdf) |
 | APMC | CORE / ICORE | 2026 | 所查版本未列入 | 2026-10-18 | 复查 ICORE2026 官方全 20 页、987 个记录，按全称、系列简称及历史名称对照，未列出该正式系列。 [来源](https://portal.core.edu.au/conf-ranks/?search=&by=all&source=ICORE2026&sort=atitle) |
 | APNet | CORE / ICORE | 2026 | 所查版本未列入 | 2026-10-18 | 复查 ICORE2026 官方全 20 页、987 个记录，按全称、系列简称及历史名称对照，未列出该正式系列。 [来源](https://portal.core.edu.au/conf-ranks/?search=&by=all&source=ICORE2026&sort=atitle) |
+| APOS | CCF | 2026 | 待核验 | 2026-10-20 | 本次已核对会议身份；评级需补充对应完整系列的独立证据，未采用汇编推断。 |
+| APOS | CORE / ICORE | 2026 | 所查版本未列入 | 2026-10-20 | 已在ICORE2026完整快照按全称、已核实旧名及简称复查，未取得本系列的明确对应记录；继续查历年版本。 [来源](https://portal.core.edu.au/conf-ranks/?search=&by=all&source=ICORE2026&sort=atitle) |
 | Applied Optics | CCF | 2026 | 所查版本未列入 | 2026-10-19 | 按正式全名与已核实别名对照CCF2026公开副本完整目录未列；不等于低等级，不含另行发布的中文期刊推荐目录。 [来源](https://scdm-shu.github.io/ccf/2026-CCF-Ranking.pdf) |
 | AP-S/URSI | CCF | 2026 | 所查版本未列入 | 2026-10-18 | 按正式系列核对CCF2026公开副本全部386个会议条目，未列入该版。 [来源](https://scdm-shu.github.io/ccf/2026-CCF-Ranking.pdf) |
 | AP-S/URSI | CORE / ICORE | 2026 | 所查版本未列入 | 2026-10-18 | 复查 ICORE2026 官方全 20 页、987 个记录，按全称、系列简称及历史名称对照，未列出该正式系列。 [来源](https://portal.core.edu.au/conf-ranks/?search=&by=all&source=ICORE2026&sort=atitle) |
+| APSAR | CCF | 2026 | 待核验 | 2026-10-20 | 本次已核对会议身份；评级需补充对应完整系列的独立证据，未采用汇编推断。 |
+| APSAR | CORE / ICORE | 2026 | 所查版本未列入 | 2026-10-20 | 已在ICORE2026完整快照按全称、已核实旧名及简称复查，未取得本系列的明确对应记录；继续查历年版本。 [来源](https://portal.core.edu.au/conf-ranks/?search=&by=all&source=ICORE2026&sort=atitle) |
 | APSIPA ASC | CCF | 2026 | 所查版本未列入 | 2026-10-18 | 按正式全称、历史名称及简称对照完整386个CCF会议条目，未列该系列。 [来源](https://scdm-shu.github.io/ccf/2026-CCF-Ranking.pdf) |
 | APSIPA ASC | CORE / ICORE | 2026 | 所查版本未列入 | 2026-10-18 | 按正式全称、历史名称及简称对照完整20页987个ICORE记录，未列该系列。 [来源](https://portal.core.edu.au/conf-ranks/?search=&by=all&source=ICORE2026&sort=atitle) |
 | APWCS | CCF | 2026 | 所查版本未列入 | 2026-10-19 | 按正式全名与已核实别名核对CCF2026国际会议期刊目录公开副本，未列入该版。中文期刊推荐目录另行发布。 [来源](https://scdm-shu.github.io/ccf/2026-CCF-Ranking.pdf) |
@@ -57,9 +69,15 @@
 | ASMS/SPSC | CORE / ICORE | 2026 | 所查版本未列入 | 2026-10-19 | 按正式全名与已核实别名对照ICORE2026官方987条完整库未列，不等于低等级；未按同简称的其他会议赋级。 [来源](https://portal.core.edu.au/conf-ranks/?search=&by=all&source=ICORE2026&sort=atitle) |
 | ASRU | CCF | 2026 | 所查版本未列入 | 2026-10-19 | 按正式全名与已核实别名对照CCF2026公开副本完整目录未列；不等于低等级，不含另行发布的中文期刊推荐目录。 [来源](https://scdm-shu.github.io/ccf/2026-CCF-Ranking.pdf) |
 | ASRU | CORE / ICORE | 2026 | 所查版本未列入 | 2026-10-19 | 按正式全名与已核实别名对照ICORE2026官方987条完整库未列，不等于低等级；未按同简称的其他会议赋级。 [来源](https://portal.core.edu.au/conf-ranks/?search=&by=all&source=ICORE2026&sort=atitle) |
+| A-SSCC | CCF | 2026 | 待核验 | 2026-10-20 | 本次已核对会议身份；评级需补充对应完整系列的独立证据，未采用汇编推断。 |
+| A-SSCC | CORE / ICORE | 2026 | 所查版本未列入 | 2026-10-20 | 已在ICORE2026完整快照按全称、已核实旧名及简称复查，未取得本系列的明确对应记录；继续查历年版本。 [来源](https://portal.core.edu.au/conf-ranks/?search=&by=all&source=ICORE2026&sort=atitle) |
 | ATC | CCF | 2026 | 所查版本未列入 | 2026-10-18 | 按正式全称、历史名称及简称对照完整386个CCF会议条目，未列该系列。 已排除 USENIX Annual Technical Conference（USENIX年度技术会议）及 ICORE International Conference on Advanced and Trusted Computing（先进与可信计算会议）等同缩写会议。 [来源](https://scdm-shu.github.io/ccf/2026-CCF-Ranking.pdf) |
 | ATC | CORE / ICORE | 2026 | 所查版本未列入 | 2026-10-18 | 按正式全称、历史名称及简称对照完整20页987个ICORE记录，未列该系列。 已排除 USENIX Annual Technical Conference（USENIX年度技术会议）及 ICORE International Conference on Advanced and Trusted Computing（先进与可信计算会议）等同缩写会议。 [来源](https://portal.core.edu.au/conf-ranks/?search=&by=all&source=ICORE2026&sort=atitle) |
+| AVFOP | CCF | 2026 | 待核验 | 2026-10-20 | 官方作者页确认独立会议论文集及摘要提交形式；等级按独立目录另查。 |
+| AVFOP | CORE / ICORE | 2026 | 所查版本未列入 | 2026-10-20 | 按全称、Avionics/Fiber-Optics/Photonics旧名组合核对官方完整987条快照；未取得本系列明确对应等级。 [来源](https://portal.core.edu.au/conf-ranks/?search=&by=all&source=ICORE2026&sort=atitle) |
 | AWPL | CCF | 2026 | 所查版本未列入 | 2026-10-18 | 按英文全名、缩写及已知旧名核对CCF2026公开副本全部295项期刊记录，未列入该版。 [来源](https://scdm-shu.github.io/ccf/2026-CCF-Ranking.pdf) |
+| BalkanCom | CCF | 2026 | 待核验 | 2026-10-20 | 本次已核对会议身份；评级需补充对应完整系列的独立证据，未采用汇编推断。 |
+| BalkanCom | CORE / ICORE | 2026 | 所查版本未列入 | 2026-10-20 | 已在ICORE2026完整快照按全称、已核实旧名及简称复查，未取得本系列的明确对应记录；继续查历年版本。 [来源](https://portal.core.edu.au/conf-ranks/?search=&by=all&source=ICORE2026&sort=atitle) |
 | BCICTS | CCF | 2026 | 所查版本未列入 | 2026-10-19 | 按正式全名与已核实别名对照CCF2026公开副本完整目录未列；不等于低等级，不含另行发布的中文期刊推荐目录。 [来源](https://scdm-shu.github.io/ccf/2026-CCF-Ranking.pdf) |
 | BCICTS | CORE / ICORE | 2026 | 所查版本未列入 | 2026-10-19 | 按正式全名与已核实别名对照ICORE2026官方987条完整库未列，不等于低等级；未按同简称的其他会议赋级。 [来源](https://portal.core.edu.au/conf-ranks/?search=&by=all&source=ICORE2026&sort=atitle) |
 | 半导体光电 | 索引 | 来源年份见说明 | 已复查，证据不足 | 2026-10-19 | WoS索引待对应独立索引列核对。 |
@@ -86,6 +104,14 @@
 | CAMAD | CORE / ICORE | 2026 | 所查版本未列入 | 2026-10-18 | 复查 ICORE2026 官方全 20 页、987 个记录，按全称、系列简称及历史名称对照，未列出该正式系列。 [来源](https://portal.core.edu.au/conf-ranks/?search=&by=all&source=ICORE2026&sort=atitle) |
 | CAMSAP | CCF | 2026 | 所查版本未列入 | 2026-10-18 | 按正式系列核对CCF2026公开副本全部386个会议条目，未列入该版。 [来源](https://scdm-shu.github.io/ccf/2026-CCF-Ranking.pdf) |
 | CAMSAP | CORE / ICORE | 2026 | 所查版本未列入 | 2026-10-18 | 复查 ICORE2026 官方全 20 页、987 个记录，按全称、系列简称及历史名称对照，未列出该正式系列。 [来源](https://portal.core.edu.au/conf-ranks/?search=&by=all&source=ICORE2026&sort=atitle) |
+| CCC | CCF | 2026 | 待核验 | 2026-10-20 | 本次已核对会议身份；评级需补充对应完整系列的独立证据，未采用汇编推断。 |
+| CCC | CORE / ICORE | 2026 | 已复查，证据不足 | 2026-10-20 | CCC另指Computational Complexity，不能对应Chinese Control Conference。 [来源](https://portal.core.edu.au/conf-ranks/?search=&by=all&source=ICORE2026&sort=atitle) |
+| CCDC | CCF | 2026 | 待核验 | 2026-10-20 | 本次已核对会议身份；评级需补充对应完整系列的独立证据，未采用汇编推断。 |
+| CCDC | CORE / ICORE | 2026 | 所查版本未列入 | 2026-10-20 | 已在ICORE2026完整快照按全称、已核实旧名及简称复查，未取得本系列的明确对应记录；继续查历年版本。 [来源](https://portal.core.edu.au/conf-ranks/?search=&by=all&source=ICORE2026&sort=atitle) |
+| HHME | CCF | 2026 | 待核验 | 2026-10-20 | 本次已核对会议身份；评级需补充对应完整系列的独立证据，未采用汇编推断。 |
+| HHME | CORE / ICORE | 2026 | 所查版本未列入 | 2026-10-20 | 已在ICORE2026完整快照按全称、已核实旧名及简称复查，未取得本系列的明确对应记录；继续查历年版本。 [来源](https://portal.core.edu.au/conf-ranks/?search=&by=all&source=ICORE2026&sort=atitle) |
+| NCMMSC | CCF | 2026 | 待核验 | 2026-10-20 | 本次已核对会议身份；评级需补充对应完整系列的独立证据，未采用汇编推断。 |
+| NCMMSC | CORE / ICORE | 2026 | 所查版本未列入 | 2026-10-20 | 已在ICORE2026完整快照按全称、已核实旧名及简称复查，未取得本系列的明确对应记录；继续查历年版本。 [来源](https://portal.core.edu.au/conf-ranks/?search=&by=all&source=ICORE2026&sort=atitle) |
 | CCNC | CCF | 2026 | 所查版本未列入 | 2026-10-18 | 按正式系列核对CCF2026公开副本全部386个会议条目，未列入该版。 [来源](https://scdm-shu.github.io/ccf/2026-CCF-Ranking.pdf) |
 | 传感技术学报 | 索引 | 来源年份见说明 | 已复查，证据不足 | 2026-10-19 | WoS索引待对应独立索引列核对。 |
 | 传感技术学报 | JCR | 2024 | 所查版本未列入 | 2026-10-19 | 完整2024 JCR转录按全名/别名及可得ISSN核查，未取得本刊明确JIF分区；只针对该旧年度，不判定当前WoS收录。 [来源](https://uefiscdi.gov.ro/resource-865584-JCR_2024.iunie2025.pdf) |
@@ -98,8 +124,26 @@
 | 中国电信业 | CCF | 2026 | 所查版本未列入 | 2026-10-19 | 按正式全名与已核实别名对照CCF2026公开副本完整目录未列；不等于低等级，不含另行发布的中文期刊推荐目录。 [来源](https://scdm-shu.github.io/ccf/2026-CCF-Ranking.pdf) |
 | CHINACOM | CCF | 2026 | 所查版本未列入 | 2026-10-18 | 按正式系列核对CCF2026公开副本全部386个会议条目，未列入该版。 [来源](https://scdm-shu.github.io/ccf/2026-CCF-Ranking.pdf) |
 | CHINACOM | CORE / ICORE | 2026 | 所查版本未列入 | 2026-10-18 | 复查 ICORE2026 官方全 20 页、987 个记录，按全称、系列简称及历史名称对照，未列出该正式系列。 [来源](https://portal.core.edu.au/conf-ranks/?search=&by=all&source=ICORE2026&sort=atitle) |
+| CIC Congress | CCF | 2026 | 待核验 | 2026-10-20 | 本次已核对会议身份；评级需补充对应完整系列的独立证据，未采用汇编推断。 |
+| CIC Congress | CORE / ICORE | 2026 | 所查版本未列入 | 2026-10-20 | 已在ICORE2026完整快照按全称、已核实旧名及简称复查，未取得本系列的明确对应记录；继续查历年版本。 [来源](https://portal.core.edu.au/conf-ranks/?search=&by=all&source=ICORE2026&sort=atitle) |
+| CTTS | CCF | 2026 | 待核验 | 2026-10-20 | 本次已核对会议身份；评级需补充对应完整系列的独立证据，未采用汇编推断。 |
+| CTTS | CORE / ICORE | 2026 | 所查版本未列入 | 2026-10-20 | 已在ICORE2026完整快照按全称、已核实旧名及简称复查，未取得本系列的明确对应记录；继续查历年版本。 [来源](https://portal.core.edu.au/conf-ranks/?search=&by=all&source=ICORE2026&sort=atitle) |
+| CIoTC | CCF | 2026 | 待核验 | 2026-10-20 | 本次已核对会议身份；评级需补充对应完整系列的独立证据，未采用汇编推断。 |
+| CIoTC | CORE / ICORE | 2026 | 所查版本未列入 | 2026-10-20 | 已在ICORE2026完整快照按全称、已核实旧名及简称复查，未取得本系列的明确对应记录；继续查历年版本。 [来源](https://portal.core.edu.au/conf-ranks/?search=&by=all&source=ICORE2026&sort=atitle) |
+| NCEMC | CCF | 2026 | 待核验 | 2026-10-20 | 本次已核对会议身份；评级需补充对应完整系列的独立证据，未采用汇编推断。 |
+| NCEMC | CORE / ICORE | 2026 | 所查版本未列入 | 2026-10-20 | 已在ICORE2026完整快照按全称、已核实旧名及简称复查，未取得本系列的明确对应记录；继续查历年版本。 [来源](https://portal.core.edu.au/conf-ranks/?search=&by=all&source=ICORE2026&sort=atitle) |
+| NCANT | CCF | 2026 | 待核验 | 2026-10-20 | 本次已核对会议身份；评级需补充对应完整系列的独立证据，未采用汇编推断。 |
+| NCANT | CORE / ICORE | 2026 | 所查版本未列入 | 2026-10-20 | 已在ICORE2026完整快照按全称、已核实旧名及简称复查，未取得本系列的明确对应记录；继续查历年版本。 [来源](https://portal.core.edu.au/conf-ranks/?search=&by=all&source=ICORE2026&sort=atitle) |
+| NCMMW | CCF | 2026 | 待核验 | 2026-10-20 | 本次已核对会议身份；评级需补充对应完整系列的独立证据，未采用汇编推断。 |
+| NCMMW | CORE / ICORE | 2026 | 所查版本未列入 | 2026-10-20 | 已在ICORE2026完整快照按全称、已核实旧名及简称复查，未取得本系列的明确对应记录；继续查历年版本。 [来源](https://portal.core.edu.au/conf-ranks/?search=&by=all&source=ICORE2026&sort=atitle) |
+| CRC | CCF | 2026 | 待核验 | 2026-10-20 | 本次已核对会议身份；评级需补充对应完整系列的独立证据，未采用汇编推断。 |
+| CRC | CORE / ICORE | 2026 | 所查版本未列入 | 2026-10-20 | 已在ICORE2026完整快照按全称、已核实旧名及简称复查，未取得本系列的明确对应记录；继续查历年版本。 [来源](https://portal.core.edu.au/conf-ranks/?search=&by=all&source=ICORE2026&sort=atitle) |
+| CNSRP | CCF | 2026 | 待核验 | 2026-10-20 | 本次已核对会议身份；评级需补充对应完整系列的独立证据，未采用汇编推断。 |
+| CNSRP | CORE / ICORE | 2026 | 所查版本未列入 | 2026-10-20 | 已在ICORE2026完整快照按全称、已核实旧名及简称复查，未取得本系列的明确对应记录；继续查历年版本。 [来源](https://portal.core.edu.au/conf-ranks/?search=&by=all&source=ICORE2026&sort=atitle) |
 | CIE Signal Processing（档案） | CCF | 2026 | 所查版本未列入 | 2026-10-18 | 按正式系列核对CCF2026公开副本全部386个会议条目，未列入该版。 [来源](https://scdm-shu.github.io/ccf/2026-CCF-Ranking.pdf) |
 | CIE Signal Processing（档案） | CORE / ICORE | 2026 | 所查版本未列入 | 2026-10-18 | 复查 ICORE2026 官方全 20 页、987 个记录，按全称、系列简称及历史名称对照，未列出该正式系列。 [来源](https://portal.core.edu.au/conf-ranks/?search=&by=all&source=ICORE2026&sort=atitle) |
+| CIOP | CCF | 2026 | 待核验 | 2026-10-20 | 本次已核对会议身份；评级需补充对应完整系列的独立证据，未采用汇编推断。 |
+| CIOP | CORE / ICORE | 2026 | 所查版本未列入 | 2026-10-20 | 已在ICORE2026完整快照按全称、已核实旧名及简称复查，未取得本系列的明确对应记录；继续查历年版本。 [来源](https://portal.core.edu.au/conf-ranks/?search=&by=all&source=ICORE2026&sort=atitle) |
 | CISS | CCF | 2026 | 所查版本未列入 | 2026-10-18 | 按正式系列核对CCF2026公开副本全部386个会议条目，未列入该版。 [来源](https://scdm-shu.github.io/ccf/2026-CCF-Ranking.pdf) |
 | CISS | CORE / ICORE | 2026 | 非等级状态 | 2026-10-18 | 已按正式全称及系列简称复查 ICORE2026 官方完整库。 [来源](https://portal.core.edu.au/conf-ranks/?search=&by=all&source=ICORE2026&sort=atitle&page=4) |
 | CIVR（档案） | CCF | 2026 | 所查版本未列入 | 2026-10-18 | 按正式系列核对CCF2026公开副本全部386个会议条目，未列入该版。 [来源](https://scdm-shu.github.io/ccf/2026-CCF-Ranking.pdf) |
@@ -203,6 +247,8 @@
 | CNS | CCF | 2026 | 所查版本未列入 | 2026-10-18 | 按正式系列核对CCF2026公开副本全部386个会议条目，未列入该版。 [来源](https://scdm-shu.github.io/ccf/2026-CCF-Ranking.pdf) |
 | CNS | CORE / ICORE | 2026 | 所查版本未列入 | 2026-10-18 | 复查 ICORE2026 官方全 20 页、987 个记录，按全称、系列简称及历史名称对照，未列出该正式系列。 [来源](https://portal.core.edu.au/conf-ranks/?search=&by=all&source=ICORE2026&sort=atitle) |
 | CNSM | CCF | 2026 | 所查版本未列入 | 2026-10-18 | 按正式系列核对CCF2026公开副本全部386个会议条目，未列入该版。 [来源](https://scdm-shu.github.io/ccf/2026-CCF-Ranking.pdf) |
+| IEEE COINS | CCF | 2026 | 待核验 | 2026-10-20 | 本次已核对会议身份；评级需补充对应完整系列的独立证据，未采用汇编推断。 |
+| IEEE COINS | CORE / ICORE | 2026 | 所查版本未列入 | 2026-10-20 | 已在ICORE2026完整快照按全称、已核实旧名及简称复查，未取得本系列的明确对应记录；继续查历年版本。 [来源](https://portal.core.edu.au/conf-ranks/?search=&by=all&source=ICORE2026&sort=atitle) |
 | Chinese Optics Letters | CCF | 2026 | 所查版本未列入 | 2026-10-19 | 按正式全名与已核实别名对照CCF2026公开副本完整目录未列；不等于低等级，不含另行发布的中文期刊推荐目录。 [来源](https://scdm-shu.github.io/ccf/2026-CCF-Ranking.pdf) |
 | IEEE ComMag | CCF | 2026 | 所查版本未列入 | 2026-10-18 | 按英文全名、缩写及已知旧名核对CCF2026公开副本全部295项期刊记录，未列入该版。 [来源](https://scdm-shu.github.io/ccf/2026-CCF-Ranking.pdf) |
 | 通信与信息技术 | 索引 | 来源年份见说明 | 已复查，证据不足 | 2026-10-19 | 保留目录身份，WoS索引仅凭独立证据写入。 |
@@ -217,6 +263,8 @@
 | COMSNETS | CORE / ICORE | 2026 | 非等级状态 | 2026-10-18 | 已按正式全称及系列简称复查 ICORE2026 官方完整库。 [来源](https://portal.core.edu.au/conf-ranks/?search=&by=all&source=ICORE2026&sort=atitle&page=10) |
 | COMST | CCF | 2026 | 所查版本未列入 | 2026-10-18 | 按英文全名、缩写及已知旧名核对CCF2026公开副本全部295项期刊记录，未列入该版。 [来源](https://scdm-shu.github.io/ccf/2026-CCF-Ranking.pdf) |
 | Current Optics and Photonics | CCF | 2026 | 所查版本未列入 | 2026-10-19 | 按正式全名与已核实别名对照CCF2026公开副本完整目录未列；不等于低等级，不含另行发布的中文期刊推荐目录。 [来源](https://scdm-shu.github.io/ccf/2026-CCF-Ranking.pdf) |
+| COS Conference | CCF | 2026 | 待核验 | 2026-10-20 | 本次已核对会议身份；评级需补充对应完整系列的独立证据，未采用汇编推断。 |
+| COS Conference | CORE / ICORE | 2026 | 所查版本未列入 | 2026-10-20 | 已在ICORE2026完整快照按全称、已核实旧名及简称复查，未取得本系列的明确对应记录；继续查历年版本。 [来源](https://portal.core.edu.au/conf-ranks/?search=&by=all&source=ICORE2026&sort=atitle) |
 | CQR | CCF | 2026 | 所查版本未列入 | 2026-10-18 | 按正式系列核对CCF2026公开副本全部386个会议条目，未列入该版。 [来源](https://scdm-shu.github.io/ccf/2026-CCF-Ranking.pdf) |
 | CQR | CORE / ICORE | 2026 | 所查版本未列入 | 2026-10-18 | 复查 ICORE2026 官方全 20 页、987 个记录，按全称、系列简称及历史名称对照，未列出该正式系列。 [来源](https://portal.core.edu.au/conf-ranks/?search=&by=all&source=ICORE2026&sort=atitle) |
 | CrownCom | CCF | 2026 | 所查版本未列入 | 2026-10-18 | 按正式系列核对CCF2026公开副本全部386个会议条目，未列入该版。 [来源](https://scdm-shu.github.io/ccf/2026-CCF-Ranking.pdf) |
@@ -231,16 +279,23 @@
 | Circuits, Systems, and Signal Processing | CCF | 2026 | 所查版本未列入 | 2026-10-19 | 按正式全名与已核实别名对照CCF2026公开副本完整目录未列；不等于低等级，不含另行发布的中文期刊推荐目录。 [来源](https://scdm-shu.github.io/ccf/2026-CCF-Ranking.pdf) |
 | CTW | CCF | 2026 | 所查版本未列入 | 2026-10-18 | 按正式系列核对CCF2026公开副本全部386个会议条目，未列入该版。 [来源](https://scdm-shu.github.io/ccf/2026-CCF-Ranking.pdf) |
 | CTW | CORE / ICORE | 2026 | 所查版本未列入 | 2026-10-18 | 已排除 ICORE 中同缩写的 Cologne-Twente Workshop on Graphs and Combinatorial Optimization（图论与组合优化）；不对应 IEEE 通信理论研讨会。 复查 ICORE2026 官方全 20 页、987 个记录，按全称、系列简称及历史名称对照，未列出该正式系列。 [来源](https://portal.core.edu.au/conf-ranks/?search=&by=all&source=ICORE2026&sort=atitle) |
+| CWIT | CCF | 2026 | 待核验 | 2026-10-20 | 本次已核对会议身份；评级需补充对应完整系列的独立证据，未采用汇编推断。 |
+| CWIT | CORE / ICORE | 2026 | 所查版本未列入 | 2026-10-20 | 已在ICORE2026完整快照按全称、已核实旧名及简称复查，未取得本系列的明确对应记录；继续查历年版本。 [来源](https://portal.core.edu.au/conf-ranks/?search=&by=all&source=ICORE2026&sort=atitle) |
+| IEEE/AIAA DASC | CCF | 2026 | 待核验 | 2026-10-20 | 本次已核对会议身份；评级需补充对应完整系列的独立证据，未采用汇编推断。 |
+| IEEE/AIAA DASC | CORE / ICORE | 2026 | 已复查，证据不足 | 2026-10-20 | DASC另指Dependable, Autonomic and Secure Computing，不能对应Digital Avionics。 [来源](https://portal.core.edu.au/conf-ranks/?search=&by=all&source=ICORE2026&sort=atitle) |
 | 数据通信 | 索引 | 来源年份见说明 | 已复查，证据不足 | 2026-10-19 | 保留目录身份，WoS索引仅凭独立证据写入。 |
 | 数据通信 | JCR | 2024 | 所查版本未列入 | 2026-10-19 | 完整2024 JCR转录按全名/别名及可得ISSN核查，未取得本刊明确JIF分区；只针对该旧年度，不判定当前WoS收录。 [来源](https://uefiscdi.gov.ro/resource-865584-JCR_2024.iunie2025.pdf) |
 | 数据通信 | 中科院 | 2025 | 所查版本未列入 | 2026-10-19 | 已对照完整21772刊的2025转录，正式全名/别名及可得ISSN未列；只代表所查2025表，不判断WoS收录。 [来源](https://cce.ncepu.edu.cn/xzzx/yjsjx1/7632005045644e61a0d12c7bbeff6204.htm) |
 | 数据通信 | CCF | 2026 | 所查版本未列入 | 2026-10-19 | 按正式全名与已核实别名对照CCF2026公开副本完整目录未列；不等于低等级，不含另行发布的中文期刊推荐目录。 [来源](https://scdm-shu.github.io/ccf/2026-CCF-Ranking.pdf) |
 | DCN | CCF | 2026 | 所查版本未列入 | 2026-10-19 | 按正式全名与已核实别名核对CCF2026国际会议期刊目录公开副本，未列入该版。中文期刊推荐目录另行发布。 [来源](https://scdm-shu.github.io/ccf/2026-CCF-Ranking.pdf) |
+| IEEE DCOSS-IoT | CCF | 2026 | 待核验 | 2026-10-20 | 本次已核对会议身份；评级需补充对应完整系列的独立证据，未采用汇编推断。 |
 | Displays | CCF | 2026 | 所查版本未列入 | 2026-10-19 | 按正式全名与已核实别名对照CCF2026公开副本完整目录未列；不等于低等级，不含另行发布的中文期刊推荐目录。 [来源](https://scdm-shu.github.io/ccf/2026-CCF-Ranking.pdf) |
 | 电力信息与通信技术 | 索引 | 来源年份见说明 | 已复查，证据不足 | 2026-10-19 | WoS索引待对应独立索引列核对。 |
 | 电力信息与通信技术 | JCR | 2024 | 所查版本未列入 | 2026-10-19 | 完整2024 JCR转录按全名/别名及可得ISSN核查，未取得本刊明确JIF分区；只针对该旧年度，不判定当前WoS收录。 [来源](https://uefiscdi.gov.ro/resource-865584-JCR_2024.iunie2025.pdf) |
 | 电力信息与通信技术 | 中科院 | 2025 | 所查版本未列入 | 2026-10-19 | 已对照完整21772刊的2025转录，正式全名/别名及可得ISSN未列；只代表所查2025表，不判断WoS收录。 [来源](https://cce.ncepu.edu.cn/xzzx/yjsjx1/7632005045644e61a0d12c7bbeff6204.htm) |
 | 电力信息与通信技术 | CCF | 2026 | 所查版本未列入 | 2026-10-19 | 按正式全名与已核实别名对照CCF2026公开副本完整目录未列；不等于低等级，不含另行发布的中文期刊推荐目录。 [来源](https://scdm-shu.github.io/ccf/2026-CCF-Ranking.pdf) |
+| IEEE DRCN | CCF | 2026 | 待核验 | 2026-10-20 | 本次已核对会议身份；评级需补充对应完整系列的独立证据，未采用汇编推断。 |
+| IEEE DRCN | CORE / ICORE | 2026 | 所查版本未列入 | 2026-10-20 | 已在ICORE2026完整快照按全称、已核实旧名及简称复查，未取得本系列的明确对应记录；继续查历年版本。 [来源](https://portal.core.edu.au/conf-ranks/?search=&by=all&source=ICORE2026&sort=atitle) |
 | DSP | CCF | 2026 | 所查版本未列入 | 2026-10-18 | 完整295项期刊记录按全名和别名检索，副本未列。 [来源](https://scdm-shu.github.io/ccf/2026-CCF-Ranking.pdf) |
 | DSP | CCF | 2026 | 所查版本未列入 | 2026-10-19 | 按正式全名与已核实别名对照CCF2026公开副本完整目录未列；不等于低等级，不含另行发布的中文期刊推荐目录。 [来源](https://scdm-shu.github.io/ccf/2026-CCF-Ranking.pdf) |
 | DSP | CORE / ICORE | 2026 | 所查版本未列入 | 2026-10-19 | 按正式全名与已核实别名对照ICORE2026官方987条完整库未列，不等于低等级；未按同简称的其他会议赋级。 [来源](https://portal.core.edu.au/conf-ranks/?search=&by=all&source=ICORE2026&sort=atitle) |
@@ -250,8 +305,12 @@
 | 电子测量与仪器学报 | JCR | 2024 | 所查版本未列入 | 2026-10-19 | 完整2024 JCR转录按全名/别名及可得ISSN核查，未取得本刊明确JIF分区；只针对该旧年度，不判定当前WoS收录。 [来源](https://uefiscdi.gov.ro/resource-865584-JCR_2024.iunie2025.pdf) |
 | 电子测量与仪器学报 | 中科院 | 2025 | 所查版本未列入 | 2026-10-19 | 已对照完整21772刊的2025转录，正式全名/别名及可得ISSN未列；只代表所查2025表，不判断WoS收录。 [来源](https://cce.ncepu.edu.cn/xzzx/yjsjx1/7632005045644e61a0d12c7bbeff6204.htm) |
 | 电子测量与仪器学报 | CCF | 2026 | 所查版本未列入 | 2026-10-19 | 按正式全名与已核实别名对照CCF2026公开副本完整目录未列；不等于低等级，不含另行发布的中文期刊推荐目录。 [来源](https://scdm-shu.github.io/ccf/2026-CCF-Ranking.pdf) |
+| ECIO | CCF | 2026 | 待核验 | 2026-10-20 | 本次已核对会议身份；评级需补充对应完整系列的独立证据，未采用汇编推断。 |
+| ECIO | CORE / ICORE | 2026 | 所查版本未列入 | 2026-10-20 | 已在ICORE2026完整快照按全称、已核实旧名及简称复查，未取得本系列的明确对应记录；继续查历年版本。 [来源](https://portal.core.edu.au/conf-ranks/?search=&by=all&source=ICORE2026&sort=atitle) |
 | ECOC | CCF | 2026 | 所查版本未列入 | 2026-10-18 | 按正式系列核对CCF2026公开副本全部386个会议条目，未列入该版。 [来源](https://scdm-shu.github.io/ccf/2026-CCF-Ranking.pdf) |
 | ECOC | CORE / ICORE | 2026 | 所查版本未列入 | 2026-10-18 | 复查 ICORE2026 官方全 20 页、987 个记录，按全称、系列简称及历史名称对照，未列出该正式系列。 [来源](https://portal.core.edu.au/conf-ranks/?search=&by=all&source=ICORE2026&sort=atitle) |
+| EDAPS | CCF | 2026 | 待核验 | 2026-10-20 | 本次已核对会议身份；评级需补充对应完整系列的独立证据，未采用汇编推断。 |
+| EDAPS | CORE / ICORE | 2026 | 所查版本未列入 | 2026-10-20 | 已在ICORE2026完整快照按全称、已核实旧名及简称复查，未取得本系列的明确对应记录；继续查历年版本。 [来源](https://portal.core.edu.au/conf-ranks/?search=&by=all&source=ICORE2026&sort=atitle) |
 | IEEE EDL | CCF | 2026 | 所查版本未列入 | 2026-10-19 | 按正式全名与已核实别名对照CCF2026公开副本完整目录未列；不等于低等级，不含另行发布的中文期刊推荐目录。 [来源](https://scdm-shu.github.io/ccf/2026-CCF-Ranking.pdf) |
 | EITEE | CCF | 2026 | 所查版本未列入 | 2026-10-18 | 完整295项期刊记录按完整名、缩写、旧名检索，副本未列。 [来源](https://scdm-shu.github.io/ccf/2026-CCF-Ranking.pdf) |
 | Electromagnetics | CCF | 2026 | 所查版本未列入 | 2026-10-19 | 按正式全名与已核实别名对照CCF2026公开副本完整目录未列；不等于低等级，不含另行发布的中文期刊推荐目录。 [来源](https://scdm-shu.github.io/ccf/2026-CCF-Ranking.pdf) |
@@ -260,10 +319,15 @@
 | EMBC（档案） | CORE / ICORE | 2026 | 所查版本未列入 | 2026-10-18 | 复查 ICORE2026 官方全 20 页、987 个记录，按全称、系列简称及历史名称对照，未列出该正式系列。 [来源](https://portal.core.edu.au/conf-ranks/?search=&by=all&source=ICORE2026&sort=atitle) |
 | IEEE EMC+SIPI | CCF | 2026 | 所查版本未列入 | 2026-10-19 | 按正式全名与已核实别名对照CCF2026公开副本完整目录未列；不等于低等级，不含另行发布的中文期刊推荐目录。 [来源](https://scdm-shu.github.io/ccf/2026-CCF-Ranking.pdf) |
 | IEEE EMC+SIPI | CORE / ICORE | 2026 | 所查版本未列入 | 2026-10-19 | 按正式全名与已核实别名对照ICORE2026官方987条完整库未列，不等于低等级；未按同简称的其他会议赋级。 [来源](https://portal.core.edu.au/conf-ranks/?search=&by=all&source=ICORE2026&sort=atitle) |
+| EMC Europe | CCF | 2026 | 待核验 | 2026-10-20 | 本次已核对会议身份；评级需补充对应完整系列的独立证据，未采用汇编推断。 |
+| EMC Europe | CORE / ICORE | 2026 | 所查版本未列入 | 2026-10-20 | 已在ICORE2026完整快照按全称、已核实旧名及简称复查，未取得本系列的明确对应记录；继续查历年版本。 [来源](https://portal.core.edu.au/conf-ranks/?search=&by=all&source=ICORE2026&sort=atitle) |
+| ENC | CCF | 2026 | 待核验 | 2026-10-20 | 本次已核对会议身份；评级需补充对应完整系列的独立证据，未采用汇编推断。 |
+| ENC | CORE / ICORE | 2026 | 已复查，证据不足 | 2026-10-20 | ENC旧记录为墨西哥计算机科学会议，不是European Navigation Conference。 [来源](https://portal.core.edu.au/conf-ranks/?search=&by=all&source=ICORE2026&sort=atitle) |
 | EPEPS | CCF | 2026 | 所查版本未列入 | 2026-10-19 | 按正式全名与已核实别名对照CCF2026公开副本完整目录未列；不等于低等级，不含另行发布的中文期刊推荐目录。 [来源](https://scdm-shu.github.io/ccf/2026-CCF-Ranking.pdf) |
 | EPEPS | CORE / ICORE | 2026 | 所查版本未列入 | 2026-10-19 | 按正式全名与已核实别名对照ICORE2026官方987条完整库未列，不等于低等级；未按同简称的其他会议赋级。 [来源](https://portal.core.edu.au/conf-ranks/?search=&by=all&source=ICORE2026&sort=atitle) |
 | EPJ Quantum Technol. | 中科院 | 2025 | 所查版本未列入 | 2026-10-19 | 已对照完整21772刊的2025转录，正式全名/别名及可得ISSN未列；只代表所查2025表，不判断WoS收录。 [来源](https://cce.ncepu.edu.cn/xzzx/yjsjx1/7632005045644e61a0d12c7bbeff6204.htm) |
 | EPJ Quantum Technol. | CCF | 2026 | 所查版本未列入 | 2026-10-19 | 按正式全名与已核实别名对照CCF2026公开副本完整目录未列；不等于低等级，不含另行发布的中文期刊推荐目录。 [来源](https://scdm-shu.github.io/ccf/2026-CCF-Ranking.pdf) |
+| IEEE ETFA | CCF | 2026 | 待核验 | 2026-10-20 | 本次已核对会议身份；评级需补充对应完整系列的独立证据，未采用汇编推断。 |
 | ETT | CCF | 2026 | 所查版本未列入 | 2026-10-18 | 完整295项期刊记录按完整名、缩写、旧名检索，副本未列。 [来源](https://scdm-shu.github.io/ccf/2026-CCF-Ranking.pdf) |
 | EuCAP | CCF | 2026 | 所查版本未列入 | 2026-10-18 | 按正式系列核对CCF2026公开副本全部386个会议条目，未列入该版。 [来源](https://scdm-shu.github.io/ccf/2026-CCF-Ranking.pdf) |
 | EuCAP | CORE / ICORE | 2026 | 所查版本未列入 | 2026-10-18 | 复查 ICORE2026 官方全 20 页、987 个记录，按全称、系列简称及历史名称对照，未列出该正式系列。 [来源](https://portal.core.edu.au/conf-ranks/?search=&by=all&source=ICORE2026&sort=atitle) |
@@ -277,10 +341,13 @@
 | EuRAD | CORE / ICORE | 2026 | 所查版本未列入 | 2026-10-18 | 按正式全称、历史名称及简称对照完整20页987个ICORE记录，未列该系列。 [来源](https://portal.core.edu.au/conf-ranks/?search=&by=all&source=ICORE2026&sort=atitle) |
 | EURASIP J. Audio Speech Music Process. | CCF | 2026 | 所查版本未列入 | 2026-10-19 | 按正式全名与已核实别名对照CCF2026公开副本完整目录未列；不等于低等级，不含另行发布的中文期刊推荐目录。 [来源](https://scdm-shu.github.io/ccf/2026-CCF-Ranking.pdf) |
 | EURASIP J. Image Video Process. | CCF | 2026 | 所查版本未列入 | 2026-10-19 | 按正式全名与已核实别名对照CCF2026公开副本完整目录未列；不等于低等级，不含另行发布的中文期刊推荐目录。 [来源](https://scdm-shu.github.io/ccf/2026-CCF-Ranking.pdf) |
+| IEEE EUROCON | CCF | 2026 | 待核验 | 2026-10-20 | 本次已核对会议身份；评级需补充对应完整系列的独立证据，未采用汇编推断。 |
+| IEEE EUROCON | CORE / ICORE | 2026 | 所查版本未列入 | 2026-10-20 | 已在ICORE2026完整快照按全称、已核实旧名及简称复查，未取得本系列的明确对应记录；继续查历年版本。 [来源](https://portal.core.edu.au/conf-ranks/?search=&by=all&source=ICORE2026&sort=atitle) |
 | EUROCRYPT | CCF | 2026 | 所查版本未列入 | 2026-10-19 | 按正式全名与已核实别名对照CCF2026公开副本完整目录未列；不等于低等级，不含另行发布的中文期刊推荐目录。 [来源](https://scdm-shu.github.io/ccf/2026-CCF-Ranking.pdf) |
 | EUROCRYPT | CORE / ICORE | 2026 | 所查版本未列入 | 2026-10-19 | 按正式全名与已核实别名对照ICORE2026官方987条完整库未列，不等于低等级；未按同简称的其他会议赋级。 [来源](https://portal.core.edu.au/conf-ranks/?search=&by=all&source=ICORE2026&sort=atitle) |
 | EUSIPCO | CCF | 2026 | 所查版本未列入 | 2026-10-18 | 按正式系列核对CCF2026公开副本全部386个会议条目，未列入该版。 [来源](https://scdm-shu.github.io/ccf/2026-CCF-Ranking.pdf) |
 | EUSIPCO | CORE / ICORE | 2026 | 所查版本未列入 | 2026-10-18 | 复查 ICORE2026 官方全 20 页、987 个记录，按全称、系列简称及历史名称对照，未列出该正式系列。 [来源](https://portal.core.edu.au/conf-ranks/?search=&by=all&source=ICORE2026&sort=atitle) |
+| EWSN | CCF | 2026 | 待核验 | 2026-10-20 | 本次已核对会议身份；评级需补充对应完整系列的独立证据，未采用汇编推断。 |
 | FNWF | CCF | 2026 | 所查版本未列入 | 2026-10-18 | 按正式系列核对CCF2026公开副本全部386个会议条目，未列入该版。 [来源](https://scdm-shu.github.io/ccf/2026-CCF-Ranking.pdf) |
 | FNWF | CORE / ICORE | 2026 | 所查版本未列入 | 2026-10-18 | 复查 ICORE2026 官方全 20 页、987 个记录，按全称、系列简称及历史名称对照，未列出该正式系列。 [来源](https://portal.core.edu.au/conf-ranks/?search=&by=all&source=ICORE2026&sort=atitle) |
 | FOAN | CCF | 2026 | 所查版本未列入 | 2026-10-19 | 按正式全名与已核实别名对照CCF2026公开副本完整目录未列；不等于低等级，不含另行发布的中文期刊推荐目录。 [来源](https://scdm-shu.github.io/ccf/2026-CCF-Ranking.pdf) |
@@ -303,8 +370,11 @@
 | 光电子·激光 | CCF | 2026 | 所查版本未列入 | 2026-10-19 | 按正式全名与已核实别名对照CCF2026公开副本完整目录未列；不等于低等级，不含另行发布的中文期刊推荐目录。 [来源](https://scdm-shu.github.io/ccf/2026-CCF-Ranking.pdf) |
 | GeMiC | CCF | 2026 | 所查版本未列入 | 2026-10-19 | 按正式全名与已核实别名对照CCF2026公开副本完整目录未列；不等于低等级，不含另行发布的中文期刊推荐目录。 [来源](https://scdm-shu.github.io/ccf/2026-CCF-Ranking.pdf) |
 | GeMiC | CORE / ICORE | 2026 | 所查版本未列入 | 2026-10-19 | 按正式全名与已核实别名对照ICORE2026官方987条完整库未列，不等于低等级；未按同简称的其他会议赋级。 [来源](https://portal.core.edu.au/conf-ranks/?search=&by=all&source=ICORE2026&sort=atitle) |
+| IEEE GIIS | CCF | 2026 | 待核验 | 2026-10-20 | 本次已核对会议身份；评级需补充对应完整系列的独立证据，未采用汇编推断。 |
+| IEEE GIIS | CORE / ICORE | 2026 | 所查版本未列入 | 2026-10-20 | 已在ICORE2026完整快照按全称、已核实旧名及简称复查，未取得本系列的明确对应记录；继续查历年版本。 [来源](https://portal.core.edu.au/conf-ranks/?search=&by=all&source=ICORE2026&sort=atitle) |
 | GlobalSIP（档案） | CCF | 2026 | 所查版本未列入 | 2026-10-18 | 按正式系列核对CCF2026公开副本全部386个会议条目，未列入该版。 [来源](https://scdm-shu.github.io/ccf/2026-CCF-Ranking.pdf) |
 | GlobalSIP（档案） | CORE / ICORE | 2026 | 所查版本未列入 | 2026-10-18 | 复查 ICORE2026 官方全 20 页、987 个记录，按全称、系列简称及历史名称对照，未列出该正式系列。 [来源](https://portal.core.edu.au/conf-ranks/?search=&by=all&source=ICORE2026&sort=atitle) |
+| GLSVLSI | CORE / ICORE | 2026 | 所查版本未列入 | 2026-10-20 | 已在ICORE2026完整快照按全称、已核实旧名及简称复查，未取得本系列的明确对应记录；继续查历年版本。 [来源](https://portal.core.edu.au/conf-ranks/?search=&by=all&source=ICORE2026&sort=atitle) |
 | GPS Solutions | CCF | 2026 | 所查版本未列入 | 2026-10-18 | 按英文全名、缩写及已知旧名核对CCF2026公开副本全部295项期刊记录，未列入该版。 [来源](https://scdm-shu.github.io/ccf/2026-CCF-Ranking.pdf) |
 | GSMM | CCF | 2026 | 所查版本未列入 | 2026-10-18 | 按正式系列核对CCF2026公开副本全部386个会议条目，未列入该版。 [来源](https://scdm-shu.github.io/ccf/2026-CCF-Ranking.pdf) |
 | GSMM | CORE / ICORE | 2026 | 所查版本未列入 | 2026-10-18 | 复查 ICORE2026 官方全 20 页、987 个记录，按全称、系列简称及历史名称对照，未列出该正式系列。 [来源](https://portal.core.edu.au/conf-ranks/?search=&by=all&source=ICORE2026&sort=atitle) |
@@ -329,6 +399,8 @@
 | 红外与激光工程 | JCR | 2024 | 所查版本未列入 | 2026-10-19 | 完整2024 JCR转录按全名/别名及可得ISSN核查，未取得本刊明确JIF分区；只针对该旧年度，不判定当前WoS收录。 [来源](https://uefiscdi.gov.ro/resource-865584-JCR_2024.iunie2025.pdf) |
 | 红外与激光工程 | 中科院 | 2025 | 所查版本未列入 | 2026-10-19 | 已对照完整21772刊的2025转录，正式全名/别名及可得ISSN未列；只代表所查2025表，不判断WoS收录。 [来源](https://cce.ncepu.edu.cn/xzzx/yjsjx1/7632005045644e61a0d12c7bbeff6204.htm) |
 | 红外与激光工程 | CCF | 2026 | 所查版本未列入 | 2026-10-19 | 按正式全名与已核实别名对照CCF2026公开副本完整目录未列；不等于低等级，不含另行发布的中文期刊推荐目录。 [来源](https://scdm-shu.github.io/ccf/2026-CCF-Ranking.pdf) |
+| IAC | CCF | 2026 | 待核验 | 2026-10-20 | 本次已核对会议身份；评级需补充对应完整系列的独立证据，未采用汇编推断。 |
+| IAC | CORE / ICORE | 2026 | 所查版本未列入 | 2026-10-20 | 已在ICORE2026完整快照按全称、已核实旧名及简称复查，未取得本系列的明确对应记录；继续查历年版本。 [来源](https://portal.core.edu.au/conf-ranks/?search=&by=all&source=ICORE2026&sort=atitle) |
 | IBC（档案） | CCF | 2026 | 所查版本未列入 | 2026-10-18 | 已核实正式系列全称和历史名称，复查完整386个CCF会议条目未列出。 [来源](https://scdm-shu.github.io/ccf/2026-CCF-Ranking.pdf) |
 | IBC（档案） | CORE / ICORE | 2026 | 所查版本未列入 | 2026-10-18 | 已核实正式系列全称和历史名称，复查ICORE2026官方全20页987个记录未列出。 [来源](https://portal.core.edu.au/conf-ranks/?search=&by=all&source=ICORE2026&sort=atitle) |
 | ICAIT | CCF | 2026 | 所查版本未列入 | 2026-10-19 | 按正式全名与已核实别名对照CCF2026公开副本完整目录未列；不等于低等级，不含另行发布的中文期刊推荐目录。 [来源](https://scdm-shu.github.io/ccf/2026-CCF-Ranking.pdf) |
@@ -344,10 +416,16 @@
 | ICCC | CORE / ICORE | 2026 | 所查版本未列入 | 2026-10-18 | 已排除 ICORE 中同缩写的 International Conference on Computational Creativity（计算创造力）；不对应 IEEE/CIC 中国通信会议。 复查 ICORE2026 官方全 20 页、987 个记录，按全称、系列简称及历史名称对照，未列出该正式系列。 [来源](https://portal.core.edu.au/conf-ranks/?search=&by=all&source=ICORE2026&sort=atitle) |
 | ICCCAS | CCF | 2026 | 所查版本未列入 | 2026-10-19 | 按正式全名与已核实别名核对CCF2026国际会议期刊目录公开副本，未列入该版。中文期刊推荐目录另行发布。 [来源](https://scdm-shu.github.io/ccf/2026-CCF-Ranking.pdf) |
 | ICCCAS | CORE / ICORE | 2026 | 所查版本未列入 | 2026-10-19 | 按正式全名与已核实别名核对ICORE2026官方全部987条记录，未列入该版。 [来源](https://portal.core.edu.au/conf-ranks/?search=&by=all&source=ICORE2026&sort=atitle) |
+| ICCE | CCF | 2026 | 待核验 | 2026-10-20 | 本次已核对会议身份；评级需补充对应完整系列的独立证据，未采用汇编推断。 |
+| ICCE | CORE / ICORE | 2026 | 已复查，证据不足 | 2026-10-20 | ICCE另指Computers in Education，不能对应Consumer Electronics。 [来源](https://portal.core.edu.au/conf-ranks/?search=&by=all&source=ICORE2026&sort=atitle) |
 | ICCT | CCF | 2026 | 所查版本未列入 | 2026-10-19 | 按正式全名与已核实别名核对CCF2026国际会议期刊目录公开副本，未列入该版。中文期刊推荐目录另行发布。 [来源](https://scdm-shu.github.io/ccf/2026-CCF-Ranking.pdf) |
 | ICCT | CORE / ICORE | 2026 | 所查版本未列入 | 2026-10-19 | 按正式全名与已核实别名核对ICORE2026官方全部987条记录，未列入该版。 [来源](https://portal.core.edu.au/conf-ranks/?search=&by=all&source=ICORE2026&sort=atitle) |
+| ICEAA | CCF | 2026 | 待核验 | 2026-10-20 | 本次已核对会议身份；评级需补充对应完整系列的独立证据，未采用汇编推断。 |
+| ICEAA | CORE / ICORE | 2026 | 所查版本未列入 | 2026-10-20 | 已在ICORE2026完整快照按全称、已核实旧名及简称复查，未取得本系列的明确对应记录；继续查历年版本。 [来源](https://portal.core.edu.au/conf-ranks/?search=&by=all&source=ICORE2026&sort=atitle) |
 | ICIN | CCF | 2026 | 所查版本未列入 | 2026-10-18 | 按正式系列核对CCF2026公开副本全部386个会议条目，未列入该版。 [来源](https://scdm-shu.github.io/ccf/2026-CCF-Ranking.pdf) |
 | ICIN | CORE / ICORE | 2026 | 非等级状态 | 2026-10-18 | 已按正式全称及系列简称复查 ICORE2026 官方完整库。 [来源](https://portal.core.edu.au/conf-ranks/?search=&by=all&source=ICORE2026&sort=atitle&page=4) |
+| ICISC | CCF | 2026 | 待核验 | 2026-10-20 | 本次已核对会议身份；评级需补充对应完整系列的独立证据，未采用汇编推断。 |
+| ICISC | CORE / ICORE | 2026 | 非等级状态 | 2026-10-20 | 本次重读本项目保存的官方版本快照，按正式全称和已核实旧名对应；同缩写不同会议分别处理。等级保留原始年份；National、Australasian等带地域状态不转换为A/B/C。 [来源](https://portal.core.edu.au/conf-ranks/?search=ICISC&by=acronym&source=ICORE2026) |
 | ICMAC | CCF | 2026 | 所查版本未列入 | 2026-10-19 | 按正式全名与已核实别名对照CCF2026公开副本完整目录未列；不等于低等级，不含另行发布的中文期刊推荐目录。 [来源](https://scdm-shu.github.io/ccf/2026-CCF-Ranking.pdf) |
 | ICMAC | CORE / ICORE | 2026 | 所查版本未列入 | 2026-10-19 | 按正式全名与已核实别名对照ICORE2026官方987条完整库未列，不等于低等级；未按同简称的其他会议赋级。 [来源](https://portal.core.edu.au/conf-ranks/?search=&by=all&source=ICORE2026&sort=atitle) |
 | ICMLCN | CCF | 2026 | 所查版本未列入 | 2026-10-18 | 按正式系列核对CCF2026公开副本全部386个会议条目，未列入该版。 [来源](https://scdm-shu.github.io/ccf/2026-CCF-Ranking.pdf) |
@@ -370,6 +448,8 @@
 | ICSLP（档案） | CORE / ICORE | 2026 | 对应范围未明确 | 2026-10-18 | ISCA历史原文确认ICSLP与EUROSPEECH逐步整合为INTERSPEECH（国际语音通信大会）。旧名归档，等级适用范围保留为原系列。 [来源](https://portal.core.edu.au/conf-ranks/?search=&by=all&source=ICORE2026&sort=atitle) |
 | ICSOS | CCF | 2026 | 所查版本未列入 | 2026-10-18 | 按正式系列核对CCF2026公开副本全部386个会议条目，未列入该版。 [来源](https://scdm-shu.github.io/ccf/2026-CCF-Ranking.pdf) |
 | ICSOS | CORE / ICORE | 2026 | 所查版本未列入 | 2026-10-18 | 复查 ICORE2026 官方全 20 页、987 个记录，按全称、系列简称及历史名称对照，未列出该正式系列。 [来源](https://portal.core.edu.au/conf-ranks/?search=&by=all&source=ICORE2026&sort=atitle) |
+| IEEE ICSP | CCF | 2026 | 待核验 | 2026-10-20 | 本次已核对会议身份；评级需补充对应完整系列的独立证据，未采用汇编推断。 |
+| IEEE ICSP | CORE / ICORE | 2026 | 所查版本未列入 | 2026-10-20 | 已在ICORE2026完整快照按全称、已核实旧名及简称复查，未取得本系列的明确对应记录；继续查历年版本。 [来源](https://portal.core.edu.au/conf-ranks/?search=&by=all&source=ICORE2026&sort=atitle) |
 | ICSPS | CCF | 2026 | 所查版本未列入 | 2026-10-18 | 按正式系列核对CCF2026公开副本全部386个会议条目，未列入该版。 [来源](https://scdm-shu.github.io/ccf/2026-CCF-Ranking.pdf) |
 | ICSPS | CORE / ICORE | 2026 | 所查版本未列入 | 2026-10-18 | 复查 ICORE2026 官方全 20 页、987 个记录，按全称、系列简称及历史名称对照，未列出该正式系列。 [来源](https://portal.core.edu.au/conf-ranks/?search=&by=all&source=ICORE2026&sort=atitle) |
 | ICT | CCF | 2026 | 所查版本未列入 | 2026-10-18 | 按正式系列核对CCF2026公开副本全部386个会议条目，未列入该版。 [来源](https://scdm-shu.github.io/ccf/2026-CCF-Ranking.pdf) |
@@ -382,10 +462,19 @@
 | 信息通信技术与政策 | JCR | 2024 | 所查版本未列入 | 2026-10-19 | 完整2024 JCR转录按全名/别名及可得ISSN核查，未取得本刊明确JIF分区；只针对该旧年度，不判定当前WoS收录。 [来源](https://uefiscdi.gov.ro/resource-865584-JCR_2024.iunie2025.pdf) |
 | 信息通信技术与政策 | 中科院 | 2025 | 所查版本未列入 | 2026-10-19 | 已对照完整21772刊的2025转录，正式全名/别名及可得ISSN未列；只代表所查2025表，不判断WoS收录。 [来源](https://cce.ncepu.edu.cn/xzzx/yjsjx1/7632005045644e61a0d12c7bbeff6204.htm) |
 | 信息通信技术与政策 | CCF | 2026 | 所查版本未列入 | 2026-10-19 | 按正式全名与已核实别名对照CCF2026公开副本完整目录未列；不等于低等级，不含另行发布的中文期刊推荐目录。 [来源](https://scdm-shu.github.io/ccf/2026-CCF-Ranking.pdf) |
+| ICTC | CCF | 2026 | 待核验 | 2026-10-20 | 本次已核对会议身份；评级需补充对应完整系列的独立证据，未采用汇编推断。 |
+| ICTC | CORE / ICORE | 2026 | 所查版本未列入 | 2026-10-20 | 已在ICORE2026完整快照按全称、已核实旧名及简称复查，未取得本系列的明确对应记录；继续查历年版本。 [来源](https://portal.core.edu.au/conf-ranks/?search=&by=all&source=ICORE2026&sort=atitle) |
 | ICTON | CCF | 2026 | 所查版本未列入 | 2026-10-18 | 按正式全称、历史名称及简称对照完整386个CCF会议条目，未列该系列。 [来源](https://scdm-shu.github.io/ccf/2026-CCF-Ranking.pdf) |
 | ICTON | CORE / ICORE | 2026 | 所查版本未列入 | 2026-10-18 | 按正式全称、历史名称及简称对照完整20页987个ICORE记录，未列该系列。 [来源](https://portal.core.edu.au/conf-ranks/?search=&by=all&source=ICORE2026&sort=atitle) |
 | ICUFN | CCF | 2026 | 所查版本未列入 | 2026-10-19 | 按正式全名与已核实别名对照CCF2026公开副本完整目录未列；不等于低等级，不含另行发布的中文期刊推荐目录。 [来源](https://scdm-shu.github.io/ccf/2026-CCF-Ranking.pdf) |
 | ICUFN | CORE / ICORE | 2026 | 所查版本未列入 | 2026-10-19 | 按正式全名与已核实别名对照ICORE2026官方987条完整库未列，不等于低等级；未按同简称的其他会议赋级。 [来源](https://portal.core.edu.au/conf-ranks/?search=&by=all&source=ICORE2026&sort=atitle) |
+| ICUMT | CCF | 2026 | 待核验 | 2026-10-20 | 本次已核对会议身份；评级需补充对应完整系列的独立证据，未采用汇编推断。 |
+| ICUMT | CORE / ICORE | 2026 | 所查版本未列入 | 2026-10-20 | 已在ICORE2026完整快照按全称、已核实旧名及简称复查，未取得本系列的明确对应记录；继续查历年版本。 [来源](https://portal.core.edu.au/conf-ranks/?search=&by=all&source=ICORE2026&sort=atitle) |
+| IEEE IECON | CCF | 2026 | 待核验 | 2026-10-20 | 本次已核对会议身份；评级需补充对应完整系列的独立证据，未采用汇编推断。 |
+| IEDM | CCF | 2026 | 待核验 | 2026-10-20 | 本次已核对会议身份；评级需补充对应完整系列的独立证据，未采用汇编推断。 |
+| IEDM | CORE / ICORE | 2026 | 所查版本未列入 | 2026-10-20 | 已在ICORE2026完整快照按全称、已核实旧名及简称复查，未取得本系列的明确对应记录；继续查历年版本。 [来源](https://portal.core.edu.au/conf-ranks/?search=&by=all&source=ICORE2026&sort=atitle) |
+| IEEE SENSORS | CCF | 2026 | 待核验 | 2026-10-20 | 本次已核对会议身份；评级需补充对应完整系列的独立证据，未采用汇编推断。 |
+| IEEE SENSORS | CORE / ICORE | 2026 | 所查版本未列入 | 2026-10-20 | 已在ICORE2026完整快照按全称、已核实旧名及简称复查，未取得本系列的明确对应记录；继续查历年版本。 [来源](https://portal.core.edu.au/conf-ranks/?search=&by=all&source=ICORE2026&sort=atitle) |
 | IEICE COM | CCF | 2026 | 所查版本未列入 | 2026-10-19 | 按正式全名与已核实别名核对CCF2026国际会议期刊目录公开副本，未列入该版。中文期刊推荐目录另行发布。 [来源](https://scdm-shu.github.io/ccf/2026-CCF-Ranking.pdf) |
 | IEICE Trans. Electron. | CCF | 2026 | 所查版本未列入 | 2026-10-19 | 按正式全名与已核实别名对照CCF2026公开副本完整目录未列；不等于低等级，不含另行发布的中文期刊推荐目录。 [来源](https://scdm-shu.github.io/ccf/2026-CCF-Ranking.pdf) |
 | IEICE Electron. Express | CCF | 2026 | 所查版本未列入 | 2026-10-19 | 按正式全名与已核实别名对照CCF2026公开副本完整目录未列；不等于低等级，不含另行发布的中文期刊推荐目录。 [来源](https://scdm-shu.github.io/ccf/2026-CCF-Ranking.pdf) |
@@ -411,12 +500,16 @@
 | IJSNet | CCF | 2026 | 所查版本未列入 | 2026-10-19 | 按正式全名与已核实别名核对CCF2026国际会议期刊目录公开副本，未列入该版。中文期刊推荐目录另行发布。 [来源](https://scdm-shu.github.io/ccf/2026-CCF-Ranking.pdf) |
 | IMAS | CCF | 2026 | 所查版本未列入 | 2026-10-19 | 按正式全名与已核实别名对照CCF2026公开副本完整目录未列；不等于低等级，不含另行发布的中文期刊推荐目录。 [来源](https://scdm-shu.github.io/ccf/2026-CCF-Ranking.pdf) |
 | IMAS | CORE / ICORE | 2026 | 所查版本未列入 | 2026-10-19 | 按正式全名与已核实别名对照ICORE2026官方987条完整库未列，不等于低等级；未按同简称的其他会议赋级。 [来源](https://portal.core.edu.au/conf-ranks/?search=&by=all&source=ICORE2026&sort=atitle) |
+| IEEE IMBioC | CCF | 2026 | 待核验 | 2026-10-20 | 本次已核对会议身份；评级需补充对应完整系列的独立证据，未采用汇编推断。 |
+| IEEE IMBioC | CORE / ICORE | 2026 | 所查版本未列入 | 2026-10-20 | 已在ICORE2026完整快照按全称、已核实旧名及简称复查，未取得本系列的明确对应记录；继续查历年版本。 [来源](https://portal.core.edu.au/conf-ranks/?search=&by=all&source=ICORE2026&sort=atitle) |
 | IMS | CCF | 2026 | 所查版本未列入 | 2026-10-18 | 按正式系列核对CCF2026公开副本全部386个会议条目，未列入该版。 [来源](https://scdm-shu.github.io/ccf/2026-CCF-Ranking.pdf) |
 | IMS | CORE / ICORE | 2026 | 所查版本未列入 | 2026-10-18 | 复查 ICORE2026 官方全 20 页、987 个记录，按全称、系列简称及历史名称对照，未列出该正式系列。 [来源](https://portal.core.edu.au/conf-ranks/?search=&by=all&source=ICORE2026&sort=atitle) |
 | IMWS-AMP | CCF | 2026 | 所查版本未列入 | 2026-10-19 | 按正式全名与已核实别名对照CCF2026公开副本完整目录未列；不等于低等级，不含另行发布的中文期刊推荐目录。 [来源](https://scdm-shu.github.io/ccf/2026-CCF-Ranking.pdf) |
 | IMWS-AMP | CORE / ICORE | 2026 | 所查版本未列入 | 2026-10-19 | 按正式全名与已核实别名对照ICORE2026官方987条完整库未列，不等于低等级；未按同简称的其他会议赋级。 [来源](https://portal.core.edu.au/conf-ranks/?search=&by=all&source=ICORE2026&sort=atitle) |
+| IEEE INDIN | CCF | 2026 | 待核验 | 2026-10-20 | 本次已核对会议身份；评级需补充对应完整系列的独立证据，未采用汇编推断。 |
 | INMMIC | CCF | 2026 | 所查版本未列入 | 2026-10-19 | 按正式全名与已核实别名对照CCF2026公开副本完整目录未列；不等于低等级，不含另行发布的中文期刊推荐目录。 [来源](https://scdm-shu.github.io/ccf/2026-CCF-Ranking.pdf) |
 | INMMIC | CORE / ICORE | 2026 | 所查版本未列入 | 2026-10-19 | 按正式全名与已核实别名对照ICORE2026官方987条完整库未列，不等于低等级；未按同简称的其他会议赋级。 [来源](https://portal.core.edu.au/conf-ranks/?search=&by=all&source=ICORE2026&sort=atitle) |
+| Inscrypt | CORE / ICORE | 2026 | 非等级状态 | 2026-10-20 | 本次重读本项目保存的官方版本快照，按正式全称和已核实旧名对应；同缩写不同会议分别处理。等级保留原始年份；National、Australasian等带地域状态不转换为A/B/C。 [来源](https://portal.core.edu.au/conf-ranks/?search=Inscrypt&by=acronym&source=ICORE2026) |
 | ION GNSS+ | CCF | 2026 | 所查版本未列入 | 2026-10-18 | 按正式系列核对CCF2026公开副本全部386个会议条目，未列入该版。 [来源](https://scdm-shu.github.io/ccf/2026-CCF-Ranking.pdf) |
 | ION GNSS+ | CORE / ICORE | 2026 | 所查版本未列入 | 2026-10-18 | 复查 ICORE2026 官方全 20 页、987 个记录，按全称、系列简称及历史名称对照，未列出该正式系列。 [来源](https://portal.core.edu.au/conf-ranks/?search=&by=all&source=ICORE2026&sort=atitle) |
 | ION ITM | CCF | 2026 | 所查版本未列入 | 2026-10-19 | 按正式全名与已核实别名对照CCF2026公开副本完整目录未列；不等于低等级，不含另行发布的中文期刊推荐目录。 [来源](https://scdm-shu.github.io/ccf/2026-CCF-Ranking.pdf) |
@@ -430,8 +523,12 @@
 | IPC | CCF | 2026 | 所查版本未列入 | 2026-10-18 | 按正式系列核对CCF2026公开副本全部386个会议条目，未列入该版。 [来源](https://scdm-shu.github.io/ccf/2026-CCF-Ranking.pdf) |
 | IPC | CORE / ICORE | 2026 | 所查版本未列入 | 2026-10-18 | 复查 ICORE2026 官方全 20 页、987 个记录，按全称、系列简称及历史名称对照，未列出该正式系列。 [来源](https://portal.core.edu.au/conf-ranks/?search=&by=all&source=ICORE2026&sort=atitle) |
 | IPIN | CCF | 2026 | 所查版本未列入 | 2026-10-18 | 按正式全称、历史名称及简称对照完整386个CCF会议条目，未列该系列。 [来源](https://scdm-shu.github.io/ccf/2026-CCF-Ranking.pdf) |
+| IPR | CCF | 2026 | 待核验 | 2026-10-20 | 本次已核对会议身份；评级需补充对应完整系列的独立证据，未采用汇编推断。 |
+| IPR | CORE / ICORE | 2026 | 所查版本未列入 | 2026-10-20 | 已在ICORE2026完整快照按全称、已核实旧名及简称复查，未取得本系列的明确对应记录；继续查历年版本。 [来源](https://portal.core.edu.au/conf-ranks/?search=&by=all&source=ICORE2026&sort=atitle) |
 | IRMMW-THz | CCF | 2026 | 所查版本未列入 | 2026-10-18 | 按正式系列核对CCF2026公开副本全部386个会议条目，未列入该版。 [来源](https://scdm-shu.github.io/ccf/2026-CCF-Ranking.pdf) |
 | IRMMW-THz | CORE / ICORE | 2026 | 所查版本未列入 | 2026-10-18 | 复查 ICORE2026 官方全 20 页、987 个记录，按全称、系列简称及历史名称对照，未列出该正式系列。 [来源](https://portal.core.edu.au/conf-ranks/?search=&by=all&source=ICORE2026&sort=atitle) |
+| IRS | CCF | 2026 | 待核验 | 2026-10-20 | 本次已核对会议身份；评级需补充对应完整系列的独立证据，未采用汇编推断。 |
+| IRS | CORE / ICORE | 2026 | 所查版本未列入 | 2026-10-20 | 已在ICORE2026完整快照按全称、已核实旧名及简称复查，未取得本系列的明确对应记录；继续查历年版本。 [来源](https://portal.core.edu.au/conf-ranks/?search=&by=all&source=ICORE2026&sort=atitle) |
 | IS2 | CCF | 2026 | 所查版本未列入 | 2026-10-18 | 按正式系列核对CCF2026公开副本全部386个会议条目，未列入该版。 [来源](https://scdm-shu.github.io/ccf/2026-CCF-Ranking.pdf) |
 | IS2 | CORE / ICORE | 2026 | 所查版本未列入 | 2026-10-18 | 复查 ICORE2026 官方全 20 页、987 个记录，按全称、系列简称及历史名称对照，未列出该正式系列。 [来源](https://portal.core.edu.au/conf-ranks/?search=&by=all&source=ICORE2026&sort=atitle) |
 | ISAC | CCF | 2026 | 所查版本未列入 | 2026-10-18 | 按正式系列核对CCF2026公开副本全部386个会议条目，未列入该版。 [来源](https://scdm-shu.github.io/ccf/2026-CCF-Ranking.pdf) |
@@ -451,26 +548,39 @@
 | ISNCC | CCF | 2026 | 所查版本未列入 | 2026-10-18 | 按正式系列核对CCF2026公开副本全部386个会议条目，未列入该版。 [来源](https://scdm-shu.github.io/ccf/2026-CCF-Ranking.pdf) |
 | ISPCS | CCF | 2026 | 所查版本未列入 | 2026-10-19 | 按正式全名与已核实别名核对CCF2026国际会议期刊目录公开副本，未列入该版。中文期刊推荐目录另行发布。 [来源](https://scdm-shu.github.io/ccf/2026-CCF-Ranking.pdf) |
 | ISPCS | CORE / ICORE | 2026 | 所查版本未列入 | 2026-10-19 | 按正式全名与已核实别名核对ICORE2026官方全部987条记录，未列入该版。 [来源](https://portal.core.edu.au/conf-ranks/?search=&by=all&source=ICORE2026&sort=atitle) |
+| IEEE ISPLC（档案） | CCF | 2026 | 待核验 | 2026-10-20 | 本次已核对会议身份；评级需补充对应完整系列的独立证据，未采用汇编推断。 |
+| IEEE ISPLC（档案） | CORE / ICORE | 2026 | 所查版本未列入 | 2026-10-20 | 已在ICORE2026完整快照按全称、已核实旧名及简称复查，未取得本系列的明确对应记录；继续查历年版本。 [来源](https://portal.core.edu.au/conf-ranks/?search=&by=all&source=ICORE2026&sort=atitle) |
 | ISSCC | CCF | 2026 | 所查版本未列入 | 2026-10-19 | 按正式全名与已核实别名对照CCF2026公开副本完整目录未列；不等于低等级，不含另行发布的中文期刊推荐目录。 [来源](https://scdm-shu.github.io/ccf/2026-CCF-Ranking.pdf) |
 | ISSCC | CORE / ICORE | 2026 | 所查版本未列入 | 2026-10-19 | 按正式全名与已核实别名对照ICORE2026官方987条完整库未列，不等于低等级；未按同简称的其他会议赋级。 [来源](https://portal.core.edu.au/conf-ranks/?search=&by=all&source=ICORE2026&sort=atitle) |
 | ISSTT | CCF | 2026 | 所查版本未列入 | 2026-10-19 | 按正式全名与已核实别名对照CCF2026公开副本完整目录未列；不等于低等级，不含另行发布的中文期刊推荐目录。 [来源](https://scdm-shu.github.io/ccf/2026-CCF-Ranking.pdf) |
 | ISSTT | CORE / ICORE | 2026 | 所查版本未列入 | 2026-10-19 | 按正式全名与已核实别名对照ICORE2026官方987条完整库未列，不等于低等级；未按同简称的其他会议赋级。 [来源](https://portal.core.edu.au/conf-ranks/?search=&by=all&source=ICORE2026&sort=atitle) |
 | ISTC | CCF | 2026 | 所查版本未列入 | 2026-10-19 | 按正式全名与已核实别名对照CCF2026公开副本完整目录未列；不等于低等级，不含另行发布的中文期刊推荐目录。 [来源](https://scdm-shu.github.io/ccf/2026-CCF-Ranking.pdf) |
 | ISTC | CORE / ICORE | 2026 | 所查版本未列入 | 2026-10-19 | 按正式全名与已核实别名对照ICORE2026官方987条完整库未列，不等于低等级；未按同简称的其他会议赋级。 [来源](https://portal.core.edu.au/conf-ranks/?search=&by=all&source=ICORE2026&sort=atitle) |
+| ISVLSI | CCF | 2026 | 待核验 | 2026-10-20 | 本次已核对会议身份；评级需补充对应完整系列的独立证据，未采用汇编推断。 |
+| ISVLSI | CORE / ICORE | 2026 | 所查版本未列入 | 2026-10-20 | 已在ICORE2026完整快照按全称、已核实旧名及简称复查，未取得本系列的明确对应记录；继续查历年版本。 [来源](https://portal.core.edu.au/conf-ranks/?search=&by=all&source=ICORE2026&sort=atitle) |
 | ISWCS | CCF | 2026 | 所查版本未列入 | 2026-10-18 | 按正式系列核对CCF2026公开副本全部386个会议条目，未列入该版。 [来源](https://scdm-shu.github.io/ccf/2026-CCF-Ranking.pdf) |
 | ISWCS | CORE / ICORE | 2026 | 所查版本未列入 | 2026-10-18 | 复查 ICORE2026 官方全 20 页、987 个记录，按全称、系列简称及历史名称对照，未列出该正式系列。 [来源](https://portal.core.edu.au/conf-ranks/?search=&by=all&source=ICORE2026&sort=atitle) |
 | ITA | CCF | 2026 | 所查版本未列入 | 2026-10-19 | 按正式全名与已核实别名对照CCF2026公开副本完整目录未列；不等于低等级，不含另行发布的中文期刊推荐目录。 [来源](https://scdm-shu.github.io/ccf/2026-CCF-Ranking.pdf) |
 | ITA | CORE / ICORE | 2026 | 所查版本未列入 | 2026-10-19 | 按正式全名与已核实别名对照ICORE2026官方987条完整库未列，不等于低等级；未按同简称的其他会议赋级。 [来源](https://portal.core.edu.au/conf-ranks/?search=&by=all&source=ICORE2026&sort=atitle) |
+| ITC | CCF | 2026 | 待核验 | 2026-10-20 | 本次已核对会议身份；评级需补充对应完整系列的独立证据，未采用汇编推断。 |
+| ITC | CORE / ICORE | 2026 | 非等级状态 | 2026-10-20 | 本次重读本项目保存的官方版本快照，按正式全称和已核实旧名对应；同缩写不同会议分别处理。等级保留原始年份；National、Australasian等带地域状态不转换为A/B/C。 [来源](https://portal.core.edu.au/conf-ranks/?search=ITC&by=acronym&source=ICORE2026) |
 | ITSC | CCF | 2026 | 所查版本未列入 | 2026-10-18 | 按正式系列核对CCF2026公开副本全部386个会议条目，未列入该版。 [来源](https://scdm-shu.github.io/ccf/2026-CCF-Ranking.pdf) |
 | ITSC | CORE / ICORE | 2026 | 所查版本未列入 | 2026-10-18 | 复查 ICORE2026 官方全 20 页、987 个记录，按全称、系列简称及历史名称对照，未列出该正式系列。 [来源](https://portal.core.edu.au/conf-ranks/?search=&by=all&source=ICORE2026&sort=atitle) |
 | ITW | CCF | 2026 | 所查版本未列入 | 2026-10-18 | 按正式系列核对CCF2026公开副本全部386个会议条目，未列入该版。 [来源](https://scdm-shu.github.io/ccf/2026-CCF-Ranking.pdf) |
+| IEEE IV | CCF | 2026 | 待核验 | 2026-10-20 | 本次已核对会议身份；评级需补充对应完整系列的独立证据，未采用汇编推断。 |
 | IVMSP | CCF | 2026 | 所查版本未列入 | 2026-10-19 | 按正式全名与已核实别名对照CCF2026公开副本完整目录未列；不等于低等级，不含另行发布的中文期刊推荐目录。 [来源](https://scdm-shu.github.io/ccf/2026-CCF-Ranking.pdf) |
 | IVMSP | CORE / ICORE | 2026 | 所查版本未列入 | 2026-10-19 | 按正式全名与已核实别名对照ICORE2026官方987条完整库未列，不等于低等级；未按同简称的其他会议赋级。 [来源](https://portal.core.edu.au/conf-ranks/?search=&by=all&source=ICORE2026&sort=atitle) |
 | iWAT | CCF | 2026 | 所查版本未列入 | 2026-10-19 | 按正式全名与已核实别名对照CCF2026公开副本完整目录未列；不等于低等级，不含另行发布的中文期刊推荐目录。 [来源](https://scdm-shu.github.io/ccf/2026-CCF-Ranking.pdf) |
 | iWAT | CORE / ICORE | 2026 | 所查版本未列入 | 2026-10-19 | 按正式全名与已核实别名对照ICORE2026官方987条完整库未列，不等于低等级；未按同简称的其他会议赋级。 [来源](https://portal.core.edu.au/conf-ranks/?search=&by=all&source=ICORE2026&sort=atitle) |
 | IWCMC | CCF | 2026 | 所查版本未列入 | 2026-10-18 | 按正式系列核对CCF2026公开副本全部386个会议条目，未列入该版。 [来源](https://scdm-shu.github.io/ccf/2026-CCF-Ranking.pdf) |
+| iWEM | CCF | 2026 | 待核验 | 2026-10-20 | 本次已核对会议身份；评级需补充对应完整系列的独立证据，未采用汇编推断。 |
+| iWEM | CORE / ICORE | 2026 | 所查版本未列入 | 2026-10-20 | 已在ICORE2026完整快照按全称、已核实旧名及简称复查，未取得本系列的明确对应记录；继续查历年版本。 [来源](https://portal.core.edu.au/conf-ranks/?search=&by=all&source=ICORE2026&sort=atitle) |
 | IWS | CCF | 2026 | 所查版本未列入 | 2026-10-19 | 按正式全名与已核实别名对照CCF2026公开副本完整目录未列；不等于低等级，不含另行发布的中文期刊推荐目录。 [来源](https://scdm-shu.github.io/ccf/2026-CCF-Ranking.pdf) |
 | IWS | CORE / ICORE | 2026 | 所查版本未列入 | 2026-10-19 | 按正式全名与已核实别名对照ICORE2026官方987条完整库未列，不等于低等级；未按同简称的其他会议赋级。 [来源](https://portal.core.edu.au/conf-ranks/?search=&by=all&source=ICORE2026&sort=atitle) |
+| IWSDA | CCF | 2026 | 待核验 | 2026-10-20 | 本次已核对会议身份；评级需补充对应完整系列的独立证据，未采用汇编推断。 |
+| IWSDA | CORE / ICORE | 2026 | 所查版本未列入 | 2026-10-20 | 已在ICORE2026完整快照按全称、已核实旧名及简称复查，未取得本系列的明确对应记录；继续查历年版本。 [来源](https://portal.core.edu.au/conf-ranks/?search=&by=all&source=ICORE2026&sort=atitle) |
+| IZS | CCF | 2026 | 待核验 | 2026-10-20 | 本次已核对会议身份；评级需补充对应完整系列的独立证据，未采用汇编推断。 |
+| IZS | CORE / ICORE | 2026 | 所查版本未列入 | 2026-10-20 | 已在ICORE2026完整快照按全称、已核实旧名及简称复查，未取得本系列的明确对应记录；继续查历年版本。 [来源](https://portal.core.edu.au/conf-ranks/?search=&by=all&source=ICORE2026&sort=atitle) |
 | J-ISPIN | CCF | 2026 | 所查版本未列入 | 2026-10-18 | 完整295项期刊记录按全名和别名检索，副本未列。 [来源](https://scdm-shu.github.io/ccf/2026-CCF-Ranking.pdf) |
 | J-ISPIN | 中科院 | 2025 | 所查版本未列入 | 2026-10-18 | 按英文全名、中文刊名、旧名及可得ISSN核对2025年21772刊完整转录，未列入该版。 [来源](https://cce.ncepu.edu.cn/xzzx/yjsjx1/7632005045644e61a0d12c7bbeff6204.htm) |
 | JASP | CCF | 2026 | 所查版本未列入 | 2026-10-18 | 完整295项期刊记录按完整名、缩写、旧名检索，副本未列。 [来源](https://scdm-shu.github.io/ccf/2026-CCF-Ranking.pdf) |
@@ -584,6 +694,8 @@
 | MLSP | CCF | 2026 | 所查版本未列入 | 2026-10-18 | 按正式系列核对CCF2026公开副本全部386个会议条目，未列入该版。 [来源](https://scdm-shu.github.io/ccf/2026-CCF-Ranking.pdf) |
 | MLSP | CORE / ICORE | 2026 | 所查版本未列入 | 2026-10-18 | 复查 ICORE2026 官方全 20 页、987 个记录，按全称、系列简称及历史名称对照，未列出该正式系列。 [来源](https://portal.core.edu.au/conf-ranks/?search=&by=all&source=ICORE2026&sort=atitle) |
 | MMSP | CCF | 2026 | 所查版本未列入 | 2026-10-18 | 按正式系列核对CCF2026公开副本全部386个会议条目，未列入该版。 [来源](https://scdm-shu.github.io/ccf/2026-CCF-Ranking.pdf) |
+| MOC | CCF | 2026 | 待核验 | 2026-10-20 | 本次已核对会议身份；评级需补充对应完整系列的独立证据，未采用汇编推断。 |
+| MOC | CORE / ICORE | 2026 | 所查版本未列入 | 2026-10-20 | 已在ICORE2026完整快照按全称、已核实旧名及简称复查，未取得本系列的明确对应记录；继续查历年版本。 [来源](https://portal.core.edu.au/conf-ranks/?search=&by=all&source=ICORE2026&sort=atitle) |
 | 现代传输 | 索引 | 来源年份见说明 | 已复查，证据不足 | 2026-10-19 | 保留目录身份，WoS索引仅凭独立证据写入。 |
 | 现代传输 | JCR | 2024 | 所查版本未列入 | 2026-10-19 | 完整2024 JCR转录按全名/别名及可得ISSN核查，未取得本刊明确JIF分区；只针对该旧年度，不判定当前WoS收录。 [来源](https://uefiscdi.gov.ro/resource-865584-JCR_2024.iunie2025.pdf) |
 | 现代传输 | 中科院 | 2025 | 所查版本未列入 | 2026-10-19 | 已对照完整21772刊的2025转录，正式全名/别名及可得ISSN未列；只代表所查2025表，不判断WoS收录。 [来源](https://cce.ncepu.edu.cn/xzzx/yjsjx1/7632005045644e61a0d12c7bbeff6204.htm) |
@@ -610,8 +722,11 @@
 | NEMO | CORE / ICORE | 2026 | 所查版本未列入 | 2026-10-19 | 按正式全名与已核实别名对照ICORE2026官方987条完整库未列，不等于低等级；未按同简称的其他会议赋级。 [来源](https://portal.core.edu.au/conf-ranks/?search=&by=all&source=ICORE2026&sort=atitle) |
 | NetSoft | CCF | 2026 | 所查版本未列入 | 2026-10-18 | 按正式系列核对CCF2026公开副本全部386个会议条目，未列入该版。 [来源](https://scdm-shu.github.io/ccf/2026-CCF-Ranking.pdf) |
 | IEEE Network | CCF | 2026 | 所查版本未列入 | 2026-10-18 | 按英文全名、缩写及已知旧名核对CCF2026公开副本全部295项期刊记录，未列入该版。 [来源](https://scdm-shu.github.io/ccf/2026-CCF-Ranking.pdf) |
+| Networks | CCF | 2026 | 待核验 | 2026-10-20 | 本次已核对会议身份；评级需补充对应完整系列的独立证据，未采用汇编推断。 |
+| Networks | CORE / ICORE | 2026 | 所查版本未列入 | 2026-10-20 | 已在ICORE2026完整快照按全称、已核实旧名及简称复查，未取得本系列的明确对应记录；继续查历年版本。 [来源](https://portal.core.edu.au/conf-ranks/?search=&by=all&source=ICORE2026&sort=atitle) |
 | NFV-SDN | CCF | 2026 | 所查版本未列入 | 2026-10-18 | 按正式系列核对CCF2026公开副本全部386个会议条目，未列入该版。 [来源](https://scdm-shu.github.io/ccf/2026-CCF-Ranking.pdf) |
 | NFV-SDN | CORE / ICORE | 2026 | 所查版本未列入 | 2026-10-18 | 复查 ICORE2026 官方全 20 页、987 个记录，按全称、系列简称及历史名称对照，未列出该正式系列。 [来源](https://portal.core.edu.au/conf-ranks/?search=&by=all&source=ICORE2026&sort=atitle) |
+| NOCS | CORE / ICORE | 2026 | 所查版本未列入 | 2026-10-20 | 已在ICORE2026完整快照按全称、已核实旧名及简称复查，未取得本系列的明确对应记录；继续查历年版本。 [来源](https://portal.core.edu.au/conf-ranks/?search=&by=all&source=ICORE2026&sort=atitle) |
 | NOMS | CCF | 2026 | 所查版本未列入 | 2026-10-18 | CCF2026公开副本全部386个会议条目中未列NOMS，旧IM条目的CCF C适用于原系列。ICORE2026的NOMS B直接对应原名称。 [来源](https://scdm-shu.github.io/ccf/2026-CCF-Ranking.pdf) |
 | NOSSDAV | CORE / ICORE | 2026 | 所查版本未列入 | 2026-10-19 | 按正式全名与已核实别名对照ICORE2026官方987条完整库未列，不等于低等级；未按同简称的其他会议赋级。 [来源](https://portal.core.edu.au/conf-ranks/?search=&by=all&source=ICORE2026&sort=atitle) |
 | npj Flex. Electron. | CCF | 2026 | 所查版本未列入 | 2026-10-19 | 按正式全名与已核实别名对照CCF2026公开副本完整目录未列；不等于低等级，不含另行发布的中文期刊推荐目录。 [来源](https://scdm-shu.github.io/ccf/2026-CCF-Ranking.pdf) |
@@ -650,7 +765,11 @@
 | Pacific PNT | CORE / ICORE | 2026 | 所查版本未列入 | 2026-10-19 | 按正式全名与已核实别名对照ICORE2026官方987条完整库未列，不等于低等级；未按同简称的其他会议赋级。 [来源](https://portal.core.edu.au/conf-ranks/?search=&by=all&source=ICORE2026&sort=atitle) |
 | PAWR | CCF | 2026 | 所查版本未列入 | 2026-10-19 | 按正式全名与已核实别名对照CCF2026公开副本完整目录未列；不等于低等级，不含另行发布的中文期刊推荐目录。 [来源](https://scdm-shu.github.io/ccf/2026-CCF-Ranking.pdf) |
 | PAWR | CORE / ICORE | 2026 | 所查版本未列入 | 2026-10-19 | 按正式全名与已核实别名对照ICORE2026官方987条完整库未列，不等于低等级；未按同简称的其他会议赋级。 [来源](https://portal.core.edu.au/conf-ranks/?search=&by=all&source=ICORE2026&sort=atitle) |
+| PCM | CCF | 2026 | 待核验 | 2026-10-20 | 本次已核对会议身份；评级需补充对应完整系列的独立证据，未采用汇编推断。 |
+| PCM | CORE / ICORE | 2026 | 所查版本未列入 | 2026-10-20 | 已在ICORE2026完整快照按全称、已核实旧名及简称复查，未取得本系列的明确对应记录；继续查历年版本。 [来源](https://portal.core.edu.au/conf-ranks/?search=&by=all&source=ICORE2026&sort=atitle) |
 | PCS | CCF | 2026 | 所查版本未列入 | 2026-10-18 | 按正式系列核对CCF2026公开副本全部386个会议条目，未列入该版。 [来源](https://scdm-shu.github.io/ccf/2026-CCF-Ranking.pdf) |
+| PGC | CCF | 2026 | 待核验 | 2026-10-20 | 本次已核对会议身份；评级需补充对应完整系列的独立证据，未采用汇编推断。 |
+| PGC | CORE / ICORE | 2026 | 所查版本未列入 | 2026-10-20 | 已在ICORE2026完整快照按全称、已核实旧名及简称复查，未取得本系列的明确对应记录；继续查历年版本。 [来源](https://portal.core.edu.au/conf-ranks/?search=&by=all&source=ICORE2026&sort=atitle) |
 | Photonic Sensors | CCF | 2026 | 所查版本未列入 | 2026-10-19 | 按正式全名与已核实别名对照CCF2026公开副本完整目录未列；不等于低等级，不含另行发布的中文期刊推荐目录。 [来源](https://scdm-shu.github.io/ccf/2026-CCF-Ranking.pdf) |
 | Photonics | CCF | 2026 | 所查版本未列入 | 2026-10-19 | 按正式全名与已核实别名对照CCF2026公开副本完整目录未列；不等于低等级，不含另行发布的中文期刊推荐目录。 [来源](https://scdm-shu.github.io/ccf/2026-CCF-Ranking.pdf) |
 | PHYCOM | CCF | 2026 | 所查版本未列入 | 2026-10-18 | 按英文全名、缩写及已知旧名核对CCF2026公开副本全部295项期刊记录，未列入该版。 [来源](https://scdm-shu.github.io/ccf/2026-CCF-Ranking.pdf) |
@@ -666,11 +785,14 @@
 | 邮电设计技术 | 中科院 | 2025 | 所查版本未列入 | 2026-10-19 | 已对照完整21772刊的2025转录，正式全名/别名及可得ISSN未列；只代表所查2025表，不判断WoS收录。 [来源](https://cce.ncepu.edu.cn/xzzx/yjsjx1/7632005045644e61a0d12c7bbeff6204.htm) |
 | 邮电设计技术 | CCF | 2026 | 所查版本未列入 | 2026-10-19 | 按正式全名与已核实别名对照CCF2026公开副本完整目录未列；不等于低等级，不含另行发布的中文期刊推荐目录。 [来源](https://scdm-shu.github.io/ccf/2026-CCF-Ranking.pdf) |
 | Photonics Research | CCF | 2026 | 所查版本未列入 | 2026-10-18 | 按英文全名、缩写及已知旧名核对CCF2026公开副本全部295项期刊记录，未列入该版。 [来源](https://scdm-shu.github.io/ccf/2026-CCF-Ranking.pdf) |
+| ProvSec | CCF | 2026 | 待核验 | 2026-10-20 | 本次已核对会议身份；评级需补充对应完整系列的独立证据，未采用汇编推断。 |
 | PSC | CCF | 2026 | 所查版本未列入 | 2026-10-19 | 按正式全名与已核实别名对照CCF2026公开副本完整目录未列；不等于低等级，不含另行发布的中文期刊推荐目录。 [来源](https://scdm-shu.github.io/ccf/2026-CCF-Ranking.pdf) |
 | PSC | CORE / ICORE | 2026 | 所查版本未列入 | 2026-10-19 | 按正式全名与已核实别名对照ICORE2026官方987条完整库未列，不等于低等级；未按同简称的其他会议赋级。 [来源](https://portal.core.edu.au/conf-ranks/?search=&by=all&source=ICORE2026&sort=atitle) |
 | PTL | CCF | 2026 | 所查版本未列入 | 2026-10-18 | 按英文全名、缩写及已知旧名核对CCF2026公开副本全部295项期刊记录，未列入该版。 [来源](https://scdm-shu.github.io/ccf/2026-CCF-Ranking.pdf) |
 | PTTI | CCF | 2026 | 所查版本未列入 | 2026-10-18 | 按正式系列核对CCF2026公开副本全部386个会议条目，未列入该版。 [来源](https://scdm-shu.github.io/ccf/2026-CCF-Ranking.pdf) |
 | PTTI | CORE / ICORE | 2026 | 所查版本未列入 | 2026-10-18 | 复查 ICORE2026 官方全 20 页、987 个记录，按全称、系列简称及历史名称对照，未列出该正式系列。 [来源](https://portal.core.edu.au/conf-ranks/?search=&by=all&source=ICORE2026&sort=atitle) |
+| PW | CCF | 2026 | 待核验 | 2026-10-20 | 本次已核对会议身份；评级需补充对应完整系列的独立证据，未采用汇编推断。 |
+| PW | CORE / ICORE | 2026 | 所查版本未列入 | 2026-10-20 | 已在ICORE2026完整快照按全称、已核实旧名及简称复查，未取得本系列的明确对应记录；继续查历年版本。 [来源](https://portal.core.edu.au/conf-ranks/?search=&by=all&source=ICORE2026&sort=atitle) |
 | QCE | CCF | 2026 | 所查版本未列入 | 2026-10-18 | 按正式系列核对CCF2026公开副本全部386个会议条目，未列入该版。 [来源](https://scdm-shu.github.io/ccf/2026-CCF-Ranking.pdf) |
 | QCE | CORE / ICORE | 2026 | 非等级状态 | 2026-10-18 | 已按正式全称及系列简称复查 ICORE2026 官方完整库。 [来源](https://portal.core.edu.au/conf-ranks/?search=&by=all&source=ICORE2026&sort=atitle&page=7) |
 | QPAIN | CCF | 2026 | 所查版本未列入 | 2026-10-19 | 按正式全名与已核实别名对照CCF2026公开副本完整目录未列；不等于低等级，不含另行发布的中文期刊推荐目录。 [来源](https://scdm-shu.github.io/ccf/2026-CCF-Ranking.pdf) |
@@ -693,6 +815,8 @@
 | IJ RF M-CAE | CCF | 2026 | 所查版本未列入 | 2026-10-18 | 完整295项期刊记录按完整名、缩写、旧名检索，副本未列。 [来源](https://scdm-shu.github.io/ccf/2026-CCF-Ranking.pdf) |
 | RFIC | CCF | 2026 | 所查版本未列入 | 2026-10-19 | 按正式全名与已核实别名对照CCF2026公开副本完整目录未列；不等于低等级，不含另行发布的中文期刊推荐目录。 [来源](https://scdm-shu.github.io/ccf/2026-CCF-Ranking.pdf) |
 | RFIC | CORE / ICORE | 2026 | 所查版本未列入 | 2026-10-19 | 按正式全名与已核实别名对照ICORE2026官方987条完整库未列，不等于低等级；未按同简称的其他会议赋级。 [来源](https://portal.core.edu.au/conf-ranks/?search=&by=all&source=ICORE2026&sort=atitle) |
+| IEEE RFID | CCF | 2026 | 待核验 | 2026-10-20 | 本次已核对会议身份；评级需补充对应完整系列的独立证据，未采用汇编推断。 |
+| IEEE RFID | CORE / ICORE | 2026 | 所查版本未列入 | 2026-10-20 | 已在ICORE2026完整快照按全称、已核实旧名及简称复查，未取得本系列的明确对应记录；继续查历年版本。 [来源](https://portal.core.edu.au/conf-ranks/?search=&by=all&source=ICORE2026&sort=atitle) |
 | Remote Sens. Environ. | CCF | 2026 | 所查版本未列入 | 2026-10-19 | 按正式全名与已核实别名对照CCF2026公开副本完整目录未列；不等于低等级，不含另行发布的中文期刊推荐目录。 [来源](https://scdm-shu.github.io/ccf/2026-CCF-Ranking.pdf) |
 | 软件学报 | 索引 | 来源年份见说明 | 已复查，证据不足 | 2026-10-19 | WoS索引待对应独立索引列核对。 |
 | 软件学报 | JCR | 2024 | 所查版本未列入 | 2026-10-19 | 完整2024 JCR转录按全名/别名及可得ISSN核查，未取得本刊明确JIF分区；只针对该旧年度，不判定当前WoS收录。 [来源](https://uefiscdi.gov.ro/resource-865584-JCR_2024.iunie2025.pdf) |
@@ -708,12 +832,14 @@
 | Secur. Commun. Netw. | 索引 | 来源年份见说明 | 已复查，证据不足 | 2026-10-19 | WoS索引待对应独立索引列核对。 |
 | Secur. Commun. Netw. | JCR | 2024 | 所查版本未列入 | 2026-10-19 | 完整2024 JCR转录按全名/别名及可得ISSN核查，未取得本刊明确JIF分区；只针对该旧年度，不判定当前WoS收录。 [来源](https://uefiscdi.gov.ro/resource-865584-JCR_2024.iunie2025.pdf) |
 | Secur. Commun. Netw. | 中科院 | 2025 | 所查版本未列入 | 2026-10-19 | 已对照完整21772刊的2025转录，正式全名/别名及可得ISSN未列；只代表所查2025表，不判断WoS收录。 [来源](https://cce.ncepu.edu.cn/xzzx/yjsjx1/7632005045644e61a0d12c7bbeff6204.htm) |
+| SEC | CORE / ICORE | 2026 | 已复查，证据不足 | 2026-10-20 | SEC另指边缘计算会议，不能对应IFIP信息安全会议。 [来源](https://portal.core.edu.au/conf-ranks/?search=&by=all&source=ICORE2026&sort=atitle) |
 | SecureComm | CCF | 2026 | 所查版本未列入 | 2026-10-19 | 按正式全名与已核实别名对照CCF2026公开副本完整目录未列；不等于低等级，不含另行发布的中文期刊推荐目录。 [来源](https://scdm-shu.github.io/ccf/2026-CCF-Ranking.pdf) |
 | SecureComm | CORE / ICORE | 2026 | 所查版本未列入 | 2026-10-19 | 按正式全名与已核实别名对照ICORE2026官方987条完整库未列，不等于低等级；未按同简称的其他会议赋级。 [来源](https://portal.core.edu.au/conf-ranks/?search=&by=all&source=ICORE2026&sort=atitle) |
 | IEEE Sensors J | CCF | 2026 | 所查版本未列入 | 2026-10-18 | 按英文全名、缩写及已知旧名核对CCF2026公开副本全部295项期刊记录，未列入该版。 [来源](https://scdm-shu.github.io/ccf/2026-CCF-Ranking.pdf) |
 | IEEE Sensors L | CCF | 2026 | 所查版本未列入 | 2026-10-18 | 按英文全名、缩写及已知旧名核对CCF2026公开副本全部295项期刊记录，未列入该版。 [来源](https://scdm-shu.github.io/ccf/2026-CCF-Ranking.pdf) |
 | SenSys | CCF | 2026 | 对应范围未明确 | 2026-10-18 | SenSys、IPSN、IoTDI合并后的2026新名称为Embedded Artificial Intelligence and Sensing Systems（嵌入式人工智能与感知系统）。合并后会议的评级对应待核验，原等级保留在旧系列。 [来源](https://scdm-shu.github.io/ccf/2026-CCF-Ranking.pdf) |
 | SenSys | CORE / ICORE | 2026 | 对应范围未明确 | 2026-10-18 | SenSys、IPSN、IoTDI合并后的2026新名称为Embedded Artificial Intelligence and Sensing Systems（嵌入式人工智能与感知系统）。合并后会议的评级对应待核验，原等级保留在旧系列。 [来源](https://portal.core.edu.au/conf-ranks/?search=&by=all&source=ICORE2026&sort=atitle) |
+| SETA | CCF | 2026 | 待核验 | 2026-10-20 | 本次已核对会议身份；评级需补充对应完整系列的独立证据，未采用汇编推断。 |
 | SHaRC | CCF | 2026 | 所查版本未列入 | 2026-10-19 | 按正式全名与已核实别名对照CCF2026公开副本完整目录未列；不等于低等级，不含另行发布的中文期刊推荐目录。 [来源](https://scdm-shu.github.io/ccf/2026-CCF-Ranking.pdf) |
 | SHaRC | CORE / ICORE | 2026 | 所查版本未列入 | 2026-10-19 | 按正式全名与已核实别名对照ICORE2026官方987条完整库未列，不等于低等级；未按同简称的其他会议赋级。 [来源](https://portal.core.edu.au/conf-ranks/?search=&by=all&source=ICORE2026&sort=atitle) |
 | SiPhotonics | CCF | 2026 | 所查版本未列入 | 2026-10-19 | 按正式全名与已核实别名对照CCF2026公开副本完整目录未列；不等于低等级，不含另行发布的中文期刊推荐目录。 [来源](https://scdm-shu.github.io/ccf/2026-CCF-Ranking.pdf) |
@@ -729,14 +855,22 @@
 | 数据采集与处理 | CCF | 2026 | 所查版本未列入 | 2026-10-19 | 按正式全名与已核实别名对照CCF2026公开副本完整目录未列；不等于低等级，不含另行发布的中文期刊推荐目录。 [来源](https://scdm-shu.github.io/ccf/2026-CCF-Ranking.pdf) |
 | SLT | CCF | 2026 | 所查版本未列入 | 2026-10-19 | 按正式全名与已核实别名对照CCF2026公开副本完整目录未列；不等于低等级，不含另行发布的中文期刊推荐目录。 [来源](https://scdm-shu.github.io/ccf/2026-CCF-Ranking.pdf) |
 | SLT | CORE / ICORE | 2026 | 所查版本未列入 | 2026-10-19 | 按正式全名与已核实别名对照ICORE2026官方987条完整库未列，不等于低等级；未按同简称的其他会议赋级。 [来源](https://portal.core.edu.au/conf-ranks/?search=&by=all&source=ICORE2026&sort=atitle) |
+| IEEE SMARTCOMP | CCF | 2026 | 待核验 | 2026-10-20 | 本次已核对会议身份；评级需补充对应完整系列的独立证据，未采用汇编推断。 |
 | SmartGridComm | CCF | 2026 | 所查版本未列入 | 2026-10-18 | 按正式系列核对CCF2026公开副本全部386个会议条目，未列入该版。 [来源](https://scdm-shu.github.io/ccf/2026-CCF-Ranking.pdf) |
 | SmartGridComm | CORE / ICORE | 2026 | 所查版本未列入 | 2026-10-18 | 复查 ICORE2026 官方全 20 页、987 个记录，按全称、系列简称及历史名称对照，未列出该正式系列。 [来源](https://portal.core.edu.au/conf-ranks/?search=&by=all&source=ICORE2026&sort=atitle) |
 | Sens. Actuators A Phys. | CCF | 2026 | 所查版本未列入 | 2026-10-19 | 按正式全名与已核实别名对照CCF2026公开副本完整目录未列；不等于低等级，不含另行发布的中文期刊推荐目录。 [来源](https://scdm-shu.github.io/ccf/2026-CCF-Ranking.pdf) |
+| SoCC | CORE / ICORE | 2026 | 所查版本未列入 | 2026-10-20 | 已在ICORE2026完整快照按全称、已核实旧名及简称复查，未取得本系列的明确对应记录；继续查历年版本。 [来源](https://portal.core.edu.au/conf-ranks/?search=&by=all&source=ICORE2026&sort=atitle) |
+| SoftCOM | CCF | 2026 | 待核验 | 2026-10-20 | 本次已核对会议身份；评级需补充对应完整系列的独立证据，未采用汇编推断。 |
+| SoftCOM | CORE / ICORE | 2026 | 非等级状态 | 2026-10-20 | 本次重读本项目保存的官方版本快照，按正式全称和已核实旧名对应；同缩写不同会议分别处理。等级保留原始年份；National、Australasian等带地域状态不转换为A/B/C。 [来源](https://portal.core.edu.au/conf-ranks/?search=SOFTCOM&by=acronym&source=ICORE2026) |
+| ACM SOSR | CCF | 2026 | 待核验 | 2026-10-20 | 本次已核对会议身份；评级需补充对应完整系列的独立证据，未采用汇编推断。 |
+| ACM SOSR | CORE / ICORE | 2026 | 所查版本未列入 | 2026-10-20 | 已在ICORE2026完整快照按全称、已核实旧名及简称复查，未取得本系列的明确对应记录；继续查历年版本。 [来源](https://portal.core.edu.au/conf-ranks/?search=&by=all&source=ICORE2026&sort=atitle) |
 | SPAWC | CCF | 2026 | 所查版本未列入 | 2026-10-18 | 按正式系列核对CCF2026公开副本全部386个会议条目，未列入该版。 [来源](https://scdm-shu.github.io/ccf/2026-CCF-Ranking.pdf) |
 | SPAWC | CORE / ICORE | 2026 | 所查版本未列入 | 2026-10-18 | 复查 ICORE2026 官方全 20 页、987 个记录，按全称、系列简称及历史名称对照，未列出该正式系列。 [来源](https://portal.core.edu.au/conf-ranks/?search=&by=all&source=ICORE2026&sort=atitle) |
 | SPI | CCF | 2026 | 所查版本未列入 | 2026-10-19 | 按正式全名与已核实别名对照CCF2026公开副本完整目录未列；不等于低等级，不含另行发布的中文期刊推荐目录。 [来源](https://scdm-shu.github.io/ccf/2026-CCF-Ranking.pdf) |
 | SPI | CORE / ICORE | 2026 | 所查版本未列入 | 2026-10-19 | 按正式全名与已核实别名对照ICORE2026官方987条完整库未列，不等于低等级；未按同简称的其他会议赋级。 [来源](https://portal.core.edu.au/conf-ranks/?search=&by=all&source=ICORE2026&sort=atitle) |
 | IEEE SPM | CCF | 2026 | 所查版本未列入 | 2026-10-18 | 按英文全名、缩写及已知旧名核对CCF2026公开副本全部295项期刊记录，未列入该版。 [来源](https://scdm-shu.github.io/ccf/2026-CCF-Ranking.pdf) |
+| SPPCom | CCF | 2026 | 待核验 | 2026-10-20 | 本次已核对会议身份；评级需补充对应完整系列的独立证据，未采用汇编推断。 |
+| SPPCom | CORE / ICORE | 2026 | 所查版本未列入 | 2026-10-20 | 已在ICORE2026完整快照按全称、已核实旧名及简称复查，未取得本系列的明确对应记录；继续查历年版本。 [来源](https://portal.core.edu.au/conf-ranks/?search=&by=all&source=ICORE2026&sort=atitle) |
 | SSP | CCF | 2026 | 所查版本未列入 | 2026-10-18 | 按正式系列核对CCF2026公开副本全部386个会议条目，未列入该版。 [来源](https://scdm-shu.github.io/ccf/2026-CCF-Ranking.pdf) |
 | SSP | CORE / ICORE | 2026 | 所查版本未列入 | 2026-10-18 | 复查 ICORE2026 官方全 20 页、987 个记录，按全称、系列简称及历史名称对照，未列出该正式系列。 [来源](https://portal.core.edu.au/conf-ranks/?search=&by=all&source=ICORE2026&sort=atitle) |
 | Semicond. Sci. Technol. | CCF | 2026 | 所查版本未列入 | 2026-10-19 | 按正式全名与已核实别名对照CCF2026公开副本完整目录未列；不等于低等级，不含另行发布的中文期刊推荐目录。 [来源](https://scdm-shu.github.io/ccf/2026-CCF-Ranking.pdf) |
@@ -764,10 +898,13 @@
 | 电信工程技术与标准化 | CCF | 2026 | 所查版本未列入 | 2026-10-19 | 按正式全名与已核实别名对照CCF2026公开副本完整目录未列；不等于低等级，不含另行发布的中文期刊推荐目录。 [来源](https://scdm-shu.github.io/ccf/2026-CCF-Ranking.pdf) |
 | Telecommunication Systems | CCF | 2026 | 所查版本未列入 | 2026-10-18 | 完整295项期刊记录按完整名、缩写、旧名检索，副本未列。 [来源](https://scdm-shu.github.io/ccf/2026-CCF-Ranking.pdf) |
 | T-EMC | CCF | 2026 | 所查版本未列入 | 2026-10-18 | 完整295项期刊记录按完整名、缩写、旧名检索，副本未列。 [来源](https://scdm-shu.github.io/ccf/2026-CCF-Ranking.pdf) |
+| IEEE TENCON | CCF | 2026 | 待核验 | 2026-10-20 | 本次已核对会议身份；评级需补充对应完整系列的独立证据，未采用汇编推断。 |
 | TGCN | CCF | 2026 | 所查版本未列入 | 2026-10-18 | 按英文全名、缩写及已知旧名核对CCF2026公开副本全部295项期刊记录，未列入该版。 [来源](https://scdm-shu.github.io/ccf/2026-CCF-Ranking.pdf) |
 | IEEE TIE | CCF | 2026 | 所查版本未列入 | 2026-10-19 | 按正式全名与已核实别名对照CCF2026公开副本完整目录未列；不等于低等级，不含另行发布的中文期刊推荐目录。 [来源](https://scdm-shu.github.io/ccf/2026-CCF-Ranking.pdf) |
 | IEEE TIM | CCF | 2026 | 所查版本未列入 | 2026-10-19 | 按正式全名与已核实别名对照CCF2026公开副本完整目录未列；不等于低等级，不含另行发布的中文期刊推荐目录。 [来源](https://scdm-shu.github.io/ccf/2026-CCF-Ranking.pdf) |
 | IEEE T-IV | CCF | 2026 | 所查版本未列入 | 2026-10-19 | 按正式全名与已核实别名对照CCF2026公开副本完整目录未列；不等于低等级，不含另行发布的中文期刊推荐目录。 [来源](https://scdm-shu.github.io/ccf/2026-CCF-Ranking.pdf) |
+| IFIP TMA | CCF | 2026 | 待核验 | 2026-10-20 | 本次已核对会议身份；评级需补充对应完整系列的独立证据，未采用汇编推断。 |
+| IFIP TMA | CORE / ICORE | 2026 | 所查版本未列入 | 2026-10-20 | 已在ICORE2026完整快照按全称、已核实旧名及简称复查，未取得本系列的明确对应记录；继续查历年版本。 [来源](https://portal.core.edu.au/conf-ranks/?search=&by=all&source=ICORE2026&sort=atitle) |
 | IEEE TMAG | CCF | 2026 | 所查版本未列入 | 2026-10-19 | 按正式全名与已核实别名对照CCF2026公开副本完整目录未列；不等于低等级，不含另行发布的中文期刊推荐目录。 [来源](https://scdm-shu.github.io/ccf/2026-CCF-Ranking.pdf) |
 | TMBMC | CCF | 2026 | 所查版本未列入 | 2026-10-18 | 按英文全名、缩写及已知旧名核对CCF2026公开副本全部295项期刊记录，未列入该版。 [来源](https://scdm-shu.github.io/ccf/2026-CCF-Ranking.pdf) |
 | T-MLCN | 中科院 | 2025 | 所查版本未列入 | 2026-10-18 | 按英文全名、中文刊名、旧名及可得ISSN核对2025年21772刊完整转录，未列入该版。 [来源](https://cce.ncepu.edu.cn/xzzx/yjsjx1/7632005045644e61a0d12c7bbeff6204.htm) |
@@ -791,6 +928,12 @@
 | 通信学报 | 中科院 | 2025 | 所查版本未列入 | 2026-10-18 | 按英文全名、中文刊名、旧名及可得ISSN核对2025年21772刊完整转录，未列入该版。 [来源](https://cce.ncepu.edu.cn/xzzx/yjsjx1/7632005045644e61a0d12c7bbeff6204.htm) |
 | 通信学报 | CCF | 2026 | 所查版本未列入 | 2026-10-18 | 按英文全名、缩写及已知旧名核对CCF2026公开副本全部295项期刊记录，未列入该版。 [来源](https://scdm-shu.github.io/ccf/2026-CCF-Ranking.pdf) |
 | UbiComp | CORE / ICORE | 2026 | 非等级状态 | 2026-10-18 | 原库 journal published 表示论文在期刊发表，不转换为 A/B/C。 已按正式全称及系列简称复查 ICORE2026 官方完整库。 [来源](https://portal.core.edu.au/conf-ranks/?search=&by=all&source=ICORE2026&sort=atitle&page=1) |
+| URSI AP-RASC | CCF | 2026 | 待核验 | 2026-10-20 | 本次已核对会议身份；评级需补充对应完整系列的独立证据，未采用汇编推断。 |
+| URSI AP-RASC | CORE / ICORE | 2026 | 所查版本未列入 | 2026-10-20 | 已在ICORE2026完整快照按全称、已核实旧名及简称复查，未取得本系列的明确对应记录；继续查历年版本。 [来源](https://portal.core.edu.au/conf-ranks/?search=&by=all&source=ICORE2026&sort=atitle) |
+| URSI AT-RASC | CCF | 2026 | 待核验 | 2026-10-20 | 本次已核对会议身份；评级需补充对应完整系列的独立证据，未采用汇编推断。 |
+| URSI AT-RASC | CORE / ICORE | 2026 | 所查版本未列入 | 2026-10-20 | 已在ICORE2026完整快照按全称、已核实旧名及简称复查，未取得本系列的明确对应记录；继续查历年版本。 [来源](https://portal.core.edu.au/conf-ranks/?search=&by=all&source=ICORE2026&sort=atitle) |
+| URSI GASS | CCF | 2026 | 待核验 | 2026-10-20 | 本次已核对会议身份；评级需补充对应完整系列的独立证据，未采用汇编推断。 |
+| URSI GASS | CORE / ICORE | 2026 | 所查版本未列入 | 2026-10-20 | 已在ICORE2026完整快照按全称、已核实旧名及简称复查，未取得本系列的明确对应记录；继续查历年版本。 [来源](https://portal.core.edu.au/conf-ranks/?search=&by=all&source=ICORE2026&sort=atitle) |
 | VCC | CCF | 2026 | 所查版本未列入 | 2026-10-18 | 按正式系列核对CCF2026公开副本全部386个会议条目，未列入该版。 [来源](https://scdm-shu.github.io/ccf/2026-CCF-Ranking.pdf) |
 | VCC | CORE / ICORE | 2026 | 所查版本未列入 | 2026-10-18 | 复查 ICORE2026 官方全 20 页、987 个记录，按全称、系列简称及历史名称对照，未列出该正式系列。 [来源](https://portal.core.edu.au/conf-ranks/?search=&by=all&source=ICORE2026&sort=atitle) |
 | VCIP | CCF | 2026 | 所查版本未列入 | 2026-10-18 | 按正式系列核对CCF2026公开副本全部386个会议条目，未列入该版。 [来源](https://scdm-shu.github.io/ccf/2026-CCF-Ranking.pdf) |
@@ -801,14 +944,19 @@
 | IEEE VTM | CCF | 2026 | 所查版本未列入 | 2026-10-18 | 按英文全名、缩写及已知旧名核对CCF2026公开副本全部295项期刊记录，未列入该版。 [来源](https://scdm-shu.github.io/ccf/2026-CCF-Ranking.pdf) |
 | WAMS | CCF | 2026 | 所查版本未列入 | 2026-10-19 | 按正式全名与已核实别名对照CCF2026公开副本完整目录未列；不等于低等级，不含另行发布的中文期刊推荐目录。 [来源](https://scdm-shu.github.io/ccf/2026-CCF-Ranking.pdf) |
 | WAMS | CORE / ICORE | 2026 | 所查版本未列入 | 2026-10-19 | 按正式全名与已核实别名对照ICORE2026官方987条完整库未列，不等于低等级；未按同简称的其他会议赋级。 [来源](https://portal.core.edu.au/conf-ranks/?search=&by=all&source=ICORE2026&sort=atitle) |
+| WASA | CORE / ICORE | 2026 | 所查版本未列入 | 2026-10-20 | 已在ICORE2026完整快照按全称、已核实旧名及简称复查，未取得本系列的明确对应记录；继续查历年版本。 [来源](https://portal.core.edu.au/conf-ranks/?search=&by=all&source=ICORE2026&sort=atitle) |
 | WASPAA | CCF | 2026 | 所查版本未列入 | 2026-10-19 | 按正式全名与已核实别名对照CCF2026公开副本完整目录未列；不等于低等级，不含另行发布的中文期刊推荐目录。 [来源](https://scdm-shu.github.io/ccf/2026-CCF-Ranking.pdf) |
 | WASPAA | CORE / ICORE | 2026 | 所查版本未列入 | 2026-10-19 | 按正式全名与已核实别名对照ICORE2026官方987条完整库未列，不等于低等级；未按同简称的其他会议赋级。 [来源](https://portal.core.edu.au/conf-ranks/?search=&by=all&source=ICORE2026&sort=atitle) |
+| WCC | CCF | 2026 | 待核验 | 2026-10-20 | 本次已核对会议身份；评级需补充对应完整系列的独立证据，未采用汇编推断。 |
+| WCC | CORE / ICORE | 2026 | 所查版本未列入 | 2026-10-20 | 已在ICORE2026完整快照按全称、已核实旧名及简称复查，未取得本系列的明确对应记录；继续查历年版本。 [来源](https://portal.core.edu.au/conf-ranks/?search=&by=all&source=ICORE2026&sort=atitle) |
 | WCL | CCF | 2026 | 所查版本未列入 | 2026-10-18 | 按英文全名、缩写及已知旧名核对CCF2026公开副本全部295项期刊记录，未列入该版。 [来源](https://scdm-shu.github.io/ccf/2026-CCF-Ranking.pdf) |
 | WCMC（档案） | 索引 | 来源年份见说明 | 已复查，证据不足 | 2026-10-19 | WoS索引待对应独立索引列核对。 |
 | WCMC（档案） | JCR | 2024 | 所查版本未列入 | 2026-10-19 | 完整2024 JCR转录按全名/别名及可得ISSN核查，未取得本刊明确JIF分区；只针对该旧年度，不判定当前WoS收录。 [来源](https://uefiscdi.gov.ro/resource-865584-JCR_2024.iunie2025.pdf) |
 | WCMC（档案） | 中科院 | 2025 | 所查版本未列入 | 2026-10-19 | 已对照完整21772刊的2025转录，正式全名/别名及可得ISSN未列；只代表所查2025表，不判断WoS收录。 [来源](https://cce.ncepu.edu.cn/xzzx/yjsjx1/7632005045644e61a0d12c7bbeff6204.htm) |
 | WCSP | CCF | 2026 | 所查版本未列入 | 2026-10-18 | 按正式系列核对CCF2026公开副本全部386个会议条目，未列入该版。 [来源](https://scdm-shu.github.io/ccf/2026-CCF-Ranking.pdf) |
 | WCSP | CORE / ICORE | 2026 | 所查版本未列入 | 2026-10-18 | 复查 ICORE2026 官方全 20 页、987 个记录，按全称、系列简称及历史名称对照，未列出该正式系列。 [来源](https://portal.core.edu.au/conf-ranks/?search=&by=all&source=ICORE2026&sort=atitle) |
+| IFIP WD | CCF | 2026 | 待核验 | 2026-10-20 | 本次已核对会议身份；评级需补充对应完整系列的独立证据，未采用汇编推断。 |
+| IFIP WD | CORE / ICORE | 2026 | 所查版本未列入 | 2026-10-20 | 已在ICORE2026完整快照按全称、已核实旧名及简称复查，未取得本系列的明确对应记录；继续查历年版本。 [来源](https://portal.core.edu.au/conf-ranks/?search=&by=all&source=ICORE2026&sort=atitle) |
 | 微电子学 | 索引 | 来源年份见说明 | 已复查，证据不足 | 2026-10-19 | WoS索引待对应独立索引列核对。 |
 | 微电子学 | JCR | 2024 | 所查版本未列入 | 2026-10-19 | 完整2024 JCR转录按全名/别名及可得ISSN核查，未取得本刊明确JIF分区；只针对该旧年度，不判定当前WoS收录。 [来源](https://uefiscdi.gov.ro/resource-865584-JCR_2024.iunie2025.pdf) |
 | 微电子学 | 中科院 | 2025 | 所查版本未列入 | 2026-10-19 | 已对照完整21772刊的2025转录，正式全名/别名及可得ISSN未列；只代表所查2025表，不判断WoS收录。 [来源](https://cce.ncepu.edu.cn/xzzx/yjsjx1/7632005045644e61a0d12c7bbeff6204.htm) |
@@ -819,8 +967,10 @@
 | 微电子学与计算机 | CCF | 2026 | 所查版本未列入 | 2026-10-19 | 按正式全名与已核实别名对照CCF2026公开副本完整目录未列；不等于低等级，不含另行发布的中文期刊推荐目录。 [来源](https://scdm-shu.github.io/ccf/2026-CCF-Ranking.pdf) |
 | WF-IoT | CCF | 2026 | 所查版本未列入 | 2026-10-18 | 按正式系列核对CCF2026公开副本全部386个会议条目，未列入该版。 [来源](https://scdm-shu.github.io/ccf/2026-CCF-Ranking.pdf) |
 | WF-IoT | CORE / ICORE | 2026 | 所查版本未列入 | 2026-10-18 | 复查 ICORE2026 官方全 20 页、987 个记录，按全称、系列简称及历史名称对照，未列出该正式系列。 [来源](https://portal.core.edu.au/conf-ranks/?search=&by=all&source=ICORE2026&sort=atitle) |
+| IEEE WFCS | CCF | 2026 | 待核验 | 2026-10-20 | 本次已核对会议身份；评级需补充对应完整系列的独立证据，未采用汇编推断。 |
 | WIFS | CCF | 2026 | 所查版本未列入 | 2026-10-18 | 按正式系列核对CCF2026公开副本全部386个会议条目，未列入该版。 [来源](https://scdm-shu.github.io/ccf/2026-CCF-Ranking.pdf) |
 | WIFS | CORE / ICORE | 2026 | 所查版本未列入 | 2026-10-18 | 复查 ICORE2026 官方全 20 页、987 个记录，按全称、系列简称及历史名称对照，未列出该正式系列。 [来源](https://portal.core.edu.au/conf-ranks/?search=&by=all&source=ICORE2026&sort=atitle) |
+| IEEE WiMob | CCF | 2026 | 待核验 | 2026-10-20 | 本次已核对会议身份；评级需补充对应完整系列的独立证据，未采用汇编推断。 |
 | WiOpt | CCF | 2026 | 所查版本未列入 | 2026-10-18 | 按正式系列核对CCF2026公开副本全部386个会议条目，未列入该版。 [来源](https://scdm-shu.github.io/ccf/2026-CCF-Ranking.pdf) |
 | IEEE WCM | CCF | 2026 | 所查版本未列入 | 2026-10-18 | 按英文全名、缩写及已知旧名核对CCF2026公开副本全部295项期刊记录，未列入该版。 [来源](https://scdm-shu.github.io/ccf/2026-CCF-Ranking.pdf) |
 | WiSNeT | CCF | 2026 | 所查版本未列入 | 2026-10-19 | 按正式全名与已核实别名对照CCF2026公开副本完整目录未列；不等于低等级，不含另行发布的中文期刊推荐目录。 [来源](https://scdm-shu.github.io/ccf/2026-CCF-Ranking.pdf) |
@@ -836,6 +986,8 @@
 | WPTCE | CORE / ICORE | 2026 | 所查版本未列入 | 2026-10-19 | 按正式全名与已核实别名对照ICORE2026官方987条完整库未列，不等于低等级；未按同简称的其他会议赋级。 [来源](https://portal.core.edu.au/conf-ranks/?search=&by=all&source=ICORE2026&sort=atitle) |
 | WSA | CCF | 2026 | 所查版本未列入 | 2026-10-18 | 按正式系列核对CCF2026公开副本全部386个会议条目，未列入该版。 [来源](https://scdm-shu.github.io/ccf/2026-CCF-Ranking.pdf) |
 | WSA | CORE / ICORE | 2026 | 所查版本未列入 | 2026-10-18 | 复查 ICORE2026 官方全 20 页、987 个记录，按全称、系列简称及历史名称对照，未列出该正式系列。 [来源](https://portal.core.edu.au/conf-ranks/?search=&by=all&source=ICORE2026&sort=atitle) |
+| WWIC | CCF | 2026 | 待核验 | 2026-10-20 | 本次已核对会议身份；评级需补充对应完整系列的独立证据，未采用汇编推断。 |
+| WWIC | CORE / ICORE | 2026 | 所查版本未列入 | 2026-10-20 | 已在ICORE2026完整快照按全称、已核实旧名及简称复查，未取得本系列的明确对应记录；继续查历年版本。 [来源](https://portal.core.edu.au/conf-ranks/?search=&by=all&source=ICORE2026&sort=atitle) |
 | 现代雷达 | 索引 | 来源年份见说明 | 已复查，证据不足 | 2026-10-19 | WoS索引待对应独立索引列核对。 |
 | 现代雷达 | JCR | 2024 | 所查版本未列入 | 2026-10-19 | 完整2024 JCR转录按全名/别名及可得ISSN核查，未取得本刊明确JIF分区；只针对该旧年度，不判定当前WoS收录。 [来源](https://uefiscdi.gov.ro/resource-865584-JCR_2024.iunie2025.pdf) |
 | 现代雷达 | 中科院 | 2025 | 所查版本未列入 | 2026-10-19 | 已对照完整21772刊的2025转录，正式全名/别名及可得ISSN未列；只代表所查2025表，不判断WoS收录。 [来源](https://cce.ncepu.edu.cn/xzzx/yjsjx1/7632005045644e61a0d12c7bbeff6204.htm) |

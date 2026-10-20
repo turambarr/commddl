@@ -5,7 +5,9 @@ kind: conference
 short: FNWF
 nameZh: IEEE 未来网络世界论坛
 nameEn: IEEE Future Networks World Forum
-aliases: []
+aliases:
+  - IEEE 5G World Forum
+  - 5GWF
 topics:
   - physical
   - protocols
@@ -63,3 +65,7 @@ primaryArea: wireless
 secondaryAreas:
   - theory
   - network
+identityHistory:
+  - verifiedAt: 2026-10-20
+    sourceUrl: https://www.comsoc.org/conferences-events/portfolio-conferences-events
+    note: 按官方新旧名对应补充检索别名，保留现有稳定编号。

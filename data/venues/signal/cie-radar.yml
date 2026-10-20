@@ -1,0 +1,53 @@
+# CRC
+# 提交修改请发起 Pull Request（合并请求）；构建产物自动生成。
+id: cie-radar
+kind: conference
+short: CRC
+nameEn: China Radar Conference
+nameZh: 中国雷达年会
+aliases:
+  - CIE-NCRC
+  - 全国雷达学术年会
+primaryArea: signal
+secondaryAreas:
+  - wireless
+areas:
+  - signal
+  - wireless
+topics:
+  - radar
+  - arrays
+publicationType: 学术会议系列
+articleTypes:
+  - 会议论文
+url: https://www.cie.org.cn/static/upload/file/20221202/1669968111348411.pdf
+sourceUrl: https://www.cie.org.cn/static/upload/file/20221202/1669968111348411.pdf
+sourceType: official
+verifiedAt: 2026-10-20
+identityReviewedAt: 2026-10-20
+identitySourceYear: 2022
+verification: verified
+catalogStatus: current
+catalogScope: communications
+assessments: []
+evaluations:
+  - system: ccf
+    year: 2026
+    status: pending
+    value: null
+    reviewedAt: 2026-10-20
+    note: 本次已核对会议身份；评级需补充对应完整系列的独立证据，未采用汇编推断。
+  - system: core
+    year: 2026
+    status: unlisted
+    value: null
+    sourceUrl: https://portal.core.edu.au/conf-ranks/?search=&by=all&source=ICORE2026&sort=atitle
+    sourceTitle: ICORE2026完整987条官方记录快照
+    sourceType: official
+    snapshotDate: 2026-10-19
+    reviewedAt: 2026-10-20
+    note: 已在ICORE2026完整快照按全称、已核实旧名及简称复查，未取得本系列的明确对应记录；继续查历年版本。
+scopeReviewedAt: 2026-10-20
+scopeNote: 按学会、出版和独立目录记录核对身份并人工归入通信相关方向；保留原始来源年份。
+identityNote: 核对正式会议名称与学术交流记录，出版和荐稿形式按当届资料单独记录。
+urlKind: registry

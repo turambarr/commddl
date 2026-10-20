@@ -2,7 +2,7 @@ const C = require('../assets/core.js');
 function validateCatalog(data){
 const errors=[];
 const requireThat=(condition,message)=>{if(!condition)errors.push(message);};
-const url=value=>{try{const u=new URL(value);return ['https:','http:'].includes(u.protocol)&&!/[\r\n]/.test(value);}catch{return false;}};
+const url=value=>{try{const u=new URL(value);return ['https:','http:'].includes(u.protocol)&&!/[\s]/.test(value);}catch{return false;}};
 requireThat(C.validDate(data.meta.updatedAt),'data/meta.yml: invalid catalog update date');
 const ids=new Set(), venueIds=new Set(data.venues.map(v=>v.id)), areas=new Set(data.areas.map(a=>a.id));
 const topicIds=new Set();

@@ -1,0 +1,71 @@
+# RFID 2027 · 会议论文（Option A）
+# 提交修改请发起 Pull Request（合并请求）；构建产物自动生成。
+id: rfid-2027-main
+venueId: rfid
+title: RFID 2027 · 会议论文（Option A）
+titleEn: IEEE International Conference on RFID 2027 — Option A
+year: 2027
+kind: conference
+areas:
+  - iot
+  - rf
+  - wireless
+topics:
+  - iot-sensing
+  - backscatter
+  - antennas
+tags:
+  - 会议论文
+summary: RFID与无线识别、感知系统的会议论文通道。
+url: https://2027.ieee-rfid.org/authors/
+sourceUrl: https://2027.ieee-rfid.org/authors/
+sourceType: official
+verification: verified
+verifiedAt: 2026-10-20
+updatedAt: 2026-10-20T00:00:00Z
+status: announced
+eventStart: 2027-06-14
+eventEnd: 2027-06-17
+eventDates: 2027-06-14 / 2027-06-17
+location: 美国·孟菲斯
+submissionCategory: 会议论文 Option A
+inheritsVenueEvaluation: true
+nodes:
+  - id: paper
+    label: 全文提交
+    type: paper
+    primary: true
+    precision: date
+    date: 2027-01-14
+    instant: null
+    timezone: null
+    original: "Paper Submission Deadline (Option A): JAN 14 2027"
+    revision: 0
+    sourceUrl: https://2027.ieee-rfid.org/authors/
+    updatedAt: 2026-10-20T00:00:00Z
+  - id: decision
+    label: 录用通知
+    type: decision
+    primary: false
+    precision: date
+    date: 2027-03-30
+    instant: null
+    timezone: null
+    original: "Notification of Paper Acceptance (Option A): MAR 30 2027"
+    revision: 0
+    sourceUrl: https://2027.ieee-rfid.org/authors/
+    updatedAt: 2026-10-20T00:00:00Z
+  - id: final
+    label: 终稿提交
+    type: final
+    primary: false
+    precision: date
+    date: 2027-05-05
+    instant: null
+    timezone: null
+    original: "Final Paper Submission (Option A): MAY 5 2027"
+    revision: 0
+    sourceUrl: https://2027.ieee-rfid.org/authors/
+    updatedAt: 2026-10-20T00:00:00Z
+history: []
+notes: 仅记录会议论文Option A。Option B为JRFID期刊通道；学会专题列表与当届作者页的Option B日期不一致，维护区另行记录，不并入本条。

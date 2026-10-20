@@ -1,0 +1,59 @@
+# GLSVLSI
+# 提交修改请发起 Pull Request（合并请求）；构建产物自动生成。
+id: glsvlsi
+kind: conference
+short: GLSVLSI
+nameEn: Great Lakes Symposium on VLSI
+nameZh: 大湖区超大规模集成电路研讨会
+aliases:
+  - Great Lakes Symposium on VLSI Systems
+primaryArea: rf
+secondaryAreas:
+  - wireless
+areas:
+  - rf
+  - wireless
+topics:
+  - microwave
+  - industrial
+publicationType: 学术会议系列
+articleTypes:
+  - 会议论文
+url: https://dblp.org/db/conf/glvlsi/
+sourceUrl: https://scdm-shu.github.io/ccf/2026-CCF-Ranking.pdf
+sourceType: document-copy
+verifiedAt: 2026-10-20
+identityReviewedAt: 2026-10-20
+identitySourceYear: 2026
+verification: verified
+catalogStatus: current
+catalogScope: communications
+assessments: []
+evaluations:
+  - system: ccf
+    year: 2026
+    edition: 第七版公开副本
+    status: reported
+    value: C
+    sourceUrl: https://scdm-shu.github.io/ccf/2026-CCF-Ranking.pdf
+    sourceTitle: CCF2026第七版完整目录公开副本
+    sourceType: document-copy
+    verifiedAt: 2026-10-20
+    reviewedAt: 2026-10-20
+    page: 8
+    appliesToName: Great Lakes Symposium on VLSI
+    note: 按正式全称、简称及系列身份对应独立目录；保留公开副本证据属性和2026原年份，不从用户汇编直接转录等级。
+  - system: core
+    year: 2026
+    status: unlisted
+    value: null
+    sourceUrl: https://portal.core.edu.au/conf-ranks/?search=&by=all&source=ICORE2026&sort=atitle
+    sourceTitle: ICORE2026完整987条官方记录快照
+    sourceType: official
+    snapshotDate: 2026-10-19
+    reviewedAt: 2026-10-20
+    note: 已在ICORE2026完整快照按全称、已核实旧名及简称复查，未取得本系列的明确对应记录；继续查历年版本。
+scopeReviewedAt: 2026-10-20
+scopeNote: 按学会、出版和独立目录记录核对身份并人工归入通信相关方向；保留原始来源年份。
+identityNote: 按独立CCF目录的全称、简称与系列地址核对身份；分级按2026原年份记录。
+urlKind: registry
