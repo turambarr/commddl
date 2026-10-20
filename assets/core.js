@@ -82,8 +82,31 @@
   function topicSearch(ids, taxonomy = []) {
     return taxonomy.filter(t => (ids || []).includes(t.id)).flatMap(t => [t.label, t.aliases]);
   }
-  function venueActivity(venue, calls, now = Date.now(), zone = 'Asia/Shanghai') {
-    const rows=(calls||[]).filter(c=>c.venueId===venue.id&&(venue.kind==='journal'?['special','series'].includes(c.kind):c.kind==='conference'&&!['demo','poster','short'].includes(c.submissionCategory)));
+  function deadlineRange(filters = {}) {
+    if (filters.window === 'custom') {
+      const from=String(filters.daysFrom??''),to=String(filters.daysTo??'');
+      const valid=[from,to].every(x=>x===''||/^\d{1,5}$/.test(x)&&+x<=36500);
+      const min=from===''?0:+from,max=to===''?Infinity:+to;
+      return {active:from!==''||to!=='',valid:valid&&min<=max,min,max};
+    }
+    const active=['7','30','90','180'].includes(String(filters.window));
+    return {active,valid:true,min:0,max:active?+filters.window:Infinity};
+  }
+  function deadlineMatches(call, filters = {}, now = Date.now(), zone = 'Asia/Shanghai') {
+    const range=deadlineRange(filters);
+    if(!range.valid)return false;
+    if(!range.active)return true;
+    const st=stateOf(call,now,zone);
+    return ['upcoming','date','restricted'].includes(st.code)&&st.days>=range.min&&st.days<=range.max;
+  }
+  function isBuptImportant(venue) {
+    return venue?.kind==='conference'&&(venue.assessments||[]).some(a=>a.system==='bupt-ict-2018');
+  }
+  function inheritsConferenceList(call) {
+    return call.kind==='conference'&&call.inheritsVenueEvaluation!==false&&!['demo','poster','short'].includes(call.submissionCategory);
+  }
+  function venueActivity(venue, calls, now = Date.now(), zone = 'Asia/Shanghai', filters = {}) {
+    const rows=(calls||[]).filter(c=>c.venueId===venue.id&&(venue.kind==='journal'?['special','series'].includes(c.kind):c.kind==='conference'&&!['demo','poster','short'].includes(c.submissionCategory))&&deadlineMatches(c,filters,now,zone));
     const dated=rows.map(call=>({call,date:calendarDate(primaryNode(call),zone),state:stateOf(call,now,zone)})).filter(x=>x.date&&x.call.verification==='verified');
     for(const codes of [['upcoming','date'],['restricted']]) {
       const future=dated.filter(x=>codes.includes(x.state.code)).sort((a,b)=>a.date.localeCompare(b.date));
@@ -95,8 +118,8 @@
     const past=dated.filter(x=>['closed','past-date'].includes(x.state.code)).sort((a,b)=>b.date.localeCompare(a.date));if(past.length)return past[0].call;
     return rows.sort((a,b)=>(b.eventStart||b.eventDates||b.id).localeCompare(a.eventStart||a.eventDates||a.id))[0]||null;
   }
-  function venueDeadlineOrder(venue,calls,now,zone) {
-    const call=venueActivity(venue,calls,now,zone);if(!call)return [3,'9999'];
+  function venueDeadlineOrder(venue,calls,now,zone,filters) {
+    const call=venueActivity(venue,calls,now,zone,filters);if(!call)return [3,'9999'];
     const state=stateOf(call,now,zone),date=calendarDate(primaryNode(call),zone)||'9999';
     return [['upcoming','date','restricted'].includes(state.code)?0:state.code==='rolling'?1:['closed','past-date'].includes(state.code)?2:3,date];
   }
@@ -114,26 +137,29 @@
   function parseVenueQuery(query = '') {
     const indexes=[],grades=[],labels=[];
     let text=String(query).normalize('NFKC');
+    let buptImportant=false;
+    text=text.replace(/(?:BUPT|北邮)\s*重要(?:会议)?/gi,()=>{buptImportant=true;labels.push('BUPT重要');return ' ';});
     text=text.replace(/\b(SCIE|SCI|ESCI|EI|CSCD|SCOPUS)\b(?:收录)?(?:期刊|论文)?/gi,(_,value)=>{const upper=value.toUpperCase(),index=upper==='SCI'?'SCIE':upper==='SCOPUS'?'Scopus':upper;indexes.push(index);labels.push(index==='SCIE'?'SCI / SCIE':index);return ' ';});
     text=text.replace(/北大核心|中文核心|中国科技核心|科技核心|\bCSTPCD\b/gi,token=>{const value=/科技|cstpcd/i.test(token)?'CSTPCD':'北大核心';indexes.push(value);labels.push(value==='CSTPCD'?'科技核心':value);return ' ';});
     const numbers={'一':'1','二':'2','三':'3','四':'4'};
+    text=text.replace(/新锐(?:分区)?\s*([一二三四1-4])\s*区/g,(_,value)=>{const rank=numbers[value]||value;grades.push('xinrui:'+rank);labels.push('新锐 '+rank+'区');return ' ';});
     text=text.replace(/(?:中科院(?:大类)?\s*)?([一二三四1-4])\s*区/g,(_,value)=>{const rank=numbers[value]||value;grades.push('cas:'+rank);labels.push('中科院大类 '+rank+'区');return ' ';});
     text=text.replace(/(?:\bJCR\s*)?\bQ([1-4])\b/gi,(_,rank)=>{grades.push('jcr:Q'+rank);labels.push('JCR Q'+rank);return ' ';});
     text=text.replace(/\b(CCF|ICORE|CORE)\s*[:：]?\s*(A\*|[ABC])(?=\s|$|[，,])/gi,(_,system,value)=>{const sys=system.toUpperCase()==='CCF'?'ccf':'core';grades.push(sys+':'+value.toUpperCase());labels.push((sys==='ccf'?'CCF':'ICORE')+' '+value.toUpperCase());return ' ';});
     text=text.replace(/(?:\bCIC|中国通信学会|通信学会)\s*[:：]?\s*T([1-3])\b/gi,(_,rank)=>{grades.push('cic:T'+rank);labels.push('通信学会 T'+rank);return ' ';});
     text=text.replace(/(?:\bCIE|中国电子学会|电子学会)\s*[:：]?\s*T([1-3])\b/gi,(_,rank)=>{grades.push('cie:T'+rank);labels.push('电子学会 T'+rank);return ' ';});
     if(indexes.length||grades.length)text=text.replace(/(?:期刊|论文)/g,' ');
-    return {text:text.trim(),indexes:[...new Set(indexes)],grades:[...new Set(grades)],labels:[...new Set(labels)]};
+    return {text:text.trim(),indexes:[...new Set(indexes)],grades:[...new Set(grades)],labels:[...new Set(labels)],buptImportant};
   }
   function venueQueryMatches(venue, parsed) {
-    return (!parsed.indexes.length||parsed.indexes.some(index=>indexMatches(venue,index)))&&evaluationMatches(venue,parsed.grades);
+    return (!parsed.buptImportant||isBuptImportant(venue))&&(!parsed.indexes.length||parsed.indexes.some(index=>indexMatches(venue,index)))&&evaluationMatches(venue,parsed.grades);
   }
   function cleanGrades(values, kind) {
-    const choices={jcr:['Q1','Q2','Q3','Q4','N'],cas:['1','2','3','4','N'],ccf:['A','B','C','N'],core:['A*','A','B','C','N'],cie:['T1','T2','T3'],cic:['T1','T2','T3']};
-    return [...new Set(values)].filter(value=>{const [sys,rank]=String(value).split(':');return value===sys+':'+rank&&choices[sys]?.includes(rank)&&!(kind==='conference'&&['jcr','cas','cie','cic'].includes(sys))&&!(kind==='journal'&&sys==='core');});
+    const choices={jcr:['Q1','Q2','Q3','Q4','N'],cas:['1','2','3','4','N'],xinrui:['1','2','3','4'],ccf:['A','B','C','N'],core:['A*','A','B','C','N'],cie:['T1','T2','T3'],cic:['T1','T2','T3']};
+    return [...new Set(values)].filter(value=>{const [sys,rank]=String(value).split(':');return value===sys+':'+rank&&choices[sys]?.includes(rank)&&!(kind==='conference'&&['jcr','cas','xinrui','cie','cic'].includes(sys))&&!(kind==='journal'&&sys==='core');});
   }
   function isRankEvidence(e) {
-    const values={jcr:['Q1','Q2','Q3','Q4'],cas:['1','2','3','4'],ccf:['A','B','C'],core:['A*','A','B','C'],cie:['T1','T2','T3'],cic:['T1','T2','T3']};
+    const values={jcr:['Q1','Q2','Q3','Q4'],cas:['1','2','3','4'],xinrui:['1','2','3','4'],ccf:['A','B','C'],core:['A*','A','B','C'],cie:['T1','T2','T3'],cic:['T1','T2','T3']};
     return !!e&&['verified','reported'].includes(e.status)&&values[e.system]?.includes(String(e.value));
   }
   function displayEvaluations(venue) {
@@ -158,27 +184,27 @@
     return [...groups].every(([system, values]) => displayed.some(e=>e.system===system&&values.includes(String(e.value))) || values.includes('N')&&records.some(e=>e.system===system&&e.status==='unlisted'));
   }
   function filterVenues(venues, filters = {}) {
-    const favorites = new Set(filters.favorites || []), parsed=parseVenueQuery(filters.query);
+    const favorites = new Set(filters.favorites || []), parsed=parseVenueQuery(filters.query),range=deadlineRange(filters),now=filters.now??Date.now();
     return venues.filter(v =>
       venueQueryMatches(v,parsed) &&
-      (v.catalogScope !== 'archive' || filters.includeArchived || (filters.favoriteOnly && favorites.has('venue:' + v.id))) &&
+      (v.catalogScope !== 'archive' || filters.includeArchived || (filters.historical||parsed.buptImportant)&&isBuptImportant(v) || (filters.favoriteOnly && favorites.has('venue:' + v.id))) &&
       (!filters.venueKind || v.kind === filters.venueKind) && evaluationMatches(v, filters.grades?.length ? filters.grades : filters.grade) &&
       (!filters.catalogStatus || v.catalogStatus === filters.catalogStatus) &&
       indexMatches(v,filters.index) &&
-      (!filters.window || !filters.calls || (()=>{const call=venueActivity(v,filters.calls,filters.now||Date.now(),filters.zone);if(!call)return false;const st=stateOf(call,filters.now||Date.now(),filters.zone);return ['upcoming','date','restricted'].includes(st.code)&&st.days>=0&&st.days<=+filters.window;})()) &&
+      (range.valid&&(!range.active||!!venueActivity(v,filters.calls,now,filters.zone,filters))) &&
       (!filters.area || (filters.primaryOnly ? (v.primaryArea||v.areas[0])===filters.area : v.areas.includes(filters.area))) && topicMatches(v.topics, filters.topics) &&
-      (!filters.historical || (v.assessments || []).some(a => a.system === 'bupt-ict-2018')) &&
+      (!filters.historical || isBuptImportant(v)) &&
       (!filters.favoriteOnly || favorites.has('venue:' + v.id)) &&
       (!filters.journalType || filters.journalType === 'all' || v.publicationType === filters.journalType) &&
       searchMatches(parsed.text, v.short, v.nameEn, v.nameZh, v.aliases, v.summary, topicSearch(v.topics, filters.taxonomy))
-    ).sort((a,b) => {if(filters.calls&&filters.sort!=='name'){const x=venueDeadlineOrder(a,filters.calls,filters.now||Date.now(),filters.zone),y=venueDeadlineOrder(b,filters.calls,filters.now||Date.now(),filters.zone);const order=x[0]-y[0]||(x[0]===2?y[1].localeCompare(x[1]):x[1].localeCompare(y[1]));if(order)return order;}return (filters.sort === 'name' ? 0 : ({current:0,'needs-review':1,'historical-only':2}[a.catalogStatus] - {current:0,'needs-review':1,'historical-only':2}[b.catalogStatus])) || a.short.localeCompare(b.short);});
+    ).sort((a,b) => {if(filters.calls&&filters.sort!=='name'){const x=venueDeadlineOrder(a,filters.calls,now,filters.zone,filters),y=venueDeadlineOrder(b,filters.calls,now,filters.zone,filters);const order=x[0]-y[0]||(x[0]===2?y[1].localeCompare(x[1]):x[1].localeCompare(y[1]));if(order)return order;}return (filters.sort === 'name' ? 0 : ({current:0,'needs-review':1,'historical-only':2}[a.catalogStatus] - {current:0,'needs-review':1,'historical-only':2}[b.catalogStatus])) || a.short.localeCompare(b.short);});
   }
   function filterCalls(calls, venues, filters, now = Date.now()) {
     const byId = new Map(venues.map(v => [v.id, v])), parsed=parseVenueQuery(filters.query);
     const favorites = new Set(filters.favorites || []);
     return calls.filter(call => {
       const v = byId.get(call.venueId);
-      if (!v || (v.catalogScope === 'archive' && !filters.includeArchived && !(filters.favoriteOnly && (favorites.has('venue:' + v.id) || favorites.has('call:' + call.id))))) return false;
+      if (!v || (v.catalogScope === 'archive' && !filters.includeArchived && !((filters.historical||parsed.buptImportant)&&isBuptImportant(v)) && !(filters.favoriteOnly && (favorites.has('venue:' + v.id) || favorites.has('call:' + call.id))))) return false;
       const selectedGrades=filters.grades?.length?filters.grades:filters.grade;
       const noInheritedGrade=call.kind==='workshop'||call.inheritsVenueEvaluation===false||['demo','poster','short'].includes(call.submissionCategory);
       if(!indexMatches(v,filters.index)||!venueQueryMatches(v,parsed)||!evaluationMatches(v,selectedGrades))return false;
@@ -190,9 +216,9 @@
       if (filters.area && !(filters.primaryOnly ? (call.primaryArea||(call.areas||v.areas||[])[0])===filters.area : (call.areas||v.areas||[]).includes(filters.area))) return false;
       const topics = call.topics || v.topics || [];
       if (!topicMatches(topics, filters.topics)) return false;
-      if (filters.historical && (call.kind !== 'conference' || !(v.assessments || []).some(a => a.system === 'bupt-ict-2018'))) return false;
+      if ((filters.historical||parsed.buptImportant) && (!inheritsConferenceList(call) || !isBuptImportant(v))) return false;
       if (filters.favoriteOnly && !favorites.has('call:' + call.id) && !favorites.has('venue:' + v.id)) return false;
-      if (filters.window && (!['upcoming', 'date', 'restricted'].includes(st.code) || st.days < 0 || st.days > +filters.window)) return false;
+      if (!deadlineMatches(call,filters,now,filters.zone)) return false;
       return searchMatches(parsed.text, call.title, call.titleEn, call.tags, call.summary, v.short, v.nameEn, v.nameZh, v.aliases, topicSearch(topics, filters.taxonomy));
     }).sort((a, b) => {
       const aDate = calendarDate(primaryNode(a), filters.zone) || '9999';
@@ -254,5 +280,5 @@
     const allowed = new Set([...data.calls.map(c => 'call:' + c.id), ...data.venues.map(v => 'venue:' + v.id)]);
     return [...new Set(value.items.filter(x=>typeof x==='string').map(x=>{if(Object.hasOwn(data.favoriteAliases||{},x))return data.favoriteAliases[x];if(x.startsWith('call:')&&Object.hasOwn(data.callAliases||{},x.slice(5)))return 'call:'+data.callAliases[x.slice(5)];return x;}).filter(x=>allowed.has(x)))];
   }
-  return { validDate, dateInZone, parseInstant, countdown, primaryNode, calendarDate, stateOf, venueActivity, indexMatches, parseVenueQuery, searchMatches, cleanTopics, topicMatches, indexingStatus, cleanGrades, isRankEvidence, displayEvaluations, evaluationMatches, filterVenues, filterCalls, escapeICS, foldLine, eligibleNodes, createICS, cleanFavorites };
+  return { validDate, dateInZone, parseInstant, countdown, primaryNode, calendarDate, stateOf, deadlineRange, deadlineMatches, isBuptImportant, inheritsConferenceList, venueActivity, indexMatches, parseVenueQuery, searchMatches, cleanTopics, topicMatches, indexingStatus, cleanGrades, isRankEvidence, displayEvaluations, evaluationMatches, filterVenues, filterCalls, escapeICS, foldLine, eligibleNodes, createICS, cleanFavorites };
 });

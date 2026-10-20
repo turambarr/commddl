@@ -104,6 +104,25 @@ evaluations:
     row: 173
     appliesToName: Circuits, Systems, and Signal Processing
     note: 按正式ISSN或完整刊名对应官方232刊表，记录原始T分级及年份。
+  - system: xinrui
+    year: 2026
+    value: "3"
+    status: reported
+    edition: 2026年新锐期刊分区表（高校公开副本，2026-04-01）
+    category: 工程技术
+    issn: 0278-081X
+    eissn: 1531-5878
+    appliesToName: CIRCUITS SYSTEMS AND SIGNAL PROCESSING
+    sourceUrl: https://kjc.cdmc.edu.cn/art/2026/4/1/art_299_101218.html
+    sourceFileUrl: https://kjc.cdmc.edu.cn/module/download/downfile.jsp?classid=0&filename=77490d1d77c14c02936e1737479be025.xlsx
+    sourceTitle: 承德医学院科技处公开：2026新锐期刊分区表完整版名单
+    sourceType: document-copy
+    officialUrl: https://www.xr-scholar.com/
+    verifiedAt: 2026-10-20
+    reviewedAt: 2026-10-20
+    sheet: Sheet1
+    row: 6265
+    note: 读取高校公开Excel副本，以既有身份/评级证据中的ISSN或EISSN唯一匹配；采用表中大类分区，保留原始2026版本。新锐与中科院、JCR分别记录。
 indexing:
   value: SCIE
   status: verified

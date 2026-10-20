@@ -1,0 +1,4721 @@
+{
+  "version": "0.11.0",
+  "verifiedAt": "2026-10-20",
+  "sourcePageUrl": "https://kjc.cdmc.edu.cn/art/2026/4/1/art_299_101218.html",
+  "sourceFileUrl": "https://kjc.cdmc.edu.cn/module/download/downfile.jsp?classid=0&filename=77490d1d77c14c02936e1737479be025.xlsx",
+  "officialUrl": "https://www.xr-scholar.com/",
+  "sourceFileSha256": "942b241e22b508bcc8a0c3ca4969e05811d0aeac73410014a285d984888187bb",
+  "sheet": "Sheet1",
+  "sourceRows": 22281,
+  "method": "既有身份与评级证据中的有效ISSN/EISSN唯一匹配；不使用缩写或相似刊名推断",
+  "matched": [
+    {
+      "id": "access",
+      "name": "IEEE Access",
+      "source": {
+        "row": 21530,
+        "name": "IEEE Access",
+        "category": "计算机科学",
+        "quartile": "3 区",
+        "issn": "2169-3536",
+        "eissn": "2169-3536"
+      },
+      "method": "issn",
+      "matchedISSNs": [
+        "21693536"
+      ]
+    },
+    {
+      "id": "aces-j",
+      "name": "The Applied Computational Electromagnetics Society Journal (ACES)",
+      "source": {
+        "row": 15514,
+        "name": "APPLIED COMPUTATIONAL ELECTROMAGNETICS SOCIETY JOURNAL",
+        "category": "计算机科学",
+        "quartile": "4 区",
+        "issn": "1054-4887",
+        "eissn": "1943-5711"
+      },
+      "method": "issn",
+      "matchedISSNs": [
+        "10544887",
+        "19435711"
+      ]
+    },
+    {
+      "id": "acs-photonics",
+      "name": "ACS Photonics",
+      "source": {
+        "row": 16323,
+        "name": "ACS Photonics",
+        "category": "物理与天体物理",
+        "quartile": "1 区",
+        "issn": "2330-4022",
+        "eissn": "-"
+      },
+      "method": "issn",
+      "matchedISSNs": [
+        "23304022"
+      ]
+    },
+    {
+      "id": "adhoc-networks",
+      "name": "Ad Hoc Networks",
+      "source": {
+        "row": 19773,
+        "name": "Ad Hoc Networks",
+        "category": "计算机科学",
+        "quartile": "3 区",
+        "issn": "1570-8705",
+        "eissn": "1570-8713"
+      },
+      "method": "issn",
+      "matchedISSNs": [
+        "15708705"
+      ]
+    },
+    {
+      "id": "aem",
+      "name": "Advanced Electronic Materials",
+      "source": {
+        "row": 16801,
+        "name": "Advanced Electronic Materials",
+        "category": "材料科学",
+        "quartile": "3 区",
+        "issn": "2199-160X",
+        "eissn": "2199-160X"
+      },
+      "method": "issn",
+      "matchedISSNs": [
+        "2199160x"
+      ]
+    },
+    {
+      "id": "aeu",
+      "name": "AEU - International Journal of Electronics and Communications",
+      "source": {
+        "row": 19927,
+        "name": "AEU-INTERNATIONAL JOURNAL OF ELECTRONICS AND COMMUNICATIONS",
+        "category": "计算机科学",
+        "quartile": "3 区",
+        "issn": "1434-8411",
+        "eissn": "1618-0399"
+      },
+      "method": "issn",
+      "matchedISSNs": [
+        "14348411"
+      ]
+    },
+    {
+      "id": "aicsp",
+      "name": "Analog Integrated Circuits and Signal Processing",
+      "source": {
+        "row": 8169,
+        "name": "ANALOG INTEGRATED CIRCUITS AND SIGNAL PROCESSING",
+        "category": "工程技术",
+        "quartile": "4 区",
+        "issn": "0925-1030",
+        "eissn": "1573-1979"
+      },
+      "method": "issn",
+      "matchedISSNs": [
+        "09251030",
+        "15731979"
+      ]
+    },
+    {
+      "id": "ais",
+      "name": "Advanced Intelligent Systems",
+      "source": {
+        "row": 19729,
+        "name": "Advanced Intelligent Systems",
+        "category": "计算机科学",
+        "quartile": "2 区",
+        "issn": "-",
+        "eissn": "2640-4567"
+      },
+      "method": "issn",
+      "matchedISSNs": [
+        "26404567"
+      ]
+    },
+    {
+      "id": "aop",
+      "name": "Advances in Optics and Photonics",
+      "source": {
+        "row": 207,
+        "name": "Advances in Optics and Photonics",
+        "category": "物理与天体物理",
+        "quartile": "1 区",
+        "issn": "1943-8206",
+        "eissn": "-"
+      },
+      "method": "issn",
+      "matchedISSNs": [
+        "19438206"
+      ]
+    },
+    {
+      "id": "apl",
+      "name": "Applied Physics Letters",
+      "source": {
+        "row": 706,
+        "name": "APPLIED PHYSICS LETTERS",
+        "category": "物理与天体物理",
+        "quartile": "3 区",
+        "issn": "0003-6951",
+        "eissn": "1077-3118"
+      },
+      "method": "issn",
+      "matchedISSNs": [
+        "00036951",
+        "10773118"
+      ]
+    },
+    {
+      "id": "apl-photonics",
+      "name": "APL Photonics",
+      "source": {
+        "row": 789,
+        "name": "APL Photonics",
+        "category": "物理与天体物理",
+        "quartile": "2 区",
+        "issn": "2378-0967",
+        "eissn": "2378-0967"
+      },
+      "method": "issn",
+      "matchedISSNs": [
+        "23780967"
+      ]
+    },
+    {
+      "id": "apmag",
+      "name": "IEEE Antennas and Propagation Magazine",
+      "source": {
+        "row": 15532,
+        "name": "IEEE ANTENNAS AND PROPAGATION MAGAZINE",
+        "category": "计算机科学",
+        "quartile": "3 区",
+        "issn": "1045-9243",
+        "eissn": "1558-4143"
+      },
+      "method": "issn",
+      "matchedISSNs": [
+        "10459243",
+        "15584143"
+      ]
+    },
+    {
+      "id": "applied-optics",
+      "name": "Applied Optics",
+      "source": {
+        "row": 6205,
+        "name": "APPLIED OPTICS",
+        "category": "工程技术",
+        "quartile": "4 区",
+        "issn": "1559-128X",
+        "eissn": "2155-3165"
+      },
+      "method": "issn",
+      "matchedISSNs": [
+        "1559128x",
+        "21553165"
+      ]
+    },
+    {
+      "id": "awpl",
+      "name": "IEEE Antennas and Wireless Propagation Letters",
+      "source": {
+        "row": 19681,
+        "name": "IEEE Antennas and Wireless Propagation Letters",
+        "category": "计算机科学",
+        "quartile": "2 区",
+        "issn": "1536-1225",
+        "eissn": "1548-5757"
+      },
+      "method": "issn",
+      "matchedISSNs": [
+        "15361225",
+        "15485757"
+      ]
+    },
+    {
+      "id": "bit",
+      "name": "Behaviour and Information Technology",
+      "source": {
+        "row": 3779,
+        "name": "BEHAVIOUR & INFORMATION TECHNOLOGY",
+        "category": "管理学",
+        "quartile": "3 区",
+        "issn": "0144-929X",
+        "eissn": "1362-3001"
+      },
+      "method": "issn",
+      "matchedISSNs": [
+        "0144929x",
+        "13623001"
+      ]
+    },
+    {
+      "id": "china-communications",
+      "name": "China Communications",
+      "source": {
+        "row": 19882,
+        "name": "China Communications",
+        "category": "计算机科学",
+        "quartile": "3 区",
+        "issn": "1673-5447",
+        "eissn": "-"
+      },
+      "method": "issn",
+      "matchedISSNs": [
+        "16735447"
+      ]
+    },
+    {
+      "id": "cje",
+      "name": "Chinese Journal of Electronics",
+      "source": {
+        "row": 19896,
+        "name": "CHINESE JOURNAL OF ELECTRONICS",
+        "category": "计算机科学",
+        "quartile": "3 区",
+        "issn": "1022-4653",
+        "eissn": "2075-5597"
+      },
+      "method": "issn",
+      "matchedISSNs": [
+        "10224653",
+        "20755597"
+      ]
+    },
+    {
+      "id": "cl",
+      "name": "IEEE Communications Letters",
+      "source": {
+        "row": 15528,
+        "name": "IEEE COMMUNICATIONS LETTERS",
+        "category": "计算机科学",
+        "quartile": "3 区",
+        "issn": "1089-7798",
+        "eissn": "1558-2558"
+      },
+      "method": "issn",
+      "matchedISSNs": [
+        "10897798",
+        "15582558"
+      ]
+    },
+    {
+      "id": "col",
+      "name": "Chinese Optics Letters",
+      "source": {
+        "row": 732,
+        "name": "Chinese Optics Letters",
+        "category": "物理与天体物理",
+        "quartile": "2 区",
+        "issn": "1671-7694",
+        "eissn": "1671-7694"
+      },
+      "method": "issn",
+      "matchedISSNs": [
+        "16717694"
+      ]
+    },
+    {
+      "id": "commag",
+      "name": "IEEE Communications Magazine",
+      "source": {
+        "row": 21545,
+        "name": "IEEE COMMUNICATIONS MAGAZINE",
+        "category": "计算机科学",
+        "quartile": "2 区",
+        "issn": "0163-6804",
+        "eissn": "1558-1896"
+      },
+      "method": "issn",
+      "matchedISSNs": [
+        "01636804",
+        "15581896"
+      ]
+    },
+    {
+      "id": "compsec",
+      "name": "Computers & Security",
+      "source": {
+        "row": 19675,
+        "name": "COMPUTERS & SECURITY",
+        "category": "计算机科学",
+        "quartile": "2 区",
+        "issn": "0167-4048",
+        "eissn": "1872-6208"
+      },
+      "method": "issn",
+      "matchedISSNs": [
+        "01674048",
+        "18726208"
+      ]
+    },
+    {
+      "id": "computer-comms",
+      "name": "Computer Communications",
+      "source": {
+        "row": 19703,
+        "name": "COMPUTER COMMUNICATIONS",
+        "category": "计算机科学",
+        "quartile": "3 区",
+        "issn": "0140-3664",
+        "eissn": "1873-703X"
+      },
+      "method": "issn",
+      "matchedISSNs": [
+        "01403664",
+        "1873703x"
+      ]
+    },
+    {
+      "id": "computer-networks",
+      "name": "Computer Networks",
+      "source": {
+        "row": 15530,
+        "name": "Computer Networks",
+        "category": "计算机科学",
+        "quartile": "3 区",
+        "issn": "1389-1286",
+        "eissn": "1872-7069"
+      },
+      "method": "issn",
+      "matchedISSNs": [
+        "13891286",
+        "18727069"
+      ]
+    },
+    {
+      "id": "comst",
+      "name": "IEEE Communications Surveys & Tutorials",
+      "source": {
+        "row": 12034,
+        "name": "IEEE Communications Surveys and Tutorials",
+        "category": "计算机科学",
+        "quartile": "1 区",
+        "issn": "-",
+        "eissn": "1553-877X"
+      },
+      "method": "issn",
+      "matchedISSNs": [
+        "1553877x"
+      ]
+    },
+    {
+      "id": "copp",
+      "name": "Current Optics and Photonics",
+      "source": {
+        "row": 601,
+        "name": "Current Optics and Photonics",
+        "category": "物理与天体物理",
+        "quartile": "4 区",
+        "issn": "2508-7266",
+        "eissn": "2508-7274"
+      },
+      "method": "issn",
+      "matchedISSNs": [
+        "25087266",
+        "25087274"
+      ]
+    },
+    {
+      "id": "cssp",
+      "name": "Circuits, Systems, and Signal Processing",
+      "source": {
+        "row": 6265,
+        "name": "CIRCUITS SYSTEMS AND SIGNAL PROCESSING",
+        "category": "工程技术",
+        "quartile": "3 区",
+        "issn": "0278-081X",
+        "eissn": "1531-5878"
+      },
+      "method": "issn",
+      "matchedISSNs": [
+        "0278081x",
+        "15315878"
+      ]
+    },
+    {
+      "id": "dcc-j",
+      "name": "Designs Codes and Cryptography",
+      "source": {
+        "row": 19839,
+        "name": "DESIGNS CODES AND CRYPTOGRAPHY",
+        "category": "数学",
+        "quartile": "3 区",
+        "issn": "0925-1022",
+        "eissn": "1573-7586"
+      },
+      "method": "issn",
+      "matchedISSNs": [
+        "09251022",
+        "15737586"
+      ]
+    },
+    {
+      "id": "dcn",
+      "name": "Digital Communications and Networks",
+      "source": {
+        "row": 19711,
+        "name": "Digital Communications and Networks",
+        "category": "计算机科学",
+        "quartile": "2 区",
+        "issn": "2468-5925",
+        "eissn": "2352-8648"
+      },
+      "method": "issn",
+      "matchedISSNs": [
+        "24685925",
+        "23528648"
+      ]
+    },
+    {
+      "id": "displays",
+      "name": "Displays",
+      "source": {
+        "row": 22125,
+        "name": "DISPLAYS",
+        "category": "计算机科学",
+        "quartile": "3 区",
+        "issn": "0141-9382",
+        "eissn": "1872-7387"
+      },
+      "method": "issn",
+      "matchedISSNs": [
+        "01419382",
+        "18727387"
+      ]
+    },
+    {
+      "id": "dsp",
+      "name": "Digital Signal Processing",
+      "source": {
+        "row": 6274,
+        "name": "DIGITAL SIGNAL PROCESSING",
+        "category": "工程技术",
+        "quartile": "3 区",
+        "issn": "1051-2004",
+        "eissn": "1095-4333"
+      },
+      "method": "issn",
+      "matchedISSNs": [
+        "10512004"
+      ]
+    },
+    {
+      "id": "edl",
+      "name": "IEEE Electron Device Letters",
+      "source": {
+        "row": 6512,
+        "name": "IEEE ELECTRON DEVICE LETTERS",
+        "category": "工程技术",
+        "quartile": "2 区",
+        "issn": "0741-3106",
+        "eissn": "1558-0563"
+      },
+      "method": "issn",
+      "matchedISSNs": [
+        "07413106",
+        "15580563"
+      ]
+    },
+    {
+      "id": "eitee",
+      "name": "ENGINEERING Information Technology & Electronic Engineering",
+      "source": {
+        "row": 19950,
+        "name": "ENGINEERING INFORMATION TECHNOLOGY & ELECTRONIC ENGINEERING",
+        "category": "计算机科学",
+        "quartile": "3 区",
+        "issn": "2095-9184",
+        "eissn": "2095-9230"
+      },
+      "method": "issn",
+      "matchedISSNs": [
+        "20959184"
+      ]
+    },
+    {
+      "id": "electromagnetics",
+      "name": "ELECTROMAGNETICS",
+      "source": {
+        "row": 5988,
+        "name": "ELECTROMAGNETICS",
+        "category": "工程技术",
+        "quartile": "4 区",
+        "issn": "0272-6343",
+        "eissn": "1532-527X"
+      },
+      "method": "issn",
+      "matchedISSNs": [
+        "02726343",
+        "1532527x"
+      ]
+    },
+    {
+      "id": "electronics-letters",
+      "name": "Electronics Letters",
+      "source": {
+        "row": 17731,
+        "name": "ELECTRONICS LETTERS",
+        "category": "工程技术",
+        "quartile": "4 区",
+        "issn": "0013-5194",
+        "eissn": "1350-911X"
+      },
+      "method": "issn",
+      "matchedISSNs": [
+        "00135194",
+        "1350911x"
+      ]
+    },
+    {
+      "id": "epj-qt",
+      "name": "EPJ Quantum Technology",
+      "source": {
+        "row": 788,
+        "name": "EPJ Quantum Technology",
+        "category": "物理与天体物理",
+        "quartile": "2 区",
+        "issn": "2662-4400",
+        "eissn": "2196-0763"
+      },
+      "method": "issn",
+      "matchedISSNs": [
+        "21960763",
+        "26624400"
+      ]
+    },
+    {
+      "id": "ett",
+      "name": "Transactions on Emerging Telecommunications Technologies",
+      "source": {
+        "row": 15799,
+        "name": "Transactions on Emerging Telecommunications Technologies",
+        "category": "计算机科学",
+        "quartile": "4 区",
+        "issn": "2161-3915",
+        "eissn": "2161-3915"
+      },
+      "method": "issn",
+      "matchedISSNs": [
+        "21613915"
+      ]
+    },
+    {
+      "id": "eurasip-asmp",
+      "name": "EURASIP Journal on Audio Speech and Music Processing",
+      "source": {
+        "row": 19900,
+        "name": "EURASIP Journal on Audio Speech and Music Processing",
+        "category": "计算机科学",
+        "quartile": "3 区",
+        "issn": "1687-4722",
+        "eissn": "1687-4722"
+      },
+      "method": "issn",
+      "matchedISSNs": [
+        "16874722"
+      ]
+    },
+    {
+      "id": "eurasip-jis",
+      "name": "EURASIP Journal on Information Security",
+      "source": {
+        "row": 20197,
+        "name": "EURASIP Journal on Information Security",
+        "category": "计算机科学",
+        "quartile": "4 区",
+        "issn": "2510-523X",
+        "eissn": "2510-523X"
+      },
+      "method": "issn",
+      "matchedISSNs": [
+        "2510523x"
+      ]
+    },
+    {
+      "id": "eurasip-jivp",
+      "name": "EURASIP Journal on Image and Video Processing",
+      "source": {
+        "row": 19992,
+        "name": "EURASIP Journal on Image and Video Processing",
+        "category": "计算机科学",
+        "quartile": "4 区",
+        "issn": "1687-5176",
+        "eissn": "1687-5281"
+      },
+      "method": "issn",
+      "matchedISSNs": [
+        "16875176",
+        "16875281"
+      ]
+    },
+    {
+      "id": "frontiers-comnet",
+      "name": "Frontiers in Communications and Networks",
+      "source": {
+        "row": 20147,
+        "name": "Frontiers in Communications and Networks",
+        "category": "计算机科学",
+        "quartile": "4 区",
+        "issn": "-",
+        "eissn": "2673-530X"
+      },
+      "method": "issn",
+      "matchedISSNs": [
+        "2673530x"
+      ]
+    },
+    {
+      "id": "frontiers-sp",
+      "name": "Frontiers in Signal Processing",
+      "source": {
+        "row": 16995,
+        "name": "Frontiers in Signal Processing",
+        "category": "工程技术",
+        "quartile": "3 区",
+        "issn": "-",
+        "eissn": "2673-8198"
+      },
+      "method": "issn",
+      "matchedISSNs": [
+        "26738198"
+      ]
+    },
+    {
+      "id": "frontiers-space",
+      "name": "Frontiers in Space Technologies",
+      "source": {
+        "row": 6024,
+        "name": "Frontiers in Space Technologies",
+        "category": "工程技术",
+        "quartile": "4 区",
+        "issn": "-",
+        "eissn": "2673-5075"
+      },
+      "method": "issn",
+      "matchedISSNs": [
+        "26735075"
+      ]
+    },
+    {
+      "id": "gps-solutions",
+      "name": "GPS Solutions",
+      "source": {
+        "row": 18773,
+        "name": "GPS SOLUTIONS",
+        "category": "地球科学",
+        "quartile": "1 区",
+        "issn": "1080-5370",
+        "eissn": "1521-1886"
+      },
+      "method": "issn",
+      "matchedISSNs": [
+        "10805370"
+      ]
+    },
+    {
+      "id": "grsl",
+      "name": "IEEE Geoscience and Remote Sensing Letters",
+      "source": {
+        "row": 18683,
+        "name": "IEEE Geoscience and Remote Sensing Letters",
+        "category": "地球科学",
+        "quartile": "3 区",
+        "issn": "1545-598X",
+        "eissn": "1558-0571"
+      },
+      "method": "issn",
+      "matchedISSNs": [
+        "1545598x",
+        "15580571"
+      ]
+    },
+    {
+      "id": "ieice-com",
+      "name": "IEICE Transactions on Communications",
+      "source": {
+        "row": 15679,
+        "name": "IEICE TRANSACTIONS ON COMMUNICATIONS",
+        "category": "计算机科学",
+        "quartile": "4 区",
+        "issn": "0916-8516",
+        "eissn": "1745-1345"
+      },
+      "method": "issn",
+      "matchedISSNs": [
+        "09168516",
+        "17451345"
+      ]
+    },
+    {
+      "id": "ieice-ele",
+      "name": "IEICE Transactions on Electronics",
+      "source": {
+        "row": 17696,
+        "name": "IEICE TRANSACTIONS ON ELECTRONICS",
+        "category": "工程技术",
+        "quartile": "4 区",
+        "issn": "0916-8524",
+        "eissn": "1745-1353"
+      },
+      "method": "issn",
+      "matchedISSNs": [
+        "09168524",
+        "17451353"
+      ]
+    },
+    {
+      "id": "ieice-elex",
+      "name": "IEICE Electronics Express",
+      "source": {
+        "row": 5985,
+        "name": "IEICE Electronics Express",
+        "category": "工程技术",
+        "quartile": "4 区",
+        "issn": "1349-2543",
+        "eissn": "1349-2543"
+      },
+      "method": "issn",
+      "matchedISSNs": [
+        "13492543"
+      ]
+    },
+    {
+      "id": "ieice-fundamentals",
+      "name": "IEICE Transactions on Fundamentals of Electronics, Communications and Computer Sciences",
+      "source": {
+        "row": 15677,
+        "name": "IEICE TRANSACTIONS ON FUNDAMENTALS OF ELECTRONICS COMMUNICATIONS AND COMPUTER SCIENCES",
+        "category": "计算机科学",
+        "quartile": "4 区",
+        "issn": "0916-8508",
+        "eissn": "1745-1337"
+      },
+      "method": "issn",
+      "matchedISSNs": [
+        "09168508",
+        "17451337"
+      ]
+    },
+    {
+      "id": "iet-cds",
+      "name": "IET Circuits, Devices & Systems",
+      "source": {
+        "row": 6137,
+        "name": "IET Circuits Devices & Systems",
+        "category": "工程技术",
+        "quartile": "4 区",
+        "issn": "1751-858X",
+        "eissn": "1751-8598"
+      },
+      "method": "issn",
+      "matchedISSNs": [
+        "1751858x",
+        "17518598"
+      ]
+    },
+    {
+      "id": "iet-com",
+      "name": "IET Communications",
+      "source": {
+        "row": 20209,
+        "name": "IET Communications",
+        "category": "计算机科学",
+        "quartile": "4 区",
+        "issn": "1751-8628",
+        "eissn": "1751-8636"
+      },
+      "method": "issn",
+      "matchedISSNs": [
+        "17518628"
+      ]
+    },
+    {
+      "id": "iet-cps",
+      "name": "IET Cyber-Physical Systems: Theory & Applications",
+      "source": {
+        "row": 20263,
+        "name": "IET Cyber-Physical Systems: Theory & Applications",
+        "category": "计算机科学",
+        "quartile": "4 区",
+        "issn": "-",
+        "eissn": "2398-3396"
+      },
+      "method": "issn",
+      "matchedISSNs": [
+        "23983396"
+      ]
+    },
+    {
+      "id": "iet-image",
+      "name": "IET Image Processing",
+      "source": {
+        "row": 19990,
+        "name": "IET Image Processing",
+        "category": "计算机科学",
+        "quartile": "4 区",
+        "issn": "1751-9659",
+        "eissn": "1751-9667"
+      },
+      "method": "issn",
+      "matchedISSNs": [
+        "17519659",
+        "17519667"
+      ]
+    },
+    {
+      "id": "iet-its",
+      "name": "IET Intelligent Transport Systems",
+      "source": {
+        "row": 16991,
+        "name": "IET Intelligent Transport Systems",
+        "category": "工程技术",
+        "quartile": "3 区",
+        "issn": "1751-956X",
+        "eissn": "1751-9578"
+      },
+      "method": "issn",
+      "matchedISSNs": [
+        "1751956x",
+        "17519578"
+      ]
+    },
+    {
+      "id": "iet-map",
+      "name": "IET Microwaves, Antennas & Propagation",
+      "source": {
+        "row": 20102,
+        "name": "IET Microwaves Antennas & Propagation",
+        "category": "计算机科学",
+        "quartile": "4 区",
+        "issn": "1751-8725",
+        "eissn": "1751-8733"
+      },
+      "method": "issn",
+      "matchedISSNs": [
+        "17518725"
+      ]
+    },
+    {
+      "id": "iet-networks",
+      "name": "IET Networks",
+      "source": {
+        "row": 20151,
+        "name": "IET Networks",
+        "category": "计算机科学",
+        "quartile": "4 区",
+        "issn": "2047-4954",
+        "eissn": "2047-4962"
+      },
+      "method": "issn",
+      "matchedISSNs": [
+        "20474954",
+        "20474962"
+      ]
+    },
+    {
+      "id": "iet-opto",
+      "name": "IET Optoelectronics",
+      "source": {
+        "row": 20116,
+        "name": "IET Optoelectronics",
+        "category": "计算机科学",
+        "quartile": "4 区",
+        "issn": "1751-8768",
+        "eissn": "1751-8776"
+      },
+      "method": "issn",
+      "matchedISSNs": [
+        "17518768",
+        "17518776"
+      ]
+    },
+    {
+      "id": "iet-pel",
+      "name": "IET Power Electronics",
+      "source": {
+        "row": 8176,
+        "name": "IET Power Electronics",
+        "category": "工程技术",
+        "quartile": "4 区",
+        "issn": "1755-4535",
+        "eissn": "1755-4543"
+      },
+      "method": "issn",
+      "matchedISSNs": [
+        "17554535",
+        "17554543"
+      ]
+    },
+    {
+      "id": "iet-qcom",
+      "name": "IET Quantum Communication",
+      "source": {
+        "row": 12333,
+        "name": "IET Quantum Communication",
+        "category": "物理与天体物理",
+        "quartile": "3 区",
+        "issn": "-",
+        "eissn": "2632-8925"
+      },
+      "method": "issn",
+      "matchedISSNs": [
+        "26328925"
+      ]
+    },
+    {
+      "id": "iet-rsn",
+      "name": "IET Radar, Sonar & Navigation",
+      "source": {
+        "row": 20035,
+        "name": "IET Radar Sonar and Navigation",
+        "category": "计算机科学",
+        "quartile": "4 区",
+        "issn": "1751-8784",
+        "eissn": "1751-8792"
+      },
+      "method": "issn",
+      "matchedISSNs": [
+        "17518784"
+      ]
+    },
+    {
+      "id": "iet-security",
+      "name": "IET Information Security",
+      "source": {
+        "row": 20069,
+        "name": "IET Information Security",
+        "category": "计算机科学",
+        "quartile": "4 区",
+        "issn": "1751-8709",
+        "eissn": "1751-8717"
+      },
+      "method": "issn",
+      "matchedISSNs": [
+        "17518709",
+        "17518717"
+      ]
+    },
+    {
+      "id": "iet-smt",
+      "name": "IET Science, Measurement & Technology",
+      "source": {
+        "row": 8260,
+        "name": "IET Science Measurement & Technology",
+        "category": "工程技术",
+        "quartile": "4 区",
+        "issn": "1751-8822",
+        "eissn": "1751-8830"
+      },
+      "method": "issn",
+      "matchedISSNs": [
+        "17518822",
+        "17518830"
+      ]
+    },
+    {
+      "id": "iet-sp",
+      "name": "IET Signal Processing",
+      "source": {
+        "row": 6112,
+        "name": "IET Signal Processing",
+        "category": "工程技术",
+        "quartile": "4 区",
+        "issn": "1751-9675",
+        "eissn": "1751-9683"
+      },
+      "method": "issn",
+      "matchedISSNs": [
+        "17519675"
+      ]
+    },
+    {
+      "id": "iet-vision",
+      "name": "IET Computer Vision",
+      "source": {
+        "row": 20204,
+        "name": "IET Computer Vision",
+        "category": "计算机科学",
+        "quartile": "4 区",
+        "issn": "1751-9632",
+        "eissn": "1751-9640"
+      },
+      "method": "issn",
+      "matchedISSNs": [
+        "17519632",
+        "17519640"
+      ]
+    },
+    {
+      "id": "iet-wss",
+      "name": "IET Wireless Sensor Systems",
+      "source": {
+        "row": 20015,
+        "name": "IET Wireless Sensor Systems",
+        "category": "计算机科学",
+        "quartile": "3 区",
+        "issn": "2043-6386",
+        "eissn": "2043-6394"
+      },
+      "method": "issn",
+      "matchedISSNs": [
+        "20436386",
+        "20436394"
+      ]
+    },
+    {
+      "id": "ijcs",
+      "name": "International Journal of Communication Systems",
+      "source": {
+        "row": 20150,
+        "name": "INTERNATIONAL JOURNAL OF COMMUNICATION SYSTEMS",
+        "category": "计算机科学",
+        "quartile": "4 区",
+        "issn": "1074-5351",
+        "eissn": "1099-1131"
+      },
+      "method": "issn",
+      "matchedISSNs": [
+        "10745351"
+      ]
+    },
+    {
+      "id": "ijcta",
+      "name": "International Journal of Circuit Theory and Applications",
+      "source": {
+        "row": 8247,
+        "name": "INTERNATIONAL JOURNAL OF CIRCUIT THEORY AND APPLICATIONS",
+        "category": "工程技术",
+        "quartile": "4 区",
+        "issn": "0098-9886",
+        "eissn": "1097-007X"
+      },
+      "method": "issn",
+      "matchedISSNs": [
+        "00989886",
+        "1097007x"
+      ]
+    },
+    {
+      "id": "ijet",
+      "name": "International Journal of Electronics and Telecommunications",
+      "source": {
+        "row": 21407,
+        "name": "International Journal of Electronics and Telecommunications",
+        "category": "计算机科学",
+        "quartile": "4 区",
+        "issn": "2081-8491",
+        "eissn": "2300-1933"
+      },
+      "method": "issn",
+      "matchedISSNs": [
+        "20818491",
+        "23001933"
+      ]
+    },
+    {
+      "id": "ijmwt",
+      "name": "International Journal of Microwave and Wireless Technologies",
+      "source": {
+        "row": 20115,
+        "name": "International Journal of Microwave and Wireless Technologies",
+        "category": "计算机科学",
+        "quartile": "4 区",
+        "issn": "1759-0787",
+        "eissn": "1759-0795"
+      },
+      "method": "issn",
+      "matchedISSNs": [
+        "17590787",
+        "17590795"
+      ]
+    },
+    {
+      "id": "ijscn",
+      "name": "International Journal of Satellite Communications and Networking",
+      "source": {
+        "row": 20033,
+        "name": "INTERNATIONAL JOURNAL OF SATELLITE COMMUNICATIONS AND NETWORKING",
+        "category": "计算机科学",
+        "quartile": "4 区",
+        "issn": "1542-0973",
+        "eissn": "1542-0981"
+      },
+      "method": "issn",
+      "matchedISSNs": [
+        "15420973"
+      ]
+    },
+    {
+      "id": "ijsnet",
+      "name": "International Journal of Sensor Networks",
+      "source": {
+        "row": 20091,
+        "name": "International Journal of Sensor Networks",
+        "category": "计算机科学",
+        "quartile": "4 区",
+        "issn": "1748-1279",
+        "eissn": "1748-1287"
+      },
+      "method": "issn",
+      "matchedISSNs": [
+        "17481279",
+        "17481287"
+      ]
+    },
+    {
+      "id": "inf-sci",
+      "name": "Information Sciences",
+      "source": {
+        "row": 21567,
+        "name": "INFORMATION SCIENCES",
+        "category": "计算机科学",
+        "quartile": "1 区",
+        "issn": "0020-0255",
+        "eissn": "1872-6291"
+      },
+      "method": "issn",
+      "matchedISSNs": [
+        "00200255",
+        "18726291"
+      ]
+    },
+    {
+      "id": "iotj",
+      "name": "IEEE Internet of Things Journal",
+      "source": {
+        "row": 21566,
+        "name": "IEEE Internet of Things Journal",
+        "category": "计算机科学",
+        "quartile": "1 区",
+        "issn": "2327-4662",
+        "eissn": "2327-4662"
+      },
+      "method": "issn",
+      "matchedISSNs": [
+        "23274662"
+      ]
+    },
+    {
+      "id": "ipm",
+      "name": "Information Processing & Management",
+      "source": {
+        "row": 22207,
+        "name": "INFORMATION PROCESSING & MANAGEMENT",
+        "category": "计算机科学",
+        "quartile": "1 区",
+        "issn": "0306-4573",
+        "eissn": "1873-5371"
+      },
+      "method": "issn",
+      "matchedISSNs": [
+        "03064573",
+        "18735371"
+      ]
+    },
+    {
+      "id": "isj",
+      "name": "Information Systems Journal",
+      "source": {
+        "row": 4011,
+        "name": "INFORMATION SYSTEMS JOURNAL",
+        "category": "管理学",
+        "quartile": "1 区",
+        "issn": "1350-1917",
+        "eissn": "1365-2575"
+      },
+      "method": "issn",
+      "matchedISSNs": [
+        "13501917",
+        "13652575"
+      ]
+    },
+    {
+      "id": "ivc",
+      "name": "Image and Vision Computing",
+      "source": {
+        "row": 15529,
+        "name": "IMAGE AND VISION COMPUTING",
+        "category": "计算机科学",
+        "quartile": "3 区",
+        "issn": "0262-8856",
+        "eissn": "1872-8138"
+      },
+      "method": "issn",
+      "matchedISSNs": [
+        "02628856",
+        "18728138"
+      ]
+    },
+    {
+      "id": "jasist",
+      "name": "Journal of the Association for Information Science and Technology",
+      "source": {
+        "row": 9829,
+        "name": "Journal of the Association for Information Science and Technology",
+        "category": "管理学",
+        "quartile": "3 区",
+        "issn": "2330-1635",
+        "eissn": "2330-1643"
+      },
+      "method": "issn",
+      "matchedISSNs": [
+        "23301635",
+        "23301643"
+      ]
+    },
+    {
+      "id": "jasp",
+      "name": "Journal on Advances in Signal Processing",
+      "source": {
+        "row": 20027,
+        "name": "EURASIP Journal on Advances in Signal Processing",
+        "category": "计算机科学",
+        "quartile": "4 区",
+        "issn": "1687-6180",
+        "eissn": "1687-6180"
+      },
+      "method": "issn",
+      "matchedISSNs": [
+        "16876180"
+      ]
+    },
+    {
+      "id": "jatis",
+      "name": "Journal of Astronomical Telescopes Instruments and Systems",
+      "source": {
+        "row": 8113,
+        "name": "Journal of Astronomical Telescopes Instruments and Systems",
+        "category": "工程技术",
+        "quartile": "3 区",
+        "issn": "2329-4124",
+        "eissn": "2329-4221"
+      },
+      "method": "issn",
+      "matchedISSNs": [
+        "23294124",
+        "23294221"
+      ]
+    },
+    {
+      "id": "jbhi",
+      "name": "IEEE Journal of Biomedical and Health Informatics",
+      "source": {
+        "row": 5916,
+        "name": "IEEE Journal of Biomedical and Health Informatics",
+        "category": "医学",
+        "quartile": "1 区",
+        "issn": "2168-2194",
+        "eissn": "2168-2208"
+      },
+      "method": "issn",
+      "matchedISSNs": [
+        "21682194",
+        "21682208"
+      ]
+    },
+    {
+      "id": "jbiophotonics",
+      "name": "Journal of Biophotonics",
+      "source": {
+        "row": 751,
+        "name": "Journal of Biophotonics",
+        "category": "物理与天体物理",
+        "quartile": "3 区",
+        "issn": "1864-063X",
+        "eissn": "1864-0648"
+      },
+      "method": "issn",
+      "matchedISSNs": [
+        "1864063x",
+        "18640648"
+      ]
+    },
+    {
+      "id": "jbo",
+      "name": "Journal of Biomedical Optics",
+      "source": {
+        "row": 19261,
+        "name": "JOURNAL OF BIOMEDICAL OPTICS",
+        "category": "医学",
+        "quartile": "3 区",
+        "issn": "1083-3668",
+        "eissn": "1560-2281"
+      },
+      "method": "issn",
+      "matchedISSNs": [
+        "10833668",
+        "15602281"
+      ]
+    },
+    {
+      "id": "jcn",
+      "name": "IEEE/KICS Journal of Communications and Networks",
+      "source": {
+        "row": 19885,
+        "name": "JOURNAL OF COMMUNICATIONS AND NETWORKS",
+        "category": "计算机科学",
+        "quartile": "3 区",
+        "issn": "1229-2370",
+        "eissn": "1976-5541"
+      },
+      "method": "issn",
+      "matchedISSNs": [
+        "12292370"
+      ]
+    },
+    {
+      "id": "jcs",
+      "name": "Journal of Computer Security",
+      "source": {
+        "row": 20110,
+        "name": "Journal of Computer Security",
+        "category": "计算机科学",
+        "quartile": "4 区",
+        "issn": "0926-227X",
+        "eissn": "1875-8924"
+      },
+      "method": "issn",
+      "matchedISSNs": [
+        "0926227x",
+        "18758924"
+      ]
+    },
+    {
+      "id": "jeit",
+      "name": "Journal of Electronics and Information Technology",
+      "source": {
+        "row": 17587,
+        "name": "Journal of Electronics & Information Technology",
+        "category": "工程技术",
+        "quartile": "3 区",
+        "issn": "1009-5896",
+        "eissn": "1009-5896"
+      },
+      "method": "issn",
+      "matchedISSNs": [
+        "10095896"
+      ]
+    },
+    {
+      "id": "jelectroceram",
+      "name": "Journal of Electroceramics",
+      "source": {
+        "row": 2464,
+        "name": "JOURNAL OF ELECTROCERAMICS",
+        "category": "材料科学",
+        "quartile": "4 区",
+        "issn": "1385-3449",
+        "eissn": "1573-8663"
+      },
+      "method": "issn",
+      "matchedISSNs": [
+        "13853449",
+        "15738663"
+      ]
+    },
+    {
+      "id": "jem",
+      "name": "Journal of Electronic Materials",
+      "source": {
+        "row": 2457,
+        "name": "JOURNAL OF ELECTRONIC MATERIALS",
+        "category": "材料科学",
+        "quartile": "4 区",
+        "issn": "0361-5235",
+        "eissn": "1543-186X"
+      },
+      "method": "issn",
+      "matchedISSNs": [
+        "03615235",
+        "1543186x"
+      ]
+    },
+    {
+      "id": "jep",
+      "name": "Journal of Electronic Packaging",
+      "source": {
+        "row": 8172,
+        "name": "JOURNAL OF ELECTRONIC PACKAGING",
+        "category": "工程技术",
+        "quartile": "4 区",
+        "issn": "1043-7398",
+        "eissn": "1528-9044"
+      },
+      "method": "issn",
+      "matchedISSNs": [
+        "10437398",
+        "15289044"
+      ]
+    },
+    {
+      "id": "jestpe",
+      "name": "IEEE Journal of Emerging and Selected Topics in Power Electronics",
+      "source": {
+        "row": 6617,
+        "name": "IEEE Journal of Emerging and Selected Topics in Power Electronics",
+        "category": "工程技术",
+        "quartile": "2 区",
+        "issn": "2168-6777",
+        "eissn": "2168-6785"
+      },
+      "method": "issn",
+      "matchedISSNs": [
+        "21686777",
+        "21686785"
+      ]
+    },
+    {
+      "id": "jetcas",
+      "name": "IEEE Journal on Emerging and Selected Topics in Circuits and Systems",
+      "source": {
+        "row": 6371,
+        "name": "IEEE Journal on Emerging and Selected Topics in Circuits and Systems",
+        "category": "工程技术",
+        "quartile": "3 区",
+        "issn": "2156-3357",
+        "eissn": "2156-3365"
+      },
+      "method": "issn",
+      "matchedISSNs": [
+        "21563357",
+        "21563365"
+      ]
+    },
+    {
+      "id": "jewa",
+      "name": "Journal of Electromagnetic Waves and Applications",
+      "source": {
+        "row": 22184,
+        "name": "JOURNAL OF ELECTROMAGNETIC WAVES AND APPLICATIONS",
+        "category": "工程技术",
+        "quartile": "4 区",
+        "issn": "0920-5071",
+        "eissn": "1569-3937"
+      },
+      "method": "issn",
+      "matchedISSNs": [
+        "09205071",
+        "15693937"
+      ]
+    },
+    {
+      "id": "jir",
+      "name": "Journal of Infrared, Millimeter, and Terahertz Waves",
+      "source": {
+        "row": 8200,
+        "name": "Journal of Infrared Millimeter and Terahertz Waves",
+        "category": "工程技术",
+        "quartile": "3 区",
+        "issn": "1866-6892",
+        "eissn": "1866-6906"
+      },
+      "method": "issn",
+      "matchedISSNs": [
+        "18666892",
+        "18666906"
+      ]
+    },
+    {
+      "id": "jirmmw-zh",
+      "name": "Journal of Infrared and Millimeter Waves",
+      "source": {
+        "row": 679,
+        "name": "JOURNAL OF INFRARED AND MILLIMETER WAVES",
+        "category": "物理与天体物理",
+        "quartile": "3 区",
+        "issn": "1001-9014",
+        "eissn": "-"
+      },
+      "method": "issn",
+      "matchedISSNs": [
+        "10019014"
+      ]
+    },
+    {
+      "id": "jisa",
+      "name": "Journal of Information Security and Applications",
+      "source": {
+        "row": 19739,
+        "name": "Journal of Information Security and Applications",
+        "category": "计算机科学",
+        "quartile": "2 区",
+        "issn": "2214-2126",
+        "eissn": "2214-2134"
+      },
+      "method": "issn",
+      "matchedISSNs": [
+        "22142126",
+        "22142134"
+      ]
+    },
+    {
+      "id": "jlt",
+      "name": "Journal of Lightwave Technology",
+      "source": {
+        "row": 6591,
+        "name": "JOURNAL OF LIGHTWAVE TECHNOLOGY",
+        "category": "工程技术",
+        "quartile": "2 区",
+        "issn": "0733-8724",
+        "eissn": "1558-2213"
+      },
+      "method": "issn",
+      "matchedISSNs": [
+        "07338724",
+        "15582213"
+      ]
+    },
+    {
+      "id": "jmems",
+      "name": "Journal of Microelectromechanical Systems",
+      "source": {
+        "row": 17005,
+        "name": "JOURNAL OF MICROELECTROMECHANICAL SYSTEMS",
+        "category": "工程技术",
+        "quartile": "3 区",
+        "issn": "1057-7157",
+        "eissn": "1941-0158"
+      },
+      "method": "issn",
+      "matchedISSNs": [
+        "10577157",
+        "19410158"
+      ]
+    },
+    {
+      "id": "jmm",
+      "name": "Journal of Micromechanics and Microengineering",
+      "source": {
+        "row": 8162,
+        "name": "JOURNAL OF MICROMECHANICS AND MICROENGINEERING",
+        "category": "工程技术",
+        "quartile": "4 区",
+        "issn": "0960-1317",
+        "eissn": "1361-6439"
+      },
+      "method": "issn",
+      "matchedISSNs": [
+        "09601317",
+        "13616439"
+      ]
+    },
+    {
+      "id": "jmmt",
+      "name": "IEEE Journal on Multiscale and Multiphysics Computational Techniques",
+      "source": {
+        "row": 8251,
+        "name": "IEEE Journal on Multiscale and Multiphysics Computational Techniques",
+        "category": "工程技术",
+        "quartile": "4 区",
+        "issn": "-",
+        "eissn": "2379-8793"
+      },
+      "method": "issn",
+      "matchedISSNs": [
+        "23798793"
+      ]
+    },
+    {
+      "id": "jmpee",
+      "name": "Journal of Microwave Power and Electromagnetic Energy",
+      "source": {
+        "row": 8156,
+        "name": "JOURNAL OF MICROWAVE POWER AND ELECTROMAGNETIC ENERGY",
+        "category": "工程技术",
+        "quartile": "4 区",
+        "issn": "0832-7823",
+        "eissn": "0832-7823"
+      },
+      "method": "issn",
+      "matchedISSNs": [
+        "08327823"
+      ]
+    },
+    {
+      "id": "jmw",
+      "name": "IEEE Journal of Microwaves",
+      "source": {
+        "row": 6413,
+        "name": "IEEE Journal of Microwaves",
+        "category": "工程技术",
+        "quartile": "3 区",
+        "issn": "-",
+        "eissn": "2692-8388"
+      },
+      "method": "issn",
+      "matchedISSNs": [
+        "26928388"
+      ]
+    },
+    {
+      "id": "jnca",
+      "name": "Journal of Network and Computer Applications",
+      "source": {
+        "row": 19707,
+        "name": "JOURNAL OF NETWORK AND COMPUTER APPLICATIONS",
+        "category": "计算机科学",
+        "quartile": "2 区",
+        "issn": "1084-8045",
+        "eissn": "1095-8592"
+      },
+      "method": "issn",
+      "matchedISSNs": [
+        "10848045"
+      ]
+    },
+    {
+      "id": "jnp",
+      "name": "Journal of Nanophotonics",
+      "source": {
+        "row": 598,
+        "name": "Journal of Nanophotonics",
+        "category": "物理与天体物理",
+        "quartile": "4 区",
+        "issn": "1934-2608",
+        "eissn": "-"
+      },
+      "method": "issn",
+      "matchedISSNs": [
+        "19342608"
+      ]
+    },
+    {
+      "id": "joc",
+      "name": "Journal of Cryptology",
+      "source": {
+        "row": 21541,
+        "name": "JOURNAL OF CRYPTOLOGY",
+        "category": "计算机科学",
+        "quartile": "3 区",
+        "issn": "0933-2790",
+        "eissn": "1432-1378"
+      },
+      "method": "issn",
+      "matchedISSNs": [
+        "09332790",
+        "14321378"
+      ]
+    },
+    {
+      "id": "jocn",
+      "name": "Journal of Optical Communications and Networking",
+      "source": {
+        "row": 19740,
+        "name": "Journal of Optical Communications and Networking",
+        "category": "计算机科学",
+        "quartile": "2 区",
+        "issn": "1943-0620",
+        "eissn": "1943-0639"
+      },
+      "method": "issn",
+      "matchedISSNs": [
+        "19430620",
+        "19430639"
+      ]
+    },
+    {
+      "id": "joe",
+      "name": "IEEE Journal of Oceanic Engineering",
+      "source": {
+        "row": 6561,
+        "name": "IEEE JOURNAL OF OCEANIC ENGINEERING",
+        "category": "工程技术",
+        "quartile": "2 区",
+        "issn": "0364-9059",
+        "eissn": "1558-1691"
+      },
+      "method": "issn",
+      "matchedISSNs": [
+        "03649059",
+        "15581691"
+      ]
+    },
+    {
+      "id": "josaa",
+      "name": "Journal of the Optical Society of America A-Optics Image Science and Vision",
+      "source": {
+        "row": 16268,
+        "name": "JOURNAL OF THE OPTICAL SOCIETY OF AMERICA A-OPTICS IMAGE SCIENCE AND VISION",
+        "category": "物理与天体物理",
+        "quartile": "3 区",
+        "issn": "1084-7529",
+        "eissn": "1520-8532"
+      },
+      "method": "issn",
+      "matchedISSNs": [
+        "10847529",
+        "15208532"
+      ]
+    },
+    {
+      "id": "josab",
+      "name": "Journal of the Optical Society of America B-Optical Physics",
+      "source": {
+        "row": 16266,
+        "name": "JOURNAL OF THE OPTICAL SOCIETY OF AMERICA B-OPTICAL PHYSICS",
+        "category": "物理与天体物理",
+        "quartile": "3 区",
+        "issn": "0740-3224",
+        "eissn": "1520-8540"
+      },
+      "method": "issn",
+      "matchedISSNs": [
+        "07403224",
+        "15208540"
+      ]
+    },
+    {
+      "id": "jpe",
+      "name": "Journal of Photonics for Energy",
+      "source": {
+        "row": 6017,
+        "name": "Journal of Photonics for Energy",
+        "category": "工程技术",
+        "quartile": "4 区",
+        "issn": "1947-7988",
+        "eissn": "1947-7988"
+      },
+      "method": "issn",
+      "matchedISSNs": [
+        "19477988"
+      ]
+    },
+    {
+      "id": "jqe",
+      "name": "IEEE Journal of Quantum Electronics",
+      "source": {
+        "row": 17641,
+        "name": "IEEE JOURNAL OF QUANTUM ELECTRONICS",
+        "category": "工程技术",
+        "quartile": "3 区",
+        "issn": "0018-9197",
+        "eissn": "1558-1713"
+      },
+      "method": "issn",
+      "matchedISSNs": [
+        "00189197",
+        "15581713"
+      ]
+    },
+    {
+      "id": "jsac",
+      "name": "IEEE Journal on Selected Areas in Communications",
+      "source": {
+        "row": 12040,
+        "name": "IEEE JOURNAL ON SELECTED AREAS IN COMMUNICATIONS",
+        "category": "计算机科学",
+        "quartile": "1 区",
+        "issn": "0733-8716",
+        "eissn": "1558-0008"
+      },
+      "method": "issn",
+      "matchedISSNs": [
+        "07338716",
+        "15580008"
+      ]
+    },
+    {
+      "id": "jsait",
+      "name": "IEEE Journal on Selected Areas in Information Theory",
+      "source": {
+        "row": 19960,
+        "name": "IEEE Journal on Selected Areas in Information Theory",
+        "category": "计算机科学",
+        "quartile": "4 区",
+        "issn": "-",
+        "eissn": "2641-8770"
+      },
+      "method": "issn",
+      "matchedISSNs": [
+        "26418770"
+      ]
+    },
+    {
+      "id": "jsee",
+      "name": "Journal of Systems Engineering and Electronics",
+      "source": {
+        "row": 19951,
+        "name": "Journal of Systems Engineering and Electronics",
+        "category": "计算机科学",
+        "quartile": "3 区",
+        "issn": "1004-4132",
+        "eissn": "1004-4132"
+      },
+      "method": "issn",
+      "matchedISSNs": [
+        "10044132"
+      ]
+    },
+    {
+      "id": "jsemi",
+      "name": "Journal of Semiconductors",
+      "source": {
+        "row": 735,
+        "name": "Journal of Semiconductors",
+        "category": "物理与天体物理",
+        "quartile": "2 区",
+        "issn": "1674-4926",
+        "eissn": "1674-4926"
+      },
+      "method": "issn",
+      "matchedISSNs": [
+        "16744926"
+      ]
+    },
+    {
+      "id": "jslhr",
+      "name": "Journal of Speech Language and Hearing Research",
+      "source": {
+        "row": 8919,
+        "name": "JOURNAL OF SPEECH LANGUAGE AND HEARING RESEARCH",
+        "category": "医学",
+        "quartile": "3 区",
+        "issn": "1092-4388",
+        "eissn": "1558-9102"
+      },
+      "method": "issn",
+      "matchedISSNs": [
+        "10924388",
+        "15589102"
+      ]
+    },
+    {
+      "id": "jsps",
+      "name": "Journal of Signal Processing Systems",
+      "source": {
+        "row": 20030,
+        "name": "Journal of Signal Processing Systems for Signal Image and Video Technology",
+        "category": "计算机科学",
+        "quartile": "4 区",
+        "issn": "1939-8018",
+        "eissn": "1939-8115"
+      },
+      "method": "issn",
+      "matchedISSNs": [
+        "19398018",
+        "19398115"
+      ]
+    },
+    {
+      "id": "jsr",
+      "name": "Journal of Synchrotron Radiation",
+      "source": {
+        "row": 739,
+        "name": "JOURNAL OF SYNCHROTRON RADIATION",
+        "category": "物理与天体物理",
+        "quartile": "3 区",
+        "issn": "0909-0495",
+        "eissn": "1600-5775"
+      },
+      "method": "issn",
+      "matchedISSNs": [
+        "09090495",
+        "16005775"
+      ]
+    },
+    {
+      "id": "jssc",
+      "name": "IEEE Journal of Solid-State Circuits",
+      "source": {
+        "row": 6639,
+        "name": "IEEE JOURNAL OF SOLID-STATE CIRCUITS",
+        "category": "工程技术",
+        "quartile": "2 区",
+        "issn": "0018-9200",
+        "eissn": "1558-173X"
+      },
+      "method": "issn",
+      "matchedISSNs": [
+        "00189200",
+        "1558173x"
+      ]
+    },
+    {
+      "id": "jstqe",
+      "name": "IEEE Journal of Selected Topics in Quantum Electronics",
+      "source": {
+        "row": 6502,
+        "name": "IEEE JOURNAL OF SELECTED TOPICS IN QUANTUM ELECTRONICS",
+        "category": "工程技术",
+        "quartile": "2 区",
+        "issn": "1077-260X",
+        "eissn": "1558-4542"
+      },
+      "method": "issn",
+      "matchedISSNs": [
+        "1077260x",
+        "15584542"
+      ]
+    },
+    {
+      "id": "jstsp",
+      "name": "IEEE Journal of Selected Topics in Signal Processing",
+      "source": {
+        "row": 22210,
+        "name": "IEEE Journal of Selected Topics in Signal Processing",
+        "category": "计算机科学",
+        "quartile": "1 区",
+        "issn": "1932-4553",
+        "eissn": "1941-0484"
+      },
+      "method": "issn",
+      "matchedISSNs": [
+        "19324553",
+        "19410484"
+      ]
+    },
+    {
+      "id": "jwcn",
+      "name": "Journal on Wireless Communications and Networking",
+      "source": {
+        "row": 20068,
+        "name": "EURASIP Journal on Wireless Communications and Networking",
+        "category": "计算机科学",
+        "quartile": "4 区",
+        "issn": "1687-1472",
+        "eissn": "1687-1499"
+      },
+      "method": "issn",
+      "matchedISSNs": [
+        "16871472"
+      ]
+    },
+    {
+      "id": "kexuetongbao",
+      "name": "Chinese Science Bulletin",
+      "source": {
+        "row": 12006,
+        "name": "Chinese Science Bulletin-Chinese",
+        "category": "综合性期刊",
+        "quartile": "1 区",
+        "issn": "0023-074X",
+        "eissn": "2095-9419"
+      },
+      "method": "issn",
+      "matchedISSNs": [
+        "0023074x",
+        "20959419"
+      ]
+    },
+    {
+      "id": "loc",
+      "name": "Lab on a Chip",
+      "source": {
+        "row": 6569,
+        "name": "LAB ON A CHIP",
+        "category": "工程技术",
+        "quartile": "2 区",
+        "issn": "1473-0197",
+        "eissn": "1473-0189"
+      },
+      "method": "issn",
+      "matchedISSNs": [
+        "14730197",
+        "14730189"
+      ]
+    },
+    {
+      "id": "lsa",
+      "name": "Light Science & Applications",
+      "source": {
+        "row": 214,
+        "name": "Light-Science & Applications",
+        "category": "物理与天体物理",
+        "quartile": "1 区",
+        "issn": "2095-5545",
+        "eissn": "2047-7538"
+      },
+      "method": "issn",
+      "matchedISSNs": [
+        "20477538",
+        "20955545"
+      ]
+    },
+    {
+      "id": "maglett",
+      "name": "IEEE Magnetics Letters",
+      "source": {
+        "row": 665,
+        "name": "IEEE Magnetics Letters",
+        "category": "物理与天体物理",
+        "quartile": "4 区",
+        "issn": "1949-307X",
+        "eissn": "1949-3088"
+      },
+      "method": "issn",
+      "matchedISSNs": [
+        "1949307x",
+        "19493088"
+      ]
+    },
+    {
+      "id": "mee",
+      "name": "Microelectronic Engineering",
+      "source": {
+        "row": 8108,
+        "name": "MICROELECTRONIC ENGINEERING",
+        "category": "工程技术",
+        "quartile": "3 区",
+        "issn": "0167-9317",
+        "eissn": "1873-5568"
+      },
+      "method": "issn",
+      "matchedISSNs": [
+        "01679317",
+        "18735568"
+      ]
+    },
+    {
+      "id": "mej",
+      "name": "MICROELECTRONICS JOURNAL",
+      "source": {
+        "row": 6296,
+        "name": "MICROELECTRONICS JOURNAL",
+        "category": "工程技术",
+        "quartile": "3 区",
+        "issn": "0959-8324",
+        "eissn": "1879-2391"
+      },
+      "method": "issn",
+      "matchedISSNs": [
+        "09598324",
+        "18792391"
+      ]
+    },
+    {
+      "id": "mms",
+      "name": "Multimedia Systems",
+      "source": {
+        "row": 19874,
+        "name": "MULTIMEDIA SYSTEMS",
+        "category": "计算机科学",
+        "quartile": "3 区",
+        "issn": "0942-4962",
+        "eissn": "1432-1882"
+      },
+      "method": "issn",
+      "matchedISSNs": [
+        "09424962",
+        "14321882"
+      ]
+    },
+    {
+      "id": "mona",
+      "name": "Mobile Networks and Applications",
+      "source": {
+        "row": 20037,
+        "name": "MOBILE NETWORKS & APPLICATIONS",
+        "category": "计算机科学",
+        "quartile": "4 区",
+        "issn": "1383-469X",
+        "eissn": "1572-8153"
+      },
+      "method": "issn",
+      "matchedISSNs": [
+        "1383469x",
+        "15728153"
+      ]
+    },
+    {
+      "id": "motl",
+      "name": "Microwave and Optical Technology Letters",
+      "source": {
+        "row": 6016,
+        "name": "MICROWAVE AND OPTICAL TECHNOLOGY LETTERS",
+        "category": "工程技术",
+        "quartile": "4 区",
+        "issn": "0895-2477",
+        "eissn": "1098-2760"
+      },
+      "method": "issn",
+      "matchedISSNs": [
+        "08952477",
+        "10982760"
+      ]
+    },
+    {
+      "id": "mr",
+      "name": "Microelectronics Reliability",
+      "source": {
+        "row": 6187,
+        "name": "MICROELECTRONICS RELIABILITY",
+        "category": "工程技术",
+        "quartile": "4 区",
+        "issn": "0026-2714",
+        "eissn": "1872-941X"
+      },
+      "method": "issn",
+      "matchedISSNs": [
+        "00262714",
+        "1872941x"
+      ]
+    },
+    {
+      "id": "mssp",
+      "name": "Multidimensional Systems and Signal Processing",
+      "source": {
+        "row": 6241,
+        "name": "MULTIDIMENSIONAL SYSTEMS AND SIGNAL PROCESSING",
+        "category": "工程技术",
+        "quartile": "3 区",
+        "issn": "0923-6082",
+        "eissn": "1573-0824"
+      },
+      "method": "issn",
+      "matchedISSNs": [
+        "09236082",
+        "15730824"
+      ]
+    },
+    {
+      "id": "mwmag",
+      "name": "IEEE Microwave Magazine",
+      "source": {
+        "row": 21532,
+        "name": "IEEE MICROWAVE MAGAZINE",
+        "category": "计算机科学",
+        "quartile": "3 区",
+        "issn": "1527-3342",
+        "eissn": "1557-9581"
+      },
+      "method": "issn",
+      "matchedISSNs": [
+        "15273342",
+        "15579581"
+      ]
+    },
+    {
+      "id": "mwtl",
+      "name": "IEEE Microwave and Wireless Technology Letters",
+      "source": {
+        "row": 6410,
+        "name": "IEEE Microwave and Wireless Technology Letters",
+        "category": "工程技术",
+        "quartile": "3 区",
+        "issn": "2771-957X",
+        "eissn": "2771-9588"
+      },
+      "method": "issn",
+      "matchedISSNs": [
+        "2771957x",
+        "27719588"
+      ]
+    },
+    {
+      "id": "nano-comnet",
+      "name": "Nano Communication Networks",
+      "source": {
+        "row": 15540,
+        "name": "Nano Communication Networks",
+        "category": "计算机科学",
+        "quartile": "3 区",
+        "issn": "1878-7789",
+        "eissn": "1878-7797"
+      },
+      "method": "issn",
+      "matchedISSNs": [
+        "18787789"
+      ]
+    },
+    {
+      "id": "nanophotonics",
+      "name": "Nanophotonics",
+      "source": {
+        "row": 16335,
+        "name": "Nanophotonics",
+        "category": "物理与天体物理",
+        "quartile": "2 区",
+        "issn": "2192-8606",
+        "eissn": "2192-8614"
+      },
+      "method": "issn",
+      "matchedISSNs": [
+        "21928606",
+        "21928614"
+      ]
+    },
+    {
+      "id": "nanotech",
+      "name": "NANOTECHNOLOGY",
+      "source": {
+        "row": 11331,
+        "name": "NANOTECHNOLOGY",
+        "category": "材料科学",
+        "quartile": "3 区",
+        "issn": "0957-4484",
+        "eissn": "1361-6528"
+      },
+      "method": "issn",
+      "matchedISSNs": [
+        "09574484",
+        "13616528"
+      ]
+    },
+    {
+      "id": "nat-electron",
+      "name": "Nature Electronics",
+      "source": {
+        "row": 63,
+        "name": "CHEMICAL REVIEWS",
+        "category": "化学",
+        "quartile": "1 区",
+        "issn": "2520-1131",
+        "eissn": "2520-1131"
+      },
+      "method": "issn",
+      "matchedISSNs": [
+        "25201131"
+      ]
+    },
+    {
+      "id": "nat-photonics",
+      "name": "Nature Photonics",
+      "source": {
+        "row": 211,
+        "name": "Nature Photonics",
+        "category": "物理与天体物理",
+        "quartile": "1 区",
+        "issn": "1749-4885",
+        "eissn": "1749-4893"
+      },
+      "method": "issn",
+      "matchedISSNs": [
+        "17494885",
+        "17494893"
+      ]
+    },
+    {
+      "id": "navigation",
+      "name": "NAVIGATION: Journal of the Institute of Navigation",
+      "source": {
+        "row": 18543,
+        "name": "Navigation-Journal of the Institute of Navigation",
+        "category": "地球科学",
+        "quartile": "3 区",
+        "issn": "0028-1522",
+        "eissn": "2161-4296"
+      },
+      "method": "issn",
+      "matchedISSNs": [
+        "00281522"
+      ]
+    },
+    {
+      "id": "network-mag",
+      "name": "IEEE Network",
+      "source": {
+        "row": 19749,
+        "name": "IEEE NETWORK",
+        "category": "计算机科学",
+        "quartile": "2 区",
+        "issn": "0890-8044",
+        "eissn": "1558-156X"
+      },
+      "method": "issn",
+      "matchedISSNs": [
+        "08908044",
+        "1558156x"
+      ]
+    },
+    {
+      "id": "networks",
+      "name": "Networks",
+      "source": {
+        "row": 20095,
+        "name": "NETWORKS",
+        "category": "计算机科学",
+        "quartile": "4 区",
+        "issn": "0028-3045",
+        "eissn": "1097-0037"
+      },
+      "method": "issn",
+      "matchedISSNs": [
+        "00283045",
+        "10970037"
+      ]
+    },
+    {
+      "id": "npj-flex",
+      "name": "npj Flexible Electronics",
+      "source": {
+        "row": 142,
+        "name": "Green Energy and Intelligent Transportation",
+        "category": "工程技术",
+        "quartile": "1 区",
+        "issn": "-",
+        "eissn": "2397-4621"
+      },
+      "method": "issn",
+      "matchedISSNs": [
+        "23974621"
+      ]
+    },
+    {
+      "id": "oe",
+      "name": "Optics Express",
+      "source": {
+        "row": 718,
+        "name": "OPTICS EXPRESS",
+        "category": "物理与天体物理",
+        "quartile": "2 区",
+        "issn": "1094-4087",
+        "eissn": "-"
+      },
+      "method": "issn",
+      "matchedISSNs": [
+        "10944087"
+      ]
+    },
+    {
+      "id": "oft",
+      "name": "Optical Fiber Technology",
+      "source": {
+        "row": 20020,
+        "name": "OPTICAL FIBER TECHNOLOGY",
+        "category": "计算机科学",
+        "quartile": "3 区",
+        "issn": "1068-5200",
+        "eissn": "1095-9912"
+      },
+      "method": "issn",
+      "matchedISSNs": [
+        "10685200"
+      ]
+    },
+    {
+      "id": "ojap",
+      "name": "IEEE Open Journal of Antennas and Propagation",
+      "source": {
+        "row": 19701,
+        "name": "IEEE Open Journal of Antennas and Propagation",
+        "category": "计算机科学",
+        "quartile": "3 区",
+        "issn": "-",
+        "eissn": "2637-6431"
+      },
+      "method": "issn",
+      "matchedISSNs": [
+        "26376431"
+      ]
+    },
+    {
+      "id": "ojcoms",
+      "name": "IEEE Open Journal of the Communications Society",
+      "source": {
+        "row": 19730,
+        "name": "IEEE Open Journal of the Communications Society",
+        "category": "计算机科学",
+        "quartile": "2 区",
+        "issn": "-",
+        "eissn": "2644-125X"
+      },
+      "method": "issn",
+      "matchedISSNs": [
+        "2644125x"
+      ]
+    },
+    {
+      "id": "ojsp",
+      "name": "IEEE Open Journal of Signal Processing",
+      "source": {
+        "row": 6319,
+        "name": "IEEE Open Journal of Signal Processing",
+        "category": "工程技术",
+        "quartile": "3 区",
+        "issn": "-",
+        "eissn": "2644-1322"
+      },
+      "method": "issn",
+      "matchedISSNs": [
+        "26441322"
+      ]
+    },
+    {
+      "id": "ojvt",
+      "name": "IEEE Open Journal of Vehicular Technology",
+      "source": {
+        "row": 21531,
+        "name": "IEEE Open Journal of Vehicular Technology",
+        "category": "计算机科学",
+        "quartile": "3 区",
+        "issn": "-",
+        "eissn": "2644-1330"
+      },
+      "method": "issn",
+      "matchedISSNs": [
+        "26441330"
+      ]
+    },
+    {
+      "id": "ol",
+      "name": "Optics Letters",
+      "source": {
+        "row": 722,
+        "name": "OPTICS LETTERS",
+        "category": "物理与天体物理",
+        "quartile": "2 区",
+        "issn": "0146-9592",
+        "eissn": "1539-4794"
+      },
+      "method": "issn",
+      "matchedISSNs": [
+        "01469592",
+        "15394794"
+      ]
+    },
+    {
+      "id": "ome",
+      "name": "Optical Materials Express",
+      "source": {
+        "row": 12204,
+        "name": "Optical Materials Express",
+        "category": "物理与天体物理",
+        "quartile": "3 区",
+        "issn": "2159-3930",
+        "eissn": "2159-3930"
+      },
+      "method": "issn",
+      "matchedISSNs": [
+        "21593930"
+      ]
+    },
+    {
+      "id": "opt-eng",
+      "name": "OPTICAL ENGINEERING",
+      "source": {
+        "row": 6006,
+        "name": "OPTICAL ENGINEERING",
+        "category": "工程技术",
+        "quartile": "4 区",
+        "issn": "0091-3286",
+        "eissn": "1560-2303"
+      },
+      "method": "issn",
+      "matchedISSNs": [
+        "00913286",
+        "15602303"
+      ]
+    },
+    {
+      "id": "optica",
+      "name": "Optica",
+      "source": {
+        "row": 16306,
+        "name": "Optica",
+        "category": "物理与天体物理",
+        "quartile": "1 区",
+        "issn": "2334-2536",
+        "eissn": "2334-2536"
+      },
+      "method": "issn",
+      "matchedISSNs": [
+        "23342536"
+      ]
+    },
+    {
+      "id": "optics-continuum",
+      "name": "Optics Continuum",
+      "source": {
+        "row": 672,
+        "name": "Optics Continuum",
+        "category": "物理与天体物理",
+        "quartile": "4 区",
+        "issn": "-",
+        "eissn": "2770-0208"
+      },
+      "method": "issn",
+      "matchedISSNs": [
+        "27700208"
+      ]
+    },
+    {
+      "id": "opto-letters",
+      "name": "Optoelectronics Letters",
+      "source": {
+        "row": 602,
+        "name": "Optoelectronics Letters",
+        "category": "物理与天体物理",
+        "quartile": "4 区",
+        "issn": "1673-1905",
+        "eissn": "1993-5013"
+      },
+      "method": "issn",
+      "matchedISSNs": [
+        "16731905",
+        "19935013"
+      ]
+    },
+    {
+      "id": "oqe",
+      "name": "Optical and Quantum Electronics",
+      "source": {
+        "row": 16983,
+        "name": "OPTICAL AND QUANTUM ELECTRONICS",
+        "category": "工程技术",
+        "quartile": "3 区",
+        "issn": "0306-8919",
+        "eissn": "1572-817X"
+      },
+      "method": "issn",
+      "matchedISSNs": [
+        "03068919",
+        "1572817x"
+      ]
+    },
+    {
+      "id": "osn",
+      "name": "Optical Switching and Networking",
+      "source": {
+        "row": 19904,
+        "name": "Optical Switching and Networking",
+        "category": "计算机科学",
+        "quartile": "3 区",
+        "issn": "1573-4277",
+        "eissn": "1872-9770"
+      },
+      "method": "issn",
+      "matchedISSNs": [
+        "15734277"
+      ]
+    },
+    {
+      "id": "p2pna",
+      "name": "Peer-to-Peer Networking and Applications",
+      "source": {
+        "row": 15487,
+        "name": "Peer-to-Peer Networking and Applications",
+        "category": "计算机科学",
+        "quartile": "3 区",
+        "issn": "1936-6442",
+        "eissn": "1936-6450"
+      },
+      "method": "issn",
+      "matchedISSNs": [
+        "19366442",
+        "19366450"
+      ]
+    },
+    {
+      "id": "photonic-sensors",
+      "name": "Photonic Sensors",
+      "source": {
+        "row": 770,
+        "name": "Photonic Sensors",
+        "category": "物理与天体物理",
+        "quartile": "2 区",
+        "issn": "1674-9251",
+        "eissn": "2190-7439"
+      },
+      "method": "issn",
+      "matchedISSNs": [
+        "16749251",
+        "21907439"
+      ]
+    },
+    {
+      "id": "photonics-mdpi",
+      "name": "Photonics",
+      "source": {
+        "row": 16262,
+        "name": "Photonics",
+        "category": "物理与天体物理",
+        "quartile": "3 区",
+        "issn": "-",
+        "eissn": "2304-6732"
+      },
+      "method": "issn",
+      "matchedISSNs": [
+        "23046732"
+      ]
+    },
+    {
+      "id": "phycom",
+      "name": "Physical Communication",
+      "source": {
+        "row": 19989,
+        "name": "Physical Communication",
+        "category": "计算机科学",
+        "quartile": "4 区",
+        "issn": "1874-4907",
+        "eissn": "1874-4907"
+      },
+      "method": "issn",
+      "matchedISSNs": [
+        "18744907"
+      ]
+    },
+    {
+      "id": "pj",
+      "name": "IEEE Photonics Journal",
+      "source": {
+        "row": 17613,
+        "name": "IEEE Photonics Journal",
+        "category": "工程技术",
+        "quartile": "3 区",
+        "issn": "1943-0655",
+        "eissn": "1943-0647"
+      },
+      "method": "issn",
+      "matchedISSNs": [
+        "19430655",
+        "19430647"
+      ]
+    },
+    {
+      "id": "pmc",
+      "name": "Pervasive and Mobile Computing",
+      "source": {
+        "row": 19778,
+        "name": "Pervasive and Mobile Computing",
+        "category": "计算机科学",
+        "quartile": "3 区",
+        "issn": "1574-1192",
+        "eissn": "1873-1589"
+      },
+      "method": "issn",
+      "matchedISSNs": [
+        "15741192"
+      ]
+    },
+    {
+      "id": "pnc",
+      "name": "Photonic Network Communications",
+      "source": {
+        "row": 20040,
+        "name": "PHOTONIC NETWORK COMMUNICATIONS",
+        "category": "计算机科学",
+        "quartile": "4 区",
+        "issn": "1387-974X",
+        "eissn": "1572-8188"
+      },
+      "method": "issn",
+      "matchedISSNs": [
+        "1387974x",
+        "15728188"
+      ]
+    },
+    {
+      "id": "pr",
+      "name": "Photonics Research",
+      "source": {
+        "row": 16309,
+        "name": "Photonics Research",
+        "category": "物理与天体物理",
+        "quartile": "1 区",
+        "issn": "2327-9125",
+        "eissn": "2327-9125"
+      },
+      "method": "issn",
+      "matchedISSNs": [
+        "23279125"
+      ]
+    },
+    {
+      "id": "proceedings-ieee",
+      "name": "Proceedings of the IEEE",
+      "source": {
+        "row": 12039,
+        "name": "PROCEEDINGS OF THE IEEE",
+        "category": "计算机科学",
+        "quartile": "1 区",
+        "issn": "0018-9219",
+        "eissn": "1558-2256"
+      },
+      "method": "issn",
+      "matchedISSNs": [
+        "00189219",
+        "15582256"
+      ]
+    },
+    {
+      "id": "ptl",
+      "name": "IEEE Photonics Technology Letters",
+      "source": {
+        "row": 17057,
+        "name": "IEEE PHOTONICS TECHNOLOGY LETTERS",
+        "category": "工程技术",
+        "quartile": "3 区",
+        "issn": "1041-1135",
+        "eissn": "1941-0174"
+      },
+      "method": "issn",
+      "matchedISSNs": [
+        "10411135",
+        "19410174"
+      ]
+    },
+    {
+      "id": "radio-science",
+      "name": "Radio Science",
+      "source": {
+        "row": 19058,
+        "name": "RADIO SCIENCE",
+        "category": "地球科学",
+        "quartile": "4 区",
+        "issn": "0048-6604",
+        "eissn": "1944-799X"
+      },
+      "method": "issn",
+      "matchedISSNs": [
+        "00486604",
+        "1944799x"
+      ]
+    },
+    {
+      "id": "rf-microwave-cae",
+      "name": "International Journal of RF and Microwave Computer-Aided Engineering",
+      "source": {
+        "row": 6010,
+        "name": "INTERNATIONAL JOURNAL OF RF AND MICROWAVE COMPUTER-AIDED ENGINEERING",
+        "category": "工程技术",
+        "quartile": "4 区",
+        "issn": "1096-4290",
+        "eissn": "1099-047X"
+      },
+      "method": "issn",
+      "matchedISSNs": [
+        "10964290"
+      ]
+    },
+    {
+      "id": "rse",
+      "name": "Remote Sensing of Environment",
+      "source": {
+        "row": 17526,
+        "name": "REMOTE SENSING OF ENVIRONMENT",
+        "category": "地球科学",
+        "quartile": "1 区",
+        "issn": "0034-4257",
+        "eissn": "1879-0704"
+      },
+      "method": "issn",
+      "matchedISSNs": [
+        "00344257",
+        "18790704"
+      ]
+    },
+    {
+      "id": "satnav",
+      "name": "Satellite Navigation",
+      "source": {
+        "row": 17524,
+        "name": "Satellite Navigation",
+        "category": "地球科学",
+        "quartile": "1 区",
+        "issn": "2662-9291",
+        "eissn": "2662-1363"
+      },
+      "method": "issn",
+      "matchedISSNs": [
+        "26629291",
+        "26621363"
+      ]
+    },
+    {
+      "id": "scis",
+      "name": "SCIENCE CHINA Information Sciences",
+      "source": {
+        "row": 21578,
+        "name": "Science China-Information Sciences",
+        "category": "计算机科学",
+        "quartile": "1 区",
+        "issn": "1674-733X",
+        "eissn": "1869-1919"
+      },
+      "method": "issn",
+      "matchedISSNs": [
+        "1674733x"
+      ]
+    },
+    {
+      "id": "sensors-j",
+      "name": "IEEE Sensors Journal",
+      "source": {
+        "row": 6509,
+        "name": "IEEE SENSORS JOURNAL",
+        "category": "工程技术",
+        "quartile": "2 区",
+        "issn": "1530-437X",
+        "eissn": "1558-1748"
+      },
+      "method": "issn",
+      "matchedISSNs": [
+        "1530437x",
+        "15581748"
+      ]
+    },
+    {
+      "id": "sensors-l",
+      "name": "IEEE Sensors Letters",
+      "source": {
+        "row": 16047,
+        "name": "IEEE Sensors Letters",
+        "category": "综合性期刊",
+        "quartile": "4 区",
+        "issn": "2475-1472",
+        "eissn": "2475-1472"
+      },
+      "method": "issn",
+      "matchedISSNs": [
+        "24751472"
+      ]
+    },
+    {
+      "id": "siam-is",
+      "name": "SIAM Journal on Imaging Sciences",
+      "source": {
+        "row": 22107,
+        "name": "SIAM Journal on Imaging Sciences",
+        "category": "数学",
+        "quartile": "2 区",
+        "issn": "1936-4954",
+        "eissn": "1936-4954"
+      },
+      "method": "issn",
+      "matchedISSNs": [
+        "19364954"
+      ]
+    },
+    {
+      "id": "signal-processing",
+      "name": "Signal Processing",
+      "source": {
+        "row": 6481,
+        "name": "SIGNAL PROCESSING",
+        "category": "工程技术",
+        "quartile": "2 区",
+        "issn": "0165-1684",
+        "eissn": "1872-7557"
+      },
+      "method": "issn",
+      "matchedISSNs": [
+        "01651684",
+        "18727557"
+      ]
+    },
+    {
+      "id": "sivp",
+      "name": "Signal, Image and Video Processing",
+      "source": {
+        "row": 15782,
+        "name": "Signal Image and Video Processing",
+        "category": "计算机科学",
+        "quartile": "4 区",
+        "issn": "1863-1703",
+        "eissn": "1863-1711"
+      },
+      "method": "issn",
+      "matchedISSNs": [
+        "18631703",
+        "18631711"
+      ]
+    },
+    {
+      "id": "sna",
+      "name": "SENSORS AND ACTUATORS A-PHYSICAL",
+      "source": {
+        "row": 6519,
+        "name": "SENSORS AND ACTUATORS A-PHYSICAL",
+        "category": "工程技术",
+        "quartile": "2 区",
+        "issn": "0924-4247",
+        "eissn": "1873-3069"
+      },
+      "method": "issn",
+      "matchedISSNs": [
+        "09244247",
+        "18733069"
+      ]
+    },
+    {
+      "id": "speech-com",
+      "name": "Speech Communication",
+      "source": {
+        "row": 19774,
+        "name": "SPEECH COMMUNICATION",
+        "category": "计算机科学",
+        "quartile": "3 区",
+        "issn": "0167-6393",
+        "eissn": "1872-7182"
+      },
+      "method": "issn",
+      "matchedISSNs": [
+        "01676393",
+        "18727182"
+      ]
+    },
+    {
+      "id": "spic",
+      "name": "Signal Processing: Image Communication",
+      "source": {
+        "row": 15492,
+        "name": "SIGNAL PROCESSING-IMAGE COMMUNICATION",
+        "category": "计算机科学",
+        "quartile": "3 区",
+        "issn": "0923-5965",
+        "eissn": "1879-2677"
+      },
+      "method": "issn",
+      "matchedISSNs": [
+        "09235965"
+      ]
+    },
+    {
+      "id": "spl",
+      "name": "IEEE Signal Processing Letters",
+      "source": {
+        "row": 15526,
+        "name": "IEEE SIGNAL PROCESSING LETTERS",
+        "category": "计算机科学",
+        "quartile": "3 区",
+        "issn": "1070-9908",
+        "eissn": "1558-2361"
+      },
+      "method": "issn",
+      "matchedISSNs": [
+        "10709908",
+        "15582361"
+      ]
+    },
+    {
+      "id": "spmag",
+      "name": "IEEE Signal Processing Magazine",
+      "source": {
+        "row": 6580,
+        "name": "IEEE SIGNAL PROCESSING MAGAZINE",
+        "category": "工程技术",
+        "quartile": "2 区",
+        "issn": "1053-5888",
+        "eissn": "1558-0792"
+      },
+      "method": "issn",
+      "matchedISSNs": [
+        "10535888",
+        "15580792"
+      ]
+    },
+    {
+      "id": "sst",
+      "name": "Semiconductor Science and Technology",
+      "source": {
+        "row": 6186,
+        "name": "SEMICONDUCTOR SCIENCE AND TECHNOLOGY",
+        "category": "工程技术",
+        "quartile": "4 区",
+        "issn": "0268-1242",
+        "eissn": "1361-6641"
+      },
+      "method": "issn",
+      "matchedISSNs": [
+        "02681242",
+        "13616641"
+      ]
+    },
+    {
+      "id": "sysj",
+      "name": "IEEE Systems Journal",
+      "source": {
+        "row": 19685,
+        "name": "IEEE Systems Journal",
+        "category": "计算机科学",
+        "quartile": "3 区",
+        "issn": "1932-8184",
+        "eissn": "1937-9234"
+      },
+      "method": "issn",
+      "matchedISSNs": [
+        "19328184",
+        "19379234"
+      ]
+    },
+    {
+      "id": "taes",
+      "name": "IEEE Transactions on Aerospace and Electronic Systems",
+      "source": {
+        "row": 19748,
+        "name": "IEEE TRANSACTIONS ON AEROSPACE AND ELECTRONIC SYSTEMS",
+        "category": "计算机科学",
+        "quartile": "2 区",
+        "issn": "0018-9251",
+        "eissn": "1557-9603"
+      },
+      "method": "issn",
+      "matchedISSNs": [
+        "00189251",
+        "15579603"
+      ]
+    },
+    {
+      "id": "tap",
+      "name": "IEEE Transactions on Antennas and Propagation",
+      "source": {
+        "row": 19667,
+        "name": "IEEE TRANSACTIONS ON ANTENNAS AND PROPAGATION",
+        "category": "计算机科学",
+        "quartile": "2 区",
+        "issn": "0018-926X",
+        "eissn": "1558-2221"
+      },
+      "method": "issn",
+      "matchedISSNs": [
+        "0018926x",
+        "15582221"
+      ]
+    },
+    {
+      "id": "tas",
+      "name": "IEEE TRANSACTIONS ON APPLIED SUPERCONDUCTIVITY",
+      "source": {
+        "row": 12253,
+        "name": "IEEE TRANSACTIONS ON APPLIED SUPERCONDUCTIVITY",
+        "category": "物理与天体物理",
+        "quartile": "3 区",
+        "issn": "1051-8223",
+        "eissn": "1558-2515"
+      },
+      "method": "issn",
+      "matchedISSNs": [
+        "10518223",
+        "15582515"
+      ]
+    },
+    {
+      "id": "taslp",
+      "name": "IEEE Transactions on Audio, Speech, and Language Processing",
+      "source": {
+        "row": 19676,
+        "name": "IEEE TRANSACTIONS ON AUDIO SPEECH AND LANGUAGE PROCESSING",
+        "category": "计算机科学",
+        "quartile": "2 区",
+        "issn": "2329-9290",
+        "eissn": "2329-9304"
+      },
+      "method": "issn",
+      "matchedISSNs": [
+        "23299290"
+      ]
+    },
+    {
+      "id": "tbc",
+      "name": "IEEE Transactions on Broadcasting",
+      "source": {
+        "row": 21550,
+        "name": "IEEE TRANSACTIONS ON BROADCASTING",
+        "category": "计算机科学",
+        "quartile": "2 区",
+        "issn": "0018-9316",
+        "eissn": "1557-9611"
+      },
+      "method": "issn",
+      "matchedISSNs": [
+        "00189316",
+        "15579611"
+      ]
+    },
+    {
+      "id": "tbcas",
+      "name": "IEEE Transactions on Biomedical Circuits and Systems",
+      "source": {
+        "row": 5656,
+        "name": "IEEE Transactions on Biomedical Circuits and Systems",
+        "category": "医学",
+        "quartile": "2 区",
+        "issn": "1932-4545",
+        "eissn": "1940-9990"
+      },
+      "method": "issn",
+      "matchedISSNs": [
+        "19324545",
+        "19409990"
+      ]
+    },
+    {
+      "id": "tbme",
+      "name": "IEEE Transactions on Biomedical Engineering",
+      "source": {
+        "row": 8608,
+        "name": "IEEE TRANSACTIONS ON BIOMEDICAL ENGINEERING",
+        "category": "医学",
+        "quartile": "2 区",
+        "issn": "0018-9294",
+        "eissn": "1558-2531"
+      },
+      "method": "issn",
+      "matchedISSNs": [
+        "15582531",
+        "00189294"
+      ]
+    },
+    {
+      "id": "tcad",
+      "name": "IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems",
+      "source": {
+        "row": 19971,
+        "name": "IEEE TRANSACTIONS ON COMPUTER-AIDED DESIGN OF INTEGRATED CIRCUITS AND SYSTEMS",
+        "category": "计算机科学",
+        "quartile": "3 区",
+        "issn": "0278-0070",
+        "eissn": "1937-4151"
+      },
+      "method": "issn",
+      "matchedISSNs": [
+        "02780070",
+        "19374151"
+      ]
+    },
+    {
+      "id": "tcas1",
+      "name": "IEEE Transactions on Circuits and Systems I: Regular Papers",
+      "source": {
+        "row": 6621,
+        "name": "IEEE TRANSACTIONS ON CIRCUITS AND SYSTEMS I-REGULAR PAPERS",
+        "category": "工程技术",
+        "quartile": "2 区",
+        "issn": "1549-8328",
+        "eissn": "1558-0806"
+      },
+      "method": "issn",
+      "matchedISSNs": [
+        "15498328",
+        "15580806"
+      ]
+    },
+    {
+      "id": "tcas2",
+      "name": "IEEE Transactions on Circuits and Systems II: Express Briefs",
+      "source": {
+        "row": 6625,
+        "name": "IEEE TRANSACTIONS ON CIRCUITS AND SYSTEMS II-EXPRESS BRIEFS",
+        "category": "工程技术",
+        "quartile": "2 区",
+        "issn": "1549-7747",
+        "eissn": "1558-3791"
+      },
+      "method": "issn",
+      "matchedISSNs": [
+        "15497747",
+        "15583791"
+      ]
+    },
+    {
+      "id": "tcc",
+      "name": "IEEE Transactions on Cloud Computing",
+      "source": {
+        "row": 19761,
+        "name": "IEEE Transactions on Cloud Computing",
+        "category": "计算机科学",
+        "quartile": "2 区",
+        "issn": "2168-7161",
+        "eissn": "2168-7161"
+      },
+      "method": "issn",
+      "matchedISSNs": [
+        "21687161"
+      ]
+    },
+    {
+      "id": "tccn",
+      "name": "IEEE Transactions on Cognitive Communications and Networking",
+      "source": {
+        "row": 21551,
+        "name": "IEEE Transactions on Cognitive Communications and Networking",
+        "category": "计算机科学",
+        "quartile": "2 区",
+        "issn": "2332-7731",
+        "eissn": "2332-7731"
+      },
+      "method": "issn",
+      "matchedISSNs": [
+        "23327731"
+      ]
+    },
+    {
+      "id": "tce",
+      "name": "IEEE Transactions on Consumer Electronics",
+      "source": {
+        "row": 22204,
+        "name": "IEEE TRANSACTIONS ON CONSUMER ELECTRONICS",
+        "category": "计算机科学",
+        "quartile": "1 区",
+        "issn": "0098-3063",
+        "eissn": "1558-4127"
+      },
+      "method": "issn",
+      "matchedISSNs": [
+        "00983063",
+        "15584127"
+      ]
+    },
+    {
+      "id": "tci",
+      "name": "IEEE Transactions on Computational Imaging",
+      "source": {
+        "row": 19709,
+        "name": "IEEE Transactions on Computational Imaging",
+        "category": "计算机科学",
+        "quartile": "2 区",
+        "issn": "2573-0436",
+        "eissn": "2333-9403"
+      },
+      "method": "issn",
+      "matchedISSNs": [
+        "25730436",
+        "23339403"
+      ]
+    },
+    {
+      "id": "tcom",
+      "name": "IEEE Transactions on Communications",
+      "source": {
+        "row": 21568,
+        "name": "IEEE TRANSACTIONS ON COMMUNICATIONS",
+        "category": "计算机科学",
+        "quartile": "1 区",
+        "issn": "0090-6778",
+        "eissn": "1558-0857"
+      },
+      "method": "issn",
+      "matchedISSNs": [
+        "00906778",
+        "15580857"
+      ]
+    },
+    {
+      "id": "tcpmt",
+      "name": "IEEE Transactions on Components Packaging and Manufacturing Technology",
+      "source": {
+        "row": 17049,
+        "name": "IEEE Transactions on Components Packaging and Manufacturing Technology",
+        "category": "工程技术",
+        "quartile": "3 区",
+        "issn": "2156-3950",
+        "eissn": "2156-3985"
+      },
+      "method": "issn",
+      "matchedISSNs": [
+        "21563950",
+        "21563985"
+      ]
+    },
+    {
+      "id": "tcsvt",
+      "name": "IEEE Transactions on Circuits and Systems for Video Technology",
+      "source": {
+        "row": 12041,
+        "name": "IEEE TRANSACTIONS ON CIRCUITS AND SYSTEMS FOR VIDEO TECHNOLOGY",
+        "category": "计算机科学",
+        "quartile": "1 区",
+        "issn": "1051-8215",
+        "eissn": "1558-2205"
+      },
+      "method": "issn",
+      "matchedISSNs": [
+        "10518215",
+        "15582205"
+      ]
+    },
+    {
+      "id": "tdsc",
+      "name": "IEEE Transactions on Dependable and Secure Computing",
+      "source": {
+        "row": 19669,
+        "name": "IEEE Transactions on Dependable and Secure Computing",
+        "category": "计算机科学",
+        "quartile": "2 区",
+        "issn": "1545-5971",
+        "eissn": "1941-0018"
+      },
+      "method": "issn",
+      "matchedISSNs": [
+        "15455971",
+        "19410018"
+      ]
+    },
+    {
+      "id": "ted",
+      "name": "IEEE Transactions on Electron Devices",
+      "source": {
+        "row": 6369,
+        "name": "IEEE TRANSACTIONS ON ELECTRON DEVICES",
+        "category": "工程技术",
+        "quartile": "3 区",
+        "issn": "0018-9383",
+        "eissn": "1557-9646"
+      },
+      "method": "issn",
+      "matchedISSNs": [
+        "00189383",
+        "15579646"
+      ]
+    },
+    {
+      "id": "telecom-systems",
+      "name": "Telecommunication Systems",
+      "source": {
+        "row": 20053,
+        "name": "TELECOMMUNICATION SYSTEMS",
+        "category": "计算机科学",
+        "quartile": "4 区",
+        "issn": "1018-4864",
+        "eissn": "1572-9451"
+      },
+      "method": "issn",
+      "matchedISSNs": [
+        "10184864"
+      ]
+    },
+    {
+      "id": "temc",
+      "name": "IEEE Transactions on Electromagnetic Compatibility",
+      "source": {
+        "row": 6301,
+        "name": "IEEE TRANSACTIONS ON ELECTROMAGNETIC COMPATIBILITY",
+        "category": "工程技术",
+        "quartile": "3 区",
+        "issn": "0018-9375",
+        "eissn": "1558-187X"
+      },
+      "method": "issn",
+      "matchedISSNs": [
+        "00189375",
+        "1558187x"
+      ]
+    },
+    {
+      "id": "tgcn",
+      "name": "IEEE Transactions on Green Communications and Networking",
+      "source": {
+        "row": 21554,
+        "name": "IEEE Transactions on Green Communications and Networking",
+        "category": "计算机科学",
+        "quartile": "2 区",
+        "issn": "2473-2400",
+        "eissn": "2473-2400"
+      },
+      "method": "issn",
+      "matchedISSNs": [
+        "24732400"
+      ]
+    },
+    {
+      "id": "tgrs",
+      "name": "IEEE Transactions on Geoscience and Remote Sensing",
+      "source": {
+        "row": 18811,
+        "name": "IEEE TRANSACTIONS ON GEOSCIENCE AND REMOTE SENSING",
+        "category": "地球科学",
+        "quartile": "1 区",
+        "issn": "0196-2892",
+        "eissn": "1558-0644"
+      },
+      "method": "issn",
+      "matchedISSNs": [
+        "01962892",
+        "15580644"
+      ]
+    },
+    {
+      "id": "tie",
+      "name": "IEEE Transactions on Industrial Electronics",
+      "source": {
+        "row": 17086,
+        "name": "IEEE TRANSACTIONS ON INDUSTRIAL ELECTRONICS",
+        "category": "工程技术",
+        "quartile": "1 区",
+        "issn": "0278-0046",
+        "eissn": "1557-9948"
+      },
+      "method": "issn",
+      "matchedISSNs": [
+        "02780046",
+        "15579948"
+      ]
+    },
+    {
+      "id": "tifs",
+      "name": "IEEE Transactions on Information Forensics and Security",
+      "source": {
+        "row": 22223,
+        "name": "IEEE Transactions on Information Forensics and Security",
+        "category": "计算机科学",
+        "quartile": "1 区",
+        "issn": "1556-6013",
+        "eissn": "1556-6021"
+      },
+      "method": "issn",
+      "matchedISSNs": [
+        "15566013",
+        "15566021"
+      ]
+    },
+    {
+      "id": "tii",
+      "name": "IEEE Transactions on Industrial Informatics",
+      "source": {
+        "row": 22212,
+        "name": "IEEE Transactions on Industrial Informatics",
+        "category": "计算机科学",
+        "quartile": "1 区",
+        "issn": "1551-3203",
+        "eissn": "1941-0050"
+      },
+      "method": "issn",
+      "matchedISSNs": [
+        "15513203",
+        "19410050"
+      ]
+    },
+    {
+      "id": "tim",
+      "name": "IEEE TRANSACTIONS ON INSTRUMENTATION AND MEASUREMENT",
+      "source": {
+        "row": 6593,
+        "name": "IEEE TRANSACTIONS ON INSTRUMENTATION AND MEASUREMENT",
+        "category": "工程技术",
+        "quartile": "2 区",
+        "issn": "0018-9456",
+        "eissn": "1557-9662"
+      },
+      "method": "issn",
+      "matchedISSNs": [
+        "00189456",
+        "15579662"
+      ]
+    },
+    {
+      "id": "tip",
+      "name": "IEEE Transactions on Image Processing",
+      "source": {
+        "row": 12053,
+        "name": "IEEE TRANSACTIONS ON IMAGE PROCESSING",
+        "category": "计算机科学",
+        "quartile": "1 区",
+        "issn": "1057-7149",
+        "eissn": "1941-0042"
+      },
+      "method": "issn",
+      "matchedISSNs": [
+        "10577149",
+        "19410042"
+      ]
+    },
+    {
+      "id": "tit",
+      "name": "IEEE Transactions on Information Theory",
+      "source": {
+        "row": 19775,
+        "name": "IEEE TRANSACTIONS ON INFORMATION THEORY",
+        "category": "计算机科学",
+        "quartile": "3 区",
+        "issn": "0018-9448",
+        "eissn": "1557-9654"
+      },
+      "method": "issn",
+      "matchedISSNs": [
+        "00189448",
+        "15579654"
+      ]
+    },
+    {
+      "id": "tits",
+      "name": "IEEE Transactions on Intelligent Transportation Systems",
+      "source": {
+        "row": 21572,
+        "name": "IEEE TRANSACTIONS ON INTELLIGENT TRANSPORTATION SYSTEMS",
+        "category": "计算机科学",
+        "quartile": "1 区",
+        "issn": "1524-9050",
+        "eissn": "1558-0016"
+      },
+      "method": "issn",
+      "matchedISSNs": [
+        "15249050",
+        "15580016"
+      ]
+    },
+    {
+      "id": "tiv",
+      "name": "IEEE Transactions on Intelligent Vehicles",
+      "source": {
+        "row": 19684,
+        "name": "IEEE Transactions on Intelligent Vehicles",
+        "category": "计算机科学",
+        "quartile": "2 区",
+        "issn": "2379-8858",
+        "eissn": "2379-8904"
+      },
+      "method": "issn",
+      "matchedISSNs": [
+        "23798858",
+        "23798904"
+      ]
+    },
+    {
+      "id": "tkde",
+      "name": "IEEE Transactions on Knowledge and Data Engineering",
+      "source": {
+        "row": 19670,
+        "name": "IEEE TRANSACTIONS ON KNOWLEDGE AND DATA ENGINEERING",
+        "category": "计算机科学",
+        "quartile": "2 区",
+        "issn": "1041-4347",
+        "eissn": "1558-2191"
+      },
+      "method": "issn",
+      "matchedISSNs": [
+        "10414347",
+        "15582191"
+      ]
+    },
+    {
+      "id": "tmag",
+      "name": "IEEE Transactions on Magnetics",
+      "source": {
+        "row": 6207,
+        "name": "IEEE TRANSACTIONS ON MAGNETICS",
+        "category": "工程技术",
+        "quartile": "4 区",
+        "issn": "0018-9464",
+        "eissn": "1941-0069"
+      },
+      "method": "issn",
+      "matchedISSNs": [
+        "00189464",
+        "19410069"
+      ]
+    },
+    {
+      "id": "tmbmc",
+      "name": "IEEE Transactions on Molecular, Biological, and Multi-Scale Communications",
+      "source": {
+        "row": 1763,
+        "name": "IEEE Transactions on Molecular Biological and Multi-Scale Communications",
+        "category": "生物学",
+        "quartile": "3 区",
+        "issn": "-",
+        "eissn": "2332-7804"
+      },
+      "method": "issn",
+      "matchedISSNs": [
+        "23327804"
+      ]
+    },
+    {
+      "id": "tmc",
+      "name": "IEEE Transactions on Mobile Computing",
+      "source": {
+        "row": 21583,
+        "name": "IEEE TRANSACTIONS ON MOBILE COMPUTING",
+        "category": "计算机科学",
+        "quartile": "2 区",
+        "issn": "1536-1233",
+        "eissn": "1558-0660"
+      },
+      "method": "issn",
+      "matchedISSNs": [
+        "15361233",
+        "15580660"
+      ]
+    },
+    {
+      "id": "tmi",
+      "name": "IEEE Transactions on Medical Imaging",
+      "source": {
+        "row": 8491,
+        "name": "IEEE TRANSACTIONS ON MEDICAL IMAGING",
+        "category": "医学",
+        "quartile": "1 区",
+        "issn": "0278-0062",
+        "eissn": "1558-254X"
+      },
+      "method": "issn",
+      "matchedISSNs": [
+        "02780062",
+        "1558254x"
+      ]
+    },
+    {
+      "id": "tmm",
+      "name": "IEEE Transactions on Multimedia",
+      "source": {
+        "row": 22205,
+        "name": "IEEE TRANSACTIONS ON MULTIMEDIA",
+        "category": "计算机科学",
+        "quartile": "1 区",
+        "issn": "1520-9210",
+        "eissn": "1941-0077"
+      },
+      "method": "issn",
+      "matchedISSNs": [
+        "15209210",
+        "19410077"
+      ]
+    },
+    {
+      "id": "tmtt",
+      "name": "IEEE Transactions on Microwave Theory and Techniques",
+      "source": {
+        "row": 6623,
+        "name": "IEEE TRANSACTIONS ON MICROWAVE THEORY AND TECHNIQUES",
+        "category": "工程技术",
+        "quartile": "2 区",
+        "issn": "0018-9480",
+        "eissn": "1557-9670"
+      },
+      "method": "issn",
+      "matchedISSNs": [
+        "00189480",
+        "15579670"
+      ]
+    },
+    {
+      "id": "tnano",
+      "name": "IEEE Transactions on Nanotechnology",
+      "source": {
+        "row": 17606,
+        "name": "IEEE TRANSACTIONS ON NANOTECHNOLOGY",
+        "category": "工程技术",
+        "quartile": "3 区",
+        "issn": "1536-125X",
+        "eissn": "1941-0085"
+      },
+      "method": "issn",
+      "matchedISSNs": [
+        "1536125x",
+        "19410085"
+      ]
+    },
+    {
+      "id": "tnet",
+      "name": "IEEE Transactions on Networking",
+      "source": {
+        "row": 19928,
+        "name": "IEEE TRANSACTIONS ON NETWORKING",
+        "category": "计算机科学",
+        "quartile": "3 区",
+        "issn": "1063-6692",
+        "eissn": "1558-2566"
+      },
+      "method": "issn",
+      "matchedISSNs": [
+        "10636692"
+      ]
+    },
+    {
+      "id": "tnse",
+      "name": "IEEE Transactions on Network Science and Engineering",
+      "source": {
+        "row": 21579,
+        "name": "IEEE Transactions on Network Science and Engineering",
+        "category": "计算机科学",
+        "quartile": "2 区",
+        "issn": "2327-4697",
+        "eissn": "2327-4697"
+      },
+      "method": "issn",
+      "matchedISSNs": [
+        "23274697"
+      ]
+    },
+    {
+      "id": "tnsm",
+      "name": "IEEE Transactions on Network and Service Management",
+      "source": {
+        "row": 19723,
+        "name": "IEEE Transactions on Network and Service Management",
+        "category": "计算机科学",
+        "quartile": "2 区",
+        "issn": "1932-4537",
+        "eissn": "1932-4537"
+      },
+      "method": "issn",
+      "matchedISSNs": [
+        "19324537"
+      ]
+    },
+    {
+      "id": "todae",
+      "name": "ACM Transactions on Design Automation of Electronic Systems",
+      "source": {
+        "row": 20050,
+        "name": "ACM TRANSACTIONS ON DESIGN AUTOMATION OF ELECTRONIC SYSTEMS",
+        "category": "计算机科学",
+        "quartile": "4 区",
+        "issn": "1084-4309",
+        "eissn": "1557-7309"
+      },
+      "method": "issn",
+      "matchedISSNs": [
+        "10844309",
+        "15577309"
+      ]
+    },
+    {
+      "id": "tois",
+      "name": "ACM Transactions on Information Systems",
+      "source": {
+        "row": 22221,
+        "name": "ACM TRANSACTIONS ON INFORMATION SYSTEMS",
+        "category": "计算机科学",
+        "quartile": "1 区",
+        "issn": "1046-8188",
+        "eissn": "1558-2868"
+      },
+      "method": "issn",
+      "matchedISSNs": [
+        "10468188",
+        "15582868"
+      ]
+    },
+    {
+      "id": "toit",
+      "name": "ACM Transactions on Internet Technology",
+      "source": {
+        "row": 19768,
+        "name": "ACM Transactions on Internet Technology",
+        "category": "计算机科学",
+        "quartile": "3 区",
+        "issn": "1533-5399",
+        "eissn": "1557-6051"
+      },
+      "method": "issn",
+      "matchedISSNs": [
+        "15335399",
+        "15576051"
+      ]
+    },
+    {
+      "id": "tomm",
+      "name": "ACM Transactions on Multimedia Computing Communications and Applications",
+      "source": {
+        "row": 19712,
+        "name": "ACM Transactions on Multimedia Computing Communications and Applications",
+        "category": "计算机科学",
+        "quartile": "2 区",
+        "issn": "1551-6857",
+        "eissn": "1551-6865"
+      },
+      "method": "issn",
+      "matchedISSNs": [
+        "15516857",
+        "15516865"
+      ]
+    },
+    {
+      "id": "tops",
+      "name": "ACM Transactions on Privacy and Security",
+      "source": {
+        "row": 19892,
+        "name": "ACM Transactions on Privacy and Security",
+        "category": "计算机科学",
+        "quartile": "3 区",
+        "issn": "2471-2566",
+        "eissn": "2471-2574"
+      },
+      "method": "issn",
+      "matchedISSNs": [
+        "24712566",
+        "24712574"
+      ]
+    },
+    {
+      "id": "tosn",
+      "name": "ACM Transactions on Sensor Networks",
+      "source": {
+        "row": 21543,
+        "name": "ACM Transactions on Sensor Networks",
+        "category": "计算机科学",
+        "quartile": "3 区",
+        "issn": "1550-4859",
+        "eissn": "1550-4867"
+      },
+      "method": "issn",
+      "matchedISSNs": [
+        "15504859",
+        "15504867"
+      ]
+    },
+    {
+      "id": "tpami",
+      "name": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+      "source": {
+        "row": 12050,
+        "name": "IEEE TRANSACTIONS ON PATTERN ANALYSIS AND MACHINE INTELLIGENCE",
+        "category": "计算机科学",
+        "quartile": "1 区",
+        "issn": "0162-8828",
+        "eissn": "1939-3539"
+      },
+      "method": "issn",
+      "matchedISSNs": [
+        "01628828",
+        "19393539"
+      ]
+    },
+    {
+      "id": "tpds",
+      "name": "IEEE Transactions on Parallel and Distributed Systems",
+      "source": {
+        "row": 19722,
+        "name": "IEEE TRANSACTIONS ON PARALLEL AND DISTRIBUTED SYSTEMS",
+        "category": "计算机科学",
+        "quartile": "2 区",
+        "issn": "1045-9219",
+        "eissn": "1558-2183"
+      },
+      "method": "issn",
+      "matchedISSNs": [
+        "10459219",
+        "15582183"
+      ]
+    },
+    {
+      "id": "tpel",
+      "name": "IEEE Transactions on Power Electronics",
+      "source": {
+        "row": 17096,
+        "name": "IEEE TRANSACTIONS ON POWER ELECTRONICS",
+        "category": "工程技术",
+        "quartile": "1 区",
+        "issn": "0885-8993",
+        "eissn": "1941-0107"
+      },
+      "method": "issn",
+      "matchedISSNs": [
+        "08858993",
+        "19410107"
+      ]
+    },
+    {
+      "id": "tqe",
+      "name": "IEEE Transactions on Quantum Engineering",
+      "source": {
+        "row": 759,
+        "name": "IEEE Transactions on Quantum Engineering",
+        "category": "物理与天体物理",
+        "quartile": "2 区",
+        "issn": "-",
+        "eissn": "2689-1808"
+      },
+      "method": "issn",
+      "matchedISSNs": [
+        "26891808"
+      ]
+    },
+    {
+      "id": "tsipn",
+      "name": "IEEE Transactions on Signal and Information Processing over Networks",
+      "source": {
+        "row": 19719,
+        "name": "IEEE Transactions on Signal and Information Processing over Networks",
+        "category": "计算机科学",
+        "quartile": "2 区",
+        "issn": "2373-776X",
+        "eissn": "2373-776X"
+      },
+      "method": "issn",
+      "matchedISSNs": [
+        "2373776x"
+      ]
+    },
+    {
+      "id": "tsm",
+      "name": "IEEE Transactions on Semiconductor Manufacturing",
+      "source": {
+        "row": 6243,
+        "name": "IEEE TRANSACTIONS ON SEMICONDUCTOR MANUFACTURING",
+        "category": "工程技术",
+        "quartile": "3 区",
+        "issn": "0894-6507",
+        "eissn": "1558-2345"
+      },
+      "method": "issn",
+      "matchedISSNs": [
+        "08946507",
+        "15582345"
+      ]
+    },
+    {
+      "id": "tsp",
+      "name": "IEEE Transactions on Signal Processing",
+      "source": {
+        "row": 6642,
+        "name": "IEEE TRANSACTIONS ON SIGNAL PROCESSING",
+        "category": "工程技术",
+        "quartile": "2 区",
+        "issn": "1053-587X",
+        "eissn": "1941-0476"
+      },
+      "method": "issn",
+      "matchedISSNs": [
+        "1053587x",
+        "19410476"
+      ]
+    },
+    {
+      "id": "tthz",
+      "name": "IEEE Transactions on Terahertz Science and Technology",
+      "source": {
+        "row": 6461,
+        "name": "IEEE Transactions on Terahertz Science and Technology",
+        "category": "工程技术",
+        "quartile": "2 区",
+        "issn": "2156-342X",
+        "eissn": "2156-3446"
+      },
+      "method": "issn",
+      "matchedISSNs": [
+        "2156342x",
+        "21563446"
+      ]
+    },
+    {
+      "id": "tuffc",
+      "name": "IEEE TRANSACTIONS ON ULTRASONICS FERROELECTRICS AND FREQUENCY CONTROL",
+      "source": {
+        "row": 6529,
+        "name": "IEEE TRANSACTIONS ON ULTRASONICS FERROELECTRICS AND FREQUENCY CONTROL",
+        "category": "工程技术",
+        "quartile": "2 区",
+        "issn": "0885-3010",
+        "eissn": "1525-8955"
+      },
+      "method": "issn",
+      "matchedISSNs": [
+        "08853010",
+        "15258955"
+      ]
+    },
+    {
+      "id": "tvlsi",
+      "name": "IEEE Transactions on Very Large Scale Integration (VLSI) Systems",
+      "source": {
+        "row": 6370,
+        "name": "IEEE TRANSACTIONS ON VERY LARGE SCALE INTEGRATION (VLSI) SYSTEMS",
+        "category": "工程技术",
+        "quartile": "3 区",
+        "issn": "1063-8210",
+        "eissn": "1557-9999"
+      },
+      "method": "issn",
+      "matchedISSNs": [
+        "10638210",
+        "15579999"
+      ]
+    },
+    {
+      "id": "tvt",
+      "name": "IEEE Transactions on Vehicular Technology",
+      "source": {
+        "row": 21582,
+        "name": "IEEE TRANSACTIONS ON VEHICULAR TECHNOLOGY",
+        "category": "计算机科学",
+        "quartile": "2 区",
+        "issn": "0018-9545",
+        "eissn": "1939-9359"
+      },
+      "method": "issn",
+      "matchedISSNs": [
+        "00189545",
+        "19399359"
+      ]
+    },
+    {
+      "id": "twc",
+      "name": "IEEE Transactions on Wireless Communications",
+      "source": {
+        "row": 12048,
+        "name": "IEEE TRANSACTIONS ON WIRELESS COMMUNICATIONS",
+        "category": "计算机科学",
+        "quartile": "1 区",
+        "issn": "1536-1276",
+        "eissn": "1558-2248"
+      },
+      "method": "issn",
+      "matchedISSNs": [
+        "15361276",
+        "15582248"
+      ]
+    },
+    {
+      "id": "vehicular-comms",
+      "name": "Vehicular Communications",
+      "source": {
+        "row": 21563,
+        "name": "Vehicular Communications",
+        "category": "计算机科学",
+        "quartile": "2 区",
+        "issn": "2214-2096",
+        "eissn": "2214-2096"
+      },
+      "method": "issn",
+      "matchedISSNs": [
+        "22142096"
+      ]
+    },
+    {
+      "id": "vtmag",
+      "name": "IEEE Vehicular Technology Magazine",
+      "source": {
+        "row": 21546,
+        "name": "IEEE Vehicular Technology Magazine",
+        "category": "计算机科学",
+        "quartile": "2 区",
+        "issn": "1556-6072",
+        "eissn": "1556-6080"
+      },
+      "method": "issn",
+      "matchedISSNs": [
+        "15566072",
+        "15566080"
+      ]
+    },
+    {
+      "id": "wcl",
+      "name": "IEEE Wireless Communications Letters",
+      "source": {
+        "row": 19680,
+        "name": "IEEE Wireless Communications Letters",
+        "category": "计算机科学",
+        "quartile": "2 区",
+        "issn": "2162-2337",
+        "eissn": "2162-2345"
+      },
+      "method": "issn",
+      "matchedISSNs": [
+        "21622337",
+        "21622345"
+      ]
+    },
+    {
+      "id": "wireless-mag",
+      "name": "IEEE Wireless Communications",
+      "source": {
+        "row": 22216,
+        "name": "IEEE WIRELESS COMMUNICATIONS",
+        "category": "计算机科学",
+        "quartile": "1 区",
+        "issn": "1536-1284",
+        "eissn": "1558-0687"
+      },
+      "method": "issn",
+      "matchedISSNs": [
+        "15361284",
+        "15580687"
+      ]
+    },
+    {
+      "id": "wireless-networks",
+      "name": "Wireless Networks",
+      "source": {
+        "row": 20051,
+        "name": "WIRELESS NETWORKS",
+        "category": "计算机科学",
+        "quartile": "4 区",
+        "issn": "1022-0038",
+        "eissn": "1572-8196"
+      },
+      "method": "issn",
+      "matchedISSNs": [
+        "10220038"
+      ]
+    },
+    {
+      "id": "wpc",
+      "name": "Wireless Personal Communications",
+      "source": {
+        "row": 20049,
+        "name": "WIRELESS PERSONAL COMMUNICATIONS",
+        "category": "计算机科学",
+        "quartile": "4 区",
+        "issn": "0929-6212",
+        "eissn": "1572-834X"
+      },
+      "method": "issn",
+      "matchedISSNs": [
+        "09296212"
+      ]
+    }
+  ],
+  "unmatched": [
+    {
+      "id": "acta-electronica",
+      "name": "Acta Electronica Sinica",
+      "issns": [
+        "03722112"
+      ]
+    },
+    {
+      "id": "bdtgd",
+      "name": "Semiconductor Optoelectronics",
+      "issns": [
+        "10015868"
+      ]
+    },
+    {
+      "id": "broadcast-tv-network",
+      "name": "Broadcasting and Television Networks",
+      "issns": [
+        "2096806x"
+      ]
+    },
+    {
+      "id": "cgjsxb",
+      "name": "Chinese Journal of Sensors and Actuators",
+      "issns": [
+        "10041699"
+      ]
+    },
+    {
+      "id": "china-telecom-industry",
+      "name": "China Telecommunications Industry",
+      "issns": [
+        "16713060"
+      ]
+    },
+    {
+      "id": "cjig",
+      "name": "Journal of Image and Graphics",
+      "issns": [
+        "10068961"
+      ]
+    },
+    {
+      "id": "cn-bupt",
+      "name": "Journal of Beijing University of Posts and Telecommunications",
+      "issns": [
+        "10075321"
+      ]
+    },
+    {
+      "id": "cn-cjors",
+      "name": "Chinese Journal of Radio Science",
+      "issns": [
+        "10050388"
+      ]
+    },
+    {
+      "id": "cn-cqupt",
+      "name": "Journal of Chongqing University of Posts and Telecommunications (Natural Science Edition)",
+      "issns": [
+        "1673825x"
+      ]
+    },
+    {
+      "id": "cn-iot",
+      "name": "Chinese Journal on Internet of Things",
+      "issns": [
+        "20963750",
+        "20975570"
+      ]
+    },
+    {
+      "id": "cn-jnis",
+      "name": "Chinese Journal of Network and Information Security",
+      "issns": [
+        "2096109x",
+        "20975554"
+      ]
+    },
+    {
+      "id": "cn-microwave",
+      "name": "Journal of Microwaves",
+      "issns": [
+        "10056122"
+      ]
+    },
+    {
+      "id": "cn-mobile",
+      "name": "Mobile Communications",
+      "issns": [
+        "10061010"
+      ]
+    },
+    {
+      "id": "cn-njupt",
+      "name": "Journal of Nanjing University of Posts and Telecommunications (Natural Science Edition)",
+      "issns": [
+        "16735439"
+      ]
+    },
+    {
+      "id": "cn-optcom-res",
+      "name": "Study on Optical Communications",
+      "issns": [
+        "10058788"
+      ]
+    },
+    {
+      "id": "cn-optcom-tech",
+      "name": "Optical Communication Technology",
+      "issns": [
+        "10025561"
+      ]
+    },
+    {
+      "id": "cn-radars",
+      "name": "Journal of Radars",
+      "issns": [
+        "2095283x",
+        "2097339x"
+      ]
+    },
+    {
+      "id": "cn-signal",
+      "name": "Journal of Signal Processing",
+      "issns": [
+        "10030530"
+      ]
+    },
+    {
+      "id": "cn-ssi",
+      "name": "SCIENTIA SINICA Informationis",
+      "issns": [
+        "16747267",
+        "20959486"
+      ]
+    },
+    {
+      "id": "cn-systems",
+      "name": "Systems Engineering and Electronics",
+      "issns": [
+        "1001506x"
+      ]
+    },
+    {
+      "id": "cn-tele-eng",
+      "name": "Telecommunication Engineering",
+      "issns": [
+        "1001893x"
+      ]
+    },
+    {
+      "id": "cn-telecom-sci",
+      "name": "Telecommunications Science",
+      "issns": [
+        "10000801",
+        "20975589"
+      ]
+    },
+    {
+      "id": "cn-terahertz",
+      "name": "Journal of Terahertz Science and Electronic Information Technology",
+      "issns": [
+        "20954980"
+      ]
+    },
+    {
+      "id": "cn-uestc",
+      "name": "Journal of University of Electronic Science and Technology of China",
+      "issns": [
+        "10010548"
+      ]
+    },
+    {
+      "id": "cn-xidian",
+      "name": "Journal of Xidian University",
+      "issns": [
+        "10012400"
+      ]
+    },
+    {
+      "id": "cn-xupt",
+      "name": "Journal of Xi'an University of Posts and Telecommunications",
+      "issns": [
+        "20956533"
+      ]
+    },
+    {
+      "id": "cn-zte",
+      "name": "ZTE Technology Journal",
+      "issns": [
+        "10096868"
+      ]
+    },
+    {
+      "id": "communication-infotech",
+      "name": "Communications and Information Technology",
+      "issns": [
+        "16720164"
+      ]
+    },
+    {
+      "id": "communication-management",
+      "name": "Communications Management and Technology",
+      "issns": [
+        "16726200"
+      ]
+    },
+    {
+      "id": "data-communications",
+      "name": "Data Communications",
+      "issns": [
+        "10025057"
+      ]
+    },
+    {
+      "id": "dlxxytxjs",
+      "name": "Electric Power Information and Communication Technology",
+      "issns": [
+        "2095641x"
+      ]
+    },
+    {
+      "id": "dzclyyqxuebao",
+      "name": "Journal of Electronic Measurement and Instrumentation",
+      "issns": [
+        "10007105"
+      ]
+    },
+    {
+      "id": "gdgc",
+      "name": "Opto-Electronic Engineering",
+      "issns": [
+        "1003501x"
+      ]
+    },
+    {
+      "id": "gdjsyy",
+      "name": "Electro-Optic Technology Application",
+      "issns": [
+        "16731255"
+      ]
+    },
+    {
+      "id": "gdzjg",
+      "name": "Journal of Optoelectronics Laser",
+      "issns": [
+        "10050086"
+      ]
+    },
+    {
+      "id": "guangdong-comtech",
+      "name": "Guangdong Communication Technology",
+      "issns": [
+        "10066403"
+      ]
+    },
+    {
+      "id": "gxygdjs",
+      "name": "Optics and Optoelectronic Technology",
+      "issns": [
+        "16723392"
+      ]
+    },
+    {
+      "id": "hwjs",
+      "name": "Infrared Technology",
+      "issns": [
+        "10018891"
+      ]
+    },
+    {
+      "id": "hwyjggc",
+      "name": "Infrared and Laser Engineering",
+      "issns": [
+        "10072276"
+      ]
+    },
+    {
+      "id": "icn",
+      "name": "Intelligent and Converged Networks",
+      "issns": [
+        "27086240"
+      ]
+    },
+    {
+      "id": "ict-journal",
+      "name": "Information and Communications Technologies",
+      "issns": [
+        "16741285"
+      ]
+    },
+    {
+      "id": "ict-policy",
+      "name": "Information and Communications Technology and Policy",
+      "issns": [
+        "20965931"
+      ]
+    },
+    {
+      "id": "iot-mag",
+      "name": "IEEE Internet of Things Magazine",
+      "issns": [
+        "25763180",
+        "25763199"
+      ]
+    },
+    {
+      "id": "iot-technology",
+      "name": "Internet of Things Technologies",
+      "issns": [
+        "20951302"
+      ]
+    },
+    {
+      "id": "j-ispin",
+      "name": "IEEE Journal of Indoor and Seamless Positioning and Navigation",
+      "issns": [
+        "28327322"
+      ]
+    },
+    {
+      "id": "jcin",
+      "name": "Journal of Communications and Information Networks",
+      "issns": [
+        "20961081"
+      ]
+    },
+    {
+      "id": "jcupt",
+      "name": "The Journal of China Universities of Posts and Telecommunications",
+      "issns": [
+        "10058885"
+      ]
+    },
+    {
+      "id": "jgjs",
+      "name": "Laser Technology",
+      "issns": [
+        "10013806"
+      ]
+    },
+    {
+      "id": "jgyhw",
+      "name": "Laser and Infrared",
+      "issns": [
+        "10015078"
+      ]
+    },
+    {
+      "id": "jiangsu-communications",
+      "name": "Jiangsu Communications",
+      "issns": [
+        "10079513"
+      ]
+    },
+    {
+      "id": "jisuanjixuebao",
+      "name": "Chinese Journal of Computers",
+      "issns": [
+        "02544164"
+      ]
+    },
+    {
+      "id": "ldkxyjs",
+      "name": "Radar Science and Technology",
+      "issns": [
+        "16722337"
+      ]
+    },
+    {
+      "id": "lnet",
+      "name": "IEEE Networking Letters",
+      "issns": [
+        "25763156"
+      ]
+    },
+    {
+      "id": "lzdzxb",
+      "name": "Chinese Journal of Quantum Electronics",
+      "issns": [
+        "10075461"
+      ]
+    },
+    {
+      "id": "modern-transmission",
+      "name": "Modern Transmission",
+      "issns": [
+        "16735137"
+      ]
+    },
+    {
+      "id": "mta",
+      "name": "Multimedia Tools and Applications",
+      "issns": [
+        "13807501",
+        "15737721"
+      ]
+    },
+    {
+      "id": "optica-quantum",
+      "name": "Optica Quantum",
+      "issns": []
+    },
+    {
+      "id": "postal-telecom-design",
+      "name": "Designing Techniques of Posts and Telecommunications",
+      "issns": [
+        "10073043"
+      ]
+    },
+    {
+      "id": "radio-comtech",
+      "name": "Radio Communications Technology",
+      "issns": [
+        "10033114"
+      ]
+    },
+    {
+      "id": "radioelectronics",
+      "name": "Radioelectronics and Communications Systems",
+      "issns": [
+        "07352727",
+        "19348061"
+      ]
+    },
+    {
+      "id": "ruanjianxuebao",
+      "name": "Journal of Software",
+      "issns": [
+        "10009825"
+      ]
+    },
+    {
+      "id": "scn",
+      "name": "Security and Communication Networks",
+      "issns": [
+        "19390122"
+      ]
+    },
+    {
+      "id": "sjcjycl",
+      "name": "Journal of Data Acquisition and Processing",
+      "issns": [
+        "10049037"
+      ]
+    },
+    {
+      "id": "standards-mag",
+      "name": "IEEE Communications Standards Magazine",
+      "issns": [
+        "24712825",
+        "24712833"
+      ]
+    },
+    {
+      "id": "telecom-standardization",
+      "name": "Telecom Engineering Technics and Standardization",
+      "issns": [
+        "10085599"
+      ]
+    },
+    {
+      "id": "tmlcn",
+      "name": "IEEE Transactions on Machine Learning in Communications and Networking",
+      "issns": [
+        "2831316x"
+      ]
+    },
+    {
+      "id": "trs",
+      "name": "IEEE Transactions on Radar Systems",
+      "issns": [
+        "28327357"
+      ]
+    },
+    {
+      "id": "txxb",
+      "name": "Journal on Communications",
+      "issns": [
+        "1000436x"
+      ]
+    },
+    {
+      "id": "wcmc",
+      "name": "Wireless Communications and Mobile Computing",
+      "issns": [
+        "15308669",
+        "15308677"
+      ]
+    },
+    {
+      "id": "wdzx",
+      "name": "Microelectronics",
+      "issns": [
+        "10043365"
+      ]
+    },
+    {
+      "id": "wdzxyjsj",
+      "name": "Microelectronics and Computer",
+      "issns": [
+        "10007180"
+      ]
+    },
+    {
+      "id": "xdld",
+      "name": "Modern Radar",
+      "issns": [
+        "10047859"
+      ]
+    },
+    {
+      "id": "xxaqyj",
+      "name": "Journal of Information Security Research",
+      "issns": [
+        "20961057"
+      ]
+    },
+    {
+      "id": "xxwlaq",
+      "name": "Netinfo Security",
+      "issns": [
+        "16711122"
+      ]
+    },
+    {
+      "id": "yangtze-ict",
+      "name": "Yangtze Information and Communications",
+      "issns": [
+        "16731131"
+      ]
+    },
+    {
+      "id": "zidonghuaxuebao",
+      "name": "Acta Automatica Sinica",
+      "issns": [
+        "02544156"
+      ]
+    },
+    {
+      "id": "big-data-journal",
+      "name": "Big Data Research",
+      "rejectedTitleMatch": {
+        "row": 19908,
+        "name": "Big Data Research",
+        "category": "计算机科学",
+        "quartile": "3 区",
+        "issn": "2214-5796",
+        "eissn": "2214-5796"
+      },
+      "reason": "刊号不同，不用相似英文刊名赋级"
+    },
+    {
+      "id": "xxaqxb",
+      "name": "Journal of Cyber Security",
+      "rejectedTitleMatch": {
+        "row": 15436,
+        "name": "Journal of Cybersecurity",
+        "category": "社会学",
+        "quartile": "2 区",
+        "issn": "2057-2085",
+        "eissn": "2057-2093"
+      },
+      "reason": "刊号不同，不用相似英文刊名赋级"
+    }
+  ],
+  "summary": {
+    "matched": 248,
+    "unmatched": 78
+  },
+  "sourceScope": "2026-04-01高校公开副本，不声称为官网2026-10实时数据库；未对应记录只保存在维护区。"
+}

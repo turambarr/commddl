@@ -27,3 +27,8 @@
   year: 2023
   sourceUrl: https://www.cie.org.cn/list_42/11930.html
   note: 电子技术、通信技术领域2023官方232刊目录，T1/T2/T3按原年份保存。
+- id: xinrui
+  label: 新锐分区
+  year: 2026
+  note: 2026年新锐期刊分区表，承德医学院2026-04-01公开副本；按ISSN/EISSN唯一匹配，采用大类分区。独立于中科院和JCR。
+  sourceUrl: https://kjc.cdmc.edu.cn/art/2026/4/1/art_299_101218.html
