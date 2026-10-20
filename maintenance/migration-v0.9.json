@@ -9,5 +9,10 @@
   "comparison": "Deep comparison of all source records and metadata; top-level record ordering normalized; only release version/date excluded.",
   "sourceRecordsEqual": true,
   "publicProjectionEqual": true,
-  "stableIdentifiersPreserved": true
+  "stableIdentifiersPreserved": true,
+  "testsPassed": 65,
+  "freshCheckoutBuildClean": true,
+  "independentContributorBranches": 10,
+  "mergeConflicts": 0,
+  "mergeSimulation": "Ten branches from the same commit each added a comment to a different source file; all merged without conflicts; catalog validation passed."
 }
