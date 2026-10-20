@@ -1,6 +1,6 @@
 # CommDDL 当前部署
 
-核对日期：2026-10-20，v0.9.0。
+网页发布流程核对日期：2026-10-20。团队操作约定见 [协作说明](TEAM-WORKFLOW.md) 和 [Agent规范](../AGENTS.md)。
 
 网站：[https://turambarr.github.io/commddl/](https://turambarr.github.io/commddl/)。公开代码仓库：[turambarr/commddl](https://github.com/turambarr/commddl)。
 
@@ -13,7 +13,7 @@
 3. 使用 `npm ci` 安装锁定依赖，检查 YAML、运行业务测试，再编译合并目录并生成网页；结果保存在当次工作流日志。
 4. 将`dist/`（生成的静态网站目录）上传并发布至GitHub Pages，通过后更新公开网页，检查失败时保留此前已发布版本。
 
-合并请求执行检查，main（主分支）及手动触发的工作流执行发布。
+合并请求执行检查；main（主分支）更新后执行正式发布，手动发布也只允许选择main。Agent默认提交PR后等待人工审核；获准创建PR不表示获准合并或手动部署。分支保护需要管理员在GitHub实际启用，不能只依靠文档约定。
 
 ## 数据和页面在哪里
 
