@@ -8,7 +8,7 @@
 |---|---|---|
 | 正式 call 数据 PR 的最终差异分类 | 已完成且验证 | Worker 从 GitHub PR files API 读取完整最终文件列表；任何 `data/calls/*.yml`、其他 `data/` 路径、差异过大、空差异或 API 失败均转人工 GitHub 合并。分类不读候选类型、标签或 UI 布尔值。 |
 | 日期 PR 人工审批与合并 | 已完成且验证 | Worker 对数据差异不调用 GitHub `reviews` 或 `merge` API。UI展示 PR 链接、最终 SHA、通知状态和人工合并指引。纯非数据 PR 仍需用户在网页明确批准且开关、身份、通知、SHA 和检查全部通过。 |
-| 最终通知门禁 | 已实现且本地测试 | 候选 PR 在 Worker 确认通知完整并绑定当前 head SHA 后才创建 success；未绑定候选的普通 PR 为 neutral。Worker 暂不可用或保留候选分支尚未写入批次时不创建 neutral，避免绕过通知。通知未完整时 Worker 返回失败，workflow 不会发 success。分支保护待迁移、部署与真实候选联调后再增加。
+| 最终通知门禁 | 已实现且本地测试 | 候选 PR 在 Worker 确认通知完整并绑定当前 head SHA 后才创建 success；未绑定候选的普通 PR 为 neutral。Worker 暂不可用或保留候选分支尚未写入批次时不创建 neutral，避免绕过通知。通知未完整时 Worker 返回失败，workflow 不会发 success。分支保护待迁移、部署与真实候选联调后再增加。 |
 | 手动合并状态回收 | 已完成本地集成验证 | `reconcile-manual-data-pr.yml` 向 GitHub 查询真实闭 PR、最终 head、merge commit、人类 review 和 `build`、`catalog, tests, and generated site`、`CommDDL final notice` 成功状态，再通过 HMAC 回调。Worker 比对通知版本及 SHA 后解锁来源并记录合并 commit。回调重放可幂等处理。 |
 | 未合并关闭与重试 | 已完成本地集成验证 | PR 未合并关闭会解锁来源并清空旧抓取基线，使同一批次可以新建下一版本；不会记为已发布。 |
 | Pages 合并/部署状态 | 已实现但外部未验证 | 部署 runner 现在独立执行 `npm ci` 安装服务端脚本依赖；回报步骤由默认关闭的 `COMMDDL_RECONCILIATION_ENABLED` 控制。合并先记 `merged-awaiting-deploy`；Pages workflow 成功回调后记 `deployed`。失败可重试。线上迁移和 workflow 尚未应用。 |
@@ -45,7 +45,7 @@ node --check scripts/updates/service-client.cjs
 
 1. 所有者报告已设置 GitHub App 私钥 Secret；后续验证 App token 与 PR workflow，不读取 PEM。
 2. 在已打开的 Worker 管理页确认 OAuth callback 已建立会话，并确认 `/api/session` 返回预期 GitHub login。若授权未完成，由所有者在 GitHub 授权页亲自确认。
-3. 新增 `COMMDDL_FINAL_NOTICE_CHECK_ENABLED` 与 `COMMDDL_RECONCILIATION_ENABLED` 两个默认关闭变量。迁移和 Worker 部署后，先启用通知检查并分别验收普通 PR neutral 与候选最终 SHA success；之后加入 required check，最后启用合并/Pages 回调。
+3. 新增 `COMMDDL_FINAL_NOTICE_CHECK_ENABLED` 与 `COMMDDL_RECONCILIATION_ENABLED` 两个默认关闭变量。迁移和 Worker 部署、OAuth/App/邮件验证后，先启用通知检查并分别验收普通 PR neutral 与候选最终 SHA success；之后加入 required check，最后启用合并/Pages 回调。
 4. 审阅并人工合并本 PR 后，先由所有者批准并应用 Cloudflare D1 `0003`，再部署 Worker；两者未完成前两个 GitHub 变量都保持关闭。确认 Pages 环境提供 `UPDATE_ADMIN_API_URL` 与 `UPDATE_INTERNAL_HMAC_SECRET`。
 5. 核对 Resend、收件人验证、OAuth/Worker会话、App 创建 PR、最终通知检查、手动合并回收、Pages 发布状态。任何真实邮件或具体发布须先经维护者审阅并获用户明确授权。
 6. Copilot 如需接入，后置为单独 PR；采集定时启用也需另行验收与授权。
