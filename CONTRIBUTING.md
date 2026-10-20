@@ -2,6 +2,10 @@
 
 数据通过 GitHub 的 Pull Request（合并请求，简称 PR）提交，维护者审核、合并后自动发布。
 
+开发者和 Agent（智能体）先阅读根目录 [AGENTS.md](AGENTS.md)；多人分工、任务分支、人工审核和 GitHub 分支保护设置见 [团队协作说明](docs/TEAM-WORKFLOW.md)。每个任务使用独立分支；共享一台机器时使用独立工作目录，保留其他任务的修改。
+
+代码、文档和数据修改均通过 PR 提交。Agent 默认完成到等待审核阶段，创建 PR 的授权不包含合并或手动发布授权。
+
 ## 改一条截止日期
 
 1. 在 [`data/calls/`](data/calls/) 找到对应年份和届次；例如 [`icc-2027-main.yml`](data/calls/2027/icc-2027-main.yml)。
