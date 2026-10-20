@@ -60,6 +60,13 @@ test('semantic date errors identify the individual source file',()=>{
  const d=loadCatalog();const c=d.calls.find(c=>c.id==='icc-2027-main');c.nodes.find(n=>n.primary).date='2027-02-30';
  assert.throws(()=>validateCatalog(d),/data\/calls\/2027\/icc-2027-main\.yml:.*date-only node/s);
 });
+test('source URLs reject PDF line-break spaces and multiple addresses in one field',()=>{
+ const d=loadCatalog(),v=d.venues.find(v=>v.id==='icc');
+ for(const bad of ['http://dblp.uni- trier.de/db/conf/icc/','https://dblp.org/db/conf/icc/ https://dblp.org/db/conf/icc/']){
+  v.url=bad;assert.throws(()=>validateCatalog(d),/data\/venues\/wireless\/icc\.yml:.*invalid official\/source URL/s);
+ }
+ v.url='https://portal.core.edu.au/conf-ranks/?search=IEEE%20ICC';assert.doesNotThrow(()=>validateCatalog(d));
+});
 test('independent contributor edits need no shared manifest or generated-file edit',t=>{
  const {root,write}=fixture(t),first=loadCatalog(root);
  write('venues/wireless/new.yml',{id:'new',kind:'conference',primaryArea:'wireless'});

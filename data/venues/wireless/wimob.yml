@@ -1,0 +1,55 @@
+# IEEE WiMob
+# 提交修改请发起 Pull Request（合并请求）；构建产物自动生成。
+id: wimob
+kind: conference
+short: IEEE WiMob
+nameEn: IEEE International Conference on Wireless and Mobile Computing, Networking and Communications
+nameZh: 无线与移动计算网络和通信国际会议
+aliases:
+  - IEEE无线与移动计算、网络与通信国际会议
+primaryArea: wireless
+secondaryAreas:
+  - network
+areas:
+  - wireless
+  - network
+topics:
+  - mobile-systems
+  - protocols
+publicationType: 学术会议系列
+articleTypes:
+  - 会议论文
+url: https://mailarchive.ietf.org/arch/msg/coin/EZHKFwK-8QzGQ-JNt914BC_8KHU/
+sourceUrl: https://mailarchive.ietf.org/arch/msg/coin/EZHKFwK-8QzGQ-JNt914BC_8KHU/
+sourceType: official
+verifiedAt: 2026-10-20
+identityReviewedAt: 2026-10-20
+identitySourceYear: 2026
+verification: verified
+catalogStatus: current
+catalogScope: communications
+assessments: []
+evaluations:
+  - system: ccf
+    year: 2026
+    status: pending
+    value: null
+    reviewedAt: 2026-10-20
+    note: 本次已核对会议身份；评级需补充对应完整系列的独立证据，未采用汇编推断。
+  - system: core
+    year: 2026
+    edition: ICORE2026
+    status: verified
+    value: B
+    sourceUrl: https://portal.core.edu.au/conf-ranks/?search=WiMob&by=acronym&source=ICORE2026
+    sourceTitle: ICORE2026官方会议评级记录（本项目2026-10-19保存的快照）
+    sourceType: official
+    snapshotDate: 2026-10-19
+    verifiedAt: 2026-10-20
+    reviewedAt: 2026-10-20
+    appliesToName: IEEE International Conference on Wireless and Mobile Computing, Networking and Communications
+    officialUrl: https://portal.core.edu.au/conf-ranks/679/
+    note: 本次重读本项目保存的官方版本快照，按正式全称和已核实旧名对应；同缩写不同会议分别处理。等级保留原始年份；National、Australasian等带地域状态不转换为A/B/C。
+scopeReviewedAt: 2026-10-20
+scopeNote: 按学会、出版和独立目录记录核对身份并人工归入通信相关方向；保留原始来源年份。
+identityNote: 以官方会议、学会或出版记录核对独立系列身份；此证据不推断EI、SCI、会议等级或毕业资格。

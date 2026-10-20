@@ -1,0 +1,74 @@
+# WFCS 2027 · 常规与专题论文
+# 提交修改请发起 Pull Request（合并请求）；构建产物自动生成。
+id: wfcs-2027-main
+venueId: wfcs
+title: WFCS 2027 · 常规与专题论文
+titleEn: IEEE International Conference on Factory Communication Systems 2027 — Regular and Special Session Papers
+year: 2027
+kind: conference
+areas:
+  - iot
+  - network
+  - wireless
+topics:
+  - industrial
+  - protocols
+  - iot-sensing
+  - edge-cloud
+  - isac
+  - security
+tags:
+  - 会议论文
+summary: 工业有线与无线网络、实时通信及分布式控制系统。
+url: https://wfcs2027.ieee-ies.org/calls_and_dates/index.html
+sourceUrl: https://wfcs2027.ieee-ies.org/calls_and_dates/index.html
+sourceType: official
+verification: verified
+verifiedAt: 2026-10-20
+updatedAt: 2026-10-20T00:00:00Z
+status: announced
+eventStart: 2027-04-20
+eventEnd: 2027-04-23
+eventDates: 2027-04-20 / 2027-04-23
+location: 西班牙·毕尔巴鄂
+submissionCategory: Regular and Special Session Papers
+inheritsVenueEvaluation: true
+nodes:
+  - id: paper
+    label: 全文提交
+    type: paper
+    primary: true
+    precision: date
+    date: 2027-01-11
+    instant: null
+    timezone: null
+    original: "Regular and Special Session Papers: January 11, 2027"
+    revision: 0
+    sourceUrl: https://wfcs2027.ieee-ies.org/calls_and_dates/index.html
+    updatedAt: 2026-10-20T00:00:00Z
+  - id: decision
+    label: 录用通知
+    type: decision
+    primary: false
+    precision: date
+    date: 2027-02-22
+    instant: null
+    timezone: null
+    original: "Notification: February 22, 2027"
+    revision: 0
+    sourceUrl: https://wfcs2027.ieee-ies.org/calls_and_dates/index.html
+    updatedAt: 2026-10-20T00:00:00Z
+  - id: final
+    label: 终稿提交
+    type: final
+    primary: false
+    precision: date
+    date: 2027-03-03
+    instant: null
+    timezone: null
+    original: "Final Paper: March 3, 2027"
+    revision: 0
+    sourceUrl: https://wfcs2027.ieee-ies.org/calls_and_dates/index.html
+    updatedAt: 2026-10-20T00:00:00Z
+history: []
+notes: 常规论文和专题分会论文同属当届征稿通道；WiP与演示论文使用另一截止日期，不与本条混合。

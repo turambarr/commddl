@@ -1,0 +1,52 @@
+# IEEE ISPLC
+# 提交修改请发起 Pull Request（合并请求）；构建产物自动生成。
+id: isplc
+kind: conference
+short: IEEE ISPLC
+nameEn: IEEE International Symposium on Power Line Communications and its Applications
+nameZh: IEEE国际电力线通信及其应用研讨会
+aliases: []
+primaryArea: wireless
+secondaryAreas:
+  - network
+areas:
+  - wireless
+  - network
+topics:
+  - physical
+  - industrial
+publicationType: 学术会议系列
+articleTypes:
+  - 会议论文
+url: https://www.comsoc.org/publications/best-readings/power-line-communications
+sourceUrl: https://www.comsoc.org/publications/best-readings/power-line-communications
+sourceType: official
+verifiedAt: 2026-10-20
+identityReviewedAt: 2026-10-20
+identitySourceYear: 2014
+verification: verified
+catalogStatus: historical-only
+catalogScope: archive
+assessments: []
+evaluations:
+  - system: ccf
+    year: 2026
+    status: pending
+    value: null
+    reviewedAt: 2026-10-20
+    note: 本次已核对会议身份；评级需补充对应完整系列的独立证据，未采用汇编推断。
+  - system: core
+    year: 2026
+    status: unlisted
+    value: null
+    sourceUrl: https://portal.core.edu.au/conf-ranks/?search=&by=all&source=ICORE2026&sort=atitle
+    sourceTitle: ICORE2026完整987条官方记录快照
+    sourceType: official
+    snapshotDate: 2026-10-19
+    reviewedAt: 2026-10-20
+    note: 已在ICORE2026完整快照按全称、已核实旧名及简称复查，未取得本系列的明确对应记录；继续查历年版本。
+scopeReviewedAt: 2026-10-20
+scopeNote: 按学会、出版和独立目录记录核对身份并人工归入通信相关方向；保留原始来源年份。
+identityNote: ComSoc原始资料确认历史系列；2024年大会赞助机构G3-Alliance的官方活动说明记载ISPLC与SmartGridComm合办，作为历史系列保留。
+publicationNote: 电力线通信系列历史记录；相关研究亦可关注SmartGridComm。
+historySourceUrl: https://g3-alliance.com/event/ieee-smartgridcomm-2024/

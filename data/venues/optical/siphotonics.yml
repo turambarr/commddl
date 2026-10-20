@@ -7,6 +7,9 @@ nameZh: IEEE 硅光子会议
 nameEn: IEEE Silicon Photonics Conference
 aliases:
   - SiPhotonics
+  - GFP
+  - Group IV Photonics
+  - IEEE International Conference on Group IV Photonics
 areas:
   - optical
 topics:
@@ -62,3 +65,7 @@ deadlineReviewedAt: 2026-10-19
 ratingReviewedAt: 2026-10-19
 primaryArea: optical
 secondaryAreas: []
+identityHistory:
+  - verifiedAt: 2026-10-20
+    sourceUrl: https://www.ieee-ukandireland.org/event/ieee-siphotonics-2025-ieee-silicon-photonics-conference/
+    note: 按官方新旧名对应补充检索别名，保留现有稳定编号。

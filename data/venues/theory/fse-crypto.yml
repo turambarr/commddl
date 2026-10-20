@@ -1,0 +1,62 @@
+# FSE
+# 提交修改请发起 Pull Request（合并请求）；构建产物自动生成。
+id: fse-crypto
+kind: conference
+short: FSE
+nameEn: Fast Software Encryption
+nameZh: 快速软件加密国际会议
+aliases: []
+primaryArea: theory
+secondaryAreas:
+  - wireless
+areas:
+  - theory
+  - wireless
+topics:
+  - cryptography
+  - security
+publicationType: 学术会议系列
+articleTypes:
+  - 会议论文
+url: https://dblp.org/db/conf/fse/index.html
+sourceUrl: https://scdm-shu.github.io/ccf/2026-CCF-Ranking.pdf
+sourceType: document-copy
+verifiedAt: 2026-10-20
+identityReviewedAt: 2026-10-20
+identitySourceYear: 2026
+verification: verified
+catalogStatus: current
+catalogScope: communications
+assessments: []
+evaluations:
+  - system: ccf
+    year: 2026
+    edition: 第七版公开副本
+    status: reported
+    value: B
+    sourceUrl: https://scdm-shu.github.io/ccf/2026-CCF-Ranking.pdf
+    sourceTitle: CCF2026第七版完整目录公开副本
+    sourceType: document-copy
+    verifiedAt: 2026-10-20
+    reviewedAt: 2026-10-20
+    page: 21
+    appliesToName: Fast Software Encryption
+    note: 按正式全称、简称及系列身份对应独立目录；保留公开副本证据属性和2026原年份，不从用户汇编直接转录等级。
+  - system: core
+    year: 2026
+    edition: ICORE2026
+    status: verified
+    value: B
+    sourceUrl: https://portal.core.edu.au/conf-ranks/?search=FSE&by=acronym&source=ICORE2026
+    sourceTitle: ICORE2026官方会议评级记录（本项目2026-10-19保存的快照）
+    sourceType: official
+    snapshotDate: 2026-10-19
+    verifiedAt: 2026-10-20
+    reviewedAt: 2026-10-20
+    appliesToName: International Workshop on Fast Software Encryption
+    officialUrl: https://portal.core.edu.au/conf-ranks/1475/
+    note: 本次重读本项目保存的官方版本快照，按正式全称和已核实旧名对应；同缩写不同会议分别处理。等级保留原始年份；National、Australasian等带地域状态不转换为A/B/C。
+scopeReviewedAt: 2026-10-20
+scopeNote: 按学会、出版和独立目录记录核对身份并人工归入通信相关方向；保留原始来源年份。
+identityNote: 按独立CCF目录的全称、简称与系列地址核对身份；分级按2026原年份记录。
+urlKind: registry

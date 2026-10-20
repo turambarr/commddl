@@ -1,0 +1,54 @@
+# IEEE IECON
+# 提交修改请发起 Pull Request（合并请求）；构建产物自动生成。
+id: iecon
+kind: conference
+short: IEEE IECON
+nameEn: Annual Conference of the IEEE Industrial Electronics Society
+nameZh: IEEE工业电子学会年度旗舰大会
+aliases: []
+primaryArea: iot
+secondaryAreas:
+  - network
+areas:
+  - iot
+  - network
+topics:
+  - industrial
+  - iot-sensing
+publicationType: 学术会议系列
+articleTypes:
+  - 会议论文
+url: https://www.ieee-ies.org/conferences?highlight=WyJzaWkiXQ%3D%3D
+sourceUrl: https://www.ieee-ies.org/conferences?highlight=WyJzaWkiXQ%3D%3D
+sourceType: official
+verifiedAt: 2026-10-20
+identityReviewedAt: 2026-10-20
+identitySourceYear: 2026
+verification: verified
+catalogStatus: current
+catalogScope: communications
+assessments: []
+evaluations:
+  - system: ccf
+    year: 2026
+    status: pending
+    value: null
+    reviewedAt: 2026-10-20
+    note: 本次已核对会议身份；评级需补充对应完整系列的独立证据，未采用汇编推断。
+  - system: core
+    year: 2026
+    edition: ICORE2026
+    status: verified
+    value: C
+    sourceUrl: https://portal.core.edu.au/conf-ranks/?search=IECON&by=acronym&source=ICORE2026
+    sourceTitle: ICORE2026官方会议评级记录（本项目2026-10-19保存的快照）
+    sourceType: official
+    snapshotDate: 2026-10-19
+    verifiedAt: 2026-10-20
+    reviewedAt: 2026-10-20
+    appliesToName: IEEE Industrial Electronics Society
+    officialUrl: https://portal.core.edu.au/conf-ranks/2321/
+    note: 本次重读本项目保存的官方版本快照，按正式全称和已核实旧名对应；同缩写不同会议分别处理。等级保留原始年份；National、Australasian等带地域状态不转换为A/B/C。
+scopeReviewedAt: 2026-10-20
+scopeNote: 按学会、出版和独立目录记录核对身份并人工归入通信相关方向；保留原始来源年份。
+identityNote: 以官方会议、学会或出版记录核对独立系列身份；此证据不推断EI、SCI、会议等级或毕业资格。
