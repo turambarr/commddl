@@ -9,7 +9,7 @@ permissions:
   checks: read
 jobs:
   reconcile:
-    if: github.event.pull_request.base.ref == 'main'
+    if: github.event.pull_request.base.ref == 'main' && vars.COMMDDL_RECONCILIATION_ENABLED == 'true'
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
