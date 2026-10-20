@@ -2,6 +2,7 @@ name = "commddl-admin"
 account_id = "fd94f5977d17917ab2768500b103d649"
 main = "src/worker.js"
 compatibility_date = "2026-10-20"
+preview_urls = false
 
 [assets]
 directory = "./public"
@@ -13,6 +14,7 @@ GITHUB_OWNER = "turambarr"
 GITHUB_REPO = "commddl"
 AUTHORIZED_MAINTAINERS = "arofish"
 ADMIN_ORIGIN = "https://commddl-admin.1319630151.workers.dev"
+GITHUB_CLIENT_ID = "Ov23li6eOpFq0BEPCjjg"
 PUBLISH_ENABLED = "false"
 
 [[d1_databases]]
@@ -20,3 +22,6 @@ binding = "DB"
 database_name = "commddl-admin"
 database_id = "1f9c42d3-4148-4ade-92e4-c76dcb77f689"
 migrations_dir = "migrations"
+
+[observability]
+enabled = true
