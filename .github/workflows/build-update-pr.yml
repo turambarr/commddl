@@ -11,6 +11,7 @@ jobs:
     permissions:
       contents: write
       pull-requests: write
+      checks: write
     steps:
       - uses: actions/checkout@v4
         with:
@@ -73,6 +74,15 @@ jobs:
           PR_URL: ${{ steps.cpr.outputs.pull-request-url }}
           FINAL_SHA: ${{ steps.cpr.outputs.pull-request-head-sha }}
         run: node scripts/updates/service-client.cjs record-pr --id "$BATCH_ID" --version "$BATCH_VERSION" --pr-number "$PR_NUMBER" --pr-url "$PR_URL" --final-sha "$FINAL_SHA"
+      - name: Bind a required check to the notified final PR SHA
+        if: steps.cpr.outputs.pull-request-number != ''
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+          GITHUB_REPOSITORY_OWNER: ${{ github.repository_owner }}
+          GITHUB_REPOSITORY_NAME: commddl
+          PR_NUMBER: ${{ steps.cpr.outputs.pull-request-number }}
+          FINAL_SHA: ${{ steps.cpr.outputs.pull-request-head-sha }}
+        run: node scripts/updates/report-final-notice-check.cjs
       - name: Release and reset a batch when PR generation failed
         if: failure() && steps.cpr.outputs.pull-request-number == ''
         env:
