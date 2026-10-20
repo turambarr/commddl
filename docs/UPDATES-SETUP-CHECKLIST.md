@@ -11,7 +11,7 @@
 | `COMMDDL_FINAL_NOTICE_CHECK_ENABLED` | GitHub 仓库 Actions Variables | unset / `false` | 跳过普通 PR 通知检查创建；迁移与 Worker 接口上线后单独启用并验收 |
 | `COMMDDL_RECONCILIATION_ENABLED` | GitHub 仓库 Actions Variables | unset / `false` | 跳过人工合并与 Pages 回调，避免 Worker API 和 0003 尚未上线时新工作流调用新接口 |
 
-表中四个开关只有精确等于小写字符串 `true` 才开启。不要在首次部署或首次验收时开启；通知检查与合并/Pages 回调分开启用，避免新工作流早于 Worker 和 0003。
+表中四个开关只有精确等于小写字符串 `true` 才开启。定时采集和正式发布保持关闭；通知检查与合并/Pages 回调分开启用，避免新工作流早于 Worker 和 0003。
 
 ## 资源及变量位置
 
@@ -123,15 +123,13 @@ Worker 读取 GitHub 最终 PR 文件列表分类：任何 `data/calls/*.yml`、
 
 ## 部署步骤（供资源就绪后的后续轮次使用）
 
-以下是准备好的命令，本轮没有执行：
+以下步骤按依赖顺序执行；本轮未部署、未迁移线上 D1、未启用变量。
 
-1. 仓库所有者（`turambarr`）核对并在 Cloudflare Worker Production Variables 中填写 `AUTHORIZED_MAINTAINERS=arofish`；按需逐个添加经所有者明确授权的人。不得将 GitHub 所有 write 用户批量加入。同步 `services/admin/wrangler.toml` 中名单值；保持 `PUBLISH_ENABLED = "false"`。
-2. 仓库所有者创建/核对 OAuth App callback，将 GitHub App 安装到且仅安装到 `turambarr/commddl`，设置所需最小仓库权限，并配置 Actions Environment（建议 `production` 环境保护规则：required reviewers 与禁止自助批准，Secrets 仅保存该环境需要的凭据）。
-3. 仓库所有者先保留 `main` 已生效的分支保护和 required checks；`CommDDL final notice` 工作流进入 `main` 且已验证普通 PR 为 neutral、正式数据 PR 等待可信通知成功后，再追加此项检查。继续要求至少一项独立批准、分支最新并限制绕过（包含管理员）；确认 squash merge 已启用。required check 和环境保护设置须使用所有者账号或 GitHub 实际授予的管理权限。
-4. Cloudflare 资源标识已同步在 `services/admin/wrangler.toml`；核对 Worker Production 的资源绑定仍与交接记录一致，不要替换有效 account/database 标识。
-5. **先审阅并合并本 PR（由另一位合格协作者批准，作者不能自批）。** 合并后不要设置 `COMMDDL_RECONCILIATION_ENABLED=true`，也先不把 `CommDDL final notice` 加入分支规则。此时新回调仍关闭。
-
-6. 在所有者批准部署后，在本地终端进入 `services/admin` 并完成 Cloudflare 登录。先检查账号和目标数据库，再只应用新迁移 `0003`：
+1. 所有者核对 Worker Production 普通变量及 D1 绑定。保持 `PUBLISH_ENABLED=false`；OAuth callback 仍需在管理员页面确认实际会话和身份。
+2. GitHub App 私钥 Secret 已由所有者报告配置完成；不读取或复制其值。核对 Actions 中 `UPDATE_GITHUB_APP_ID`、`UPDATE_GITHUB_APP_PRIVATE_KEY`、`UPDATE_ADMIN_API_URL`、`UPDATE_INTERNAL_HMAC_SECRET` 的名称与保存范围。Resend 和 `MAIL_FROM` 在 Worker 侧配置，但先不要发送测试邮件。
+3. 保留 `main` 当前有效分支保护。此时不要要求 `CommDDL final notice`，也不要打开 `COMMDDL_FINAL_NOTICE_CHECK_ENABLED` 或 `COMMDDL_RECONCILIATION_ENABLED`。
+4. 先由另一位合格协作者审阅并批准本 PR（PR 作者 `arofish` 不能自批），再由有权限的维护者按仓库规则手动合并。Agent 不代批、不代合并。
+5. 合并且所有者明确批准数据库变更后，在本地终端进入 `services/admin`，核验账号后只应用新迁移 `0003`：
 
    ```sh
    cd /Users/fish/codework/commddl/services/admin
@@ -141,13 +139,12 @@ Worker 读取 GitHub 最终 PR 文件列表分类：任何 `data/calls/*.yml`、
 
    已部署环境预期仅应用 `0003_manual_merge_reconciliation.sql`；全新库按顺序应用 `0001`、`0002`、`0003`。远端 D1 已在 2026-10-20 核验 `0001`、`0002` 各一条，四张业务表均为空，不要重复运行旧迁移。
 
-7. 部署 Worker 新版本，再检查 OAuth 登录会话、管理员身份和新增 API。此时仓库回调变量仍保持关闭。
-8. 先设置 `COMMDDL_FINAL_NOTICE_CHECK_ENABLED=true`，用普通非候选 PR 验证 neutral；通过受控候选流程验证通知成功后 final-SHA success。只有这两种行为都确认后，才把 `CommDDL final notice` 加入 `main` required checks（保留原有检查）。随后设置 `COMMDDL_RECONCILIATION_ENABLED=true`，启用人工合并与 Pages 回调。两个变量分开设置，避免回收 workflow 早于分支门禁。
-
-9. 通过 Cloudflare Worker Secrets 界面或逐项执行 `npx wrangler secret put SESSION_SECRET`、`GITHUB_CLIENT_SECRET`、`RESEND_API_KEY`、`INTERNAL_HMAC_SECRET` 写入 Secret；终端输入过程不要复制到日志。Actions 仓库中设置对应变量和 Secrets。
-10. 代码先通过仓库 PR 审阅与 `main` required check，再由仓库维护者合并；然后从 `services/admin` 执行 `npx wrangler deploy`。这会更新后台 Worker，不会修改 GitHub Pages。
-11. 部署后再接通邮件：先核对 Resend 域名和 `MAIL_FROM`，对管理员测试地址验证投递，再进行单来源通知、UI 取舍、候选 PR、最终 SHA 检查及邮件失败重试的闭环验收。
-12. 首轮验收完成前保持 `UPDATE_AUTOMATION_ENABLED=false`、`PUBLISH_ENABLED=false`。自动采集和自动发布的启用另行授权、另行验收。
+6. 确认 Worker Secrets `SESSION_SECRET`、`GITHUB_CLIENT_SECRET`、`RESEND_API_KEY`、`INTERNAL_HMAC_SECRET` 已按需保存，并确认 GitHub Actions 使用同一 HMAC 的 `UPDATE_INTERNAL_HMAC_SECRET`。然后从 `services/admin` 部署 Worker 新版本；先做 dry-run/目标复核，不替换已核验的 Account/D1 标识。Worker 部署必须在 migration 0003 成功之后。
+7. 验证 OAuth 登录、`/api/session` 中的真实 GitHub login 与实际仓库权限；再通过受控流程验证 GitHub App token 与 `repository_dispatch`。不要把测试批次连接到正式日期发布。
+8. 连接邮件：在 Resend 验证发件域名，设置 `MAIL_FROM`；维护者添加并验证指定的测试收件地址后，先发测试邮件，再进行单来源候选通知、UI 取舍和候选 PR 的受控验证。候选邮件失败时不得报告最终通知检查成功。
+9. 设置 `COMMDDL_FINAL_NOTICE_CHECK_ENABLED=true`。先验证普通非候选 PR 对当前 head SHA 得到 `neutral`；再验证一个受控候选 PR 只有在邮件完整送达且 Worker 绑定最终 SHA 后得到 `success`。验收成功后，所有者把 `CommDDL final notice` 加入 `main` required checks，同时保留原有检查和独立人工审批。
+10. 仅在必需检查生效后设置 `COMMDDL_RECONCILIATION_ENABLED=true`，打开 PR close/Pages 回调。若关闭至启用之间已有合并或 Pages 部署，先人工核对并补跑可信 reconciliation，避免漏记状态。
+11. 首轮验收完成前保持 `UPDATE_AUTOMATION_ENABLED=false`、`PUBLISH_ENABLED=false`。定时采集、网页发布和 Copilot 分别等待单独授权与验收。
 
 ### Git 与 Pages job 兼容性
 
