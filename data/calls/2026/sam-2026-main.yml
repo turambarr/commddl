@@ -1,0 +1,64 @@
+# SAM 2026 · 主会论文
+# 提交修改请发起 Pull Request（合并请求）；构建产物自动生成。
+id: sam-2026-main
+venueId: sam
+title: SAM 2026 · 主会论文
+titleEn: IEEE Sensor Array and Multichannel Signal Processing Workshop
+year: 2026
+kind: conference
+areas:
+  - signal
+  - rf
+topics:
+  - arrays
+  - estimation-sync
+  - radar
+tags: []
+summary: ""
+url: https://www.tu-ilmenau.de/fileadmin/Bereiche/EI/nt/pdfs/upload_2025/SAM2026_CFP_flyer_092025.pdf
+sourceUrl: https://www.tu-ilmenau.de/fileadmin/Bereiche/EI/nt/pdfs/upload_2025/SAM2026_CFP_flyer_092025.pdf
+sourceType: official
+nodes:
+  - id: paper
+    label: 全文提交
+    type: paper
+    primary: true
+    precision: date
+    date: 2026-01-28
+    instant: null
+    timezone: null
+    original: 2026-01-28
+    revision: 0
+  - id: decision
+    label: 录用通知
+    type: decision
+    primary: false
+    precision: date
+    date: 2026-04-17
+    instant: null
+    timezone: null
+    original: 2026-04-17
+    revision: 0
+  - id: registration
+    label: 作者注册
+    type: registration
+    primary: false
+    precision: date
+    date: 2026-05-07
+    instant: null
+    timezone: null
+    original: 2026-05-07
+    revision: 0
+verification: verified
+verifiedAt: 2026-10-18
+checkedAt: 2026-10-18
+updatedAt: 2026-10-18T04:00:00Z
+status: announced
+notes: 主办高校征稿PDF与IEEE信号处理学会活动页交叉核对，终稿截止未公布。SAM隔年举办，2028页面征集主办提案。
+location: 中国·深圳
+eventStart: 2026-07-13
+eventEnd: 2026-07-16
+eventDates: 2026-07-13 / 2026-07-16
+publication: null
+history: []
+eventSourceUrl: https://signalprocessingsociety.org/events/2026-ieee-sensor-array-and-multichannel-signal-processing-workshop-sam

@@ -1,0 +1,134 @@
+# EMBC
+# 提交修改请发起 Pull Request（合并请求）；构建产物自动生成。
+id: embc
+kind: conference
+short: EMBC
+nameZh: IEEE医学与生物学工程年会
+nameEn: EMBC
+aliases: []
+topics:
+  - physical
+  - protocols
+areas:
+  - signal
+  - iot
+topicReviewedAt: 2026-10-18
+url: https://xxgk.bupt.edu.cn/__local/F/65/92/3A361334F005A224CD3C6C215B7_43DF8061_C1241.pdf?e=.pdf
+sourceUrl: https://xxgk.bupt.edu.cn/__local/F/65/92/3A361334F005A224CD3C6C215B7_43DF8061_C1241.pdf?e=.pdf
+verifiedAt: 2026-10-18
+verification: verified
+catalogStatus: historical-only
+summary: 2018 学科附件中的历史条目；现行名称、举办状态与当届投稿信息待核验。
+publicationType: 学术会议系列
+articleTypes:
+  - 会议论文
+submissionMode: 按具体届次征稿
+assessments:
+  - system: bupt-ict-2018
+    label: 2018 信通学科重要会议表
+    year: 2018
+    sourceUrl: https://xxgk.bupt.edu.cn/__local/F/65/92/3A361334F005A224CD3C6C215B7_43DF8061_C1241.pdf?e=.pdf
+    note: 列入2018版学科附件，硕士渠道见政策说明。原表编号 48，PDF 第 6 页。
+urlLabel: 历史文件
+sourceType: historical-document
+evaluations:
+  - system: ccf
+    year: 2026
+    edition: 第七版公开副本
+    sourceUrl: https://scdm-shu.github.io/ccf/2026-CCF-Ranking.pdf
+    sourceType: document-copy
+    sourceTitle: CCF 2026 完整目录公开副本
+    verifiedAt: 2026-10-18
+    reviewedNames:
+      - EMBC
+      - EMBC
+    note: 按正式系列核对CCF2026公开副本全部386个会议条目，未列入该版。
+    status: unlisted
+    value: null
+    reviewedAt: 2026-10-18
+  - system: core
+    year: 2026
+    edition: ICORE2026
+    sourceUrl: https://portal.core.edu.au/conf-ranks/?search=&by=all&source=ICORE2026&sort=atitle
+    sourceType: official
+    sourceTitle: ICORE2026 官方完整会议库
+    verifiedAt: 2026-10-18
+    reviewedNames:
+      - EMBC
+      - EMBC
+    note: 复查 ICORE2026 官方全 20 页、987 个记录，按全称、系列简称及历史名称对照，未列出该正式系列。
+    status: unlisted
+    value: null
+    reviewedAt: 2026-10-18
+  - system: core
+    year: 2018
+    edition: CORE2018
+    sourceUrl: https://portal.core.edu.au/conf-ranks/?search=EMBC&by=acronym&source=CORE2018
+    sourceType: official
+    sourceTitle: CORE2018 官方完整会议库
+    verifiedAt: 2026-10-19
+    reviewedAt: 2026-10-19
+    status: verified
+    value: C
+    appliesToName: The Annual International Conference of the IEEE Engineering in Medicine and Biology Society
+    note: 核对 CORE2018 官方完整 CSV 导出（1625 条），以正式全称及已确认的系列名称匹配。该等级属于 2018 年版本。
+    sourceRecordId: "2019"
+  - system: core
+    year: 2017
+    edition: CORE2017
+    sourceUrl: https://portal.core.edu.au/conf-ranks/?search=EMBC&by=acronym&source=CORE2017
+    sourceType: official
+    sourceTitle: CORE2017 官方完整会议库
+    verifiedAt: 2026-10-19
+    reviewedAt: 2026-10-19
+    status: verified
+    value: C
+    appliesToName: The Annual International Conference of the IEEE Engineering in Medicine and Biology Society
+    note: 核对 CORE2017 官方完整 CSV 导出（1592 条），以正式全称及已确认的系列名称匹配。该等级属于 2017 年版本。
+    sourceRecordId: "2019"
+  - system: core
+    year: 2014
+    edition: CORE2014
+    sourceUrl: https://portal.core.edu.au/conf-ranks/?search=EMBC&by=acronym&source=CORE2014
+    sourceType: official
+    sourceTitle: CORE2014 官方完整会议库
+    verifiedAt: 2026-10-19
+    reviewedAt: 2026-10-19
+    status: verified
+    value: C
+    appliesToName: The Annual International Conference of the IEEE Engineering in Medicine and Biology Society
+    note: 核对 CORE2014 官方完整 CSV 导出（1628 条），以正式全称及已确认的系列名称匹配。该等级属于 2014 年版本。
+    sourceRecordId: "2019"
+  - system: core
+    year: 2013
+    edition: CORE2013
+    sourceUrl: https://portal.core.edu.au/conf-ranks/?search=EMBC&by=acronym&source=CORE2013
+    sourceType: official
+    sourceTitle: CORE2013 官方完整会议库
+    verifiedAt: 2026-10-19
+    reviewedAt: 2026-10-19
+    status: verified
+    value: C
+    appliesToName: The Annual International Conference of the IEEE Engineering in Medicine and Biology Society
+    note: 核对 CORE2013 官方完整 CSV 导出（1615 条），以正式全称及已确认的系列名称匹配。该等级属于 2013 年版本。
+    sourceRecordId: "2019"
+  - system: core
+    year: 2008
+    edition: CORE2008
+    sourceUrl: https://portal.core.edu.au/conf-ranks/?search=EMBC&by=acronym&source=CORE2008
+    sourceType: official
+    sourceTitle: CORE2008 官方完整会议库
+    verifiedAt: 2026-10-19
+    reviewedAt: 2026-10-19
+    status: verified
+    value: C
+    appliesToName: The Annual International Conference of the IEEE Engineering in Medicine and Biology Society
+    note: 核对 CORE2008 官方完整 CSV 导出（933 条），以正式全称及已确认的系列名称匹配。该等级属于 2008 年版本。
+    sourceRecordId: "2019"
+catalogScope: archive
+scopeReviewedAt: 2026-10-18
+scopeNote: 生物医学工程综合会议，原条目错误归类为无线/信息论/网络。
+ratingReviewedAt: 2026-10-18
+primaryArea: signal
+secondaryAreas:
+  - iot

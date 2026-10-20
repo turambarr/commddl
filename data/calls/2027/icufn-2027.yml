@@ -1,0 +1,38 @@
+# ICUFN 2027 · 泛在与未来网络国际会议
+# 提交修改请发起 Pull Request（合并请求）；构建产物自动生成。
+id: icufn-2027
+venueId: icufn
+year: 2027
+title: ICUFN 2027 · 泛在与未来网络国际会议
+titleEn: International Conference on Ubiquitous and Future Networks 2027
+kind: conference
+areas:
+  - network
+topics:
+  - protocols
+  - mobile-systems
+  - security
+tags: []
+summary: 泛在与未来网络国际会议当届论文征稿。
+url: https://icufn.org/
+sourceUrl: https://icufn.org/
+sourceType: official
+verification: verified
+verifiedAt: 2026-10-19
+updatedAt: 2026-10-19T08:00:00Z
+status: announced
+location: 西班牙马德里
+eventStart: 2027-07-06
+eventEnd: 2027-07-09
+nodes:
+  - id: paper
+    label: 论文提交
+    type: paper
+    primary: true
+    precision: date
+    date: 2027-02-12
+    instant: null
+    timezone: null
+    original: Paper Submission Deadline Feb. 12, 2027
+    revision: 0
+history: []

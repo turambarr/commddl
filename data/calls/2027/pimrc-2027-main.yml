@@ -1,0 +1,71 @@
+# PIMRC 2027 · 主会论文
+# 提交修改请发起 Pull Request（合并请求）；构建产物自动生成。
+id: pimrc-2027-main
+venueId: pimrc
+title: PIMRC 2027 · 主会论文
+titleEn: IEEE International Symposium on Personal, Indoor and Mobile Radio Communications 2027 main
+year: 2027
+kind: conference
+areas:
+  - wireless
+  - signal
+topics:
+  - physical
+  - mimo
+  - propagation
+  - resources
+  - mobile-systems
+  - isac
+  - satellite-ntn
+tags: []
+summary: 移动无线通信及相关系统。
+url: https://pimrc2027.ieee-pimrc.org/
+sourceUrl: https://pimrc2027.ieee-pimrc.org/
+sourceType: official
+nodes:
+  - id: paper
+    label: 全文提交
+    type: paper
+    primary: true
+    precision: date
+    date: 2027-03-12
+    instant: null
+    timezone: null
+    original: "Paper Submission Deadline: 12 Mar 2027"
+    revision: 0
+    sourceUrl: https://pimrc2027.ieee-pimrc.org/
+  - id: decision
+    label: 录用通知
+    type: decision
+    primary: false
+    precision: date
+    date: 2027-06-11
+    instant: null
+    timezone: null
+    original: "Notification of Acceptance: 2027-06-11"
+    revision: 0
+    sourceUrl: https://pimrc2027.ieee-pimrc.org/
+  - id: final
+    label: 终稿提交
+    type: final
+    primary: false
+    precision: date
+    date: 2027-07-16
+    instant: null
+    timezone: null
+    original: "Camera-Ready / Final Manuscript: 2027-07-16"
+    revision: 0
+    sourceUrl: https://pimrc2027.ieee-pimrc.org/
+verification: verified
+verifiedAt: 2026-10-18
+checkedAt: 2026-10-18
+updatedAt: 2026-10-18T04:00:00Z
+status: announced
+notes: 官网公布截止日期，钟点或时区未注明，按日期展示。
+location: 葡萄牙·里斯本
+eventStart: 2027-09-07
+eventEnd: 2027-09-10
+eventDates: 2027-09-07 / 2027-09-10
+publication: null
+history: []
+eventSourceUrl: https://www.ieee-pimrc.org/

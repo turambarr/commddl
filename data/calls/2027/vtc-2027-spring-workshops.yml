@@ -1,0 +1,44 @@
+# VTC 2027 春季 · 附属研讨会总入口
+# 提交修改请发起 Pull Request（合并请求）；构建产物自动生成。
+id: vtc-2027-spring-workshops
+venueId: vtc
+title: VTC 2027 春季 · 附属研讨会总入口
+titleEn: VTC 2027 Spring Workshop Paper Submission
+kind: workshop
+areas:
+  - wireless
+  - iot
+tags:
+  - 车联网
+  - 移动通信
+summary: 官网列出的研讨会投稿时间总入口，具体主题和投稿要求需逐个查看。
+sourceUrl: https://events.vtsociety.org/vtc2027-spring/
+url: https://events.vtsociety.org/vtc2027-spring/
+nodes:
+  - id: paper
+    label: 研讨会论文提交
+    type: paper
+    primary: true
+    precision: date
+    date: 2026-12-20
+    instant: null
+    timezone: null
+    original: "Workshop Paper Submission Deadline: 20 December 2026"
+    revision: 0
+verification: verified
+verifiedAt: 2026-10-17
+updatedAt: 2026-10-17T08:00:00Z
+status: announced
+notes: 大会附属研讨会总入口，各研讨会单独核对日期及学校认定。
+location: 德国 · 汉堡
+eventDates: 2027-06-20 / 2027-06-23
+publication: null
+history: []
+topics:
+  - physical
+  - mobile-systems
+  - vehicular
+  - satellite-ntn
+  - mimo
+  - isac
+  - resources

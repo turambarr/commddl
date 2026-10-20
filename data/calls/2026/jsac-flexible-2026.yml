@@ -1,0 +1,76 @@
+# 可移动与夹持天线：面向下一代无线网络
+# 提交修改请发起 Pull Request（合并请求）；构建产物自动生成。
+id: jsac-flexible-2026
+venueId: jsac
+title: 可移动与夹持天线：面向下一代无线网络
+titleEn: "Exploiting Flexible Positioning: Movable and Pinching Antennas for Next-Generation Wireless Networks"
+kind: special
+areas:
+  - wireless
+  - rf
+  - signal
+tags:
+  - 可移动天线
+  - 夹持天线
+  - 波束成形
+  - 通感一体化
+  - ISAC
+summary: 关注天线位置可控性及相关无线通信与感知研究。
+sourceUrl: https://www.comsoc.org/publications/journals/ieee-jsac/cfp/exploiting-flexible-positioning-movable-and-pinching-antennas-next-generation-wireless-networks
+url: https://www.comsoc.org/publications/journals/ieee-jsac/cfp/exploiting-flexible-positioning-movable-and-pinching-antennas-next-generation-wireless-networks
+nodes:
+  - id: paper
+    label: 初稿提交
+    type: paper
+    primary: true
+    precision: date
+    date: 2026-10-30
+    instant: null
+    timezone: null
+    original: "Initial Paper Submission: 30 October 2026 (Deadline Extended)"
+    revision: 0
+  - id: decision
+    label: 首次通知
+    type: decision
+    primary: false
+    precision: date
+    date: 2027-01-01
+    instant: null
+    timezone: null
+    original: 2027-01-01
+    revision: 0
+  - id: acceptance
+    label: 录用通知
+    type: decision
+    primary: false
+    precision: date
+    date: 2027-04-01
+    instant: null
+    timezone: null
+    original: 2027-04-01
+    revision: 0
+  - id: final
+    label: 终稿提交
+    type: final
+    primary: false
+    precision: date
+    date: 2027-04-15
+    instant: null
+    timezone: null
+    original: 2027-04-15
+    revision: 0
+verification: verified
+verifiedAt: 2026-10-17
+updatedAt: 2026-10-17T08:00:00Z
+status: announced
+notes: 官方注明截止已延期；本版未核实原截止日期，不填推测值。
+location: null
+eventDates: null
+publication: 2027 年 7 月
+history:
+  - date: 2026-10-17
+    note: 官方标注 Deadline Extended（已延期），当前日期为 2026-10-30。
+topics:
+  - antennas
+  - mimo
+  - isac

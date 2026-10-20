@@ -1,0 +1,41 @@
+# 人工智能赋能水下无线光通信
+# 提交修改请发起 Pull Request（合并请求）；构建产物自动生成。
+id: wcm-underwater-optical-2026
+venueId: wireless-mag
+title: 人工智能赋能水下无线光通信
+titleEn: AI-Empowered Underwater Wireless Optical Communications for Science Exploration and Defense Applications
+kind: special
+areas:
+  - optical
+  - ai
+  - wireless
+tags:
+  - 水下光通信
+  - 人工智能
+  - AI
+  - 光通信
+summary: 水下无线光通信与智能方法的交叉专题。
+sourceUrl: https://www.comsoc.org/publications/magazines/ieee-wireless-communications/cfp/ai-empowered-underwater-wireless-optical-communications-science-exploration-and-defense-applications
+url: https://www.comsoc.org/publications/magazines/ieee-wireless-communications/cfp/ai-empowered-underwater-wireless-optical-communications-science-exploration-and-defense-applications
+nodes:
+  - id: paper
+    label: 稿件提交
+    type: paper
+    primary: true
+    precision: date
+    date: 2026-11-01
+    instant: null
+    timezone: null
+    original: "Manuscript Submission Deadline: 1 November 2026"
+    revision: 0
+verification: verified
+verifiedAt: 2026-10-17
+updatedAt: 2026-10-17T08:00:00Z
+status: announced
+notes: 官方首次决定年份早于投稿截止，日期存在冲突。投稿日期与官方总表一致，通知时间待复核。
+location: null
+eventDates: null
+publication: 2027 年 8 月
+history: []
+topics:
+  - optical-wireless

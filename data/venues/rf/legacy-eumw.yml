@@ -1,0 +1,73 @@
+# EuMW
+# 提交修改请发起 Pull Request（合并请求）；构建产物自动生成。
+id: legacy-eumw
+kind: conference
+short: EuMW
+nameZh: 欧洲微波会议（原表简称EuMW）
+nameEn: EuMW
+aliases: []
+topics:
+  - antennas
+  - microwave
+areas:
+  - rf
+  - wireless
+  - signal
+topicReviewedAt: 2026-10-18
+url: https://xxgk.bupt.edu.cn/__local/F/65/92/3A361334F005A224CD3C6C215B7_43DF8061_C1241.pdf?e=.pdf
+sourceUrl: https://www.eumw.eu/general-information/
+verifiedAt: 2026-10-18
+verification: verified
+catalogStatus: historical-only
+summary: 2018 学科附件中的历史条目；现行名称、举办状态与当届投稿信息待核验。原表英文European microwave Conference与简称EuMW存在名称核对需求。
+publicationType: 学术会议系列
+articleTypes:
+  - 会议论文
+submissionMode: 按具体届次征稿
+assessments:
+  - system: bupt-ict-2018
+    label: 2018 信通学科重要会议表
+    year: 2018
+    sourceUrl: https://xxgk.bupt.edu.cn/__local/F/65/92/3A361334F005A224CD3C6C215B7_43DF8061_C1241.pdf?e=.pdf
+    note: 列入2018版学科附件，硕士渠道见政策说明。原表编号 49，PDF 第 6 页。
+urlLabel: 历史文件
+sourceType: official
+evaluations:
+  - system: ccf
+    year: 2026
+    edition: 第七版公开副本
+    sourceUrl: https://scdm-shu.github.io/ccf/2026-CCF-Ranking.pdf
+    sourceType: document-copy
+    sourceTitle: CCF 2026 完整目录公开副本
+    verifiedAt: 2026-10-18
+    reviewedNames:
+      - EuMW
+      - EuMW
+    note: EuMW2026官方将EuMC、EuMIC、EuRAD列为微波周下的三场独立会议。原表正文European Microwave Conference（欧洲微波会议）指向EuMC，简称EuMW指向微波周，原表身份存在歧义；各系列等级分别保存。
+    status: scope-review
+    value: null
+    reviewedAt: 2026-10-18
+  - system: core
+    year: 2026
+    edition: ICORE2026
+    sourceUrl: https://portal.core.edu.au/conf-ranks/?search=&by=all&source=ICORE2026&sort=atitle
+    sourceType: official
+    sourceTitle: ICORE2026 官方完整会议库
+    verifiedAt: 2026-10-18
+    reviewedNames:
+      - EuMW
+      - EuMW
+    note: EuMW2026官方将EuMC、EuMIC、EuRAD列为微波周下的三场独立会议。原表正文European Microwave Conference（欧洲微波会议）指向EuMC，简称EuMW指向微波周，原表身份存在歧义；各系列等级分别保存。
+    status: scope-review
+    value: null
+    reviewedAt: 2026-10-18
+catalogScope: archive
+scopeReviewedAt: 2026-10-18
+scopeNote: EuMW是包含EuMC/EuMIC/EuRAD的周活动总称；归档总记录，核实独立会议后添加以防评级继承。
+ratingReviewedAt: 2026-10-18
+identityReviewedAt: 2026-10-18
+identityNote: 官方EuMW2026确认它是EuMC、EuMIC、EuRAD三会的总活动；原表正文European Microwave Conference应指EuMC，但简称EuMW指活动周。保留原表歧义，不合并等级。
+primaryArea: rf
+secondaryAreas:
+  - wireless
+  - signal

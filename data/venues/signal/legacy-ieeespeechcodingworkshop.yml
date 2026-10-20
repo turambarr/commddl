@@ -1,0 +1,73 @@
+# IEEE Speech Coding Workshop
+# 提交修改请发起 Pull Request（合并请求）；构建产物自动生成。
+id: legacy-ieeespeechcodingworkshop
+kind: conference
+short: IEEE Speech Coding Workshop
+nameZh: IEEE语音编码研讨会
+nameEn: IEEE Speech Coding Workshop
+aliases: []
+topics:
+  - estimation-sync
+  - imaging
+areas:
+  - signal
+  - wireless
+  - space
+topicReviewedAt: 2026-10-18
+url: https://doi.org/10.1109/SCW.2002.1215745
+sourceUrl: https://doi.org/10.1109/SCW.2002.1215745
+verifiedAt: 2026-10-18
+verification: verified
+catalogStatus: historical-only
+summary: 2018 学科附件中的历史条目；现行名称、举办状态与当届投稿信息待核验。原表未给简称；会议身份及现行状态需核实。
+publicationType: 学术会议系列
+articleTypes:
+  - 会议论文
+submissionMode: 按具体届次征稿
+assessments:
+  - system: bupt-ict-2018
+    label: 2018 信通学科重要会议表
+    year: 2018
+    sourceUrl: https://xxgk.bupt.edu.cn/__local/F/65/92/3A361334F005A224CD3C6C215B7_43DF8061_C1241.pdf?e=.pdf
+    note: 列入2018版学科附件，硕士渠道见政策说明。原表编号 88，PDF 第 8 页。
+urlLabel: 历史文件
+sourceType: official
+evaluations:
+  - system: ccf
+    year: 2026
+    edition: 第七版公开副本
+    sourceUrl: https://scdm-shu.github.io/ccf/2026-CCF-Ranking.pdf
+    sourceType: document-copy
+    sourceTitle: CCF 2026 完整目录公开副本
+    verifiedAt: 2026-10-18
+    reviewedNames:
+      - IEEE Speech Coding Workshop
+      - IEEE Speech Coding Workshop
+    note: 已核实正式系列全称和历史名称，复查完整386个CCF会议条目未列出。
+    status: unlisted
+    value: null
+    reviewedAt: 2026-10-18
+  - system: core
+    year: 2026
+    edition: ICORE2026
+    sourceUrl: https://portal.core.edu.au/conf-ranks/?search=&by=all&source=ICORE2026&sort=atitle
+    sourceType: official
+    sourceTitle: ICORE2026 官方完整会议库
+    verifiedAt: 2026-10-18
+    reviewedNames:
+      - IEEE Speech Coding Workshop
+      - IEEE Speech Coding Workshop
+    note: 已核实正式系列全称和历史名称，复查ICORE2026官方全20页987个记录未列出。
+    status: unlisted
+    value: null
+    reviewedAt: 2026-10-18
+catalogScope: archive
+scopeReviewedAt: 2026-10-18
+scopeNote: 历史语音编码研讨会，当前系列的继承关系待确认；保留稳定编号。
+ratingReviewedAt: 2026-10-18
+identityReviewedAt: 2026-10-18
+identityNote: 出版者DOI记录确认历史SCW身份；当前届次及与其他会合并缺少官方证据，不杜撰更名或停办。
+primaryArea: signal
+secondaryAreas:
+  - wireless
+  - space

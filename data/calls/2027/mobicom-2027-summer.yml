@@ -1,0 +1,65 @@
+# MobiCom 2027 · 夏季轮
+# 提交修改请发起 Pull Request（合并请求）；构建产物自动生成。
+id: mobicom-2027-summer
+venueId: mobicom
+year: 2027
+title: MobiCom 2027 · 夏季轮
+titleEn: ACM International Conference on Mobile Computing and Networking 2027
+kind: conference
+areas:
+  - network
+  - wireless
+  - iot
+  - theory
+  - signal
+topics:
+  - mobile-systems
+  - physical
+  - iot-sensing
+tags: []
+summary: 重点覆盖移动计算与无线系统、调制、波形与物理层、传感器与物联网。
+sourceUrl: https://www.sigmobile.org/mobicom/2027/cfp.html
+url: https://www.sigmobile.org/mobicom/2027/cfp.html
+nodes:
+  - id: abstract
+    label: 摘要／注册
+    type: abstract
+    primary: false
+    precision: instant
+    date: null
+    instant: 2026-08-26T23:59:00-12:00
+    timezone: UTC-12
+    original: 2026-08-26 23:59 AoE
+    revision: 0
+  - id: paper
+    label: 全文提交
+    type: paper
+    primary: true
+    precision: instant
+    date: null
+    instant: 2026-09-02T23:59:00-12:00
+    timezone: UTC-12
+    original: 2026-09-02 23:59 AoE
+    revision: 0
+    requires:
+      - abstract
+  - id: decision
+    label: 录用通知
+    type: decision
+    primary: false
+    precision: date
+    date: 2026-11-19
+    instant: null
+    timezone: null
+    original: 2026-11-19
+    revision: 0
+verification: verified
+verifiedAt: 2026-10-18
+updatedAt: 2026-10-18T08:00:00Z
+status: announced
+notes: 夏季轮已截止，冬季轮官网标为TBD（待定），举办城市未公布。
+location: null
+eventDates: 2027-10-18 / 2027-10-22
+publication: null
+history: []
+sourceType: official

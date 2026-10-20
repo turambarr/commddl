@@ -1,0 +1,108 @@
+# NAVIGATION
+# 提交修改请发起 Pull Request（合并请求）；构建产物自动生成。
+id: navigation
+kind: journal
+short: NAVIGATION
+nameZh: 导航：导航学会期刊
+nameEn: "NAVIGATION: Journal of the Institute of Navigation"
+aliases: []
+areas:
+  - space
+  - signal
+url: https://www.ion.org/navi/index.cfm
+topics:
+  - navigation-pnt
+  - estimation-sync
+topicReviewedAt: 2026-10-18
+summary: 主要面向定位、导航与授时、检测、估计与同步相关研究。
+publicationType: 研究型期刊
+articleTypes:
+  - 研究论文
+submissionMode: 以作者指南及对应栏目要求为准
+sourceUrl: https://www.ion.org/navi/index.cfm
+verifiedAt: 2026-10-18
+verification: verified
+assessments: []
+indexStatus: SCIE
+metricNote: 索引与分区按各自体系、年份查询；学校认定见选用政策文件。
+catalogStatus: current
+evaluations:
+  - system: jcr
+    status: reported
+    value: Q3
+    year: 2024
+    releaseYear: 2025
+    snapshotDate: 2025-06
+    category: TELECOMMUNICATIONS
+    categories:
+      - category: ENGINEERING, AEROSPACE
+        value: Q2
+        page: 223
+      - category: REMOTE SENSING
+        value: Q3
+        page: 710
+      - category: TELECOMMUNICATIONS
+        value: Q3
+        page: 756
+    page: 756
+    sourceUrl: https://uefiscdi.gov.ro/resource-865584-JCR_2024.iunie2025.pdf
+    sourceTitle: 2024 JCR 学科分区转录（2025年6月）
+    sourceType: secondary
+    verifiedAt: 2026-10-18
+    note: 读取政府公开转录的JIF Quartile（期刊影响因子分区）列，保存全部学科，默认展示电信学。
+    reviewedAt: 2026-10-18
+    sourceAuthority: government
+  - system: cas
+    year: 2025
+    edition: 2025升级版
+    snapshotDate: 2026-09-28
+    sourceUrl: https://cce.ncepu.edu.cn/xzzx/yjsjx1/7632005045644e61a0d12c7bbeff6204.htm
+    sourceFileUrl: https://cce.ncepu.edu.cn/docs//2026-09/0e77800bf2744596a26e43c83acceed0.xlsx
+    sourceTitle: 华北电力大学公开的中科院2025升级版转录
+    sourceType: secondary
+    sourceAuthority: university
+    verifiedAt: 2026-10-18
+    reviewedAt: 2026-10-18
+    sheet: 期刊汇总
+    status: reported
+    value: "3"
+    category: 地球科学
+    top: false
+    appliesToName: Navigation-Journal of the Institute of Navigation
+    issn: 0028-1522
+    row: 6166
+    minorCategories:
+      - category: ENGINEERING, AEROSPACE 工程：宇航
+        quartile: 2
+      - category: REMOTE SENSING 遥感
+        quartile: 4
+      - category: TELECOMMUNICATIONS 电信学
+        quartile: 3
+    note: 高校公开的2025升级版转录，2026-09-28导出，原数据来自期刊分区表平台。按完整刊名或旧名唯一对应，保存大类与全部小类分区。
+  - system: ccf
+    status: unlisted
+    value: null
+    year: 2026
+    sourceUrl: https://scdm-shu.github.io/ccf/2026-CCF-Ranking.pdf
+    sourceTitle: CCF2026第七版公开副本
+    sourceType: document-copy
+    reviewedAt: 2026-10-18
+    note: 按英文全名、缩写及已知旧名核对CCF2026公开副本全部295项期刊记录，未列入该版。
+    attempts:
+      - 完整2026公开副本期刊表逐条名称匹配
+      - 已检查可识别旧称/IEEE-ACM更名
+    verifiedAt: 2026-10-18
+indexing:
+  value: SCIE
+  status: verified
+  sourceUrl: https://www.ion.org/navi/
+  sourceTitle: 导航学会：NAVIGATION 收录列表
+  sourceType: publisher
+  verifiedAt: 2026-10-18
+  note: 出版社官网明确列出 Science Citation Index Expanded（科学引文索引扩展版）；为本次官网读取证据，未推定具体论文的入库状态。
+catalogScope: communications
+scopeReviewedAt: 2026-10-18
+scopeNote: 空天地通信、定位与授时交叉载体；通信相关信号处理及感知研究载体
+primaryArea: space
+secondaryAreas:
+  - signal

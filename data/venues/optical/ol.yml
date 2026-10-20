@@ -1,0 +1,120 @@
+# Optics Letters
+# 提交修改请发起 Pull Request（合并请求）；构建产物自动生成。
+id: ol
+kind: journal
+short: Optics Letters
+nameZh: 光学快讯（Optics Letters）
+nameEn: Optics Letters
+aliases: []
+areas:
+  - optical
+  - rf
+url: https://opg.optica.org/ol
+topics:
+  - photonics
+  - fiber
+topicReviewedAt: 2026-10-18
+summary: 主要面向光子器件与集成光学、光纤通信与相干处理相关研究。
+publicationType: 快报期刊
+articleTypes:
+  - 快报
+submissionMode: 以作者指南及对应栏目要求为准
+sourceUrl: https://opg.optica.org/
+verifiedAt: 2026-10-18
+verification: verified
+assessments: []
+indexStatus: SCI／SCIE 收录待核验
+metricNote: 索引与分区按各自体系、年份查询；学校认定见选用政策文件。
+catalogStatus: current
+evaluations:
+  - system: jcr
+    status: reported
+    value: Q2
+    year: 2024
+    releaseYear: 2025
+    snapshotDate: 2025-06
+    category: OPTICS
+    categories:
+      - category: OPTICS
+        value: Q2
+        page: 567
+    page: 567
+    sourceUrl: https://uefiscdi.gov.ro/resource-865584-JCR_2024.iunie2025.pdf
+    sourceTitle: 2024 JCR 学科分区转录（2025年6月）
+    sourceType: secondary
+    verifiedAt: 2026-10-18
+    note: 读取政府公开转录的JIF Quartile（期刊影响因子分区）列，保存全部学科，默认展示电信学。
+    reviewedAt: 2026-10-18
+    sourceAuthority: government
+  - system: cas
+    year: 2025
+    edition: 2025升级版
+    snapshotDate: 2026-09-28
+    sourceUrl: https://cce.ncepu.edu.cn/xzzx/yjsjx1/7632005045644e61a0d12c7bbeff6204.htm
+    sourceFileUrl: https://cce.ncepu.edu.cn/docs//2026-09/0e77800bf2744596a26e43c83acceed0.xlsx
+    sourceTitle: 华北电力大学公开的中科院2025升级版转录
+    sourceType: secondary
+    sourceAuthority: university
+    verifiedAt: 2026-10-18
+    reviewedAt: 2026-10-18
+    sheet: 期刊汇总
+    status: reported
+    value: "2"
+    category: 物理与天体物理
+    top: false
+    appliesToName: OPTICS LETTERS
+    issn: 0146-9592
+    row: 3442
+    minorCategories:
+      - category: OPTICS 光学
+        quartile: 3
+    note: 高校公开的2025升级版转录，2026-09-28导出，原数据来自期刊分区表平台。按完整刊名或旧名唯一对应，保存大类与全部小类分区。
+  - system: ccf
+    status: unlisted
+    value: null
+    year: 2026
+    sourceUrl: https://scdm-shu.github.io/ccf/2026-CCF-Ranking.pdf
+    sourceTitle: CCF2026第七版公开副本
+    sourceType: document-copy
+    reviewedAt: 2026-10-18
+    note: 按英文全名、缩写及已知旧名核对CCF2026公开副本全部295项期刊记录，未列入该版。
+    attempts:
+      - 完整2026公开副本期刊表逐条名称匹配
+      - 已检查可识别旧称/IEEE-ACM更名
+    verifiedAt: 2026-10-18
+  - system: cie
+    year: 2023
+    edition: 2023电子技术、通信技术领域高质量科技期刊分级目录
+    value: T2
+    status: verified
+    sourceUrl: https://www.cie.org.cn/list_42/11930.html
+    sourceTitle: 中国电子学会2023电子技术、通信技术期刊分级目录
+    sourceType: official
+    verifiedAt: 2026-10-19
+    reviewedAt: 2026-10-19
+    issn: 0146-9592
+    row: 134
+    appliesToName: Optics Letters
+    note: 按正式ISSN或完整刊名对应官方232刊表，记录原始T分级及年份。
+indexing:
+  status: reported
+  value: SCIE
+  year: 2024
+  releaseYear: 2025
+  snapshotDate: 2025-06
+  sourceUrl: https://uefiscdi.gov.ro/resource-865584-JCR_2024.iunie2025.pdf
+  sourceTitle: 罗马尼亚科研资助主管机构公开的 2024 JCR 转录表（2025年6月）
+  sourceType: secondary
+  verifiedAt: 2026-10-18
+  page: 567
+  issn: 0146-9592
+  eissn: 1539-4794
+  note: 按期刊全名及ISSN匹配2024 JCR原表Edition（索引版本）列。来源为2025年6月快照转录。
+  reviewedAt: 2026-10-18
+  sourceAuthority: government
+catalogScope: communications
+scopeReviewedAt: 2026-10-18
+scopeNote: 光通信/光网络及器件交叉研究载体
+primaryArea: optical
+secondaryAreas:
+  - rf

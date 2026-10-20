@@ -1,0 +1,43 @@
+# 从原子到网络：6G 量子射频前端
+# 提交修改请发起 Pull Request（合并请求）；构建产物自动生成。
+id: wcm-quantum-radio-2027
+venueId: wireless-mag
+title: 从原子到网络：6G 量子射频前端
+titleEn: "Atomic-to-Network: Quantum Radio Front-Ends for 6G Wireless Communications and Sensing"
+kind: special
+areas:
+  - rf
+  - wireless
+  - signal
+  - space
+tags:
+  - 量子
+  - 射频前端
+  - 通感一体化
+  - ISAC
+  - 6G
+summary: 量子与原子射频前端及其通信、感知和网络集成。
+sourceUrl: https://www.comsoc.org/publications/magazines/ieee-wireless-communications/cfp/atomic-network-quantum-radio-front-ends-6g-wireless-communications-and-sensing
+url: https://www.comsoc.org/publications/magazines/ieee-wireless-communications/cfp/atomic-network-quantum-radio-front-ends-6g-wireless-communications-and-sensing
+nodes:
+  - id: paper
+    label: 稿件提交
+    type: paper
+    primary: true
+    precision: date
+    date: 2027-03-01
+    instant: null
+    timezone: null
+    original: "Manuscript Submission Deadline: 1 March 2027"
+    revision: 0
+verification: verified
+verifiedAt: 2026-10-17
+updatedAt: 2026-10-17T08:00:00Z
+status: announced
+notes: ""
+location: null
+eventDates: null
+publication: 2027 年 12 月
+history: []
+topics:
+  - quantum

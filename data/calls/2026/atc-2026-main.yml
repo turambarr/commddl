@@ -1,0 +1,72 @@
+# ATC 2026 · 主会论文
+# 提交修改请发起 Pull Request（合并请求）；构建产物自动生成。
+id: atc-2026-main
+venueId: atc
+title: ATC 2026 · 主会论文
+titleEn: International Conference on Advanced Technologies for Communications 2026 main
+year: 2026
+kind: conference
+areas:
+  - wireless
+  - network
+  - signal
+  - rf
+topics:
+  - physical
+  - protocols
+  - arrays
+  - antennas
+tags: []
+summary: ComSoc portfolio与2026官方CFP双重身份依据；已于2026-10-15至17举办。
+url: https://atc-conf.org/call-for-papers/call-for-papers
+sourceUrl: https://atc-conf.org/call-for-papers/call-for-papers
+sourceType: official
+nodes:
+  - id: paper
+    label: 全文提交
+    type: paper
+    primary: true
+    precision: date
+    date: 2026-07-15
+    instant: null
+    timezone: null
+    original: "Manuscript submission: July 15, 2026 (May 30 and June 30 struck through)"
+    revision: 2
+    sourceUrl: https://atc-conf.org/call-for-papers/call-for-papers
+  - id: decision
+    label: 录用通知
+    type: decision
+    primary: false
+    precision: date
+    date: 2026-08-20
+    instant: null
+    timezone: null
+    original: "Notification of Acceptance: 2026-08-20"
+    revision: 0
+    sourceUrl: https://atc-conf.org/call-for-papers/call-for-papers
+  - id: final
+    label: 终稿提交
+    type: final
+    primary: false
+    precision: date
+    date: 2026-09-05
+    instant: null
+    timezone: null
+    original: "Camera-Ready / Final Manuscript: 2026-09-05"
+    revision: 0
+    sourceUrl: https://atc-conf.org/call-for-papers/call-for-papers
+verification: verified
+verifiedAt: 2026-10-18
+checkedAt: 2026-10-18
+updatedAt: 2026-10-18T04:00:00Z
+status: announced
+notes: 官网公布截止日期，钟点或时区未注明，按日期展示。
+location: 越南·归仁
+eventStart: 2026-10-15
+eventEnd: 2026-10-17
+eventDates: 2026-10-15 / 2026-10-17
+publication: null
+history:
+  - date: 2026-10-18
+    note: 官网将May 30、June 30划去，当前全文July 15；通知由July 30改August 20，终稿由August 15改September 5。
+eventSourceUrl: https://atc-conf.org/

@@ -1,0 +1,73 @@
+# CoNEXT 2027 · 12月轮
+# 提交修改请发起 Pull Request（合并请求）；构建产物自动生成。
+id: conext-2027-december
+venueId: conext
+year: 2027
+title: CoNEXT 2027 · 12月轮
+titleEn: ACM International Conference on emerging Networking EXperiments and Technologies 2027
+kind: conference
+areas:
+  - network
+  - iot
+  - ai
+topics:
+  - protocols
+  - measurement
+  - edge-cloud
+tags: []
+summary: 重点覆盖网络协议与体系结构、网络测量与性能分析、边缘计算与云网络。
+sourceUrl: https://conferences.sigcomm.org/co-next/2027/partials/cfp.html
+url: https://conferences.sigcomm.org/co-next/2027/partials/cfp.html
+nodes:
+  - id: abstract
+    label: 论文注册
+    type: abstract
+    primary: false
+    precision: instant
+    date: null
+    instant: 2026-11-27T23:59:00-12:00
+    timezone: UTC-12
+    original: 2026-11-27 23:59 AoE
+    revision: 0
+  - id: paper
+    label: 全文提交
+    type: paper
+    primary: true
+    precision: instant
+    date: null
+    instant: 2026-12-04T23:59:00-12:00
+    timezone: UTC-12
+    original: 2026-12-04 23:59 AoE
+    revision: 0
+    requires:
+      - abstract
+  - id: decision
+    label: 录用通知
+    type: decision
+    primary: false
+    precision: instant
+    date: null
+    instant: 2027-03-31T23:59:00-12:00
+    timezone: UTC-12
+    original: 2027-03-31 23:59 AoE
+    revision: 0
+  - id: final
+    label: 终稿提交
+    type: final
+    primary: false
+    precision: instant
+    date: null
+    instant: 2027-04-30T23:59:00-12:00
+    timezone: UTC-12
+    original: 2027-04-30 23:59 AoE
+    revision: 0
+verification: verified
+verifiedAt: 2026-10-18
+updatedAt: 2026-10-18T08:00:00Z
+status: announced
+notes: 官方征稿列出两个独立新投稿轮次。重大修改节点适用于获修改机会的稿件。SIGCOMM系列总页将2027里约热内卢会期列为待确认。
+location: null
+eventDates: null
+publication: Proceedings of the ACM on Networking（ACM网络汇刊）/ CoNEXT 2027
+history: []
+sourceType: official

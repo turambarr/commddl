@@ -1,0 +1,140 @@
+# 中兴通讯技术
+# 提交修改请发起 Pull Request（合并请求）；构建产物自动生成。
+id: cn-zte
+kind: journal
+short: 中兴通讯技术
+nameZh: 中兴通讯技术
+nameEn: ZTE Technology Journal
+issn: 1009-6868
+aliases:
+  - 中兴新通讯
+areas:
+  - wireless
+  - network
+topics:
+  - physical
+  - protocols
+  - ai-communications
+  - edge-cloud
+url: https://tech.zte.com.cn/
+sourceUrl: https://tech.zte.com.cn/content/zte-tech/about.html
+sourceType: publisher
+verifiedAt: 2026-10-19
+verification: verified
+identityReviewedAt: 2026-10-19
+identityNote: 官方中英文两刊合站，中文ZTE Technology Journal与英文ZTE Communications不同；只取中文段北大2023，不套英文Scopus。
+topicReviewedAt: 2026-10-19
+summary: 通信系统、网络架构与通信智能技术研究。
+publicationType: 研究型期刊
+articleTypes:
+  - 研究论文
+  - 综述
+submissionMode: 通过官方作者入口在线投稿；以作者指南为准
+authorGuideUrl: https://tech.zte.com.cn/content/zte-tech/submissionnotice.html
+assessments: []
+catalogScope: communications
+catalogStatus: current
+scopeReviewedAt: 2026-10-19
+evaluations:
+  - system: jcr
+    year: 2024
+    releaseYear: 2025
+    snapshotDate: 2025-06
+    sourceUrl: https://uefiscdi.gov.ro/resource-865584-JCR_2024.iunie2025.pdf
+    sourceTitle: 2024 JCR政府公开转录（2025年6月）
+    sourceType: secondary
+    sourceAuthority: government
+    verifiedAt: 2026-10-19
+    reviewedAt: 2026-10-19
+    status: unlisted
+    value: null
+    reviewedNames:
+      - ZTE Technology Journal
+      - 中兴通讯技术
+      - 中兴新通讯
+    note: 按全名、别名及可得ISSN核对2024 JCR完整转录，该版未提供本刊明确JIF分区。
+  - system: cas
+    year: 2025
+    edition: 2025升级版
+    snapshotDate: 2026-09-28
+    sourceUrl: https://cce.ncepu.edu.cn/xzzx/yjsjx1/7632005045644e61a0d12c7bbeff6204.htm
+    sourceFileUrl: https://cce.ncepu.edu.cn/docs//2026-09/0e77800bf2744596a26e43c83acceed0.xlsx
+    sourceTitle: 华北电力大学公开的中科院2025升级版转录
+    sourceType: secondary
+    sourceAuthority: university
+    verifiedAt: 2026-10-19
+    reviewedAt: 2026-10-19
+    sheet: 期刊汇总
+    status: unlisted
+    value: null
+    reviewedNames:
+      - ZTE Technology Journal
+      - 中兴通讯技术
+      - 中兴新通讯
+    note: 按正式全名、别名及可得ISSN核对2025年21772刊完整转录，未列入该版。
+  - system: ccf
+    year: 2026
+    edition: 第七版公开副本
+    sourceUrl: https://scdm-shu.github.io/ccf/2026-CCF-Ranking.pdf
+    sourceTitle: CCF2026国际会议期刊目录公开副本
+    sourceType: document-copy
+    verifiedAt: 2026-10-19
+    reviewedAt: 2026-10-19
+    reviewedNames:
+      - ZTE Technology Journal
+      - 中兴通讯技术
+      - 中兴新通讯
+    status: unlisted
+    value: null
+    note: 按正式全名与已核实别名核对CCF2026国际会议期刊目录公开副本，未列入该版。中文期刊推荐目录另行发布。
+  - system: cic
+    year: 2021
+    value: T2
+    status: reported
+    edition: 2021通信领域高质量科技期刊分级目录
+    sourceUrl: https://www.cast.org.cn/cms_files/filemanager/583933374/attach/20259/3615926ac66743e58aca81b6835a674d.pdf
+    sourceTitle: 中国科协高质量科技期刊分级目录汇编：通信学会2021目录
+    sourceType: document-copy
+    verifiedAt: 2026-10-19
+    reviewedAt: 2026-10-19
+    issn: 1009-6868
+    page: 171
+    appliesToName: 中兴通讯技术
+    note: 中国科协汇编转载的通信学会2021中文40刊目录，按ISSN或中文刊名唯一匹配；外国35刊未分级，不补造T等级。
+  - system: cie
+    year: 2023
+    edition: 2023电子技术、通信技术领域高质量科技期刊分级目录
+    value: T3
+    status: verified
+    sourceUrl: https://www.cie.org.cn/list_42/11930.html
+    sourceTitle: 中国电子学会2023电子技术、通信技术期刊分级目录
+    sourceType: official
+    verifiedAt: 2026-10-19
+    reviewedAt: 2026-10-19
+    issn: 1009-6868
+    row: 142
+    appliesToName: 中兴通讯技术
+    note: 按正式ISSN或完整刊名对应官方232刊表，记录原始T分级及年份。
+indexing:
+  value: null
+  status: unresolved
+  verifiedAt: 2026-10-19
+  reviewedAt: 2026-10-19
+  note: 已核对可得来源，当前WoS（科学引文数据库）索引未确认；已确认的EI、CSCD及中文核心等属性分别列出。
+otherIndexes:
+  - value: 北大核心
+    status: verified
+    sourceUrl: https://tech.zte.com.cn/content/zte-tech/about.html
+    sourceTitle: 官方介绍明确入编《中文核心期刊要目总览》2023版
+    sourceType: publisher
+    verifiedAt: 2026-10-19
+    reviewedAt: 2026-10-19
+    snapshotDate: 2026-10-19
+    note: 官方来源明确列入2023版《中文核心期刊要目总览》。
+    year: 2023
+    edition: 2023年第10版
+submissionUrl: https://zxtx.cbpt.cnki.net/EditorE3N/index.aspx?t=1
+ratingReviewedAt: 2026-10-19
+primaryArea: wireless
+secondaryAreas:
+  - network

@@ -4,3 +4,8 @@ dist/
 release/
 artifacts/
 *.log
+# Compiled outputs: contribute YAML source files, not generated shared files.
+data/catalog.json
+assets/data.js
+calendars/*.ics
+maintenance/review-queue.json

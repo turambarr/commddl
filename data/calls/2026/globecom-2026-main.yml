@@ -1,0 +1,75 @@
+# GLOBECOM 2026 · 主会论文
+# 提交修改请发起 Pull Request（合并请求）；构建产物自动生成。
+id: globecom-2026-main
+venueId: globecom
+title: GLOBECOM 2026 · 主会论文
+titleEn: IEEE Global Communications Conference 2026 main
+year: 2026
+kind: conference
+areas:
+  - wireless
+  - network
+  - signal
+topics:
+  - physical
+  - mimo
+  - access
+  - protocols
+  - optical-networks
+  - satellite-ntn
+  - isac
+  - channel-coding
+  - ai-communications
+  - security
+tags: []
+summary: 覆盖通信理论、无线系统与网络。
+url: https://globecom2026.ieee-globecom.org/authors/call-symposium-papers
+sourceUrl: https://globecom2026.ieee-globecom.org/authors/call-symposium-papers
+sourceType: official
+nodes:
+  - id: paper
+    label: 全文提交
+    type: paper
+    primary: true
+    precision: date
+    date: 2026-05-03
+    instant: null
+    timezone: null
+    original: "Deadline for Paper Submission: 3 May 2026 (Firm Deadline!)"
+    revision: 0
+    sourceUrl: https://globecom2026.ieee-globecom.org/authors/call-symposium-papers
+  - id: decision
+    label: 录用通知
+    type: decision
+    primary: false
+    precision: date
+    date: 2026-08-01
+    instant: null
+    timezone: null
+    original: "Notification of Acceptance: 2026-08-01"
+    revision: 0
+    sourceUrl: https://globecom2026.ieee-globecom.org/authors/call-symposium-papers
+  - id: final
+    label: 终稿提交
+    type: final
+    primary: false
+    precision: date
+    date: 2026-09-08
+    instant: null
+    timezone: null
+    original: "Camera-Ready / Final Manuscript: 2026-09-08"
+    revision: 0
+    sourceUrl: https://globecom2026.ieee-globecom.org/authors/call-symposium-papers
+verification: verified
+verifiedAt: 2026-10-18
+checkedAt: 2026-10-18
+updatedAt: 2026-10-18T04:00:00Z
+status: announced
+notes: 官网公布截止日期，钟点或时区未注明，按日期展示。
+location: 中国·澳门
+eventStart: 2026-12-07
+eventEnd: 2026-12-11
+eventDates: 2026-12-07 / 2026-12-11
+publication: null
+history: []
+eventSourceUrl: https://globecom2026.ieee-globecom.org

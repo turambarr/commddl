@@ -1,0 +1,80 @@
+# SPAWC 2026 · 主会论文
+# 提交修改请发起 Pull Request（合并请求）；构建产物自动生成。
+id: spawc-2026-main
+venueId: spawc
+title: SPAWC 2026 · 主会论文
+titleEn: IEEE Workshop on Signal Processing Advances in Wireless Communications
+year: 2026
+kind: conference
+areas:
+  - wireless
+  - signal
+topics:
+  - estimation-sync
+  - mimo
+  - physical
+  - isac
+tags: []
+summary: ""
+url: https://2026.ieeespawc.org/
+sourceUrl: https://2026.ieeespawc.org/
+sourceType: official
+nodes:
+  - id: paper
+    label: 全文提交
+    type: paper
+    primary: true
+    precision: date
+    date: 2026-04-05
+    instant: null
+    timezone: null
+    original: 2026-04-05
+    revision: 0
+  - id: decision
+    label: 录用通知
+    type: decision
+    primary: false
+    precision: date
+    date: 2026-06-14
+    instant: null
+    timezone: null
+    original: 2026-06-14
+    revision: 0
+  - id: final
+    label: 终稿提交
+    type: final
+    primary: false
+    precision: date
+    date: 2026-07-28
+    instant: null
+    timezone: null
+    original: 2026-07-28
+    revision: 0
+  - id: registration
+    label: 作者注册
+    type: registration
+    primary: false
+    precision: date
+    date: 2026-07-28
+    instant: null
+    timezone: null
+    original: 2026-07-28
+    revision: 0
+verification: verified
+verifiedAt: 2026-10-18
+checkedAt: 2026-10-18
+updatedAt: 2026-10-18T04:00:00Z
+status: announced
+notes: 最新已核实论文届次为2026，投稿截止从3月22日延至4月5日。会期采用大会当前官网9月6—9日，学会旧列表为9月7—9日。2027学会页面征集主办提案。
+location: 希腊·雅典
+eventStart: 2026-09-06
+eventEnd: 2026-09-09
+eventDates: 2026-09-06 / 2026-09-09
+publication: null
+history:
+  - type: deadline-extension
+    nodeId: paper
+    from: 2026-03-22
+    to: 2026-04-05
+    sourceUrl: https://2026.ieeespawc.org/
+    checkedAt: 2026-10-18

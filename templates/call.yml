@@ -1,0 +1,35 @@
+# 新征稿模板；年份为会议届次，截止可以在前一年。
+id: replace-id-2027-main
+venueId: replace-id
+title: 替换会议名称 2027 · 主会论文
+titleEn: Replace conference name 2027 main
+year: 2027
+kind: conference
+areas:
+  - wireless
+topics:
+  - physical
+tags: []
+summary: 填写本届征稿内容。
+url: https://example.org/replace-with-official-source
+sourceUrl: https://example.org/replace-with-official-source
+sourceType: official
+verification: pending
+verifiedAt: YYYY-MM-DD
+updatedAt: YYYY-MM-DDTHH:mm:ssZ
+status: announced
+location: null
+eventStart: null
+eventEnd: null
+nodes:
+  - id: paper
+    label: 全文提交
+    type: paper
+    primary: true
+    precision: unknown
+    date: null
+    instant: null
+    timezone: null
+    original: 填写官方日期原文
+    revision: 0
+history: []

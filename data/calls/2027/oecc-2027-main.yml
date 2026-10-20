@@ -1,0 +1,65 @@
+# OECC & IP 2027 · 主会论文
+# 提交修改请发起 Pull Request（合并请求）；构建产物自动生成。
+id: oecc-2027-main
+venueId: oecc
+title: OECC & IP 2027 · 主会论文
+titleEn: OptoElectronics and Communications Conference
+year: 2027
+kind: conference
+areas:
+  - optical
+  - signal
+  - network
+topics:
+  - fiber
+  - optical-networks
+tags: []
+summary: ""
+url: https://www.oeccip2027.org/pages/38
+sourceUrl: https://www.oeccip2027.org/pages/38
+sourceType: official
+nodes:
+  - id: paper
+    label: 全文提交
+    type: paper
+    primary: true
+    precision: date
+    date: 2027-02-21
+    instant: null
+    timezone: null
+    original: 2027-02-21
+    revision: 0
+  - id: decision
+    label: 录用通知
+    type: decision
+    primary: false
+    precision: date
+    date: 2027-04-30
+    instant: null
+    timezone: null
+    original: 2027-04-30
+    revision: 0
+  - id: registration
+    label: 作者注册
+    type: registration
+    primary: false
+    precision: date
+    date: 2027-05-23
+    instant: null
+    timezone: null
+    original: 2027-05-23
+    revision: 0
+verification: verified
+verifiedAt: 2026-10-18
+checkedAt: 2026-10-18
+updatedAt: 2026-10-18T04:00:00Z
+status: announced
+notes: 2027光电子与光通信会议和整合光子学会议联合举行。投稿11月1日开放；官网未公布钟点和时区。
+location: 中国台湾·台中
+eventStart: 2027-07-04
+eventEnd: 2027-07-08
+eventDates: 2027-07-04 / 2027-07-08
+publication: null
+history: []
+submissionOpens: 2026-11-01
+eventSourceUrl: https://oeccip2027.org/pages/15

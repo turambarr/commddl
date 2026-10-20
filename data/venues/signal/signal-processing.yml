@@ -1,0 +1,165 @@
+# Signal Processing
+# 提交修改请发起 Pull Request（合并请求）；构建产物自动生成。
+id: signal-processing
+kind: journal
+short: Signal Processing
+nameZh: 信号处理（英文）
+nameEn: Signal Processing
+aliases: []
+areas:
+  - signal
+  - wireless
+url: https://www.sciencedirect.com/journal/signal-processing
+topics:
+  - estimation-sync
+  - arrays
+  - radar
+  - imaging
+topicReviewedAt: 2026-10-18
+summary: 主要面向检测、估计与同步、阵列与多通道处理、雷达、声呐与目标跟踪相关研究。
+publicationType: 研究型期刊
+articleTypes:
+  - 研究论文
+submissionMode: 以作者指南及对应栏目要求为准
+sourceUrl: https://shop.elsevier.com/journals/signal-processing/0165-1684
+verifiedAt: 2026-10-18
+verification: verified
+assessments: []
+indexStatus: SCI／SCIE 收录待核验
+metricNote: 索引与分区按各自体系、年份查询；学校认定见选用政策文件。
+catalogStatus: current
+evaluations:
+  - system: jcr
+    status: reported
+    value: Q2
+    year: 2024
+    releaseYear: 2025
+    snapshotDate: 2025-06
+    category: ENGINEERING, ELECTRICAL & ELECTRONIC
+    categories:
+      - category: ENGINEERING, ELECTRICAL & ELECTRONIC
+        value: Q2
+        page: 243
+    page: 243
+    sourceUrl: https://uefiscdi.gov.ro/resource-865584-JCR_2024.iunie2025.pdf
+    sourceTitle: 2024 JCR 学科分区转录（2025年6月）
+    sourceType: secondary
+    verifiedAt: 2026-10-18
+    note: 读取政府公开转录的JIF Quartile（期刊影响因子分区）列，保存全部学科，默认展示电信学。
+    reviewedAt: 2026-10-18
+    sourceAuthority: government
+  - system: cas
+    year: 2025
+    edition: 2025升级版
+    snapshotDate: 2026-09-28
+    sourceUrl: https://cce.ncepu.edu.cn/xzzx/yjsjx1/7632005045644e61a0d12c7bbeff6204.htm
+    sourceFileUrl: https://cce.ncepu.edu.cn/docs//2026-09/0e77800bf2744596a26e43c83acceed0.xlsx
+    sourceTitle: 华北电力大学公开的中科院2025升级版转录
+    sourceType: secondary
+    sourceAuthority: university
+    verifiedAt: 2026-10-18
+    reviewedAt: 2026-10-18
+    sheet: 期刊汇总
+    status: reported
+    value: "2"
+    category: 工程技术
+    top: false
+    appliesToName: SIGNAL PROCESSING
+    issn: 0165-1684
+    row: 2854
+    minorCategories:
+      - category: ENGINEERING, ELECTRICAL & ELECTRONIC 工程：电子与电气
+        quartile: 3
+    note: 高校公开的2025升级版转录，2026-09-28导出，原数据来自期刊分区表平台。按完整刊名或旧名唯一对应，保存大类与全部小类分区。
+  - system: ccf
+    status: reported
+    value: C
+    year: 2026
+    edition: 第七版公开副本
+    category: 计算机图形学与多媒体
+    page: 46
+    sourceUrl: https://scdm-shu.github.io/ccf/2026-CCF-Ranking.pdf
+    officialUrl: https://www.ccf.org.cn/Academic_Evaluation/By_category/
+    sourceTitle: CCF 2026 目录公开副本
+    sourceType: document-copy
+    verifiedAt: 2026-10-18
+    appliesToName: Signal Processing
+    note: 等级读取自CCF编制文件公开副本。
+  - system: ccf
+    year: 2015
+    edition: CCF2015
+    sourceUrl: https://lib.ecnu.edu.cn/_upload/article/files/e2/d9/dd45764345088869915f6b3617a4/5b8fc1d6-d5bb-487d-a1db-42825ebc312a.pdf
+    sourceType: document-copy
+    sourceTitle: CCF2015 完整目录公开副本
+    verifiedAt: 2026-10-19
+    reviewedAt: 2026-10-19
+    status: reported
+    value: C
+    appliesToName: Signal Processing
+    category: 计算机图形学与多媒体
+    page: 46
+    note: 按完整英文名称核对 CCF2015 目录 PDF 第 46 页。该等级属于 2015 年版本；保存公开副本来源属性。
+  - system: ccf
+    year: 2019
+    edition: CCF2019
+    sourceUrl: https://lib.ecnu.edu.cn/_upload/article/files/e2/d9/dd45764345088869915f6b3617a4/bc806894-08bb-40d3-addb-b58a5d9e5fd1.pdf
+    sourceType: document-copy
+    sourceTitle: CCF2019 完整目录公开副本
+    verifiedAt: 2026-10-19
+    reviewedAt: 2026-10-19
+    status: reported
+    value: C
+    appliesToName: Signal Processing
+    category: 计算机图形学与多媒体
+    page: 46
+    note: 按完整英文名称核对 CCF2019 目录 PDF 第 46 页。该等级属于 2019 年版本；保存公开副本来源属性。
+  - system: ccf
+    year: 2022
+    edition: CCF2022
+    sourceUrl: https://lib.ecnu.edu.cn/_upload/article/files/e2/d9/dd45764345088869915f6b3617a4/e98393b5-2703-45f2-8562-6622bbdcf8c1.pdf
+    sourceType: document-copy
+    sourceTitle: CCF2022 完整目录公开副本
+    verifiedAt: 2026-10-19
+    reviewedAt: 2026-10-19
+    status: reported
+    value: C
+    appliesToName: Signal Processing
+    category: 计算机图形学与多媒体
+    page: 46
+    note: 按完整英文名称核对 CCF2022 目录 PDF 第 46 页。该等级属于 2022 年版本；保存公开副本来源属性。
+  - system: cie
+    year: 2023
+    edition: 2023电子技术、通信技术领域高质量科技期刊分级目录
+    value: T3
+    status: verified
+    sourceUrl: https://www.cie.org.cn/list_42/11930.html
+    sourceTitle: 中国电子学会2023电子技术、通信技术期刊分级目录
+    sourceType: official
+    verifiedAt: 2026-10-19
+    reviewedAt: 2026-10-19
+    issn: 0165-1684
+    row: 226
+    appliesToName: Signal Processing
+    note: 按正式ISSN或完整刊名对应官方232刊表，记录原始T分级及年份。
+indexing:
+  status: reported
+  value: SCIE
+  year: 2024
+  releaseYear: 2025
+  snapshotDate: 2025-06
+  sourceUrl: https://uefiscdi.gov.ro/resource-865584-JCR_2024.iunie2025.pdf
+  sourceTitle: 罗马尼亚科研资助主管机构公开的 2024 JCR 转录表（2025年6月）
+  sourceType: secondary
+  verifiedAt: 2026-10-18
+  page: 243
+  issn: 0165-1684
+  eissn: 1872-7557
+  note: 按期刊全名及ISSN匹配2024 JCR原表Edition（索引版本）列。来源为2025年6月快照转录。
+  reviewedAt: 2026-10-18
+  sourceAuthority: government
+catalogScope: communications
+scopeReviewedAt: 2026-10-18
+scopeNote: 通信相关信号处理及感知研究载体
+primaryArea: signal
+secondaryAreas:
+  - wireless

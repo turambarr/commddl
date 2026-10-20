@@ -1,0 +1,129 @@
+# ISSCC
+# 提交修改请发起 Pull Request（合并请求）；构建产物自动生成。
+id: isscc
+kind: conference
+short: ISSCC
+nameEn: IEEE International Solid-State Circuits Conference
+nameZh: IEEE 国际固态电路会议
+aliases: []
+areas:
+  - rf
+  - wireless
+  - signal
+primaryArea: rf
+secondaryAreas:
+  - wireless
+  - signal
+topics:
+  - microwave
+  - antennas
+  - thz
+url: https://www.isscc.org/
+sourceUrl: https://www.isscc.org/
+sourceType: official
+verification: verified
+verifiedAt: 2026-10-19
+catalogStatus: current
+catalogScope: communications
+publicationType: 会议系列
+articleTypes:
+  - 研究论文
+assessments: []
+evaluations:
+  - system: ccf
+    year: 2026
+    edition: 第七版公开副本
+    sourceUrl: https://scdm-shu.github.io/ccf/2026-CCF-Ranking.pdf
+    sourceTitle: CCF2026国际会议期刊目录公开副本
+    sourceType: document-copy
+    verifiedAt: 2026-10-19
+    reviewedAt: 2026-10-19
+    reviewedNames:
+      - IEEE International Solid-State Circuits Conference
+      - IEEE 国际固态电路会议
+    status: unlisted
+    value: null
+    note: 按正式全名与已核实别名对照CCF2026公开副本完整目录未列；不等于低等级，不含另行发布的中文期刊推荐目录。
+  - system: core
+    year: 2026
+    edition: ICORE2026
+    sourceUrl: https://portal.core.edu.au/conf-ranks/?search=&by=all&source=ICORE2026&sort=atitle
+    sourceTitle: ICORE2026官方完整987条会议库
+    sourceType: official
+    verifiedAt: 2026-10-19
+    reviewedAt: 2026-10-19
+    reviewedNames:
+      - IEEE International Solid-State Circuits Conference
+      - IEEE 国际固态电路会议
+    status: unlisted
+    value: null
+    note: 按正式全名与已核实别名对照ICORE2026官方987条完整库未列，不等于低等级；未按同简称的其他会议赋级。
+  - system: core
+    year: 2018
+    edition: CORE2018
+    sourceUrl: https://portal.core.edu.au/conf-ranks/?search=ISSCC&by=acronym&source=CORE2018
+    sourceType: official
+    sourceTitle: CORE2018 官方完整会议库
+    verifiedAt: 2026-10-19
+    reviewedAt: 2026-10-19
+    status: verified
+    value: A
+    appliesToName: IEEE International Solid-State Circuits Conference
+    note: 核对 CORE2018 官方完整 CSV 导出（1625 条），以正式全称及已确认的系列名称匹配。该等级属于 2018 年版本。
+    sourceRecordId: "2081"
+  - system: core
+    year: 2017
+    edition: CORE2017
+    sourceUrl: https://portal.core.edu.au/conf-ranks/?search=ISSCC&by=acronym&source=CORE2017
+    sourceType: official
+    sourceTitle: CORE2017 官方完整会议库
+    verifiedAt: 2026-10-19
+    reviewedAt: 2026-10-19
+    status: verified
+    value: A
+    appliesToName: IEEE International Solid-State Circuits Conference
+    note: 核对 CORE2017 官方完整 CSV 导出（1592 条），以正式全称及已确认的系列名称匹配。该等级属于 2017 年版本。
+    sourceRecordId: "2081"
+  - system: core
+    year: 2014
+    edition: CORE2014
+    sourceUrl: https://portal.core.edu.au/conf-ranks/?search=ISSCC&by=acronym&source=CORE2014
+    sourceType: official
+    sourceTitle: CORE2014 官方完整会议库
+    verifiedAt: 2026-10-19
+    reviewedAt: 2026-10-19
+    status: verified
+    value: A
+    appliesToName: IEEE International Solid-State Circuits Conference
+    note: 核对 CORE2014 官方完整 CSV 导出（1628 条），以正式全称及已确认的系列名称匹配。该等级属于 2014 年版本。
+    sourceRecordId: "2081"
+  - system: core
+    year: 2013
+    edition: CORE2013
+    sourceUrl: https://portal.core.edu.au/conf-ranks/?search=ISSCC&by=acronym&source=CORE2013
+    sourceType: official
+    sourceTitle: CORE2013 官方完整会议库
+    verifiedAt: 2026-10-19
+    reviewedAt: 2026-10-19
+    status: verified
+    value: A
+    appliesToName: IEEE International Solid-State Circuits Conference
+    note: 核对 CORE2013 官方完整 CSV 导出（1615 条），以正式全称及已确认的系列名称匹配。该等级属于 2013 年版本。
+    sourceRecordId: "2081"
+  - system: core
+    year: 2008
+    edition: CORE2008
+    sourceUrl: https://portal.core.edu.au/conf-ranks/?search=ISSCC&by=acronym&source=CORE2008
+    sourceType: official
+    sourceTitle: CORE2008 官方完整会议库
+    verifiedAt: 2026-10-19
+    reviewedAt: 2026-10-19
+    status: verified
+    value: A
+    appliesToName: IEEE International Solid-State Circuits Conference
+    note: 核对 CORE2008 官方完整 CSV 导出（933 条），以正式全称及已确认的系列名称匹配。该等级属于 2008 年版本。
+    sourceRecordId: "2081"
+submissionMode: 查看当届征稿
+topicReviewedAt: 2026-10-19
+scopeReviewedAt: 2026-10-19
+ratingReviewedAt: 2026-10-19

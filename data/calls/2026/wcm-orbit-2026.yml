@@ -1,0 +1,42 @@
+# 在轨计算：迈向空间智能时代
+# 提交修改请发起 Pull Request（合并请求）；构建产物自动生成。
+id: wcm-orbit-2026
+venueId: wireless-mag
+title: 在轨计算：迈向空间智能时代
+titleEn: "In-Orbit Computing: Striding into the Era of Space-Centric Intelligence"
+kind: special
+areas:
+  - space
+  - network
+  - ai
+tags:
+  - 卫星
+  - 在轨计算
+  - 空天地
+  - 边缘计算
+  - 星上
+summary: 面向空间系统的在轨计算与通信协同。
+sourceUrl: https://www.comsoc.org/publications/magazines/ieee-wireless-communications/cfp/orbit-computing-striding-era-space-centric-intelligence
+url: https://www.comsoc.org/publications/magazines/ieee-wireless-communications/cfp/orbit-computing-striding-era-space-centric-intelligence
+nodes:
+  - id: paper
+    label: 稿件提交
+    type: paper
+    primary: true
+    precision: date
+    date: 2026-11-01
+    instant: null
+    timezone: null
+    original: "Manuscript Submission Deadline: 1 November 2026"
+    revision: 0
+verification: verified
+verifiedAt: 2026-10-17
+updatedAt: 2026-10-17T08:00:00Z
+status: announced
+notes: ""
+location: null
+eventDates: null
+publication: 2027 年 8 月
+history: []
+topics:
+  - satellite-ntn

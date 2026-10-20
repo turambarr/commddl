@@ -1,0 +1,68 @@
+# ITW 2027 · 主会论文
+# 提交修改请发起 Pull Request（合并请求）；构建产物自动生成。
+id: itw-2027-main
+venueId: itw
+title: ITW 2027 · 主会论文
+titleEn: IEEE Information Theory Workshop
+year: 2027
+kind: conference
+areas:
+  - theory
+topics:
+  - information-theory
+  - channel-coding
+  - source-coding
+tags: []
+summary: ""
+url: https://2027.ieee-itw.org/
+sourceUrl: https://2027.ieee-itw.org/
+sourceType: official
+nodes:
+  - id: paper
+    label: 全文提交
+    type: paper
+    primary: true
+    precision: instant
+    date: null
+    instant: 2026-10-11T23:59:00-12:00
+    timezone: UTC-12:00
+    original: "Extended: October 11, 2026, 11:59 PM AoE (UTC−12)"
+    revision: 0
+  - id: decision
+    label: 录用通知
+    type: decision
+    primary: false
+    precision: date
+    date: 2026-12-15
+    instant: null
+    timezone: null
+    original: 2026-12-15
+    revision: 0
+  - id: final
+    label: 终稿提交
+    type: final
+    primary: false
+    precision: instant
+    date: null
+    instant: 2027-01-15T23:59:00-12:00
+    timezone: UTC-12:00
+    original: January 15, 2027, 11:59 PM AoE
+    revision: 0
+verification: verified
+verifiedAt: 2026-10-18
+checkedAt: 2026-10-18
+updatedAt: 2026-10-18T04:00:00Z
+status: announced
+notes: 独立举办的信息论研讨会，按正式会议记录。投稿截止已由10月2日延期至10月11日；截至核验日已经截止。网页标题残留2026，正文明确2027，采用正文届次。
+location: 德国·慕尼黑
+eventStart: 2027-04-05
+eventEnd: 2027-04-08
+eventDates: 2027-04-05 / 2027-04-08
+publication: null
+history:
+  - type: deadline-extension
+    nodeId: paper
+    from: 2026-10-02
+    to: 2026-10-11
+    sourceUrl: https://2027.ieee-itw.org/
+    checkedAt: 2026-10-18

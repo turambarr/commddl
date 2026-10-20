@@ -75,9 +75,9 @@ SCI / SCIE、JCR 分区、中科院分区、CCF 评级和学会分级分别筛�
 | 物联网与车联网 | 无线感知、车联网、工业通信、反向散射 |
 | 智能通信与网络 | 机器学习、分布式学习、语义与任务导向通信 |
 
-**当前目录快照：v0.8.0 · 2026-10-19。** 主目录共 541 个发表载体，另有 40 项历史参考。网页发布 87 项具体征稿，其中 86 项有投稿截止日期，1 项为持续栏目。常规期刊按载体建档，期刊专题与会议届次单独记录日期。
+**当前目录快照：v0.9.0 · 2026-10-20。** 主目录共 541 个发表载体，另有 40 项历史参考。网页发布 87 项具体征稿，其中 86 项有投稿截止日期，1 项为持续栏目。常规期刊按载体建档，期刊专题与会议届次单独记录日期。
 
-[浏览完整目录与来源](docs/CATALOG.md) · [查看截止时间清单](docs/DEADLINES.md) · [了解本次扩充](docs/EXPANSION-v0.8.md)
+[浏览完整目录与来源](docs/CATALOG.md) · [查看截止时间清单](docs/DEADLINES.md) · [了解目录扩充](docs/EXPANSION-v0.8.md)
 
 ## 收录、分区与等级，带着年份看
 
@@ -111,7 +111,9 @@ SCI / SCIE、JCR 分区、中科院分区、CCF 评级和学会分级分别筛�
 
 欢迎补充你熟悉的期刊、会议、专题征稿和延期信息。**补上一个日期、修正一个链接，也能帮到正在准备投稿的同学。**
 
-最方便的方式是[提交补充或纠错](https://github.com/turambarr/commddl/issues/new?template=data.yml)，附上名称、需要修改的内容和官方来源。日期信息尽量保留官网的原始日期、钟点、时区与稿件类型。
+每个期刊、会议和具体征稿各有一个 YAML 文件。在 GitHub 打开对应文件，编辑后发起 Pull Request（合并请求），附上官方依据；自动检查通过、维护者审核合并后发布。日期信息保留官网的原始日期、钟点、时区与稿件类型。
+
+**让 Agent（智能体）协助补录时，先读 [`data/README.md`](data/README.md)。** [贡献说明](CONTRIBUTING.md)列出了操作步骤；网站条目也提供对应 GitHub 源文件入口。新增条目无需维护公共清单，生成的 JSON 和日历由自动流程处理。
 
 也欢迎提交代码或数据修改，改进分类、搜索、日历与手机体验。如果 CommDDL 对你有帮助，欢迎在 GitHub 点个 Star（收藏项目），或分享给实验室和同学。
 
@@ -127,6 +129,7 @@ SCI / SCIE、JCR 分区、中科院分区、CCF 评级和学会分级分别筛�
 ```sh
 git clone https://github.com/turambarr/commddl.git
 cd commddl
+npm ci
 npm run build
 npm run serve
 ```
@@ -137,7 +140,7 @@ npm run serve
 
 构建后生成的 `release/CommDDL.html` 内嵌数据、样式和脚本，可单文件离线查目录；访问期刊、会议官网时连接网络。
 
-也可以直接打开根目录的 `index.html`，并将 `assets/` 文件夹保留在旁边。
+构建后也可以打开根目录的 `index.html`，并将 `assets/` 文件夹保留在旁边。
 
 ### 修改与检查
 
@@ -150,7 +153,10 @@ npm run build
 
 | 位置 | 用途 |
 |---|---|
-| `data/catalog.json` | 完整载体、时间节点与来源证据 |
+| [`data/README.md`](data/README.md) | 面向维护者与 Agent 的字段、来源和提交说明 |
+| `data/venues/<主方向>/<编号>.yml` | 每个期刊、会议系列的独立源文件 |
+| `data/calls/<年份>/<编号>.yml` | 每届会议、轮次或专题的独立源文件 |
+| `data/catalog.json` | 构建时自动合并的完整目录，排除出版本跟踪 |
 | `maintenance/` | 编辑核对队列与身份映射 |
 | `assets/app.js`、`assets/core.js` | 页面交互、筛选、时间与日历规则 |
 | `scripts/`、`tests/` | 校验、构建、覆盖报告与业务测试 |
@@ -163,7 +169,7 @@ npm run build
 
 ## 项目文档
 
-[搜索与筛选](docs/FILTERS.md) · [目录与来源](docs/CATALOG.md) · [数据约定](docs/DATA.md) · [质量检查](docs/QA.md) · [版本记录](CHANGELOG.md)
+[贡献说明](CONTRIBUTING.md) · [搜索与筛选](docs/FILTERS.md) · [目录与来源](docs/CATALOG.md) · [数据约定](docs/DATA.md) · [质量检查](docs/QA.md) · [版本记录](CHANGELOG.md)
 
 ## 致谢与许可
 

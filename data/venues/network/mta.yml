@@ -1,0 +1,151 @@
+# Multimed. Tools Appl.
+# 提交修改请发起 Pull Request（合并请求）；构建产物自动生成。
+id: mta
+kind: journal
+short: Multimed. Tools Appl.
+nameEn: Multimedia Tools and Applications
+nameZh: 多媒体工具与应用
+aliases: []
+issn: 1380-7501
+eissn: 1573-7721
+primaryArea: network
+secondaryAreas:
+  - ai
+  - signal
+areas:
+  - network
+  - ai
+  - signal
+topics:
+  - protocols
+url: https://portal.issn.org/resource/ISSN/1380-7501
+urlKind: registry
+sourceUrl: https://api.crossref.org/journals/1380-7501
+sourceType: registry
+verification: verified
+verifiedAt: 2026-10-19
+identitySourceYear: 2026
+catalogStatus: needs-review
+catalogScope: communications
+publicationType: 研究型期刊
+articleTypes:
+  - 研究论文
+assessments: []
+evaluations:
+  - system: jcr
+    year: 2024
+    releaseYear: 2025
+    snapshotDate: 2025-06
+    sourceUrl: https://uefiscdi.gov.ro/resource-865584-JCR_2024.iunie2025.pdf
+    sourceTitle: 2024 JCR政府公开转录（2025年6月）
+    sourceType: secondary
+    sourceAuthority: government
+    verifiedAt: 2026-10-19
+    reviewedAt: 2026-10-19
+    status: unlisted
+    value: null
+    reviewedNames:
+      - Multimedia Tools and Applications
+      - 多媒体工具与应用
+    note: 完整2024 JCR转录按全名/别名及可得ISSN核查，未取得本刊明确JIF分区；只针对该旧年度，不判定当前WoS收录。
+  - system: cas
+    year: 2025
+    edition: 2025升级版
+    snapshotDate: 2026-09-28
+    sourceUrl: https://cce.ncepu.edu.cn/xzzx/yjsjx1/7632005045644e61a0d12c7bbeff6204.htm
+    sourceFileUrl: https://cce.ncepu.edu.cn/docs//2026-09/0e77800bf2744596a26e43c83acceed0.xlsx
+    sourceTitle: 华北电力大学公开的中科院2025升级版转录
+    sourceType: secondary
+    sourceAuthority: university
+    verifiedAt: 2026-10-19
+    reviewedAt: 2026-10-19
+    sheet: 期刊汇总
+    status: unlisted
+    value: null
+    reviewedNames:
+      - Multimedia Tools and Applications
+      - 多媒体工具与应用
+    note: 已对照完整21772刊的2025转录，正式全名/别名及可得ISSN未列；只代表所查2025表，不判断WoS收录。
+  - system: ccf
+    year: 2015
+    edition: CCF2015
+    sourceUrl: https://lib.ecnu.edu.cn/_upload/article/files/e2/d9/dd45764345088869915f6b3617a4/5b8fc1d6-d5bb-487d-a1db-42825ebc312a.pdf
+    sourceType: document-copy
+    sourceTitle: CCF2015 完整目录公开副本
+    verifiedAt: 2026-10-19
+    reviewedAt: 2026-10-19
+    status: reported
+    value: C
+    appliesToName: Multimedia Tools and Applications
+    category: 计算机图形学与多媒体
+    page: 46
+    note: 按完整英文名称核对 CCF2015 目录 PDF 第 46 页。该等级属于 2015 年版本；保存公开副本来源属性。
+  - system: ccf
+    year: 2019
+    edition: CCF2019
+    sourceUrl: https://lib.ecnu.edu.cn/_upload/article/files/e2/d9/dd45764345088869915f6b3617a4/bc806894-08bb-40d3-addb-b58a5d9e5fd1.pdf
+    sourceType: document-copy
+    sourceTitle: CCF2019 完整目录公开副本
+    verifiedAt: 2026-10-19
+    reviewedAt: 2026-10-19
+    status: reported
+    value: C
+    appliesToName: Multimedia Tools and Applications
+    category: 计算机图形学与多媒体
+    page: 46
+    note: 按完整英文名称核对 CCF2019 目录 PDF 第 46 页。该等级属于 2019 年版本；保存公开副本来源属性。
+  - system: ccf
+    year: 2022
+    edition: CCF2022
+    sourceUrl: https://lib.ecnu.edu.cn/_upload/article/files/e2/d9/dd45764345088869915f6b3617a4/e98393b5-2703-45f2-8562-6622bbdcf8c1.pdf
+    sourceType: document-copy
+    sourceTitle: CCF2022 完整目录公开副本
+    verifiedAt: 2026-10-19
+    reviewedAt: 2026-10-19
+    status: reported
+    value: C
+    appliesToName: Multimedia Tools and Applications
+    category: 计算机图形学与多媒体
+    page: 46
+    note: 按完整英文名称核对 CCF2022 目录 PDF 第 46 页。该等级属于 2022 年版本；保存公开副本来源属性。
+  - system: ccf
+    year: 2026
+    edition: CCF2026
+    sourceUrl: https://scdm-shu.github.io/ccf/2026-CCF-Ranking.pdf
+    sourceType: document-copy
+    sourceTitle: CCF2026 完整目录公开副本
+    verifiedAt: 2026-10-19
+    reviewedAt: 2026-10-19
+    status: reported
+    value: C
+    appliesToName: MultimediaToolsandApplications
+    category: 计算机图形学与多媒体
+    page: 46
+    note: 按完整英文名称核对 CCF2026 目录 PDF 第 46 页。该等级属于 2026 年版本；保存公开副本来源属性。
+  - system: cie
+    year: 2023
+    edition: 2023电子技术、通信技术领域高质量科技期刊分级目录
+    value: T3
+    status: verified
+    sourceUrl: https://www.cie.org.cn/list_42/11930.html
+    sourceTitle: 中国电子学会2023电子技术、通信技术期刊分级目录
+    sourceType: official
+    verifiedAt: 2026-10-19
+    reviewedAt: 2026-10-19
+    issn: 1380-7501
+    row: 218
+    appliesToName: Multimedia Tools and Applications
+    note: 按正式ISSN或完整刊名对应官方232刊表，记录原始T分级及年份。
+otherIndexes: []
+submissionStatus: unresolved
+identityNote: 身份按注册机构、出版方或已注明版本的正式目录核对，作者入口另行维护。
+candidateSource: user-master-catalog
+indexing:
+  value: null
+  status: unresolved
+  verifiedAt: 2026-10-19
+  reviewedAt: 2026-10-19
+  note: WoS索引待对应独立索引列核对。
+topicReviewedAt: 2026-10-19
+scopeReviewedAt: 2026-10-19
+ratingReviewedAt: 2026-10-19

@@ -1,0 +1,29 @@
+- id: jcr
+  label: JCR（期刊引证报告）
+  year: 2025
+  note: 优先2025 JCR（IEEE出版社，2026年9月快照）；缺项使用2024 JCR政府转录（2025年6月），每条单独注明年份和学科。
+  sourceUrl: https://open.ieee.org/wp-content/uploads/IEEE-Title-List-September-2026.pdf
+- id: cas
+  label: 中科院分区
+  year: 2025
+  note: 2025升级版，高校2026-09-28公开导出；已对照完整21772刊转录，保留原始版本与学科。
+  sourceUrl: https://cce.ncepu.edu.cn/xzzx/yjsjx1/7632005045644e61a0d12c7bbeff6204.htm
+- id: ccf
+  label: CCF（中国计算机学会）
+  year: 2026
+  note: 第七版公开副本转录。
+  sourceUrl: https://www.ccf.org.cn/Academic_Evaluation/By_category/
+- id: core
+  label: ICORE（国际合作会议评级）
+  year: 2026
+  note: 已对照 ICORE2026 官方完整库987条；非等级、未列入和身份未明确分别记录。
+  sourceUrl: https://portal.core.edu.au/conf-ranks/
+- id: cic
+  label: 中国通信学会期刊分级
+  year: 2021
+  sourceUrl: https://www.cast.org.cn/cms_files/filemanager/583933374/attach/20259/3615926ac66743e58aca81b6835a674d.pdf
+- id: cie
+  label: 中国电子学会期刊分级
+  year: 2023
+  sourceUrl: https://www.cie.org.cn/list_42/11930.html
+  note: 电子技术、通信技术领域2023官方232刊目录，T1/T2/T3按原年份保存。

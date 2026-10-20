@@ -1,0 +1,151 @@
+# JCIN
+# 提交修改请发起 Pull Request（合并请求）；构建产物自动生成。
+id: jcin
+kind: journal
+short: JCIN
+nameZh: 通信与信息网络期刊
+nameEn: Journal of Communications and Information Networks
+aliases: []
+areas:
+  - wireless
+  - network
+  - ai
+url: https://ieeexplore.ieee.org/xpl/aboutJournal.jsp?punumber=8892389
+summary: 通信与信息网络研究。
+publicationType: 研究型期刊
+articleTypes:
+  - 研究论文
+submissionMode: 作者指南中核实
+sourceUrl: https://www.ptpress.com.cn/about/
+verifiedAt: 2026-10-18
+verification: verified
+assessments: []
+indexStatus: SCI／SCIE 收录待核验
+metricNote: 最新 SCIE 收录、JCR 和中科院分区尚未核验；请分别查看有年份的可靠依据。
+topics:
+  - protocols
+  - edge-cloud
+topicReviewedAt: 2026-10-18
+catalogStatus: current
+evaluations:
+  - system: jcr
+    status: unlisted
+    value: null
+    year: 2024
+    releaseYear: 2025
+    sourceUrl: https://uefiscdi.gov.ro/resource-865584-JCR_2024.iunie2025.pdf
+    sourceTitle: 2024 JCR完整转录表（2025年6月）
+    sourceType: secondary
+    reviewedAt: 2026-10-18
+    note: 按全名及别名核对2024 JCR完整转录，未列入该版。
+    attempts:
+      - 完整785页JCR2024表精确名及别名检索
+      - 不将2024未列推断为2026未收录
+    verifiedAt: 2026-10-18
+    sourceAuthority: government
+  - system: cas
+    year: 2025
+    edition: 2025升级版
+    snapshotDate: 2026-09-28
+    sourceUrl: https://cce.ncepu.edu.cn/xzzx/yjsjx1/7632005045644e61a0d12c7bbeff6204.htm
+    sourceFileUrl: https://cce.ncepu.edu.cn/docs//2026-09/0e77800bf2744596a26e43c83acceed0.xlsx
+    sourceTitle: 华北电力大学公开的中科院2025升级版转录
+    sourceType: secondary
+    sourceAuthority: university
+    verifiedAt: 2026-10-18
+    reviewedAt: 2026-10-18
+    sheet: 期刊汇总
+    status: unlisted
+    value: null
+    reviewedNames:
+      - Journal of Communications and Information Networks
+      - 通信与信息网络期刊
+    note: 按英文全名、中文刊名、旧名及可得ISSN核对2025年21772刊完整转录，未列入该版。
+    attempts:
+      - 2025完整期刊汇总21772条全名/中文名/旧名检索
+      - 原表相关关键词复查，未以近名刊物替代
+      - 独立复查可得ISSN（包括IEEE官方表电子ISSN），仍未建立对应
+  - system: ccf
+    status: unlisted
+    value: null
+    year: 2026
+    sourceUrl: https://scdm-shu.github.io/ccf/2026-CCF-Ranking.pdf
+    sourceTitle: CCF2026第七版公开副本
+    sourceType: document-copy
+    reviewedAt: 2026-10-18
+    note: 按英文全名、缩写及已知旧名核对CCF2026公开副本全部295项期刊记录，未列入该版。
+    attempts:
+      - 完整2026公开副本期刊表逐条名称匹配
+      - 已检查可识别旧称/IEEE-ACM更名
+    verifiedAt: 2026-10-18
+  - system: cic
+    year: 2021
+    value: T1
+    status: reported
+    edition: 2021通信领域高质量科技期刊分级目录
+    sourceUrl: https://www.cast.org.cn/cms_files/filemanager/583933374/attach/20259/3615926ac66743e58aca81b6835a674d.pdf
+    sourceTitle: 中国科协高质量科技期刊分级目录汇编：通信学会2021目录
+    sourceType: document-copy
+    verifiedAt: 2026-10-19
+    reviewedAt: 2026-10-19
+    issn: 2096-1081
+    page: 171
+    appliesToName: Journal of Communications and Information Networks
+    note: 中国科协汇编转载的通信学会2021中文40刊目录，按ISSN或中文刊名唯一匹配；外国35刊未分级，不补造T等级。
+  - system: cie
+    year: 2023
+    edition: 2023电子技术、通信技术领域高质量科技期刊分级目录
+    value: T2
+    status: verified
+    sourceUrl: https://www.cie.org.cn/list_42/11930.html
+    sourceTitle: 中国电子学会2023电子技术、通信技术期刊分级目录
+    sourceType: official
+    verifiedAt: 2026-10-19
+    reviewedAt: 2026-10-19
+    issn: 2096-1081
+    row: 121
+    appliesToName: Journal of Communications and Information Networks
+    note: 按正式ISSN或完整刊名对应官方232刊表，记录原始T分级及年份。
+indexing:
+  status: unresolved
+  value: null
+  reviewedAt: 2026-10-18
+  note: 本刊官方身份及EI、中文索引已有来源。2024 JCR完整转录未列，2026 MJL（期刊主列表）原库本次无法载入，当前WoS索引未确认。
+  attempts:
+    - 官方出版社/学会介绍
+    - 完整2024JCR全名与别名检索
+    - MJL当前原库无法载入
+  sourceUrl: https://www.ptpress.com.cn/about/
+  sourceTitle: 人民邮电出版社简介
+  sourceType: publisher
+  verifiedAt: 2026-10-18
+catalogScope: communications
+scopeReviewedAt: 2026-10-18
+scopeNote: 无线通信研究载体；通信网络与移动系统研究载体
+otherIndexes:
+  - value: EI
+    status: verified
+    sourceUrl: https://www.ptpress.com.cn/about/
+    sourceTitle: 人民邮电出版社简介
+    sourceType: publisher
+    verifiedAt: 2026-10-18
+    note: 明确读取来源列出的索引，独立于WoS索引。
+    reviewedAt: 2026-10-18
+  - value: CSCD
+    status: reported
+    year: 2025
+    edition: 2025—2026
+    coverage: 核心库
+    issn: 2096-1081
+    sourceUrl: https://nssc.cas.cn/yjsb/xspy/py/wjgd/202209/P020250901365885026876.pdf
+    sourceTitle: CSCD2025—2026来源期刊名单（国家空间科学中心公开附件）
+    sourceType: document-copy
+    verifiedAt: 2026-10-19
+    note: 按ISSN匹配完整名单，原记录类别为核心库。
+sourceType: publisher
+identityReviewedAt: 2026-10-18
+identityNote: 出版社官方简介明确本刊EI，区别JCN
+primaryArea: wireless
+secondaryAreas:
+  - network
+  - ai

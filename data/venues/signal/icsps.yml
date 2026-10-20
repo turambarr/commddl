@@ -1,0 +1,69 @@
+# ICSPS
+# 提交修改请发起 Pull Request（合并请求）；构建产物自动生成。
+id: icsps
+kind: conference
+short: ICSPS
+nameZh: 信号处理系统国际会议
+nameEn: International Conference on Signal Processing Systems
+aliases:
+  - ICSPS
+areas:
+  - signal
+  - wireless
+topics:
+  - estimation-sync
+  - arrays
+  - radar
+  - isac
+url: https://icsps.org/index.html
+sourceUrl: https://icsps.org/index.html
+sourceType: official
+verification: verified
+verifiedAt: 2026-10-18
+checkedAt: 2026-10-18
+catalogStatus: current
+summary: 通信信号、阵列、雷达、水声及信号处理系统。
+publicationType: 会议系列
+articleTypes:
+  - 研究论文
+submissionMode: 查看具体届次
+assessments: []
+catalogScope: communications
+topicReviewedAt: 2026-10-18
+scopeReviewedAt: 2026-10-18
+scopeNote: 通信及相关交叉领域
+evaluations:
+  - system: ccf
+    year: 2026
+    edition: 第七版公开副本
+    sourceUrl: https://scdm-shu.github.io/ccf/2026-CCF-Ranking.pdf
+    sourceType: document-copy
+    sourceTitle: CCF 2026 完整目录公开副本
+    verifiedAt: 2026-10-18
+    reviewedNames:
+      - International Conference on Signal Processing Systems
+      - ICSPS
+      - ICSPS
+    note: 按正式系列核对CCF2026公开副本全部386个会议条目，未列入该版。
+    status: unlisted
+    value: null
+    reviewedAt: 2026-10-18
+  - system: core
+    year: 2026
+    edition: ICORE2026
+    sourceUrl: https://portal.core.edu.au/conf-ranks/?search=&by=all&source=ICORE2026&sort=atitle
+    sourceType: official
+    sourceTitle: ICORE2026 官方完整会议库
+    verifiedAt: 2026-10-18
+    reviewedNames:
+      - International Conference on Signal Processing Systems
+      - ICSPS
+      - ICSPS
+    note: 复查 ICORE2026 官方全 20 页、987 个记录，按全称、系列简称及历史名称对照，未列出该正式系列。
+    status: unlisted
+    value: null
+    reviewedAt: 2026-10-18
+ratingReviewedAt: 2026-10-18
+primaryArea: signal
+secondaryAreas:
+  - wireless

@@ -1,0 +1,104 @@
+# MSWiM
+# 提交修改请发起 Pull Request（合并请求）；构建产物自动生成。
+id: mswim
+kind: conference
+short: MSWiM
+nameEn: ACM International Conference on Modeling, Analysis and Simulation of Wireless and Mobile Systems
+nameZh: ACM 无线与移动系统建模分析与仿真国际会议
+aliases: []
+areas:
+  - wireless
+  - network
+primaryArea: wireless
+secondaryAreas:
+  - network
+topics:
+  - physical
+  - mimo
+  - resources
+url: https://mswimconf.com/
+sourceUrl: https://mswimconf.com/
+sourceType: official
+verification: verified
+verifiedAt: 2026-10-19
+catalogStatus: current
+catalogScope: communications
+publicationType: 会议系列
+articleTypes:
+  - 研究论文
+assessments: []
+evaluations:
+  - system: core
+    year: 2026
+    edition: ICORE2026
+    sourceUrl: https://portal.core.edu.au/conf-ranks/?search=&by=all&source=ICORE2026&sort=atitle
+    sourceTitle: ICORE2026官方完整987条会议库
+    sourceType: official
+    verifiedAt: 2026-10-19
+    reviewedAt: 2026-10-19
+    reviewedNames:
+      - ACM International Conference on Modeling, Analysis and Simulation of Wireless and Mobile Systems
+      - ACM 无线与移动系统建模分析与仿真国际会议
+    status: unlisted
+    value: null
+    note: 按正式全名与已核实别名对照ICORE2026官方987条完整库未列，不等于低等级；未按同简称的其他会议赋级。
+  - system: ccf
+    year: 2015
+    edition: CCF2015
+    sourceUrl: https://lib.ecnu.edu.cn/_upload/article/files/e2/d9/dd45764345088869915f6b3617a4/5b8fc1d6-d5bb-487d-a1db-42825ebc312a.pdf
+    sourceType: document-copy
+    sourceTitle: CCF2015 完整目录公开副本
+    verifiedAt: 2026-10-19
+    reviewedAt: 2026-10-19
+    status: reported
+    value: C
+    appliesToName: International Conference on Modeling, Analysis and Simulation of Wireless and Mobile Systems
+    category: 计算机网络
+    page: 16
+    note: 按完整英文名称核对 CCF2015 目录 PDF 第 16 页。该等级属于 2015 年版本；保存公开副本来源属性。
+  - system: ccf
+    year: 2019
+    edition: CCF2019
+    sourceUrl: https://lib.ecnu.edu.cn/_upload/article/files/e2/d9/dd45764345088869915f6b3617a4/bc806894-08bb-40d3-addb-b58a5d9e5fd1.pdf
+    sourceType: document-copy
+    sourceTitle: CCF2019 完整目录公开副本
+    verifiedAt: 2026-10-19
+    reviewedAt: 2026-10-19
+    status: reported
+    value: C
+    appliesToName: International Conference on Modeling, Analysis and Simulation of Wireless and Mobile Systems
+    category: 计算机网络
+    page: 16
+    note: 按完整英文名称核对 CCF2019 目录 PDF 第 16 页。该等级属于 2019 年版本；保存公开副本来源属性。
+  - system: ccf
+    year: 2022
+    edition: CCF2022
+    sourceUrl: https://lib.ecnu.edu.cn/_upload/article/files/e2/d9/dd45764345088869915f6b3617a4/e98393b5-2703-45f2-8562-6622bbdcf8c1.pdf
+    sourceType: document-copy
+    sourceTitle: CCF2022 完整目录公开副本
+    verifiedAt: 2026-10-19
+    reviewedAt: 2026-10-19
+    status: reported
+    value: C
+    appliesToName: International Conference on Modeling, Analysis and Simulation of Wireless and Mobile Systems
+    category: 计算机网络
+    page: 16
+    note: 按完整英文名称核对 CCF2022 目录 PDF 第 16 页。该等级属于 2022 年版本；保存公开副本来源属性。
+  - system: ccf
+    year: 2026
+    edition: CCF2026
+    sourceUrl: https://scdm-shu.github.io/ccf/2026-CCF-Ranking.pdf
+    sourceType: document-copy
+    sourceTitle: CCF2026 完整目录公开副本
+    verifiedAt: 2026-10-19
+    reviewedAt: 2026-10-19
+    status: reported
+    value: C
+    appliesToName: InternationalConferenceonModeling,Analysisand SimulationofWirelessandMobileSystems
+    category: 计算机网络
+    page: 16
+    note: 按完整英文名称核对 CCF2026 目录 PDF 第 16 页。该等级属于 2026 年版本；保存公开副本来源属性。
+submissionMode: 查看当届征稿
+topicReviewedAt: 2026-10-19
+scopeReviewedAt: 2026-10-19
+ratingReviewedAt: 2026-10-19

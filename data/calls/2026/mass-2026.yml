@@ -1,0 +1,61 @@
+# MASS 2026
+# 提交修改请发起 Pull Request（合并请求）；构建产物自动生成。
+id: mass-2026
+venueId: mass
+year: 2026
+title: MASS 2026
+titleEn: IEEE International Conference on Mobile Ad Hoc and Smart Systems 2026
+kind: conference
+areas:
+  - wireless
+  - network
+  - iot
+topics:
+  - protocols
+  - iot-sensing
+  - mobile-systems
+tags: []
+summary: 移动自组织网络、感知网络和智能系统。
+sourceUrl: https://mass-conf.github.io/2026/callforpapers.html
+url: https://mass-conf.github.io/2026/callforpapers.html
+nodes:
+  - id: paper
+    label: 全文提交
+    type: paper
+    primary: true
+    precision: date
+    date: 2026-05-24
+    instant: null
+    timezone: null
+    original: 2026-05-24
+    revision: 0
+  - id: decision
+    label: 录用通知
+    type: decision
+    primary: false
+    precision: date
+    date: 2026-08-14
+    instant: null
+    timezone: null
+    original: 2026-08-14
+    revision: 0
+  - id: final
+    label: 终稿提交
+    type: final
+    primary: false
+    precision: date
+    date: 2026-08-31
+    instant: null
+    timezone: null
+    original: 2026-08-31
+    revision: 0
+verification: verified
+verifiedAt: 2026-10-18
+updatedAt: 2026-10-18T08:00:00Z
+status: announced
+notes: 主会已截止，全文从5月3日延期至5月24日；录用从8月6日延期至8月14日。未给钟点时区。
+location: 香港，中国
+eventDates: 2026-10-21 / 2026-10-23
+publication: null
+history: []
+sourceType: official

@@ -1,0 +1,63 @@
+# INFOCOM 2027
+# 提交修改请发起 Pull Request（合并请求）；构建产物自动生成。
+id: infocom-2027
+venueId: infocom
+year: 2027
+title: INFOCOM 2027
+titleEn: IEEE International Conference on Computer Communications 2027
+kind: conference
+areas:
+  - network
+  - iot
+topics:
+  - protocols
+  - measurement
+  - security
+  - edge-cloud
+tags: []
+summary: 通信网络的理论与系统研究。
+sourceUrl: https://infocom2027.ieee-infocom.org/authors
+url: https://infocom2027.ieee-infocom.org/
+nodes:
+  - id: abstract
+    label: 摘要／注册
+    type: abstract
+    primary: false
+    precision: date
+    date: 2026-07-24
+    instant: null
+    timezone: null
+    original: 2026-07-24
+    revision: 0
+  - id: paper
+    label: 全文提交
+    type: paper
+    primary: true
+    precision: date
+    date: 2026-07-31
+    instant: null
+    timezone: null
+    original: 2026-07-31
+    revision: 0
+    requires:
+      - abstract
+  - id: decision
+    label: 录用通知
+    type: decision
+    primary: false
+    precision: date
+    date: 2026-12-08
+    instant: null
+    timezone: null
+    original: 2026-12-08
+    revision: 0
+verification: verified
+verifiedAt: 2026-10-18
+updatedAt: 2026-10-18T08:00:00Z
+status: announced
+notes: 官方主页和作者页一致，主会摘要及全文均已截止；仅列日期，未给钟点/时区。
+location: 檀香山，夏威夷，美国
+eventDates: 2027-05-24 / 2027-05-27
+publication: null
+history: []
+sourceType: official

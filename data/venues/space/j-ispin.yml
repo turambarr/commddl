@@ -1,0 +1,99 @@
+# J-ISPIN
+# 提交修改请发起 Pull Request（合并请求）；构建产物自动生成。
+id: j-ispin
+kind: journal
+short: J-ISPIN
+nameEn: IEEE Journal of Indoor and Seamless Positioning and Navigation
+nameZh: IEEE 室内与无缝定位导航期刊
+url: https://ieee-jispin.org/
+sourceUrl: https://ieee-jispin.org/
+sourceType: publisher
+verification: verified
+verifiedAt: 2026-10-18
+catalogStatus: current
+areas:
+  - space
+  - signal
+  - wireless
+topics:
+  - navigation-pnt
+  - estimation-sync
+topicReviewedAt: 2026-10-18
+aliases: []
+publicationType: 研究型期刊
+articleTypes:
+  - 研究论文
+submissionMode: 作者指南
+summary: ""
+assessments: []
+evaluations:
+  - system: ccf
+    status: unlisted
+    value: null
+    year: 2026
+    sourceUrl: https://scdm-shu.github.io/ccf/2026-CCF-Ranking.pdf
+    sourceTitle: CCF2026公开副本
+    sourceType: document-copy
+    reviewedAt: 2026-10-18
+    note: 完整295项期刊记录按全名和别名检索，副本未列。
+    attempts:
+      - 完整CCF2026期刊副本匹配
+    verifiedAt: 2026-10-18
+  - system: cas
+    year: 2025
+    edition: 2025升级版
+    snapshotDate: 2026-09-28
+    sourceUrl: https://cce.ncepu.edu.cn/xzzx/yjsjx1/7632005045644e61a0d12c7bbeff6204.htm
+    sourceFileUrl: https://cce.ncepu.edu.cn/docs//2026-09/0e77800bf2744596a26e43c83acceed0.xlsx
+    sourceTitle: 华北电力大学公开的中科院2025升级版转录
+    sourceType: secondary
+    sourceAuthority: university
+    verifiedAt: 2026-10-18
+    reviewedAt: 2026-10-18
+    sheet: 期刊汇总
+    status: unlisted
+    value: null
+    reviewedNames:
+      - IEEE Journal of Indoor and Seamless Positioning and Navigation
+      - IEEE 室内与无缝定位导航期刊
+    note: 按英文全名、中文刊名、旧名及可得ISSN核对2025年21772刊完整转录，未列入该版。
+    attempts:
+      - 2025完整期刊汇总21772条全名/中文名/旧名检索
+      - 原表相关关键词复查，未以近名刊物替代
+      - 独立复查可得ISSN（包括IEEE官方表电子ISSN），仍未建立对应
+  - sourceUrl: https://open.ieee.org/wp-content/uploads/IEEE-Title-List-September-2026.pdf
+    sourceTitle: IEEE2026年9月期刊表
+    sourceType: publisher
+    verifiedAt: 2026-10-19
+    issn: N/A
+    eissn: 2832-7322
+    page: 1
+    status: verified
+    system: jcr
+    value: Q3
+    year: 2025
+    releaseYear: 2026
+    snapshotDate: 2026-09-15
+    category: IEEE出版社汇总口径；原表未逐学科列出
+    appliesToName: IEEE Journal of Indoor and Seamless Positioning and Navigation
+    note: 2025 JCR数据、2026年发布；读取出版社的JIF分区，原表未展开逐学科分区。
+indexing:
+  sourceUrl: https://open.ieee.org/wp-content/uploads/IEEE-Title-List-September-2026.pdf
+  sourceTitle: IEEE2026年9月期刊表
+  sourceType: publisher
+  verifiedAt: 2026-10-19
+  issn: N/A
+  eissn: 2832-7322
+  page: 1
+  status: verified
+  value: ESCI
+  year: 2026
+  snapshotDate: 2026-09-15
+  note: 出版社索引列的明确记录，忽略N/A占位符后以有效ISSN或正式全称唯一对应。
+catalogScope: communications
+scopeReviewedAt: 2026-10-18
+scopeNote: 通信及相关交叉领域
+primaryArea: space
+secondaryAreas:
+  - signal
+  - wireless

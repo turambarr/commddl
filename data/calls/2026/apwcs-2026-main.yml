@@ -1,0 +1,79 @@
+# APWCS 2026 · 主会论文
+# 提交修改请发起 Pull Request（合并请求）；构建产物自动生成。
+id: apwcs-2026-main
+venueId: apwcs
+title: APWCS 2026 · 主会论文
+titleEn: IEEE VTS Asia Pacific Wireless Communications Symposium 2026
+year: 2026
+kind: conference
+areas:
+  - wireless
+  - network
+  - signal
+  - iot
+topics:
+  - physical
+  - mimo
+  - resources
+  - propagation
+  - isac
+  - vehicular
+  - satellite-ntn
+  - ai-communications
+tags: []
+summary: 无线通信、移动网络、车联网和通信信号处理。
+sourceUrl: https://apwcs2026.org/assets/apwcs2026_cfp.pdf
+url: https://apwcs2026.org/
+sourceType: official
+nodes:
+  - id: paper
+    label: 论文提交
+    type: paper
+    primary: true
+    precision: date
+    date: 2026-06-15
+    instant: null
+    timezone: null
+    original: "Paper submission due: 15 June, 2026"
+    revision: 0
+    sourceUrl: https://apwcs2026.org/assets/apwcs2026_cfp.pdf
+    notes: ""
+    updatedAt: 2026-10-19T00:00:00Z
+  - id: decision
+    label: 录用通知
+    type: decision
+    primary: false
+    precision: date
+    date: 2026-07-08
+    instant: null
+    timezone: null
+    original: "Acceptance notification: 8 July, 2026"
+    revision: 0
+    sourceUrl: https://apwcs2026.org/assets/apwcs2026_cfp.pdf
+    notes: ""
+    updatedAt: 2026-10-19T00:00:00Z
+  - id: final
+    label: 终稿提交
+    type: final
+    primary: false
+    precision: date
+    date: 2026-07-24
+    instant: null
+    timezone: null
+    original: "Camera-ready paper submission due: 24 July, 2026"
+    revision: 0
+    sourceUrl: https://apwcs2026.org/assets/apwcs2026_cfp.pdf
+    notes: ""
+    updatedAt: 2026-10-19T00:00:00Z
+verification: verified
+verifiedAt: 2026-10-19
+checkedAt: 2026-10-19
+updatedAt: 2026-10-19T00:00:00Z
+status: announced
+notes: 2026 第 22 届已结束。日期来自当前官网链接的 2026 征稿 PDF；投稿系统也明确不再接稿。官网页面底部有 2022 遗留模板文字及旧链接，本条仅使用标明 APWCS 2026 的 PDF 与投稿系统。论文拟提交 IEEE Xplore，不把这一计划视为已完成 Ei/Scopus 检索。
+location: 韩国·首尔·崇实大学
+eventStart: 2026-08-12
+eventEnd: 2026-08-14
+eventDates: 2026-08-12 / 2026-08-14
+publication: null
+history: []

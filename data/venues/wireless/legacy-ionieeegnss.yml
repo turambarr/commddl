@@ -1,0 +1,73 @@
+# ION/IEEE GNSS
+# 提交修改请发起 Pull Request（合并请求）；构建产物自动生成。
+id: legacy-ionieeegnss
+kind: conference
+short: ION/IEEE GNSS
+nameZh: 全球导航卫星系统会议（原表名称）
+nameEn: ION/IEEE GNSS
+aliases: []
+topics:
+  - physical
+  - protocols
+areas:
+  - wireless
+  - theory
+  - network
+topicReviewedAt: 2026-10-18
+url: https://xxgk.bupt.edu.cn/__local/F/65/92/3A361334F005A224CD3C6C215B7_43DF8061_C1241.pdf?e=.pdf
+sourceUrl: https://xxgk.bupt.edu.cn/__local/F/65/92/3A361334F005A224CD3C6C215B7_43DF8061_C1241.pdf?e=.pdf
+verifiedAt: 2026-10-18
+verification: verified
+catalogStatus: historical-only
+summary: 2018学科附件中的历史条目，现行名称、举办状态与当届投稿信息待核验。原表英文为Global Navigation Satellite Systems（全球导航卫星系统），简称ION/IEEE GNSS；与ION GNSS+、IEEE/ION PLANS的身份对应未确认。
+publicationType: 学术会议系列
+articleTypes:
+  - 会议论文
+submissionMode: 按具体届次征稿
+assessments:
+  - system: bupt-ict-2018
+    label: 2018 信通学科重要会议表
+    year: 2018
+    sourceUrl: https://xxgk.bupt.edu.cn/__local/F/65/92/3A361334F005A224CD3C6C215B7_43DF8061_C1241.pdf?e=.pdf
+    note: 列入2018版学科附件，硕士渠道见政策说明。原表编号 69，PDF 第 7 页。
+urlLabel: 历史文件
+sourceType: official
+evaluations:
+  - system: ccf
+    year: 2026
+    edition: 第七版公开副本
+    sourceUrl: https://scdm-shu.github.io/ccf/2026-CCF-Ranking.pdf
+    sourceType: document-copy
+    sourceTitle: CCF 2026 完整目录公开副本
+    verifiedAt: 2026-10-18
+    reviewedNames:
+      - ION/IEEE GNSS
+      - ION/IEEE GNSS
+    note: 2018表提供缩写或历史名称，正式系列对应未确认，评级保留在原记录。
+    status: unresolved
+    value: null
+    reviewedAt: 2026-10-18
+  - system: core
+    year: 2026
+    edition: ICORE2026
+    sourceUrl: https://portal.core.edu.au/conf-ranks/?search=&by=all&source=ICORE2026&sort=atitle
+    sourceType: official
+    sourceTitle: ICORE2026 官方完整会议库
+    verifiedAt: 2026-10-18
+    reviewedNames:
+      - ION/IEEE GNSS
+      - ION/IEEE GNSS
+    note: 2018表提供缩写或历史名称，正式系列对应未确认，评级保留在原记录。
+    status: unresolved
+    value: null
+    reviewedAt: 2026-10-18
+catalogScope: archive
+scopeReviewedAt: 2026-10-18
+scopeNote: 原表ION/IEEE GNSS的正式系列对应待确认；ION GNSS+与PLANS分别保留。
+ratingReviewedAt: 2026-10-18
+identityReviewedAt: 2026-10-18
+identityNote: 原表ION/IEEE GNSS与笼统全称无法唯一定位ION GNSS+或IEEE/ION PLANS；二者现存官网已在主目录分别列出，原表仍为身份歧义档案。
+primaryArea: wireless
+secondaryAreas:
+  - theory
+  - network

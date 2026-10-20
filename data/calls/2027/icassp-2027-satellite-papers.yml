@@ -1,0 +1,71 @@
+# ICASSP 2027 · 附属研讨会论文
+# 提交修改请发起 Pull Request（合并请求）；构建产物自动生成。
+id: icassp-2027-satellite-papers
+venueId: icassp
+title: ICASSP 2027 · 附属研讨会论文
+titleEn: IEEE International Conference on Acoustics, Speech, and Signal Processing
+year: 2027
+kind: workshop
+areas:
+  - signal
+  - ai
+  - wireless
+topics:
+  - estimation-sync
+  - arrays
+  - speech
+  - imaging
+  - ai-communications
+  - isac
+  - physical
+tags: []
+summary: ""
+url: https://2027.ieeeicassp.org/call-for-satellite-workshops/
+sourceUrl: https://2027.ieeeicassp.org/call-for-satellite-workshops/
+sourceType: official
+nodes:
+  - id: paper
+    label: 全文提交
+    type: paper
+    primary: true
+    precision: date
+    date: 2026-11-11
+    instant: null
+    timezone: null
+    original: 2026-11-11
+    revision: 0
+  - id: decision
+    label: 录用通知
+    type: decision
+    primary: false
+    precision: date
+    date: 2026-12-16
+    instant: null
+    timezone: null
+    original: 2026-12-16
+    revision: 0
+  - id: final
+    label: 终稿提交
+    type: final
+    primary: false
+    precision: date
+    date: 2027-01-06
+    instant: null
+    timezone: null
+    original: 2027-01-06
+    revision: 0
+verification: verified
+verifiedAt: 2026-10-18
+checkedAt: 2026-10-18
+updatedAt: 2026-10-18T04:00:00Z
+status: announced
+notes: 已征集附属研讨会的统一论文截止，各会具体日期见其官网。研讨会使用独立IEEE Xplore论文集编号，评级单独记录。
+location: 加拿大·多伦多
+eventStart: null
+eventEnd: null
+eventDates: null
+publication: null
+history: []
+parentCallId: icassp-2027-main
+ratingScope: workshop-separate
+inheritsVenueEvaluation: false

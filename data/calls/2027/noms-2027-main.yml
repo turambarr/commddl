@@ -1,0 +1,67 @@
+# NOMS 2027 · 主会论文
+# 提交修改请发起 Pull Request（合并请求）；构建产物自动生成。
+id: noms-2027-main
+venueId: noms
+title: NOMS 2027 · 主会论文
+titleEn: IEEE/IFIP Network Operations and Management Symposium 2027 main
+year: 2027
+kind: conference
+areas:
+  - network
+  - ai
+topics:
+  - network-management
+  - measurement
+  - protocols
+tags: []
+summary: 网络运行与管理会议；ComSoc官方说明NOMS已与IM合并，旧IM作为历史系列保留原文件来源。
+url: https://noms2027.ieee-noms.org/authors
+sourceUrl: https://noms2027.ieee-noms.org/authors
+sourceType: official
+nodes:
+  - id: paper
+    label: 全文提交
+    type: paper
+    primary: true
+    precision: date
+    date: 2026-11-09
+    instant: null
+    timezone: null
+    original: "Paper Submission Deadline: 09 November 2026"
+    revision: 0
+    sourceUrl: https://noms2027.ieee-noms.org/authors
+  - id: decision
+    label: 录用通知
+    type: decision
+    primary: false
+    precision: date
+    date: 2027-02-15
+    instant: null
+    timezone: null
+    original: "Notification of Acceptance: 2027-02-15"
+    revision: 0
+    sourceUrl: https://noms2027.ieee-noms.org/authors
+  - id: final
+    label: 终稿提交
+    type: final
+    primary: false
+    precision: date
+    date: 2027-02-28
+    instant: null
+    timezone: null
+    original: "Camera-Ready / Final Manuscript: 2027-02-28"
+    revision: 0
+    sourceUrl: https://noms2027.ieee-noms.org/authors
+verification: verified
+verifiedAt: 2026-10-18
+checkedAt: 2026-10-18
+updatedAt: 2026-10-18T04:00:00Z
+status: announced
+notes: 官网公布截止日期，钟点或时区未注明，按日期展示。
+location: 加拿大·蒙特利尔
+eventStart: 2027-05-10
+eventEnd: 2027-05-14
+eventDates: 2027-05-10 / 2027-05-14
+publication: null
+history: []
+eventSourceUrl: https://noms2027.ieee-noms.org

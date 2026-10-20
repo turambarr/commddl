@@ -1,0 +1,120 @@
+# Optical Materials Express
+# 提交修改请发起 Pull Request（合并请求）；构建产物自动生成。
+id: ome
+kind: journal
+short: Optical Materials Express
+nameEn: Optical Materials Express
+nameZh: 光学材料快报
+aliases: []
+issn: 2159-3930
+eissn: 2159-3930
+url: https://opg.optica.org/ome/home.cfm
+sourceUrl: https://opg.optica.org/ome/home.cfm
+sourceType: publisher
+verification: verified
+verifiedAt: 2026-10-19
+identityReviewedAt: 2026-10-19
+catalogStatus: current
+catalogScope: communications
+areas:
+  - optical
+topics:
+  - photonics
+  - fiber
+topicReviewedAt: 2026-10-19
+publicationType: 研究型期刊
+articleTypes:
+  - 研究论文
+submissionMode: 由官网作者入口按常规栏目/专题要求投稿
+summary: ""
+assessments: []
+evaluations:
+  - system: jcr
+    year: 2024
+    releaseYear: 2025
+    snapshotDate: 2025-06
+    sourceUrl: https://uefiscdi.gov.ro/resource-865584-JCR_2024.iunie2025.pdf
+    sourceTitle: 2024 JCR政府公开转录（2025年6月）
+    sourceType: secondary
+    sourceAuthority: government
+    verifiedAt: 2026-10-19
+    reviewedAt: 2026-10-19
+    status: reported
+    value: Q3
+    category: MATERIALS SCIENCE, MULTIDISCIPLINARY
+    categories:
+      - category: MATERIALS SCIENCE, MULTIDISCIPLINARY
+        value: Q3
+        page: 454
+      - category: OPTICS
+        value: Q2
+        page: 567
+    page: 454
+    issn: 2159-3930
+    eissn: 2159-3930
+    appliesToName: Optical Materials Express
+    note: 对照完整2024 JCR政府转录，默认电信学优先，保留全部学科；不取最好分区，不冒充最新原库。
+  - system: cas
+    year: 2025
+    edition: 2025升级版
+    snapshotDate: 2026-09-28
+    sourceUrl: https://cce.ncepu.edu.cn/xzzx/yjsjx1/7632005045644e61a0d12c7bbeff6204.htm
+    sourceFileUrl: https://cce.ncepu.edu.cn/docs//2026-09/0e77800bf2744596a26e43c83acceed0.xlsx
+    sourceTitle: 华北电力大学公开的中科院2025升级版转录
+    sourceType: secondary
+    sourceAuthority: university
+    verifiedAt: 2026-10-19
+    reviewedAt: 2026-10-19
+    sheet: 期刊汇总
+    status: reported
+    value: "3"
+    category: 物理与天体物理
+    top: false
+    appliesToName: Optical Materials Express
+    issn: 2159-3930
+    row: 7407
+    minorCategories:
+      - category: MATERIALS SCIENCE, MULTIDISCIPLINARY 材料科学：综合
+        quartile: 3
+      - category: OPTICS 光学
+        quartile: 3
+    note: 按ISSN或正式全名对照高校公开的2025升级版完整转录；保留大类及全部小类，不冒充原库或2026数据。
+  - system: ccf
+    year: 2026
+    edition: 第七版公开副本
+    sourceUrl: https://scdm-shu.github.io/ccf/2026-CCF-Ranking.pdf
+    sourceTitle: CCF2026国际会议期刊目录公开副本
+    sourceType: document-copy
+    verifiedAt: 2026-10-19
+    reviewedAt: 2026-10-19
+    reviewedNames:
+      - Optical Materials Express
+      - 光学材料快报
+    status: unlisted
+    value: null
+    note: 按正式全名与已核实别名对照CCF2026公开副本完整目录未列；不等于低等级，不含另行发布的中文期刊推荐目录。
+indexing:
+  value: SCIE
+  status: reported
+  year: 2024
+  releaseYear: 2025
+  sourceUrl: https://uefiscdi.gov.ro/resource-865584-JCR_2024.iunie2025.pdf
+  sourceTitle: 2024 JCR政府公开转录（2025年6月）
+  sourceType: secondary
+  verifiedAt: 2026-10-19
+  reviewedAt: 2026-10-19
+  pages:
+    - 454
+    - 567
+  note: 按完整刊名/明确ISSN匹配，读取edition列；2024年度收录类别，不冒充2026原库实时核验。
+otherIndexes: []
+scopeReviewedAt: 2026-10-19
+identityNote: 已从Optica当前完整期刊菜单逐刊打开本刊主页与作者门户。保留光通信器件/系统相关方向，非将全光学组合所有刊物纳入。
+submissionStatus: open
+coverageGroup: optica
+authorGuideUrl: https://opg.optica.org/content/author/
+identifierSourceUrl: https://uefiscdi.gov.ro/resource-865584-JCR_2024.iunie2025.pdf
+identifierSourceYear: 2024
+ratingReviewedAt: 2026-10-19
+primaryArea: optical
+secondaryAreas: []

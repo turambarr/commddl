@@ -1,0 +1,148 @@
+# Electronics Letters
+# 提交修改请发起 Pull Request（合并请求）；构建产物自动生成。
+id: electronics-letters
+kind: journal
+short: Electronics Letters
+nameEn: Electronics Letters
+nameZh: 电子快报
+aliases: []
+issn: 0013-5194
+eissn: 1350-911X
+url: https://ietresearch.onlinelibrary.wiley.com/journal/1350911x
+sourceUrl: https://ietresearch.onlinelibrary.wiley.com/hub/journal/1350911x/homepage/productinformation.html
+sourceType: publisher
+verification: verified
+verifiedAt: 2026-10-19
+identityReviewedAt: 2026-10-19
+catalogStatus: current
+areas:
+  - wireless
+  - rf
+  - signal
+topics:
+  - physical
+  - mimo
+  - antennas
+  - microwave
+  - photonics
+topicReviewedAt: 2026-10-19
+publicationType: 简报型期刊
+articleTypes:
+  - 研究快报
+  - 评论与回复
+submissionMode: 在线投稿研究快报；评论与回复按作者指南
+summary: 通信、信号处理、射频及光电子研究快报。
+assessments: []
+evaluations:
+  - system: jcr
+    year: 2024
+    releaseYear: 2025
+    snapshotDate: 2025-06
+    sourceUrl: https://uefiscdi.gov.ro/resource-865584-JCR_2024.iunie2025.pdf
+    sourceTitle: 2024 JCR政府公开转录（2025年6月）
+    sourceType: secondary
+    sourceAuthority: government
+    verifiedAt: 2026-10-19
+    reviewedAt: 2026-10-19
+    status: reported
+    value: Q4
+    category: ENGINEERING, ELECTRICAL & ELECTRONIC
+    categories:
+      - category: ENGINEERING, ELECTRICAL & ELECTRONIC
+        value: Q4
+        page: 236
+    page: 236
+    issn: 0013-5194
+    eissn: 1350-911X
+    appliesToName: ELECTRONICS LETTERS
+    note: 按完整2024 JCR政府转录记录全部学科分区，默认展示电信学。
+  - system: cas
+    year: 2025
+    edition: 2025升级版
+    snapshotDate: 2026-09-28
+    sourceUrl: https://cce.ncepu.edu.cn/xzzx/yjsjx1/7632005045644e61a0d12c7bbeff6204.htm
+    sourceFileUrl: https://cce.ncepu.edu.cn/docs//2026-09/0e77800bf2744596a26e43c83acceed0.xlsx
+    sourceTitle: 华北电力大学公开的中科院2025升级版转录
+    sourceType: secondary
+    sourceAuthority: university
+    verifiedAt: 2026-10-19
+    reviewedAt: 2026-10-19
+    sheet: 期刊汇总
+    status: reported
+    value: "4"
+    category: 工程技术
+    top: false
+    appliesToName: ELECTRONICS LETTERS
+    issn: 0013-5194
+    row: 14409
+    minorCategories:
+      - category: ENGINEERING, ELECTRICAL & ELECTRONIC 工程：电子与电气
+        quartile: 4
+    note: 按ISSN或正式全名匹配高校公开的2025升级版完整转录，保存大类与全部小类分区。
+  - system: ccf
+    year: 2026
+    edition: 第七版公开副本
+    sourceUrl: https://scdm-shu.github.io/ccf/2026-CCF-Ranking.pdf
+    sourceTitle: CCF2026国际会议期刊目录公开副本
+    sourceType: document-copy
+    verifiedAt: 2026-10-19
+    reviewedAt: 2026-10-19
+    reviewedNames:
+      - Electronics Letters
+      - 电子快报
+    status: unlisted
+    value: null
+    note: 按正式全名与已核实别名核对CCF2026国际会议期刊目录公开副本，未列入该版。中文期刊推荐目录另行发布。
+  - system: cie
+    year: 2023
+    edition: 2023电子技术、通信技术领域高质量科技期刊分级目录
+    value: T3
+    status: verified
+    sourceUrl: https://www.cie.org.cn/list_42/11930.html
+    sourceTitle: 中国电子学会2023电子技术、通信技术期刊分级目录
+    sourceType: official
+    verifiedAt: 2026-10-19
+    reviewedAt: 2026-10-19
+    issn: 0013-5194
+    row: 177
+    appliesToName: Electronics Letters
+    note: 按正式ISSN或完整刊名对应官方232刊表，记录原始T分级及年份。
+catalogScope: communications
+scopeReviewedAt: 2026-10-19
+submissionStatus: open
+identityNote: 2026年6月作者指南列出Letter（快报）与Commentary（评论），按快报期刊整理。
+indexing:
+  value: SCIE
+  status: verified
+  year: null
+  sourceUrl: https://ietresearch.onlinelibrary.wiley.com/hub/journal/1350911x/homepage/productinformation.html
+  sourceTitle: Electronics Letters索引列表
+  sourceType: publisher
+  verifiedAt: 2026-10-19
+  reviewedAt: 2026-10-19
+  note: 出版方逐刊索引列表明确列出；独立于影响因子、分区与其他数据库，未登录原索引库逐篇检索。
+otherIndexes:
+  - value: EI
+    status: verified
+    year: null
+    sourceUrl: https://ietresearch.onlinelibrary.wiley.com/hub/journal/1350911x/homepage/productinformation.html
+    sourceTitle: Electronics Letters索引列表
+    sourceType: publisher
+    verifiedAt: 2026-10-19
+    reviewedAt: 2026-10-19
+    note: 出版方逐刊索引列表明确列出；独立于影响因子、分区与其他数据库，未登录原索引库逐篇检索。
+  - value: Scopus
+    status: verified
+    year: null
+    sourceUrl: https://ietresearch.onlinelibrary.wiley.com/hub/journal/1350911x/homepage/productinformation.html
+    sourceTitle: Electronics Letters索引列表
+    sourceType: publisher
+    verifiedAt: 2026-10-19
+    reviewedAt: 2026-10-19
+    note: 出版方逐刊索引列表明确列出；独立于影响因子、分区与其他数据库，未登录原索引库逐篇检索。
+submissionSourceUrl: https://ietresearch.onlinelibrary.wiley.com/hub/journal/1350911x/homepage/author-guidelines
+ratingReviewedAt: 2026-10-19
+primaryArea: wireless
+secondaryAreas:
+  - rf
+  - signal

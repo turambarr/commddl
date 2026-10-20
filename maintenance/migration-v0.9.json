@@ -1,0 +1,13 @@
+{
+  "baselineCommit": "2038ca6d82a11e78b646fbd09a9c9e9c0ee18b51",
+  "date": "2026-10-20",
+  "venues": 581,
+  "calls": 91,
+  "sourceFiles": 672,
+  "baselineSha256": "59c8a9b05716af141c89213efc106b931e65825022841c78229ab621c9cf4b0c",
+  "migratedSha256": "59c8a9b05716af141c89213efc106b931e65825022841c78229ab621c9cf4b0c",
+  "comparison": "Deep comparison of all source records and metadata; top-level record ordering normalized; only release version/date excluded.",
+  "sourceRecordsEqual": true,
+  "publicProjectionEqual": true,
+  "stableIdentifiersPreserved": true
+}

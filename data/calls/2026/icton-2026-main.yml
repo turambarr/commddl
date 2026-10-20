@@ -1,0 +1,62 @@
+# ICTON 2026 · 主会论文
+# 提交修改请发起 Pull Request（合并请求）；构建产物自动生成。
+id: icton-2026-main
+venueId: icton
+title: ICTON 2026 · 主会论文
+titleEn: International Conference on Transparent Optical Networks
+year: 2026
+kind: conference
+areas:
+  - optical
+  - network
+topics:
+  - optical-networks
+  - fiber
+tags: []
+summary: ""
+url: https://icton2026.ufe.cz/en/important-dates/
+sourceUrl: https://icton2026.ufe.cz/en/important-dates/
+sourceType: official
+nodes:
+  - id: paper
+    label: 全文提交
+    type: paper
+    primary: true
+    precision: date
+    date: 2026-03-31
+    instant: null
+    timezone: null
+    original: 2026-03-31
+    revision: 0
+  - id: decision
+    label: 录用通知
+    type: decision
+    primary: false
+    precision: date
+    date: 2026-04-30
+    instant: null
+    timezone: null
+    original: 2026-04-30
+    revision: 0
+  - id: final
+    label: 终稿提交
+    type: final
+    primary: false
+    precision: date
+    date: 2026-06-01
+    instant: null
+    timezone: null
+    original: 2026-06-01
+    revision: 0
+verification: verified
+verifiedAt: 2026-10-18
+checkedAt: 2026-10-18
+updatedAt: 2026-10-18T04:00:00Z
+status: announced
+notes: 采用共同主办机构捷克科学院光子学与电子学研究所本届页；2027主会征稿尚未找到官方公布。
+location: 捷克·布拉格
+eventStart: 2026-07-12
+eventEnd: 2026-07-16
+eventDates: 2026-07-12 / 2026-07-16
+publication: null
+history: []

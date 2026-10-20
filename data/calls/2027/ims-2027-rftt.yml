@@ -1,0 +1,49 @@
+# IMS 2027 · RFTT 分会论文
+# 提交修改请发起 Pull Request（合并请求）；构建产物自动生成。
+id: ims-2027-rftt
+venueId: ims
+title: IMS 2027 · RFTT 分会论文
+titleEn: IEEE International Microwave Symposium
+year: 2027
+kind: conference
+areas:
+  - rf
+  - wireless
+  - optical
+topics:
+  - microwave
+  - thz
+  - antennas
+tags: []
+summary: ""
+url: https://ims-ieee.org/authortools2027
+sourceUrl: https://ims-ieee.org/authortools2027
+sourceType: official
+nodes:
+  - id: paper
+    label: 全文提交
+    type: paper
+    primary: true
+    precision: date
+    date: 2026-12-08
+    instant: null
+    timezone: null
+    original: 2026-12-08
+    revision: 0
+verification: verified
+verifiedAt: 2026-10-18
+checkedAt: 2026-10-18
+updatedAt: 2026-10-18T04:00:00Z
+status: announced
+notes: IMS现以International Microwave Symposia（国际微波系列会议）组织，内容分为RFSA（射频系统与应用）和RFTT（射频技术与工艺）两场独立分会。两会会期均为5月24—27日，总活动周为5月23—28日。新分会与旧IMS评级的对应待核验。
+location: 美国·圣安东尼奥
+eventStart: 2027-05-24
+eventEnd: 2027-05-27
+eventDates: 2027-05-24 / 2027-05-27
+publication: null
+history: []
+ratingScope: new-subconference-review-required
+umbrellaEventStart: 2027-05-23
+umbrellaEventEnd: 2027-05-28
+eventSourceUrl: https://ims-ieee.org/sites/ims/files/ims2027-call-for-papers_16september2026.pdf
+inheritsVenueEvaluation: false

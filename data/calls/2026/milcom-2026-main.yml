@@ -1,0 +1,70 @@
+# MILCOM 2026 · 非涉密主会论文
+# 提交修改请发起 Pull Request（合并请求）；构建产物自动生成。
+id: milcom-2026-main
+venueId: milcom
+title: MILCOM 2026 · 非涉密主会论文
+titleEn: IEEE Military Communications Conference 2026 main
+year: 2026
+kind: conference
+areas:
+  - wireless
+  - space
+  - network
+topics:
+  - physical
+  - security
+  - satellite-ntn
+tags: []
+summary: 军事通信技术；不同投稿通道分别核实。
+url: https://milcom2026.ieee-milcom.org/call-for-papers/call-unclassified-technical-papers
+sourceUrl: https://milcom2026.ieee-milcom.org/call-for-papers/call-unclassified-technical-papers
+sourceType: official
+nodes:
+  - id: paper
+    label: 全文提交
+    type: paper
+    primary: true
+    precision: date
+    date: 2026-05-31
+    instant: null
+    timezone: null
+    original: "Unclassified Paper Submission Deadline: 31 May 2026 (FIRM DEADLINE)"
+    revision: 0
+    sourceUrl: https://milcom2026.ieee-milcom.org/call-for-papers/call-unclassified-technical-papers
+  - id: decision
+    label: 录用通知
+    type: decision
+    primary: false
+    precision: date
+    date: 2026-08-09
+    instant: null
+    timezone: null
+    original: "Notification of Acceptance: 2026-08-09"
+    revision: 0
+    sourceUrl: https://milcom2026.ieee-milcom.org/call-for-papers/call-unclassified-technical-papers
+  - id: final
+    label: 终稿提交
+    type: final
+    primary: false
+    precision: date
+    date: 2026-09-11
+    instant: null
+    timezone: null
+    original: "Camera-Ready / Final Manuscript: 2026-09-11"
+    revision: 0
+    sourceUrl: https://milcom2026.ieee-milcom.org/call-for-papers/call-unclassified-technical-papers
+verification: verified
+verifiedAt: 2026-10-18
+checkedAt: 2026-10-18
+updatedAt: 2026-10-18T04:00:00Z
+status: announced
+notes: 仅收录公开非涉密论文通道。官方Important Dates标题注明Anywhere on Earth（地球任一时区），未明确钟点，保持日期精度；不混入Restricted或Classified通道。
+location: 美国·华盛顿首都地区
+eventStart: 2026-10-12
+eventEnd: 2026-10-16
+eventDates: 2026-10-12 / 2026-10-16
+publication: null
+history: []
+eventSourceUrl: https://www.milcom.org/
+sourceTimezone: AoE
+timezoneSourceUrl: https://milcom2026.ieee-milcom.org/authors

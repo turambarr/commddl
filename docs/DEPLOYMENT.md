@@ -1,6 +1,6 @@
 # CommDDL 当前部署
 
-核对日期：2026-10-19。
+核对日期：2026-10-20，v0.9.0。
 
 网站：[https://turambarr.github.io/commddl/](https://turambarr.github.io/commddl/)。公开代码仓库：[turambarr/commddl](https://github.com/turambarr/commddl)。
 
@@ -8,16 +8,18 @@
 
 当前使用 GitHub Pages（静态网页托管），Pages设置的构建类型为workflow（自动化流程），公开访问、强制HTTPS（加密网页访问），使用github.io域名。
 
-1. 维护者修改目录或页面，提交并推送到main（主分支）。
+1. 贡献者修改对应 YAML，提交合并请求；维护者审核后合并至 main（主分支）。
 2. GitHub Actions（自动化工作流）运行`.github/workflows/pages.yml`，使用Node.js 22（JavaScript构建运行环境）。
-3. 自动运行现有业务测试，再执行数据校验与构建；结果保存在当次工作流日志。
+3. 使用 `npm ci` 安装锁定依赖，检查 YAML、运行业务测试，再编译合并目录并生成网页；结果保存在当次工作流日志。
 4. 将`dist/`（生成的静态网站目录）上传并发布至GitHub Pages，通过后更新公开网页，检查失败时保留此前已发布版本。
 
 合并请求执行检查，main（主分支）及手动触发的工作流执行发布。
 
 ## 数据和页面在哪里
 
-- `data/catalog.json`：完整维护源；包含审计状态。
+- `data/venues/<primaryArea>/<id>.yml`、`data/calls/<year>/<id>.yml`：独立的期刊、会议和征稿源文件。
+- `data/README.md`、`data/AGENTS.md`：数据维护和 Agent 指引。
+- `data/catalog.json`：构建生成的完整目录，排除出 Git 版本跟踪。
 - `maintenance/`：核对队列与文件映射，不复制到发布目录。
 - `dist/data/catalog.json`：构建生成的公开目录，只含读者所需字段与明确属性。
 - `assets/app.js`、`assets/core.js`、`assets/styles.css`、`index.html`：浏览器交互、筛选与日历逻辑、页面样式。
@@ -37,3 +39,5 @@
 官方说明：[GitHub Pages介绍](https://docs.github.com/en/pages/getting-started-with-github-pages/what-is-github-pages)。实际工作流见[仓库配置](https://github.com/turambarr/commddl/blob/main/.github/workflows/pages.yml)。
 
 维护区是仓库内的编辑记录，并非独立服务器后台。当前公开仓库中的维护文件可供贡献者查看；GitHub Pages只部署`dist/`，不会把维护疑点嵌入网页数据或离线HTML。
+
+生成的 `assets/data.js`、`calendars/*.ics`、`maintenance/review-queue.json` 同样排除出版本跟踪，避免独立数据提交碰到共享生成文件。新克隆后先运行 `npm ci` 和 `npm run build`，再预览根目录网页。网页和在线订阅地址保持不变。

@@ -1,0 +1,166 @@
+# EITEE
+# 提交修改请发起 Pull Request（合并请求）；构建产物自动生成。
+id: eitee
+kind: journal
+short: EITEE
+nameEn: ENGINEERING Information Technology & Electronic Engineering
+nameZh: 工程：信息与电子工程（英文）
+url: https://jzus.zju.edu.cn/current_c.php
+sourceUrl: https://jzus.zju.edu.cn/current_c.php
+sourceType: publisher
+verification: verified
+verifiedAt: 2026-10-18
+catalogStatus: current
+areas:
+  - wireless
+  - ai
+  - rf
+topics:
+  - ai-communications
+  - edge-cloud
+  - semantic-task
+topicReviewedAt: 2026-10-18
+aliases:
+  - Frontiers of Information Technology & Electronic Engineering
+  - FITEE
+  - Journal of Zhejiang University SCIENCE C
+publicationType: 研究型期刊
+articleTypes:
+  - 研究论文
+submissionMode: 作者指南
+summary: 2026年起由FITEE更名，并由浙江大学出版社与IEEE合作出版；保留旧名及原刊评价的适用名称。
+assessments: []
+evaluations:
+  - system: jcr
+    value: Q2
+    status: reported
+    year: 2024
+    releaseYear: 2025
+    category: COMPUTER SCIENCE, INFORMATION SYSTEMS
+    categories:
+      - category: COMPUTER SCIENCE, INFORMATION SYSTEMS
+        value: Q2
+        page: 130
+      - category: COMPUTER SCIENCE, SOFTWARE ENGINEERING
+        value: Q2
+        page: 144
+      - category: ENGINEERING, ELECTRICAL & ELECTRONIC
+        value: Q2
+        page: 236
+    sourceUrl: https://uefiscdi.gov.ro/resource-865584-JCR_2024.iunie2025.pdf
+    sourceTitle: 2024JCR政府公开转录（2025年6月）
+    sourceType: secondary
+    verifiedAt: 2026-10-18
+    appliesToName: Frontiers of Information Technology & Electronic Engineering
+    note: 旧年度分区按所列原刊名保存；默认电信学优先，全部学科同时保留。
+    reviewedAt: 2026-10-18
+    sourceAuthority: government
+  - system: ccf
+    status: unlisted
+    value: null
+    year: 2026
+    sourceUrl: https://scdm-shu.github.io/ccf/2026-CCF-Ranking.pdf
+    sourceTitle: CCF2026公开副本
+    sourceType: document-copy
+    reviewedAt: 2026-10-18
+    note: 完整295项期刊记录按完整名、缩写、旧名检索，副本未列。
+    attempts:
+      - CCF2026完整期刊副本匹配
+    verifiedAt: 2026-10-18
+  - system: cas
+    year: 2025
+    edition: 2025升级版
+    snapshotDate: 2026-09-28
+    sourceUrl: https://cce.ncepu.edu.cn/xzzx/yjsjx1/7632005045644e61a0d12c7bbeff6204.htm
+    sourceFileUrl: https://cce.ncepu.edu.cn/docs//2026-09/0e77800bf2744596a26e43c83acceed0.xlsx
+    sourceTitle: 华北电力大学公开的中科院2025升级版转录
+    sourceType: secondary
+    sourceAuthority: university
+    verifiedAt: 2026-10-18
+    reviewedAt: 2026-10-18
+    sheet: 期刊汇总
+    status: reported
+    value: "3"
+    category: 计算机科学
+    top: false
+    appliesToName: Frontiers of Information Technology & Electronic Engineering
+    issn: 2095-9184
+    row: 8784
+    minorCategories:
+      - category: COMPUTER SCIENCE, INFORMATION SYSTEMS 计算机：信息系统
+        quartile: 3
+      - category: COMPUTER SCIENCE, SOFTWARE ENGINEERING 计算机：软件工程
+        quartile: 3
+      - category: ENGINEERING, ELECTRICAL & ELECTRONIC 工程：电子与电气
+        quartile: 3
+    note: 高校公开的2025升级版转录，2026-09-28导出，原数据来自期刊分区表平台。按完整刊名或旧名唯一对应，保存大类与全部小类分区。
+  - system: ccf
+    year: 2022
+    edition: CCF2022
+    sourceUrl: https://lib.ecnu.edu.cn/_upload/article/files/e2/d9/dd45764345088869915f6b3617a4/e98393b5-2703-45f2-8562-6622bbdcf8c1.pdf
+    sourceType: document-copy
+    sourceTitle: CCF2022 完整目录公开副本
+    verifiedAt: 2026-10-19
+    reviewedAt: 2026-10-19
+    status: reported
+    value: C
+    appliesToName: Frontiers of Information Technology & Electronic Engineering
+    category: 交叉/综合/新兴
+    page: 70
+    note: 按完整英文名称核对 CCF2022 目录 PDF 第 70 页。该等级属于 2022 年版本；保存公开副本来源属性。
+  - system: cic
+    year: 2021
+    value: T1
+    status: reported
+    edition: 2021通信领域高质量科技期刊分级目录
+    sourceUrl: https://www.cast.org.cn/cms_files/filemanager/583933374/attach/20259/3615926ac66743e58aca81b6835a674d.pdf
+    sourceTitle: 中国科协高质量科技期刊分级目录汇编：通信学会2021目录
+    sourceType: document-copy
+    verifiedAt: 2026-10-19
+    reviewedAt: 2026-10-19
+    issn: 2095-9184
+    page: 171
+    appliesToName: Frontiers of Information Technology & Electronic Engineering
+    note: 中国科协汇编转载的通信学会2021中文40刊目录，按ISSN或中文刊名唯一匹配；外国35刊未分级，不补造T等级。
+  - system: cie
+    year: 2023
+    edition: 2023电子技术、通信技术领域高质量科技期刊分级目录
+    value: T2
+    status: verified
+    sourceUrl: https://www.cie.org.cn/list_42/11930.html
+    sourceTitle: 中国电子学会2023电子技术、通信技术期刊分级目录
+    sourceType: official
+    verifiedAt: 2026-10-19
+    reviewedAt: 2026-10-19
+    issn: 2095-9184
+    row: 78
+    appliesToName: Frontiers of Information Technology & Electronic Engineering 信息与电子工程前沿（英文版）
+    note: 按正式ISSN或完整刊名对应官方232刊表，记录原始T分级及年份。
+indexing:
+  value: SCIE
+  status: verified
+  sourceUrl: https://jzus.zju.edu.cn/current_c.php
+  sourceTitle: ENGINEERING Information Technology & Electronic Engineering出版方收录列表
+  sourceType: publisher
+  verifiedAt: 2026-10-18
+  note: 出版社/主办单位当前简介明确列出Science Citation Index Expanded。更名期刊以当前官网列示为据，旧年度评级另记旧名。
+  reviewedAt: 2026-10-18
+catalogScope: communications
+scopeReviewedAt: 2026-10-18
+scopeNote: 通信及相关交叉领域
+otherIndexes:
+  - value: CSCD
+    status: reported
+    year: 2025
+    edition: 2025—2026
+    coverage: 核心库
+    issn: 2095-9184
+    sourceUrl: https://nssc.cas.cn/yjsb/xspy/py/wjgd/202209/P020250901365885026876.pdf
+    sourceTitle: CSCD2025—2026来源期刊名单（国家空间科学中心公开附件）
+    sourceType: document-copy
+    verifiedAt: 2026-10-19
+    note: 按ISSN匹配完整名单，原记录类别为核心库。
+primaryArea: wireless
+secondaryAreas:
+  - ai
+  - rf

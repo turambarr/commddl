@@ -1,0 +1,163 @@
+# DCN
+# 提交修改请发起 Pull Request（合并请求）；构建产物自动生成。
+id: dcn
+kind: journal
+short: DCN
+nameEn: Digital Communications and Networks
+nameZh: 数字通信与网络
+aliases: []
+issn: 2468-5925
+eissn: 2352-8648
+url: https://www.keaipublishing.com/en/journals/digital-communications-and-networks/
+sourceUrl: https://www.keaipublishing.com/en/journals/digital-communications-and-networks/
+sourceType: publisher
+verification: verified
+verifiedAt: 2026-10-19
+identityReviewedAt: 2026-10-19
+catalogStatus: current
+areas:
+  - wireless
+  - network
+  - iot
+topics:
+  - physical
+  - protocols
+  - ai-communications
+  - edge-cloud
+  - vehicular
+topicReviewedAt: 2026-10-19
+publicationType: 研究型期刊
+articleTypes:
+  - 研究论文
+  - 综述论文
+submissionMode: 常规论文在线投稿；专题按对应征稿日期
+summary: 无线系统、通信协议、智能网络与车联网。
+assessments: []
+evaluations:
+  - system: jcr
+    year: 2024
+    releaseYear: 2025
+    snapshotDate: 2025-06
+    sourceUrl: https://uefiscdi.gov.ro/resource-865584-JCR_2024.iunie2025.pdf
+    sourceTitle: 2024 JCR政府公开转录（2025年6月）
+    sourceType: secondary
+    sourceAuthority: government
+    verifiedAt: 2026-10-19
+    reviewedAt: 2026-10-19
+    status: reported
+    value: Q1
+    category: TELECOMMUNICATIONS
+    categories:
+      - category: TELECOMMUNICATIONS
+        value: Q1
+        page: 753
+    page: 753
+    issn: 2468-5925
+    eissn: 2352-8648
+    appliesToName: Digital Communications and Networks
+    note: 按完整2024 JCR政府转录记录全部学科分区，默认展示电信学。
+  - system: cas
+    year: 2025
+    edition: 2025升级版
+    snapshotDate: 2026-09-28
+    sourceUrl: https://cce.ncepu.edu.cn/xzzx/yjsjx1/7632005045644e61a0d12c7bbeff6204.htm
+    sourceFileUrl: https://cce.ncepu.edu.cn/docs//2026-09/0e77800bf2744596a26e43c83acceed0.xlsx
+    sourceTitle: 华北电力大学公开的中科院2025升级版转录
+    sourceType: secondary
+    sourceAuthority: university
+    verifiedAt: 2026-10-19
+    reviewedAt: 2026-10-19
+    sheet: 期刊汇总
+    status: reported
+    value: "2"
+    category: 计算机科学
+    top: false
+    appliesToName: Digital Communications and Networks
+    issn: 2468-5925
+    row: 4214
+    minorCategories:
+      - category: TELECOMMUNICATIONS 电信学
+        quartile: 2
+    note: 按ISSN或正式全名匹配高校公开的2025升级版完整转录，保存大类与全部小类分区。
+  - system: ccf
+    year: 2026
+    edition: 第七版公开副本
+    sourceUrl: https://scdm-shu.github.io/ccf/2026-CCF-Ranking.pdf
+    sourceTitle: CCF2026国际会议期刊目录公开副本
+    sourceType: document-copy
+    verifiedAt: 2026-10-19
+    reviewedAt: 2026-10-19
+    reviewedNames:
+      - Digital Communications and Networks
+      - 数字通信与网络
+    status: unlisted
+    value: null
+    note: 按正式全名与已核实别名核对CCF2026国际会议期刊目录公开副本，未列入该版。中文期刊推荐目录另行发布。
+  - system: cic
+    year: 2021
+    value: T1
+    status: reported
+    edition: 2021通信领域高质量科技期刊分级目录
+    sourceUrl: https://www.cast.org.cn/cms_files/filemanager/583933374/attach/20259/3615926ac66743e58aca81b6835a674d.pdf
+    sourceTitle: 中国科协高质量科技期刊分级目录汇编：通信学会2021目录
+    sourceType: document-copy
+    verifiedAt: 2026-10-19
+    reviewedAt: 2026-10-19
+    issn: 2352-8648
+    page: 171
+    appliesToName: Digital Communications and Networks
+    note: 中国科协汇编转载的通信学会2021中文40刊目录，按ISSN或中文刊名唯一匹配；外国35刊未分级，不补造T等级。
+  - system: cie
+    year: 2023
+    edition: 2023电子技术、通信技术领域高质量科技期刊分级目录
+    value: T1
+    status: verified
+    sourceUrl: https://www.cie.org.cn/list_42/11930.html
+    sourceTitle: 中国电子学会2023电子技术、通信技术期刊分级目录
+    sourceType: official
+    verifiedAt: 2026-10-19
+    reviewedAt: 2026-10-19
+    issn: 2352-8648
+    row: 10
+    appliesToName: Digital Communications and Networks 数字通信与网络（英文）
+    note: 按正式ISSN或完整刊名对应官方232刊表，记录原始T分级及年份。
+catalogScope: communications
+scopeReviewedAt: 2026-10-19
+submissionStatus: open
+identityNote: 当前科爱主页有投稿入口、2026论文及2027专题征稿，明确SCIE与Scopus；未以CiteScore或IF代替索引证据。
+indexing:
+  value: SCIE
+  status: verified
+  year: null
+  sourceUrl: https://www.keaipublishing.com/en/journals/digital-communications-and-networks/
+  sourceTitle: Digital Communications and Networks索引列表
+  sourceType: publisher
+  verifiedAt: 2026-10-19
+  reviewedAt: 2026-10-19
+  note: 出版方逐刊索引列表明确列出；独立于影响因子、分区与其他数据库，未登录原索引库逐篇检索。
+otherIndexes:
+  - value: Scopus
+    status: verified
+    year: null
+    sourceUrl: https://www.keaipublishing.com/en/journals/digital-communications-and-networks/
+    sourceTitle: Digital Communications and Networks索引列表
+    sourceType: publisher
+    verifiedAt: 2026-10-19
+    reviewedAt: 2026-10-19
+    note: 出版方逐刊索引列表明确列出；独立于影响因子、分区与其他数据库，未登录原索引库逐篇检索。
+  - value: CSCD
+    status: reported
+    year: 2025
+    edition: 2025—2026
+    coverage: 核心库
+    issn: 2468-5925
+    sourceUrl: https://nssc.cas.cn/yjsb/xspy/py/wjgd/202209/P020250901365885026876.pdf
+    sourceTitle: CSCD2025—2026来源期刊名单（国家空间科学中心公开附件）
+    sourceType: document-copy
+    verifiedAt: 2026-10-19
+    note: 按ISSN匹配完整名单，原记录类别为核心库。
+ratingReviewedAt: 2026-10-19
+primaryArea: wireless
+secondaryAreas:
+  - network
+  - iot

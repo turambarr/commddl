@@ -1,0 +1,67 @@
+# WCSP
+# 提交修改请发起 Pull Request（合并请求）；构建产物自动生成。
+id: wcsp
+kind: conference
+short: WCSP
+nameZh: 无线通信与信号处理国际会议
+nameEn: International Conference on Wireless Communications and Signal Processing
+aliases: []
+topics:
+  - physical
+  - estimation-sync
+  - isac
+  - mimo
+areas:
+  - wireless
+  - signal
+topicReviewedAt: 2026-10-18
+url: http://www.ic-wcsp.org/2026/
+sourceUrl: https://www.iconf.org/conference/wcsp2026
+sourceType: secondary
+verifiedAt: null
+verification: pending
+catalogStatus: needs-review
+summary: 无线通信和信号处理会议系列；已找到系列线索，本次官网无法读取，具体届次、日期及正式出版要求保持待核验。
+publicationType: 学术会议系列
+articleTypes:
+  - 会议论文
+submissionMode: 按具体届次征稿
+assessments: []
+evaluations:
+  - system: ccf
+    year: 2026
+    edition: 第七版公开副本
+    sourceUrl: https://scdm-shu.github.io/ccf/2026-CCF-Ranking.pdf
+    sourceType: document-copy
+    sourceTitle: CCF 2026 完整目录公开副本
+    verifiedAt: 2026-10-18
+    reviewedNames:
+      - International Conference on Wireless Communications and Signal Processing
+      - WCSP
+    note: 按正式系列核对CCF2026公开副本全部386个会议条目，未列入该版。
+    status: unlisted
+    value: null
+    reviewedAt: 2026-10-18
+  - system: core
+    year: 2026
+    edition: ICORE2026
+    sourceUrl: https://portal.core.edu.au/conf-ranks/?search=&by=all&source=ICORE2026&sort=atitle
+    sourceType: official
+    sourceTitle: ICORE2026 官方完整会议库
+    verifiedAt: 2026-10-18
+    reviewedNames:
+      - International Conference on Wireless Communications and Signal Processing
+      - WCSP
+    note: 复查 ICORE2026 官方全 20 页、987 个记录，按全称、系列简称及历史名称对照，未列出该正式系列。
+    status: unlisted
+    value: null
+    reviewedAt: 2026-10-18
+catalogScope: communications
+scopeReviewedAt: 2026-10-18
+scopeNote: 无线通信研究载体；通信相关信号处理及感知研究载体
+ratingReviewedAt: 2026-10-18
+identityReviewedAt: 2026-10-18
+identityNote: 官网 http://www.ic-wcsp.org/2026 本次无法读取；第三方征稿提供2026深圳届线索，截止日期待官方来源确认。
+primaryArea: wireless
+secondaryAreas:
+  - signal

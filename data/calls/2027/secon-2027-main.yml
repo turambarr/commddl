@@ -1,0 +1,68 @@
+# SECON 2027 · 主会论文
+# 提交修改请发起 Pull Request（合并请求）；构建产物自动生成。
+id: secon-2027-main
+venueId: secon
+title: SECON 2027 · 主会论文
+titleEn: IEEE International Conference on Sensing, Communication, and Networking 2027 main
+year: 2027
+kind: conference
+areas:
+  - iot
+  - network
+  - signal
+topics:
+  - iot-sensing
+  - mobile-systems
+  - protocols
+tags: []
+summary: 感知网络、无线通信和物联网系统。
+url: https://secon2027.ieee-secon.org/call-papers
+sourceUrl: https://secon2027.ieee-secon.org/call-papers
+sourceType: official
+nodes:
+  - id: paper
+    label: 全文提交
+    type: paper
+    primary: true
+    precision: date
+    date: 2026-11-30
+    instant: null
+    timezone: null
+    original: "Paper Submission Deadline: 30 November 2026"
+    revision: 0
+    sourceUrl: https://secon2027.ieee-secon.org/call-papers
+  - id: decision
+    label: 录用通知
+    type: decision
+    primary: false
+    precision: date
+    date: 2027-02-15
+    instant: null
+    timezone: null
+    original: "Notification of Acceptance: 2027-02-15"
+    revision: 0
+    sourceUrl: https://secon2027.ieee-secon.org/call-papers
+  - id: final
+    label: 终稿提交
+    type: final
+    primary: false
+    precision: date
+    date: 2027-03-15
+    instant: null
+    timezone: null
+    original: "Camera-Ready / Final Manuscript: 2027-03-15"
+    revision: 0
+    sourceUrl: https://secon2027.ieee-secon.org/call-papers
+verification: verified
+verifiedAt: 2026-10-18
+checkedAt: 2026-10-18
+updatedAt: 2026-10-18T04:00:00Z
+status: announced
+notes: 官网公布截止日期，钟点或时区未注明，按日期展示。
+location: 葡萄牙·里斯本
+eventStart: 2027-05-05
+eventEnd: 2027-05-07
+eventDates: 2027-05-05 / 2027-05-07
+publication: null
+history: []
+eventSourceUrl: https://www.ieee-secon.org/

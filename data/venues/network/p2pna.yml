@@ -1,0 +1,194 @@
+# P2PNA
+# 提交修改请发起 Pull Request（合并请求）；构建产物自动生成。
+id: p2pna
+kind: journal
+short: P2PNA
+nameEn: Peer-to-Peer Networking and Applications
+nameZh: 对等网络与应用
+aliases: []
+issn: 1936-6442
+eissn: 1936-6450
+url: https://link.springer.com/journal/12083
+sourceUrl: https://link.springer.com/journal/12083
+sourceType: publisher
+verification: verified
+verifiedAt: 2026-10-19
+identityReviewedAt: 2026-10-19
+catalogStatus: current
+areas:
+  - network
+  - iot
+topics:
+  - protocols
+  - edge-cloud
+  - security
+  - distributed-learning
+topicReviewedAt: 2026-10-19
+publicationType: 研究型期刊
+articleTypes:
+  - 研究论文
+  - 综述论文
+submissionMode: 常规论文在线投稿；专题按对应征稿日期
+summary: 对等网络、分布式通信与网络应用。
+assessments: []
+evaluations:
+  - system: jcr
+    year: 2024
+    releaseYear: 2025
+    snapshotDate: 2025-06
+    sourceUrl: https://uefiscdi.gov.ro/resource-865584-JCR_2024.iunie2025.pdf
+    sourceTitle: 2024 JCR政府公开转录（2025年6月）
+    sourceType: secondary
+    sourceAuthority: government
+    verifiedAt: 2026-10-19
+    reviewedAt: 2026-10-19
+    status: reported
+    value: Q3
+    category: TELECOMMUNICATIONS
+    categories:
+      - category: COMPUTER SCIENCE, INFORMATION SYSTEMS
+        value: Q3
+        page: 134
+      - category: TELECOMMUNICATIONS
+        value: Q3
+        page: 756
+    page: 756
+    issn: 1936-6442
+    eissn: 1936-6450
+    appliesToName: Peer-to-Peer Networking and Applications
+    note: 按完整2024 JCR政府转录记录全部学科分区，默认展示电信学。
+  - system: cas
+    year: 2025
+    edition: 2025升级版
+    snapshotDate: 2026-09-28
+    sourceUrl: https://cce.ncepu.edu.cn/xzzx/yjsjx1/7632005045644e61a0d12c7bbeff6204.htm
+    sourceFileUrl: https://cce.ncepu.edu.cn/docs//2026-09/0e77800bf2744596a26e43c83acceed0.xlsx
+    sourceTitle: 华北电力大学公开的中科院2025升级版转录
+    sourceType: secondary
+    sourceAuthority: university
+    verifiedAt: 2026-10-19
+    reviewedAt: 2026-10-19
+    sheet: 期刊汇总
+    status: reported
+    value: "4"
+    category: 计算机科学
+    top: false
+    appliesToName: Peer-to-Peer Networking and Applications
+    issn: 1936-6442
+    row: 21716
+    minorCategories:
+      - category: COMPUTER SCIENCE, INFORMATION SYSTEMS 计算机：信息系统
+        quartile: 4
+      - category: TELECOMMUNICATIONS 电信学
+        quartile: 4
+    note: 按ISSN或正式全名匹配高校公开的2025升级版完整转录，保存大类与全部小类分区。
+  - system: ccf
+    year: 2026
+    edition: 第七版公开副本
+    sourceUrl: https://scdm-shu.github.io/ccf/2026-CCF-Ranking.pdf
+    sourceTitle: CCF2026国际会议期刊目录公开副本
+    sourceType: document-copy
+    verifiedAt: 2026-10-19
+    reviewedAt: 2026-10-19
+    reviewedNames:
+      - Peer-to-Peer Networking and Applications
+      - 对等网络与应用
+    status: reported
+    value: C
+    category: 计算机网络
+    page: 12
+    appliesToName: Peer-to-Peer Networking and Applications
+    note: 按正式全名或已核实旧名匹配CCF2026公开副本，适用于对应正式论文；附属研讨会及演示单独评价。
+  - system: ccf
+    year: 2015
+    edition: CCF2015
+    sourceUrl: https://lib.ecnu.edu.cn/_upload/article/files/e2/d9/dd45764345088869915f6b3617a4/5b8fc1d6-d5bb-487d-a1db-42825ebc312a.pdf
+    sourceType: document-copy
+    sourceTitle: CCF2015 完整目录公开副本
+    verifiedAt: 2026-10-19
+    reviewedAt: 2026-10-19
+    status: reported
+    value: C
+    appliesToName: Peer-to-Peer Networking and Applications
+    category: 计算机网络
+    page: 12
+    note: 按完整英文名称核对 CCF2015 目录 PDF 第 12 页。该等级属于 2015 年版本；保存公开副本来源属性。
+  - system: ccf
+    year: 2019
+    edition: CCF2019
+    sourceUrl: https://lib.ecnu.edu.cn/_upload/article/files/e2/d9/dd45764345088869915f6b3617a4/bc806894-08bb-40d3-addb-b58a5d9e5fd1.pdf
+    sourceType: document-copy
+    sourceTitle: CCF2019 完整目录公开副本
+    verifiedAt: 2026-10-19
+    reviewedAt: 2026-10-19
+    status: reported
+    value: C
+    appliesToName: Peer-to-Peer Networking and Applications
+    category: 计算机网络
+    page: 12
+    note: 按完整英文名称核对 CCF2019 目录 PDF 第 12 页。该等级属于 2019 年版本；保存公开副本来源属性。
+  - system: ccf
+    year: 2022
+    edition: CCF2022
+    sourceUrl: https://lib.ecnu.edu.cn/_upload/article/files/e2/d9/dd45764345088869915f6b3617a4/e98393b5-2703-45f2-8562-6622bbdcf8c1.pdf
+    sourceType: document-copy
+    sourceTitle: CCF2022 完整目录公开副本
+    verifiedAt: 2026-10-19
+    reviewedAt: 2026-10-19
+    status: reported
+    value: C
+    appliesToName: Peer-to-Peer Networking and Applications
+    category: 计算机网络
+    page: 12
+    note: 按完整英文名称核对 CCF2022 目录 PDF 第 12 页。该等级属于 2022 年版本；保存公开副本来源属性。
+  - system: cie
+    year: 2023
+    edition: 2023电子技术、通信技术领域高质量科技期刊分级目录
+    value: T3
+    status: verified
+    sourceUrl: https://www.cie.org.cn/list_42/11930.html
+    sourceTitle: 中国电子学会2023电子技术、通信技术期刊分级目录
+    sourceType: official
+    verifiedAt: 2026-10-19
+    reviewedAt: 2026-10-19
+    issn: 1936-6442
+    row: 221
+    appliesToName: Peer-to-Peer Networking and Applications
+    note: 按正式ISSN或完整刊名对应官方232刊表，记录原始T分级及年份。
+catalogScope: communications
+scopeReviewedAt: 2026-10-19
+submissionStatus: open
+identityNote: Springer当前主页同时列SCIE、EI Compendex、SCOPUS，以及投稿入口和2026论文。
+indexing:
+  value: SCIE
+  status: verified
+  year: null
+  sourceUrl: https://link.springer.com/journal/12083
+  sourceTitle: Peer-to-Peer Networking and Applications索引列表
+  sourceType: publisher
+  verifiedAt: 2026-10-19
+  reviewedAt: 2026-10-19
+  note: 出版方逐刊索引列表明确列出；独立于影响因子、分区与其他数据库，未登录原索引库逐篇检索。
+otherIndexes:
+  - value: EI
+    status: verified
+    year: null
+    sourceUrl: https://link.springer.com/journal/12083
+    sourceTitle: Peer-to-Peer Networking and Applications索引列表
+    sourceType: publisher
+    verifiedAt: 2026-10-19
+    reviewedAt: 2026-10-19
+    note: 出版方逐刊索引列表明确列出；独立于影响因子、分区与其他数据库，未登录原索引库逐篇检索。
+  - value: Scopus
+    status: verified
+    year: null
+    sourceUrl: https://link.springer.com/journal/12083
+    sourceTitle: Peer-to-Peer Networking and Applications索引列表
+    sourceType: publisher
+    verifiedAt: 2026-10-19
+    reviewedAt: 2026-10-19
+    note: 出版方逐刊索引列表明确列出；独立于影响因子、分区与其他数据库，未登录原索引库逐篇检索。
+ratingReviewedAt: 2026-10-19
+primaryArea: network
+secondaryAreas:
+  - iot

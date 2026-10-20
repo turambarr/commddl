@@ -1,0 +1,56 @@
+# ECOC 2027 · 主会论文
+# 提交修改请发起 Pull Request（合并请求）；构建产物自动生成。
+id: ecoc-2027-main
+venueId: ecoc
+title: ECOC 2027 · 主会论文
+titleEn: European Conference on Optical Communication
+year: 2027
+kind: conference
+areas:
+  - optical
+  - signal
+  - network
+topics:
+  - fiber
+  - optical-networks
+  - photonics
+tags: []
+summary: ""
+url: https://ecoc2027.org/important-dates/
+sourceUrl: https://ecoc2027.org/important-dates/
+sourceType: official
+nodes:
+  - id: paper
+    label: 全文提交
+    type: paper
+    primary: true
+    precision: date
+    date: 2027-04-25
+    instant: null
+    timezone: null
+    original: 2027-04-25
+    revision: 0
+  - id: decision
+    label: 录用通知
+    type: decision
+    primary: false
+    precision: date
+    date: 2027-06-25
+    instant: null
+    timezone: null
+    original: 2027-06-25
+    revision: 0
+verification: verified
+verifiedAt: 2026-10-18
+checkedAt: 2026-10-18
+updatedAt: 2026-10-18T04:00:00Z
+status: announced
+notes: 主会论文与演示同日截止；此记录为主会论文。投稿入口预计2月15日开放。会议10月10–14日，展览仅10月11–13日，二者未混淆。
+location: 意大利·米兰
+eventStart: 2027-10-10
+eventEnd: 2027-10-14
+eventDates: 2027-10-10 / 2027-10-14
+publication: null
+history: []
+submissionOpens: 2027-02-15
+eventSourceUrl: https://ecoc2027.org/

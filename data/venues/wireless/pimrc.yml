@@ -1,0 +1,184 @@
+# PIMRC
+# 提交修改请发起 Pull Request（合并请求）；构建产物自动生成。
+id: pimrc
+kind: conference
+short: PIMRC
+nameZh: IEEE 个人、室内与移动无线通信国际研讨会
+nameEn: IEEE International Symposium on Personal, Indoor and Mobile Radio Communications
+aliases:
+  - PIMRC
+areas:
+  - wireless
+  - signal
+  - iot
+url: https://www.ieee-pimrc.org/
+summary: 移动无线通信及相关系统。
+publicationType: 会议系列
+articleTypes:
+  - 研究论文
+submissionMode: 查看具体届次
+sourceUrl: https://www.comsoc.org/conferences-events/portfolio-conferences-events
+verifiedAt: 2026-10-17
+verification: verified
+assessments:
+  - system: bupt-ict-2018
+    label: 2018 信通学科重要会议表
+    year: 2018
+    sourceUrl: https://xxgk.bupt.edu.cn/__local/F/65/92/3A361334F005A224CD3C6C215B7_43DF8061_C1241.pdf?e=.pdf
+    note: 2018历史文件列有该会议系列，对应博士成果路径之一。当前适用性待核验；附属活动单独认定。硕士渠道见第四条。
+topics:
+  - physical
+  - mimo
+  - propagation
+  - resources
+  - mobile-systems
+  - isac
+  - satellite-ntn
+  - full-duplex
+topicReviewedAt: 2026-10-18
+catalogStatus: current
+evaluations:
+  - system: ccf
+    year: 2026
+    edition: 第七版公开副本
+    sourceUrl: https://scdm-shu.github.io/ccf/2026-CCF-Ranking.pdf
+    sourceType: document-copy
+    sourceTitle: CCF 2026 完整目录公开副本
+    verifiedAt: 2026-10-18
+    reviewedNames:
+      - IEEE International Symposium on Personal, Indoor and Mobile Radio Communications
+      - PIMRC
+      - PIMRC
+    note: 按正式系列核对CCF2026公开副本全部386个会议条目，未列入该版。
+    status: unlisted
+    value: null
+    reviewedAt: 2026-10-18
+  - system: core
+    year: 2026
+    edition: ICORE2026
+    sourceUrl: https://portal.core.edu.au/conf-ranks/?search=&by=all&source=ICORE2026&sort=atitle&page=7
+    sourceType: official
+    sourceTitle: ICORE2026 官方完整会议库
+    verifiedAt: 2026-10-18
+    reviewedNames:
+      - IEEE International Symposium on Personal, Indoor and Mobile Radio Communications
+      - PIMRC
+      - PIMRC
+    note: 已按正式全称及系列简称复查 ICORE2026 官方完整库。
+    status: verified
+    value: B
+    appliesToName: IEEE International Symposium on Personal and Indoor Mobile Radio Conference
+    reviewedAt: 2026-10-18
+  - system: core
+    year: 2023
+    edition: CORE2023
+    sourceUrl: https://portal.core.edu.au/conf-ranks/?search=PIMRC&by=acronym&source=CORE2023
+    sourceType: official
+    sourceTitle: CORE2023 官方完整会议库
+    verifiedAt: 2026-10-19
+    reviewedAt: 2026-10-19
+    status: verified
+    value: B
+    appliesToName: IEEE International Symposium on Personal and Indoor Mobile Radio Conference
+    note: 核对 CORE2023 官方完整 CSV 导出（956 条），以正式全称及已确认的系列名称匹配。该等级属于 2023 年版本。
+    sourceRecordId: "706"
+  - system: core
+    year: 2021
+    edition: CORE2021
+    sourceUrl: https://portal.core.edu.au/conf-ranks/?search=PIMRC&by=acronym&source=CORE2021
+    sourceType: official
+    sourceTitle: CORE2021 官方完整会议库
+    verifiedAt: 2026-10-19
+    reviewedAt: 2026-10-19
+    status: verified
+    value: B
+    appliesToName: IEEE International Symposium on Personal and Indoor Mobile Radio Conference
+    note: 核对 CORE2021 官方完整 CSV 导出（955 条），以正式全称及已确认的系列名称匹配。该等级属于 2021 年版本。
+    sourceRecordId: "706"
+  - system: core
+    year: 2020
+    edition: CORE2020
+    sourceUrl: https://portal.core.edu.au/conf-ranks/?search=PIMRC&by=acronym&source=CORE2020
+    sourceType: official
+    sourceTitle: CORE2020 官方完整会议库
+    verifiedAt: 2026-10-19
+    reviewedAt: 2026-10-19
+    status: verified
+    value: B
+    appliesToName: IEEE International Symposium on Personal and Indoor Mobile Radio Conference
+    note: 核对 CORE2020 官方完整 CSV 导出（882 条），以正式全称及已确认的系列名称匹配。该等级属于 2020 年版本。
+    sourceRecordId: "706"
+  - system: core
+    year: 2018
+    edition: CORE2018
+    sourceUrl: https://portal.core.edu.au/conf-ranks/?search=PIMRC&by=acronym&source=CORE2018
+    sourceType: official
+    sourceTitle: CORE2018 官方完整会议库
+    verifiedAt: 2026-10-19
+    reviewedAt: 2026-10-19
+    status: verified
+    value: B
+    appliesToName: IEEE International Symposium on Personal and Indoor Mobile Radio Conference
+    note: 核对 CORE2018 官方完整 CSV 导出（1625 条），以正式全称及已确认的系列名称匹配。该等级属于 2018 年版本。
+    sourceRecordId: "706"
+  - system: core
+    year: 2017
+    edition: CORE2017
+    sourceUrl: https://portal.core.edu.au/conf-ranks/?search=PIMRC&by=acronym&source=CORE2017
+    sourceType: official
+    sourceTitle: CORE2017 官方完整会议库
+    verifiedAt: 2026-10-19
+    reviewedAt: 2026-10-19
+    status: verified
+    value: B
+    appliesToName: IEEE International Symposium on Personal and Indoor Mobile Radio Conference
+    note: 核对 CORE2017 官方完整 CSV 导出（1592 条），以正式全称及已确认的系列名称匹配。该等级属于 2017 年版本。
+    sourceRecordId: "706"
+  - system: core
+    year: 2014
+    edition: CORE2014
+    sourceUrl: https://portal.core.edu.au/conf-ranks/?search=PIMRC&by=acronym&source=CORE2014
+    sourceType: official
+    sourceTitle: CORE2014 官方完整会议库
+    verifiedAt: 2026-10-19
+    reviewedAt: 2026-10-19
+    status: verified
+    value: B
+    appliesToName: IEEE International Symposium on Personal and Indoor Mobile Radio Conference
+    note: 核对 CORE2014 官方完整 CSV 导出（1628 条），以正式全称及已确认的系列名称匹配。该等级属于 2014 年版本。
+    sourceRecordId: "706"
+  - system: core
+    year: 2013
+    edition: CORE2013
+    sourceUrl: https://portal.core.edu.au/conf-ranks/?search=PIMRC&by=acronym&source=CORE2013
+    sourceType: official
+    sourceTitle: CORE2013 官方完整会议库
+    verifiedAt: 2026-10-19
+    reviewedAt: 2026-10-19
+    status: verified
+    value: B
+    appliesToName: IEEE International Symposium on Personal and Indoor Mobile Radio Conference
+    note: 核对 CORE2013 官方完整 CSV 导出（1615 条），以正式全称及已确认的系列名称匹配。该等级属于 2013 年版本。
+    sourceRecordId: "706"
+  - system: core
+    year: 2008
+    edition: CORE2008
+    sourceUrl: https://portal.core.edu.au/conf-ranks/?search=PIMRC&by=acronym&source=CORE2008
+    sourceType: official
+    sourceTitle: CORE2008 官方完整会议库
+    verifiedAt: 2026-10-19
+    reviewedAt: 2026-10-19
+    status: verified
+    value: B
+    appliesToName: IEEE International Symposium on Personal and Indoor Mobile Radio Conference
+    note: 核对 CORE2008 官方完整 CSV 导出（933 条），以正式全称及已确认的系列名称匹配。该等级属于 2008 年版本。
+    sourceRecordId: "706"
+catalogScope: communications
+scopeReviewedAt: 2026-10-18
+scopeNote: 无线通信研究载体；通信相关信号处理及感知研究载体
+ratingReviewedAt: 2026-10-18
+deadlineReviewedAt: 2026-10-18
+primaryArea: wireless
+secondaryAreas:
+  - signal
+  - iot

@@ -1,0 +1,75 @@
+# ICC 2027 · 主会论文
+# 提交修改请发起 Pull Request（合并请求）；构建产物自动生成。
+id: icc-2027-main
+venueId: icc
+title: ICC 2027 · 主会论文
+titleEn: IEEE International Conference on Communications 2027 main
+year: 2027
+kind: conference
+areas:
+  - wireless
+  - network
+  - signal
+topics:
+  - physical
+  - mimo
+  - access
+  - resources
+  - protocols
+  - ai-communications
+  - isac
+  - channel-coding
+  - satellite-ntn
+  - security
+tags: []
+summary: 通信系统与网络的综合会议。
+url: https://icc2027.ieee-icc.org/authors/call-symposium-papers
+sourceUrl: https://icc2027.ieee-icc.org/authors/call-symposium-papers
+sourceType: official
+nodes:
+  - id: paper
+    label: 全文提交
+    type: paper
+    primary: true
+    precision: date
+    date: 2026-10-30
+    instant: null
+    timezone: null
+    original: "Paper Submission Deadline: 30 October 2026 (Firm Deadline)"
+    revision: 0
+    sourceUrl: https://icc2027.ieee-icc.org/authors/call-symposium-papers
+  - id: decision
+    label: 录用通知
+    type: decision
+    primary: false
+    precision: date
+    date: 2027-01-15
+    instant: null
+    timezone: null
+    original: "Notification of Acceptance: 2027-01-15"
+    revision: 0
+    sourceUrl: https://icc2027.ieee-icc.org/authors/call-symposium-papers
+  - id: final
+    label: 终稿提交
+    type: final
+    primary: false
+    precision: date
+    date: 2027-02-19
+    instant: null
+    timezone: null
+    original: "Camera-Ready / Final Manuscript: 2027-02-19"
+    revision: 0
+    sourceUrl: https://icc2027.ieee-icc.org/authors/call-symposium-papers
+verification: verified
+verifiedAt: 2026-10-18
+checkedAt: 2026-10-18
+updatedAt: 2026-10-18T04:00:00Z
+status: announced
+notes: 官网公布截止日期，钟点或时区未注明，按日期展示。
+location: 美国·华盛顿特区
+eventStart: 2027-05-30
+eventEnd: 2027-06-03
+eventDates: 2027-05-30 / 2027-06-03
+publication: null
+history: []
+eventSourceUrl: https://icc2027.ieee-icc.org

@@ -1,0 +1,57 @@
+# OFC 2027 · 主会论文
+# 提交修改请发起 Pull Request（合并请求）；构建产物自动生成。
+id: ofc-2027-main
+venueId: ofc
+title: OFC 2027 · 主会论文
+titleEn: Optical Fiber Communication Conference and Exposition
+year: 2027
+kind: conference
+areas:
+  - optical
+  - network
+topics:
+  - fiber
+  - optical-networks
+  - photonics
+tags: []
+summary: ""
+url: https://www.ofcconference.org/submit-a-paper/
+sourceUrl: https://www.ofcconference.org/submit-a-paper/
+sourceType: official
+nodes:
+  - id: paper
+    label: 摘要与论文同时提交
+    type: paper
+    primary: true
+    precision: instant
+    date: null
+    instant: 2026-10-20T12:00:00-04:00
+    timezone: UTC-04:00
+    original: 20 October 2026, 12:00 EDT (UTC−04:00)
+    revision: 0
+  - id: decision
+    label: 录用通知窗口结束
+    type: decision
+    primary: false
+    precision: date
+    date: 2026-12-18
+    instant: null
+    timezone: null
+    original: "Notification window: 14–18 December 2026"
+    revision: 0
+    sourceUrl: https://www.ofcconference.org/submit-a-paper/author-timeline/
+verification: verified
+verifiedAt: 2026-10-18
+checkedAt: 2026-10-18
+updatedAt: 2026-10-18T04:00:00Z
+status: announced
+notes: 官网明确主会摘要及论文同为10月20日中午EDT。录用通知为12月14–18日窗口，节点标记窗口结束，非承诺单一通知日。
+location: 美国·洛杉矶
+eventStart: 2027-03-07
+eventEnd: 2027-03-11
+eventDates: 2027-03-07 / 2027-03-11
+publication: null
+history: []
+decisionWindow:
+  start: 2026-12-14
+  end: 2026-12-18

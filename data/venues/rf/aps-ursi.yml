@@ -1,0 +1,73 @@
+# AP-S/URSI
+# 提交修改请发起 Pull Request（合并请求）；构建产物自动生成。
+id: aps-ursi
+kind: conference
+short: AP-S/URSI
+nameZh: IEEE 天线与传播国际研讨会及联合无线电科学会议
+nameEn: IEEE International Symposium on Antennas and Propagation and Joint Radio Science Meeting
+aliases:
+  - APS
+areas:
+  - rf
+  - wireless
+  - space
+topics:
+  - antennas
+  - propagation
+  - arrays
+topicReviewedAt: 2026-10-18
+url: https://2027.apsursi.org/
+summary: 年度AP-S国际研讨会与联合URSI会议，联合名称随届次变化；独立地区会议另列。
+publicationType: 学术会议系列
+articleTypes:
+  - 会议论文
+submissionMode: 按具体届次征稿
+sourceUrl: https://ieeeaps.org/conferences/upcoming-conferences
+verifiedAt: 2026-10-18
+verification: verified
+assessments:
+  - system: bupt-ict-2018
+    label: 2018 信通学科重要会议表
+    year: 2018
+    sourceUrl: https://xxgk.bupt.edu.cn/__local/F/65/92/3A361334F005A224CD3C6C215B7_43DF8061_C1241.pdf?e=.pdf
+    note: 列入2018版学科附件，硕士渠道见政策说明。原表编号 37，PDF 第 5 页。
+catalogStatus: current
+evaluations:
+  - system: ccf
+    year: 2026
+    edition: 第七版公开副本
+    sourceUrl: https://scdm-shu.github.io/ccf/2026-CCF-Ranking.pdf
+    sourceType: document-copy
+    sourceTitle: CCF 2026 完整目录公开副本
+    verifiedAt: 2026-10-18
+    reviewedNames:
+      - IEEE International Symposium on Antennas and Propagation and Joint Radio Science Meeting
+      - AP-S/URSI
+      - APS
+    note: 按正式系列核对CCF2026公开副本全部386个会议条目，未列入该版。
+    status: unlisted
+    value: null
+    reviewedAt: 2026-10-18
+  - system: core
+    year: 2026
+    edition: ICORE2026
+    sourceUrl: https://portal.core.edu.au/conf-ranks/?search=&by=all&source=ICORE2026&sort=atitle
+    sourceType: official
+    sourceTitle: ICORE2026 官方完整会议库
+    verifiedAt: 2026-10-18
+    reviewedNames:
+      - IEEE International Symposium on Antennas and Propagation and Joint Radio Science Meeting
+      - AP-S/URSI
+      - APS
+    note: 复查 ICORE2026 官方全 20 页、987 个记录，按全称、系列简称及历史名称对照，未列出该正式系列。
+    status: unlisted
+    value: null
+    reviewedAt: 2026-10-18
+catalogScope: communications
+scopeReviewedAt: 2026-10-18
+scopeNote: 天线、射频与电磁通信硬件载体；无线通信研究载体；通信相关信号处理及感知研究载体
+ratingReviewedAt: 2026-10-18
+primaryArea: rf
+secondaryAreas:
+  - wireless
+  - space

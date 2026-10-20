@@ -1,0 +1,135 @@
+# EURASIP J. Audio Speech Music Process.
+# 提交修改请发起 Pull Request（合并请求）；构建产物自动生成。
+id: eurasip-asmp
+kind: journal
+short: EURASIP J. Audio Speech Music Process.
+nameEn: EURASIP Journal on Audio Speech and Music Processing
+nameZh: EURASIP音频、语音与音乐处理期刊
+aliases:
+  - EURASIP Journal on Audio, Speech, and Music Processing
+issn: 1687-4714
+eissn: 1687-4722
+primaryArea: signal
+secondaryAreas:
+  - ai
+areas:
+  - signal
+  - ai
+topics:
+  - speech
+url: https://portal.issn.org/resource/ISSN/1687-4714
+urlKind: registry
+sourceUrl: https://api.crossref.org/journals/1687-4714
+sourceType: registry
+verification: verified
+verifiedAt: 2026-10-19
+identitySourceYear: 2026
+catalogStatus: needs-review
+catalogScope: communications
+publicationType: 研究型期刊
+articleTypes:
+  - 研究论文
+assessments: []
+evaluations:
+  - system: jcr
+    year: 2024
+    releaseYear: 2025
+    snapshotDate: 2025-06
+    sourceUrl: https://uefiscdi.gov.ro/resource-865584-JCR_2024.iunie2025.pdf
+    sourceTitle: 2024 JCR政府公开转录（2025年6月）
+    sourceType: secondary
+    sourceAuthority: government
+    verifiedAt: 2026-10-19
+    reviewedAt: 2026-10-19
+    status: reported
+    value: Q2
+    category: ACOUSTICS
+    categories:
+      - category: ACOUSTICS
+        value: Q2
+        page: 1
+      - category: ENGINEERING, ELECTRICAL & ELECTRONIC
+        value: Q3
+        page: 236
+    page: 1
+    issn: 1687-4722
+    eissn: 1687-4722
+    appliesToName: EURASIP Journal on Audio Speech and Music Processing
+    note: 对照完整2024 JCR政府转录，默认电信学优先，保留全部学科；不取最好分区，不冒充最新原库。
+  - system: cas
+    year: 2025
+    edition: 2025升级版
+    snapshotDate: 2026-09-28
+    sourceUrl: https://cce.ncepu.edu.cn/xzzx/yjsjx1/7632005045644e61a0d12c7bbeff6204.htm
+    sourceFileUrl: https://cce.ncepu.edu.cn/docs//2026-09/0e77800bf2744596a26e43c83acceed0.xlsx
+    sourceTitle: 华北电力大学公开的中科院2025升级版转录
+    sourceType: secondary
+    sourceAuthority: university
+    verifiedAt: 2026-10-19
+    reviewedAt: 2026-10-19
+    sheet: 期刊汇总
+    status: reported
+    value: "4"
+    category: 计算机科学
+    top: false
+    appliesToName: EURASIP Journal on Audio Speech and Music Processing
+    issn: 1687-4722
+    row: 21417
+    minorCategories:
+      - category: ACOUSTICS 声学
+        quartile: 3
+      - category: ENGINEERING, ELECTRICAL & ELECTRONIC 工程：电子与电气
+        quartile: 4
+    note: 按ISSN或正式全名对照高校公开的2025升级版完整转录；保留大类及全部小类，不冒充原库或2026数据。
+  - system: ccf
+    year: 2026
+    edition: 第七版公开副本
+    sourceUrl: https://scdm-shu.github.io/ccf/2026-CCF-Ranking.pdf
+    sourceTitle: CCF2026国际会议期刊目录公开副本
+    sourceType: document-copy
+    verifiedAt: 2026-10-19
+    reviewedAt: 2026-10-19
+    reviewedNames:
+      - EURASIP Journal on Audio Speech and Music Processing
+      - EURASIP音频、语音与音乐处理期刊
+      - EURASIP Journal on Audio, Speech, and Music Processing
+    status: unlisted
+    value: null
+    note: 按正式全名与已核实别名对照CCF2026公开副本完整目录未列；不等于低等级，不含另行发布的中文期刊推荐目录。
+  - system: cie
+    year: 2023
+    edition: 2023电子技术、通信技术领域高质量科技期刊分级目录
+    value: T3
+    status: verified
+    sourceUrl: https://www.cie.org.cn/list_42/11930.html
+    sourceTitle: 中国电子学会2023电子技术、通信技术期刊分级目录
+    sourceType: official
+    verifiedAt: 2026-10-19
+    reviewedAt: 2026-10-19
+    issn: 1687-4714
+    row: 178
+    appliesToName: EURASIP Journal on Audio Speech and Music Processing
+    note: 按正式ISSN或完整刊名对应官方232刊表，记录原始T分级及年份。
+otherIndexes: []
+submissionStatus: unresolved
+identityNote: 身份按注册机构、出版方或已注明版本的正式目录核对，作者入口另行维护。
+candidateSource: user-master-catalog
+indexing:
+  value: SCIE
+  status: reported
+  year: 2024
+  releaseYear: 2025
+  snapshotDate: 2025-06
+  sourceUrl: https://uefiscdi.gov.ro/resource-865584-JCR_2024.iunie2025.pdf
+  sourceTitle: 2024 JCR完整转录的Edition索引列
+  sourceType: secondary
+  sourceAuthority: government
+  verifiedAt: 2026-10-19
+  reviewedAt: 2026-10-19
+  issn: 1687-4722
+  eissn: 1687-4722
+  page: 1
+  note: 读取Edition明确索引列，非从分区推定；为2024数据/2025年6月快照，不冒充2026实时索引状态。
+topicReviewedAt: 2026-10-19
+scopeReviewedAt: 2026-10-19
+ratingReviewedAt: 2026-10-19

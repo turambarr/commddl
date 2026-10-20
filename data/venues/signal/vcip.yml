@@ -1,0 +1,178 @@
+# VCIP
+# 提交修改请发起 Pull Request（合并请求）；构建产物自动生成。
+id: vcip
+kind: conference
+short: VCIP
+nameZh: 视觉通信与图像处理会议
+nameEn: IEEE Visual Communications and Image Processing Conference
+aliases: []
+topics:
+  - imaging
+  - source-coding
+areas:
+  - signal
+  - ai
+  - network
+topicReviewedAt: 2026-10-18
+url: https://vcip-2026.org/call-for-papers/
+sourceUrl: https://vcip-2026.org/call-for-papers/
+verifiedAt: 2026-10-18
+verification: verified
+catalogStatus: current
+summary: 2018 学科附件中的历史条目；现行名称、举办状态与当届投稿信息待核验。
+publicationType: 学术会议系列
+articleTypes:
+  - 会议论文
+submissionMode: 按具体届次征稿
+assessments:
+  - system: bupt-ict-2018
+    label: 2018 信通学科重要会议表
+    year: 2018
+    sourceUrl: https://xxgk.bupt.edu.cn/__local/F/65/92/3A361334F005A224CD3C6C215B7_43DF8061_C1241.pdf?e=.pdf
+    note: 列入2018版学科附件，硕士渠道见政策说明。原表编号 85，PDF 第 8 页。
+urlLabel: 历史文件
+sourceType: official
+evaluations:
+  - system: ccf
+    year: 2026
+    edition: 第七版公开副本
+    sourceUrl: https://scdm-shu.github.io/ccf/2026-CCF-Ranking.pdf
+    sourceType: document-copy
+    sourceTitle: CCF 2026 完整目录公开副本
+    verifiedAt: 2026-10-18
+    reviewedNames:
+      - VCIP
+      - VCIP
+    note: 按正式系列核对CCF2026公开副本全部386个会议条目，未列入该版。
+    status: unlisted
+    value: null
+    reviewedAt: 2026-10-18
+  - system: core
+    year: 2026
+    edition: ICORE2026
+    sourceUrl: https://portal.core.edu.au/conf-ranks/?search=&by=all&source=ICORE2026&sort=atitle&page=7
+    sourceType: official
+    sourceTitle: ICORE2026 官方完整会议库
+    verifiedAt: 2026-10-18
+    reviewedNames:
+      - VCIP
+      - VCIP
+    note: 已按正式全称及系列简称复查 ICORE2026 官方完整库。
+    status: verified
+    value: C
+    appliesToName: IEEE International Conference on Visual Communications and Image Processing (was SPIE ... pre 2011)
+    reviewedAt: 2026-10-18
+  - system: core
+    year: 2023
+    edition: CORE2023
+    sourceUrl: https://portal.core.edu.au/conf-ranks/?search=VCIP&by=acronym&source=CORE2023
+    sourceType: official
+    sourceTitle: CORE2023 官方完整会议库
+    verifiedAt: 2026-10-19
+    reviewedAt: 2026-10-19
+    status: verified
+    value: C
+    appliesToName: IEEE International Conference on Visual Communications and Image Processing (was SPIE ... pre 2011)
+    note: 核对 CORE2023 官方完整 CSV 导出（956 条），以正式全称及已确认的系列名称匹配。该等级属于 2023 年版本。
+    sourceRecordId: "1757"
+  - system: core
+    year: 2021
+    edition: CORE2021
+    sourceUrl: https://portal.core.edu.au/conf-ranks/?search=VCIP&by=acronym&source=CORE2021
+    sourceType: official
+    sourceTitle: CORE2021 官方完整会议库
+    verifiedAt: 2026-10-19
+    reviewedAt: 2026-10-19
+    status: verified
+    value: B
+    appliesToName: IEEE International Conference on Visual Communications and Image Processing (was SPIE ... pre 2011)
+    note: 核对 CORE2021 官方完整 CSV 导出（955 条），以正式全称及已确认的系列名称匹配。该等级属于 2021 年版本。
+    sourceRecordId: "1757"
+  - system: core
+    year: 2020
+    edition: CORE2020
+    sourceUrl: https://portal.core.edu.au/conf-ranks/?search=VCIP&by=acronym&source=CORE2020
+    sourceType: official
+    sourceTitle: CORE2020 官方完整会议库
+    verifiedAt: 2026-10-19
+    reviewedAt: 2026-10-19
+    status: verified
+    value: B
+    appliesToName: IEEE International Conference on Visual Communications and Image Processing (was SPIE ... pre 2011)
+    note: 核对 CORE2020 官方完整 CSV 导出（882 条），以正式全称及已确认的系列名称匹配。该等级属于 2020 年版本。
+    sourceRecordId: "1757"
+  - system: core
+    year: 2018
+    edition: CORE2018
+    sourceUrl: https://portal.core.edu.au/conf-ranks/?search=VCIP&by=acronym&source=CORE2018
+    sourceType: official
+    sourceTitle: CORE2018 官方完整会议库
+    verifiedAt: 2026-10-19
+    reviewedAt: 2026-10-19
+    status: verified
+    value: B
+    appliesToName: IEEE International Conference on Visual Communications and Image Processing (was SPIE ... pre 2011)
+    note: 核对 CORE2018 官方完整 CSV 导出（1625 条），以正式全称及已确认的系列名称匹配。该等级属于 2018 年版本。
+    sourceRecordId: "1757"
+  - system: core
+    year: 2017
+    edition: CORE2017
+    sourceUrl: https://portal.core.edu.au/conf-ranks/?search=VCIP&by=acronym&source=CORE2017
+    sourceType: official
+    sourceTitle: CORE2017 官方完整会议库
+    verifiedAt: 2026-10-19
+    reviewedAt: 2026-10-19
+    status: verified
+    value: B
+    appliesToName: IEEE International Conference on Visual Communications and Image Processing (was SPIE ... pre 2011)
+    note: 核对 CORE2017 官方完整 CSV 导出（1592 条），以正式全称及已确认的系列名称匹配。该等级属于 2017 年版本。
+    sourceRecordId: "1757"
+  - system: core
+    year: 2014
+    edition: CORE2014
+    sourceUrl: https://portal.core.edu.au/conf-ranks/?search=VCIP&by=acronym&source=CORE2014
+    sourceType: official
+    sourceTitle: CORE2014 官方完整会议库
+    verifiedAt: 2026-10-19
+    reviewedAt: 2026-10-19
+    status: verified
+    value: B
+    appliesToName: IEEE International Conference on Visual Communications and Image Processing (was SPIE ... pre 2011)
+    note: 核对 CORE2014 官方完整 CSV 导出（1628 条），以正式全称及已确认的系列名称匹配。该等级属于 2014 年版本。
+    sourceRecordId: "1757"
+  - system: core
+    year: 2013
+    edition: CORE2013
+    sourceUrl: https://portal.core.edu.au/conf-ranks/?search=VCIP&by=acronym&source=CORE2013
+    sourceType: official
+    sourceTitle: CORE2013 官方完整会议库
+    verifiedAt: 2026-10-19
+    reviewedAt: 2026-10-19
+    status: verified
+    value: B
+    appliesToName: IEEE International Conference on Visual Communications and Image Processing (was SPIE ... pre 2011)
+    note: 核对 CORE2013 官方完整 CSV 导出（1615 条），以正式全称及已确认的系列名称匹配。该等级属于 2013 年版本。
+    sourceRecordId: "1757"
+  - system: core
+    year: 2008
+    edition: CORE2008
+    sourceUrl: https://portal.core.edu.au/conf-ranks/?search=VCIP&by=acronym&source=CORE2008
+    sourceType: official
+    sourceTitle: CORE2008 官方完整会议库
+    verifiedAt: 2026-10-19
+    reviewedAt: 2026-10-19
+    status: verified
+    value: A
+    appliesToName: IEEE International Conference on Visual Communications and Image Processing (was SPIE ... pre 2011)
+    note: 核对 CORE2008 官方完整 CSV 导出（933 条），以正式全称及已确认的系列名称匹配。该等级属于 2008 年版本。
+    sourceRecordId: "1757"
+catalogScope: communications
+scopeReviewedAt: 2026-10-18
+scopeNote: 通信相关信号处理及感知研究载体；无线通信研究载体；空天地通信、定位与授时交叉载体；智能通信和信号处理交叉载体
+ratingReviewedAt: 2026-10-18
+identityReviewedAt: 2026-10-18
+identityNote: 视觉通信、图像视频编码与网络传输；2026官网确认。
+primaryArea: signal
+secondaryAreas:
+  - ai
+  - network

@@ -1,0 +1,76 @@
+# NDSS
+# 提交修改请发起 Pull Request（合并请求）；构建产物自动生成。
+id: ndss
+kind: conference
+short: NDSS
+nameEn: Network and Distributed System Security Symposium
+nameZh: 网络与分布式系统安全研讨会
+aliases: []
+areas:
+  - network
+  - theory
+primaryArea: network
+secondaryAreas:
+  - theory
+topics:
+  - protocols
+  - mobile-systems
+  - security
+url: https://www.ndss-symposium.org/
+sourceUrl: https://www.ndss-symposium.org/
+sourceType: official
+verification: verified
+verifiedAt: 2026-10-19
+catalogStatus: current
+catalogScope: communications
+publicationType: 会议系列
+articleTypes:
+  - 研究论文
+assessments: []
+evaluations:
+  - system: core
+    year: 2026
+    edition: ICORE2026
+    sourceUrl: https://portal.core.edu.au/conf-ranks/?search=&by=all&source=ICORE2026&sort=atitle
+    sourceTitle: ICORE2026官方完整987条会议库
+    sourceType: official
+    verifiedAt: 2026-10-19
+    reviewedAt: 2026-10-19
+    reviewedNames:
+      - Network and Distributed System Security Symposium
+      - 网络与分布式系统安全研讨会
+    status: unlisted
+    value: null
+    note: 按正式全名与已核实别名对照ICORE2026官方987条完整库未列，不等于低等级；未按同简称的其他会议赋级。
+  - system: ccf
+    year: 2022
+    edition: CCF2022
+    sourceUrl: https://lib.ecnu.edu.cn/_upload/article/files/e2/d9/dd45764345088869915f6b3617a4/e98393b5-2703-45f2-8562-6622bbdcf8c1.pdf
+    sourceType: document-copy
+    sourceTitle: CCF2022 完整目录公开副本
+    verifiedAt: 2026-10-19
+    reviewedAt: 2026-10-19
+    status: reported
+    value: A
+    appliesToName: Network and Distributed System Security Symposium
+    category: 网络与信息安全
+    page: 20
+    note: 按完整英文名称核对 CCF2022 目录 PDF 第 20 页。该等级属于 2022 年版本；保存公开副本来源属性。
+  - system: ccf
+    year: 2026
+    edition: CCF2026
+    sourceUrl: https://scdm-shu.github.io/ccf/2026-CCF-Ranking.pdf
+    sourceType: document-copy
+    sourceTitle: CCF2026 完整目录公开副本
+    verifiedAt: 2026-10-19
+    reviewedAt: 2026-10-19
+    status: reported
+    value: A
+    appliesToName: NetworkandDistributedSystemSecuritySymposium
+    category: 网络与信息安全
+    page: 20
+    note: 按完整英文名称核对 CCF2026 目录 PDF 第 20 页。该等级属于 2026 年版本；保存公开副本来源属性。
+submissionMode: 查看当届征稿
+topicReviewedAt: 2026-10-19
+scopeReviewedAt: 2026-10-19
+ratingReviewedAt: 2026-10-19

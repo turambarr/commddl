@@ -1,0 +1,126 @@
+# ICN
+# 提交修改请发起 Pull Request（合并请求）；构建产物自动生成。
+id: icn
+kind: journal
+short: ICN
+nameEn: Intelligent and Converged Networks
+nameZh: 智能与融合网络
+aliases: []
+issn: null
+eissn: 2708-6240
+url: https://www.sciopen.com/journal/2708-6240
+sourceUrl: https://www.sciopen.com/journal/2708-6240
+sourceType: publisher
+verification: verified
+verifiedAt: 2026-10-19
+identityReviewedAt: 2026-10-19
+catalogStatus: current
+areas:
+  - wireless
+  - network
+  - ai
+topics:
+  - ai-communications
+  - protocols
+  - semantic-task
+  - optical-networks
+topicReviewedAt: 2026-10-19
+publicationType: 研究型期刊
+articleTypes:
+  - 研究论文
+  - 综述论文
+submissionMode: 常规论文在线投稿；专题按对应征稿日期
+summary: 智能通信、融合网络、光网络与通信系统。
+assessments: []
+evaluations:
+  - system: jcr
+    year: 2024
+    releaseYear: 2025
+    snapshotDate: 2025-06
+    sourceUrl: https://uefiscdi.gov.ro/resource-865584-JCR_2024.iunie2025.pdf
+    sourceTitle: 2024 JCR政府公开转录（2025年6月）
+    sourceType: secondary
+    sourceAuthority: government
+    verifiedAt: 2026-10-19
+    reviewedAt: 2026-10-19
+    status: unlisted
+    value: null
+    reviewedNames:
+      - Intelligent and Converged Networks
+      - 智能与融合网络
+    note: 按全名、别名及可得ISSN核对2024 JCR完整转录，该版未提供本刊明确JIF分区。
+  - system: cas
+    year: 2025
+    edition: 2025升级版
+    snapshotDate: 2026-09-28
+    sourceUrl: https://cce.ncepu.edu.cn/xzzx/yjsjx1/7632005045644e61a0d12c7bbeff6204.htm
+    sourceFileUrl: https://cce.ncepu.edu.cn/docs//2026-09/0e77800bf2744596a26e43c83acceed0.xlsx
+    sourceTitle: 华北电力大学公开的中科院2025升级版转录
+    sourceType: secondary
+    sourceAuthority: university
+    verifiedAt: 2026-10-19
+    reviewedAt: 2026-10-19
+    sheet: 期刊汇总
+    status: unlisted
+    value: null
+    reviewedNames:
+      - Intelligent and Converged Networks
+      - 智能与融合网络
+    note: 按正式全名、别名及可得ISSN核对2025年21772刊完整转录，未列入该版。
+  - system: ccf
+    year: 2026
+    edition: 第七版公开副本
+    sourceUrl: https://scdm-shu.github.io/ccf/2026-CCF-Ranking.pdf
+    sourceTitle: CCF2026国际会议期刊目录公开副本
+    sourceType: document-copy
+    verifiedAt: 2026-10-19
+    reviewedAt: 2026-10-19
+    reviewedNames:
+      - Intelligent and Converged Networks
+      - 智能与融合网络
+    status: unlisted
+    value: null
+    note: 按正式全名与已核实别名核对CCF2026国际会议期刊目录公开副本，未列入该版。中文期刊推荐目录另行发布。
+catalogScope: communications
+scopeReviewedAt: 2026-10-19
+submissionStatus: open
+identityNote: SciOpen刊页可见2026年第7卷第3期、投稿入口与征稿。索引页列出DOAJ、EI Compendex、INSPEC与Scopus，WoS索引未确认。
+indexing:
+  value: null
+  status: unresolved
+  year: null
+  sourceUrl: https://www.sciopen.com/journal/join_journal/abstracted_indexed?id=1395371874742476801&issn=2708-6240
+  sourceTitle: Intelligent and Converged Networks索引列表
+  sourceType: publisher
+  verifiedAt: 2026-10-19
+  reviewedAt: 2026-10-19
+  note: SciOpen当前刊页可见2026年第7卷第3期、投稿入口与征稿。索引页列出DOAJ、EI Compendex、INSPEC与Scopus，WoS索引未确认。
+  attempts:
+    - 读取当前SciOpen期刊主页
+    - 读取出版方完整Abstracting & Indexing页，明确4项但无WoS系列标识
+    - 等待完整JCR与CAS版本匹配；不凭IF推断SCI
+otherIndexes:
+  - value: EI
+    status: verified
+    year: null
+    sourceUrl: https://www.sciopen.com/journal/join_journal/abstracted_indexed?id=1395371874742476801&issn=2708-6240
+    sourceTitle: Intelligent and Converged Networks索引列表
+    sourceType: publisher
+    verifiedAt: 2026-10-19
+    reviewedAt: 2026-10-19
+    note: 出版方逐刊索引列表明确列出；独立于影响因子、分区与其他数据库，未登录原索引库逐篇检索。
+  - value: Scopus
+    status: verified
+    year: null
+    sourceUrl: https://www.sciopen.com/journal/join_journal/abstracted_indexed?id=1395371874742476801&issn=2708-6240
+    sourceTitle: Intelligent and Converged Networks索引列表
+    sourceType: publisher
+    verifiedAt: 2026-10-19
+    reviewedAt: 2026-10-19
+    note: 出版方逐刊索引列表明确列出；独立于影响因子、分区与其他数据库，未登录原索引库逐篇检索。
+submissionSourceUrl: https://www.sciopen.com/journal/join_journal/submission_guidelines?id=1395371874742476801&issn=2708-6240
+ratingReviewedAt: 2026-10-19
+primaryArea: wireless
+secondaryAreas:
+  - network
+  - ai

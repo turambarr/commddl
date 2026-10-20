@@ -1,0 +1,80 @@
+# SenSys
+# 提交修改请发起 Pull Request（合并请求）；构建产物自动生成。
+id: sensys
+kind: conference
+short: SenSys
+nameZh: ACM/IEEE 嵌入式人工智能与感知系统国际会议
+nameEn: ACM/IEEE International Conference on Embedded Artificial Intelligence and Sensing Systems
+aliases:
+  - IPSN
+  - IoTDI
+  - ACM Conference on Embedded Networked Sensor Systems
+areas:
+  - iot
+  - network
+  - signal
+topics:
+  - iot-sensing
+  - mobile-systems
+  - distributed-learning
+topicReviewedAt: 2026-10-18
+url: https://sensys.acm.org/
+summary: 已整合原 SenSys、IPSN 与 IoTDI 社群；2026 年采用统一会议名称。原系列名可检索，不分别重复计数。
+publicationType: 学术会议系列
+articleTypes:
+  - 会议论文
+submissionMode: 按具体届次征稿
+sourceUrl: https://sensys.acm.org/
+verifiedAt: 2026-10-18
+verification: verified
+assessments:
+  - system: bupt-ict-2018
+    label: 2018 信通学科重要会议表
+    year: 2018
+    sourceUrl: https://xxgk.bupt.edu.cn/__local/F/65/92/3A361334F005A224CD3C6C215B7_43DF8061_C1241.pdf?e=.pdf
+    note: 列入2018学科附件，原表编号84、PDF第8页，对应旧SenSys系列。合并后新会议的适用性待核验；硕士渠道见第四条。
+catalogStatus: current
+evaluations:
+  - system: ccf
+    year: 2026
+    edition: 第七版公开副本
+    sourceUrl: https://scdm-shu.github.io/ccf/2026-CCF-Ranking.pdf
+    sourceType: document-copy
+    sourceTitle: CCF 2026 完整目录公开副本
+    verifiedAt: 2026-10-18
+    reviewedNames:
+      - ACM/IEEE International Conference on Embedded Artificial Intelligence and Sensing Systems
+      - SenSys
+      - IPSN
+      - IoTDI
+      - ACM Conference on Embedded Networked Sensor Systems
+    note: SenSys、IPSN、IoTDI合并后的2026新名称为Embedded Artificial Intelligence and Sensing Systems（嵌入式人工智能与感知系统）。合并后会议的评级对应待核验，原等级保留在旧系列。
+    status: scope-review
+    value: null
+    reviewedAt: 2026-10-18
+  - system: core
+    year: 2026
+    edition: ICORE2026
+    sourceUrl: https://portal.core.edu.au/conf-ranks/?search=&by=all&source=ICORE2026&sort=atitle
+    sourceType: official
+    sourceTitle: ICORE2026 官方完整会议库
+    verifiedAt: 2026-10-18
+    reviewedNames:
+      - ACM/IEEE International Conference on Embedded Artificial Intelligence and Sensing Systems
+      - SenSys
+      - IPSN
+      - IoTDI
+      - ACM Conference on Embedded Networked Sensor Systems
+    note: SenSys、IPSN、IoTDI合并后的2026新名称为Embedded Artificial Intelligence and Sensing Systems（嵌入式人工智能与感知系统）。合并后会议的评级对应待核验，原等级保留在旧系列。
+    status: scope-review
+    value: null
+    reviewedAt: 2026-10-18
+catalogScope: communications
+scopeReviewedAt: 2026-10-18
+scopeNote: 物联网/车联网研究载体；通信网络与移动系统研究载体；通信相关信号处理及感知研究载体；无线通信研究载体；智能通信和信号处理交叉载体
+ratingReviewedAt: 2026-10-18
+deadlineReviewedAt: 2026-10-18
+primaryArea: iot
+secondaryAreas:
+  - network
+  - signal

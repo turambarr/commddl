@@ -1,0 +1,71 @@
+# SSP 2027 · 主会论文
+# 提交修改请发起 Pull Request（合并请求）；构建产物自动生成。
+id: ssp-2027-main
+venueId: ssp
+title: SSP 2027 · 主会论文
+titleEn: IEEE Workshop on Statistical Signal Processing
+year: 2027
+kind: conference
+areas:
+  - signal
+topics:
+  - estimation-sync
+  - arrays
+tags: []
+summary: ""
+url: https://ssp27.ieeesps.org/call-for-papers/
+sourceUrl: https://ssp27.ieeesps.org/call-for-papers/
+sourceType: official
+nodes:
+  - id: paper
+    label: 全文提交
+    type: paper
+    primary: true
+    precision: date
+    date: 2027-02-07
+    instant: null
+    timezone: null
+    original: 2027-02-07
+    revision: 0
+  - id: decision
+    label: 录用通知
+    type: decision
+    primary: false
+    precision: date
+    date: 2027-04-14
+    instant: null
+    timezone: null
+    original: 2027-04-14
+    revision: 0
+  - id: final
+    label: 终稿提交
+    type: final
+    primary: false
+    precision: date
+    date: 2027-04-30
+    instant: null
+    timezone: null
+    original: 2027-04-30
+    revision: 0
+  - id: registration
+    label: 作者注册
+    type: registration
+    primary: false
+    precision: date
+    date: 2027-04-30
+    instant: null
+    timezone: null
+    original: 2027-04-30
+    revision: 0
+verification: verified
+verifiedAt: 2026-10-18
+checkedAt: 2026-10-18
+updatedAt: 2026-10-18T04:00:00Z
+status: announced
+notes: 官网仅公布日期，未公布截止钟点或时区；按日期精度展示。
+location: 法国·阿讷西
+eventStart: 2027-06-28
+eventEnd: 2027-07-01
+eventDates: 2027-06-28 / 2027-07-01
+publication: null
+history: []

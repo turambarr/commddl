@@ -1,0 +1,207 @@
+# USENIX Security
+# 提交修改请发起 Pull Request（合并请求）；构建产物自动生成。
+id: usenix-sec
+kind: conference
+short: USENIX Security
+nameEn: USENIX Security Symposium
+nameZh: USENIX 安全研讨会
+aliases: []
+areas:
+  - network
+  - theory
+primaryArea: network
+secondaryAreas:
+  - theory
+topics:
+  - protocols
+  - mobile-systems
+  - security
+url: https://www.usenix.org/conference/usenixsecurity27
+sourceUrl: https://www.usenix.org/conference/usenixsecurity27
+sourceType: official
+verification: verified
+verifiedAt: 2026-10-19
+catalogStatus: current
+catalogScope: communications
+publicationType: 会议系列
+articleTypes:
+  - 研究论文
+assessments: []
+evaluations:
+  - system: core
+    year: 2026
+    edition: ICORE2026
+    sourceUrl: https://portal.core.edu.au/conf-ranks/?search=USENIX-Security&by=acronym&source=ICORE2026
+    sourceType: official
+    sourceTitle: ICORE2026 官方完整会议库
+    verifiedAt: 2026-10-19
+    reviewedAt: 2026-10-19
+    status: verified
+    value: A*
+    appliesToName: Usenix Security Symposium
+    note: 核对 ICORE2026 官方完整 CSV 导出（987 条），以正式全称及已确认的系列名称匹配。该等级属于 2026 年版本。
+    sourceRecordId: "1841"
+  - system: core
+    year: 2023
+    edition: CORE2023
+    sourceUrl: https://portal.core.edu.au/conf-ranks/?search=USENIX-Security&by=acronym&source=CORE2023
+    sourceType: official
+    sourceTitle: CORE2023 官方完整会议库
+    verifiedAt: 2026-10-19
+    reviewedAt: 2026-10-19
+    status: verified
+    value: A*
+    appliesToName: Usenix Security Symposium
+    note: 核对 CORE2023 官方完整 CSV 导出（956 条），以正式全称及已确认的系列名称匹配。该等级属于 2023 年版本。
+    sourceRecordId: "1841"
+  - system: core
+    year: 2021
+    edition: CORE2021
+    sourceUrl: https://portal.core.edu.au/conf-ranks/?search=USENIX-Security&by=acronym&source=CORE2021
+    sourceType: official
+    sourceTitle: CORE2021 官方完整会议库
+    verifiedAt: 2026-10-19
+    reviewedAt: 2026-10-19
+    status: verified
+    value: A*
+    appliesToName: Usenix Security Symposium
+    note: 核对 CORE2021 官方完整 CSV 导出（955 条），以正式全称及已确认的系列名称匹配。该等级属于 2021 年版本。
+    sourceRecordId: "1841"
+  - system: core
+    year: 2020
+    edition: CORE2020
+    sourceUrl: https://portal.core.edu.au/conf-ranks/?search=USENIX-Security&by=acronym&source=CORE2020
+    sourceType: official
+    sourceTitle: CORE2020 官方完整会议库
+    verifiedAt: 2026-10-19
+    reviewedAt: 2026-10-19
+    status: verified
+    value: A*
+    appliesToName: Usenix Security Symposium
+    note: 核对 CORE2020 官方完整 CSV 导出（882 条），以正式全称及已确认的系列名称匹配。该等级属于 2020 年版本。
+    sourceRecordId: "1841"
+  - system: core
+    year: 2018
+    edition: CORE2018
+    sourceUrl: https://portal.core.edu.au/conf-ranks/?search=USENIX-Security&by=acronym&source=CORE2018
+    sourceType: official
+    sourceTitle: CORE2018 官方完整会议库
+    verifiedAt: 2026-10-19
+    reviewedAt: 2026-10-19
+    status: verified
+    value: A*
+    appliesToName: Usenix Security Symposium
+    note: 核对 CORE2018 官方完整 CSV 导出（1625 条），以正式全称及已确认的系列名称匹配。该等级属于 2018 年版本。
+    sourceRecordId: "1841"
+  - system: core
+    year: 2017
+    edition: CORE2017
+    sourceUrl: https://portal.core.edu.au/conf-ranks/?search=USENIX-Security&by=acronym&source=CORE2017
+    sourceType: official
+    sourceTitle: CORE2017 官方完整会议库
+    verifiedAt: 2026-10-19
+    reviewedAt: 2026-10-19
+    status: verified
+    value: A*
+    appliesToName: Usenix Security Symposium
+    note: 核对 CORE2017 官方完整 CSV 导出（1592 条），以正式全称及已确认的系列名称匹配。该等级属于 2017 年版本。
+    sourceRecordId: "1841"
+  - system: core
+    year: 2014
+    edition: CORE2014
+    sourceUrl: https://portal.core.edu.au/conf-ranks/?search=USENIX-Security&by=acronym&source=CORE2014
+    sourceType: official
+    sourceTitle: CORE2014 官方完整会议库
+    verifiedAt: 2026-10-19
+    reviewedAt: 2026-10-19
+    status: verified
+    value: A*
+    appliesToName: Usenix Security Symposium
+    note: 核对 CORE2014 官方完整 CSV 导出（1628 条），以正式全称及已确认的系列名称匹配。该等级属于 2014 年版本。
+    sourceRecordId: "1841"
+  - system: core
+    year: 2013
+    edition: CORE2013
+    sourceUrl: https://portal.core.edu.au/conf-ranks/?search=USENIX-Security&by=acronym&source=CORE2013
+    sourceType: official
+    sourceTitle: CORE2013 官方完整会议库
+    verifiedAt: 2026-10-19
+    reviewedAt: 2026-10-19
+    status: verified
+    value: A
+    appliesToName: Usenix Security Symposium
+    note: 核对 CORE2013 官方完整 CSV 导出（1615 条），以正式全称及已确认的系列名称匹配。该等级属于 2013 年版本。
+    sourceRecordId: "1841"
+  - system: core
+    year: 2008
+    edition: CORE2008
+    sourceUrl: https://portal.core.edu.au/conf-ranks/?search=USENIX-Security&by=acronym&source=CORE2008
+    sourceType: official
+    sourceTitle: CORE2008 官方完整会议库
+    verifiedAt: 2026-10-19
+    reviewedAt: 2026-10-19
+    status: verified
+    value: B
+    appliesToName: Usenix Security Symposium
+    note: 核对 CORE2008 官方完整 CSV 导出（933 条），以正式全称及已确认的系列名称匹配。该等级属于 2008 年版本。
+    sourceRecordId: "1841"
+  - system: ccf
+    year: 2015
+    edition: CCF2015
+    sourceUrl: https://lib.ecnu.edu.cn/_upload/article/files/e2/d9/dd45764345088869915f6b3617a4/5b8fc1d6-d5bb-487d-a1db-42825ebc312a.pdf
+    sourceType: document-copy
+    sourceTitle: CCF2015 完整目录公开副本
+    verifiedAt: 2026-10-19
+    reviewedAt: 2026-10-19
+    status: reported
+    value: A
+    appliesToName: Usenix Security Symposium
+    category: 网络与信息安全
+    page: 20
+    note: 按完整英文名称核对 CCF2015 目录 PDF 第 20 页。该等级属于 2015 年版本；保存公开副本来源属性。
+  - system: ccf
+    year: 2019
+    edition: CCF2019
+    sourceUrl: https://lib.ecnu.edu.cn/_upload/article/files/e2/d9/dd45764345088869915f6b3617a4/bc806894-08bb-40d3-addb-b58a5d9e5fd1.pdf
+    sourceType: document-copy
+    sourceTitle: CCF2019 完整目录公开副本
+    verifiedAt: 2026-10-19
+    reviewedAt: 2026-10-19
+    status: reported
+    value: A
+    appliesToName: Usenix Security Symposium
+    category: 网络与信息安全
+    page: 20
+    note: 按完整英文名称核对 CCF2019 目录 PDF 第 20 页。该等级属于 2019 年版本；保存公开副本来源属性。
+  - system: ccf
+    year: 2022
+    edition: CCF2022
+    sourceUrl: https://lib.ecnu.edu.cn/_upload/article/files/e2/d9/dd45764345088869915f6b3617a4/e98393b5-2703-45f2-8562-6622bbdcf8c1.pdf
+    sourceType: document-copy
+    sourceTitle: CCF2022 完整目录公开副本
+    verifiedAt: 2026-10-19
+    reviewedAt: 2026-10-19
+    status: reported
+    value: A
+    appliesToName: USENIX Security Symposium
+    category: 网络与信息安全
+    page: 20
+    note: 按完整英文名称核对 CCF2022 目录 PDF 第 20 页。该等级属于 2022 年版本；保存公开副本来源属性。
+  - system: ccf
+    year: 2026
+    edition: CCF2026
+    sourceUrl: https://scdm-shu.github.io/ccf/2026-CCF-Ranking.pdf
+    sourceType: document-copy
+    sourceTitle: CCF2026 完整目录公开副本
+    verifiedAt: 2026-10-19
+    reviewedAt: 2026-10-19
+    status: reported
+    value: A
+    appliesToName: USENIXSecuritySymposium
+    category: 网络与信息安全
+    page: 20
+    note: 按完整英文名称核对 CCF2026 目录 PDF 第 20 页。该等级属于 2026 年版本；保存公开副本来源属性。
+submissionMode: 查看当届征稿
+topicReviewedAt: 2026-10-19
+scopeReviewedAt: 2026-10-19
+ratingReviewedAt: 2026-10-19

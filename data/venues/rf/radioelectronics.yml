@@ -1,0 +1,116 @@
+# Radioelectronics and Communications Systems
+# 提交修改请发起 Pull Request（合并请求）；构建产物自动生成。
+id: radioelectronics
+kind: journal
+short: Radioelectronics and Communications Systems
+nameEn: Radioelectronics and Communications Systems
+nameZh: 无线电电子学与通信系统
+aliases: []
+issn: 0735-2727
+eissn: 1934-8061
+url: https://link.springer.com/journal/11976
+sourceUrl: https://link.springer.com/journal/11976
+sourceType: publisher
+verification: verified
+verifiedAt: 2026-10-19
+identityReviewedAt: 2026-10-19
+catalogStatus: current
+catalogScope: communications
+areas:
+  - rf
+  - wireless
+topics:
+  - microwave
+  - physical
+  - antennas
+topicReviewedAt: 2026-10-19
+publicationType: 研究型期刊
+articleTypes:
+  - 研究论文
+submissionMode: 由官网作者入口按常规栏目/专题要求投稿
+summary: ""
+assessments: []
+evaluations:
+  - system: jcr
+    year: 2024
+    releaseYear: 2025
+    snapshotDate: 2025-06
+    sourceUrl: https://uefiscdi.gov.ro/resource-865584-JCR_2024.iunie2025.pdf
+    sourceTitle: 2024 JCR政府公开转录（2025年6月）
+    sourceType: secondary
+    sourceAuthority: government
+    verifiedAt: 2026-10-19
+    reviewedAt: 2026-10-19
+    status: unlisted
+    value: null
+    reviewedNames:
+      - Radioelectronics and Communications Systems
+      - 无线电电子学与通信系统
+    note: 完整2024 JCR转录按全名/别名及可得ISSN核查，未取得本刊明确JIF分区；只针对该旧年度，不判定当前WoS收录。
+  - system: cas
+    year: 2025
+    edition: 2025升级版
+    snapshotDate: 2026-09-28
+    sourceUrl: https://cce.ncepu.edu.cn/xzzx/yjsjx1/7632005045644e61a0d12c7bbeff6204.htm
+    sourceFileUrl: https://cce.ncepu.edu.cn/docs//2026-09/0e77800bf2744596a26e43c83acceed0.xlsx
+    sourceTitle: 华北电力大学公开的中科院2025升级版转录
+    sourceType: secondary
+    sourceAuthority: university
+    verifiedAt: 2026-10-19
+    reviewedAt: 2026-10-19
+    sheet: 期刊汇总
+    status: unlisted
+    value: null
+    reviewedNames:
+      - Radioelectronics and Communications Systems
+      - 无线电电子学与通信系统
+    note: 已对照完整21772刊的2025转录，正式全名/别名及可得ISSN未列；只代表所查2025表，不判断WoS收录。
+  - system: ccf
+    year: 2026
+    edition: 第七版公开副本
+    sourceUrl: https://scdm-shu.github.io/ccf/2026-CCF-Ranking.pdf
+    sourceTitle: CCF2026国际会议期刊目录公开副本
+    sourceType: document-copy
+    verifiedAt: 2026-10-19
+    reviewedAt: 2026-10-19
+    reviewedNames:
+      - Radioelectronics and Communications Systems
+      - 无线电电子学与通信系统
+    status: unlisted
+    value: null
+    note: 按正式全名与已核实别名对照CCF2026公开副本完整目录未列；不等于低等级，不含另行发布的中文期刊推荐目录。
+indexing:
+  value: null
+  status: unresolved
+  sourceUrl: https://link.springer.com/journal/11976
+  sourceTitle: Radioelectronics and Communications Systems出版方期刊页面
+  sourceType: publisher
+  verifiedAt: 2026-10-19
+  reviewedAt: 2026-10-19
+  note: 已核实期刊官方身份；本轮读取资料未取得明确WoS分库的独立正面证据，不由影响因子或分区推断收录。
+otherIndexes:
+  - value: EI
+    status: verified
+    sourceUrl: https://link.springer.com/journal/11976
+    sourceTitle: Radioelectronics and Communications Systems出版方当前逐刊索引
+    sourceType: publisher
+    verifiedAt: 2026-10-19
+    reviewedAt: 2026-10-19
+    note: 当前出版方本刊索引列表明确列出；不从其他刊物或影响因子推断。
+  - value: Scopus
+    status: verified
+    sourceUrl: https://link.springer.com/journal/11976
+    sourceTitle: Radioelectronics and Communications Systems出版方当前逐刊索引
+    sourceType: publisher
+    verifiedAt: 2026-10-19
+    reviewedAt: 2026-10-19
+    note: 当前出版方本刊索引列表明确列出；不从其他刊物或影响因子推断。
+scopeReviewedAt: 2026-10-19
+identityNote: 已逐刊读取Springer当前主页、刊号与独立索引清单；只采纳明确列出的索引。
+submissionStatus: open
+coverageGroup: springer-signals-optics
+authorGuideUrl: https://link.springer.com/journal/11976/submission-guidelines
+ratingReviewedAt: 2026-10-19
+primaryArea: rf
+secondaryAreas:
+  - wireless

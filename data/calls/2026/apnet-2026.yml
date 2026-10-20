@@ -1,0 +1,59 @@
+# APNet 2026
+# 提交修改请发起 Pull Request（合并请求）；构建产物自动生成。
+id: apnet-2026
+venueId: apnet
+year: 2026
+title: APNet 2026
+titleEn: Asia-Pacific Workshop on Networking 2026
+kind: conference
+areas:
+  - network
+topics:
+  - protocols
+  - measurement
+  - network-management
+tags: []
+summary: 网络系统、数据中心与互联网，包含早期研究短文。
+sourceUrl: https://conferences.sigcomm.org/events/apnet2026/cfp.php
+url: https://conferences.sigcomm.org/events/apnet2026/cfp.php
+nodes:
+  - id: paper
+    label: 全文提交
+    type: paper
+    primary: true
+    precision: date
+    date: 2026-03-11
+    instant: null
+    timezone: null
+    original: 2026-03-11
+    revision: 0
+  - id: decision
+    label: 录用通知
+    type: decision
+    primary: false
+    precision: date
+    date: 2026-04-22
+    instant: null
+    timezone: null
+    original: 2026-04-22
+    revision: 0
+  - id: final
+    label: 终稿提交
+    type: final
+    primary: false
+    precision: date
+    date: 2026-05-29
+    instant: null
+    timezone: null
+    original: 2026-05-29
+    revision: 0
+verification: verified
+verifiedAt: 2026-10-18
+updatedAt: 2026-10-18T08:00:00Z
+status: announced
+notes: 独立短论文研讨会，全文延期至3月11日AoE（全球最晚时区）。官网明确无需先注册摘要，钟点未注明，按日期展示。
+location: 新加坡
+eventDates: 2026-08-06 / 2026-08-07
+publication: null
+history: []
+sourceType: official

@@ -1,0 +1,78 @@
+# ICCC
+# 提交修改请发起 Pull Request（合并请求）；构建产物自动生成。
+id: iccc
+kind: conference
+short: ICCC
+nameZh: IEEE/CIC 中国通信国际会议
+nameEn: IEEE/CIC International Conference on Communications in China
+aliases:
+  - ICCC
+areas:
+  - wireless
+  - network
+  - signal
+url: https://www.ieee-iccc.org/
+summary: 通信理论、技术与系统。
+publicationType: 会议系列
+articleTypes:
+  - 研究论文
+submissionMode: 查看具体届次
+sourceUrl: https://www.comsoc.org/conferences-events/portfolio-conferences-events
+verifiedAt: 2026-10-17
+verification: verified
+assessments:
+  - system: bupt-ict-2018
+    label: 2018 信通学科重要会议表
+    year: 2018
+    sourceUrl: https://xxgk.bupt.edu.cn/__local/F/65/92/3A361334F005A224CD3C6C215B7_43DF8061_C1241.pdf?e=.pdf
+    note: 2018历史文件列有该会议系列，对应博士成果路径之一。当前适用性待核验；附属活动单独认定。硕士渠道见第四条。
+topics:
+  - physical
+  - mimo
+  - protocols
+  - ai-communications
+  - isac
+  - satellite-ntn
+  - channel-coding
+topicReviewedAt: 2026-10-18
+catalogStatus: current
+evaluations:
+  - system: ccf
+    year: 2026
+    edition: 第七版公开副本
+    sourceUrl: https://scdm-shu.github.io/ccf/2026-CCF-Ranking.pdf
+    sourceType: document-copy
+    sourceTitle: CCF 2026 完整目录公开副本
+    verifiedAt: 2026-10-18
+    reviewedNames:
+      - IEEE/CIC International Conference on Communications in China
+      - ICCC
+      - ICCC
+    note: 按正式系列核对CCF2026公开副本全部386个会议条目，未列入该版。
+    status: unlisted
+    value: null
+    reviewedAt: 2026-10-18
+  - system: core
+    year: 2026
+    edition: ICORE2026
+    sourceUrl: https://portal.core.edu.au/conf-ranks/?search=&by=all&source=ICORE2026&sort=atitle
+    sourceType: official
+    sourceTitle: ICORE2026 官方完整会议库
+    verifiedAt: 2026-10-18
+    reviewedNames:
+      - IEEE/CIC International Conference on Communications in China
+      - ICCC
+      - ICCC
+    note: 已排除 ICORE 中同缩写的 International Conference on Computational Creativity（计算创造力）；不对应 IEEE/CIC 中国通信会议。 复查 ICORE2026 官方全 20 页、987 个记录，按全称、系列简称及历史名称对照，未列出该正式系列。
+    status: unlisted
+    value: null
+    reviewedAt: 2026-10-18
+catalogScope: communications
+scopeReviewedAt: 2026-10-18
+scopeNote: 无线通信研究载体；通信网络与移动系统研究载体；通信相关信号处理及感知研究载体
+ratingReviewedAt: 2026-10-18
+deadlineReviewedAt: 2026-10-18
+primaryArea: wireless
+secondaryAreas:
+  - network
+  - signal

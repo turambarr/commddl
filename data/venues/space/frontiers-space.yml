@@ -1,0 +1,116 @@
+# Frontiers in Space Technologies
+# 提交修改请发起 Pull Request（合并请求）；构建产物自动生成。
+id: frontiers-space
+kind: journal
+short: Frontiers in Space Technologies
+nameEn: Frontiers in Space Technologies
+nameZh: 空间技术前沿
+aliases: []
+issn: null
+eissn: 2673-5075
+url: https://www.frontiersin.org/journals/space-technologies/about
+sourceUrl: https://www.frontiersin.org/journals/space-technologies/about
+sourceType: publisher
+verification: verified
+verifiedAt: 2026-10-19
+identityReviewedAt: 2026-10-19
+catalogStatus: current
+catalogScope: communications
+areas:
+  - space
+  - wireless
+topics:
+  - satellite-ntn
+  - navigation-pnt
+  - aerospace
+topicReviewedAt: 2026-10-19
+publicationType: 研究型期刊
+articleTypes:
+  - 研究论文
+submissionMode: 由官网作者入口按常规栏目/专题要求投稿
+summary: ""
+assessments: []
+evaluations:
+  - system: jcr
+    year: 2024
+    releaseYear: 2025
+    snapshotDate: 2025-06
+    sourceUrl: https://uefiscdi.gov.ro/resource-865584-JCR_2024.iunie2025.pdf
+    sourceTitle: 2024 JCR政府公开转录（2025年6月）
+    sourceType: secondary
+    sourceAuthority: government
+    verifiedAt: 2026-10-19
+    reviewedAt: 2026-10-19
+    status: reported
+    value: Q3
+    category: ASTRONOMY & ASTROPHYSICS
+    categories:
+      - category: ASTRONOMY & ASTROPHYSICS
+        value: Q3
+        page: 34
+      - category: ENGINEERING, AEROSPACE
+        value: Q3
+        page: 222
+    page: 34
+    issn: N/A
+    eissn: 2673-5075
+    appliesToName: Frontiers in Space Technologies
+    note: 对照完整2024 JCR政府转录，默认电信学优先，保留全部学科；不取最好分区，不冒充最新原库。
+  - system: cas
+    year: 2025
+    edition: 2025升级版
+    snapshotDate: 2026-09-28
+    sourceUrl: https://cce.ncepu.edu.cn/xzzx/yjsjx1/7632005045644e61a0d12c7bbeff6204.htm
+    sourceFileUrl: https://cce.ncepu.edu.cn/docs//2026-09/0e77800bf2744596a26e43c83acceed0.xlsx
+    sourceTitle: 华北电力大学公开的中科院2025升级版转录
+    sourceType: secondary
+    sourceAuthority: university
+    verifiedAt: 2026-10-19
+    reviewedAt: 2026-10-19
+    sheet: 期刊汇总
+    status: unlisted
+    value: null
+    reviewedNames:
+      - Frontiers in Space Technologies
+      - 空间技术前沿
+    note: 已对照完整21772刊的2025转录，正式全名/别名及可得ISSN未列；只代表所查2025表，不判断WoS收录。
+  - system: ccf
+    year: 2026
+    edition: 第七版公开副本
+    sourceUrl: https://scdm-shu.github.io/ccf/2026-CCF-Ranking.pdf
+    sourceTitle: CCF2026国际会议期刊目录公开副本
+    sourceType: document-copy
+    verifiedAt: 2026-10-19
+    reviewedAt: 2026-10-19
+    reviewedNames:
+      - Frontiers in Space Technologies
+      - 空间技术前沿
+    status: unlisted
+    value: null
+    note: 按正式全名与已核实别名对照CCF2026公开副本完整目录未列；不等于低等级，不含另行发布的中文期刊推荐目录。
+indexing:
+  value: ESCI
+  status: reported
+  year: 2024
+  releaseYear: 2025
+  sourceUrl: https://uefiscdi.gov.ro/resource-865584-JCR_2024.iunie2025.pdf
+  sourceTitle: 2024 JCR政府公开转录（2025年6月）
+  sourceType: secondary
+  verifiedAt: 2026-10-19
+  reviewedAt: 2026-10-19
+  pages:
+    - 34
+    - 222
+  note: 按完整刊名/明确ISSN匹配，读取edition列；2024年度收录类别，不冒充2026原库实时核验。
+otherIndexes: []
+scopeReviewedAt: 2026-10-19
+identityNote: 已读取Frontiers当前全期刊目录与本刊About页；仅保留通信、信号及卫星通信/导航直接交叉主题。
+submissionStatus: open
+coverageGroup: frontiers
+authorGuideUrl: https://www.frontiersin.org/journals/space-technologies/for-authors/author-guidelines
+identifierSourceUrl: https://uefiscdi.gov.ro/resource-865584-JCR_2024.iunie2025.pdf
+identifierSourceYear: 2024
+ratingReviewedAt: 2026-10-19
+primaryArea: space
+secondaryAreas:
+  - wireless

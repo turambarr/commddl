@@ -1,0 +1,75 @@
+# ICC 2027 · 研讨会论文
+# 提交修改请发起 Pull Request（合并请求）；构建产物自动生成。
+id: icc-2027-workshops
+venueId: icc
+title: ICC 2027 · 研讨会论文
+titleEn: IEEE International Conference on Communications 2027 workshops
+year: 2027
+kind: workshop
+areas:
+  - wireless
+  - network
+  - signal
+topics:
+  - physical
+  - mimo
+  - access
+  - resources
+  - protocols
+  - ai-communications
+  - isac
+  - channel-coding
+  - satellite-ntn
+  - security
+tags: []
+summary: 通信系统与网络的综合会议。
+url: https://icc2027.ieee-icc.org/authors
+sourceUrl: https://icc2027.ieee-icc.org/authors
+sourceType: official
+nodes:
+  - id: paper
+    label: 全文提交
+    type: paper
+    primary: true
+    precision: date
+    date: 2027-01-17
+    instant: null
+    timezone: null
+    original: "Workshop Paper Submission Deadline: 2027-01-17"
+    revision: 0
+    sourceUrl: https://icc2027.ieee-icc.org/authors
+  - id: decision
+    label: 录用通知
+    type: decision
+    primary: false
+    precision: date
+    date: 2027-03-07
+    instant: null
+    timezone: null
+    original: "Workshop Acceptance Notification: 2027-03-07"
+    revision: 0
+    sourceUrl: https://icc2027.ieee-icc.org/authors
+  - id: final
+    label: 终稿提交
+    type: final
+    primary: false
+    precision: date
+    date: 2027-03-21
+    instant: null
+    timezone: null
+    original: "Workshop Final Camera-Ready: 2027-03-21"
+    revision: 0
+    sourceUrl: https://icc2027.ieee-icc.org/authors
+verification: verified
+verifiedAt: 2026-10-18
+checkedAt: 2026-10-18
+updatedAt: 2026-10-18T04:00:00Z
+status: announced
+notes: 官网列出研讨会统一论文截止，延期见各研讨会公告。主会与研讨会分别记录日期和评级；钟点或时区未注明。
+location: 美国·华盛顿特区
+eventStart: 2027-05-30
+eventEnd: 2027-06-03
+eventDates: 2027-05-30 / 2027-06-03
+publication: null
+history: []
+evaluationApplicability: workshop-no-inheritance

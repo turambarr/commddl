@@ -1,0 +1,75 @@
+# IPIN 2026 · 主会论文
+# 提交修改请发起 Pull Request（合并请求）；构建产物自动生成。
+id: ipin-2026-main
+venueId: ipin
+title: IPIN 2026 · 主会论文
+titleEn: International Conference on Indoor Positioning and Indoor Navigation
+year: 2026
+kind: conference
+areas:
+  - space
+  - signal
+  - wireless
+topics:
+  - navigation-pnt
+  - estimation-sync
+tags: []
+summary: ""
+url: https://ipin-conference.org/2026/
+sourceUrl: https://ipin-conference.org/2026/
+sourceType: official
+nodes:
+  - id: paper
+    label: 全文提交
+    type: paper
+    primary: true
+    precision: date
+    date: 2026-05-10
+    instant: null
+    timezone: null
+    original: 2026-05-10
+    revision: 0
+  - id: decision
+    label: 录用通知
+    type: decision
+    primary: false
+    precision: date
+    date: 2026-06-16
+    instant: null
+    timezone: null
+    original: 2026-06-16
+    revision: 0
+  - id: final
+    label: 终稿提交
+    type: final
+    primary: false
+    precision: date
+    date: 2026-08-31
+    instant: null
+    timezone: null
+    original: 2026-08-31
+    revision: 0
+verification: verified
+verifiedAt: 2026-10-18
+checkedAt: 2026-10-18
+updatedAt: 2026-10-18T04:00:00Z
+status: announced
+notes: 当前官网明确论文延期至5月10日硬截止，终稿延期至8月31日硬截止。初版CFP仍为4月26日/8月15日，采用当前首页延期信息。2027只有届次指向，未核得下一届日期或征稿。
+location: 意大利·罗马
+eventStart: 2026-10-05
+eventEnd: 2026-10-08
+eventDates: 2026-10-05 / 2026-10-08
+publication: null
+history:
+  - type: deadline-extension
+    nodeId: paper
+    from: 2026-04-26
+    to: 2026-05-10
+    sourceUrl: https://ipin-conference.org/2026/
+    checkedAt: 2026-10-18
+  - type: deadline-extension
+    nodeId: final
+    from: 2026-08-15
+    to: 2026-08-31
+    sourceUrl: https://ipin-conference.org/2026/
+    checkedAt: 2026-10-18

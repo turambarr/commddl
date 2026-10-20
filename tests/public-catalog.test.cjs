@@ -2,7 +2,7 @@ const {test}=require('node:test');
 const assert=require('node:assert/strict');
 const C=require('../assets/core.js');
 const {makePublicCatalog}=require('../scripts/public-catalog.cjs');
-const maintenance=require('../data/catalog.json');
+const maintenance=require('../scripts/catalog.cjs').loadCatalog();
 const grade=(year,value,status='reported')=>({system:'ccf',year,value,status,sourceUrl:'https://example.org/ranks',sourceType:'document-copy'});
 
 test('historical evidence remains usable when a newer list has no positive record',()=>{
@@ -28,7 +28,7 @@ test('public catalog contains positive properties while preserving the full main
 test('unpublished calls migrate favorites to the parent and unknown secondary nodes stay in maintenance',()=>{
  const raw=structuredClone(maintenance),v=raw.venues[0];
  const primary={id:'paper',label:'全文提交',type:'paper',primary:true,precision:'date',date:'2027-01-01',original:'Jan 1',revision:2};
- raw.calls=[{id:'known',venueId:v.id,verification:'verified',status:'announced',nodes:[primary,{id:'final',label:'终稿',type:'final',precision:'unknown',original:'PRIVATE_UNKNOWN_NODE'}]},
+ raw.calls=[{id:'known',year:2027,venueId:v.id,verification:'verified',status:'announced',nodes:[primary,{id:'final',label:'终稿',type:'final',precision:'unknown',original:'PRIVATE_UNKNOWN_NODE'}]},
  {id:'undated',venueId:v.id,verification:'verified',status:'announced',nodes:[]}];
  raw.callAliases={'old-undated':'undated'};
  const pub=makePublicCatalog(raw);
@@ -75,6 +75,7 @@ test('publication preserves primary directions while stripping editorial fields 
  const pub=makePublicCatalog(maintenance);
  for(const v of pub.venues){
   assert.equal(v.primaryArea,v.areas[0]);assert(v.secondaryAreas.length<=2);
+  assert.equal(v.contributionUrl,maintenance.meta.repository+'/blob/main/data/venues/'+v.primaryArea+'/'+v.id+'.yml');
   assert(v.evaluations.every(C.isRankEvidence));
   for(const k of ['identityNote','metricNote','candidateSource','submissionStatus'])assert(!Object.hasOwn(v,k));
  }

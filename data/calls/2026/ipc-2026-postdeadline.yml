@@ -1,0 +1,46 @@
+# IEEE IPC 2026 · 晚稿论文
+# 提交修改请发起 Pull Request（合并请求）；构建产物自动生成。
+id: ipc-2026-postdeadline
+venueId: ipc
+title: IEEE IPC 2026 · 晚稿论文
+titleEn: IEEE Photonics Conference
+year: 2026
+kind: conference
+areas:
+  - optical
+  - signal
+  - network
+topics:
+  - fiber
+  - optical-networks
+tags: []
+summary: ""
+url: https://ieee-ipc.org/paper-submission/submission-guidelines/
+sourceUrl: https://ieee-ipc.org/paper-submission/submission-guidelines/
+sourceType: official
+nodes:
+  - id: paper
+    label: 晚稿提交
+    type: paper
+    primary: true
+    precision: date
+    date: 2026-10-19
+    instant: null
+    timezone: null
+    original: 2026-10-19
+    revision: 0
+verification: verified
+verifiedAt: 2026-10-18
+checkedAt: 2026-10-18
+updatedAt: 2026-10-18T04:00:00Z
+status: announced
+notes: 常规论文投稿已结束，当前说明页征集晚稿，延长截止为10月19日。钟点与时区未注明，按日期展示。
+location: 美国·丹佛
+eventStart: 2026-11-08
+eventEnd: 2026-11-12
+eventDates: 2026-11-08 / 2026-11-12
+publication: null
+history: []
+track: postdeadline
+submissionOpens: 2026-09-21
+eventSourceUrl: https://ieee-ipc.org/

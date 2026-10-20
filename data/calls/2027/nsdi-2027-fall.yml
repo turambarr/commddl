@@ -1,0 +1,73 @@
+# NSDI 2027 · 秋季轮
+# 提交修改请发起 Pull Request（合并请求）；构建产物自动生成。
+id: nsdi-2027-fall
+venueId: nsdi
+year: 2027
+title: NSDI 2027 · 秋季轮
+titleEn: USENIX Symposium on Networked Systems Design and Implementation 2027
+kind: conference
+areas:
+  - network
+  - iot
+  - ai
+topics:
+  - protocols
+  - edge-cloud
+  - network-management
+tags: []
+summary: 重点覆盖网络协议与体系结构、边缘计算与云网络、网络管理与虚拟化。
+sourceUrl: https://www.usenix.org/conference/nsdi27/call-for-papers
+url: https://www.usenix.org/conference/nsdi27/call-for-papers
+nodes:
+  - id: abstract
+    label: 摘要／注册
+    type: abstract
+    primary: false
+    precision: instant
+    date: null
+    instant: 2026-09-10T23:59:00-04:00
+    timezone: America/New_York
+    original: 2026-09-10 23:59 US EDT
+    revision: 0
+  - id: paper
+    label: 全文提交
+    type: paper
+    primary: true
+    precision: instant
+    date: null
+    instant: 2026-09-17T23:59:00-04:00
+    timezone: America/New_York
+    original: 2026-09-17 23:59 US EDT
+    revision: 0
+    requires:
+      - abstract
+  - id: decision
+    label: 录用通知
+    type: decision
+    primary: false
+    precision: date
+    date: 2026-12-08
+    instant: null
+    timezone: null
+    original: 2026-12-08
+    revision: 0
+  - id: final
+    label: 终稿提交
+    type: final
+    primary: false
+    precision: date
+    date: 2027-03-04
+    instant: null
+    timezone: null
+    original: 2027-03-04
+    revision: 0
+verification: verified
+verifiedAt: 2026-10-18
+updatedAt: 2026-10-18T08:00:00Z
+status: announced
+notes: 两轮主会新投稿均已截止。摘要与全文的官网时刻为11:59pm US EDT（美国东部夏令时间23:59）；春季终稿2026-10-20适用于已录用论文。
+location: 普罗维登斯，美国
+eventDates: 2027-05-11 / 2027-05-13
+publication: null
+history: []
+sourceType: official

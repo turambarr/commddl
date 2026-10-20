@@ -1,0 +1,149 @@
+# Vehicular Communications
+# 提交修改请发起 Pull Request（合并请求）；构建产物自动生成。
+id: vehicular-comms
+kind: journal
+short: Vehicular Communications
+nameEn: Vehicular Communications
+nameZh: 车载通信
+aliases: []
+issn: 2214-2096
+eissn: 2214-210X
+url: https://www.sciencedirect.com/journal/vehicular-communications
+sourceUrl: https://apps.lib.whu.edu.cn/ensci/editnew/upfile/730290.pdf
+sourceType: document-copy
+verification: verified
+verifiedAt: 2026-10-19
+identityReviewedAt: 2026-10-19
+catalogStatus: needs-review
+areas:
+  - iot
+  - wireless
+  - network
+topics:
+  - vehicular
+  - mobile-systems
+  - protocols
+  - security
+topicReviewedAt: 2026-10-19
+publicationType: 研究型期刊
+articleTypes:
+  - 研究论文
+  - 综述论文
+submissionMode: 出版方作者指南入口；本轮无法直接读取当前收稿页面
+summary: 车联网、车路协同及车辆无线网络。
+assessments: []
+evaluations:
+  - system: jcr
+    year: 2024
+    releaseYear: 2025
+    snapshotDate: 2025-06
+    sourceUrl: https://uefiscdi.gov.ro/resource-865584-JCR_2024.iunie2025.pdf
+    sourceTitle: 2024 JCR政府公开转录（2025年6月）
+    sourceType: secondary
+    sourceAuthority: government
+    verifiedAt: 2026-10-19
+    reviewedAt: 2026-10-19
+    status: reported
+    value: Q1
+    category: TELECOMMUNICATIONS
+    categories:
+      - category: TELECOMMUNICATIONS
+        value: Q1
+        page: 756
+      - category: TRANSPORTATION SCIENCE & TECHNOLOGY
+        value: Q1
+        page: 766
+    page: 756
+    issn: 2214-2096
+    eissn: 2214-2096
+    appliesToName: Vehicular Communications
+    note: 按完整2024 JCR政府转录记录全部学科分区，默认展示电信学。
+  - system: cas
+    year: 2025
+    edition: 2025升级版
+    snapshotDate: 2026-09-28
+    sourceUrl: https://cce.ncepu.edu.cn/xzzx/yjsjx1/7632005045644e61a0d12c7bbeff6204.htm
+    sourceFileUrl: https://cce.ncepu.edu.cn/docs//2026-09/0e77800bf2744596a26e43c83acceed0.xlsx
+    sourceTitle: 华北电力大学公开的中科院2025升级版转录
+    sourceType: secondary
+    sourceAuthority: university
+    verifiedAt: 2026-10-19
+    reviewedAt: 2026-10-19
+    sheet: 期刊汇总
+    status: reported
+    value: "2"
+    category: 计算机科学
+    top: false
+    appliesToName: Vehicular Communications
+    issn: 2214-2096
+    row: 4295
+    minorCategories:
+      - category: TELECOMMUNICATIONS 电信学
+        quartile: 2
+      - category: TRANSPORTATION SCIENCE & TECHNOLOGY 运输科技
+        quartile: 3
+    note: 按ISSN或正式全名匹配高校公开的2025升级版完整转录，保存大类与全部小类分区。
+  - system: ccf
+    year: 2026
+    edition: 第七版公开副本
+    sourceUrl: https://scdm-shu.github.io/ccf/2026-CCF-Ranking.pdf
+    sourceTitle: CCF2026国际会议期刊目录公开副本
+    sourceType: document-copy
+    verifiedAt: 2026-10-19
+    reviewedAt: 2026-10-19
+    reviewedNames:
+      - Vehicular Communications
+      - 车载通信
+    status: unlisted
+    value: null
+    note: 按正式全名与已核实别名核对CCF2026国际会议期刊目录公开副本，未列入该版。中文期刊推荐目录另行发布。
+  - system: cie
+    year: 2023
+    edition: 2023电子技术、通信技术领域高质量科技期刊分级目录
+    value: T2
+    status: verified
+    sourceUrl: https://www.cie.org.cn/list_42/11930.html
+    sourceTitle: 中国电子学会2023电子技术、通信技术期刊分级目录
+    sourceType: official
+    verifiedAt: 2026-10-19
+    reviewedAt: 2026-10-19
+    issn: 2214-2096
+    row: 140
+    appliesToName: Vehicular communications
+    note: 按正式ISSN或完整刊名对应官方232刊表，记录原始T分级及年份。
+catalogScope: communications
+scopeReviewedAt: 2026-10-19
+submissionStatus: unresolved
+identityNote: 高校保存的Elsevier作者资料确认期刊身份，资料日期为2018-09-17。当前出版社首页、指标与征稿页均返回403，当前投稿状态未确认。SCIE依据来自2024 JCR，Scopus依据来自2025研究机构目录。
+indexing:
+  value: SCIE
+  status: reported
+  year: 2024
+  sourceUrl: https://uefiscdi.gov.ro/resource-865584-JCR_2024.iunie2025.pdf
+  sourceTitle: 2024 JCR 政府公开转录（2025年6月）
+  sourceType: secondary
+  verifiedAt: 2026-10-19
+  reviewedAt: 2026-10-19
+  note: 完整英文名与ISSN匹配，第756/766页edition=SCIE；旧年度明确索引，与2026当前状态区分。
+  releaseYear: 2025
+  pages:
+    - 756
+    - 766
+otherIndexes:
+  - value: Scopus
+    status: reported
+    year: 2025
+    sourceUrl: https://juser.fz-juelich.de/record/162153
+    sourceTitle: 德国于利希研究中心JuSER期刊目录
+    sourceType: secondary
+    verifiedAt: 2026-10-19
+    reviewedAt: 2026-10-19
+    note: 研究机构图书目录列出SCOPUS，记录于2025-01-10更新。
+    snapshotDate: 2025-01-10
+submissionSourceUrl: https://www.sciencedirect.com/journal/vehicular-communications/publish/guide-for-authors
+identitySupportingSourceUrl: https://juser.fz-juelich.de/record/162153
+ratingReviewedAt: 2026-10-19
+primaryArea: iot
+secondaryAreas:
+  - wireless
+  - network

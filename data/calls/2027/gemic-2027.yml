@@ -1,0 +1,39 @@
+# GeMiC 2027 · 德国微波会议
+# 提交修改请发起 Pull Request（合并请求）；构建产物自动生成。
+id: gemic-2027
+venueId: gemic
+year: 2027
+title: GeMiC 2027 · 德国微波会议
+titleEn: German Microwave Conference 2027
+kind: conference
+areas:
+  - rf
+  - wireless
+topics:
+  - microwave
+  - antennas
+  - thz
+tags: []
+summary: 德国微波会议当届论文征稿。
+url: https://gemic2027.org/
+sourceUrl: https://gemic2027.org/
+sourceType: official
+verification: verified
+verifiedAt: 2026-10-19
+updatedAt: 2026-10-19T08:00:00Z
+status: announced
+location: 德国汉堡
+eventStart: 2027-03-15
+eventEnd: 2027-03-17
+nodes:
+  - id: paper
+    label: 论文提交
+    type: paper
+    primary: true
+    precision: date
+    date: 2026-11-02
+    instant: null
+    timezone: null
+    original: "Paper Submission: November 2, 2026"
+    revision: 0
+history: []

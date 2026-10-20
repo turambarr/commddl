@@ -1,0 +1,43 @@
+# MobiCom 2027 · winter · 截稿待公布
+# 提交修改请发起 Pull Request（合并请求）；构建产物自动生成。
+id: mobicom-2027-winter
+venueId: mobicom
+year: 2027
+title: MobiCom 2027 · winter · 截稿待公布
+titleEn: ACM International Conference on Mobile Computing and Networking 2027
+kind: conference
+areas:
+  - network
+  - wireless
+  - iot
+  - theory
+  - signal
+topics:
+  - mobile-systems
+  - physical
+  - iot-sensing
+tags: []
+summary: 重点覆盖移动计算与无线系统、调制、波形与物理层、传感器与物联网。
+sourceUrl: https://www.sigmobile.org/mobicom/2027/
+url: https://www.sigmobile.org/mobicom/2027/
+sourceType: official
+verification: verified
+verifiedAt: 2026-10-18
+updatedAt: 2026-10-18T08:00:00Z
+status: announced
+submissionDateStatus: TBA
+notes: 官方当前届次尚未公布此轮投稿截止，未推算往届日期。
+location: null
+eventDates: 2027-10-18 / 2027-10-22
+history: []
+nodes:
+  - id: paper
+    label: 全文提交
+    type: paper
+    primary: true
+    precision: unknown
+    date: null
+    instant: null
+    timezone: null
+    original: "Submission deadline: TBA / TBD"
+    revision: 0

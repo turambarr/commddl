@@ -1,0 +1,64 @@
+# ISIT 2027 · 主会论文
+# 提交修改请发起 Pull Request（合并请求）；构建产物自动生成。
+id: isit-2027-main
+venueId: isit
+title: ISIT 2027 · 主会论文
+titleEn: IEEE International Symposium on Information Theory
+year: 2027
+kind: conference
+areas:
+  - theory
+  - signal
+topics:
+  - information-theory
+  - channel-coding
+  - source-coding
+  - quantum
+tags: []
+summary: ""
+url: https://2027.ieee-isit.org/index.php/
+sourceUrl: https://2027.ieee-isit.org/index.php/
+sourceType: official
+nodes:
+  - id: paper
+    label: 全文提交
+    type: paper
+    primary: true
+    precision: instant
+    date: null
+    instant: 2027-01-10T23:59:00-12:00
+    timezone: UTC-12:00
+    original: January 10, 2027 (23:59, AoE)
+    revision: 0
+  - id: decision
+    label: 录用通知
+    type: decision
+    primary: false
+    precision: date
+    date: 2027-03-27
+    instant: null
+    timezone: null
+    original: 2027-03-27
+    revision: 0
+  - id: final
+    label: 终稿提交
+    type: final
+    primary: false
+    precision: instant
+    date: null
+    instant: 2027-04-17T23:59:00-12:00
+    timezone: UTC-12:00
+    original: April 17, 2027 (23:59, AoE)
+    revision: 0
+verification: verified
+verifiedAt: 2026-10-18
+checkedAt: 2026-10-18
+updatedAt: 2026-10-18T04:00:00Z
+status: announced
+notes: 主会全文与终稿截止为23:59 AoE（全球最晚时区，UTC−12）。Recent Results（近期成果）为非存档展示，论文集与IEEE Xplore收录范围为正式论文。
+location: 意大利·索伦托
+eventStart: 2027-06-27
+eventEnd: 2027-07-02
+eventDates: 2027-06-27 / 2027-07-02
+publication: null
+history: []

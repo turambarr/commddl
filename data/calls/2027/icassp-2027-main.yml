@@ -1,0 +1,81 @@
+# ICASSP 2027 · 主会论文
+# 提交修改请发起 Pull Request（合并请求）；构建产物自动生成。
+id: icassp-2027-main
+venueId: icassp
+title: ICASSP 2027 · 主会论文
+titleEn: IEEE International Conference on Acoustics, Speech, and Signal Processing
+year: 2027
+kind: conference
+areas:
+  - signal
+  - ai
+  - wireless
+topics:
+  - estimation-sync
+  - arrays
+  - speech
+  - imaging
+  - ai-communications
+  - isac
+  - physical
+tags: []
+summary: ""
+url: https://2027.ieeeicassp.org/call-for-papers/
+sourceUrl: https://2027.ieeeicassp.org/call-for-papers/
+sourceType: official
+nodes:
+  - id: paper
+    label: 全文提交
+    type: paper
+    primary: true
+    precision: instant
+    date: null
+    instant: 2026-09-24T00:00:00-12:00
+    timezone: UTC-12:00
+    original: "International Date Line: 24:00, 23 September 2026; Beijing: 20:00, 24 September 2026"
+    revision: 1
+    sourceUrl: https://cmsworkshops.com/ICASSP2027/papers.php
+  - id: decision
+    label: 录用通知
+    type: decision
+    primary: false
+    precision: date
+    date: 2027-01-13
+    instant: null
+    timezone: null
+    original: 2027-01-13
+    revision: 0
+  - id: final
+    label: 终稿提交
+    type: final
+    primary: false
+    precision: date
+    date: 2027-01-27
+    instant: null
+    timezone: null
+    original: 2027-01-27
+    revision: 0
+  - id: registration
+    label: 作者注册
+    type: registration
+    primary: false
+    precision: date
+    date: 2027-02-10
+    instant: null
+    timezone: null
+    original: 2027-02-10
+    revision: 0
+verification: verified
+verifiedAt: 2026-10-18
+checkedAt: 2026-10-18
+updatedAt: 2026-10-18T04:00:00Z
+status: announced
+notes: 当前征稿页与投稿页均列9月23日。原文国际日期变更线24:00换算为9月24日00:00 UTC−12；保留原文。旧paper_kit页列9月16日，采用当前页面日期。
+location: 加拿大·多伦多
+eventStart: 2027-05-16
+eventEnd: 2027-05-21
+eventDates: 2027-05-16 / 2027-05-21
+publication: null
+history:
+  - date: 2026-10-18
+    note: 全文提交复查更新：2026-09-23 → 2026-09-24T00:00:00-12:00

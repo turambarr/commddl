@@ -1,0 +1,49 @@
+# 新期刊模板；ISSN、索引与评级分别核对。
+id: replace-id
+kind: journal
+short: 替换简称
+nameEn: Replace with official full name
+nameZh: 替换中文名称
+aliases: []
+primaryArea: wireless
+secondaryAreas: []
+areas:
+  - wireless
+topics:
+  - physical
+publicationType: 研究型期刊
+articleTypes:
+  - 研究论文
+url: https://example.org/replace-with-official-source
+sourceUrl: https://example.org/replace-with-official-source
+sourceType: official
+verification: pending
+verifiedAt: YYYY-MM-DD
+catalogStatus: needs-review
+catalogScope: communications
+assessments: []
+evaluations:
+  - system: jcr
+    year: 2025
+    status: pending
+    value: null
+    reviewedAt: YYYY-MM-DD
+    note: 填写所查版本、核对方法与实际结果；明确等级需要独立来源。
+  - system: cas
+    year: 2025
+    status: pending
+    value: null
+    reviewedAt: YYYY-MM-DD
+    note: 填写所查版本、核对方法与实际结果；明确等级需要独立来源。
+  - system: ccf
+    year: 2026
+    status: pending
+    value: null
+    reviewedAt: YYYY-MM-DD
+    note: 填写所查版本、核对方法与实际结果；明确等级需要独立来源。
+indexing:
+  status: pending
+  value: null
+  verifiedAt: YYYY-MM-DD
+  note: 索引依明确索引列填写。
+otherIndexes: []

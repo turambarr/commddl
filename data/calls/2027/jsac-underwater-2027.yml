@@ -1,0 +1,43 @@
+# 下一代水声通信系统
+# 提交修改请发起 Pull Request（合并请求）；构建产物自动生成。
+id: jsac-underwater-2027
+venueId: jsac
+title: 下一代水声通信系统
+titleEn: Next-Generation Underwater Acoustic Communication Systems
+kind: special
+areas:
+  - wireless
+  - signal
+  - theory
+tags:
+  - 水声通信
+  - 多普勒
+  - 信道估计
+  - 定位
+  - 同步
+summary: 水声通信、时变信道、估计补偿及水下网络。
+sourceUrl: https://www.comsoc.org/publications/journals/ieee-jsac/cfp/next-generation-underwater-acoustic-communication-systems
+url: https://www.comsoc.org/publications/journals/ieee-jsac/cfp/next-generation-underwater-acoustic-communication-systems
+nodes:
+  - id: paper
+    label: 稿件提交
+    type: paper
+    primary: true
+    precision: date
+    date: 2027-03-31
+    instant: null
+    timezone: null
+    original: "Manuscript Submission Deadline: 31 March 2027"
+    revision: 0
+verification: verified
+verifiedAt: 2026-10-17
+updatedAt: 2026-10-17T08:00:00Z
+status: announced
+notes: ""
+location: null
+eventDates: null
+publication: 2028 年第二 / 第三季度
+history: []
+topics:
+  - physical
+  - estimation-sync

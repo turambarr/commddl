@@ -1,0 +1,71 @@
+# SIGCOMM 2026
+# 提交修改请发起 Pull Request（合并请求）；构建产物自动生成。
+id: sigcomm-2026
+venueId: sigcomm
+year: 2026
+title: SIGCOMM 2026
+titleEn: ACM SIGCOMM Conference 2026
+kind: conference
+areas:
+  - network
+topics:
+  - protocols
+  - measurement
+  - network-management
+tags: []
+summary: 重点覆盖网络协议与体系结构、网络测量与性能分析、网络管理与虚拟化。
+sourceUrl: https://conferences.sigcomm.org/sigcomm/2026/cfp/
+url: https://conferences.sigcomm.org/sigcomm/2026/cfp/
+nodes:
+  - id: abstract
+    label: 摘要／注册
+    type: abstract
+    primary: false
+    precision: date
+    date: 2026-01-30
+    instant: null
+    timezone: null
+    original: 2026-01-30
+    revision: 0
+  - id: paper
+    label: 全文提交
+    type: paper
+    primary: true
+    precision: date
+    date: 2026-02-06
+    instant: null
+    timezone: null
+    original: 2026-02-06
+    revision: 0
+    requires:
+      - abstract
+  - id: decision
+    label: 录用通知
+    type: decision
+    primary: false
+    precision: date
+    date: 2026-05-11
+    instant: null
+    timezone: null
+    original: 2026-05-11
+    revision: 0
+  - id: final
+    label: 终稿提交
+    type: final
+    primary: false
+    precision: date
+    date: 2026-07-03
+    instant: null
+    timezone: null
+    original: 2026-07-03
+    revision: 0
+verification: verified
+verifiedAt: 2026-10-18
+updatedAt: 2026-10-18T08:00:00Z
+status: announced
+notes: 最近一届主会已截止。官方摘要/全文注明AoE但本次CFP未明确钟点，保留日期精度；2027官网已上线，会期2027-08-08至12、曼谷，但CFP截止仍TBA，未猜测。
+location: 丹佛，美国
+eventDates: 2026-08-17 / 2026-08-21
+publication: null
+history: []
+sourceType: official

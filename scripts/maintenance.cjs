@@ -20,5 +20,5 @@ function writeMaintenance(data){
  fs.writeFileSync(path.join(root,'maintenance','review-queue.json'),JSON.stringify({version:data.meta.version,updatedAt:data.meta.updatedAt,records:reviews},null,2)+'\n');
  return reviews;
 }
-if(require.main===module){const d=JSON.parse(fs.readFileSync(path.join(root,'data/catalog.json'),'utf8'));const q=writeMaintenance(d);console.log(`维护队列已生成：${q.length}项，保存在maintenance/，独立于网页发布数据。`);}
+if(require.main===module){const d=require('./validate.cjs').validateCatalog(require('./catalog.cjs').loadCatalog(root));const q=writeMaintenance(d);console.log(`维护队列已生成：${q.length}项，保存在maintenance/，独立于网页发布数据。`);}
 module.exports={writeMaintenance};

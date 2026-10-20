@@ -1,0 +1,68 @@
+# ICMLCN
+# 提交修改请发起 Pull Request（合并请求）；构建产物自动生成。
+id: icmlcn
+kind: conference
+short: ICMLCN
+nameZh: IEEE 通信与网络机器学习国际会议
+nameEn: IEEE International Conference on Machine Learning for Communication and Networking
+aliases:
+  - ICMLCN
+areas:
+  - ai
+  - wireless
+  - network
+url: https://www.ieee-icmlcn.org/
+summary: 面向通信系统与网络的机器学习。
+publicationType: 会议系列
+articleTypes:
+  - 研究论文
+submissionMode: 查看具体届次
+sourceUrl: https://www.comsoc.org/conferences-events/portfolio-conferences-events
+verifiedAt: 2026-10-17
+verification: verified
+assessments: []
+topics:
+  - ai-communications
+  - distributed-learning
+topicReviewedAt: 2026-10-18
+catalogStatus: current
+evaluations:
+  - system: ccf
+    year: 2026
+    edition: 第七版公开副本
+    sourceUrl: https://scdm-shu.github.io/ccf/2026-CCF-Ranking.pdf
+    sourceType: document-copy
+    sourceTitle: CCF 2026 完整目录公开副本
+    verifiedAt: 2026-10-18
+    reviewedNames:
+      - IEEE International Conference on Machine Learning for Communication and Networking
+      - ICMLCN
+      - ICMLCN
+    note: 按正式系列核对CCF2026公开副本全部386个会议条目，未列入该版。
+    status: unlisted
+    value: null
+    reviewedAt: 2026-10-18
+  - system: core
+    year: 2026
+    edition: ICORE2026
+    sourceUrl: https://portal.core.edu.au/conf-ranks/?search=&by=all&source=ICORE2026&sort=atitle
+    sourceType: official
+    sourceTitle: ICORE2026 官方完整会议库
+    verifiedAt: 2026-10-18
+    reviewedNames:
+      - IEEE International Conference on Machine Learning for Communication and Networking
+      - ICMLCN
+      - ICMLCN
+    note: 复查 ICORE2026 官方全 20 页、987 个记录，按全称、系列简称及历史名称对照，未列出该正式系列。
+    status: unlisted
+    value: null
+    reviewedAt: 2026-10-18
+catalogScope: communications
+scopeReviewedAt: 2026-10-18
+scopeNote: 智能通信和信号处理交叉载体；无线通信研究载体；通信网络与移动系统研究载体
+ratingReviewedAt: 2026-10-18
+deadlineReviewedAt: 2026-10-18
+primaryArea: ai
+secondaryAreas:
+  - wireless
+  - network

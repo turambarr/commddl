@@ -1,0 +1,44 @@
+# 三维超表面辅助无线通信：从模型到智能方法
+# 提交修改请发起 Pull Request（合并请求）；构建产物自动生成。
+id: wcm-metasurface-2027
+venueId: wireless-mag
+title: 三维超表面辅助无线通信：从模型到智能方法
+titleEn: "3D Metasurface-Assisted Wireless Communications: From Model-Based Designs to AI-Driven Approaches"
+kind: special
+areas:
+  - wireless
+  - rf
+  - ai
+  - signal
+tags:
+  - 超表面
+  - RIS
+  - 人工智能
+  - 通感一体化
+  - ISAC
+summary: 三维超表面、可部署无线系统与智能优化。
+sourceUrl: https://www.comsoc.org/publications/magazines/ieee-wireless-communications/cfp/3d-metasurface-assisted-wireless-communications-model-based-designs-ai-driven-approaches
+url: https://www.comsoc.org/publications/magazines/ieee-wireless-communications/cfp/3d-metasurface-assisted-wireless-communications-model-based-designs-ai-driven-approaches
+nodes:
+  - id: paper
+    label: 稿件提交
+    type: paper
+    primary: true
+    precision: date
+    date: 2027-01-01
+    instant: null
+    timezone: null
+    original: "Manuscript Submission Deadline: 1 January 2027"
+    revision: 0
+verification: verified
+verifiedAt: 2026-10-17
+updatedAt: 2026-10-17T08:00:00Z
+status: announced
+notes: ""
+location: null
+eventDates: null
+publication: 2027 年 10 月
+history: []
+topics:
+  - antennas
+  - mimo

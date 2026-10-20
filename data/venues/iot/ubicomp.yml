@@ -1,0 +1,156 @@
+# UbiComp
+# 提交修改请发起 Pull Request（合并请求）；构建产物自动生成。
+id: ubicomp
+kind: conference
+short: UbiComp
+nameZh: 普适计算国际联合会议
+nameEn: ACM International Joint Conference on Pervasive and Ubiquitous Computing
+aliases: []
+topics:
+  - iot-sensing
+  - mobile-systems
+areas:
+  - iot
+  - network
+  - ai
+topicReviewedAt: 2026-10-18
+url: https://ubicomp.org/ubicomp-iswc-2026/program-2026/
+sourceUrl: https://ubicomp.org/ubicomp-iswc-2026/program-2026/
+verifiedAt: 2026-10-18
+verification: verified
+catalogStatus: current
+summary: 2018 学科附件中的历史条目；现行名称、举办状态与当届投稿信息待核验。
+publicationType: 学术会议系列
+articleTypes:
+  - 会议论文
+submissionMode: 按具体届次征稿
+assessments:
+  - system: bupt-ict-2018
+    label: 2018 信通学科重要会议表
+    year: 2018
+    sourceUrl: https://xxgk.bupt.edu.cn/__local/F/65/92/3A361334F005A224CD3C6C215B7_43DF8061_C1241.pdf?e=.pdf
+    note: 列入2018版学科附件，硕士渠道见政策说明。原表编号 26，PDF 第 4 页。
+urlLabel: 历史文件
+sourceType: official
+evaluations:
+  - system: ccf
+    year: 2026
+    edition: 第七版公开副本
+    sourceUrl: https://scdm-shu.github.io/ccf/2026-CCF-Ranking.pdf
+    sourceType: document-copy
+    sourceTitle: CCF 2026 完整目录公开副本
+    verifiedAt: 2026-10-18
+    reviewedNames:
+      - ACM international joint conference on Pervasive and Ubiquitous Computing
+      - UbiComp
+    note: 原库 journal published 表示论文在期刊发表，不转换为 A/B/C。 CCF 编制文件的公开副本与 CCFDDL 附带 PDF 字节一致；官网原件访问返回 405，仍保留副本来源属性。
+    status: reported
+    value: A
+    appliesToName: ACM international joint conference on Pervasive and Ubiquitous Computing
+    category: 人机交互与普适计算
+    page: 64
+    reviewedAt: 2026-10-18
+  - system: core
+    year: 2026
+    edition: ICORE2026
+    sourceUrl: https://portal.core.edu.au/conf-ranks/?search=&by=all&source=ICORE2026&sort=atitle&page=1
+    sourceType: official
+    sourceTitle: ICORE2026 官方完整会议库
+    verifiedAt: 2026-10-18
+    reviewedNames:
+      - ACM international joint conference on Pervasive and Ubiquitous Computing
+      - UbiComp
+    note: 原库 journal published 表示论文在期刊发表，不转换为 A/B/C。 已按正式全称及系列简称复查 ICORE2026 官方完整库。
+    status: non-ranked
+    value: journal published
+    appliesToName: ACM International Joint Conference on Pervasive and Ubiquitous Computing (PERVASIVE and UbiComp combined from 2013)
+    reviewedAt: 2026-10-18
+  - system: core
+    year: 2018
+    edition: CORE2018
+    sourceUrl: https://portal.core.edu.au/conf-ranks/?search=UbiComp&by=acronym&source=CORE2018
+    sourceType: official
+    sourceTitle: CORE2018 官方完整会议库
+    verifiedAt: 2026-10-19
+    reviewedAt: 2026-10-19
+    status: verified
+    value: A*
+    appliesToName: ACM International Joint Conference on Pervasive and Ubiquitous Computing (PERVASIVE and UbiComp combined from 2013)
+    note: 核对 CORE2018 官方完整 CSV 导出（1625 条），以正式全称及已确认的系列名称匹配。该等级属于 2018 年版本。
+    sourceRecordId: "1825"
+  - system: core
+    year: 2017
+    edition: CORE2017
+    sourceUrl: https://portal.core.edu.au/conf-ranks/?search=UbiComp&by=acronym&source=CORE2017
+    sourceType: official
+    sourceTitle: CORE2017 官方完整会议库
+    verifiedAt: 2026-10-19
+    reviewedAt: 2026-10-19
+    status: verified
+    value: A*
+    appliesToName: ACM International Joint Conference on Pervasive and Ubiquitous Computing (PERVASIVE and UbiComp combined from 2013)
+    note: 核对 CORE2017 官方完整 CSV 导出（1592 条），以正式全称及已确认的系列名称匹配。该等级属于 2017 年版本。
+    sourceRecordId: "1825"
+  - system: core
+    year: 2014
+    edition: CORE2014
+    sourceUrl: https://portal.core.edu.au/conf-ranks/?search=UbiComp&by=acronym&source=CORE2014
+    sourceType: official
+    sourceTitle: CORE2014 官方完整会议库
+    verifiedAt: 2026-10-19
+    reviewedAt: 2026-10-19
+    status: verified
+    value: A*
+    appliesToName: ACM International Joint Conference on Pervasive and Ubiquitous Computing (PERVASIVE and UbiComp combined from 2013)
+    note: 核对 CORE2014 官方完整 CSV 导出（1628 条），以正式全称及已确认的系列名称匹配。该等级属于 2014 年版本。
+    sourceRecordId: "1825"
+  - system: core
+    year: 2013
+    edition: CORE2013
+    sourceUrl: https://portal.core.edu.au/conf-ranks/?search=UbiComp&by=acronym&source=CORE2013
+    sourceType: official
+    sourceTitle: CORE2013 官方完整会议库
+    verifiedAt: 2026-10-19
+    reviewedAt: 2026-10-19
+    status: verified
+    value: A*
+    appliesToName: ACM International Joint Conference on Pervasive and Ubiquitous Computing (PERVASIVE and UbiComp combined from 2013)
+    note: 核对 CORE2013 官方完整 CSV 导出（1615 条），以正式全称及已确认的系列名称匹配。该等级属于 2013 年版本。
+    sourceRecordId: "1825"
+  - system: core
+    year: 2008
+    edition: CORE2008
+    sourceUrl: https://portal.core.edu.au/conf-ranks/?search=UbiComp&by=acronym&source=CORE2008
+    sourceType: official
+    sourceTitle: CORE2008 官方完整会议库
+    verifiedAt: 2026-10-19
+    reviewedAt: 2026-10-19
+    status: verified
+    value: A*
+    appliesToName: ACM International Joint Conference on Pervasive and Ubiquitous Computing (PERVASIVE and UbiComp combined from 2013)
+    note: 核对 CORE2008 官方完整 CSV 导出（933 条），以正式全称及已确认的系列名称匹配。该等级属于 2008 年版本。
+    sourceRecordId: "1825"
+  - system: ccf
+    year: 2022
+    edition: CCF2022
+    sourceUrl: https://lib.ecnu.edu.cn/_upload/article/files/e2/d9/dd45764345088869915f6b3617a4/e98393b5-2703-45f2-8562-6622bbdcf8c1.pdf
+    sourceType: document-copy
+    sourceTitle: CCF2022 完整目录公开副本
+    verifiedAt: 2026-10-19
+    reviewedAt: 2026-10-19
+    status: reported
+    value: A
+    appliesToName: ACM international joint conference on Pervasive and Ubiquitous Computing
+    category: 人机交互与普适计算
+    page: 65
+    note: 按完整英文名称核对 CCF2022 目录 PDF 第 65 页。该等级属于 2022 年版本；保存公开副本来源属性。
+catalogScope: communications
+scopeReviewedAt: 2026-10-18
+scopeNote: 无线通信研究载体；信息论与编码研究载体；通信网络与移动系统研究载体
+ratingReviewedAt: 2026-10-18
+identityReviewedAt: 2026-10-18
+identityNote: 普适系统、可穿戴与物联网；2026官网确认联合活动，主研究论文与会议附属海报分开。
+primaryArea: iot
+secondaryAreas:
+  - network
+  - ai

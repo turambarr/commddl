@@ -1,6 +1,6 @@
 // Generate directory and verification reports from the canonical records.
 const fs=require('node:fs'),path=require('node:path');
-const root=path.join(__dirname,'..'),D=JSON.parse(fs.readFileSync(path.join(root,'data/catalog.json'),'utf8'));
+const root=path.join(__dirname,'..'),D=require('./validate.cjs').validateCatalog(require('./catalog.cjs').loadCatalog(root));
 const labels={verified:'一手来源',reported:'副本／转录',unlisted:'所查版本未列入',unresolved:'已复查，证据不足',pending:'待核验','not-matched':'未匹配','scope-review':'对应范围未明确','non-ranked':'非等级状态','not-applicable':'不适用'};
 const systems={jcr:'JCR',cas:'中科院',ccf:'CCF',core:'CORE / ICORE',cie:'电子学会',cic:'通信学会'};
 const txt=s=>String(s??'').replaceAll('|','／').replaceAll('\n',' ');
@@ -16,7 +16,7 @@ for(const [title,rows] of [['通信期刊',active.filter(v=>v.kind==='journal')]
 out+='\n## 2018 原表映射\n\n仅保留原始身份追溯；与主目录的主题、现行评级和截止日期分开。全部 89 个原编号保持可追溯，重复项不重复建立载体。\n\n| 原编号 | 原简称 | 目录编号 | PDF页码 | 备注 |\n|---:|---|---|---:|---|\n';
 for(const m of D.legacyMappings)out+=`| ${m.number} | ${txt(m.originalShort)} | ${m.venueId} | ${m.page} | ${txt(m.note)} |\n`;
 fs.writeFileSync(path.join(root,'docs/CATALOG.md'),out);
-let audit=`# v${D.meta.version} 核验记录\n\n复查日期：${D.meta.updatedAt}。完整字段及正面证据保存在 data/catalog.json，以下列出尚无明确数值的记录及处理依据。\n\n“未列入”对应所查版本的完整目录；“证据不足”列明已查来源中的信息缺口。等级、索引与来源版本分别记录。\n\n| 载体 | 属性 | 年份 | 复查结果 | 复查日期 | 依据及说明 |\n|---|---|---|---|---|---|\n`;
+let audit=`# v${D.meta.version} 核验记录\n\n复查日期：${D.meta.updatedAt}。完整字段及正面证据保存在 data/venues/、data/calls/ 的 YAML 源文件，以下列出尚无明确数值的记录及处理依据。\n\n“未列入”对应所查版本的完整目录；“证据不足”列明已查来源中的信息缺口。等级、索引与来源版本分别记录。\n\n| 载体 | 属性 | 年份 | 复查结果 | 复查日期 | 依据及说明 |\n|---|---|---|---|---|---|\n`;
 for(const v of D.venues){for(const e of [...(v.kind==='journal'?[{...v.indexing,system:'索引'}]:[]),...(v.evaluations||[])]){if(['verified','reported'].includes(e.status))continue;audit+=`| ${txt(v.short)}${v.catalogScope==='archive'?'（档案）':''} | ${systems[e.system]||e.system} | ${e.year||'来源年份见说明'} | ${labels[e.status]} | ${e.reviewedAt||e.verifiedAt||v.reviewedAt||'未记录'} | ${txt(e.note)}${e.sourceUrl?` [来源](${e.sourceUrl})`:''} |\n`;}}
 fs.writeFileSync(path.join(root,'docs/VERIFICATION.md'),audit);
 console.log(`目录报告已生成：${active.length} 主目录、${archived.length} 历史参考。`);

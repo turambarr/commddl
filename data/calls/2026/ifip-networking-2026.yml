@@ -1,0 +1,60 @@
+# IFIP Networking 2026
+# 提交修改请发起 Pull Request（合并请求）；构建产物自动生成。
+id: ifip-networking-2026
+venueId: ifip-networking
+year: 2026
+title: IFIP Networking 2026
+titleEn: IFIP Networking Conference 2026
+kind: conference
+areas:
+  - network
+  - wireless
+topics:
+  - protocols
+  - network-management
+  - security
+tags: []
+summary: 计算机与通信网络、互联网体系结构及网络系统。
+sourceUrl: https://networking.ifip.org/2026/
+url: https://networking.ifip.org/2026/
+nodes:
+  - id: paper
+    label: 主会全文提交
+    type: paper
+    primary: true
+    precision: instant
+    date: null
+    instant: 2026-02-28T23:59:00-12:00
+    timezone: UTC-12
+    original: 2026-02-28 23:59 AoE
+    revision: 0
+  - id: decision
+    label: 录用通知
+    type: decision
+    primary: false
+    precision: date
+    date: 2026-04-08
+    instant: null
+    timezone: null
+    original: 2026-04-08
+    revision: 0
+  - id: final
+    label: 终稿提交
+    type: final
+    primary: false
+    precision: date
+    date: 2026-05-04
+    instant: null
+    timezone: null
+    original: 2026-05-04
+    revision: 0
+verification: verified
+verifiedAt: 2026-10-18
+updatedAt: 2026-10-18T08:00:00Z
+status: announced
+notes: 主会全文已截止；全文由2月8日延期至2月28日，录用与终稿采用最新划线替换值。官网说所有deadlines为23:59 AoE，仅明确投稿截止按该口径，通知保留日期。
+location: 卢加诺，瑞士
+eventDates: 2026-05-24 / 2026-05-27
+publication: null
+history: []
+sourceType: official

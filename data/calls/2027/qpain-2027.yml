@@ -1,0 +1,40 @@
+# QPAIN 2027 · IEEE 量子光子学、人工智能与网络国际会议
+# 提交修改请发起 Pull Request（合并请求）；构建产物自动生成。
+id: qpain-2027
+venueId: qpain
+year: 2027
+title: QPAIN 2027 · IEEE 量子光子学、人工智能与网络国际会议
+titleEn: IEEE International Conference on Quantum Photonics, Artificial Intelligence and Networking 2027
+kind: conference
+areas:
+  - optical
+  - theory
+  - network
+topics:
+  - quantum
+  - photonics
+  - optical-networks
+tags: []
+summary: IEEE 量子光子学、人工智能与网络国际会议当届论文征稿。
+url: https://qpain.org/
+sourceUrl: https://qpain.org/
+sourceType: official
+verification: verified
+verifiedAt: 2026-10-19
+updatedAt: 2026-10-19T08:00:00Z
+status: announced
+location: 孟加拉国吉大港
+eventStart: 2027-04-08
+eventEnd: 2027-04-10
+nodes:
+  - id: paper
+    label: 论文提交
+    type: paper
+    primary: true
+    precision: date
+    date: 2026-12-20
+    instant: null
+    timezone: null
+    original: Paper Submission Deadline 20 December 2026
+    revision: 0
+history: []

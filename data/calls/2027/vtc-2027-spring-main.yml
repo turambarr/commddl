@@ -1,0 +1,64 @@
+# VTC 2027 春季 · 主会常规论文
+# 提交修改请发起 Pull Request（合并请求）；构建产物自动生成。
+id: vtc-2027-spring-main
+venueId: vtc
+title: VTC 2027 春季 · 主会常规论文
+titleEn: VTC 2027 Spring Regular Papers
+kind: conference
+areas:
+  - wireless
+  - iot
+tags:
+  - 车联网
+  - 移动通信
+summary: 无线、移动与车辆技术研究。
+sourceUrl: https://events.vtsociety.org/vtc2027-spring/
+url: https://events.vtsociety.org/vtc2027-spring/
+nodes:
+  - id: paper
+    label: 常规论文提交
+    type: paper
+    primary: true
+    precision: date
+    date: 2026-10-14
+    instant: null
+    timezone: null
+    original: "Regular Paper Submission Deadline – FINAL EXTENSION: 14 October 2026"
+    revision: 0
+  - id: decision
+    label: 录用通知
+    type: decision
+    primary: false
+    precision: date
+    date: 2026-12-20
+    instant: null
+    timezone: null
+    original: 2026-12-20
+    revision: 0
+  - id: revision
+    label: 修改稿提交
+    type: revision
+    primary: false
+    precision: date
+    date: 2027-03-15
+    instant: null
+    timezone: null
+    original: 2027-03-15
+    revision: 0
+verification: verified
+verifiedAt: 2026-10-17
+updatedAt: 2026-10-17T08:00:00Z
+status: announced
+notes: 官网公布最终延期日期；没有从页面中确认具体钟点和时区。
+location: 德国 · 汉堡
+eventDates: 2027-06-20 / 2027-06-23
+publication: null
+history: []
+topics:
+  - physical
+  - mobile-systems
+  - vehicular
+  - satellite-ntn
+  - mimo
+  - isac
+  - resources

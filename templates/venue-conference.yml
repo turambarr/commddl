@@ -1,0 +1,37 @@
+# 新会议模板；替换编号、名称、官方来源与实际核对日期后使用。
+id: replace-id
+kind: conference
+short: 替换简称
+nameEn: Replace with official full name
+nameZh: 替换中文名称
+aliases: []
+primaryArea: wireless
+secondaryAreas: []
+areas:
+  - wireless
+topics:
+  - physical
+publicationType: 会议系列
+articleTypes:
+  - 研究论文
+url: https://example.org/replace-with-official-source
+sourceUrl: https://example.org/replace-with-official-source
+sourceType: official
+verification: pending
+verifiedAt: YYYY-MM-DD
+catalogStatus: needs-review
+catalogScope: communications
+assessments: []
+evaluations:
+  - system: ccf
+    year: 2026
+    status: pending
+    value: null
+    reviewedAt: YYYY-MM-DD
+    note: 填写所查版本、核对方法与实际结果；明确等级需要独立来源。
+  - system: core
+    year: 2026
+    status: pending
+    value: null
+    reviewedAt: YYYY-MM-DD
+    note: 填写所查版本、核对方法与实际结果；明确等级需要独立来源。

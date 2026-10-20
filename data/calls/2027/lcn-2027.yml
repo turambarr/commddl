@@ -1,0 +1,72 @@
+# LCN 2027
+# 提交修改请发起 Pull Request（合并请求）；构建产物自动生成。
+id: lcn-2027
+venueId: lcn
+year: 2027
+title: LCN 2027
+titleEn: IEEE Conference on Local Computer Networks 2027
+kind: conference
+areas:
+  - network
+  - iot
+topics:
+  - protocols
+  - iot-sensing
+  - measurement
+tags: []
+summary: 局域网络、无线网络、网络协议与测量。
+sourceUrl: https://www.ieeelcn.org/LCN2027-CfP.pdf
+url: https://www.ieeelcn.org/LCN2027-CfP.pdf
+nodes:
+  - id: abstract
+    label: 摘要／注册
+    type: abstract
+    primary: false
+    precision: date
+    date: 2027-04-25
+    instant: null
+    timezone: null
+    original: 2027-04-25
+    revision: 0
+  - id: paper
+    label: 全文提交
+    type: paper
+    primary: true
+    precision: date
+    date: 2027-05-02
+    instant: null
+    timezone: null
+    original: 2027-05-02
+    revision: 0
+    requires:
+      - abstract
+  - id: decision
+    label: 录用通知
+    type: decision
+    primary: false
+    precision: date
+    date: 2027-07-11
+    instant: null
+    timezone: null
+    original: 2027-07-11
+    revision: 0
+  - id: final
+    label: 终稿提交
+    type: final
+    primary: false
+    precision: date
+    date: 2027-08-08
+    instant: null
+    timezone: null
+    original: 2027-08-08
+    revision: 0
+verification: verified
+verifiedAt: 2026-10-18
+updatedAt: 2026-10-18T08:00:00Z
+status: announced
+notes: 2027初步官方CFP已给具体日期，PDF未给钟点/时区；不沿用2026的AoE说明。
+location: 代托纳比奇，佛罗里达州，美国
+eventDates: 2027-10-18 / 2027-10-21
+publication: null
+history: []
+sourceType: official

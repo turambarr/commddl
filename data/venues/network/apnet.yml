@@ -1,0 +1,84 @@
+# APNet
+# 提交修改请发起 Pull Request（合并请求）；构建产物自动生成。
+id: apnet
+kind: conference
+short: APNet
+nameZh: 亚太网络研讨会
+nameEn: Asia-Pacific Workshop on Networking
+aliases:
+  - APNet
+areas:
+  - network
+topics:
+  - protocols
+  - measurement
+  - network-management
+url: https://conferences.sigcomm.org/events/apnet2026/
+sourceUrl: https://conferences.sigcomm.org/events/apnet2026/
+sourceType: official
+verification: verified
+verifiedAt: 2026-10-18
+checkedAt: 2026-10-18
+catalogStatus: current
+summary: 网络系统、数据中心与互联网，包含早期研究短文。
+publicationType: 会议系列
+articleTypes:
+  - 研究论文
+submissionMode: 查看具体届次
+assessments: []
+catalogScope: communications
+topicReviewedAt: 2026-10-18
+scopeReviewedAt: 2026-10-18
+scopeNote: 通信及相关交叉领域
+evaluations:
+  - system: ccf
+    year: 2026
+    edition: 第七版公开副本
+    sourceUrl: https://scdm-shu.github.io/ccf/2026-CCF-Ranking.pdf
+    sourceType: document-copy
+    sourceTitle: CCF 2026 完整目录公开副本
+    verifiedAt: 2026-10-18
+    reviewedNames:
+      - Asia-Pacific Workshop on Networking
+      - APNet
+      - APNet
+    note: CCF 编制文件的公开副本与 CCFDDL 附带 PDF 字节一致；官网原件访问返回 405，仍保留副本来源属性。
+    status: reported
+    value: C
+    appliesToName: Asia-Pacific Workshop on Networking
+    category: 计算机网络
+    page: 16
+    reviewedAt: 2026-10-18
+  - system: core
+    year: 2026
+    edition: ICORE2026
+    sourceUrl: https://portal.core.edu.au/conf-ranks/?search=&by=all&source=ICORE2026&sort=atitle
+    sourceType: official
+    sourceTitle: ICORE2026 官方完整会议库
+    verifiedAt: 2026-10-18
+    reviewedNames:
+      - Asia-Pacific Workshop on Networking
+      - APNet
+      - APNet
+    note: 复查 ICORE2026 官方全 20 页、987 个记录，按全称、系列简称及历史名称对照，未列出该正式系列。
+    status: unlisted
+    value: null
+    reviewedAt: 2026-10-18
+  - system: ccf
+    year: 2022
+    edition: CCF2022
+    sourceUrl: https://lib.ecnu.edu.cn/_upload/article/files/e2/d9/dd45764345088869915f6b3617a4/e98393b5-2703-45f2-8562-6622bbdcf8c1.pdf
+    sourceType: document-copy
+    sourceTitle: CCF2022 完整目录公开副本
+    verifiedAt: 2026-10-19
+    reviewedAt: 2026-10-19
+    status: reported
+    value: C
+    appliesToName: Asia-Pacific Workshop on Networking
+    category: 计算机网络
+    page: 16
+    note: 按完整英文名称核对 CCF2022 目录 PDF 第 16 页。该等级属于 2022 年版本；保存公开副本来源属性。
+ratingReviewedAt: 2026-10-18
+deadlineReviewedAt: 2026-10-18
+primaryArea: network
+secondaryAreas: []

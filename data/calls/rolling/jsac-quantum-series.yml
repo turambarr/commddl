@@ -1,0 +1,28 @@
+# 量子通信与网络持续征稿栏目
+# 提交修改请发起 Pull Request（合并请求）；构建产物自动生成。
+id: jsac-quantum-series
+venueId: jsac
+title: 量子通信与网络持续征稿栏目
+titleEn: "Quantum Series: Quantum Communications and Networking"
+kind: series
+areas:
+  - theory
+  - network
+tags:
+  - 量子通信
+  - 量子网络
+summary: 量子通信与网络相关研究；官方标注可随时提交。
+sourceUrl: https://www.comsoc.org/publications/journals/ieee-jsac/cfp/quantum-series-quantum-communications-and-networking
+url: https://www.comsoc.org/publications/journals/ieee-jsac/cfp/quantum-series-quantum-communications-and-networking
+nodes: []
+verification: verified
+verifiedAt: 2026-10-17
+updatedAt: 2026-10-17T08:00:00Z
+status: rolling
+notes: 持续征稿栏目，不设虚构截止日期。
+location: null
+eventDates: null
+publication: null
+history: []
+topics:
+  - quantum

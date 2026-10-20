@@ -1,0 +1,132 @@
+# JCUPT
+# 提交修改请发起 Pull Request（合并请求）；构建产物自动生成。
+id: jcupt
+kind: journal
+short: JCUPT
+nameEn: The Journal of China Universities of Posts and Telecommunications
+nameZh: 中国邮电高校学报英文版
+aliases: []
+issn: 1005-8885
+eissn: null
+primaryArea: wireless
+secondaryAreas:
+  - network
+areas:
+  - wireless
+  - network
+topics:
+  - physical
+url: https://portal.issn.org/resource/ISSN/1005-8885
+urlKind: registry
+sourceUrl: https://www.cie.org.cn/list_42/11930.html
+sourceType: historical-document
+verification: verified
+verifiedAt: 2026-10-19
+identitySourceYear: 2023
+catalogStatus: needs-review
+catalogScope: communications
+publicationType: 研究型期刊
+articleTypes:
+  - 研究论文
+assessments: []
+evaluations:
+  - system: jcr
+    year: 2024
+    releaseYear: 2025
+    snapshotDate: 2025-06
+    sourceUrl: https://uefiscdi.gov.ro/resource-865584-JCR_2024.iunie2025.pdf
+    sourceTitle: 2024 JCR政府公开转录（2025年6月）
+    sourceType: secondary
+    sourceAuthority: government
+    verifiedAt: 2026-10-19
+    reviewedAt: 2026-10-19
+    status: unlisted
+    value: null
+    reviewedNames:
+      - The Journal of China Universities of Posts and Telecommunications
+      - 中国邮电高校学报英文版
+    note: 完整2024 JCR转录按全名/别名及可得ISSN核查，未取得本刊明确JIF分区；只针对该旧年度，不判定当前WoS收录。
+  - system: cas
+    year: 2025
+    edition: 2025升级版
+    snapshotDate: 2026-09-28
+    sourceUrl: https://cce.ncepu.edu.cn/xzzx/yjsjx1/7632005045644e61a0d12c7bbeff6204.htm
+    sourceFileUrl: https://cce.ncepu.edu.cn/docs//2026-09/0e77800bf2744596a26e43c83acceed0.xlsx
+    sourceTitle: 华北电力大学公开的中科院2025升级版转录
+    sourceType: secondary
+    sourceAuthority: university
+    verifiedAt: 2026-10-19
+    reviewedAt: 2026-10-19
+    sheet: 期刊汇总
+    status: unlisted
+    value: null
+    reviewedNames:
+      - The Journal of China Universities of Posts and Telecommunications
+      - 中国邮电高校学报英文版
+    note: 已对照完整21772刊的2025转录，正式全名/别名及可得ISSN未列；只代表所查2025表，不判断WoS收录。
+  - system: ccf
+    year: 2026
+    edition: 第七版公开副本
+    sourceUrl: https://scdm-shu.github.io/ccf/2026-CCF-Ranking.pdf
+    sourceTitle: CCF2026国际会议期刊目录公开副本
+    sourceType: document-copy
+    verifiedAt: 2026-10-19
+    reviewedAt: 2026-10-19
+    reviewedNames:
+      - The Journal of China Universities of Posts and Telecommunications
+      - 中国邮电高校学报英文版
+    status: unlisted
+    value: null
+    note: 按正式全名与已核实别名对照CCF2026公开副本完整目录未列；不等于低等级，不含另行发布的中文期刊推荐目录。
+  - system: cic
+    year: 2021
+    value: T1
+    status: reported
+    edition: 2021通信领域高质量科技期刊分级目录
+    sourceUrl: https://www.cast.org.cn/cms_files/filemanager/583933374/attach/20259/3615926ac66743e58aca81b6835a674d.pdf
+    sourceTitle: 中国科协高质量科技期刊分级目录汇编：通信学会2021目录
+    sourceType: document-copy
+    verifiedAt: 2026-10-19
+    reviewedAt: 2026-10-19
+    issn: 1005-8885
+    page: 171
+    appliesToName: The Journal of China Universities of Posts and Telecommunications
+    note: 中国科协汇编转载的通信学会2021中文40刊目录，按ISSN或中文刊名唯一匹配；外国35刊未分级，不补造T等级。
+  - system: cie
+    year: 2023
+    edition: 2023电子技术、通信技术领域高质量科技期刊分级目录
+    value: T3
+    status: verified
+    sourceUrl: https://www.cie.org.cn/list_42/11930.html
+    sourceTitle: 中国电子学会2023电子技术、通信技术期刊分级目录
+    sourceType: official
+    verifiedAt: 2026-10-19
+    reviewedAt: 2026-10-19
+    issn: 1005-8885
+    row: 229
+    appliesToName: The Journal of China Universities of Posts and Telecommunications 中国邮电高校学报（英文版）
+    note: 按正式ISSN或完整刊名对应官方232刊表，记录原始T分级及年份。
+otherIndexes:
+  - value: CSCD
+    status: reported
+    year: 2025
+    edition: 2025—2026
+    coverage: 核心库
+    issn: 1005-8885
+    sourceUrl: https://nssc.cas.cn/yjsb/xspy/py/wjgd/202209/P020250901365885026876.pdf
+    sourceTitle: CSCD2025—2026来源期刊名单（国家空间科学中心公开附件）
+    sourceType: document-copy
+    verifiedAt: 2026-10-19
+    note: 按ISSN匹配完整名单，原记录类别为核心库。
+submissionStatus: unresolved
+identityNote: 身份按注册机构、出版方或已注明版本的正式目录核对，作者入口另行维护。
+candidateSource: user-master-catalog
+indexing:
+  value: null
+  status: unresolved
+  verifiedAt: 2026-10-19
+  reviewedAt: 2026-10-19
+  note: WoS索引待对应独立索引列核对。
+topicReviewedAt: 2026-10-19
+scopeReviewedAt: 2026-10-19
+ratingReviewedAt: 2026-10-19

@@ -1,10 +1,9 @@
-const fs = require('node:fs');
-const path = require('node:path');
 const C = require('../assets/core.js');
-const data = JSON.parse(fs.readFileSync(path.join(__dirname,'../data/catalog.json'),'utf8'));
+function validateCatalog(data){
 const errors=[];
 const requireThat=(condition,message)=>{if(!condition)errors.push(message);};
 const url=value=>{try{const u=new URL(value);return ['https:','http:'].includes(u.protocol)&&!/[\r\n]/.test(value);}catch{return false;}};
+requireThat(C.validDate(data.meta.updatedAt),'data/meta.yml: invalid catalog update date');
 const ids=new Set(), venueIds=new Set(data.venues.map(v=>v.id)), areas=new Set(data.areas.map(a=>a.id));
 const topicIds=new Set();
 for(const area of data.areas)requireThat(area.code&&area.label,`${area.id}: missing category code or label`);
@@ -86,5 +85,14 @@ for(const call of data.calls){
 }
 requireThat(data.legacyMappings?.length===89&&new Set(data.legacyMappings.map(m=>m.number)).size===89&&data.legacyMappings.every(m=>venueIds.has(m.venueId)&&Number.isInteger(m.page)), '2018 legacy mapping must account for all 89 numbered entries');
 requireThat(data.policy?.masterArticle===4&&url(data.policy.sourceUrl), 'Missing selected master policy source');
-if(errors.length){console.error(errors.join('\n'));process.exit(1);}
-console.log(`目录结构校验通过：${data.venues.length} 个载体，${data.calls.length} 项活动。`);
+if(errors.length){
+  const {sourcePath}=require('./catalog.cjs'),by=new Map([...data.venues,...data.calls].map(x=>[x.id,x]));
+  throw new Error(errors.map(message=>{const id=message.match(/^([a-z0-9-]+)(?=[:/])/)?.[1];return by.has(id)?`${sourcePath(by.get(id))}: ${message}`:message;}).join('\n'));
+}
+return data;
+}
+if(require.main===module){
+ try{const data=validateCatalog(require('./catalog.cjs').loadCatalog());console.log(`目录结构校验通过：${data.venues.length} 个载体，${data.calls.length} 项活动。`);}
+ catch(error){console.error(error.message);process.exitCode=1;}
+}
+module.exports={validateCatalog};

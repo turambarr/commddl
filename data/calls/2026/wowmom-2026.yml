@@ -1,0 +1,73 @@
+# WoWMoM 2026
+# 提交修改请发起 Pull Request（合并请求）；构建产物自动生成。
+id: wowmom-2026
+venueId: wowmom
+year: 2026
+title: WoWMoM 2026
+titleEn: IEEE International Symposium on a World of Wireless, Mobile and Multimedia Networks 2026
+kind: conference
+areas:
+  - wireless
+  - network
+  - iot
+topics:
+  - protocols
+  - mobile-systems
+  - iot-sensing
+tags: []
+summary: 无线与移动网络、多媒体网络与普适系统。
+sourceUrl: https://www.cs.unibo.it/wowmom2026/
+url: https://www.cs.unibo.it/wowmom2026/
+nodes:
+  - id: abstract
+    label: 摘要／注册
+    type: abstract
+    primary: false
+    precision: date
+    date: 2025-12-05
+    instant: null
+    timezone: null
+    original: 2025-12-05
+    revision: 0
+  - id: paper
+    label: 全文提交
+    type: paper
+    primary: true
+    precision: date
+    date: 2025-12-15
+    instant: null
+    timezone: null
+    original: 2025-12-15
+    revision: 0
+    requires:
+      - abstract
+  - id: decision
+    label: 录用通知
+    type: decision
+    primary: false
+    precision: date
+    date: 2026-03-09
+    instant: null
+    timezone: null
+    original: 2026-03-09
+    revision: 0
+  - id: final
+    label: 终稿提交
+    type: final
+    primary: false
+    precision: date
+    date: 2026-05-05
+    instant: null
+    timezone: null
+    original: 2026-05-05
+    revision: 0
+verification: verified
+verifiedAt: 2026-10-18
+updatedAt: 2026-10-18T08:00:00Z
+status: announced
+notes: 采用官方主页划线旧日期后的最新延期日期。主会常规论文，不把附属Workshop截止套到主会。主会全文已截止；2027本次未核到官方新日期。
+location: 博洛尼亚，意大利
+eventDates: 2026-06-16 / 2026-06-19
+publication: null
+history: []
+sourceType: official

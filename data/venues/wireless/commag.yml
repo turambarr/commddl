@@ -1,0 +1,106 @@
+# IEEE ComMag
+# 提交修改请发起 Pull Request（合并请求）；构建产物自动生成。
+id: commag
+kind: journal
+short: IEEE ComMag
+nameZh: IEEE 通信杂志
+nameEn: IEEE Communications Magazine
+aliases: []
+areas:
+  - wireless
+  - network
+  - optical
+url: https://www.comsoc.org/publications/magazines/ieee-communications-magazine
+topics:
+  - physical
+  - protocols
+  - ai-communications
+topicReviewedAt: 2026-10-18
+summary: 通信技术与系统的教程性文章，覆盖无线、网络及智能通信；具体栏目要求见官网。
+publicationType: 学术杂志
+articleTypes:
+  - 教程
+  - 综述
+submissionMode: 以作者指南及对应栏目要求为准
+sourceUrl: https://www.comsoc.org/publications/magazines/ieee-communications-magazine
+verifiedAt: 2026-10-18
+verification: verified
+assessments: []
+indexStatus: SCIE
+metricNote: 索引与分区按各自体系、年份查询；学校认定见选用政策文件。
+catalogStatus: current
+indexing:
+  sourceUrl: https://open.ieee.org/wp-content/uploads/IEEE-Title-List-September-2026.pdf
+  sourceTitle: IEEE2026年9月期刊表
+  sourceType: publisher
+  verifiedAt: 2026-10-19
+  issn: 0163-6804
+  eissn: 1558-1896
+  page: 1
+  status: verified
+  value: SCIE
+  year: 2026
+  snapshotDate: 2026-09-15
+  note: 出版社索引列的明确记录，忽略N/A占位符后以有效ISSN或正式全称唯一对应。
+evaluations:
+  - system: cas
+    year: 2025
+    edition: 2025升级版
+    snapshotDate: 2026-09-28
+    sourceUrl: https://cce.ncepu.edu.cn/xzzx/yjsjx1/7632005045644e61a0d12c7bbeff6204.htm
+    sourceFileUrl: https://cce.ncepu.edu.cn/docs//2026-09/0e77800bf2744596a26e43c83acceed0.xlsx
+    sourceTitle: 华北电力大学公开的中科院2025升级版转录
+    sourceType: secondary
+    sourceAuthority: university
+    verifiedAt: 2026-10-18
+    reviewedAt: 2026-10-18
+    sheet: 期刊汇总
+    status: reported
+    value: "2"
+    category: 计算机科学
+    top: false
+    appliesToName: IEEE COMMUNICATIONS MAGAZINE
+    issn: 0163-6804
+    row: 4227
+    minorCategories:
+      - category: ENGINEERING, ELECTRICAL & ELECTRONIC 工程：电子与电气
+        quartile: 2
+      - category: TELECOMMUNICATIONS 电信学
+        quartile: 2
+    note: 高校公开的2025升级版转录，2026-09-28导出，原数据来自期刊分区表平台。按完整刊名或旧名唯一对应，保存大类与全部小类分区。
+  - system: ccf
+    status: unlisted
+    value: null
+    year: 2026
+    sourceUrl: https://scdm-shu.github.io/ccf/2026-CCF-Ranking.pdf
+    sourceTitle: CCF2026第七版公开副本
+    sourceType: document-copy
+    reviewedAt: 2026-10-18
+    note: 按英文全名、缩写及已知旧名核对CCF2026公开副本全部295项期刊记录，未列入该版。
+    attempts:
+      - 完整2026公开副本期刊表逐条名称匹配
+      - 已检查可识别旧称/IEEE-ACM更名
+    verifiedAt: 2026-10-18
+  - sourceUrl: https://open.ieee.org/wp-content/uploads/IEEE-Title-List-September-2026.pdf
+    sourceTitle: IEEE2026年9月期刊表
+    sourceType: publisher
+    verifiedAt: 2026-10-19
+    issn: 0163-6804
+    eissn: 1558-1896
+    page: 1
+    status: verified
+    system: jcr
+    value: Q1
+    year: 2025
+    releaseYear: 2026
+    snapshotDate: 2026-09-15
+    category: IEEE出版社汇总口径；原表未逐学科列出
+    appliesToName: IEEE Communications Magazine
+    note: 2025 JCR数据、2026年发布；读取出版社的JIF分区，原表未展开逐学科分区。
+catalogScope: communications
+scopeReviewedAt: 2026-10-18
+scopeNote: 无线通信研究载体；通信网络与移动系统研究载体；智能通信和信号处理交叉载体
+primaryArea: wireless
+secondaryAreas:
+  - network
+  - optical

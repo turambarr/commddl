@@ -1,0 +1,95 @@
+# IPIN
+# 提交修改请发起 Pull Request（合并请求）；构建产物自动生成。
+kind: conference
+short: IPIN
+nameEn: International Conference on Indoor Positioning and Indoor Navigation
+nameZh: 室内定位与室内导航国际会议
+areas:
+  - iot
+  - signal
+  - wireless
+topics:
+  - navigation-pnt
+  - estimation-sync
+url: https://ipin-conference.org/2026/
+sourceUrl: https://ipin-conference.org/2026/docs/IPIN2026_CFP-mainTrack_v1.pdf
+sourceType: official
+id: ipin
+aliases:
+  - IPIN
+catalogStatus: current
+verifiedAt: 2026-10-18
+verification: verified
+checkedAt: 2026-10-18
+summary: 官方PDF列明论文征稿、2026年10月5—8日会期与延长截止4月26日。本项为会议，J-ISPIN期刊分区另列。
+publicationType: 会议系列
+articleTypes:
+  - 研究论文
+submissionMode: 查看具体届次
+assessments: []
+catalogScope: communications
+topicReviewedAt: 2026-10-18
+scopeReviewedAt: 2026-10-18
+scopeNote: 通信及相关交叉领域
+evaluations:
+  - system: ccf
+    year: 2026
+    edition: 第七版公开副本
+    status: unlisted
+    value: null
+    sourceUrl: https://scdm-shu.github.io/ccf/2026-CCF-Ranking.pdf
+    sourceType: document-copy
+    verifiedAt: 2026-10-18
+    sourceTitle: CCF2026完整目录公开副本
+    note: 按正式全称、历史名称及简称对照完整386个CCF会议条目，未列该系列。
+    reviewedNames:
+      - IPIN
+      - International Conference on Indoor Positioning and Indoor Navigation
+    reviewedAt: 2026-10-18
+  - system: core
+    year: 2026
+    edition: ICORE2026
+    status: verified
+    value: C
+    sourceUrl: https://portal.core.edu.au/conf-ranks/?search=&by=all&source=ICORE2026&sort=atitle&page=12
+    sourceType: official
+    verifiedAt: 2026-10-18
+    sourceTitle: ICORE2026官方完整库
+    note: 已按正式全称对应完整版本记录，未从简称猜测。
+    reviewedNames:
+      - IPIN
+      - International Conference on Indoor Positioning and Indoor Navigation
+    appliesToName: International Conference on Indoor Positioning and Indoor Navigation
+    reviewedAt: 2026-10-18
+  - system: core
+    year: 2023
+    edition: CORE2023
+    sourceUrl: https://portal.core.edu.au/conf-ranks/?search=IPIN&by=acronym&source=CORE2023
+    sourceType: official
+    sourceTitle: CORE2023 官方完整会议库
+    verifiedAt: 2026-10-19
+    reviewedAt: 2026-10-19
+    status: verified
+    value: C
+    appliesToName: International Conference on Indoor Positioning and Indoor Navigation
+    note: 核对 CORE2023 官方完整 CSV 导出（956 条），以正式全称及已确认的系列名称匹配。该等级属于 2023 年版本。
+    sourceRecordId: "2244"
+  - system: core
+    year: 2021
+    edition: CORE2021
+    sourceUrl: https://portal.core.edu.au/conf-ranks/?search=IPIN&by=acronym&source=CORE2021
+    sourceType: official
+    sourceTitle: CORE2021 官方完整会议库
+    verifiedAt: 2026-10-19
+    reviewedAt: 2026-10-19
+    status: verified
+    value: C
+    appliesToName: International Conference on Indoor Positioning and Indoor Navigation
+    note: 核对 CORE2021 官方完整 CSV 导出（955 条），以正式全称及已确认的系列名称匹配。该等级属于 2021 年版本。
+    sourceRecordId: "2244"
+ratingReviewedAt: 2026-10-18
+deadlineReviewedAt: 2026-10-18
+primaryArea: iot
+secondaryAreas:
+  - signal
+  - wireless

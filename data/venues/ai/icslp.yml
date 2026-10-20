@@ -1,0 +1,99 @@
+# ICSLP
+# 提交修改请发起 Pull Request（合并请求）；构建产物自动生成。
+id: icslp
+kind: conference
+short: ICSLP
+nameZh: 国际语音语言处理会议
+nameEn: International Conference on Spoken Language Processing
+aliases: []
+topics:
+  - ai-communications
+  - imaging
+areas:
+  - ai
+  - wireless
+  - network
+topicReviewedAt: 2026-10-18
+url: https://isca-speech.org/History1
+sourceUrl: https://isca-speech.org/History1
+verifiedAt: 2026-10-18
+verification: verified
+catalogStatus: historical-only
+summary: 2018 学科附件中的历史条目；现行名称、举办状态与当届投稿信息待核验。原表使用历史名称，后续更名、合并与当前认定需另查。
+publicationType: 学术会议系列
+articleTypes:
+  - 会议论文
+submissionMode: 按具体届次征稿
+assessments:
+  - system: bupt-ict-2018
+    label: 2018 信通学科重要会议表
+    year: 2018
+    sourceUrl: https://xxgk.bupt.edu.cn/__local/F/65/92/3A361334F005A224CD3C6C215B7_43DF8061_C1241.pdf?e=.pdf
+    note: 列入2018版学科附件，硕士渠道见政策说明。原表编号 65，PDF 第 7 页。
+urlLabel: 历史文件
+sourceType: official
+evaluations:
+  - system: ccf
+    year: 2026
+    edition: 第七版公开副本
+    sourceUrl: https://scdm-shu.github.io/ccf/2026-CCF-Ranking.pdf
+    sourceType: document-copy
+    sourceTitle: CCF 2026 完整目录公开副本
+    verifiedAt: 2026-10-18
+    reviewedNames:
+      - ICSLP
+      - ICSLP
+    note: ISCA历史原文确认ICSLP与EUROSPEECH逐步整合为INTERSPEECH（国际语音通信大会）。旧名归档，等级适用范围保留为原系列。
+    status: scope-review
+    value: null
+    reviewedAt: 2026-10-18
+  - system: core
+    year: 2026
+    edition: ICORE2026
+    sourceUrl: https://portal.core.edu.au/conf-ranks/?search=&by=all&source=ICORE2026&sort=atitle
+    sourceType: official
+    sourceTitle: ICORE2026 官方完整会议库
+    verifiedAt: 2026-10-18
+    reviewedNames:
+      - ICSLP
+      - ICSLP
+    note: ISCA历史原文确认ICSLP与EUROSPEECH逐步整合为INTERSPEECH（国际语音通信大会）。旧名归档，等级适用范围保留为原系列。
+    status: scope-review
+    value: null
+    reviewedAt: 2026-10-18
+  - system: core
+    year: 2014
+    edition: CORE2014
+    sourceUrl: https://portal.core.edu.au/conf-ranks/?search=ICSLP&by=acronym&source=CORE2014
+    sourceType: official
+    sourceTitle: CORE2014 官方完整会议库
+    verifiedAt: 2026-10-19
+    reviewedAt: 2026-10-19
+    status: verified
+    value: C
+    appliesToName: International Conference on Spoken Language Processing
+    note: 核对 CORE2014 官方完整 CSV 导出（1628 条），以正式全称及已确认的系列名称匹配。该等级属于 2014 年版本。
+    sourceRecordId: "1223"
+  - system: core
+    year: 2013
+    edition: CORE2013
+    sourceUrl: https://portal.core.edu.au/conf-ranks/?search=ICSLP&by=acronym&source=CORE2013
+    sourceType: official
+    sourceTitle: CORE2013 官方完整会议库
+    verifiedAt: 2026-10-19
+    reviewedAt: 2026-10-19
+    status: verified
+    value: C
+    appliesToName: International Conference on Spoken Language Processing
+    note: 核对 CORE2013 官方完整 CSV 导出（1615 条），以正式全称及已确认的系列名称匹配。该等级属于 2013 年版本。
+    sourceRecordId: "1223"
+catalogScope: archive
+scopeReviewedAt: 2026-10-18
+scopeNote: 历史ICSLP名称，现代系列身份/改名应保留别名与独立来源，当前条目不可当独立活跃系列。
+ratingReviewedAt: 2026-10-18
+identityReviewedAt: 2026-10-18
+identityNote: ISCA历史资料确认ICSLP与EUROSPEECH逐步整合为INTERSPEECH（国际语音通信大会）。旧名归档，评级分别记录。
+primaryArea: ai
+secondaryAreas:
+  - wireless
+  - network

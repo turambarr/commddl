@@ -1,0 +1,111 @@
+# Telecommunication Systems
+# 提交修改请发起 Pull Request（合并请求）；构建产物自动生成。
+id: telecom-systems
+kind: journal
+short: Telecommunication Systems
+nameEn: Telecommunication Systems
+nameZh: 电信系统
+url: https://link.springer.com/journal/11235
+sourceUrl: https://link.springer.com/journal/11235
+sourceType: publisher
+verification: verified
+verifiedAt: 2026-10-18
+catalogStatus: current
+areas:
+  - network
+  - wireless
+topics:
+  - network-management
+  - protocols
+  - resources
+topicReviewedAt: 2026-10-18
+aliases: []
+publicationType: 研究型期刊
+articleTypes:
+  - 研究论文
+submissionMode: 作者指南
+summary: ""
+assessments: []
+evaluations:
+  - system: jcr
+    value: Q3
+    status: reported
+    year: 2024
+    releaseYear: 2025
+    category: TELECOMMUNICATIONS
+    categories:
+      - category: TELECOMMUNICATIONS
+        value: Q3
+        page: 756
+    sourceUrl: https://uefiscdi.gov.ro/resource-865584-JCR_2024.iunie2025.pdf
+    sourceTitle: 2024JCR政府公开转录（2025年6月）
+    sourceType: secondary
+    verifiedAt: 2026-10-18
+    appliesToName: TELECOMMUNICATION SYSTEMS
+    note: 旧年度分区按所列原刊名保存；默认电信学优先，全部学科同时保留。
+    reviewedAt: 2026-10-18
+    sourceAuthority: government
+  - system: ccf
+    status: unlisted
+    value: null
+    year: 2026
+    sourceUrl: https://scdm-shu.github.io/ccf/2026-CCF-Ranking.pdf
+    sourceTitle: CCF2026公开副本
+    sourceType: document-copy
+    reviewedAt: 2026-10-18
+    note: 完整295项期刊记录按完整名、缩写、旧名检索，副本未列。
+    attempts:
+      - CCF2026完整期刊副本匹配
+    verifiedAt: 2026-10-18
+  - system: cas
+    year: 2025
+    edition: 2025升级版
+    snapshotDate: 2026-09-28
+    sourceUrl: https://cce.ncepu.edu.cn/xzzx/yjsjx1/7632005045644e61a0d12c7bbeff6204.htm
+    sourceFileUrl: https://cce.ncepu.edu.cn/docs//2026-09/0e77800bf2744596a26e43c83acceed0.xlsx
+    sourceTitle: 华北电力大学公开的中科院2025升级版转录
+    sourceType: secondary
+    sourceAuthority: university
+    verifiedAt: 2026-10-18
+    reviewedAt: 2026-10-18
+    sheet: 期刊汇总
+    status: reported
+    value: "4"
+    category: 计算机科学
+    top: false
+    appliesToName: TELECOMMUNICATION SYSTEMS
+    issn: 1018-4864
+    row: 21754
+    minorCategories:
+      - category: TELECOMMUNICATIONS 电信学
+        quartile: 4
+    note: 高校公开的2025升级版转录，2026-09-28导出，原数据来自期刊分区表平台。按完整刊名或旧名唯一对应，保存大类与全部小类分区。
+  - system: cie
+    year: 2023
+    edition: 2023电子技术、通信技术领域高质量科技期刊分级目录
+    value: T3
+    status: verified
+    sourceUrl: https://www.cie.org.cn/list_42/11930.html
+    sourceTitle: 中国电子学会2023电子技术、通信技术期刊分级目录
+    sourceType: official
+    verifiedAt: 2026-10-19
+    reviewedAt: 2026-10-19
+    issn: 1018-4864
+    row: 228
+    appliesToName: Telecommunication systems
+    note: 按正式ISSN或完整刊名对应官方232刊表，记录原始T分级及年份。
+indexing:
+  value: SCIE
+  status: verified
+  sourceUrl: https://link.springer.com/journal/11235
+  sourceTitle: Telecommunication Systems出版方收录列表
+  sourceType: publisher
+  verifiedAt: 2026-10-18
+  note: 出版社/主办单位当前简介明确列出Science Citation Index Expanded。更名期刊以当前官网列示为据，旧年度评级另记旧名。
+  reviewedAt: 2026-10-18
+catalogScope: communications
+scopeReviewedAt: 2026-10-18
+scopeNote: 通信及相关交叉领域
+primaryArea: network
+secondaryAreas:
+  - wireless

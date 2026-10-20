@@ -1,0 +1,66 @@
+# APSIPA ASC
+# 提交修改请发起 Pull Request（合并请求）；构建产物自动生成。
+kind: conference
+short: APSIPA ASC
+nameEn: Asia Pacific Signal and Information Processing Association Annual Summit and Conference
+nameZh: 亚太信号与信息处理协会年度峰会暨会议
+areas:
+  - signal
+  - wireless
+topics:
+  - estimation-sync
+  - speech
+  - imaging
+url: https://www.apsipa2026.org/
+sourceUrl: https://signalprocessingsociety.org/events
+sourceType: official
+id: apsipa-asc
+aliases:
+  - APSIPA ASC
+catalogStatus: current
+verifiedAt: 2026-10-18
+verification: verified
+checkedAt: 2026-10-18
+summary: SPS官方活动列表列出2026年11月9至12日。
+publicationType: 会议系列
+articleTypes:
+  - 研究论文
+submissionMode: 查看具体届次
+assessments: []
+catalogScope: communications
+topicReviewedAt: 2026-10-18
+scopeReviewedAt: 2026-10-18
+scopeNote: 通信及相关交叉领域
+evaluations:
+  - system: ccf
+    year: 2026
+    edition: 第七版公开副本
+    status: unlisted
+    value: null
+    sourceUrl: https://scdm-shu.github.io/ccf/2026-CCF-Ranking.pdf
+    sourceType: document-copy
+    verifiedAt: 2026-10-18
+    sourceTitle: CCF2026完整目录公开副本
+    note: 按正式全称、历史名称及简称对照完整386个CCF会议条目，未列该系列。
+    reviewedNames:
+      - APSIPA ASC
+      - Asia Pacific Signal and Information Processing Association Annual Summit and Conference
+    reviewedAt: 2026-10-18
+  - system: core
+    year: 2026
+    edition: ICORE2026
+    status: unlisted
+    value: null
+    sourceUrl: https://portal.core.edu.au/conf-ranks/?search=&by=all&source=ICORE2026&sort=atitle
+    sourceType: official
+    verifiedAt: 2026-10-18
+    sourceTitle: ICORE2026官方完整库
+    note: 按正式全称、历史名称及简称对照完整20页987个ICORE记录，未列该系列。
+    reviewedNames:
+      - APSIPA ASC
+      - Asia Pacific Signal and Information Processing Association Annual Summit and Conference
+    reviewedAt: 2026-10-18
+ratingReviewedAt: 2026-10-18
+primaryArea: signal
+secondaryAreas:
+  - wireless

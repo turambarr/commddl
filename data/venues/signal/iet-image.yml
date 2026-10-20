@@ -1,0 +1,184 @@
+# IET Image Processing
+# 提交修改请发起 Pull Request（合并请求）；构建产物自动生成。
+id: iet-image
+kind: journal
+short: IET Image Processing
+nameEn: IET Image Processing
+nameZh: IET图像处理
+aliases: []
+issn: 1751-9659
+eissn: 1751-9667
+url: https://ietresearch.onlinelibrary.wiley.com/journal/17519667
+sourceUrl: https://ietresearch.onlinelibrary.wiley.com/
+sourceType: publisher
+verification: verified
+verifiedAt: 2026-10-19
+identityReviewedAt: 2026-10-19
+catalogStatus: current
+catalogScope: communications
+areas:
+  - signal
+  - ai
+topics:
+  - imaging
+  - source-coding
+topicReviewedAt: 2026-10-19
+publicationType: 研究型期刊
+articleTypes:
+  - 研究论文
+submissionMode: 由官网作者入口按常规栏目/专题要求投稿
+summary: ""
+assessments: []
+evaluations:
+  - system: jcr
+    year: 2024
+    releaseYear: 2025
+    snapshotDate: 2025-06
+    sourceUrl: https://uefiscdi.gov.ro/resource-865584-JCR_2024.iunie2025.pdf
+    sourceTitle: 2024 JCR政府公开转录（2025年6月）
+    sourceType: secondary
+    sourceAuthority: government
+    verifiedAt: 2026-10-19
+    reviewedAt: 2026-10-19
+    status: reported
+    value: Q3
+    category: COMPUTER SCIENCE, ARTIFICIAL INTELLIGENCE
+    categories:
+      - category: COMPUTER SCIENCE, ARTIFICIAL INTELLIGENCE
+        value: Q3
+        page: 120
+      - category: ENGINEERING, ELECTRICAL & ELECTRONIC
+        value: Q3
+        page: 240
+      - category: IMAGING SCIENCE & PHOTOGRAPHIC TECHNOLOGY
+        value: Q3
+        page: 365
+    page: 120
+    issn: 1751-9659
+    eissn: 1751-9667
+    appliesToName: IET Image Processing
+    note: 对照完整2024 JCR政府转录，默认电信学优先，保留全部学科；不取最好分区，不冒充最新原库。
+  - system: cas
+    year: 2025
+    edition: 2025升级版
+    snapshotDate: 2026-09-28
+    sourceUrl: https://cce.ncepu.edu.cn/xzzx/yjsjx1/7632005045644e61a0d12c7bbeff6204.htm
+    sourceFileUrl: https://cce.ncepu.edu.cn/docs//2026-09/0e77800bf2744596a26e43c83acceed0.xlsx
+    sourceTitle: 华北电力大学公开的中科院2025升级版转录
+    sourceType: secondary
+    sourceAuthority: university
+    verifiedAt: 2026-10-19
+    reviewedAt: 2026-10-19
+    sheet: 期刊汇总
+    status: reported
+    value: "4"
+    category: 计算机科学
+    top: false
+    appliesToName: IET Image Processing
+    issn: 1751-9659
+    row: 21469
+    minorCategories:
+      - category: COMPUTER SCIENCE, ARTIFICIAL INTELLIGENCE 计算机：人工智能
+        quartile: 4
+      - category: ENGINEERING, ELECTRICAL & ELECTRONIC 工程：电子与电气
+        quartile: 4
+      - category: IMAGING SCIENCE & PHOTOGRAPHIC TECHNOLOGY 成像科学与照相技术
+        quartile: 4
+    note: 按ISSN或正式全名对照高校公开的2025升级版完整转录；保留大类及全部小类，不冒充原库或2026数据。
+  - system: ccf
+    year: 2015
+    edition: CCF2015
+    sourceUrl: https://lib.ecnu.edu.cn/_upload/article/files/e2/d9/dd45764345088869915f6b3617a4/5b8fc1d6-d5bb-487d-a1db-42825ebc312a.pdf
+    sourceType: document-copy
+    sourceTitle: CCF2015 完整目录公开副本
+    verifiedAt: 2026-10-19
+    reviewedAt: 2026-10-19
+    status: reported
+    value: C
+    appliesToName: IET Image Processing
+    category: 计算机图形学与多媒体
+    page: 46
+    note: 按完整英文名称核对 CCF2015 目录 PDF 第 46 页。该等级属于 2015 年版本；保存公开副本来源属性。
+  - system: ccf
+    year: 2019
+    edition: CCF2019
+    sourceUrl: https://lib.ecnu.edu.cn/_upload/article/files/e2/d9/dd45764345088869915f6b3617a4/bc806894-08bb-40d3-addb-b58a5d9e5fd1.pdf
+    sourceType: document-copy
+    sourceTitle: CCF2019 完整目录公开副本
+    verifiedAt: 2026-10-19
+    reviewedAt: 2026-10-19
+    status: reported
+    value: C
+    appliesToName: IET Image Processing
+    category: 计算机图形学与多媒体
+    page: 46
+    note: 按完整英文名称核对 CCF2019 目录 PDF 第 46 页。该等级属于 2019 年版本；保存公开副本来源属性。
+  - system: ccf
+    year: 2022
+    edition: CCF2022
+    sourceUrl: https://lib.ecnu.edu.cn/_upload/article/files/e2/d9/dd45764345088869915f6b3617a4/e98393b5-2703-45f2-8562-6622bbdcf8c1.pdf
+    sourceType: document-copy
+    sourceTitle: CCF2022 完整目录公开副本
+    verifiedAt: 2026-10-19
+    reviewedAt: 2026-10-19
+    status: reported
+    value: C
+    appliesToName: IET Image Processing
+    category: 计算机图形学与多媒体
+    page: 46
+    note: 按完整英文名称核对 CCF2022 目录 PDF 第 46 页。该等级属于 2022 年版本；保存公开副本来源属性。
+  - system: ccf
+    year: 2026
+    edition: CCF2026
+    sourceUrl: https://scdm-shu.github.io/ccf/2026-CCF-Ranking.pdf
+    sourceType: document-copy
+    sourceTitle: CCF2026 完整目录公开副本
+    verifiedAt: 2026-10-19
+    reviewedAt: 2026-10-19
+    status: reported
+    value: C
+    appliesToName: IETImageProcessing
+    category: 计算机图形学与多媒体
+    page: 46
+    note: 按完整英文名称核对 CCF2026 目录 PDF 第 46 页。该等级属于 2026 年版本；保存公开副本来源属性。
+  - system: cie
+    year: 2023
+    edition: 2023电子技术、通信技术领域高质量科技期刊分级目录
+    value: T3
+    status: verified
+    sourceUrl: https://www.cie.org.cn/list_42/11930.html
+    sourceTitle: 中国电子学会2023电子技术、通信技术期刊分级目录
+    sourceType: official
+    verifiedAt: 2026-10-19
+    reviewedAt: 2026-10-19
+    issn: 1751-9659
+    row: 192
+    appliesToName: IET Image Processing
+    note: 按正式ISSN或完整刊名对应官方232刊表，记录原始T分级及年份。
+indexing:
+  value: SCIE
+  status: reported
+  year: 2024
+  releaseYear: 2025
+  sourceUrl: https://uefiscdi.gov.ro/resource-865584-JCR_2024.iunie2025.pdf
+  sourceTitle: 2024 JCR政府公开转录（2025年6月）
+  sourceType: secondary
+  verifiedAt: 2026-10-19
+  reviewedAt: 2026-10-19
+  pages:
+    - 120
+    - 240
+    - 365
+  note: 按完整刊名/明确ISSN匹配，读取edition列；2024年度收录类别，不冒充2026原库实时核验。
+otherIndexes: []
+scopeReviewedAt: 2026-10-19
+identityNote: IET当前完整出版社期刊组合目录明确列出本刊；已检查本刊页面，部分首页受403或读取异常限制，收稿与额外索引后续逐项核实。
+submissionStatus: unresolved
+coverageGroup: iet
+authorGuideUrl: https://ietresearch.onlinelibrary.wiley.com/hub/journal/17519667/homepage/author-guidelines
+identifierSourceUrl: https://uefiscdi.gov.ro/resource-865584-JCR_2024.iunie2025.pdf
+identifierSourceYear: 2024
+ratingReviewedAt: 2026-10-19
+primaryArea: signal
+secondaryAreas:
+  - ai

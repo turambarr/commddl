@@ -1,0 +1,71 @@
+# CrownCom
+# 提交修改请发起 Pull Request（合并请求）；构建产物自动生成。
+id: crowncom
+kind: conference
+short: CrownCom
+nameZh: 认知无线电无线网络与通信会议
+nameEn: EAI International Conference on Cognitive Radio Oriented Wireless Networks
+aliases: []
+topics:
+  - physical
+  - protocols
+areas:
+  - wireless
+  - ai
+topicReviewedAt: 2026-10-18
+url: https://crowncom.eai-conferences.org/2026/
+sourceUrl: https://crowncom.eai-conferences.org/2026/
+verifiedAt: 2026-10-18
+verification: verified
+catalogStatus: current
+summary: 2018 学科附件中的历史条目；现行名称、举办状态与当届投稿信息待核验。
+publicationType: 学术会议系列
+articleTypes:
+  - 会议论文
+submissionMode: 按具体届次征稿
+assessments:
+  - system: bupt-ict-2018
+    label: 2018 信通学科重要会议表
+    year: 2018
+    sourceUrl: https://xxgk.bupt.edu.cn/__local/F/65/92/3A361334F005A224CD3C6C215B7_43DF8061_C1241.pdf?e=.pdf
+    note: 列入2018版学科附件，硕士渠道见政策说明。原表编号 46，PDF 第 5 页。
+urlLabel: 历史文件
+sourceType: official
+evaluations:
+  - system: ccf
+    year: 2026
+    edition: 第七版公开副本
+    sourceUrl: https://scdm-shu.github.io/ccf/2026-CCF-Ranking.pdf
+    sourceType: document-copy
+    sourceTitle: CCF 2026 完整目录公开副本
+    verifiedAt: 2026-10-18
+    reviewedNames:
+      - CrownCom
+      - CrownCom
+    note: 按正式系列核对CCF2026公开副本全部386个会议条目，未列入该版。
+    status: unlisted
+    value: null
+    reviewedAt: 2026-10-18
+  - system: core
+    year: 2026
+    edition: ICORE2026
+    sourceUrl: https://portal.core.edu.au/conf-ranks/?search=&by=all&source=ICORE2026&sort=atitle
+    sourceType: official
+    sourceTitle: ICORE2026 官方完整会议库
+    verifiedAt: 2026-10-18
+    reviewedNames:
+      - CrownCom
+      - CrownCom
+    note: 复查 ICORE2026 官方全 20 页、987 个记录，按全称、系列简称及历史名称对照，未列出该正式系列。
+    status: unlisted
+    value: null
+    reviewedAt: 2026-10-18
+catalogScope: communications
+scopeReviewedAt: 2026-10-18
+scopeNote: 无线通信研究载体；信息论与编码研究载体；通信网络与移动系统研究载体
+ratingReviewedAt: 2026-10-18
+identityReviewedAt: 2026-10-18
+identityNote: 认知无线电、无线网络及定位；EAI官方2026第17届系列确认。
+primaryArea: wireless
+secondaryAreas:
+  - ai

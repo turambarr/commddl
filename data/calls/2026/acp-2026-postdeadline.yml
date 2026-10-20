@@ -1,0 +1,45 @@
+# ACP 2026 · 晚稿论文
+# 提交修改请发起 Pull Request（合并请求）；构建产物自动生成。
+id: acp-2026-postdeadline
+venueId: acp
+title: ACP 2026 · 晚稿论文
+titleEn: Asia Communications and Photonics Conference
+year: 2026
+kind: conference
+areas:
+  - optical
+  - signal
+  - network
+topics:
+  - fiber
+  - optical-networks
+tags: []
+summary: ""
+url: https://www.acpconf.com/
+sourceUrl: https://www.acpconf.com/
+sourceType: official
+nodes:
+  - id: paper
+    label: 晚稿提交
+    type: paper
+    primary: true
+    precision: date
+    date: 2026-10-15
+    instant: null
+    timezone: null
+    original: 2026-10-15
+    revision: 0
+verification: verified
+verifiedAt: 2026-10-18
+checkedAt: 2026-10-18
+updatedAt: 2026-10-18T04:00:00Z
+status: announced
+notes: 晚稿独立截止10月15日，核验时已截止；10月25日终稿日期适用于主会。
+location: 中国·杭州
+eventStart: 2026-11-01
+eventEnd: 2026-11-04
+eventDates: 2026-11-01 / 2026-11-04
+publication: null
+history: []
+track: postdeadline
+parentCallId: acp-2026-main

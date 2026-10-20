@@ -1,0 +1,79 @@
+# ICCT
+# 提交修改请发起 Pull Request（合并请求）；构建产物自动生成。
+id: icct
+kind: conference
+short: ICCT
+nameZh: IEEE 通信技术国际会议
+nameEn: IEEE International Conference on Communication Technology
+aliases:
+  - ICCT
+  - IEEE ICCT
+  - International Conference on Communications Technology
+areas:
+  - wireless
+  - network
+  - signal
+topics:
+  - physical
+  - information-theory
+  - channel-coding
+  - isac
+  - protocols
+  - satellite-ntn
+  - ai-communications
+url: https://www.ieee-icct.org/
+summary: 无线通信、信息论、通信信号处理及通信网络。
+publicationType: 会议系列
+articleTypes:
+  - 研究论文
+submissionMode: 查看具体届次
+sourceUrl: https://www.ieee-icct.org/
+sourceType: official
+verification: verified
+verifiedAt: 2026-10-19
+assessments: []
+evaluations:
+  - system: ccf
+    year: 2026
+    edition: 第七版公开副本
+    sourceUrl: https://scdm-shu.github.io/ccf/2026-CCF-Ranking.pdf
+    sourceTitle: CCF2026国际会议期刊目录公开副本
+    sourceType: document-copy
+    verifiedAt: 2026-10-19
+    reviewedAt: 2026-10-19
+    reviewedNames:
+      - IEEE International Conference on Communication Technology
+      - IEEE 通信技术国际会议
+      - ICCT
+      - IEEE ICCT
+      - International Conference on Communications Technology
+    status: unlisted
+    value: null
+    note: 按正式全名与已核实别名核对CCF2026国际会议期刊目录公开副本，未列入该版。中文期刊推荐目录另行发布。
+  - system: core
+    year: 2026
+    edition: ICORE2026
+    sourceUrl: https://portal.core.edu.au/conf-ranks/?search=&by=all&source=ICORE2026&sort=atitle
+    sourceTitle: ICORE2026官方完整987条会议库
+    sourceType: official
+    verifiedAt: 2026-10-19
+    reviewedAt: 2026-10-19
+    reviewedNames:
+      - IEEE International Conference on Communication Technology
+      - IEEE 通信技术国际会议
+      - ICCT
+      - IEEE ICCT
+      - International Conference on Communications Technology
+    status: unlisted
+    value: null
+    note: 按正式全名与已核实别名核对ICORE2026官方全部987条记录，未列入该版。
+catalogScope: communications
+catalogStatus: current
+scopeReviewedAt: 2026-10-19
+topicReviewedAt: 2026-10-19
+deadlineReviewedAt: 2026-10-19
+ratingReviewedAt: 2026-10-19
+primaryArea: wireless
+secondaryAreas:
+  - network
+  - signal

@@ -1,0 +1,32 @@
+# ICIP 2027 · 主会论文
+# 提交修改请发起 Pull Request（合并请求）；构建产物自动生成。
+id: icip-2027-main
+venueId: icip
+title: ICIP 2027 · 主会论文
+titleEn: IEEE International Conference on Image Processing
+year: 2027
+kind: conference
+areas:
+  - signal
+  - ai
+topics:
+  - imaging
+  - source-coding
+tags: []
+summary: ""
+url: https://2027.ieeeicip.org/
+sourceUrl: https://2027.ieeeicip.org/
+sourceType: official
+nodes: []
+verification: verified
+verifiedAt: 2026-10-18
+checkedAt: 2026-10-18
+updatedAt: 2026-10-18T04:00:00Z
+status: announced
+notes: 本届主页已公布日期，但征稿/投稿说明页仍残留ICASSP2023及2022年的模板日期，全部排除。系列页旧日期10月17–22日与本届主页冲突，以本届当前主页为准。2027主会论文截止尚未可靠公布。
+location: 新加坡
+eventStart: 2027-11-29
+eventEnd: 2027-12-03
+eventDates: 2027-11-29 / 2027-12-03
+publication: null
+history: []

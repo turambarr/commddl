@@ -1,0 +1,142 @@
+# KDD
+# 提交修改请发起 Pull Request（合并请求）；构建产物自动生成。
+id: kdd
+kind: conference
+short: KDD
+nameZh: 知识发现与数据挖掘国际会议
+nameEn: KDD
+aliases:
+  - SIGKDD
+topics:
+  - ai-communications
+  - imaging
+areas:
+  - ai
+  - network
+topicReviewedAt: 2026-10-18
+url: https://xxgk.bupt.edu.cn/__local/F/65/92/3A361334F005A224CD3C6C215B7_43DF8061_C1241.pdf?e=.pdf
+sourceUrl: https://xxgk.bupt.edu.cn/__local/F/65/92/3A361334F005A224CD3C6C215B7_43DF8061_C1241.pdf?e=.pdf
+verifiedAt: 2026-10-18
+verification: verified
+catalogStatus: historical-only
+summary: 2018 学科附件中的历史条目；现行名称、举办状态与当届投稿信息待核验。与第24项SIGKDD按名称及研究对象指向同一会议，保留原表两项。
+publicationType: 学术会议系列
+articleTypes:
+  - 会议论文
+submissionMode: 按具体届次征稿
+assessments:
+  - system: bupt-ict-2018
+    label: 2018 信通学科重要会议表
+    year: 2018
+    sourceUrl: https://xxgk.bupt.edu.cn/__local/F/65/92/3A361334F005A224CD3C6C215B7_43DF8061_C1241.pdf?e=.pdf
+    note: 列入2018版学科附件，硕士渠道见政策说明。原表编号 18，PDF 第 4 页。
+urlLabel: 历史文件
+sourceType: historical-document
+evaluations:
+  - system: ccf
+    year: 2026
+    edition: 第七版公开副本
+    sourceUrl: https://scdm-shu.github.io/ccf/2026-CCF-Ranking.pdf
+    sourceType: document-copy
+    sourceTitle: CCF 2026 完整目录公开副本
+    verifiedAt: 2026-10-18
+    reviewedNames:
+      - KDD
+      - KDD
+      - SIGKDD
+    note: CCF 编制文件的公开副本与 CCFDDL 附带 PDF 字节一致；官网原件访问返回 405，仍保留副本来源属性。
+    status: reported
+    value: A
+    appliesToName: ACM SIGKDD Conference on Knowledge Discovery and Data Mining
+    category: 数据库/数据挖掘/内容检索
+    page: 35
+    reviewedAt: 2026-10-18
+  - system: core
+    year: 2026
+    edition: ICORE2026
+    sourceUrl: https://portal.core.edu.au/conf-ranks/?search=&by=all&source=ICORE2026&sort=atitle&page=1
+    sourceType: official
+    sourceTitle: ICORE2026 官方完整会议库
+    verifiedAt: 2026-10-18
+    reviewedNames:
+      - KDD
+      - KDD
+      - SIGKDD
+    note: 已按正式全称及系列简称复查 ICORE2026 官方完整库。
+    status: verified
+    value: A*
+    appliesToName: ACM International Conference on Knowledge Discovery and Data Mining
+    reviewedAt: 2026-10-18
+  - system: core
+    year: 2023
+    edition: CORE2023
+    sourceUrl: https://portal.core.edu.au/conf-ranks/?search=KDD&by=acronym&source=CORE2023
+    sourceType: official
+    sourceTitle: CORE2023 官方完整会议库
+    verifiedAt: 2026-10-19
+    reviewedAt: 2026-10-19
+    status: verified
+    value: A*
+    appliesToName: ACM International Conference on Knowledge Discovery and Data Mining
+    note: 核对 CORE2023 官方完整 CSV 导出（956 条），以正式全称及已确认的系列名称匹配。该等级属于 2023 年版本。
+    sourceRecordId: "26"
+  - system: core
+    year: 2021
+    edition: CORE2021
+    sourceUrl: https://portal.core.edu.au/conf-ranks/?search=KDD&by=acronym&source=CORE2021
+    sourceType: official
+    sourceTitle: CORE2021 官方完整会议库
+    verifiedAt: 2026-10-19
+    reviewedAt: 2026-10-19
+    status: verified
+    value: A*
+    appliesToName: ACM International Conference on Knowledge Discovery and Data Mining
+    note: 核对 CORE2021 官方完整 CSV 导出（955 条），以正式全称及已确认的系列名称匹配。该等级属于 2021 年版本。
+    sourceRecordId: "26"
+  - system: core
+    year: 2020
+    edition: CORE2020
+    sourceUrl: https://portal.core.edu.au/conf-ranks/?search=KDD&by=acronym&source=CORE2020
+    sourceType: official
+    sourceTitle: CORE2020 官方完整会议库
+    verifiedAt: 2026-10-19
+    reviewedAt: 2026-10-19
+    status: verified
+    value: A*
+    appliesToName: ACM International Conference on Knowledge Discovery and Data Mining
+    note: 核对 CORE2020 官方完整 CSV 导出（882 条），以正式全称及已确认的系列名称匹配。该等级属于 2020 年版本。
+    sourceRecordId: "26"
+  - system: core
+    year: 2008
+    edition: CORE2008
+    sourceUrl: https://portal.core.edu.au/conf-ranks/?search=KDD&by=acronym&source=CORE2008
+    sourceType: official
+    sourceTitle: CORE2008 官方完整会议库
+    verifiedAt: 2026-10-19
+    reviewedAt: 2026-10-19
+    status: verified
+    value: A*
+    appliesToName: ACM International Conference on Knowledge Discovery and Data Mining
+    note: 核对 CORE2008 官方完整 CSV 导出（933 条），以正式全称及已确认的系列名称匹配。该等级属于 2008 年版本。
+    sourceRecordId: "26"
+  - system: ccf
+    year: 2022
+    edition: CCF2022
+    sourceUrl: https://lib.ecnu.edu.cn/_upload/article/files/e2/d9/dd45764345088869915f6b3617a4/e98393b5-2703-45f2-8562-6622bbdcf8c1.pdf
+    sourceType: document-copy
+    sourceTitle: CCF2022 完整目录公开副本
+    verifiedAt: 2026-10-19
+    reviewedAt: 2026-10-19
+    status: reported
+    value: A
+    appliesToName: ACM SIGKDD Conference on Knowledge Discovery and Data Mining
+    category: 数据库／数据挖掘／内容检索
+    page: 35
+    note: 按完整英文名称核对 CCF2022 目录 PDF 第 35 页。该等级属于 2022 年版本；保存公开副本来源属性。
+catalogScope: archive
+scopeReviewedAt: 2026-10-18
+scopeNote: 通用数据挖掘会议，非通信主体。
+ratingReviewedAt: 2026-10-18
+primaryArea: ai
+secondaryAreas:
+  - network

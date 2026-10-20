@@ -1,7 +1,7 @@
 const {test}=require('node:test');
 const assert=require('node:assert/strict');
 const C=require('../assets/core.js');
-const data=require('../data/catalog.json');
+const data=require('../scripts/catalog.cjs').loadCatalog();
 const NOW=Date.parse('2026-10-17T08:00:00Z');
 const venue={id:'sample',short:'测试刊',areas:['wireless']};
 const base={id:'sample-call',venueId:'sample',title:'无线通信',verification:'verified',status:'announced',sourceUrl:'https://example.org/cfp',updatedAt:'2026-10-17T08:00:00Z',nodes:[{id:'paper',label:'全文提交',type:'paper',primary:true,precision:'date',date:'2026-10-30',revision:0}]};

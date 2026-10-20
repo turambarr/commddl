@@ -1,0 +1,37 @@
+# SiPhotonics 2027 · IEEE 硅光子会议
+# 提交修改请发起 Pull Request（合并请求）；构建产物自动生成。
+id: siphotonics-2027
+venueId: siphotonics
+year: 2027
+title: SiPhotonics 2027 · IEEE 硅光子会议
+titleEn: IEEE Silicon Photonics Conference 2027
+kind: conference
+areas:
+  - optical
+topics:
+  - photonics
+  - optical-networks
+tags: []
+summary: IEEE 硅光子会议当届论文征稿。
+url: https://www.ieee-siphotonics.org/
+sourceUrl: https://www.ieee-siphotonics.org/
+sourceType: official
+verification: verified
+verifiedAt: 2026-10-19
+updatedAt: 2026-10-19T08:00:00Z
+status: announced
+location: 台北
+eventStart: 2027-04-11
+eventEnd: 2027-04-14
+nodes:
+  - id: paper
+    label: 论文提交
+    type: paper
+    primary: true
+    precision: date
+    date: 2026-10-26
+    instant: null
+    timezone: null
+    original: Submit your research by 26 October 2026.
+    revision: 0
+history: []

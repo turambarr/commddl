@@ -1,0 +1,68 @@
+# Allerton
+# 提交修改请发起 Pull Request（合并请求）；构建产物自动生成。
+id: allerton
+kind: conference
+short: Allerton
+nameZh: 通信、控制与计算阿勒顿会议
+nameEn: Allerton Conference on Communication, Control, and Computing
+aliases: []
+topics:
+  - information-theory
+  - channel-coding
+  - industrial
+areas:
+  - theory
+  - wireless
+  - network
+topicReviewedAt: 2026-10-18
+url: https://allerton.csl.illinois.edu/
+sourceUrl: https://allerton.csl.illinois.edu/
+verifiedAt: 2026-10-18
+verification: verified
+catalogStatus: current
+summary: 社区通信日历提供系列线索；投稿范围、论文形式和当前届次仍需到官网逐项确认。
+publicationType: 学术会议系列
+articleTypes:
+  - 会议论文
+submissionMode: 按具体届次征稿
+assessments: []
+sourceType: official
+evaluations:
+  - system: ccf
+    year: 2026
+    edition: 第七版公开副本
+    sourceUrl: https://scdm-shu.github.io/ccf/2026-CCF-Ranking.pdf
+    sourceType: document-copy
+    sourceTitle: CCF 2026 完整目录公开副本
+    verifiedAt: 2026-10-18
+    reviewedNames:
+      - Allerton Conference on Communication, Control, and Computing
+      - Allerton
+    note: 按正式系列核对CCF2026公开副本全部386个会议条目，未列入该版。
+    status: unlisted
+    value: null
+    reviewedAt: 2026-10-18
+  - system: core
+    year: 2026
+    edition: ICORE2026
+    sourceUrl: https://portal.core.edu.au/conf-ranks/?search=&by=all&source=ICORE2026&sort=atitle
+    sourceType: official
+    sourceTitle: ICORE2026 官方完整会议库
+    verifiedAt: 2026-10-18
+    reviewedNames:
+      - Allerton Conference on Communication, Control, and Computing
+      - Allerton
+    note: 复查 ICORE2026 官方全 20 页、987 个记录，按全称、系列简称及历史名称对照，未列出该正式系列。
+    status: unlisted
+    value: null
+    reviewedAt: 2026-10-18
+catalogScope: communications
+scopeReviewedAt: 2026-10-18
+scopeNote: 信息论与编码研究载体；无线通信研究载体；物联网/车联网研究载体；通信网络与移动系统研究载体
+ratingReviewedAt: 2026-10-18
+identityReviewedAt: 2026-10-18
+identityNote: 通信、控制与计算；2026 第62届系列身份已由伊利诺伊大学主办官网确认。
+primaryArea: theory
+secondaryAreas:
+  - wireless
+  - network

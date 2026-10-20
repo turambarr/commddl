@@ -1,0 +1,193 @@
+# TOSN
+# 提交修改请发起 Pull Request（合并请求）；构建产物自动生成。
+id: tosn
+kind: journal
+short: TOSN
+nameEn: ACM Transactions on Sensor Networks
+nameZh: ACM传感器网络汇刊
+aliases: []
+issn: 1550-4859
+eissn: 1550-4867
+url: https://dl.acm.org/journal/tosn
+sourceUrl: https://www.glsvlsi.hosting.acm.org/archive/glsvlsi21/acm/tosn-cfp.pdf
+sourceType: publisher
+verification: verified
+verifiedAt: 2026-10-19
+identityReviewedAt: 2026-10-19
+catalogStatus: needs-review
+areas:
+  - iot
+  - network
+  - wireless
+topics:
+  - iot-sensing
+  - protocols
+  - estimation-sync
+  - security
+topicReviewedAt: 2026-10-19
+publicationType: 研究型期刊
+articleTypes:
+  - 研究论文
+submissionMode: 官方作者指南入口；本轮无法直接读取当前收稿状态
+summary: 传感器网络、分布式感知及网络系统。
+assessments: []
+evaluations:
+  - system: jcr
+    year: 2024
+    releaseYear: 2025
+    snapshotDate: 2025-06
+    sourceUrl: https://uefiscdi.gov.ro/resource-865584-JCR_2024.iunie2025.pdf
+    sourceTitle: 2024 JCR政府公开转录（2025年6月）
+    sourceType: secondary
+    sourceAuthority: government
+    verifiedAt: 2026-10-19
+    reviewedAt: 2026-10-19
+    status: reported
+    value: Q2
+    category: TELECOMMUNICATIONS
+    categories:
+      - category: COMPUTER SCIENCE, INFORMATION SYSTEMS
+        value: Q1
+        page: 129
+      - category: TELECOMMUNICATIONS
+        value: Q2
+        page: 753
+    page: 753
+    issn: 1550-4859
+    eissn: 1550-4867
+    appliesToName: ACM Transactions on Sensor Networks
+    note: 按完整2024 JCR政府转录记录全部学科分区，默认展示电信学。
+  - system: cas
+    year: 2025
+    edition: 2025升级版
+    snapshotDate: 2026-09-28
+    sourceUrl: https://cce.ncepu.edu.cn/xzzx/yjsjx1/7632005045644e61a0d12c7bbeff6204.htm
+    sourceFileUrl: https://cce.ncepu.edu.cn/docs//2026-09/0e77800bf2744596a26e43c83acceed0.xlsx
+    sourceTitle: 华北电力大学公开的中科院2025升级版转录
+    sourceType: secondary
+    sourceAuthority: university
+    verifiedAt: 2026-10-19
+    reviewedAt: 2026-10-19
+    sheet: 期刊汇总
+    status: reported
+    value: "4"
+    category: 计算机科学
+    top: false
+    appliesToName: ACM Transactions on Sensor Networks
+    issn: 1550-4859
+    row: 21334
+    minorCategories:
+      - category: COMPUTER SCIENCE, INFORMATION SYSTEMS 计算机：信息系统
+        quartile: 4
+      - category: TELECOMMUNICATIONS 电信学
+        quartile: 4
+    note: 按ISSN或正式全名匹配高校公开的2025升级版完整转录，保存大类与全部小类分区。
+  - system: ccf
+    year: 2026
+    edition: 第七版公开副本
+    sourceUrl: https://scdm-shu.github.io/ccf/2026-CCF-Ranking.pdf
+    sourceTitle: CCF2026国际会议期刊目录公开副本
+    sourceType: document-copy
+    verifiedAt: 2026-10-19
+    reviewedAt: 2026-10-19
+    reviewedNames:
+      - ACM Transactions on Sensor Networks
+      - ACM传感器网络汇刊
+    status: reported
+    value: B
+    category: 计算机网络
+    page: 11
+    appliesToName: ACM Transactions on Sensor Networks
+    note: 按正式全名或已核实旧名匹配CCF2026公开副本，适用于对应正式论文；附属研讨会及演示单独评价。
+  - system: ccf
+    year: 2015
+    edition: CCF2015
+    sourceUrl: https://lib.ecnu.edu.cn/_upload/article/files/e2/d9/dd45764345088869915f6b3617a4/5b8fc1d6-d5bb-487d-a1db-42825ebc312a.pdf
+    sourceType: document-copy
+    sourceTitle: CCF2015 完整目录公开副本
+    verifiedAt: 2026-10-19
+    reviewedAt: 2026-10-19
+    status: reported
+    value: B
+    appliesToName: ACM Transactions on Sensor Networks
+    category: 计算机网络
+    page: 11
+    note: 按完整英文名称核对 CCF2015 目录 PDF 第 11 页。该等级属于 2015 年版本；保存公开副本来源属性。
+  - system: ccf
+    year: 2019
+    edition: CCF2019
+    sourceUrl: https://lib.ecnu.edu.cn/_upload/article/files/e2/d9/dd45764345088869915f6b3617a4/bc806894-08bb-40d3-addb-b58a5d9e5fd1.pdf
+    sourceType: document-copy
+    sourceTitle: CCF2019 完整目录公开副本
+    verifiedAt: 2026-10-19
+    reviewedAt: 2026-10-19
+    status: reported
+    value: B
+    appliesToName: ACM Transactions on Sensor Networks
+    category: 计算机网络
+    page: 11
+    note: 按完整英文名称核对 CCF2019 目录 PDF 第 11 页。该等级属于 2019 年版本；保存公开副本来源属性。
+  - system: ccf
+    year: 2022
+    edition: CCF2022
+    sourceUrl: https://lib.ecnu.edu.cn/_upload/article/files/e2/d9/dd45764345088869915f6b3617a4/e98393b5-2703-45f2-8562-6622bbdcf8c1.pdf
+    sourceType: document-copy
+    sourceTitle: CCF2022 完整目录公开副本
+    verifiedAt: 2026-10-19
+    reviewedAt: 2026-10-19
+    status: reported
+    value: B
+    appliesToName: ACM Transactions on Sensor Networks
+    category: 计算机网络
+    page: 11
+    note: 按完整英文名称核对 CCF2022 目录 PDF 第 11 页。该等级属于 2022 年版本；保存公开副本来源属性。
+  - system: cie
+    year: 2023
+    edition: 2023电子技术、通信技术领域高质量科技期刊分级目录
+    value: T2
+    status: verified
+    sourceUrl: https://www.cie.org.cn/list_42/11930.html
+    sourceTitle: 中国电子学会2023电子技术、通信技术期刊分级目录
+    sourceType: official
+    verifiedAt: 2026-10-19
+    reviewedAt: 2026-10-19
+    issn: 1550-4859
+    row: 68
+    appliesToName: ACM Transactions on Sensor Networks
+    note: 按正式ISSN或完整刊名对应官方232刊表，记录原始T分级及年份。
+catalogScope: communications
+scopeReviewedAt: 2026-10-19
+submissionStatus: unresolved
+identityNote: 已读取ACM主办会议域名归档的官方期刊CFP确认身份和ISSN；当前DL首页、作者指南和ACM期刊总表均403，未绕过。2026研究机构索引目录仍列此刊，但不作为2026实时开放收稿证明。
+indexing:
+  value: SCIE
+  status: reported
+  year: 2024
+  sourceUrl: https://uefiscdi.gov.ro/resource-865584-JCR_2024.iunie2025.pdf
+  sourceTitle: 2024 JCR 政府公开转录（2025年6月）
+  sourceType: secondary
+  verifiedAt: 2026-10-19
+  reviewedAt: 2026-10-19
+  note: 完整期刊名与ISSN精确匹配，读取edition=SCIE；已核实第129/753页。此为2024版本，非2026原库实时核验。
+  releaseYear: 2025
+  pages:
+    - 129
+    - 753
+otherIndexes:
+  - value: Scopus
+    status: reported
+    year: 2026
+    sourceUrl: https://bib-pubdb1.desy.de/record/21297
+    sourceTitle: 德国电子同步加速器研究所DESY期刊目录
+    sourceType: secondary
+    verifiedAt: 2026-10-19
+    reviewedAt: 2026-10-19
+    note: 研究机构图书目录明确SCOPUS，记录更新2026-01-31；非Scopus原库直接核验。
+    snapshotDate: 2026-01-31
+submissionSourceUrl: https://dl.acm.org/journal/tosn/author-guidelines
+identitySupportingSourceUrl: https://bib-pubdb1.desy.de/record/21297
+ratingReviewedAt: 2026-10-19
+primaryArea: iot
+secondaryAreas:
+  - network
+  - wireless

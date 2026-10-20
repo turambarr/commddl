@@ -1,5 +1,7 @@
 // Produce the reader's catalog from the complete maintenance record.
 const C=require('../assets/core.js');
+const {sourcePath}=require('./catalog.cjs');
+const contributionURL=(data,item)=>`${data.meta.repository}/blob/main/${sourcePath(item)}`;
 const pick=(value,keys)=>Object.fromEntries(keys.filter(key=>value[key]!==undefined).map(key=>[key,value[key]]));
 const positive=e=>e&&['verified','reported'].includes(e.status)&&e.value;
 const evidenceKeys=['system','value','status','year','releaseYear','edition','snapshotDate','sourceUrl','sourceFileUrl','sourcePageUrl','sourceTitle','sourceType','sourceAuthority','verifiedAt','reviewedAt','category','categories','minorCategories','appliesToName','issn','eissn','page','sheet','row','top','coverage','officialUrl'];
@@ -13,6 +15,7 @@ function makePublicCatalog(data){
  result.sources=data.sources.filter(s=>s.url).map(s=>pick(s,['title','url','verifiedAt']));
  for(const v of data.venues){
   const published=pick(v,venueKeys);
+  published.contributionUrl=contributionURL(data,v);
   if(v.invitationOnly)published.submissionMode=v.submissionMode||'邀请投稿';
   published.evaluations=(v.evaluations||[]).filter(e=>C.isRankEvidence(e)).map(e=>pick(e,evidenceKeys));
   if(positive(v.indexing))published.indexing=pick(v.indexing,evidenceKeys);
@@ -29,7 +32,7 @@ function makePublicCatalog(data){
   // A dated round with an unresolved registration prerequisite stays in maintenance.
   const prerequisitesKnown=nodes.every(n=>(n.requires||[]).every(id=>nodes.some(x=>x.id===id)));
   if(!publish||!prerequisitesKnown){result.favoriteAliases['call:'+call.id]='venue:'+call.venueId;continue;}
-  const published=pick(call,callKeys);published.nodes=nodes.map(n=>pick(n,nodeKeys));published.history=[];
+  const published=pick(call,callKeys);published.contributionUrl=contributionURL(data,call);published.nodes=nodes.map(n=>pick(n,nodeKeys));published.history=[];
   result.calls.push(published);
  }
  for(const [oldId,newId] of Object.entries(data.callAliases||{})){

@@ -1,0 +1,380 @@
+- id: physical
+  label: 调制、波形与物理层
+  areas:
+    - wireless
+    - theory
+  aliases:
+    - PHY OFDM 多载波
+    - ofdm_modulation
+- id: mimo
+  label: 多天线与波束成形
+  areas:
+    - wireless
+    - signal
+    - rf
+  aliases:
+    - MIMO beamforming RIS 智能反射面
+    - mimo_beamforming
+- id: access
+  label: 多址接入与短包通信
+  areas:
+    - wireless
+    - theory
+    - iot
+  aliases:
+    - random access NOMA URA 随机接入
+    - multiple_access
+- id: resources
+  label: 频谱与无线资源管理
+  areas:
+    - wireless
+    - network
+  aliases:
+    - spectrum resource allocation 认知无线电
+- id: propagation
+  label: 信道建模与传播
+  areas:
+    - wireless
+    - rf
+  aliases:
+    - channel propagation
+    - channel_modeling
+- id: information-theory
+  label: 信息论与容量
+  areas:
+    - theory
+  aliases:
+    - information theory capacity 有限码长
+    - shannon_theory
+- id: channel-coding
+  label: 信道编码与译码
+  areas:
+    - theory
+    - wireless
+  aliases:
+    - channel coding decoding LDPC Polar 极化码
+    - channel_coding
+- id: source-coding
+  label: 信源编码与压缩
+  areas:
+    - theory
+    - signal
+  aliases:
+    - source coding compression
+    - source_coding
+- id: quantum
+  label: 量子通信与量子信息
+  areas:
+    - theory
+    - optical
+  aliases:
+    - quantum communication QKD 量子密钥分发
+    - quantum_info
+- id: estimation-sync
+  label: 检测、估计与同步
+  areas:
+    - signal
+    - wireless
+    - space
+  aliases:
+    - estimation synchronization detection 载波相位恢复
+- id: arrays
+  label: 阵列与多通道处理
+  areas:
+    - signal
+    - rf
+  aliases:
+    - array multichannel DOA 到达角
+    - array_processing
+- id: isac
+  label: 通感一体化
+  areas:
+    - signal
+    - wireless
+    - space
+  aliases:
+    - ISAC integrated sensing and communication 联合通信感知
+- id: radar
+  label: 雷达、声呐与目标跟踪
+  areas:
+    - signal
+    - rf
+    - space
+  aliases:
+    - radar sonar tracking
+    - radar_signal
+- id: imaging
+  label: 图像、视频与计算成像
+  areas:
+    - signal
+    - ai
+  aliases:
+    - image video computational imaging
+    - image_video_coding
+- id: speech
+  label: 语音、音频与声学
+  areas:
+    - signal
+    - ai
+  aliases:
+    - speech audio acoustics
+    - speech_audio
+- id: protocols
+  label: 网络协议与体系结构
+  areas:
+    - network
+  aliases:
+    - protocol architecture routing 路由
+    - network_architecture
+    - routing_transport
+- id: mobile-systems
+  label: 移动计算与无线系统
+  areas:
+    - network
+    - wireless
+    - iot
+  aliases:
+    - mobile computing wireless systems
+    - mobile_computing
+- id: measurement
+  label: 网络测量与性能分析
+  areas:
+    - network
+  aliases:
+    - measurement performance QoS 服务质量
+- id: network-management
+  label: 网络管理与虚拟化
+  areas:
+    - network
+  aliases:
+    - SDN NFV network management 网络功能虚拟化
+    - sdn_nfv
+    - network_management
+- id: security
+  label: 通信与网络安全
+  areas:
+    - network
+    - wireless
+    - theory
+  aliases:
+    - security privacy secrecy 隐私 物理层安全
+    - network_security
+- id: edge-cloud
+  label: 边缘计算与云网络
+  areas:
+    - network
+    - iot
+    - ai
+  aliases:
+    - edge cloud MEC 移动边缘计算
+- id: fiber
+  label: 光纤通信与相干处理
+  areas:
+    - optical
+    - signal
+  aliases:
+    - fiber coherent optical DSP 相干光通信
+    - fiber_transmission
+- id: optical-networks
+  label: 光网络与光互连
+  areas:
+    - optical
+    - network
+  aliases:
+    - optical networks interconnect
+    - optical_networking
+- id: optical-wireless
+  label: 无线光与可见光通信
+  areas:
+    - optical
+    - wireless
+  aliases:
+    - FSO VLC LiFi 水下光通信
+    - fso_vlc
+- id: photonics
+  label: 光子器件与集成光学
+  areas:
+    - optical
+  aliases:
+    - photonics laser integrated optics 激光
+    - photonic_devices
+- id: antennas
+  label: 天线、超表面与电磁计算
+  areas:
+    - rf
+  aliases:
+    - antenna metasurface computational electromagnetics
+    - antenna_design
+    - electromagnetics
+- id: microwave
+  label: 射频、微波与电路
+  areas:
+    - rf
+    - wireless
+  aliases:
+    - RF microwave circuits 集成电路
+    - rf_microwave
+- id: thz
+  label: 毫米波与太赫兹
+  areas:
+    - rf
+    - wireless
+    - optical
+  aliases:
+    - THz terahertz mmWave
+    - mmwave_thz_comm
+- id: satellite-ntn
+  label: 卫星通信与非地面网络
+  areas:
+    - space
+    - wireless
+    - network
+  aliases:
+    - satellite NTN LEO UAV 低轨 空天地 无人机
+    - sagin_ntn
+- id: navigation-pnt
+  label: 定位、导航与授时
+  areas:
+    - space
+    - signal
+    - wireless
+  aliases:
+    - PNT GNSS GPS positioning navigation timing
+    - gnss_navigation
+- id: aerospace
+  label: 航空航天电子与系统
+  areas:
+    - space
+    - rf
+  aliases:
+    - aerospace avionics
+- id: iot-sensing
+  label: 传感器与物联网
+  areas:
+    - iot
+    - network
+    - signal
+  aliases:
+    - IoT sensors sensing 传感网
+    - wsn_iot_protocols
+    - wireless_sensing
+- id: vehicular
+  label: 车联网与移动载体
+  areas:
+    - iot
+    - wireless
+  aliases:
+    - V2X vehicular connected vehicles
+    - v2x_connected_vehicles
+- id: industrial
+  label: 工业通信与控制网络
+  areas:
+    - iot
+    - network
+  aliases:
+    - IIoT industrial control networks
+    - industrial_iot
+- id: ai-communications
+  label: 机器学习与智能通信
+  areas:
+    - ai
+    - wireless
+    - network
+  aliases:
+    - AI ML machine learning deep learning
+    - ai_phy_mac
+    - cognitive_green
+- id: distributed-learning
+  label: 分布式学习与协同推理
+  areas:
+    - ai
+    - network
+    - iot
+  aliases:
+    - federated distributed learning FL 联邦学习
+    - federated_edge_ai
+- id: semantic-task
+  label: 语义与任务导向通信
+  areas:
+    - ai
+    - theory
+    - wireless
+  aliases:
+    - semantic task oriented communication
+    - semantic_comm
+- id: ris
+  label: 智能超表面与可重构传播
+  areas:
+    - wireless
+    - rf
+  aliases:
+    - RIS
+    - HMS
+    - ris_metasurface
+- id: full-duplex
+  label: 全双工与自干扰消除
+  areas:
+    - wireless
+    - signal
+  aliases:
+    - full_duplex
+    - self interference cancellation
+- id: sparse
+  label: 稀疏处理与压缩感知
+  areas:
+    - signal
+    - theory
+  aliases:
+    - compressed_sensing
+    - sparse recovery
+- id: phy-security
+  label: 物理层安全与隐蔽通信
+  areas:
+    - theory
+    - wireless
+  aliases:
+    - phy_security
+    - covert communication
+- id: cryptography
+  label: 密码学与信息安全理论
+  areas:
+    - theory
+    - network
+  aliases:
+    - cryptography
+    - cryptology
+- id: emc
+  label: 电磁兼容与信号完整性
+  areas:
+    - rf
+  aliases:
+    - emc_sipi
+    - EMC
+    - SIPI
+- id: uav
+  label: 无人机通信与低空网络
+  areas:
+    - space
+    - iot
+    - wireless
+  aliases:
+    - uav_comm
+    - UAV
+- id: remote-sensing
+  label: 星载遥感与合成孔径成像
+  areas:
+    - space
+    - signal
+  aliases:
+    - remote_sensing
+    - SAR
+- id: backscatter
+  label: 反向散射与无线能量传输
+  areas:
+    - iot
+    - wireless
+    - rf
+  aliases:
+    - backscatter_eh
+    - SWIPT
+    - energy harvesting

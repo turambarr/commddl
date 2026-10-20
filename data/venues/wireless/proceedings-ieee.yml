@@ -1,0 +1,146 @@
+# Proc. IEEE
+# 提交修改请发起 Pull Request（合并请求）；构建产物自动生成。
+id: proceedings-ieee
+kind: journal
+short: Proc. IEEE
+nameEn: Proceedings of the IEEE
+nameZh: IEEE会刊
+url: https://proceedingsoftheieee.ieee.org/
+sourceUrl: https://proceedingsoftheieee.ieee.org/
+sourceType: publisher
+verification: verified
+verifiedAt: 2026-10-18
+catalogStatus: current
+areas:
+  - wireless
+  - signal
+  - rf
+topics:
+  - isac
+  - ai-communications
+  - information-theory
+topicReviewedAt: 2026-10-18
+aliases: []
+publicationType: 综述期刊
+articleTypes:
+  - 综述
+  - 教程
+submissionMode: 作者指南
+summary: ""
+assessments: []
+evaluations:
+  - system: cas
+    year: 2025
+    edition: 2025升级版
+    snapshotDate: 2026-09-28
+    sourceUrl: https://cce.ncepu.edu.cn/xzzx/yjsjx1/7632005045644e61a0d12c7bbeff6204.htm
+    sourceFileUrl: https://cce.ncepu.edu.cn/docs//2026-09/0e77800bf2744596a26e43c83acceed0.xlsx
+    sourceTitle: 华北电力大学公开的中科院2025升级版转录
+    sourceType: secondary
+    sourceAuthority: university
+    verifiedAt: 2026-10-18
+    reviewedAt: 2026-10-18
+    sheet: 期刊汇总
+    status: reported
+    value: "1"
+    category: 计算机科学
+    top: true
+    appliesToName: PROCEEDINGS OF THE IEEE
+    issn: 0018-9219
+    row: 1448
+    minorCategories:
+      - category: ENGINEERING, ELECTRICAL & ELECTRONIC 工程：电子与电气
+        quartile: 1
+    note: 高校公开的2025升级版转录，2026-09-28导出，原数据来自期刊分区表平台。按完整刊名或旧名唯一对应，保存大类与全部小类分区。
+  - system: ccf
+    year: 2015
+    edition: CCF2015
+    sourceUrl: https://lib.ecnu.edu.cn/_upload/article/files/e2/d9/dd45764345088869915f6b3617a4/5b8fc1d6-d5bb-487d-a1db-42825ebc312a.pdf
+    sourceType: document-copy
+    sourceTitle: CCF2015 完整目录公开副本
+    verifiedAt: 2026-10-19
+    reviewedAt: 2026-10-19
+    status: reported
+    value: A
+    appliesToName: Proceedings of the IEEE
+    category: 交叉/综合/新兴
+    page: 68
+    note: 按完整英文名称核对 CCF2015 目录 PDF 第 68 页。该等级属于 2015 年版本；保存公开副本来源属性。
+  - system: ccf
+    year: 2019
+    edition: CCF2019
+    sourceUrl: https://lib.ecnu.edu.cn/_upload/article/files/e2/d9/dd45764345088869915f6b3617a4/bc806894-08bb-40d3-addb-b58a5d9e5fd1.pdf
+    sourceType: document-copy
+    sourceTitle: CCF2019 完整目录公开副本
+    verifiedAt: 2026-10-19
+    reviewedAt: 2026-10-19
+    status: reported
+    value: A
+    appliesToName: Proceedings of the IEEE
+    category: 交叉/综合/新兴
+    page: 68
+    note: 按完整英文名称核对 CCF2019 目录 PDF 第 68 页。该等级属于 2019 年版本；保存公开副本来源属性。
+  - system: ccf
+    year: 2022
+    edition: CCF2022
+    sourceUrl: https://lib.ecnu.edu.cn/_upload/article/files/e2/d9/dd45764345088869915f6b3617a4/e98393b5-2703-45f2-8562-6622bbdcf8c1.pdf
+    sourceType: document-copy
+    sourceTitle: CCF2022 完整目录公开副本
+    verifiedAt: 2026-10-19
+    reviewedAt: 2026-10-19
+    status: reported
+    value: A
+    appliesToName: Proceedings of the IEEE
+    category: 交叉/综合/新兴
+    page: 68
+    note: 按完整英文名称核对 CCF2022 目录 PDF 第 68 页。该等级属于 2022 年版本；保存公开副本来源属性。
+  - system: ccf
+    year: 2026
+    edition: CCF2026
+    sourceUrl: https://scdm-shu.github.io/ccf/2026-CCF-Ranking.pdf
+    sourceType: document-copy
+    sourceTitle: CCF2026 完整目录公开副本
+    verifiedAt: 2026-10-19
+    reviewedAt: 2026-10-19
+    status: reported
+    value: A
+    appliesToName: ProceedingsoftheIEEE
+    category: 交叉/综合/新兴
+    page: 67
+    note: 按完整英文名称核对 CCF2026 目录 PDF 第 67 页。该等级属于 2026 年版本；保存公开副本来源属性。
+  - sourceUrl: https://open.ieee.org/wp-content/uploads/IEEE-Title-List-September-2026.pdf
+    sourceTitle: IEEE2026年9月期刊表
+    sourceType: publisher
+    verifiedAt: 2026-10-19
+    issn: 0018-9219
+    eissn: 1558-2256
+    page: 3
+    status: verified
+    system: jcr
+    value: Q1
+    year: 2025
+    releaseYear: 2026
+    snapshotDate: 2026-09-15
+    category: IEEE出版社汇总口径；原表未逐学科列出
+    appliesToName: Proceedings of the IEEE
+    note: 2025 JCR数据、2026年发布；读取出版社的JIF分区，原表未展开逐学科分区。
+indexing:
+  sourceUrl: https://open.ieee.org/wp-content/uploads/IEEE-Title-List-September-2026.pdf
+  sourceTitle: IEEE2026年9月期刊表
+  sourceType: publisher
+  verifiedAt: 2026-10-19
+  issn: 0018-9219
+  eissn: 1558-2256
+  page: 3
+  status: verified
+  value: SCIE
+  year: 2026
+  snapshotDate: 2026-09-15
+  note: 出版社索引列的明确记录，忽略N/A占位符后以有效ISSN或正式全称唯一对应。
+catalogScope: communications
+scopeReviewedAt: 2026-10-18
+scopeNote: 通信及相关交叉领域
+primaryArea: wireless
+secondaryAreas:
+  - signal
+  - rf

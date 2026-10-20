@@ -1,0 +1,71 @@
+# JC&S 2027 · 主会论文
+# 提交修改请发起 Pull Request（合并请求）；构建产物自动生成。
+id: jcns-2027-main
+venueId: jcns
+title: JC&S 2027 · 主会论文
+titleEn: IEEE International Symposium on Joint Communications & Sensing 2027 main
+year: 2027
+kind: conference
+areas:
+  - signal
+  - wireless
+  - rf
+topics:
+  - isac
+  - radar
+  - mimo
+tags: []
+summary: 通信与感知联合设计。
+url: https://jcns-symposium.org/
+sourceUrl: https://jcns-symposium.org/
+sourceType: official
+nodes:
+  - id: paper
+    label: 全文提交
+    type: paper
+    primary: true
+    precision: date
+    date: 2026-10-26
+    instant: null
+    timezone: null
+    original: "Technical Paper Submission: October 26, 2026 (Deadline extended)"
+    revision: 1
+    sourceUrl: https://jcns-symposium.org/
+  - id: decision
+    label: 录用通知
+    type: decision
+    primary: false
+    precision: date
+    date: 2026-11-23
+    instant: null
+    timezone: null
+    original: "Acceptance Notification (Technical & Demo Papers): November 23, 2026"
+    revision: 0
+    sourceUrl: https://jcns-symposium.org/
+  - id: final
+    label: 终稿提交
+    type: final
+    primary: false
+    precision: date
+    date: 2026-12-21
+    instant: null
+    timezone: null
+    original: "Final Camera-Ready Paper: December 21, 2026"
+    revision: 0
+    sourceUrl: https://jcns-symposium.org/
+verification: verified
+verifiedAt: 2026-10-18
+checkedAt: 2026-10-18
+updatedAt: 2026-10-18T04:00:00Z
+status: announced
+notes: 官网总日程1月25–29日含冬季学校；VDE官方活动正文明确主会1月27–29日。采用官网明确延期后的10月26日；不使用旧PDF原截止。官网未明确截止钟点或时区。
+location: 德国·慕尼黑附近奥托布伦/陶夫基兴Airbus园区
+eventStart: 2027-01-27
+eventEnd: 2027-01-29
+eventDates: 2027-01-27 / 2027-01-29
+publication: null
+history:
+  - date: 2026-10-18
+    note: 技术论文原10月11日在官网明确划线延期至10月26日；旧版PDF保留原日期。
+eventSourceUrl: https://www.vde.com/en/events/event-detailpage?id=24530&type=vde%7Cvdb
+cfpUrl: https://jcns-symposium.org/Call_for_Papers_and_Demos_JCnS2027_21072026.pdf

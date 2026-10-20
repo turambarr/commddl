@@ -1,0 +1,66 @@
+# ICTON
+# 提交修改请发起 Pull Request（合并请求）；构建产物自动生成。
+kind: conference
+short: ICTON
+nameEn: International Conference on Transparent Optical Networks
+nameZh: 透明光网络国际会议
+areas:
+  - optical
+  - network
+topics:
+  - optical-networks
+  - fiber
+url: https://www.gov.pl/web/instytut-lacznosci/icton-2026
+sourceUrl: https://www.gov.pl/web/instytut-lacznosci/icton-2026
+sourceType: official
+id: icton
+aliases:
+  - ICTON
+catalogStatus: current
+verifiedAt: 2026-10-18
+verification: verified
+checkedAt: 2026-10-18
+summary: 主办方波兰国家电信研究所政府页，2026年7月12至16日。
+publicationType: 会议系列
+articleTypes:
+  - 研究论文
+submissionMode: 查看具体届次
+assessments: []
+catalogScope: communications
+topicReviewedAt: 2026-10-18
+scopeReviewedAt: 2026-10-18
+scopeNote: 通信及相关交叉领域
+evaluations:
+  - system: ccf
+    year: 2026
+    edition: 第七版公开副本
+    status: unlisted
+    value: null
+    sourceUrl: https://scdm-shu.github.io/ccf/2026-CCF-Ranking.pdf
+    sourceType: document-copy
+    verifiedAt: 2026-10-18
+    sourceTitle: CCF2026完整目录公开副本
+    note: 按正式全称、历史名称及简称对照完整386个CCF会议条目，未列该系列。
+    reviewedNames:
+      - ICTON
+      - International Conference on Transparent Optical Networks
+    reviewedAt: 2026-10-18
+  - system: core
+    year: 2026
+    edition: ICORE2026
+    status: unlisted
+    value: null
+    sourceUrl: https://portal.core.edu.au/conf-ranks/?search=&by=all&source=ICORE2026&sort=atitle
+    sourceType: official
+    verifiedAt: 2026-10-18
+    sourceTitle: ICORE2026官方完整库
+    note: 按正式全称、历史名称及简称对照完整20页987个ICORE记录，未列该系列。
+    reviewedNames:
+      - ICTON
+      - International Conference on Transparent Optical Networks
+    reviewedAt: 2026-10-18
+ratingReviewedAt: 2026-10-18
+deadlineReviewedAt: 2026-10-18
+primaryArea: optical
+secondaryAreas:
+  - network

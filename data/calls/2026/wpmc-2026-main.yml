@@ -1,0 +1,82 @@
+# WPMC 2026 · 主会论文
+# 提交修改请发起 Pull Request（合并请求）；构建产物自动生成。
+id: wpmc-2026-main
+venueId: wpmc
+title: WPMC 2026 · 主会论文
+titleEn: International Symposium on Wireless Personal Multimedia Communications 2026
+year: 2026
+kind: conference
+areas:
+  - wireless
+  - network
+  - iot
+  - ai
+topics:
+  - physical
+  - mimo
+  - resources
+  - isac
+  - satellite-ntn
+  - ai-communications
+  - iot-sensing
+  - quantum
+tags: []
+summary: 无线个人通信、多媒体网络、6G 和绿色连接。
+sourceUrl: https://wpmc.imd.ufrn.br/
+url: https://wpmc.imd.ufrn.br/
+sourceType: official
+nodes:
+  - id: paper
+    label: 全文提交
+    type: paper
+    primary: true
+    precision: date
+    date: 2026-09-02
+    instant: null
+    timezone: null
+    original: "Full Paper Submission: SEPTEMBER 02 [firm], 2026"
+    revision: 0
+    sourceUrl: https://wpmc.imd.ufrn.br/
+    notes: 首页该日期已加删除线，表示已结束；日期区标题明确 UTC-4，但没有钟点。
+    updatedAt: 2026-10-19T00:00:00Z
+    sourceTimezone: UTC-4
+  - id: decision
+    label: 录用通知
+    type: decision
+    primary: false
+    precision: date
+    date: 2026-09-20
+    instant: null
+    timezone: null
+    original: "Paper Acceptance Notification: SEPTEMBER 20, 2026"
+    revision: 0
+    sourceUrl: https://wpmc.imd.ufrn.br/
+    notes: ""
+    updatedAt: 2026-10-19T00:00:00Z
+    sourceTimezone: UTC-4
+  - id: final
+    label: 终稿提交
+    type: final
+    primary: false
+    precision: date
+    date: 2026-10-01
+    instant: null
+    timezone: null
+    original: "Camera-Ready Paper Submission: OCTOBER 1, 2026"
+    revision: 0
+    sourceUrl: https://wpmc.imd.ufrn.br/
+    notes: ""
+    updatedAt: 2026-10-19T00:00:00Z
+    sourceTimezone: UTC-4
+verification: verified
+verifiedAt: 2026-10-19
+checkedAt: 2026-10-19
+updatedAt: 2026-10-19T00:00:00Z
+status: announced
+notes: 2026 第 29 届，官网当前举办地为 Natal（纳塔尔），不沿用 2024 年筹备纪要的 São Paulo（圣保罗）计划。主会投稿及终稿已截止。首页日期区注明 UTC-4 但未给钟点，所以不生成精确倒计时。官网承诺符合要求的论文拟提交 IEEE Xplore；未将出版计划当作 Ei/Scopus 已检索证明。
+location: 巴西·纳塔尔
+eventStart: 2026-11-08
+eventEnd: 2026-11-11
+eventDates: 2026-11-08 / 2026-11-11
+publication: null
+history: []

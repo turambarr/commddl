@@ -1,0 +1,45 @@
+# OFC 2027 · 晚稿论文
+# 提交修改请发起 Pull Request（合并请求）；构建产物自动生成。
+id: ofc-2027-postdeadline
+venueId: ofc
+title: OFC 2027 · 晚稿论文
+titleEn: Optical Fiber Communication Conference and Exposition
+year: 2027
+kind: conference
+areas:
+  - optical
+  - network
+topics:
+  - fiber
+  - optical-networks
+  - photonics
+tags: []
+summary: ""
+url: https://www.ofcconference.org/submit-a-paper/author-timeline/
+sourceUrl: https://www.ofcconference.org/submit-a-paper/author-timeline/
+sourceType: official
+nodes:
+  - id: paper
+    label: 晚稿提交
+    type: paper
+    primary: true
+    precision: date
+    date: 2027-02-23
+    instant: null
+    timezone: null
+    original: 2027-02-23
+    revision: 0
+verification: verified
+verifiedAt: 2026-10-18
+checkedAt: 2026-10-18
+updatedAt: 2026-10-18T04:00:00Z
+status: announced
+notes: 官方作者时间表公布晚稿日期2月23日，未明确钟点与时区；不沿用常规论文的EDT中午。
+location: 美国·洛杉矶
+eventStart: 2027-03-07
+eventEnd: 2027-03-11
+eventDates: 2027-03-07 / 2027-03-11
+publication: null
+history: []
+track: postdeadline
+parentCallId: ofc-2027-main

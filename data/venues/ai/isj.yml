@@ -1,0 +1,116 @@
+# Inf. Syst. J.
+# 提交修改请发起 Pull Request（合并请求）；构建产物自动生成。
+id: isj
+kind: journal
+short: Inf. Syst. J.
+nameEn: Information Systems Journal
+nameZh: 信息系统期刊
+aliases: []
+issn: 1350-1917
+eissn: 1365-2575
+primaryArea: ai
+secondaryAreas: []
+areas:
+  - ai
+topics:
+  - ai-communications
+url: https://portal.issn.org/resource/ISSN/1350-1917
+urlKind: registry
+sourceUrl: https://api.crossref.org/journals/1350-1917
+sourceType: registry
+verification: verified
+verifiedAt: 2026-10-19
+identitySourceYear: 2026
+catalogStatus: needs-review
+catalogScope: communications
+publicationType: 研究型期刊
+articleTypes:
+  - 研究论文
+assessments: []
+evaluations:
+  - system: jcr
+    year: 2024
+    releaseYear: 2025
+    snapshotDate: 2025-06
+    sourceUrl: https://uefiscdi.gov.ro/resource-865584-JCR_2024.iunie2025.pdf
+    sourceTitle: 2024 JCR政府公开转录（2025年6月）
+    sourceType: secondary
+    sourceAuthority: government
+    verifiedAt: 2026-10-19
+    reviewedAt: 2026-10-19
+    status: reported
+    value: Q1
+    category: INFORMATION SCIENCE & LIBRARY SCIENCE
+    categories:
+      - category: INFORMATION SCIENCE & LIBRARY SCIENCE
+        value: Q1
+        page: 376
+    page: 376
+    issn: 1350-1917
+    eissn: 1365-2575
+    appliesToName: INFORMATION SYSTEMS JOURNAL
+    note: 对照完整2024 JCR政府转录，默认电信学优先，保留全部学科；不取最好分区，不冒充最新原库。
+  - system: cas
+    year: 2025
+    edition: 2025升级版
+    snapshotDate: 2026-09-28
+    sourceUrl: https://cce.ncepu.edu.cn/xzzx/yjsjx1/7632005045644e61a0d12c7bbeff6204.htm
+    sourceFileUrl: https://cce.ncepu.edu.cn/docs//2026-09/0e77800bf2744596a26e43c83acceed0.xlsx
+    sourceTitle: 华北电力大学公开的中科院2025升级版转录
+    sourceType: secondary
+    sourceAuthority: university
+    verifiedAt: 2026-10-19
+    reviewedAt: 2026-10-19
+    sheet: 期刊汇总
+    status: reported
+    value: "2"
+    category: 管理学
+    top: false
+    appliesToName: INFORMATION SYSTEMS JOURNAL
+    issn: 1350-1917
+    row: 3958
+    minorCategories:
+      - category: INFORMATION SCIENCE & LIBRARY SCIENCE 图书情报与档案管理
+        quartile: 2
+    note: 按ISSN或正式全名对照高校公开的2025升级版完整转录；保留大类及全部小类，不冒充原库或2026数据。
+  - system: ccf
+    year: 2026
+    edition: 第七版公开副本
+    sourceUrl: https://scdm-shu.github.io/ccf/2026-CCF-Ranking.pdf
+    sourceTitle: CCF2026国际会议期刊目录公开副本
+    sourceType: document-copy
+    verifiedAt: 2026-10-19
+    reviewedAt: 2026-10-19
+    reviewedNames:
+      - Information Systems Journal
+      - 信息系统期刊
+    status: unlisted
+    value: null
+    note: 按正式全名与已核实别名对照CCF2026公开副本完整目录未列；不等于低等级，不含另行发布的中文期刊推荐目录。
+  - system: cie
+    year: 2023
+    edition: 2023电子技术、通信技术领域高质量科技期刊分级目录
+    value: T2
+    status: verified
+    sourceUrl: https://www.cie.org.cn/list_42/11930.html
+    sourceTitle: 中国电子学会2023电子技术、通信技术期刊分级目录
+    sourceType: official
+    verifiedAt: 2026-10-19
+    reviewedAt: 2026-10-19
+    issn: 1350-1917
+    row: 117
+    appliesToName: Information Systems Journal
+    note: 按正式ISSN或完整刊名对应官方232刊表，记录原始T分级及年份。
+otherIndexes: []
+submissionStatus: unresolved
+identityNote: 身份按注册机构、出版方或已注明版本的正式目录核对，作者入口另行维护。
+candidateSource: user-master-catalog
+indexing:
+  value: null
+  status: unresolved
+  verifiedAt: 2026-10-19
+  reviewedAt: 2026-10-19
+  note: WoS索引待对应独立索引列核对。
+topicReviewedAt: 2026-10-19
+scopeReviewedAt: 2026-10-19
+ratingReviewedAt: 2026-10-19

@@ -1,0 +1,76 @@
+# ICCC 2026 · 主会论文
+# 提交修改请发起 Pull Request（合并请求）；构建产物自动生成。
+id: iccc-2026-main
+venueId: iccc
+title: ICCC 2026 · 主会论文
+titleEn: IEEE/CIC International Conference on Communications in China 2026 main
+year: 2026
+kind: conference
+areas:
+  - wireless
+  - network
+  - signal
+topics:
+  - physical
+  - mimo
+  - protocols
+  - ai-communications
+  - isac
+  - satellite-ntn
+  - channel-coding
+tags: []
+summary: 通信理论、技术与系统。
+url: https://iccc2026.ieee-iccc.org/authors
+sourceUrl: https://iccc2026.ieee-iccc.org/authors
+sourceType: official
+nodes:
+  - id: paper
+    label: 全文提交
+    type: paper
+    primary: true
+    precision: date
+    date: 2026-05-15
+    instant: null
+    timezone: null
+    original: "Full Paper Submission: 15 May 2026"
+    revision: 0
+    sourceUrl: https://iccc2026.ieee-iccc.org/authors
+  - id: decision
+    label: 录用通知
+    type: decision
+    primary: false
+    precision: date
+    date: 2026-06-30
+    instant: null
+    timezone: null
+    original: "Notification of Acceptance: 2026-06-30"
+    revision: 0
+    sourceUrl: https://iccc2026.ieee-iccc.org/authors
+  - id: final
+    label: 终稿提交
+    type: final
+    primary: false
+    precision: date
+    date: 2026-07-10
+    instant: null
+    timezone: null
+    original: "Camera-Ready / Final Manuscript: 2026-07-10"
+    revision: 0
+    sourceUrl: https://iccc2026.ieee-iccc.org/authors
+verification: verified
+verifiedAt: 2026-10-18
+checkedAt: 2026-10-18
+updatedAt: 2026-10-18T04:00:00Z
+status: announced
+notes: CFP旧正文仍写March 23th, 2026；同页Important Dates及独立Authors页一致为15 May 2026，采用日期表并保留旧正文差异。未公布钟点/时区。
+location: 中国·武汉
+eventStart: 2026-08-07
+eventEnd: 2026-08-09
+eventDates: 2026-08-07 / 2026-08-09
+publication: null
+history: []
+eventSourceUrl: https://iccc2026.ieee-iccc.org
+evidenceIssues:
+  - type: stale-text
+    sourceUrl: https://iccc2026.ieee-iccc.org/authors/call-papers
+    note: 旧正文3月23日与当前日期表5月15日不一致；独立authors页支持5月15日。

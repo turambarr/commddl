@@ -1,0 +1,61 @@
+# ISNCC 2026
+# 提交修改请发起 Pull Request（合并请求）；构建产物自动生成。
+id: isncc-2026
+venueId: isncc
+year: 2026
+title: ISNCC 2026
+titleEn: International Symposium on Networks, Computers and Communications 2026
+kind: conference
+areas:
+  - network
+  - wireless
+  - space
+topics:
+  - protocols
+  - satellite-ntn
+  - iot-sensing
+tags: []
+summary: 通信网络、卫星与深空通信、物联网。
+sourceUrl: https://www.isncc-conf.org/
+url: https://www.isncc-conf.org/
+nodes:
+  - id: paper
+    label: 全文提交
+    type: paper
+    primary: true
+    precision: date
+    date: 2026-06-07
+    instant: null
+    timezone: null
+    original: 2026-06-07
+    revision: 0
+  - id: decision
+    label: 录用通知
+    type: decision
+    primary: false
+    precision: date
+    date: 2026-07-19
+    instant: null
+    timezone: null
+    original: 2026-07-19
+    revision: 0
+  - id: final
+    label: 终稿提交
+    type: final
+    primary: false
+    precision: date
+    date: 2026-08-14
+    instant: null
+    timezone: null
+    original: 2026-08-14
+    revision: 0
+verification: verified
+verifiedAt: 2026-10-18
+updatedAt: 2026-10-18T08:00:00Z
+status: announced
+notes: 主会全文已截止，采用官网最新最终延期6月7日；工业论坛摘要或博士论坛非主会全文，不混入本条。
+location: 布里斯托尔，英国
+eventDates: 2026-09-08 / 2026-09-10
+publication: null
+history: []
+sourceType: official

@@ -1,0 +1,10 @@
+version: 0.9.0
+updatedAt: 2026-10-20
+siteName: CommDDL
+repository: https://github.com/turambarr/commddl
+description: 通信投稿截止日历：按主题查看真实届次、投稿截止、剩余时间与会议日程。
+policySource: https://xxgk.bupt.edu.cn/__local/F/65/92/3A361334F005A224CD3C6C215B7_43DF8061_C1241.pdf?e=.pdf
+sourceNote: 载体身份来自学会官方目录；征稿时间来自对应官方页面。部分官网无法读取，明确标注待核验。
+homepage: https://turambarr.github.io/commddl/
+classificationNote: 按通信研究主题整理；分类与评级独立，具体活动使用自身主题。
+ccfddlReference: https://github.com/ccfddl/ccf-deadlines/tree/0390a29918d6a4e5ae50aac2f532535d253cf563

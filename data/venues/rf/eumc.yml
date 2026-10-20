@@ -1,0 +1,66 @@
+# EuMC
+# 提交修改请发起 Pull Request（合并请求）；构建产物自动生成。
+kind: conference
+short: EuMC
+nameEn: European Microwave Conference
+nameZh: 欧洲微波会议
+areas:
+  - rf
+  - wireless
+topics:
+  - microwave
+  - antennas
+url: https://www.eumw.eu/
+sourceUrl: https://www.eumwa.org/en/publications/proceedings.html
+sourceType: official
+id: eumc
+aliases:
+  - EuMC
+catalogStatus: current
+verifiedAt: 2026-10-18
+verification: verified
+checkedAt: 2026-10-18
+summary: EuMA官方确认EuMC为三姐妹会议之一、有独立论文集。
+publicationType: 会议系列
+articleTypes:
+  - 研究论文
+submissionMode: 查看具体届次
+assessments: []
+catalogScope: communications
+topicReviewedAt: 2026-10-18
+scopeReviewedAt: 2026-10-18
+scopeNote: 通信及相关交叉领域
+evaluations:
+  - system: ccf
+    year: 2026
+    edition: 第七版公开副本
+    status: unlisted
+    value: null
+    sourceUrl: https://scdm-shu.github.io/ccf/2026-CCF-Ranking.pdf
+    sourceType: document-copy
+    verifiedAt: 2026-10-18
+    sourceTitle: CCF2026完整目录公开副本
+    note: 按正式全称、历史名称及简称对照完整386个CCF会议条目，未列该系列。
+    reviewedNames:
+      - EuMC
+      - European Microwave Conference
+    reviewedAt: 2026-10-18
+  - system: core
+    year: 2026
+    edition: ICORE2026
+    status: unlisted
+    value: null
+    sourceUrl: https://portal.core.edu.au/conf-ranks/?search=&by=all&source=ICORE2026&sort=atitle
+    sourceType: official
+    verifiedAt: 2026-10-18
+    sourceTitle: ICORE2026官方完整库
+    note: 按正式全称、历史名称及简称对照完整20页987个ICORE记录，未列该系列。
+    reviewedNames:
+      - EuMC
+      - European Microwave Conference
+    reviewedAt: 2026-10-18
+ratingReviewedAt: 2026-10-18
+deadlineReviewedAt: 2026-10-18
+primaryArea: rf
+secondaryAreas:
+  - wireless

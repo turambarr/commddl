@@ -1,0 +1,62 @@
+# QCE
+# 提交修改请发起 Pull Request（合并请求）；构建产物自动生成。
+id: qce
+kind: conference
+short: QCE
+nameZh: IEEE 量子计算与工程国际会议
+nameEn: IEEE International Conference on Quantum Computing and Engineering
+aliases: []
+topics:
+  - quantum
+areas:
+  - theory
+  - optical
+topicReviewedAt: 2026-10-18
+url: https://qce.quantum.ieee.org/
+sourceUrl: https://www.comsoc.org/conferences-events/portfolio-conferences-events
+verifiedAt: 2026-10-18
+verification: verified
+catalogStatus: current
+summary: 覆盖量子通信与量子信息相关研究。
+publicationType: 学术会议系列
+articleTypes:
+  - 会议论文
+submissionMode: 按具体届次征稿
+assessments: []
+evaluations:
+  - system: ccf
+    year: 2026
+    edition: 第七版公开副本
+    sourceUrl: https://scdm-shu.github.io/ccf/2026-CCF-Ranking.pdf
+    sourceType: document-copy
+    sourceTitle: CCF 2026 完整目录公开副本
+    verifiedAt: 2026-10-18
+    reviewedNames:
+      - IEEE International Conference on Quantum Computing and Engineering
+      - QCE
+    note: 按正式系列核对CCF2026公开副本全部386个会议条目，未列入该版。
+    status: unlisted
+    value: null
+    reviewedAt: 2026-10-18
+  - system: core
+    year: 2026
+    edition: ICORE2026
+    sourceUrl: https://portal.core.edu.au/conf-ranks/?search=&by=all&source=ICORE2026&sort=atitle&page=7
+    sourceType: official
+    sourceTitle: ICORE2026 官方完整会议库
+    verifiedAt: 2026-10-18
+    reviewedNames:
+      - IEEE International Conference on Quantum Computing and Engineering
+      - QCE
+    note: 已按正式全称及系列简称复查 ICORE2026 官方完整库。
+    status: non-ranked
+    value: National/Regional
+    appliesToName: IEEE International Conference on Quantum Computing and Engineering
+    reviewedAt: 2026-10-18
+catalogScope: communications
+scopeReviewedAt: 2026-10-18
+scopeNote: 信息论与编码研究载体；光通信/光网络及器件交叉研究载体
+ratingReviewedAt: 2026-10-18
+primaryArea: theory
+secondaryAreas:
+  - optical

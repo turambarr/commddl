@@ -1,0 +1,74 @@
+# ICMLCN 2026 · 主会论文
+# 提交修改请发起 Pull Request（合并请求）；构建产物自动生成。
+id: icmlcn-2026-main
+venueId: icmlcn
+title: ICMLCN 2026 · 主会论文
+titleEn: IEEE International Conference on Machine Learning for Communication and Networking 2026 main
+year: 2026
+kind: conference
+areas:
+  - ai
+  - wireless
+  - network
+topics:
+  - ai-communications
+  - distributed-learning
+tags: []
+summary: 面向通信系统与网络的机器学习。
+url: https://icmlcn2026.ieee-icmlcn.org/call-papers
+sourceUrl: https://icmlcn2026.ieee-icmlcn.org/call-papers
+sourceType: official
+nodes:
+  - id: paper
+    label: 全文提交
+    type: paper
+    primary: true
+    precision: date
+    date: 2026-02-23
+    instant: null
+    timezone: null
+    original: "Paper Submission Deadline - Extended: 23 February 2026"
+    revision: 0
+    sourceUrl: https://icmlcn2026.ieee-icmlcn.org/call-papers
+  - id: decision
+    label: 录用通知
+    type: decision
+    primary: false
+    precision: unknown
+    date: null
+    instant: null
+    timezone: null
+    original: 官方CFP/Authors写28 February 2026；首页写9 February 2026，冲突未消解。
+    revision: 0
+    sourceUrl: https://icmlcn2026.ieee-icmlcn.org/call-papers
+  - id: final
+    label: 终稿提交
+    type: final
+    primary: false
+    precision: unknown
+    date: null
+    instant: null
+    timezone: null
+    original: 官方Authors写6 March 2026；首页写1 May 2026；final instructions仍写25 February 2026，冲突未消解。
+    revision: 0
+    sourceUrl: https://icmlcn2026.ieee-icmlcn.org/call-papers
+verification: verified
+verifiedAt: 2026-10-18
+checkedAt: 2026-10-18
+updatedAt: 2026-10-18T04:00:00Z
+status: announced
+notes: 官网首页明确会议已改期至2026年6月8–11日，并支持混合参会；CFP与Authors一致标记全文延期至2月23日。通知及终稿在不同官方页面冲突，保留未知节点与复查记录，不择一假定。
+location: 阿联酋·阿布扎比
+eventStart: 2026-06-08
+eventEnd: 2026-06-11
+eventDates: 2026-06-08 / 2026-06-11
+publication: null
+history: []
+eventSourceUrl: https://icmlcn2026.ieee-icmlcn.org/
+evidenceIssues:
+  - type: official-date-conflict
+    sourceUrls:
+      - https://icmlcn2026.ieee-icmlcn.org/
+      - https://icmlcn2026.ieee-icmlcn.org/authors
+      - https://icmlcn2026.ieee-icmlcn.org/ieee-icmlcn-2026-131/pages/instructions-final-manuscript-submissions
+    note: 决定与终稿冲突，详情见各unknown节点original。

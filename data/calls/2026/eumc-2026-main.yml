@@ -1,0 +1,69 @@
+# EUMC 2026 · 主会论文
+# 提交修改请发起 Pull Request（合并请求）；构建产物自动生成。
+id: eumc-2026-main
+venueId: eumc
+title: EUMC 2026 · 主会论文
+titleEn: European Microwave Conference
+year: 2026
+kind: conference
+areas:
+  - rf
+  - wireless
+topics:
+  - microwave
+  - antennas
+tags: []
+summary: ""
+url: https://www.eumw.eu/wp-content/uploads/2025/10/4997_eumw2026_call_for_papers-06.pdf
+sourceUrl: https://www.eumw.eu/wp-content/uploads/2025/10/4997_eumw2026_call_for_papers-06.pdf
+sourceType: official
+nodes:
+  - id: paper
+    label: 全文提交
+    type: paper
+    primary: true
+    precision: date
+    date: 2026-03-27
+    instant: null
+    timezone: null
+    original: 2026-03-27
+    revision: 0
+  - id: decision
+    label: 录用通知
+    type: decision
+    primary: false
+    precision: date
+    date: 2026-05-29
+    instant: null
+    timezone: null
+    original: 2026-05-29
+    revision: 0
+  - id: final
+    label: 终稿提交
+    type: final
+    primary: false
+    precision: date
+    date: 2026-07-01
+    instant: null
+    timezone: null
+    original: 2026-07-01
+    revision: 0
+verification: verified
+verifiedAt: 2026-10-18
+checkedAt: 2026-10-18
+updatedAt: 2026-10-18T04:00:00Z
+status: announced
+notes: 欧洲微波周内的独立会议。2026官方征稿公布三会共同投稿、通知与终稿节点，各会会期分别记录。2027微波周定于10月3—8日在米兰举行，各分会会期与投稿日期尚未确认。
+location: 英国·伦敦
+eventStart: 2026-10-06
+eventEnd: 2026-10-08
+eventDates: 2026-10-06 / 2026-10-08
+publication: null
+history: []
+nextUmbrellaEvent:
+  name: EuMW 2027
+  start: 2027-10-03
+  end: 2027-10-08
+  location: 意大利·米兰
+  sourceUrl: https://www.eumwa.org/en/30st-eumw2027.html?cmp_id=20&news_id=257&vID=50
+eventSourceUrl: https://www.eumw.eu/conferences/

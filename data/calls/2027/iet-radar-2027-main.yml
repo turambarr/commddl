@@ -1,0 +1,78 @@
+# IET Radar 2027 · 主会论文
+# 提交修改请发起 Pull Request（合并请求）；构建产物自动生成。
+id: iet-radar-2027-main
+venueId: iet-radar
+title: IET Radar 2027 · 主会论文
+titleEn: IET International Conference on Radar Systems 2027
+year: 2027
+kind: conference
+areas:
+  - signal
+  - rf
+  - space
+topics:
+  - radar
+  - arrays
+  - isac
+  - propagation
+  - imaging
+  - mimo
+  - thz
+  - navigation-pnt
+tags: []
+summary: 雷达系统、阵列处理、通感一体化及雷达成像。
+sourceUrl: https://radar.theiet.org/call-for-submissions/
+url: https://radar.theiet.org/
+sourceType: official
+nodes:
+  - id: paper
+    label: 全文提交
+    type: paper
+    primary: true
+    precision: date
+    date: 2027-02-22
+    instant: null
+    timezone: null
+    original: "Full paper submission deadline: 22 February 2027"
+    revision: 0
+    sourceUrl: https://radar.theiet.org/call-for-submissions/
+    notes: ""
+    updatedAt: 2026-10-19T00:00:00Z
+  - id: decision
+    label: 录用通知
+    type: decision
+    primary: false
+    precision: date
+    date: 2027-05-28
+    instant: null
+    timezone: null
+    original: "Notification of acceptance: 28 May 2027"
+    revision: 0
+    sourceUrl: https://radar.theiet.org/call-for-submissions/
+    notes: ""
+    updatedAt: 2026-10-19T00:00:00Z
+  - id: final
+    label: 终稿提交
+    type: final
+    primary: false
+    precision: date
+    date: 2027-09-01
+    instant: null
+    timezone: null
+    original: "Final paper submission deadline for accepted authors: 1 September 2027"
+    revision: 0
+    sourceUrl: https://radar.theiet.org/call-for-submissions/
+    notes: ""
+    updatedAt: 2026-10-19T00:00:00Z
+verification: verified
+verifiedAt: 2026-10-19
+checkedAt: 2026-10-19
+updatedAt: 2026-10-19T00:00:00Z
+status: announced
+notes: 2027 届征稿已开放；主会直接提交全文，不把 2026-11-27 的教程提案截止当作论文截止。官网只列日期，未给钟点/时区。出版计划为 IET Digital Library 和 IEEE Xplore，并拟提交 IET Inspec、Ei Compendex、Scopus，不表示当前已检索。该会议为 IET 英国 Radar 系列，与 IEEE RadarConf 独立。
+location: 英国·格拉斯哥
+eventStart: 2027-10-25
+eventEnd: 2027-10-28
+eventDates: 2027-10-25 / 2027-10-28
+publication: null
+history: []

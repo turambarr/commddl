@@ -1,0 +1,61 @@
+# ICOIN 2027
+# 提交修改请发起 Pull Request（合并请求）；构建产物自动生成。
+id: icoin-2027
+venueId: icoin
+year: 2027
+title: ICOIN 2027
+titleEn: International Conference on Information Networking 2027
+kind: conference
+areas:
+  - network
+  - wireless
+  - iot
+topics:
+  - protocols
+  - iot-sensing
+  - network-management
+tags: []
+summary: 计算机通信、信息网络、无线网络与物联网。
+sourceUrl: https://icoin.org/about_info
+url: https://icoin.org/about_info
+nodes:
+  - id: paper
+    label: 全文提交
+    type: paper
+    primary: true
+    precision: date
+    date: 2026-10-23
+    instant: null
+    timezone: null
+    original: 2026-10-23
+    revision: 0
+  - id: decision
+    label: 录用通知
+    type: decision
+    primary: false
+    precision: date
+    date: 2026-11-13
+    instant: null
+    timezone: null
+    original: 2026-11-13
+    revision: 0
+  - id: final
+    label: 终稿提交
+    type: final
+    primary: false
+    precision: date
+    date: 2026-12-04
+    instant: null
+    timezone: null
+    original: 2026-12-04
+    revision: 0
+verification: verified
+verifiedAt: 2026-10-18
+updatedAt: 2026-10-18T08:00:00Z
+status: announced
+notes: 官网最新firm（最终）全文截止10月23日；第三方10月2日已过时。官网正常公开HTML可读，网页检索器未提取正文，原始HTML已留档。
+location: 芽庄，越南
+eventDates: 2027-01-13 / 2027-01-15
+publication: null
+history: []
+sourceType: official

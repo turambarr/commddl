@@ -1,0 +1,78 @@
+# ICCCAS 2027 · 主会论文
+# 提交修改请发起 Pull Request（合并请求）；构建产物自动生成。
+id: icccas-2027-main
+venueId: icccas
+title: ICCCAS 2027 · 主会论文
+titleEn: International Conference on Communications, Circuits, and Systems 2027
+year: 2027
+kind: conference
+areas:
+  - wireless
+  - rf
+  - signal
+  - network
+topics:
+  - physical
+  - microwave
+  - thz
+  - satellite-ntn
+  - ai-communications
+  - semantic-task
+  - security
+tags: []
+summary: 通信技术、通信射频电路、信号处理与系统。
+sourceUrl: https://icccas.org/index.html
+url: https://icccas.org/index.html
+sourceType: official
+nodes:
+  - id: paper
+    label: 全文提交
+    type: paper
+    primary: true
+    precision: date
+    date: 2027-01-01
+    instant: null
+    timezone: null
+    original: "Submission Due: Jan. 1, 2027"
+    revision: 0
+    sourceUrl: https://icccas.org/index.html
+    notes: ""
+    updatedAt: 2026-10-19T00:00:00Z
+  - id: decision
+    label: 录用通知
+    type: decision
+    primary: false
+    precision: date
+    date: 2027-02-01
+    instant: null
+    timezone: null
+    original: "Notification Date: Feb. 1, 2027"
+    revision: 0
+    sourceUrl: https://icccas.org/index.html
+    notes: ""
+    updatedAt: 2026-10-19T00:00:00Z
+  - id: final
+    label: 终稿提交
+    type: final
+    primary: false
+    precision: unknown
+    date: null
+    instant: null
+    timezone: null
+    original: 当前主站及作者指南未列独立 camera-ready 截止日期。
+    revision: 0
+    sourceUrl: https://icccas.org/index.html
+    notes: 2027-02-25为注册截止，终稿日期未公布。
+    updatedAt: 2026-10-19T00:00:00Z
+verification: verified
+verifiedAt: 2026-10-19
+checkedAt: 2026-10-19
+updatedAt: 2026-10-19T00:00:00Z
+status: announced
+notes: 2027第16届征稿已开放，由电子科技大学主办。官网中英文截止、通知与会期一致；2月25日为注册截止，终稿未公布，注册页另列3月1日早鸟分界。中文页计划由IEEE Xplore收录并提交Ei/Scopus，英文页计划提交主要数据库，具体论文检索状态另查。推荐扩展期刊与会议论文分别记录。
+location: 中国·成都
+eventStart: 2027-05-21
+eventEnd: 2027-05-24
+eventDates: 2027-05-21 / 2027-05-24
+publication: null
+history: []

@@ -1,0 +1,72 @@
+# ICCCN 2026
+# 提交修改请发起 Pull Request（合并请求）；构建产物自动生成。
+id: icccn-2026
+venueId: icccn
+year: 2026
+title: ICCCN 2026
+titleEn: International Conference on Computer Communications and Networks 2026
+kind: conference
+areas:
+  - network
+  - wireless
+topics:
+  - protocols
+  - edge-cloud
+  - security
+tags: []
+summary: 计算机通信、无线网络、云边网络与网络安全。
+sourceUrl: https://easychair.org/cfp/icccn2026
+url: https://easychair.org/cfp/icccn2026
+nodes:
+  - id: abstract
+    label: 摘要／注册
+    type: abstract
+    primary: false
+    precision: instant
+    date: null
+    instant: 2026-03-07T23:59:00-10:00
+    timezone: Pacific/Honolulu
+    original: 2026-03-07 23:59 Hawaii
+    revision: 0
+  - id: paper
+    label: 全文提交
+    type: paper
+    primary: true
+    precision: instant
+    date: null
+    instant: 2026-03-13T23:59:00-10:00
+    timezone: Pacific/Honolulu
+    original: 2026-03-13 23:59 Hawaii
+    revision: 0
+    requires:
+      - abstract
+  - id: decision
+    label: 录用通知
+    type: decision
+    primary: false
+    precision: instant
+    date: null
+    instant: 2026-04-24T23:59:00-10:00
+    timezone: Pacific/Honolulu
+    original: 2026-04-24 23:59 Hawaii
+    revision: 0
+  - id: final
+    label: 终稿提交
+    type: final
+    primary: false
+    precision: date
+    date: 2026-05-11
+    instant: null
+    timezone: null
+    original: 2026-05-11
+    revision: 0
+verification: verified
+verifiedAt: 2026-10-18
+updatedAt: 2026-10-18T08:00:00Z
+status: announced
+notes: 主办方发布于会议实际投稿平台EasyChair的CFP；主官网TLS失败。摘要/全文及通知段明确11:59pm Honolulu；终稿段另列，未把上段钟点自动扩展到终稿。2027本次未核到官方日程。
+location: 檀香山，夏威夷，美国
+eventDates: 2026-07-27 / 2026-07-30
+publication: null
+history: []
+sourceType: official

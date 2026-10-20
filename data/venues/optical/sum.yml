@@ -1,0 +1,65 @@
+# SUM
+# 提交修改请发起 Pull Request（合并请求）；构建产物自动生成。
+id: sum
+kind: conference
+short: SUM
+nameZh: IEEE 光子学会夏季专题会议系列
+nameEn: IEEE Photonics Society Summer Topicals Meeting Series
+aliases:
+  - SUM
+areas:
+  - optical
+topics:
+  - photonics
+  - fiber
+  - optical-networks
+url: https://www.ieee-sum.org/
+summary: 光子器件、光通信及年度前沿专题。
+publicationType: 会议系列
+articleTypes:
+  - 研究论文
+submissionMode: 查看具体届次
+sourceUrl: https://ieeephotonics.org/conferences/
+sourceType: official
+verification: verified
+verifiedAt: 2026-10-19
+assessments: []
+evaluations:
+  - system: ccf
+    year: 2026
+    edition: 第七版公开副本
+    sourceUrl: https://scdm-shu.github.io/ccf/2026-CCF-Ranking.pdf
+    sourceTitle: CCF2026国际会议期刊目录公开副本
+    sourceType: document-copy
+    verifiedAt: 2026-10-19
+    reviewedAt: 2026-10-19
+    reviewedNames:
+      - IEEE Photonics Society Summer Topicals Meeting Series
+      - IEEE 光子学会夏季专题会议系列
+      - SUM
+    status: unlisted
+    value: null
+    note: 按正式全名与已核实别名对照CCF2026公开副本完整目录未列；不等于低等级，不含另行发布的中文期刊推荐目录。
+  - system: core
+    year: 2026
+    edition: ICORE2026
+    sourceUrl: https://portal.core.edu.au/conf-ranks/?search=&by=all&source=ICORE2026&sort=atitle
+    sourceTitle: ICORE2026官方完整987条会议库
+    sourceType: official
+    verifiedAt: 2026-10-19
+    reviewedAt: 2026-10-19
+    reviewedNames:
+      - IEEE Photonics Society Summer Topicals Meeting Series
+      - IEEE 光子学会夏季专题会议系列
+      - SUM
+    status: unlisted
+    value: null
+    note: 按正式全名与已核实别名对照ICORE2026官方987条完整库未列，不等于低等级；未按同简称的其他会议赋级。
+catalogScope: communications
+catalogStatus: current
+scopeReviewedAt: 2026-10-19
+topicReviewedAt: 2026-10-19
+deadlineReviewedAt: 2026-10-19
+ratingReviewedAt: 2026-10-19
+primaryArea: optical
+secondaryAreas: []

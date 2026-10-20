@@ -1,0 +1,133 @@
+# NSDI
+# 提交修改请发起 Pull Request（合并请求）；构建产物自动生成。
+id: nsdi
+kind: conference
+short: NSDI
+nameZh: USENIX 网络系统设计与实现研讨会
+nameEn: USENIX Symposium on Networked Systems Design and Implementation
+aliases: []
+areas:
+  - network
+  - ai
+topics:
+  - protocols
+  - edge-cloud
+  - network-management
+topicReviewedAt: 2026-10-18
+url: https://www.usenix.org/conference/nsdi27
+summary: 重点覆盖网络协议与体系结构、边缘计算与云网络、网络管理与虚拟化。
+publicationType: 学术会议系列
+articleTypes:
+  - 会议论文
+submissionMode: 按具体届次征稿
+sourceUrl: https://www.usenix.org/conference/nsdi27
+verifiedAt: 2026-10-18
+verification: verified
+assessments: []
+catalogStatus: current
+evaluations:
+  - system: ccf
+    year: 2026
+    edition: 第七版公开副本
+    sourceUrl: https://scdm-shu.github.io/ccf/2026-CCF-Ranking.pdf
+    sourceType: document-copy
+    sourceTitle: CCF 2026 完整目录公开副本
+    verifiedAt: 2026-10-18
+    reviewedNames:
+      - USENIX Symposium on Networked Systems Design and Implementation
+      - NSDI
+    note: "原库状态为National: USA（美国区域状态）。CCF公开副本与CCFDDL附带PDF字节一致；官网原件访问返回405。"
+    status: reported
+    value: A
+    appliesToName: on Network System Design and Implementation
+    category: 计算机网络
+    page: 13
+    reviewedAt: 2026-10-18
+  - system: core
+    year: 2026
+    edition: ICORE2026
+    sourceUrl: https://portal.core.edu.au/conf-ranks/?search=&by=all&source=ICORE2026&sort=atitle&page=19
+    sourceType: official
+    sourceTitle: ICORE2026 官方完整会议库
+    verifiedAt: 2026-10-18
+    reviewedNames:
+      - USENIX Symposium on Networked Systems Design and Implementation
+      - NSDI
+    note: "按正式全称及系列简称核对ICORE2026官方完整库，原库状态为National: USA（美国区域状态）。"
+    status: non-ranked
+    value: "National: USA"
+    appliesToName: Symposium on Networked Systems, Design and Implementation
+    reviewedAt: 2026-10-18
+  - system: core
+    year: 2018
+    edition: CORE2018
+    sourceUrl: https://portal.core.edu.au/conf-ranks/?search=NSDI&by=acronym&source=CORE2018
+    sourceType: official
+    sourceTitle: CORE2018 官方完整会议库
+    verifiedAt: 2026-10-19
+    reviewedAt: 2026-10-19
+    status: verified
+    value: B
+    appliesToName: Symposium on Networked Systems, Design and Implementation
+    note: 核对 CORE2018 官方完整 CSV 导出（1625 条），以正式全称及已确认的系列名称匹配。该等级属于 2018 年版本。
+    sourceRecordId: "1789"
+  - system: core
+    year: 2017
+    edition: CORE2017
+    sourceUrl: https://portal.core.edu.au/conf-ranks/?search=NSDI&by=acronym&source=CORE2017
+    sourceType: official
+    sourceTitle: CORE2017 官方完整会议库
+    verifiedAt: 2026-10-19
+    reviewedAt: 2026-10-19
+    status: verified
+    value: B
+    appliesToName: Symposium on Networked Systems, Design and Implementation
+    note: 核对 CORE2017 官方完整 CSV 导出（1592 条），以正式全称及已确认的系列名称匹配。该等级属于 2017 年版本。
+    sourceRecordId: "1789"
+  - system: core
+    year: 2014
+    edition: CORE2014
+    sourceUrl: https://portal.core.edu.au/conf-ranks/?search=NSDI&by=acronym&source=CORE2014
+    sourceType: official
+    sourceTitle: CORE2014 官方完整会议库
+    verifiedAt: 2026-10-19
+    reviewedAt: 2026-10-19
+    status: verified
+    value: B
+    appliesToName: Symposium on Networked Systems, Design and Implementation
+    note: 核对 CORE2014 官方完整 CSV 导出（1628 条），以正式全称及已确认的系列名称匹配。该等级属于 2014 年版本。
+    sourceRecordId: "1789"
+  - system: core
+    year: 2013
+    edition: CORE2013
+    sourceUrl: https://portal.core.edu.au/conf-ranks/?search=NSDI&by=acronym&source=CORE2013
+    sourceType: official
+    sourceTitle: CORE2013 官方完整会议库
+    verifiedAt: 2026-10-19
+    reviewedAt: 2026-10-19
+    status: verified
+    value: B
+    appliesToName: Symposium on Networked Systems, Design and Implementation
+    note: 核对 CORE2013 官方完整 CSV 导出（1615 条），以正式全称及已确认的系列名称匹配。该等级属于 2013 年版本。
+    sourceRecordId: "1789"
+  - system: core
+    year: 2008
+    edition: CORE2008
+    sourceUrl: https://portal.core.edu.au/conf-ranks/?search=NSDI&by=acronym&source=CORE2008
+    sourceType: official
+    sourceTitle: CORE2008 官方完整会议库
+    verifiedAt: 2026-10-19
+    reviewedAt: 2026-10-19
+    status: verified
+    value: A
+    appliesToName: Symposium on Networked Systems, Design and Implementation
+    note: 核对 CORE2008 官方完整 CSV 导出（933 条），以正式全称及已确认的系列名称匹配。该等级属于 2008 年版本。
+    sourceRecordId: "1789"
+catalogScope: communications
+scopeReviewedAt: 2026-10-18
+scopeNote: 通信网络与移动系统研究载体；物联网/车联网研究载体；智能通信和信号处理交叉载体
+ratingReviewedAt: 2026-10-18
+deadlineReviewedAt: 2026-10-18
+primaryArea: network
+secondaryAreas:
+  - ai

@@ -1,0 +1,68 @@
+# WSA
+# 提交修改请发起 Pull Request（合并请求）；构建产物自动生成。
+id: wsa
+kind: conference
+short: WSA
+nameZh: 智能天线研讨会
+nameEn: International Workshop on Smart Antennas
+aliases: []
+topics:
+  - arrays
+  - mimo
+  - antennas
+areas:
+  - signal
+  - rf
+  - wireless
+topicReviewedAt: 2026-10-18
+url: https://wsa2026.cttc.es/
+sourceUrl: https://wsa2026.cttc.es/
+verifiedAt: 2026-10-18
+verification: verified
+catalogStatus: current
+summary: 社区通信日历提供系列线索；投稿范围、论文形式和当前届次仍需到官网逐项确认。
+publicationType: 学术会议系列
+articleTypes:
+  - 会议论文
+submissionMode: 按具体届次征稿
+assessments: []
+sourceType: official
+evaluations:
+  - system: ccf
+    year: 2026
+    edition: 第七版公开副本
+    sourceUrl: https://scdm-shu.github.io/ccf/2026-CCF-Ranking.pdf
+    sourceType: document-copy
+    sourceTitle: CCF 2026 完整目录公开副本
+    verifiedAt: 2026-10-18
+    reviewedNames:
+      - Workshop on Smart Antennas
+      - WSA
+    note: 按正式系列核对CCF2026公开副本全部386个会议条目，未列入该版。
+    status: unlisted
+    value: null
+    reviewedAt: 2026-10-18
+  - system: core
+    year: 2026
+    edition: ICORE2026
+    sourceUrl: https://portal.core.edu.au/conf-ranks/?search=&by=all&source=ICORE2026&sort=atitle
+    sourceType: official
+    sourceTitle: ICORE2026 官方完整会议库
+    verifiedAt: 2026-10-18
+    reviewedNames:
+      - Workshop on Smart Antennas
+      - WSA
+    note: 复查 ICORE2026 官方全 20 页、987 个记录，按全称、系列简称及历史名称对照，未列出该正式系列。
+    status: unlisted
+    value: null
+    reviewedAt: 2026-10-18
+catalogScope: communications
+scopeReviewedAt: 2026-10-18
+scopeNote: 通信相关信号处理及感知研究载体；天线、射频与电磁通信硬件载体；无线通信研究载体
+ratingReviewedAt: 2026-10-18
+identityReviewedAt: 2026-10-18
+identityNote: 智能天线、多天线无线系统；2026 第29届官网确认。
+primaryArea: signal
+secondaryAreas:
+  - rf
+  - wireless

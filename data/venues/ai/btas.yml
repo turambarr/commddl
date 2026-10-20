@@ -1,0 +1,71 @@
+# BTAS
+# 提交修改请发起 Pull Request（合并请求）；构建产物自动生成。
+id: btas
+kind: conference
+short: BTAS
+nameZh: IEEE生物特征识别理论、应用与系统会议
+nameEn: BTAS
+aliases: []
+topics:
+  - ai-communications
+  - imaging
+areas:
+  - ai
+  - wireless
+  - network
+topicReviewedAt: 2026-10-18
+url: https://xxgk.bupt.edu.cn/__local/F/65/92/3A361334F005A224CD3C6C215B7_43DF8061_C1241.pdf?e=.pdf
+sourceUrl: https://xxgk.bupt.edu.cn/__local/F/65/92/3A361334F005A224CD3C6C215B7_43DF8061_C1241.pdf?e=.pdf
+verifiedAt: 2026-10-18
+verification: verified
+catalogStatus: historical-only
+summary: 2018 学科附件中的历史条目；现行名称、举办状态与当届投稿信息待核验。
+publicationType: 学术会议系列
+articleTypes:
+  - 会议论文
+submissionMode: 按具体届次征稿
+assessments:
+  - system: bupt-ict-2018
+    label: 2018 信通学科重要会议表
+    year: 2018
+    sourceUrl: https://xxgk.bupt.edu.cn/__local/F/65/92/3A361334F005A224CD3C6C215B7_43DF8061_C1241.pdf?e=.pdf
+    note: 列入2018版学科附件，硕士渠道见政策说明。原表编号 42，PDF 第 5 页。
+urlLabel: 历史文件
+sourceType: historical-document
+evaluations:
+  - system: ccf
+    year: 2026
+    edition: 第七版公开副本
+    sourceUrl: https://scdm-shu.github.io/ccf/2026-CCF-Ranking.pdf
+    sourceType: document-copy
+    sourceTitle: CCF 2026 完整目录公开副本
+    verifiedAt: 2026-10-18
+    reviewedNames:
+      - BTAS
+      - BTAS
+    note: 2018表提供缩写或历史名称，正式系列对应未确认，评级保留在原记录。
+    status: unresolved
+    value: null
+    reviewedAt: 2026-10-18
+  - system: core
+    year: 2026
+    edition: ICORE2026
+    sourceUrl: https://portal.core.edu.au/conf-ranks/?search=&by=all&source=ICORE2026&sort=atitle
+    sourceType: official
+    sourceTitle: ICORE2026 官方完整会议库
+    verifiedAt: 2026-10-18
+    reviewedNames:
+      - BTAS
+      - BTAS
+    note: 2018表提供缩写或历史名称，正式系列对应未确认，评级保留在原记录。
+    status: unresolved
+    value: null
+    reviewedAt: 2026-10-18
+catalogScope: archive
+scopeReviewedAt: 2026-10-18
+scopeNote: 生物特征识别会议，非通信主体。
+ratingReviewedAt: 2026-10-18
+primaryArea: ai
+secondaryAreas:
+  - wireless
+  - network

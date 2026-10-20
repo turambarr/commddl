@@ -1,0 +1,62 @@
+# IWCMC 2027
+# 提交修改请发起 Pull Request（合并请求）；构建产物自动生成。
+id: iwcmc-2027
+venueId: iwcmc
+year: 2027
+title: IWCMC 2027
+titleEn: International Wireless Communications and Mobile Computing Conference 2027
+kind: conference
+areas:
+  - wireless
+  - network
+  - ai
+topics:
+  - physical
+  - mimo
+  - mobile-systems
+  - ai-communications
+tags: []
+summary: 无线通信、移动计算及通信网络应用。
+sourceUrl: https://iwcmc.net/2027/index.php
+url: https://iwcmc.net/2027/index.php
+nodes:
+  - id: paper
+    label: 全文提交
+    type: paper
+    primary: true
+    precision: date
+    date: 2027-01-15
+    instant: null
+    timezone: null
+    original: 2027-01-15
+    revision: 0
+  - id: decision
+    label: 录用通知
+    type: decision
+    primary: false
+    precision: date
+    date: 2027-03-30
+    instant: null
+    timezone: null
+    original: 2027-03-30
+    revision: 0
+  - id: final
+    label: 终稿提交
+    type: final
+    primary: false
+    precision: date
+    date: 2027-04-30
+    instant: null
+    timezone: null
+    original: 2027-04-30
+    revision: 0
+verification: verified
+verifiedAt: 2026-10-18
+updatedAt: 2026-10-18T08:00:00Z
+status: announced
+notes: 官方只给日期，钟点时区未公布。
+location: 巴塞罗那，西班牙
+eventDates: 2027-06-13 / 2027-06-18
+publication: null
+history: []
+sourceType: official

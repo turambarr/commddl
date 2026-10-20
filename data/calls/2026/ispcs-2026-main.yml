@@ -1,0 +1,74 @@
+# ISPCS 2026 · 主会论文
+# 提交修改请发起 Pull Request（合并请求）；构建产物自动生成。
+id: ispcs-2026-main
+venueId: ispcs
+title: ISPCS 2026 · 主会论文
+titleEn: International IEEE Symposium on Precision Clock Synchronization for Measurement, Control, and Communication 2026
+year: 2026
+kind: conference
+areas:
+  - signal
+  - network
+  - iot
+topics:
+  - estimation-sync
+  - measurement
+  - industrial
+  - navigation-pnt
+tags: []
+summary: 精密时钟同步、网络时间分发及分布式授时应用。
+sourceUrl: https://ispcs.org/2026/authors/call-for-papers
+url: https://ispcs.org/2026/
+sourceType: official
+nodes:
+  - id: paper
+    label: 论文提交
+    type: paper
+    primary: true
+    precision: date
+    date: 2026-06-14
+    instant: null
+    timezone: null
+    original: "Initial Submission Deadlines: Jun 14, 2026"
+    revision: 0
+    sourceUrl: https://ispcs.org/2026/authors/call-for-papers
+    notes: ""
+    updatedAt: 2026-10-19T00:00:00Z
+  - id: decision
+    label: 录用通知
+    type: decision
+    primary: false
+    precision: date
+    date: 2026-08-05
+    instant: null
+    timezone: null
+    original: "Accept/Reject Notification: Aug 05, 2026"
+    revision: 0
+    sourceUrl: https://ispcs.org/2026/events/acceptreject-notification
+    notes: 当前 CFP HTML 与独立日期页面一致；下载 PDF 仍列 6 月 26 日，保留冲突记录。
+    updatedAt: 2026-10-19T00:00:00Z
+  - id: final
+    label: 终稿提交
+    type: final
+    primary: false
+    precision: date
+    date: 2026-08-15
+    instant: null
+    timezone: null
+    original: "Final Submission Deadline: Aug 15, 2026"
+    revision: 0
+    sourceUrl: https://ispcs.org/2026/events/final-submission-deadline
+    notes: 当前 CFP HTML 与独立日期页面一致；下载 PDF 仍列 7 月 31 日，保留冲突记录。
+    updatedAt: 2026-10-19T00:00:00Z
+verification: verified
+verifiedAt: 2026-10-19
+checkedAt: 2026-10-19
+updatedAt: 2026-10-19T00:00:00Z
+status: announced
+notes: 2026届已结束。10月5—9日为官网整周会期，包含IEEE 1588 Plugfest（互操作测试）。录用与终稿采用当前征稿网页及日期页一致的8月5日、8月15日；下载PDF仍列6月26日、7月31日，变更原因未说明。全部按日期展示。
+location: 意大利·布雷西亚
+eventStart: 2026-10-05
+eventEnd: 2026-10-09
+eventDates: 2026-10-05 / 2026-10-09
+publication: null
+history: []

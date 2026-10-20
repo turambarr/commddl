@@ -1,0 +1,39 @@
+# ICMAC 2027 · 微波、天线与电路国际会议
+# 提交修改请发起 Pull Request（合并请求）；构建产物自动生成。
+id: icmac-2027
+venueId: icmac
+year: 2027
+title: ICMAC 2027 · 微波、天线与电路国际会议
+titleEn: International Conference on Microwave, Antennas and Circuits 2027
+kind: conference
+areas:
+  - rf
+  - wireless
+topics:
+  - microwave
+  - antennas
+  - propagation
+tags: []
+summary: 微波、天线与电路国际会议当届论文征稿。
+url: https://icmac2027.itu.edu.pk/
+sourceUrl: https://icmac2027.itu.edu.pk/
+sourceType: official
+verification: verified
+verifiedAt: 2026-10-19
+updatedAt: 2026-10-19T08:00:00Z
+status: announced
+location: 巴基斯坦拉合尔
+eventStart: 2027-04-05
+eventEnd: 2027-04-06
+nodes:
+  - id: paper
+    label: 论文提交
+    type: paper
+    primary: true
+    precision: date
+    date: 2026-10-31
+    instant: null
+    timezone: null
+    original: Paper submission is now open - deadline 31 October 2026.
+    revision: 0
+history: []

@@ -1,0 +1,60 @@
+# ICIN 2027
+# 提交修改请发起 Pull Request（合并请求）；构建产物自动生成。
+id: icin-2027
+venueId: icin
+year: 2027
+title: ICIN 2027
+titleEn: Conference on Innovation in Clouds, Internet and Networks 2027
+kind: conference
+areas:
+  - network
+  - iot
+topics:
+  - edge-cloud
+  - network-management
+  - security
+tags: []
+summary: 云与互联网、网络自动化、网络体系及服务。
+sourceUrl: https://www.icin-conference.org/
+url: https://www.icin-conference.org/
+nodes:
+  - id: paper
+    label: 全文提交
+    type: paper
+    primary: true
+    precision: date
+    date: 2026-10-30
+    instant: null
+    timezone: null
+    original: 2026-10-30
+    revision: 0
+  - id: decision
+    label: 录用通知
+    type: decision
+    primary: false
+    precision: date
+    date: 2026-12-13
+    instant: null
+    timezone: null
+    original: 2026-12-13
+    revision: 0
+  - id: final
+    label: 终稿提交
+    type: final
+    primary: false
+    precision: date
+    date: 2026-12-27
+    instant: null
+    timezone: null
+    original: 2026-12-27
+    revision: 0
+verification: verified
+verifiedAt: 2026-10-18
+updatedAt: 2026-10-18T08:00:00Z
+status: announced
+notes: 官方主页给出主会全文/录用/终稿日期，未给钟点时区。
+location: 比萨，意大利
+eventDates: 2027-03-15 / 2027-03-18
+publication: null
+history: []
+sourceType: official

@@ -1,0 +1,78 @@
+# ICCT 2026 · 主会论文
+# 提交修改请发起 Pull Request（合并请求）；构建产物自动生成。
+id: icct-2026-main
+venueId: icct
+title: ICCT 2026 · 主会论文
+titleEn: IEEE International Conference on Communication Technology 2026
+year: 2026
+kind: conference
+areas:
+  - wireless
+  - network
+  - signal
+  - theory
+topics:
+  - physical
+  - information-theory
+  - channel-coding
+  - isac
+  - protocols
+  - satellite-ntn
+  - ai-communications
+tags: []
+summary: 无线通信、信息论、通信信号处理及通信网络。
+sourceUrl: https://www.ieee-icct.org/
+url: https://www.ieee-icct.org/
+sourceType: official
+nodes:
+  - id: paper
+    label: 全文提交
+    type: paper
+    primary: true
+    precision: date
+    date: 2026-09-01
+    instant: null
+    timezone: null
+    original: 2026-Sep. 1 — Submission Due — Final Call!!!
+    revision: 0
+    sourceUrl: https://www.ieee-icct.org/
+    notes: ""
+    updatedAt: 2026-10-19T00:00:00Z
+  - id: decision
+    label: 录用通知
+    type: decision
+    primary: false
+    precision: date
+    date: 2026-09-15
+    instant: null
+    timezone: null
+    original: 2026-Sept. 15 — Notification Due
+    revision: 0
+    sourceUrl: https://www.ieee-icct.org/
+    notes: ""
+    updatedAt: 2026-10-19T00:00:00Z
+  - id: final
+    label: 终稿提交
+    type: final
+    primary: false
+    precision: date
+    date: 2026-09-20
+    instant: null
+    timezone: null
+    original: 2026-Sept. 20 — Camera-ready Due
+    revision: 0
+    sourceUrl: https://www.ieee-icct.org/
+    notes: ""
+    updatedAt: 2026-10-19T00:00:00Z
+verification: verified
+verifiedAt: 2026-10-19
+checkedAt: 2026-10-19
+updatedAt: 2026-10-19T00:00:00Z
+status: announced
+notes: 官网中英文页一致，2026届投稿与会期均已过；本次可得来源中未找到该IEEE系列2027届官方征稿。钟点与时区未注明，按日期展示。官网出版计划为IEEE出版并提交Ei Compendex、Scopus，具体论文检索状态另查。
+location: 中国·珠海
+eventStart: 2026-10-16
+eventEnd: 2026-10-18
+eventDates: 2026-10-16 / 2026-10-18
+publication: null
+history: []

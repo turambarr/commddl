@@ -1,0 +1,70 @@
+# SPAWC
+# 提交修改请发起 Pull Request（合并请求）；构建产物自动生成。
+id: spawc
+kind: conference
+short: SPAWC
+nameZh: IEEE 信号处理进展与无线通信研讨会
+nameEn: IEEE Workshop on Signal Processing Advances in Wireless Communications
+aliases:
+  - SPAWC
+areas:
+  - signal
+  - wireless
+  - theory
+url: https://signalprocessingsociety.org/events/conferences
+summary: 无线通信与信号处理交叉方向。
+publicationType: 会议系列
+articleTypes:
+  - 研究论文
+submissionMode: 查看具体届次
+sourceUrl: https://signalprocessingsociety.org/events/conferences
+verifiedAt: 2026-10-17
+verification: verified
+assessments: []
+topics:
+  - estimation-sync
+  - mimo
+  - physical
+  - isac
+topicReviewedAt: 2026-10-18
+catalogStatus: current
+evaluations:
+  - system: ccf
+    year: 2026
+    edition: 第七版公开副本
+    sourceUrl: https://scdm-shu.github.io/ccf/2026-CCF-Ranking.pdf
+    sourceType: document-copy
+    sourceTitle: CCF 2026 完整目录公开副本
+    verifiedAt: 2026-10-18
+    reviewedNames:
+      - IEEE Workshop on Signal Processing Advances in Wireless Communications
+      - SPAWC
+      - SPAWC
+    note: 按正式系列核对CCF2026公开副本全部386个会议条目，未列入该版。
+    status: unlisted
+    value: null
+    reviewedAt: 2026-10-18
+  - system: core
+    year: 2026
+    edition: ICORE2026
+    sourceUrl: https://portal.core.edu.au/conf-ranks/?search=&by=all&source=ICORE2026&sort=atitle
+    sourceType: official
+    sourceTitle: ICORE2026 官方完整会议库
+    verifiedAt: 2026-10-18
+    reviewedNames:
+      - IEEE Workshop on Signal Processing Advances in Wireless Communications
+      - SPAWC
+      - SPAWC
+    note: 复查 ICORE2026 官方全 20 页、987 个记录，按全称、系列简称及历史名称对照，未列出该正式系列。
+    status: unlisted
+    value: null
+    reviewedAt: 2026-10-18
+catalogScope: communications
+scopeReviewedAt: 2026-10-18
+scopeNote: 无线通信研究载体；通信相关信号处理及感知研究载体
+ratingReviewedAt: 2026-10-18
+deadlineReviewedAt: 2026-10-18
+primaryArea: signal
+secondaryAreas:
+  - wireless
+  - theory

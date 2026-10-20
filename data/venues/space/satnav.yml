@@ -1,0 +1,150 @@
+# Satellite Navigation
+# 提交修改请发起 Pull Request（合并请求）；构建产物自动生成。
+id: satnav
+kind: journal
+short: Satellite Navigation
+nameEn: Satellite Navigation
+nameZh: 卫星导航
+aliases: []
+issn: 2662-9291
+eissn: 2662-1363
+url: https://link.springer.com/journal/43020
+sourceUrl: https://link.springer.com/journal/43020
+sourceType: publisher
+verification: verified
+verifiedAt: 2026-10-19
+identityReviewedAt: 2026-10-19
+catalogStatus: current
+catalogScope: communications
+areas:
+  - space
+  - signal
+topics:
+  - navigation-pnt
+  - estimation-sync
+  - satellite-ntn
+topicReviewedAt: 2026-10-19
+publicationType: 研究型期刊
+articleTypes:
+  - 研究论文
+submissionMode: 由官网作者入口按常规栏目/专题要求投稿
+summary: ""
+assessments: []
+evaluations:
+  - system: jcr
+    year: 2024
+    releaseYear: 2025
+    snapshotDate: 2025-06
+    sourceUrl: https://uefiscdi.gov.ro/resource-865584-JCR_2024.iunie2025.pdf
+    sourceTitle: 2024 JCR政府公开转录（2025年6月）
+    sourceType: secondary
+    sourceAuthority: government
+    verifiedAt: 2026-10-19
+    reviewedAt: 2026-10-19
+    status: reported
+    value: Q1
+    category: TELECOMMUNICATIONS
+    categories:
+      - category: ENGINEERING, AEROSPACE
+        value: Q1
+        page: 223
+      - category: REMOTE SENSING
+        value: Q1
+        page: 711
+      - category: TELECOMMUNICATIONS
+        value: Q1
+        page: 756
+    page: 756
+    issn: 2662-9291
+    eissn: 2662-1363
+    appliesToName: Satellite Navigation
+    note: 对照完整2024 JCR政府转录，默认电信学优先，保留全部学科；不取最好分区，不冒充最新原库。
+  - system: cas
+    year: 2025
+    edition: 2025升级版
+    snapshotDate: 2026-09-28
+    sourceUrl: https://cce.ncepu.edu.cn/xzzx/yjsjx1/7632005045644e61a0d12c7bbeff6204.htm
+    sourceFileUrl: https://cce.ncepu.edu.cn/docs//2026-09/0e77800bf2744596a26e43c83acceed0.xlsx
+    sourceTitle: 华北电力大学公开的中科院2025升级版转录
+    sourceType: secondary
+    sourceAuthority: university
+    verifiedAt: 2026-10-19
+    reviewedAt: 2026-10-19
+    sheet: 期刊汇总
+    status: reported
+    value: "1"
+    category: 地球科学
+    top: true
+    appliesToName: Satellite Navigation
+    issn: 2662-9291
+    row: 618
+    minorCategories:
+      - category: ENGINEERING, AEROSPACE 工程：宇航
+        quartile: 1
+      - category: REMOTE SENSING 遥感
+        quartile: 1
+      - category: TELECOMMUNICATIONS 电信学
+        quartile: 1
+    note: 按ISSN或正式全名对照高校公开的2025升级版完整转录；保留大类及全部小类，不冒充原库或2026数据。
+  - system: ccf
+    year: 2026
+    edition: 第七版公开副本
+    sourceUrl: https://scdm-shu.github.io/ccf/2026-CCF-Ranking.pdf
+    sourceTitle: CCF2026国际会议期刊目录公开副本
+    sourceType: document-copy
+    verifiedAt: 2026-10-19
+    reviewedAt: 2026-10-19
+    reviewedNames:
+      - Satellite Navigation
+      - 卫星导航
+    status: unlisted
+    value: null
+    note: 按正式全名与已核实别名对照CCF2026公开副本完整目录未列；不等于低等级，不含另行发布的中文期刊推荐目录。
+indexing:
+  value: SCIE
+  status: verified
+  sourceUrl: https://link.springer.com/journal/43020
+  sourceTitle: Satellite Navigation出版方当前逐刊索引
+  sourceType: publisher
+  verifiedAt: 2026-10-19
+  reviewedAt: 2026-10-19
+  note: 当前出版方本刊索引列表明确列出；不从其他刊物或影响因子推断。
+otherIndexes:
+  - value: EI
+    status: verified
+    sourceUrl: https://link.springer.com/journal/43020
+    sourceTitle: Satellite Navigation出版方当前逐刊索引
+    sourceType: publisher
+    verifiedAt: 2026-10-19
+    reviewedAt: 2026-10-19
+    note: 当前出版方本刊索引列表明确列出；不从其他刊物或影响因子推断。
+  - value: Scopus
+    status: verified
+    sourceUrl: https://link.springer.com/journal/43020
+    sourceTitle: Satellite Navigation出版方当前逐刊索引
+    sourceType: publisher
+    verifiedAt: 2026-10-19
+    reviewedAt: 2026-10-19
+    note: 当前出版方本刊索引列表明确列出；不从其他刊物或影响因子推断。
+  - value: CSCD
+    status: reported
+    year: 2025
+    edition: 2025—2026
+    coverage: 核心库
+    issn: 2662-9291
+    sourceUrl: https://nssc.cas.cn/yjsb/xspy/py/wjgd/202209/P020250901365885026876.pdf
+    sourceTitle: CSCD2025—2026来源期刊名单（国家空间科学中心公开附件）
+    sourceType: document-copy
+    verifiedAt: 2026-10-19
+    note: 按ISSN匹配完整名单，原记录类别为核心库。
+scopeReviewedAt: 2026-10-19
+identityNote: 已逐刊读取Springer当前主页、刊号与独立索引清单；只采纳明确列出的索引。
+submissionStatus: open
+coverageGroup: springer-signals-optics
+authorGuideUrl: https://link.springer.com/journal/43020/submission-guidelines
+identifierSourceUrl: https://uefiscdi.gov.ro/resource-865584-JCR_2024.iunie2025.pdf
+identifierSourceYear: 2024
+ratingReviewedAt: 2026-10-19
+primaryArea: space
+secondaryAreas:
+  - signal

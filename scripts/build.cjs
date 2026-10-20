@@ -1,15 +1,15 @@
 const fs=require('node:fs');
 const path=require('node:path');
-const {execFileSync}=require('node:child_process');
 const C=require('../assets/core.js');
 const {makePublicCatalog}=require('./public-catalog.cjs');
 const {writeMaintenance}=require('./maintenance.cjs');
 const root=path.join(__dirname,'..');
-execFileSync(process.execPath,[path.join(__dirname,'validate.cjs')],{stdio:'inherit'});
-const maintenance=JSON.parse(fs.readFileSync(path.join(root,'data/catalog.json'),'utf8'));
+const {loadCatalog,writeCatalog}=require('./catalog.cjs');
+const maintenance=require('./validate.cjs').validateCatalog(loadCatalog(root));
+writeCatalog(maintenance,root);
 writeMaintenance(maintenance);
 const data=makePublicCatalog(maintenance);
-const js='/* Generated from data/catalog.json. Edit the JSON and run npm run build. */\nwindow.COMMDDL_DATA = '+JSON.stringify(data,null,2).replace(/</g,'\\u003c')+';\n';
+const js='/* Generated from data/ YAML sources. Submit source changes through a pull request; run npm run build. */\nwindow.COMMDDL_DATA = '+JSON.stringify(data,null,2).replace(/</g,'\\u003c')+';\n';
 fs.writeFileSync(path.join(root,'assets/data.js'),js);
 fs.mkdirSync(path.join(root,'calendars'),{recursive:true});
 for(const area of [{id:'all',label:'全部投稿日期'},...data.areas]){

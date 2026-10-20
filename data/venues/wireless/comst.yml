@@ -1,0 +1,112 @@
+# COMST
+# 提交修改请发起 Pull Request（合并请求）；构建产物自动生成。
+id: comst
+kind: journal
+short: COMST
+nameZh: IEEE 通信综述与教程
+nameEn: IEEE Communications Surveys & Tutorials
+aliases: []
+areas:
+  - wireless
+  - network
+  - iot
+url: https://www.comsoc.org/publications/journals/ieee-comst
+summary: 通信领域综述与教程。
+publicationType: 综述期刊
+articleTypes:
+  - 综述
+  - 教程
+submissionMode: 作者指南中核实
+sourceUrl: https://www.comsoc.org/publications/journals
+verifiedAt: 2026-10-17
+verification: verified
+assessments: []
+indexStatus: SCIE
+metricNote: 最新 SCIE 收录、JCR 和中科院分区尚未核验；请分别查看有年份的可靠依据。
+topics:
+  - physical
+  - protocols
+  - security
+  - ai-communications
+  - isac
+  - satellite-ntn
+  - iot-sensing
+  - semantic-task
+topicReviewedAt: 2026-10-18
+authorGuideUrl: https://www.comsoc.org/publications/journals/ieee-comst/policies-guidelines
+catalogStatus: current
+indexing:
+  sourceUrl: https://open.ieee.org/wp-content/uploads/IEEE-Title-List-September-2026.pdf
+  sourceTitle: IEEE2026年9月期刊表
+  sourceType: publisher
+  verifiedAt: 2026-10-19
+  issn: N/A
+  eissn: 1553-877X
+  page: 1
+  status: verified
+  value: SCIE
+  year: 2026
+  snapshotDate: 2026-09-15
+  note: 出版社索引列的明确记录，忽略N/A占位符后以有效ISSN或正式全称唯一对应。
+evaluations:
+  - system: cas
+    year: 2025
+    edition: 2025升级版
+    snapshotDate: 2026-09-28
+    sourceUrl: https://cce.ncepu.edu.cn/xzzx/yjsjx1/7632005045644e61a0d12c7bbeff6204.htm
+    sourceFileUrl: https://cce.ncepu.edu.cn/docs//2026-09/0e77800bf2744596a26e43c83acceed0.xlsx
+    sourceTitle: 华北电力大学公开的中科院2025升级版转录
+    sourceType: secondary
+    sourceAuthority: university
+    verifiedAt: 2026-10-18
+    reviewedAt: 2026-10-18
+    sheet: 期刊汇总
+    status: reported
+    value: "1"
+    category: 计算机科学
+    top: true
+    appliesToName: IEEE Communications Surveys and Tutorials
+    issn: 1553-877X
+    row: 1417
+    minorCategories:
+      - category: COMPUTER SCIENCE, INFORMATION SYSTEMS 计算机：信息系统
+        quartile: 1
+      - category: TELECOMMUNICATIONS 电信学
+        quartile: 1
+    note: 高校公开的2025升级版转录，2026-09-28导出，原数据来自期刊分区表平台。按完整刊名或旧名唯一对应，保存大类与全部小类分区。
+  - system: ccf
+    status: unlisted
+    value: null
+    year: 2026
+    sourceUrl: https://scdm-shu.github.io/ccf/2026-CCF-Ranking.pdf
+    sourceTitle: CCF2026第七版公开副本
+    sourceType: document-copy
+    reviewedAt: 2026-10-18
+    note: 按英文全名、缩写及已知旧名核对CCF2026公开副本全部295项期刊记录，未列入该版。
+    attempts:
+      - 完整2026公开副本期刊表逐条名称匹配
+      - 已检查可识别旧称/IEEE-ACM更名
+    verifiedAt: 2026-10-18
+  - sourceUrl: https://open.ieee.org/wp-content/uploads/IEEE-Title-List-September-2026.pdf
+    sourceTitle: IEEE2026年9月期刊表
+    sourceType: publisher
+    verifiedAt: 2026-10-19
+    issn: N/A
+    eissn: 1553-877X
+    page: 1
+    status: verified
+    system: jcr
+    value: Q1
+    year: 2025
+    releaseYear: 2026
+    snapshotDate: 2026-09-15
+    category: IEEE出版社汇总口径；原表未逐学科列出
+    appliesToName: IEEE Communications Surveys and Tutorials
+    note: 2025 JCR数据、2026年发布；读取出版社的JIF分区，原表未展开逐学科分区。
+catalogScope: communications
+scopeReviewedAt: 2026-10-18
+scopeNote: 无线通信研究载体；通信网络与移动系统研究载体
+primaryArea: wireless
+secondaryAreas:
+  - network
+  - iot
