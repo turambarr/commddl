@@ -39,7 +39,7 @@ node --check scripts/updates/report-final-notice-check.cjs
 node --check scripts/updates/service-client.cjs
 ```
 
-测试使用 SQLite 内存库和模拟 GitHub API，不代表真实 OAuth、邮件、Actions token、分支保护、D1 或 Pages 已联调。
+最新 PR head `0262d1d645ad0053475332d45f7e19bcd9ba83cc` 的 GitHub Actions 已实际通过：`Validate and deploy CommDDL` run 39472666061（build 成功、deploy 因 PR 条件跳过），`CommDDL review gate` run 39472666010 成功。测试使用 SQLite 内存库和模拟 GitHub API；PR CI 通过不代表真实 OAuth、App installation token、邮件、分支保护、D1 migration 0003 或 Pages callback 已联调。
 
 ## 真实联调前必须完成
 
