@@ -7,11 +7,9 @@ nameEn: International Workshop on Practice and Theory in Public Key Cryptography
 nameZh: 公钥密码实践与理论国际会议
 aliases: []
 primaryArea: theory
-secondaryAreas:
-  - wireless
+secondaryAreas: []
 areas:
   - theory
-  - wireless
 topics:
   - cryptography
   - security
@@ -60,3 +58,5 @@ scopeReviewedAt: 2026-10-20
 scopeNote: 按学会、出版和独立目录记录核对身份并人工归入通信相关方向；保留原始来源年份。
 identityNote: 按独立CCF目录的全称、简称与系列地址核对身份；分级按2026原年份记录。
 urlKind: registry
+topicReviewedAt: 2026-10-21
+summary: 密码学与信息安全理论；通信与网络安全相关研究。

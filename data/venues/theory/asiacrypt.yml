@@ -13,10 +13,8 @@ primaryArea: theory
 secondaryAreas:
   - network
 topics:
-  - information-theory
-  - channel-coding
-  - security
   - cryptography
+  - security
 url: https://asiacrypt.iacr.org/2026/
 sourceUrl: https://asiacrypt.iacr.org/2026/
 sourceType: official
@@ -161,6 +159,7 @@ evaluations:
     note: 核对 CORE2008 官方完整 CSV 导出（933 条），以正式全称及已确认的系列名称匹配。该等级属于 2008 年版本。
     sourceRecordId: "1243"
 submissionMode: 查看当届征稿
-topicReviewedAt: 2026-10-19
+topicReviewedAt: 2026-10-21
 scopeReviewedAt: 2026-10-19
 ratingReviewedAt: 2026-10-19
+summary: 密码学与信息安全理论；通信与网络安全相关研究。

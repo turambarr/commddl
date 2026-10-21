@@ -8,11 +8,12 @@ nameZh: 亚太光纤传感国际 会议
 aliases: []
 primaryArea: optical
 secondaryAreas:
-  - network
+  - iot
 areas:
   - optical
-  - network
+  - iot
 topics:
+  - optical-sensing
   - photonics
   - iot-sensing
 publicationType: 学术会议系列
@@ -48,3 +49,5 @@ evaluations:
 scopeReviewedAt: 2026-10-20
 scopeNote: 按学会、出版和独立目录记录核对身份并人工归入通信相关方向；保留原始来源年份。
 identityNote: 以官方会议、学会或出版记录核对独立系列身份；此证据不推断EI、SCI、会议等级或毕业资格。
+topicReviewedAt: 2026-10-21
+summary: 光学传感与测量；光子器件与集成光学；传感器与物联网相关研究。

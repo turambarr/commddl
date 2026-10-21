@@ -8,14 +8,12 @@ nameZh: 欧洲机器学习与数据库知识发现会议
 aliases:
   - 欧洲机器学习与规 则与数据库应用会 议
 primaryArea: ai
-secondaryAreas:
-  - signal
+secondaryAreas: []
 areas:
   - ai
-  - signal
 topics:
-  - ai-communications
-  - distributed-learning
+  - machine-learning
+  - information-systems
 publicationType: 学术会议系列
 articleTypes:
   - 会议论文
@@ -61,3 +59,5 @@ scopeReviewedAt: 2026-10-20
 scopeNote: 按学会、出版和独立目录记录核对身份并人工归入通信相关方向；保留原始来源年份。
 identityNote: 按独立CCF目录的全称、简称与系列地址核对身份；分级按2026原年份记录。
 urlKind: registry
+topicReviewedAt: 2026-10-21
+summary: 机器学习与模式识别；信息检索、数据管理与信息系统相关研究。

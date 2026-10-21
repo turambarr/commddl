@@ -10,17 +10,19 @@ topics:
   - industrial
   - iot-sensing
   - protocols
+  - security
+  - control-systems
 areas:
   - iot
   - network
   - signal
-topicReviewedAt: 2026-10-18
+topicReviewedAt: 2026-10-21
 url: http://www.ieee-smartgridcomm.org/
 sourceUrl: https://www.comsoc.org/conferences-events/portfolio-conferences-events
 verifiedAt: 2026-10-18
 verification: verified
 catalogStatus: current
-summary: 覆盖工业通信与控制网络、传感器与物联网、网络协议与体系结构相关研究。
+summary: 工业通信与控制网络；传感器与物联网；网络协议与体系结构相关研究。
 publicationType: 学术会议系列
 articleTypes:
   - 会议论文

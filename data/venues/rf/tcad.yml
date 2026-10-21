@@ -9,12 +9,15 @@ aliases: []
 issn: 0278-0070
 eissn: 1937-4151
 primaryArea: rf
-secondaryAreas: []
+secondaryAreas:
+  - network
 areas:
   - rf
+  - network
 topics:
-  - microwave
-url: https://ieeexplore.ieee.org/servlet/opac?punumber=43
+  - circuits-devices
+  - computing-systems
+url: https://ieee-ceda.org/publications/tcad
 urlKind: publisher
 sourceUrl: https://open.ieee.org/wp-content/uploads/IEEE-Title-List-September-2026.pdf
 sourceType: publisher
@@ -177,6 +180,7 @@ indexing:
   year: 2026
   snapshotDate: 2026-09-15
   note: 出版社索引列的明确记录，忽略N/A占位符后以有效ISSN或正式全称唯一对应。
-topicReviewedAt: 2026-10-19
+topicReviewedAt: 2026-10-21
 scopeReviewedAt: 2026-10-19
 ratingReviewedAt: 2026-10-19
+summary: 集成电路与系统的设计自动化、建模、综合、验证和软硬件协同。

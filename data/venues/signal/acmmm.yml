@@ -8,18 +8,20 @@ nameEn: ACM International Conference on Multimedia
 aliases: []
 topics:
   - imaging
-  - source-coding
+  - speech
+  - machine-learning
+  - human-computer
 areas:
+  - signal
   - ai
   - network
-  - signal
-topicReviewedAt: 2026-10-18
+topicReviewedAt: 2026-10-21
 url: https://2026.acmmm.org/
 sourceUrl: https://2026.acmmm.org/
 verifiedAt: 2026-10-18
 verification: verified
 catalogStatus: current
-summary: 2018 学科附件中的历史条目；现行名称、举办状态与当届投稿信息待核验。
+summary: 多模态与多媒体技术，涵盖图像视频、音频语音、学习及交互。
 publicationType: 学术会议系列
 articleTypes:
   - 会议论文
@@ -204,7 +206,7 @@ scopeNote: 智能通信和信号处理交叉载体；无线通信研究载体；
 ratingReviewedAt: 2026-10-18
 identityReviewedAt: 2026-10-18
 identityNote: 多媒体信号、视频、音频和传输；2026官网确认第34届。
-primaryArea: ai
+primaryArea: signal
 secondaryAreas:
+  - ai
   - network
-  - signal

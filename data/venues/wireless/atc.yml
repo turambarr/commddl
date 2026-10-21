@@ -13,6 +13,10 @@ topics:
   - protocols
   - arrays
   - antennas
+  - circuits-devices
+  - microwave
+  - ai-communications
+  - information-theory
 url: https://atc-conf.org/
 sourceUrl: https://atc-conf.org/call-for-papers/call-for-papers
 sourceType: official
@@ -23,14 +27,14 @@ catalogStatus: current
 verifiedAt: 2026-10-18
 verification: verified
 checkedAt: 2026-10-18
-summary: ComSoc portfolio与2026官方CFP双重身份依据；已于2026-10-15至17举办。
+summary: 调制、波形与物理层；网络协议与体系结构；阵列与多通道处理相关研究。
 publicationType: 会议系列
 articleTypes:
   - 研究论文
 submissionMode: 查看具体届次
 assessments: []
 catalogScope: communications
-topicReviewedAt: 2026-10-18
+topicReviewedAt: 2026-10-21
 scopeReviewedAt: 2026-10-18
 scopeNote: 通信及相关交叉领域
 evaluations:

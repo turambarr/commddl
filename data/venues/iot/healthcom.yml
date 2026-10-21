@@ -7,18 +7,20 @@ nameZh: IEEE 电子健康网络、应用与服务国际会议
 nameEn: IEEE International Conference on e-Health Networking, Applications and Services
 aliases: []
 topics:
+  - biomedical
   - iot-sensing
-  - protocols
+  - mobile-systems
+  - security
 areas:
   - iot
   - network
-topicReviewedAt: 2026-10-18
+topicReviewedAt: 2026-10-21
 url: http://www.ieee-healthcom.org/
 sourceUrl: https://www.comsoc.org/conferences-events/portfolio-conferences-events
 verifiedAt: 2026-10-18
 verification: verified
 catalogStatus: current
-summary: 覆盖传感器与物联网、网络协议与体系结构、通信与网络安全相关研究。
+summary: 生物医学信号、器件与系统；传感器与物联网；移动计算与无线系统相关研究。
 publicationType: 学术会议系列
 articleTypes:
   - 会议论文

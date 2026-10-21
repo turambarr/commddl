@@ -13,6 +13,9 @@ topics:
   - protocols
   - measurement
   - network-management
+  - edge-cloud
+  - ai-communications
+  - security
 url: https://conferences.sigcomm.org/events/apnet2026/
 sourceUrl: https://conferences.sigcomm.org/events/apnet2026/
 sourceType: official
@@ -20,14 +23,14 @@ verification: verified
 verifiedAt: 2026-10-18
 checkedAt: 2026-10-18
 catalogStatus: current
-summary: 网络系统、数据中心与互联网，包含早期研究短文。
+summary: 网络协议与体系结构；网络测量与性能分析；网络管理与虚拟化相关研究。
 publicationType: 会议系列
 articleTypes:
   - 研究论文
 submissionMode: 查看具体届次
 assessments: []
 catalogScope: communications
-topicReviewedAt: 2026-10-18
+topicReviewedAt: 2026-10-21
 scopeReviewedAt: 2026-10-18
 scopeNote: 通信及相关交叉领域
 evaluations:

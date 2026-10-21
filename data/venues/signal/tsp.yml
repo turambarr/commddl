@@ -11,7 +11,7 @@ areas:
   - wireless
   - theory
 url: https://signalprocessingsociety.org/publications-resources/ieee-transactions-signal-processing
-summary: 信号处理理论、算法与应用。
+summary: 广义信号处理的理论、算法、性能分析与应用。
 publicationType: 研究型期刊
 articleTypes:
   - 研究论文
@@ -23,15 +23,15 @@ assessments: []
 indexStatus: SCIE
 metricNote: 最新 SCIE 收录、JCR 和中科院分区尚未核验；请分别查看有年份的可靠依据。
 topics:
+  - signal-methods
   - estimation-sync
   - arrays
   - radar
-  - ai-communications
-  - isac
-  - mimo
-  - physical
+  - imaging
+  - speech
   - sparse
-topicReviewedAt: 2026-10-18
+  - machine-learning
+topicReviewedAt: 2026-10-21
 authorGuideUrl: https://signalprocessingsociety.org/publications-resources/information-authors
 catalogStatus: current
 indexing:

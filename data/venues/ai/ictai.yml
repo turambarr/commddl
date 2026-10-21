@@ -8,17 +8,23 @@ nameZh: IEEE人工智能工具国际会议
 aliases: []
 primaryArea: ai
 secondaryAreas:
+  - network
   - signal
 areas:
   - ai
+  - network
   - signal
 topics:
+  - machine-learning
+  - knowledge-reasoning
+  - language-processing
+  - imaging
+  - information-systems
   - ai-communications
-  - distributed-learning
 publicationType: 学术会议系列
 articleTypes:
   - 会议论文
-url: https://dblp.org/db/conf/ictai/
+url: https://ictai.computer.org/2025/
 sourceUrl: https://scdm-shu.github.io/ccf/2026-CCF-Ranking.pdf
 sourceType: document-copy
 verifiedAt: 2026-10-20
@@ -59,4 +65,5 @@ evaluations:
 scopeReviewedAt: 2026-10-20
 scopeNote: 按学会、出版和独立目录记录核对身份并人工归入通信相关方向；保留原始来源年份。
 identityNote: 按独立CCF目录的全称、简称与系列地址核对身份；分级按2026原年份记录。
-urlKind: registry
+summary: 人工智能工具、算法和知识推理，以及语言、视觉、计算系统与通信应用。
+topicReviewedAt: 2026-10-21

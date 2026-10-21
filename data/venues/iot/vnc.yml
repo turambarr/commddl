@@ -9,17 +9,21 @@ aliases: []
 topics:
   - vehicular
   - protocols
+  - security
+  - network-management
+  - ai-communications
+  - isac
 areas:
   - iot
   - wireless
   - network
-topicReviewedAt: 2026-10-18
+topicReviewedAt: 2026-10-21
 url: https://ieee-vnc.org/
 sourceUrl: https://www.comsoc.org/conferences-events/portfolio-conferences-events
 verifiedAt: 2026-10-18
 verification: verified
 catalogStatus: current
-summary: 覆盖车联网与移动载体、网络协议与体系结构相关研究。
+summary: 车联网与移动载体；网络协议与体系结构；通信与网络安全相关研究。
 publicationType: 学术会议系列
 articleTypes:
   - 会议论文

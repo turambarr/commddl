@@ -8,12 +8,22 @@ nameZh: 无线与光通信会议
 aliases: []
 areas:
   - wireless
+  - optical
+  - ai
 primaryArea: wireless
-secondaryAreas: []
+secondaryAreas:
+  - optical
+  - ai
 topics:
   - physical
   - mimo
   - resources
+  - fiber
+  - optical-networks
+  - ai-communications
+  - distributed-learning
+  - ris
+  - uav
 url: http://www.wocc.org/
 sourceUrl: http://www.wocc.org/
 sourceType: official
@@ -55,6 +65,7 @@ evaluations:
     value: null
     note: 按正式全名与已核实别名对照ICORE2026官方987条完整库未列，不等于低等级；未按同简称的其他会议赋级。
 submissionMode: 查看当届征稿
-topicReviewedAt: 2026-10-19
+topicReviewedAt: 2026-10-21
 scopeReviewedAt: 2026-10-19
 ratingReviewedAt: 2026-10-19
+summary: 无线通信、光通信与网络，以及面向通信的人工智能和数据分析。

@@ -18,8 +18,10 @@ areas:
   - rf
   - iot
 topics:
-  - estimation-sync
-url: https://ieeexplore.ieee.org/servlet/opac?punumber=19
+  - instrumentation
+  - iot-sensing
+  - signal-methods
+url: https://ieee-ims.org/publication/ieee-tim
 urlKind: publisher
 sourceUrl: https://open.ieee.org/wp-content/uploads/IEEE-Title-List-September-2026.pdf
 sourceType: publisher
@@ -164,6 +166,7 @@ indexing:
   year: 2026
   snapshotDate: 2026-09-15
   note: 出版社索引列的明确记录，忽略N/A占位符后以有效ISSN或正式全称唯一对应。
-topicReviewedAt: 2026-10-19
+topicReviewedAt: 2026-10-21
 scopeReviewedAt: 2026-10-19
 ratingReviewedAt: 2026-10-19
+summary: 测量、仪器与频率控制；传感器与物联网；信号处理理论与实现相关研究。

@@ -8,7 +8,7 @@ nameZh: 光子传感器
 aliases: []
 issn: 1674-9251
 eissn: 2190-7439
-url: https://link.springer.com/journal/13320
+url: https://www.sciopen.com/journal/1674-9251
 sourceUrl: https://link.springer.com/journal/13320
 sourceType: publisher
 verification: verified
@@ -20,15 +20,16 @@ areas:
   - optical
   - iot
 topics:
+  - optical-sensing
   - photonics
-  - fiber
-  - isac
-topicReviewedAt: 2026-10-19
+  - iot-sensing
+  - instrumentation
+topicReviewedAt: 2026-10-21
 publicationType: 研究型期刊
 articleTypes:
   - 研究论文
 submissionMode: 由官网作者入口按常规栏目/专题要求投稿
-summary: ""
+summary: "光子传感的新原理、结构、材料、器件与测量技术。"
 assessments: []
 evaluations:
   - system: jcr

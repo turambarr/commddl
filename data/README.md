@@ -116,6 +116,17 @@ nodes:
 
 “BUPT重要”来自 `assessments.system: bupt-ict-2018`，必须与 `legacy-mappings.yml` 的89条原始记录对应（去重87个会议）。新增会议不能因为主题相近继承学校标记；附属研讨会、短文、演示和独立轨道不继承。
 
+### 主题对应规则
+
+主方向按载体持续研究的对象选择；辅方向只保留官网明确的主要交叉方向，不必填满两个。细分主题按期刊常设介绍、编辑分类或会议官方征稿逐项对应，具体届次和专题分别核对。
+
+- 通用机器学习使用 `machine-learning`；明确用于通信或网络的学习使用 `ai-communications`。有独立证据时可以同时标注。
+- 自然语言中的语义分析使用 `language-processing`；语义通信使用 `semantic-task`。一般的多智能体或大规模学习不自动标成 `distributed-learning`。
+- 密码学使用 `cryptography`；纠错编码使用 `channel-coding`。光纤传感使用 `optical-sensing`，不因此自动添加光纤通信或通感一体化。
+- 通用电路、器件使用 `circuits-devices`；射频微波是独立主题。仪器计量使用 `instrumentation`，网络流量与性能测量使用 `measurement`。
+
+官网打不开、只有登记资料或评级表时，把疑点及访问记录写入 `maintenance/`，不要将其记为已完成范围核对。保留来源年份；系列介绍可以参考往届官方征稿，不能据此推算新一届日期。核对方法和逐条差异见[分类审计记录](../docs/TAXONOMY-AUDIT-2026-10-21.md)。
+
 ## 5. 新增具体征稿
 
 从 [`call.yml`](../templates/call.yml) 开始，先确认对应 `venueId` 已存在。

@@ -8,12 +8,16 @@ nameZh: 先进卫星多媒体系统会议暨空间通信信号处理研讨会
 aliases: []
 areas:
   - space
+  - wireless
+  - signal
 primaryArea: space
-secondaryAreas: []
+secondaryAreas:
+  - wireless
+  - signal
 topics:
   - satellite-ntn
-  - navigation-pnt
-  - aerospace
+  - physical
+  - estimation-sync
 url: https://www.asmsconference.org/
 sourceUrl: https://www.asmsconference.org/
 sourceType: official
@@ -55,6 +59,7 @@ evaluations:
     value: null
     note: 按正式全名与已核实别名对照ICORE2026官方987条完整库未列，不等于低等级；未按同简称的其他会议赋级。
 submissionMode: 查看当届征稿
-topicReviewedAt: 2026-10-19
+topicReviewedAt: 2026-10-21
 scopeReviewedAt: 2026-10-19
 ratingReviewedAt: 2026-10-19
+summary: 卫星多媒体系统、空间通信信号处理及非地面网络。

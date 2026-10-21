@@ -13,12 +13,14 @@ areas:
   - ai
   - signal
 topics:
-  - ai-communications
-  - distributed-learning
+  - machine-learning
+  - language-processing
+  - control-systems
+  - biomedical
 publicationType: 学术会议系列
 articleTypes:
   - 会议论文
-url: https://dblp.org/db/conf/iconip/
+url: https://iconip2025.apnns.org/submission/call-for-papers/
 sourceUrl: https://scdm-shu.github.io/ccf/2026-CCF-Ranking.pdf
 sourceType: document-copy
 verifiedAt: 2026-10-20
@@ -59,4 +61,5 @@ evaluations:
 scopeReviewedAt: 2026-10-20
 scopeNote: 按学会、出版和独立目录记录核对身份并人工归入通信相关方向；保留原始来源年份。
 identityNote: 按独立CCF目录的全称、简称与系列地址核对身份；分级按2026原年份记录。
-urlKind: registry
+summary: 神经信息处理、机器学习、计算神经科学、语言及自动化应用。
+topicReviewedAt: 2026-10-21

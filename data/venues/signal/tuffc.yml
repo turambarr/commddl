@@ -16,7 +16,9 @@ areas:
   - signal
   - rf
 topics:
-  - estimation-sync
+  - instrumentation
+  - circuits-devices
+  - biomedical
 url: https://portal.issn.org/resource/ISSN/0885-3010
 urlKind: registry
 sourceUrl: https://www.cie.org.cn/list_42/11930.html
@@ -149,6 +151,7 @@ indexing:
   eissn: 1525-8955
   page: 1
   note: 读取Edition明确索引列，非从分区推定；为2024数据/2025年6月快照，不冒充2026实时索引状态。
-topicReviewedAt: 2026-10-19
+topicReviewedAt: 2026-10-21
 scopeReviewedAt: 2026-10-19
 ratingReviewedAt: 2026-10-19
+summary: 超声、压电材料与器件、换能器、传感及频率控制。

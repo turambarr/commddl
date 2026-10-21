@@ -14,9 +14,10 @@ areas:
 url: https://signalprocessingsociety.org/publications-resources/ieee-transactions-audio-speech-and-language-processing
 topics:
   - speech
-  - ai-communications
-topicReviewedAt: 2026-10-18
-summary: 音频、语音与语言处理研究；旧 IEEE/ACM 刊名保留检索。机器学习分类侧重信号处理方法。
+  - language-processing
+  - machine-learning
+topicReviewedAt: 2026-10-21
+summary: 语音、音频与声学；自然语言处理与语言技术；机器学习与模式识别相关研究。
 publicationType: 研究型期刊
 articleTypes:
   - 研究论文

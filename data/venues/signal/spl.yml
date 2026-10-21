@@ -11,7 +11,7 @@ areas:
   - wireless
   - ai
 url: https://signalprocessingsociety.org/publications-resources/ieee-signal-processing-letters
-summary: 信号处理简短成果。
+summary: 检测、估计与同步；阵列与多通道处理；语音、音频与声学相关研究。
 publicationType: 快报期刊
 articleTypes:
   - 快报
@@ -28,7 +28,9 @@ topics:
   - speech
   - imaging
   - sparse
-topicReviewedAt: 2026-10-18
+  - signal-methods
+  - language-processing
+topicReviewedAt: 2026-10-21
 authorGuideUrl: https://signalprocessingsociety.org/publications-resources/information-authors
 catalogStatus: current
 indexing:

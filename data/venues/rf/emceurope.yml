@@ -7,14 +7,13 @@ nameEn: International Symposium on Electromagnetic Compatibility (EMC Europe)
 nameZh: 欧洲国际电磁兼容研讨会
 aliases: []
 primaryArea: rf
-secondaryAreas:
-  - wireless
+secondaryAreas: []
 areas:
   - rf
-  - wireless
 topics:
   - emc
-  - antennas
+  - instrumentation
+  - circuits-devices
 publicationType: 学术会议系列
 articleTypes:
   - 会议论文
@@ -48,3 +47,5 @@ evaluations:
 scopeReviewedAt: 2026-10-20
 scopeNote: 按学会、出版和独立目录记录核对身份并人工归入通信相关方向；保留原始来源年份。
 identityNote: 以官方会议、学会或出版记录核对独立系列身份；此证据不推断EI、SCI、会议等级或毕业资格。
+topicReviewedAt: 2026-10-21
+summary: 电磁兼容与信号完整性；测量、仪器与频率控制；电路、电子器件与微纳系统相关研究。

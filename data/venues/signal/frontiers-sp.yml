@@ -18,19 +18,20 @@ catalogStatus: current
 catalogScope: communications
 areas:
   - signal
-  - ai
   - wireless
 topics:
+  - signal-methods
   - estimation-sync
   - imaging
   - speech
-  - isac
-topicReviewedAt: 2026-10-19
+  - radar
+  - biomedical
+topicReviewedAt: 2026-10-21
 publicationType: 研究型期刊
 articleTypes:
   - 研究论文
 submissionMode: 由官网作者入口按常规栏目/专题要求投稿
-summary: ""
+summary: "信号处理理论与实现；检测、估计与同步；图像、视频与计算成像相关研究。"
 assessments: []
 evaluations:
   - system: jcr
@@ -135,5 +136,4 @@ identifierSourceYear: 2024
 ratingReviewedAt: 2026-10-19
 primaryArea: signal
 secondaryAreas:
-  - ai
   - wireless

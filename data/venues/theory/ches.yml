@@ -9,13 +9,14 @@ aliases:
   - Workshop on Cryptographic Hardware and Embedded Systems
 primaryArea: theory
 secondaryAreas:
-  - wireless
+  - rf
 areas:
   - theory
-  - wireless
+  - rf
 topics:
   - cryptography
   - security
+  - circuits-devices
 publicationType: 学术会议系列
 articleTypes:
   - 会议论文
@@ -61,3 +62,5 @@ scopeReviewedAt: 2026-10-20
 scopeNote: 按学会、出版和独立目录记录核对身份并人工归入通信相关方向；保留原始来源年份。
 identityNote: 按独立CCF目录的全称、简称与系列地址核对身份；分级按2026原年份记录。
 urlKind: registry
+topicReviewedAt: 2026-10-21
+summary: 密码学与信息安全理论；通信与网络安全；电路、电子器件与微纳系统相关研究。

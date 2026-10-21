@@ -9,17 +9,15 @@ aliases: []
 areas:
   - space
   - signal
-  - wireless
+  - rf
 url: https://ieee-aess.org/publications/taes
 topics:
   - aerospace
   - radar
   - navigation-pnt
-  - satellite-ntn
-  - isac
-  - uav
-topicReviewedAt: 2026-10-18
-summary: 主要面向航空航天电子与系统、雷达、声呐与目标跟踪、定位、导航与授时相关研究。
+  - control-systems
+topicReviewedAt: 2026-10-21
+summary: 航空航天电子与系统；雷达、声呐与目标跟踪；定位、导航与授时相关研究。
 publicationType: 研究型期刊
 articleTypes:
   - 研究论文
@@ -140,4 +138,4 @@ scopeNote: 空天地通信、定位与授时交叉载体；通信相关信号处
 primaryArea: space
 secondaryAreas:
   - signal
-  - wireless
+  - rf

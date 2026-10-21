@@ -11,7 +11,7 @@ areas:
   - signal
   - theory
 url: https://www.comsoc.org/publications/journals/ieee-tcom
-summary: 通信理论、技术及实验研究。
+summary: 调制、波形与物理层；信道编码与译码；信源编码与压缩相关研究。
 publicationType: 研究型期刊
 articleTypes:
   - 研究论文
@@ -35,7 +35,9 @@ topics:
   - fiber
   - full-duplex
   - phy-security
-topicReviewedAt: 2026-10-18
+  - quantum
+  - thz
+topicReviewedAt: 2026-10-21
 authorGuideUrl: https://www.comsoc.org/publications/journals/ieee-tcom/policies-and-guidelines
 catalogStatus: current
 indexing:

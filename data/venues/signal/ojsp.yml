@@ -9,7 +9,7 @@ aliases: []
 areas:
   - signal
 url: https://signalprocessingsociety.org/publications-resources/ieee-open-journal-signal-processing
-summary: 信号处理的理论与应用。
+summary: 检测、估计与同步；阵列与多通道处理；语音、音频与声学相关研究。
 publicationType: 研究型期刊
 articleTypes:
   - 研究论文
@@ -25,7 +25,9 @@ topics:
   - arrays
   - speech
   - imaging
-topicReviewedAt: 2026-10-18
+  - signal-methods
+  - machine-learning
+topicReviewedAt: 2026-10-21
 authorGuideUrl: https://signalprocessingsociety.org/publications-resources/information-authors
 catalogStatus: current
 indexing:

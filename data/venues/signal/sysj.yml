@@ -12,21 +12,20 @@ verification: verified
 verifiedAt: 2026-10-18
 catalogStatus: current
 areas:
+  - signal
   - network
   - iot
-  - wireless
 topics:
-  - satellite-ntn
-  - iot-sensing
-  - network-management
-  - security
-topicReviewedAt: 2026-10-18
+  - control-systems
+  - computing-systems
+  - industrial
+topicReviewedAt: 2026-10-21
 aliases: []
 publicationType: 研究型期刊
 articleTypes:
   - 研究论文
 submissionMode: 作者指南
-summary: ""
+summary: "复杂系统和系统之系统的架构、建模、集成、控制与工程应用。"
 assessments: []
 evaluations:
   - system: ccf
@@ -135,7 +134,7 @@ indexing:
 catalogScope: communications
 scopeReviewedAt: 2026-10-18
 scopeNote: 通信及相关交叉领域
-primaryArea: network
+primaryArea: signal
 secondaryAreas:
+  - network
   - iot
-  - wireless

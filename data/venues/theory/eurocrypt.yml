@@ -13,10 +13,8 @@ primaryArea: theory
 secondaryAreas:
   - network
 topics:
-  - information-theory
-  - channel-coding
-  - security
   - cryptography
+  - security
 url: https://eurocrypt.iacr.org/2027/
 sourceUrl: https://eurocrypt.iacr.org/2027/
 sourceType: official
@@ -58,6 +56,7 @@ evaluations:
     value: null
     note: 按正式全名与已核实别名对照ICORE2026官方987条完整库未列，不等于低等级；未按同简称的其他会议赋级。
 submissionMode: 查看当届征稿
-topicReviewedAt: 2026-10-19
+topicReviewedAt: 2026-10-21
 scopeReviewedAt: 2026-10-19
 ratingReviewedAt: 2026-10-19
+summary: 密码学与信息安全理论；通信与网络安全相关研究。

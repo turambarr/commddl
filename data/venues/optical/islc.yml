@@ -11,9 +11,9 @@ areas:
   - optical
 topics:
   - photonics
-  - fiber
+  - circuits-devices
 url: https://ieeephotonics.org/conferences/
-summary: 半导体激光器、光放大器及通信光源。
+summary: 光子器件与集成光学；电路、电子器件与微纳系统相关研究。
 publicationType: 会议系列
 articleTypes:
   - 研究论文
@@ -57,7 +57,7 @@ evaluations:
 catalogScope: communications
 catalogStatus: current
 scopeReviewedAt: 2026-10-19
-topicReviewedAt: 2026-10-19
+topicReviewedAt: 2026-10-21
 deadlineReviewedAt: 2026-10-19
 ratingReviewedAt: 2026-10-19
 primaryArea: optical
