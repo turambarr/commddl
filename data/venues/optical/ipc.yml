@@ -7,18 +7,18 @@ nameZh: IEEE光子学会议
 nameEn: IEEE Photonics Conference
 aliases: []
 topics:
+  - photonics
   - fiber
   - optical-networks
 areas:
   - optical
-  - rf
-topicReviewedAt: 2026-10-18
+topicReviewedAt: 2026-10-21
 url: https://ieeephotonics.org/event/2026-ieee-photonics-conference-ipc/
 sourceUrl: https://ieeephotonics.org/event/2026-ieee-photonics-conference-ipc/
 verifiedAt: 2026-10-18
 verification: verified
 catalogStatus: current
-summary: 2018 学科附件中的历史条目；现行名称、举办状态与当届投稿信息待核验。
+summary: 覆盖光子器件、光通信及相关光子技术的综合会议。
 publicationType: 学术会议系列
 articleTypes:
   - 会议论文
@@ -68,5 +68,4 @@ identityReviewedAt: 2026-10-18
 identityNote: 光子学、光器件及系统；IEEE光子学会2026官方活动确认。
 deadlineReviewedAt: 2026-10-18
 primaryArea: optical
-secondaryAreas:
-  - rf
+secondaryAreas: []

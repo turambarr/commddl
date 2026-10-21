@@ -16,6 +16,10 @@ topics:
   - protocols
   - arrays
   - antennas
+  - circuits-devices
+  - microwave
+  - ai-communications
+  - information-theory
 tags: []
 summary: ComSoc portfolio与2026官方CFP双重身份依据；已于2026-10-15至17举办。
 url: https://atc-conf.org/call-for-papers/call-for-papers
@@ -70,3 +74,4 @@ history:
   - date: 2026-10-18
     note: 官网将May 30、June 30划去，当前全文July 15；通知由July 30改August 20，终稿由August 15改September 5。
 eventSourceUrl: https://atc-conf.org/
+topicReviewedAt: 2026-10-21

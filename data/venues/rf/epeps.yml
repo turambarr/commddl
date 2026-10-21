@@ -9,13 +9,12 @@ aliases:
   - EPEPS
 areas:
   - rf
-  - network
 topics:
-  - microwave
-  - physical
   - emc
+  - circuits-devices
+  - microwave
 url: https://www.epeps.org/
-summary: 高速互连、电磁建模与电子封装信号完整性。
+summary: 电磁兼容与信号完整性；电路、电子器件与微纳系统；射频、微波与电路相关研究。
 publicationType: 会议系列
 articleTypes:
   - 研究论文
@@ -59,9 +58,8 @@ evaluations:
 catalogScope: communications
 catalogStatus: current
 scopeReviewedAt: 2026-10-19
-topicReviewedAt: 2026-10-19
+topicReviewedAt: 2026-10-21
 deadlineReviewedAt: 2026-10-19
 ratingReviewedAt: 2026-10-19
 primaryArea: rf
-secondaryAreas:
-  - network
+secondaryAreas: []

@@ -1,27 +1,34 @@
-# IEEE TBCAS
+# JSEE
 # 提交修改请发起 Pull Request（合并请求）；构建产物自动生成。
-id: tbcas
+id: jsee
 kind: journal
-short: IEEE TBCAS
-nameEn: IEEE Transactions on Biomedical Circuits and Systems
-nameZh: IEEE生物医学电路与系统汇刊
+short: JSEE
+nameEn: Journal of Systems Engineering and Electronics
+nameZh: 系统工程与电子技术英文版
 aliases: []
-issn: 1932-4545
+issn: 1004-4132
 eissn: null
 primaryArea: signal
-secondaryAreas: []
+secondaryAreas:
+  - wireless
+  - network
 areas:
   - signal
+  - wireless
+  - network
 topics:
-  - estimation-sync
-url: https://ieeexplore.ieee.org/servlet/opac?punumber=4156126
-urlKind: publisher
-sourceUrl: https://open.ieee.org/wp-content/uploads/IEEE-Title-List-September-2026.pdf
-sourceType: publisher
+  - control-systems
+  - radar
+  - physical
+  - protocols
+  - signal-methods
+url: https://www.jseepub.com/EN/column/column13.shtml
+sourceUrl: https://www.cie.org.cn/list_42/11930.html
+sourceType: historical-document
 verification: verified
 verifiedAt: 2026-10-19
-identitySourceYear: 2026
-catalogStatus: current
+identitySourceYear: 2023
+catalogStatus: needs-review
 catalogScope: communications
 publicationType: 研究型期刊
 articleTypes:
@@ -40,18 +47,21 @@ evaluations:
     reviewedAt: 2026-10-19
     status: reported
     value: Q2
-    category: ENGINEERING, BIOMEDICAL
+    category: AUTOMATION & CONTROL SYSTEMS
     categories:
-      - category: ENGINEERING, BIOMEDICAL
+      - category: AUTOMATION & CONTROL SYSTEMS
         value: Q2
-        page: 225
+        page: 39
       - category: ENGINEERING, ELECTRICAL & ELECTRONIC
-        value: Q1
-        page: 238
-    page: 225
-    issn: 1932-4545
-    eissn: 1940-9990
-    appliesToName: IEEE Transactions on Biomedical Circuits and Systems
+        value: Q3
+        page: 242
+      - category: OPERATIONS RESEARCH & MANAGEMENT SCIENCE
+        value: Q2
+        page: 560
+    page: 39
+    issn: 1004-4132
+    eissn: 1004-4132
+    appliesToName: Journal of Systems Engineering and Electronics
     note: 对照完整2024 JCR政府转录，默认电信学优先，保留全部学科；不取最好分区，不冒充最新原库。
   - system: cas
     year: 2025
@@ -66,17 +76,19 @@ evaluations:
     reviewedAt: 2026-10-19
     sheet: 期刊汇总
     status: reported
-    value: "2"
-    category: 医学
+    value: "4"
+    category: 计算机科学
     top: false
-    appliesToName: IEEE Transactions on Biomedical Circuits and Systems
-    issn: 1932-4545
-    row: 2005
+    appliesToName: Journal of Systems Engineering and Electronics
+    issn: 1004-4132
+    row: 21670
     minorCategories:
-      - category: ENGINEERING, BIOMEDICAL 工程：生物医学
-        quartile: 3
+      - category: AUTOMATION & CONTROL SYSTEMS 自动化与控制系统
+        quartile: 4
       - category: ENGINEERING, ELECTRICAL & ELECTRONIC 工程：电子与电气
-        quartile: 3
+        quartile: 4
+      - category: OPERATIONS RESEARCH & MANAGEMENT SCIENCE 运筹学与管理科学
+        quartile: 4
     note: 按ISSN或正式全名对照高校公开的2025升级版完整转录；保留大类及全部小类，不冒充原库或2026数据。
   - system: ccf
     year: 2026
@@ -87,50 +99,34 @@ evaluations:
     verifiedAt: 2026-10-19
     reviewedAt: 2026-10-19
     reviewedNames:
-      - IEEE Transactions on Biomedical Circuits and Systems
-      - IEEE生物医学电路与系统汇刊
+      - Journal of Systems Engineering and Electronics
+      - 系统工程与电子技术英文版
     status: unlisted
     value: null
     note: 按正式全名与已核实别名对照CCF2026公开副本完整目录未列；不等于低等级，不含另行发布的中文期刊推荐目录。
   - system: cie
     year: 2023
     edition: 2023电子技术、通信技术领域高质量科技期刊分级目录
-    value: T1
+    value: T2
     status: verified
     sourceUrl: https://www.cie.org.cn/list_42/11930.html
     sourceTitle: 中国电子学会2023电子技术、通信技术期刊分级目录
     sourceType: official
     verifiedAt: 2026-10-19
     reviewedAt: 2026-10-19
-    issn: 1932-4545
-    row: 17
-    appliesToName: IEEE Transactions on Biomedical Circuits and Systems
+    issn: 1004-4132
+    row: 139
+    appliesToName: Journal of Systems Engineering and Electronics 系统工程与电子技术（英文版）
     note: 按正式ISSN或完整刊名对应官方232刊表，记录原始T分级及年份。
-  - sourceUrl: https://open.ieee.org/wp-content/uploads/IEEE-Title-List-September-2026.pdf
-    sourceTitle: IEEE2026年9月期刊表
-    sourceType: publisher
-    verifiedAt: 2026-10-19
-    issn: 1932-4545
-    eissn: 1940-9990
-    page: 2
-    status: verified
-    system: jcr
-    value: Q2
-    year: 2025
-    releaseYear: 2026
-    snapshotDate: 2026-09-15
-    category: IEEE出版社汇总口径；原表未逐学科列出
-    appliesToName: IEEE Transactions on Biomedical Circuits and Systems
-    note: 2025 JCR数据、2026年发布；读取出版社的JIF分区，原表未展开逐学科分区。
   - system: xinrui
     year: 2026
-    value: "2"
+    value: "3"
     status: reported
     edition: 2026年新锐期刊分区表（高校公开副本，2026-04-01）
-    category: 医学
-    issn: 1932-4545
-    eissn: 1940-9990
-    appliesToName: IEEE Transactions on Biomedical Circuits and Systems
+    category: 计算机科学
+    issn: 1004-4132
+    eissn: 1004-4132
+    appliesToName: Journal of Systems Engineering and Electronics
     sourceUrl: https://kjc.cdmc.edu.cn/art/2026/4/1/art_299_101218.html
     sourceFileUrl: https://kjc.cdmc.edu.cn/module/download/downfile.jsp?classid=0&filename=77490d1d77c14c02936e1737479be025.xlsx
     sourceTitle: 承德医学院科技处公开：2026新锐期刊分区表完整版名单
@@ -139,25 +135,40 @@ evaluations:
     verifiedAt: 2026-10-20
     reviewedAt: 2026-10-20
     sheet: Sheet1
-    row: 5656
+    row: 19951
     note: 读取高校公开Excel副本，以既有身份/评级证据中的ISSN或EISSN唯一匹配；采用表中大类分区，保留原始2026版本。新锐与中科院、JCR分别记录。
-otherIndexes: []
+otherIndexes:
+  - value: CSCD
+    status: reported
+    year: 2025
+    edition: 2025—2026
+    coverage: 核心库
+    issn: 1004-4132
+    sourceUrl: https://nssc.cas.cn/yjsb/xspy/py/wjgd/202209/P020250901365885026876.pdf
+    sourceTitle: CSCD2025—2026来源期刊名单（国家空间科学中心公开附件）
+    sourceType: document-copy
+    verifiedAt: 2026-10-19
+    note: 按ISSN匹配完整名单，原记录类别为核心库。
 submissionStatus: unresolved
 identityNote: 身份按注册机构、出版方或已注明版本的正式目录核对，作者入口另行维护。
 candidateSource: user-master-catalog
 indexing:
-  sourceUrl: https://open.ieee.org/wp-content/uploads/IEEE-Title-List-September-2026.pdf
-  sourceTitle: IEEE2026年9月期刊表
-  sourceType: publisher
-  verifiedAt: 2026-10-19
-  issn: 1932-4545
-  eissn: 1940-9990
-  page: 2
-  status: verified
   value: SCIE
-  year: 2026
-  snapshotDate: 2026-09-15
-  note: 出版社索引列的明确记录，忽略N/A占位符后以有效ISSN或正式全称唯一对应。
-topicReviewedAt: 2026-10-19
+  status: reported
+  year: 2024
+  releaseYear: 2025
+  snapshotDate: 2025-06
+  sourceUrl: https://uefiscdi.gov.ro/resource-865584-JCR_2024.iunie2025.pdf
+  sourceTitle: 2024 JCR完整转录的Edition索引列
+  sourceType: secondary
+  sourceAuthority: government
+  verifiedAt: 2026-10-19
+  reviewedAt: 2026-10-19
+  issn: 1004-4132
+  eissn: 1004-4132
+  page: 39
+  note: 读取Edition明确索引列，非从分区推定；为2024数据/2025年6月快照，不冒充2026实时索引状态。
+topicReviewedAt: 2026-10-21
 scopeReviewedAt: 2026-10-19
 ratingReviewedAt: 2026-10-19
+summary: 电子技术、雷达、通信网络、系统工程、控制与可靠性。

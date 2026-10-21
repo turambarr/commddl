@@ -13,7 +13,7 @@
     - signal
     - rf
   aliases:
-    - MIMO beamforming RIS 智能反射面
+    - MIMO beamforming 多天线 波束成形
     - mimo_beamforming
 - id: access
   label: 多址接入与短包通信
@@ -230,7 +230,7 @@
     - wireless
     - network
   aliases:
-    - satellite NTN LEO UAV 低轨 空天地 无人机
+    - satellite NTN LEO 低轨 空天地
     - sagin_ntn
 - id: navigation-pnt
   label: 定位、导航与授时
@@ -281,7 +281,10 @@
     - wireless
     - network
   aliases:
-    - AI ML machine learning deep learning
+    - AI for communications
+    - machine learning for communications
+    - 机器学习通信
+    - 智能通信
     - ai_phy_mac
     - cognitive_green
 - id: distributed-learning
@@ -378,3 +381,181 @@
     - backscatter_eh
     - SWIPT
     - energy harvesting
+- id: machine-learning
+  label: 机器学习与模式识别
+  areas:
+    - ai
+    - signal
+  aliases:
+    - machine learning
+    - deep learning
+    - ML
+    - 人工智能
+    - 模式识别
+    - 神经网络
+- id: language-processing
+  label: 自然语言处理与语言技术
+  areas:
+    - ai
+    - signal
+  aliases:
+    - NLP
+    - natural language processing
+    - language models
+    - 语言模型
+    - 机器翻译
+- id: knowledge-reasoning
+  label: 知识表示、推理与智能体
+  areas:
+    - ai
+    - network
+  aliases:
+    - knowledge representation
+    - reasoning
+    - symbolic AI
+    - 知识图谱
+    - 智能体
+- id: information-systems
+  label: 信息检索、数据管理与信息系统
+  areas:
+    - ai
+    - network
+  aliases:
+    - information retrieval
+    - database
+    - data management
+    - information systems
+    - 数据库
+    - 知识发现
+- id: human-computer
+  label: 人机交互与用户体验
+  areas:
+    - ai
+    - iot
+  aliases:
+    - HCI
+    - human computer interaction
+    - user experience
+    - 可穿戴交互
+- id: computing-systems
+  label: 并行分布式计算与计算系统
+  areas:
+    - network
+    - ai
+    - rf
+    - space
+  aliases:
+    - parallel computing
+    - distributed systems
+    - computer architecture
+    - 在轨计算
+    - 计算体系结构
+- id: circuits-devices
+  label: 电路、电子器件与微纳系统
+  areas:
+    - rf
+    - signal
+    - optical
+  aliases:
+    - circuits
+    - electron devices
+    - VLSI
+    - MEMS
+    - 集成电路
+    - 微电子
+- id: electronic-materials
+  label: 电子与光电材料
+  areas:
+    - rf
+    - optical
+  aliases:
+    - electronic materials
+    - semiconductor
+    - 半导体材料
+    - 光学材料
+- id: power-electronics
+  label: 电力电子与能量变换
+  areas:
+    - rf
+    - iot
+  aliases:
+    - power electronics
+    - power conversion
+    - 功率变换器
+    - 电源
+- id: magnetics
+  label: 磁学、磁性材料与器件
+  areas:
+    - rf
+  aliases:
+    - magnetics
+    - spintronics
+    - 磁器件
+    - 自旋电子
+- id: signal-methods
+  label: 信号处理理论与实现
+  areas:
+    - signal
+    - rf
+    - wireless
+    - ai
+  aliases:
+    - signal processing theory
+    - DSP
+    - filtering
+    - graph signal processing
+    - 数字滤波
+    - 图信号处理
+- id: control-systems
+  label: 控制、自动化与系统工程
+  areas:
+    - signal
+    - iot
+    - space
+    - rf
+    - ai
+  aliases:
+    - control systems
+    - automation
+    - systems engineering
+    - 自动化
+    - 系统工程
+- id: instrumentation
+  label: 测量、仪器与频率控制
+  areas:
+    - signal
+    - rf
+    - optical
+    - iot
+  aliases:
+    - instrumentation
+    - metrology
+    - frequency control
+    - 计量
+    - 仪器
+    - 频率控制
+- id: optical-sensing
+  label: 光学传感与测量
+  areas:
+    - optical
+    - signal
+    - iot
+  aliases:
+    - optical sensing
+    - fiber optic sensors
+    - 光纤传感
+    - 光学测量
+- id: biomedical
+  label: 生物医学信号、器件与系统
+  areas:
+    - signal
+    - iot
+    - rf
+    - optical
+    - ai
+  aliases:
+    - biomedical
+    - bioinformatics
+    - health informatics
+    - 生物医学
+    - 生物信息

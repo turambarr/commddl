@@ -13,7 +13,7 @@ secondaryAreas: []
 areas:
   - ai
 topics:
-  - ai-communications
+  - information-systems
 url: https://portal.issn.org/resource/ISSN/2330-1635
 urlKind: registry
 sourceUrl: https://api.crossref.org/journals/2330-1635
@@ -145,6 +145,7 @@ indexing:
   eissn: 2330-1643
   page: 134
   note: 读取Edition明确索引列，非从分区推定；为2024数据/2025年6月快照，不冒充2026实时索引状态。
-topicReviewedAt: 2026-10-19
+topicReviewedAt: 2026-10-21
 scopeReviewedAt: 2026-10-19
 ratingReviewedAt: 2026-10-19
+summary: 信息检索、数据管理与信息系统相关研究。

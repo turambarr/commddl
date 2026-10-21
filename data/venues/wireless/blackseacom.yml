@@ -9,17 +9,21 @@ aliases: []
 topics:
   - physical
   - protocols
+  - mobile-systems
+  - ai-communications
+  - edge-cloud
+  - security
 areas:
   - wireless
-  - theory
   - network
-topicReviewedAt: 2026-10-18
+  - iot
+topicReviewedAt: 2026-10-21
 url: http://www.ieee-blackseacom.org/
 sourceUrl: https://www.comsoc.org/conferences-events/portfolio-conferences-events
 verifiedAt: 2026-10-18
 verification: verified
 catalogStatus: current
-summary: 覆盖调制、波形与物理层、网络协议与体系结构相关研究。
+summary: 调制、波形与物理层；网络协议与体系结构；移动计算与无线系统相关研究。
 publicationType: 学术会议系列
 articleTypes:
   - 会议论文
@@ -60,5 +64,5 @@ scopeNote: 无线通信研究载体；信息论与编码研究载体；通信网
 ratingReviewedAt: 2026-10-18
 primaryArea: wireless
 secondaryAreas:
-  - theory
   - network
+  - iot

@@ -13,12 +13,14 @@ areas:
   - ai
   - signal
 topics:
+  - language-processing
+  - machine-learning
   - speech
-  - semantic-task
+  - information-systems
 publicationType: 学术会议系列
 articleTypes:
   - 会议论文
-url: https://dblp.org/db/conf/emnlp/
+url: https://2026.emnlp.org/calls/main_conference_papers/
 sourceUrl: https://scdm-shu.github.io/ccf/2026-CCF-Ranking.pdf
 sourceType: document-copy
 verifiedAt: 2026-10-20
@@ -59,4 +61,5 @@ evaluations:
 scopeReviewedAt: 2026-10-20
 scopeNote: 按学会、出版和独立目录记录核对身份并人工归入通信相关方向；保留原始来源年份。
 identityNote: 按独立CCF目录的全称、简称与系列地址核对身份；分级按2026原年份记录。
-urlKind: registry
+topicReviewedAt: 2026-10-21
+summary: 自然语言处理的经验方法，涵盖语言建模、翻译、检索与语音理解。

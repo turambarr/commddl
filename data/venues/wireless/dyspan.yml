@@ -12,7 +12,7 @@ areas:
   - network
   - ai
 url: https://www.ieee-dyspan.org/
-summary: 动态频谱接入及相关技术与政策。
+summary: 频谱与无线资源管理；机器学习与智能通信相关研究。
 publicationType: 会议系列
 articleTypes:
   - 研究论文
@@ -28,8 +28,8 @@ assessments:
     note: 2018历史文件列有该会议系列，对应博士成果路径之一。当前适用性待核验；附属活动单独认定。硕士渠道见第四条。
 topics:
   - resources
-  - physical
-topicReviewedAt: 2026-10-18
+  - ai-communications
+topicReviewedAt: 2026-10-21
 catalogStatus: current
 evaluations:
   - system: ccf

@@ -20,13 +20,13 @@ areas:
   - optical
 topics:
   - photonics
-  - fiber
-topicReviewedAt: 2026-10-19
+  - electronic-materials
+topicReviewedAt: 2026-10-21
 publicationType: 研究型期刊
 articleTypes:
   - 研究论文
 submissionMode: 由官网作者入口按常规栏目/专题要求投稿
-summary: ""
+summary: "光子器件与集成光学；电子与光电材料相关研究。"
 assessments: []
 evaluations:
   - system: jcr

@@ -15,11 +15,11 @@ areas:
   - iot
 topics:
   - estimation-sync
-  - measurement
+  - instrumentation
   - industrial
   - navigation-pnt
 url: https://ispcs.org/2026/
-summary: 精密时钟同步、网络时间分发及分布式授时应用。
+summary: 检测、估计与同步；测量、仪器与频率控制；工业通信与控制网络相关研究。
 publicationType: 会议系列
 articleTypes:
   - 研究论文
@@ -67,7 +67,7 @@ evaluations:
 catalogScope: communications
 catalogStatus: current
 scopeReviewedAt: 2026-10-19
-topicReviewedAt: 2026-10-19
+topicReviewedAt: 2026-10-21
 deadlineReviewedAt: 2026-10-19
 ratingReviewedAt: 2026-10-19
 primaryArea: signal

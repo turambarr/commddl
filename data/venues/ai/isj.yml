@@ -13,7 +13,7 @@ secondaryAreas: []
 areas:
   - ai
 topics:
-  - ai-communications
+  - information-systems
 url: https://portal.issn.org/resource/ISSN/1350-1917
 urlKind: registry
 sourceUrl: https://api.crossref.org/journals/1350-1917
@@ -130,6 +130,7 @@ indexing:
   verifiedAt: 2026-10-19
   reviewedAt: 2026-10-19
   note: WoS索引待对应独立索引列核对。
-topicReviewedAt: 2026-10-19
+topicReviewedAt: 2026-10-21
 scopeReviewedAt: 2026-10-19
 ratingReviewedAt: 2026-10-19
+summary: 信息检索、数据管理与信息系统相关研究。

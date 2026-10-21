@@ -10,7 +10,7 @@ areas:
   - network
   - wireless
 url: https://www.comsoc.org/publications/journals/ieee-lnet
-summary: 通信网络方面的简短成果。
+summary: 网络协议与体系结构；网络测量与性能分析；网络管理与虚拟化相关研究。
 publicationType: 快报期刊
 articleTypes:
   - 快报
@@ -24,7 +24,11 @@ metricNote: 最新 SCIE 收录、JCR 和中科院分区尚未核验；请分别�
 topics:
   - protocols
   - measurement
-topicReviewedAt: 2026-10-18
+  - network-management
+  - security
+  - mobile-systems
+  - edge-cloud
+topicReviewedAt: 2026-10-21
 catalogStatus: current
 indexing:
   sourceUrl: https://open.ieee.org/wp-content/uploads/IEEE-Title-List-September-2026.pdf

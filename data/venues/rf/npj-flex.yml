@@ -9,13 +9,16 @@ aliases: []
 issn: 2397-4621
 eissn: null
 primaryArea: rf
-secondaryAreas: []
+secondaryAreas:
+  - iot
 areas:
   - rf
+  - iot
 topics:
-  - microwave
-url: https://portal.issn.org/resource/ISSN/2397-4621
-urlKind: registry
+  - circuits-devices
+  - electronic-materials
+  - iot-sensing
+url: https://www.nature.com/npjflexelectron/aims
 sourceUrl: https://api.crossref.org/journals/2397-4621
 sourceType: registry
 verification: verified
@@ -156,6 +159,7 @@ indexing:
   eissn: 2397-4621
   page: 243
   note: 读取Edition明确索引列，非从分区推定；为2024数据/2025年6月快照，不冒充2026实时索引状态。
-topicReviewedAt: 2026-10-19
+topicReviewedAt: 2026-10-21
 scopeReviewedAt: 2026-10-19
 ratingReviewedAt: 2026-10-19
+summary: 电路、电子器件与微纳系统；电子与光电材料；传感器与物联网相关研究。

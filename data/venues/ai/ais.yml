@@ -10,12 +10,18 @@ issn: 2640-4567
 eissn: null
 primaryArea: ai
 secondaryAreas:
+  - signal
   - iot
 areas:
   - ai
+  - signal
   - iot
 topics:
-  - ai-communications
+  - machine-learning
+  - control-systems
+  - iot-sensing
+  - human-computer
+  - biomedical
 url: https://portal.issn.org/resource/ISSN/2640-4567
 urlKind: registry
 sourceUrl: https://api.crossref.org/journals/2640-4567
@@ -152,6 +158,7 @@ indexing:
   eissn: 2640-4567
   page: 37
   note: 读取Edition明确索引列，非从分区推定；为2024数据/2025年6月快照，不冒充2026实时索引状态。
-topicReviewedAt: 2026-10-19
+topicReviewedAt: 2026-10-21
 scopeReviewedAt: 2026-10-19
 ratingReviewedAt: 2026-10-19
+summary: 机器学习与模式识别；控制、自动化与系统工程；传感器与物联网相关研究。

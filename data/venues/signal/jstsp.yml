@@ -11,7 +11,7 @@ areas:
   - wireless
   - ai
 url: https://signalprocessingsociety.org/publications-resources/ieee-journal-selected-topics-signal-processing
-summary: 以信号处理专题组织征稿。
+summary: 围绕信号处理领域的具体研究主题组织专题论文。
 publicationType: 专题期刊
 articleTypes:
   - 研究论文
@@ -23,14 +23,14 @@ assessments: []
 indexStatus: SCIE
 metricNote: 最新 SCIE 收录、JCR 和中科院分区尚未核验；请分别查看有年份的可靠依据。
 topics:
+  - signal-methods
   - estimation-sync
   - arrays
   - imaging
-  - ai-communications
-  - isac
   - speech
-  - sparse
-topicReviewedAt: 2026-10-18
+  - radar
+  - machine-learning
+topicReviewedAt: 2026-10-21
 authorGuideUrl: https://signalprocessingsociety.org/publications-resources/information-authors
 catalogStatus: current
 indexing:

@@ -12,7 +12,7 @@ areas:
   - iot
 topics:
   - estimation-sync
-  - measurement
+  - instrumentation
   - industrial
   - navigation-pnt
 tags: []
@@ -72,3 +72,4 @@ eventEnd: 2026-10-09
 eventDates: 2026-10-05 / 2026-10-09
 publication: null
 history: []
+topicReviewedAt: 2026-10-21

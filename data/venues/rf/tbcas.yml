@@ -1,22 +1,26 @@
-# IEEE TDSC
+# IEEE TBCAS
 # 提交修改请发起 Pull Request（合并请求）；构建产物自动生成。
-id: tdsc
+id: tbcas
 kind: journal
-short: IEEE TDSC
-nameEn: IEEE Transactions on Dependable and Secure Computing
-nameZh: IEEE可靠与安全计算汇刊
+short: IEEE TBCAS
+nameEn: IEEE Transactions on Biomedical Circuits and Systems
+nameZh: IEEE生物医学电路与系统汇刊
 aliases: []
-issn: 1545-5971
-eissn: 1941-0018
-primaryArea: theory
+issn: 1932-4545
+eissn: null
+primaryArea: rf
 secondaryAreas:
-  - network
+  - signal
+  - iot
 areas:
-  - theory
-  - network
+  - rf
+  - signal
+  - iot
 topics:
-  - information-theory
-url: https://ieeexplore.ieee.org/servlet/opac?punumber=8858
+  - biomedical
+  - circuits-devices
+  - iot-sensing
+url: https://ieeexplore.ieee.org/servlet/opac?punumber=4156126
 urlKind: publisher
 sourceUrl: https://open.ieee.org/wp-content/uploads/IEEE-Title-List-September-2026.pdf
 sourceType: publisher
@@ -41,22 +45,19 @@ evaluations:
     verifiedAt: 2026-10-19
     reviewedAt: 2026-10-19
     status: reported
-    value: Q1
-    category: COMPUTER SCIENCE, HARDWARE & ARCHITECTURE
+    value: Q2
+    category: ENGINEERING, BIOMEDICAL
     categories:
-      - category: COMPUTER SCIENCE, HARDWARE & ARCHITECTURE
+      - category: ENGINEERING, BIOMEDICAL
+        value: Q2
+        page: 225
+      - category: ENGINEERING, ELECTRICAL & ELECTRONIC
         value: Q1
-        page: 127
-      - category: COMPUTER SCIENCE, INFORMATION SYSTEMS
-        value: Q1
-        page: 130
-      - category: COMPUTER SCIENCE, SOFTWARE ENGINEERING
-        value: Q1
-        page: 145
-    page: 127
-    issn: 1545-5971
-    eissn: 1941-0018
-    appliesToName: IEEE Transactions on Dependable and Secure Computing
+        page: 238
+    page: 225
+    issn: 1932-4545
+    eissn: 1940-9990
+    appliesToName: IEEE Transactions on Biomedical Circuits and Systems
     note: 对照完整2024 JCR政府转录，默认电信学优先，保留全部学科；不取最好分区，不冒充最新原库。
   - system: cas
     year: 2025
@@ -72,75 +73,31 @@ evaluations:
     sheet: 期刊汇总
     status: reported
     value: "2"
-    category: 计算机科学
-    top: true
-    appliesToName: IEEE Transactions on Dependable and Secure Computing
-    issn: 1545-5971
-    row: 4249
+    category: 医学
+    top: false
+    appliesToName: IEEE Transactions on Biomedical Circuits and Systems
+    issn: 1932-4545
+    row: 2005
     minorCategories:
-      - category: COMPUTER SCIENCE, HARDWARE & ARCHITECTURE 计算机：硬件
-        quartile: 1
-      - category: COMPUTER SCIENCE, INFORMATION SYSTEMS 计算机：信息系统
-        quartile: 2
-      - category: COMPUTER SCIENCE, SOFTWARE ENGINEERING 计算机：软件工程
-        quartile: 1
+      - category: ENGINEERING, BIOMEDICAL 工程：生物医学
+        quartile: 3
+      - category: ENGINEERING, ELECTRICAL & ELECTRONIC 工程：电子与电气
+        quartile: 3
     note: 按ISSN或正式全名对照高校公开的2025升级版完整转录；保留大类及全部小类，不冒充原库或2026数据。
   - system: ccf
-    year: 2015
-    edition: CCF2015
-    sourceUrl: https://lib.ecnu.edu.cn/_upload/article/files/e2/d9/dd45764345088869915f6b3617a4/5b8fc1d6-d5bb-487d-a1db-42825ebc312a.pdf
-    sourceType: document-copy
-    sourceTitle: CCF2015 完整目录公开副本
-    verifiedAt: 2026-10-19
-    reviewedAt: 2026-10-19
-    status: reported
-    value: A
-    appliesToName: IEEE Transactions on Dependable and Secure Computing
-    category: 网络与信息安全
-    page: 17
-    note: 按完整英文名称核对 CCF2015 目录 PDF 第 17 页。该等级属于 2015 年版本；保存公开副本来源属性。
-  - system: ccf
-    year: 2019
-    edition: CCF2019
-    sourceUrl: https://lib.ecnu.edu.cn/_upload/article/files/e2/d9/dd45764345088869915f6b3617a4/bc806894-08bb-40d3-addb-b58a5d9e5fd1.pdf
-    sourceType: document-copy
-    sourceTitle: CCF2019 完整目录公开副本
-    verifiedAt: 2026-10-19
-    reviewedAt: 2026-10-19
-    status: reported
-    value: A
-    appliesToName: IEEE Transactions on Dependable and Secure Computing
-    category: 网络与信息安全
-    page: 17
-    note: 按完整英文名称核对 CCF2019 目录 PDF 第 17 页。该等级属于 2019 年版本；保存公开副本来源属性。
-  - system: ccf
-    year: 2022
-    edition: CCF2022
-    sourceUrl: https://lib.ecnu.edu.cn/_upload/article/files/e2/d9/dd45764345088869915f6b3617a4/e98393b5-2703-45f2-8562-6622bbdcf8c1.pdf
-    sourceType: document-copy
-    sourceTitle: CCF2022 完整目录公开副本
-    verifiedAt: 2026-10-19
-    reviewedAt: 2026-10-19
-    status: reported
-    value: A
-    appliesToName: IEEE Transactions on Dependable and Secure Computing
-    category: 网络与信息安全
-    page: 17
-    note: 按完整英文名称核对 CCF2022 目录 PDF 第 17 页。该等级属于 2022 年版本；保存公开副本来源属性。
-  - system: ccf
     year: 2026
-    edition: CCF2026
+    edition: 第七版公开副本
     sourceUrl: https://scdm-shu.github.io/ccf/2026-CCF-Ranking.pdf
+    sourceTitle: CCF2026国际会议期刊目录公开副本
     sourceType: document-copy
-    sourceTitle: CCF2026 完整目录公开副本
     verifiedAt: 2026-10-19
     reviewedAt: 2026-10-19
-    status: reported
-    value: A
-    appliesToName: IEEETransactionsonDependableandSecureComputing
-    category: 网络与信息安全
-    page: 17
-    note: 按完整英文名称核对 CCF2026 目录 PDF 第 17 页。该等级属于 2026 年版本；保存公开副本来源属性。
+    reviewedNames:
+      - IEEE Transactions on Biomedical Circuits and Systems
+      - IEEE生物医学电路与系统汇刊
+    status: unlisted
+    value: null
+    note: 按正式全名与已核实别名对照CCF2026公开副本完整目录未列；不等于低等级，不含另行发布的中文期刊推荐目录。
   - system: cie
     year: 2023
     edition: 2023电子技术、通信技术领域高质量科技期刊分级目录
@@ -151,35 +108,35 @@ evaluations:
     sourceType: official
     verifiedAt: 2026-10-19
     reviewedAt: 2026-10-19
-    issn: 1545-5971
-    row: 21
-    appliesToName: IEEE Transactions on Dependable and Secure Computing
+    issn: 1932-4545
+    row: 17
+    appliesToName: IEEE Transactions on Biomedical Circuits and Systems
     note: 按正式ISSN或完整刊名对应官方232刊表，记录原始T分级及年份。
   - sourceUrl: https://open.ieee.org/wp-content/uploads/IEEE-Title-List-September-2026.pdf
     sourceTitle: IEEE2026年9月期刊表
     sourceType: publisher
     verifiedAt: 2026-10-19
-    issn: 1545-5971
-    eissn: 1941-0018
+    issn: 1932-4545
+    eissn: 1940-9990
     page: 2
     status: verified
     system: jcr
-    value: Q1
+    value: Q2
     year: 2025
     releaseYear: 2026
     snapshotDate: 2026-09-15
     category: IEEE出版社汇总口径；原表未逐学科列出
-    appliesToName: IEEE Transactions on Dependable and Secure Computing
+    appliesToName: IEEE Transactions on Biomedical Circuits and Systems
     note: 2025 JCR数据、2026年发布；读取出版社的JIF分区，原表未展开逐学科分区。
   - system: xinrui
     year: 2026
     value: "2"
     status: reported
     edition: 2026年新锐期刊分区表（高校公开副本，2026-04-01）
-    category: 计算机科学
-    issn: 1545-5971
-    eissn: 1941-0018
-    appliesToName: IEEE Transactions on Dependable and Secure Computing
+    category: 医学
+    issn: 1932-4545
+    eissn: 1940-9990
+    appliesToName: IEEE Transactions on Biomedical Circuits and Systems
     sourceUrl: https://kjc.cdmc.edu.cn/art/2026/4/1/art_299_101218.html
     sourceFileUrl: https://kjc.cdmc.edu.cn/module/download/downfile.jsp?classid=0&filename=77490d1d77c14c02936e1737479be025.xlsx
     sourceTitle: 承德医学院科技处公开：2026新锐期刊分区表完整版名单
@@ -188,7 +145,7 @@ evaluations:
     verifiedAt: 2026-10-20
     reviewedAt: 2026-10-20
     sheet: Sheet1
-    row: 19669
+    row: 5656
     note: 读取高校公开Excel副本，以既有身份/评级证据中的ISSN或EISSN唯一匹配；采用表中大类分区，保留原始2026版本。新锐与中科院、JCR分别记录。
 otherIndexes: []
 submissionStatus: unresolved
@@ -199,14 +156,15 @@ indexing:
   sourceTitle: IEEE2026年9月期刊表
   sourceType: publisher
   verifiedAt: 2026-10-19
-  issn: 1545-5971
-  eissn: 1941-0018
+  issn: 1932-4545
+  eissn: 1940-9990
   page: 2
   status: verified
   value: SCIE
   year: 2026
   snapshotDate: 2026-09-15
   note: 出版社索引列的明确记录，忽略N/A占位符后以有效ISSN或正式全称唯一对应。
-topicReviewedAt: 2026-10-19
+topicReviewedAt: 2026-10-21
 scopeReviewedAt: 2026-10-19
 ratingReviewedAt: 2026-10-19
+summary: 生物医学信号、器件与系统；电路、电子器件与微纳系统；传感器与物联网相关研究。

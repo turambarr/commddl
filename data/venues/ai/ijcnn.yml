@@ -7,18 +7,15 @@ nameEn: International Joint Conference on Neural Networks
 nameZh: 国际神经网络联合会议
 aliases: []
 primaryArea: ai
-secondaryAreas:
-  - signal
+secondaryAreas: []
 areas:
   - ai
-  - signal
 topics:
-  - ai-communications
-  - distributed-learning
+  - machine-learning
 publicationType: 学术会议系列
 articleTypes:
   - 会议论文
-url: https://dblp.org/db/conf/ijcnn/
+url: https://2025.ijcnn.org/
 sourceUrl: https://scdm-shu.github.io/ccf/2026-CCF-Ranking.pdf
 sourceType: document-copy
 verifiedAt: 2026-10-20
@@ -59,4 +56,5 @@ evaluations:
 scopeReviewedAt: 2026-10-20
 scopeNote: 按学会、出版和独立目录记录核对身份并人工归入通信相关方向；保留原始来源年份。
 identityNote: 按独立CCF目录的全称、简称与系列地址核对身份；分级按2026原年份记录。
-urlKind: registry
+summary: 神经网络及其在不同科学领域的理论、方法和应用。
+topicReviewedAt: 2026-10-21

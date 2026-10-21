@@ -9,13 +9,12 @@ aliases: []
 issn: 1045-9219
 eissn: 1558-2183
 primaryArea: network
-secondaryAreas:
-  - ai
+secondaryAreas: []
 areas:
   - network
-  - ai
 topics:
-  - protocols
+  - computing-systems
+  - edge-cloud
 url: https://ieeexplore.ieee.org/servlet/opac?punumber=71
 urlKind: publisher
 sourceUrl: https://open.ieee.org/wp-content/uploads/IEEE-Title-List-September-2026.pdf
@@ -188,6 +187,7 @@ indexing:
   year: 2026
   snapshotDate: 2026-09-15
   note: 出版社索引列的明确记录，忽略N/A占位符后以有效ISSN或正式全称唯一对应。
-topicReviewedAt: 2026-10-19
+topicReviewedAt: 2026-10-21
 scopeReviewedAt: 2026-10-19
 ratingReviewedAt: 2026-10-19
+summary: 并行分布式计算与计算系统；边缘计算与云网络相关研究。

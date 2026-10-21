@@ -8,12 +8,13 @@ nameEn: IEEE Journal on Emerging and Selected Topics in Circuits and Systems
 aliases: []
 areas:
   - rf
+  - signal
 url: https://ieee-cas.org/publication/JETCAS
 topics:
-  - microwave
-  - ai-communications
-topicReviewedAt: 2026-10-18
-summary: 围绕电路与系统的新兴主题组织专题征稿，含智能处理硬件等方向。
+  - circuits-devices
+  - signal-methods
+topicReviewedAt: 2026-10-21
+summary: 电路、电子器件与微纳系统；信号处理理论与实现相关研究。
 publicationType: 专题期刊
 articleTypes:
   - 研究论文
@@ -128,4 +129,5 @@ catalogScope: communications
 scopeReviewedAt: 2026-10-18
 scopeNote: 天线、射频与电磁通信硬件载体；通信相关信号处理及感知研究载体；智能通信和信号处理交叉载体
 primaryArea: rf
-secondaryAreas: []
+secondaryAreas:
+  - signal

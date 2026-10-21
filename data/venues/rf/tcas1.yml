@@ -8,11 +8,14 @@ nameEn: "IEEE Transactions on Circuits and Systems I: Regular Papers"
 aliases: []
 areas:
   - rf
+  - signal
 url: https://ieee-cas.org/publication/TCAS-I
 topics:
-  - microwave
-topicReviewedAt: 2026-10-18
-summary: 主要面向射频、微波与电路、调制、波形与物理层相关研究。
+  - circuits-devices
+  - signal-methods
+  - control-systems
+topicReviewedAt: 2026-10-21
+summary: 电路与系统的理论、分析、设计、实现及其信号处理和控制应用。
 publicationType: 研究型期刊
 articleTypes:
   - 研究论文
@@ -140,4 +143,5 @@ catalogScope: communications
 scopeReviewedAt: 2026-10-18
 scopeNote: 天线、射频与电磁通信硬件载体；通信相关信号处理及感知研究载体
 primaryArea: rf
-secondaryAreas: []
+secondaryAreas:
+  - signal

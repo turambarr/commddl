@@ -16,10 +16,12 @@ areas:
   - ai
   - rf
 topics:
-  - ai-communications
-  - edge-cloud
-  - semantic-task
-topicReviewedAt: 2026-10-18
+  - physical
+  - computing-systems
+  - control-systems
+  - circuits-devices
+  - machine-learning
+topicReviewedAt: 2026-10-21
 aliases:
   - Frontiers of Information Technology & Electronic Engineering
   - FITEE
@@ -28,7 +30,7 @@ publicationType: 研究型期刊
 articleTypes:
   - 研究论文
 submissionMode: 作者指南
-summary: 2026年起由FITEE更名，并由浙江大学出版社与IEEE合作出版；保留旧名及原刊评价的适用名称。
+summary: 计算机、通信、控制、电子、光学与仪器等信息技术研究。
 assessments: []
 evaluations:
   - system: jcr

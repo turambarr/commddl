@@ -9,13 +9,16 @@ aliases: []
 issn: 0925-1030
 eissn: 1573-1979
 primaryArea: rf
-secondaryAreas: []
+secondaryAreas:
+  - signal
 areas:
   - rf
+  - signal
 topics:
+  - circuits-devices
+  - signal-methods
   - microwave
-url: https://portal.issn.org/resource/ISSN/0925-1030
-urlKind: registry
+url: https://link.springer.com/journal/10470
 sourceUrl: https://api.crossref.org/journals/0925-1030
 sourceType: registry
 verification: verified
@@ -145,6 +148,7 @@ indexing:
   eissn: 1573-1979
   page: 126
   note: 读取Edition明确索引列，非从分区推定；为2024数据/2025年6月快照，不冒充2026实时索引状态。
-topicReviewedAt: 2026-10-19
+topicReviewedAt: 2026-10-21
 scopeReviewedAt: 2026-10-19
 ratingReviewedAt: 2026-10-19
+summary: 电路、电子器件与微纳系统；信号处理理论与实现；射频、微波与电路相关研究。
