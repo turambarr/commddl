@@ -49,7 +49,7 @@ test('review API stores an accepted choice and dispatches its version',async t=>
 });
 
 test('explicitly authorized collaborator with live write permission can use the API',async t=>{
- const {api,calls}=await setup(t),response=await api('GET','/api/session');assert.equal(response.status,200);assert(calls.some(call=>call.url.endsWith('/collaborators/test-maintainer/permission')));
+ const {api,calls}=await setup(t),response=await api('GET','/api/session');assert.equal(response.status,200);assert(calls.some(call=>call.url.endsWith('/collaborators/test-maintainer/permission')));assert.equal(calls.find(call=>call.url==='https://api.github.com/user')?.options.headers['user-agent'],'CommDDL Admin');
 });
 
 test('a write collaborator outside the owner-maintained list is denied',async t=>{
