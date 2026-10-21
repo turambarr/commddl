@@ -1,32 +1,32 @@
 # 更新服务接入与发布清单
 
-状态核对日期：2026-10-21。本文记录目标配置、已知外部状态与还需人工核验的项目。文档中的密钥名不是密钥值。不要把 Secret 粘贴到聊天、提交、终端日志或普通 Actions Variables。
+状态核对日期：2026-10-22。本文记录目标配置、已知外部状态与还需人工核验的项目。文档中的密钥名不是密钥值。不要把 Secret 粘贴到聊天、提交、终端日志或普通 Actions Variables。
 
 ## 1. 已知资源与实测边界
 
 | 项目 | 已知状态 | 需要如何确认 |
 |---|---|---|
 | GitHub 仓库 | `turambarr/commddl` | GitHub 仓库主页 |
-| Worker | `commddl-admin`，地址 `https://commddl-admin.1319630151.workers.dev` | Cloudflare → Workers & Pages → `commddl-admin` → Deployments，核对最新版本是否与已审阅 `main` 一致 |
+| Worker | `commddl-admin`，地址 `https://commddl-admin.1319630151.workers.dev` | 2026-10-22 Cloudflare Production 最新 rollout `0226c46a` 为 Ready，版本说明 `Updated variable: PUBLISH_ENABLED`；它是变量更新版本，不提供 Git commit SHA 证明。代码发布仍须用受审查的 Worker 源码部署并核验 |
 | D1 | `commddl-admin`，ID `1f9c42d3-4148-4ade-92e4-c76dcb77f689` | Cloudflare D1 → 数据库 → Migrations，核对 `0001`、`0002`、`0003` 各一条；不要重跑旧迁移 |
-| 既往 Worker 部署记录 | 用户提供过版本 `01b97ec2-875a-4a19-958e-2f40d8addaf1` 与 `1a590082-32a5-4f37-b6e4-1d9add2cb6ae` | 两个版本均早于当前 `main` 的部分代码；不能据此称当前功能已部署 |
+| Worker 配置 rollout | `c37954d5`（`AUTHORIZED_MAINTAINERS`）和 `0226c46a`（`PUBLISH_ENABLED`）均显示 Ready、100% 流量 | Dashboard 变量 rollout 不代表对应的 Worker 代码已按 Git SHA 部署 |
 | App 私钥 | 所有者报告已保存为 `UPDATE_GITHUB_APP_PRIVATE_KEY` | 不读取、不复制、不重新生成。仅检查成功的 App-token workflow 结果 |
 | OFC 来源 | 曾成功抓取官网结构并保存原始候选 `updates-2026-10-21-23f4b82855` v1；Chrome 只读核验为 `notice-incomplete` | 旧 v1 含登录/账户提示与营销内容；PR #9 合并部署后，先用 `retry_batch_id` 复用证据生成 v2，再由管理员审阅 |
 | Copilot 真实调用 | 曾有一次 workflow 运行，但 CLI 在发起模型请求前因 JSON attachment 类型拒绝而失败 | [Actions run #5](https://github.com/turambarr/commddl/actions/runs/39588240304)。此次不能记为 Copilot 成功；再次真实调用需单独授权 |
 | 邮件 | 2026-10-21 Chrome 生产后台只读状态为邮件待配置、启用收件邮箱 0 | 后台 `/api/session` 显示 `mailReady=false`、`enabledRecipients=0`；保持候选采集与审阅可用 |
-| 运行开关 | schedule 与发布按交接要求保持关闭 | 实际值须在下表指定平台逐项核对；不能用本地默认值推断线上值 |
+| 运行开关 | Cloudflare Production `PUBLISH_ENABLED=true` 已由所有者要求开启并于 2026-10-22 核验；GitHub Actions `UPDATE_AUTOMATION_ENABLED` 与 `COPILOT_COLLECTION_ENABLED` 仍保持关闭 | 发布只允许已授权管理员审阅后的显式操作；不得因此开启定时采集 |
 
 身份权限目标：所有者 `turambarr` 必须实时拥有仓库 `admin`；维护者必须由所有者明确列入名单，且 GitHub 实时权限至少为 `write`。`arofish` 与 `wy-02` 已由所有者授权；截至 2026-10-21，GitHub collaborator permission API 返回 `wy-02` 对目标仓库为 `write`。有写权限本身不会自动成为后台管理员。撤销仓库权限或移出名单后，下次受保护请求应立即拒绝。
 
 ## 2. 开关与保存位置
 
-所有布尔开关仅精确值 `true` 开启。完成小范围闭环前，维持关闭。
+所有布尔开关仅精确值 `true` 开启。发布开关已按所有者明确要求启用；定时采集保持关闭。
 
 | 名称 | 保存位置 | 当前要求值 | 用途 |
 |---|---|---:|---|
 | `UPDATE_AUTOMATION_ENABLED` | 仓库 `Settings → Secrets and variables → Actions → Variables` | `false` | 每月 1 日、15 日 schedule 总开关 |
 | `COPILOT_COLLECTION_ENABLED` | 同上 | `false` | 半月 Copilot schedule 开关 |
-| `PUBLISH_ENABLED` | Cloudflare → Workers & Pages → `commddl-admin` → Settings → Variables and Secrets → Variables | `false` | 管理后台正式批准/上线功能总开关 |
+| `PUBLISH_ENABLED` | Cloudflare → Workers & Pages → `commddl-admin` → Settings → Variables and Secrets → Variables | `true` | 允许已授权管理员在审阅最终差异与 SHA 后通过标准仓库规则提交发布 |
 | `COMMDDL_FINAL_NOTICE_CHECK_ENABLED` | GitHub Actions Variables | `false` 或 unset，直到专用检查测试通过 | 最终 PR SHA 通知检查 |
 | `COMMDDL_RECONCILIATION_ENABLED` | GitHub Actions Variables | `false` 或 unset，直到 final notice required check 验收后 | 人工合并和 Pages 部署回调 |
 
@@ -43,7 +43,7 @@
 | `AUTHORIZED_MAINTAINERS` | 所有者批准的 GitHub login 列表；当前目标为 `arofish,wy-02` |
 | `ADMIN_ORIGIN` | Worker HTTPS 根地址，不带路径或末尾斜杠 |
 | `GITHUB_CLIENT_ID` | OAuth App Client ID |
-| `PUBLISH_ENABLED` | `false`，直至独立验收 |
+| `PUBLISH_ENABLED` | `true`，生产值已于 2026-10-22 核验；受保护的逐条审阅和最终 SHA 检查仍适用 |
 | `MAIL_PROVIDER` | 配好免域名通道后填 `ses` |
 | `MAIL_FROM` | Amazon SES 已验证的单个发件邮箱地址 |
 
@@ -135,12 +135,12 @@ Pages 部署 runner 独立，必须自行执行 `npm ci` 后使用所需 Node/YA
 
 外部仍待验证：
 
-- 当前线上 Worker 是否已升级至最新经审阅 main SHA；
+- Cloudflare 生产环境已启用 `PUBLISH_ENABLED=true`，但 Dashboard 变量 rollout 不带 Git SHA；需记录后续真实 Worker 源码部署版本与已审阅 main SHA 的对应关系；
 - OAuth 回调及两个授权账号的 `/api/session` 实际结果；
 - App token、`repository_dispatch` 与新数据 PR 工作流的成功记录；
 - 新输入格式下的 Copilot 真实请求。此前一次授权已用在失败尝试；再次发起需用户重新授权；
 - SES 发件地址、投递与收件人跨会话持久化；
 - 普通 PR neutral、候选最终 SHA success、required check 及分支保护实际设置；
-- 管理员对真实官网候选进行审阅并明确批准后的标准合并和 Pages 回调。
+- 管理员对 OFC v2 候选逐条选择接受、修正或拒绝，提交后生成正式数据 PR；最终差异由管理员复核并明确批准，随后核对标准仓库检查、合并与 Pages 回调。
 
-真实数据差异必须由用户逐项审阅；最终批准与合并由用户本人在后台/仓库规则内完成。不得由 Agent 或 Worker 代替用户确认数据内容。
+真实数据差异必须由获准管理员逐项审阅；发布接口已启用，但不得由 Agent 或 Worker 替管理员提交数据取舍或批准不明差异。OFC v2 `updates-2026-10-21-23f4b82855` 仍待管理员审阅。半月 schedule 仍关闭。
