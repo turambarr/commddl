@@ -11,9 +11,16 @@ function applyNodeDateChange(call,change,decision,recordedAt=new Date().toISOStr
  const nodeId=change.nodeId;if(!nodeId)throw new Error('日期候选缺少稳定 nodeId。');
  const node=(call.nodes||[]).find(item=>item.id===nodeId);if(!node)throw new Error(`${call.id}: 找不到日期节点 ${nodeId}。`);
  const date=decision.date||change.nextDate;if(typeof date!=='string'||!/^\d{4}-\d{2}-\d{2}$/.test(date)||!Number.isFinite(Date.parse(`${date}T00:00:00Z`))||new Date(`${date}T00:00:00Z`).toISOString().slice(0,10)!==date)throw new Error(`${call.id}/${nodeId}: 日期必须是有效的 YYYY-MM-DD。`);
- if(node.date===date)return false;
- const previous=node.date||null;node.date=date;node.precision='date';node.instant=null;node.timezone=null;if(change.excerpt)node.original=change.excerpt;node.revision=(Number(node.revision)||0)+1;node.updatedAt=recordedAt;
- call.history=Array.isArray(call.history)?call.history:[];call.history.push({type:'deadline-revised',nodeId,revision:node.revision,from:previous,to:date,sourceUrl:change.sourceUrl||change.next?.sourceUrl||call.sourceUrl,recordedAt});call.updatedAt=recordedAt;return true;
+ const nextPrecision=change.precision||'date',nextInstant=change.instant||null,nextTimezone=change.timezone||null;
+ if(nextPrecision==='instant'){
+  if(!nextInstant||!nextTimezone||!/^\d{4}-\d{2}-\d{2}T\d{2}:\d{2}(?::\d{2})?(?:Z|[+-]\d{2}:\d{2})$/.test(nextInstant)||!Number.isFinite(Date.parse(nextInstant)))throw new Error(`${call.id}/${nodeId}: 精确时刻变更必须同时提供有效 instant 与明确 timezone。`);
+  if(node.precision==='instant'&&decision.action==='edit'&&decision.date&&decision.date!==change.nextDate)throw new Error(`${call.id}/${nodeId}: 仅修改日期会丢失已知时刻；请提供新的精确时刻和时区证据。`);
+ }else if(node.precision==='instant'||node.instant){throw new Error(`${call.id}/${nodeId}: 当前记录含精确时刻；官网仅有日期不足以安全覆盖，需补充明确时刻及时区。`);}
+ if(node.precision==='date'&&nextPrecision==='date'&&node.date===date)return false;
+ const previous=node.instant||node.date||null,previousPrecision=node.precision||'unknown';
+ if(nextPrecision==='instant'){node.date=null;node.precision='instant';node.instant=nextInstant;node.timezone=nextTimezone;}else{node.date=date;node.precision=nextPrecision;node.instant=null;node.timezone=nextTimezone||node.timezone||null;}
+ if(change.excerpt)node.original=change.excerpt;node.revision=(Number(node.revision)||0)+1;node.updatedAt=recordedAt;
+ const next=node.instant||node.date;call.history=Array.isArray(call.history)?call.history:[];call.history.push({type:'deadline-revised',nodeId,revision:node.revision,from:previous,to:next,fromPrecision:previousPrecision,toPrecision:node.precision,sourceUrl:change.sourceUrl||change.next?.sourceUrl||call.sourceUrl,recordedAt});call.updatedAt=recordedAt;return true;
 }
 function stableSection(section,verifiedAt){
  const result=Object.fromEntries(keys.filter(key=>section[key]!==undefined).map(key=>[key,section[key]]));

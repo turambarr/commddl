@@ -15,7 +15,41 @@ const LINK_RE=/(about|aims|scope|topic|cfp|call.for|submission|author|paper|publ
 function parseDeadlineDate(value){const text=String(value||'').trim();let match=text.match(/\b(20\d{2})[-/.](\d{1,2})[-/.](\d{1,2})\b/);if(match)return `${match[1]}-${match[2].padStart(2,'0')}-${match[3].padStart(2,'0')}`;const parsed=Date.parse(`${text} UTC`);if(!Number.isFinite(parsed))return null;const date=new Date(parsed),year=date.getUTCFullYear();return year>=2020&&year<=2100?date.toISOString().slice(0,10):null;}
 function normalizeBaselines(value){return value?.baselines&&typeof value.baselines==='object'?value.baselines:value||{};}
 function retryDelayHours(retryCount,retryAfterSeconds=0){return Math.max(Math.min(48,2**Math.min(Math.max(0,Number(retryCount)||0),6)),Math.max(0,Number(retryAfterSeconds)||0)/3600);}
-function dateChanges(item,sections){if(!item.venueId)return [];const nodes=item.nodes||[],primary=nodes.find(node=>node.primary&&node.type==='paper')||nodes.find(node=>node.type==='paper');if(!primary)return [];const found=[];for(const section of sections){if(!/important-dates|deadline|投稿日期|重要日期/i.test(`${section.category} ${section.heading}`))continue;const lines=(section.blocks||[]).flatMap(block=>block.type==='paragraph'?[block.text]:block.type==='list'?(block.items||[]).map(entry=>entry.text):block.type==='table'?(block.rows||[]).map(row=>row.join(' ')):[]);for(const line of lines){if(!/(submission|paper|full paper|稿件|投稿|截稿|deadline)/i.test(line))continue;const match=line.match(/\b20\d{2}[-/.]\d{1,2}[-/.]\d{1,2}\b|\b[A-Z][a-z]+\s+\d{1,2},?\s+20\d{2}\b|\b\d{1,2}\s+[A-Z][a-z]+\s+20\d{2}\b/i);if(!match)continue;const nextDate=parseDeadlineDate(match[0]);if(!nextDate||nextDate===primary.date)continue;found.push({sectionId:`date:${item.id}:${primary.id}`,type:'node-date-changed',nodeId:primary.id,sourceUrl:section.sourceUrl,oldDate:primary.date||null,nextDate,heading:section.heading,excerpt:line});break;}if(found.length)break;}return found;}
+function dateChanges(item,sections){
+ if(!item.venueId)return [];
+ const nodes=item.nodes||[],candidates=new Map(),datePattern=/\b20\d{2}[-/.]\d{1,2}[-/.]\d{1,2}\b|\b[A-Z][a-z]+\s+\d{1,2},?\s+20\d{2}\b|\b\d{1,2}\s+[A-Z][a-z]+\s+20\d{2}\b/gi;
+ for(const section of sections){
+  if(!/important.?dates|deadline|timeline|submission|投稿日期|重要日期/i.test(`${section.category} ${section.heading}`))continue;
+  const lines=(section.blocks||[]).flatMap(block=>block.type==='paragraph'?[block.text]:block.type==='list'?(block.items||[]).map(entry=>entry.text):block.type==='table'?(block.rows||[]).map(row=>row.join(' ')):[]);
+  for(const line of lines){
+   if(!/(submission|abstract|full paper|camera.ready|final paper|notification|acceptance|稿件|摘要|终稿|录用通知|投稿|截稿|deadline)/i.test(line))continue;
+   const matches=[...String(line).matchAll(new RegExp(datePattern.source,datePattern.flags))];
+   // A line with competing dates (often an extension history or an old/new pair)
+   // is ambiguous. Do not select the first date and silently publish it.
+   if(matches.length!==1)continue;
+   // Time-bearing text needs an explicit parser and timezone mapping. This
+   // deterministic date-only extractor must not discard that precision.
+   if(/\b\d{1,2}:\d{2}\b|\b(?:AM|PM)\b|\b(?:AoE|UTC|GMT|ET|PT|PST|PDT|CET|CEST|JST|AEST)\b/i.test(line))continue;
+   const nextDate=parseDeadlineDate(matches[0][0]);if(!nextDate)continue;
+   let types=[];
+   if(/abstract|摘要|registration|注册/i.test(line))types=['abstract'];
+   else if(/camera.?ready|final (paper|version)|终稿/i.test(line))types=['final','camera-ready'];
+   else if(/notification|acceptance|录用通知/i.test(line))types=['decision','notification'];
+   else if(/full paper|paper submission|submission deadline|稿件|投稿|截稿|deadline/i.test(line))types=['paper'];
+   let targets=nodes.filter(node=>types.includes(node.type)||types.includes(node.id));
+   if(!targets.length&&types.includes('paper'))targets=nodes.filter(node=>node.primary&&node.type==='paper');
+   if(targets.length!==1)continue;
+   const node=targets[0],key=node.id,current=candidates.get(key)||{dates:new Set(),evidence:[]};current.dates.add(nextDate);current.evidence.push({section,line,nextDate});candidates.set(key,current);
+  }
+ }
+ const found=[];
+ for(const [nodeId,candidate] of candidates){
+  if(candidate.dates.size!==1)continue;
+  const node=nodes.find(entry=>entry.id===nodeId),evidence=candidate.evidence.at(-1),nextDate=[...candidate.dates][0];if(!node||nextDate===node.date)continue;
+  found.push({sectionId:`date:${item.id}:${node.id}`,type:'node-date-changed',nodeId:node.id,sourceUrl:evidence.section.sourceUrl,oldDate:node.date||null,nextDate,heading:evidence.section.heading,excerpt:evidence.line,precision:'date'});
+ }
+ return found;
+}
 function parseArgs(args){const out={ids:[],dryRun:false,limit:POLICY.batchLimit};for(let i=0;i<args.length;i++){if(args[i]==='--ids')out.ids=args[++i].split(',').filter(Boolean);else if(args[i]==='--due')out.due=true;else if(args[i]==='--dry-run')out.dryRun=true;else if(args[i]==='--out')out.out=args[++i];else if(args[i]==='--baselines')out.baselines=args[++i];else if(args[i]==='--limit')out.limit=Math.min(POLICY.batchLimit,Math.max(1,Number(args[++i])||POLICY.batchLimit));}return out;}
 function seedsFor(item,venue){return [...new Set([item.url,item.sourceUrl,item.authorGuideUrl,item.cfpUrl,...(!item.venueId?[venue.url,venue.sourceUrl,venue.authorGuideUrl,venue.cfpUrl]:[])].filter(value=>typeof value==='string'&&/^https:\/\//i.test(value)))];}
 function discoveredLinks(html,baseUrl){

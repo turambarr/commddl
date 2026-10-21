@@ -1,0 +1,29 @@
+name: Reconcile manually merged CommDDL data PR
+on:
+  pull_request:
+    types: [closed]
+    branches: [main]
+permissions:
+  contents: read
+  pull-requests: read
+  checks: read
+jobs:
+  reconcile:
+    if: github.event.pull_request.base.ref == 'main' && vars.COMMDDL_RECONCILIATION_ENABLED == 'true'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Verify GitHub merge, reviewer, final SHA, and required checks
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+          GITHUB_REPOSITORY_OWNER: ${{ github.repository_owner }}
+          GITHUB_REPOSITORY_NAME: commddl
+          PR_NUMBER: ${{ github.event.pull_request.number }}
+          UPDATE_ADMIN_API_URL: ${{ vars.UPDATE_ADMIN_API_URL }}
+          UPDATE_INTERNAL_HMAC_SECRET: ${{ secrets.UPDATE_INTERNAL_HMAC_SECRET }}
+        run: node scripts/updates/reconcile-closed-pr.cjs

@@ -51,18 +51,19 @@ git diff --check
 | Require a pull request before merging（合并前必须提交 PR） | 开启 |
 | Required approving reviews（所需批准数） | 已有协作者时设为 1；作者不能批准自己的 PR |
 | Dismiss stale approvals（新修改使旧审批失效） | 开启，修改后重新审核 |
-| Require status checks（必须通过检查） | 要求下表两项检查通过 |
+| Require status checks（必须通过检查） | 要求下表三项检查通过 |
 | Require branches to be up to date（分支必须与主分支保持最新） | 开启；其他 PR 合并后，同步更新再检查 |
 | Require conversation resolution（讨论必须处理完毕） | 开启 |
 | Do not allow bypassing（不允许绕过） | 包括管理员；不要给 Agent 或发布应用设置绕过权限 |
 | Allow force pushes / deletions（允许强推／删除） | 均关闭 |
 
-实际检查名称以 PR 的 Checks（检查）页面为准。当前源码中两项校验工作如下，不要把只在合并后运行的 `deploy`（部署）设为合并前必需检查：
+实际检查名称以 PR 的 Checks（检查）页面为准。当前源码中有两项校验工作和一个最终通知 check run，不要把只在合并后运行的 `deploy`（部署）设为合并前必需检查。`CommDDL final notice` 对没有批次绑定的普通 PR 为 `neutral`，对候选 PR 只有最终 SHA 已完成通知才为 `success`。由 `COMMDDL_FINAL_NOTICE_CHECK_ENABLED` 单独控制此检查；先将工作流合入 `main`、迁移并部署 Worker，再启用并验证，然后所有者才把它加入规则。`COMMDDL_RECONCILIATION_ENABLED` 另行控制人工合并和 Pages 回调，只能在必需检查启用后打开。
 
 | 工作流 | 检查名称 |
 |---|---|
 | Validate and deploy CommDDL（校验并部署 CommDDL） | `build` |
 | CommDDL review gate（CommDDL 审核检查） | `catalog, tests, and generated site` |
+| CommDDL final notice（最终通知检查） | `CommDDL final notice`；普通无候选 PR 为 neutral，自动候选必须先完成绑定最终 SHA 的通知 |
 
 如果暂时只有一名有写权限的维护者，可先要求 PR 和检查通过，加入第二人后再设一人审批。已有多人协作时，优先开启一人审批，成员互相审核。
 
@@ -77,7 +78,7 @@ GitHub 官方说明：[分支保护](https://docs.github.com/en/repositories/con
 
 ## 当前审核方式
 
-2026-10-20 按维护者最新选择，`main` 要求任意一名具有 write（写入）、maintain（维护）或 admin（管理）权限的协作者批准，不要求由仓库所有者或指定代码负责人单独批准。两项检查均限定由 GitHub Actions 提供，要求分支与主分支保持最新；新修改使旧审批失效，审核讨论需处理完毕，禁止强推和删除，管理员同样受约束。该段是当日设置记录，后续以仓库实际保护规则为准。
+2026-10-20 按维护者最新选择，`main` 要求任意一名具有 write（写入）、maintain（维护）或 admin（管理）权限的协作者批准，不要求由仓库所有者或指定代码负责人单独批准。两项原有检查均限定由 GitHub Actions 提供，要求分支与主分支保持最新；新修改使旧审批失效，审核讨论需处理完毕，禁止强推和删除，管理员同样受约束。新增的 `CommDDL final notice` 按上线步骤单独加入；后续以仓库实际保护规则为准。
 
 这里的协作者按仓库权限判断；GitHub Contributors（贡献者列表）中的提交记录本身不授予写入或有效审批权限。普通外部贡献者仍可评论或提交审核意见，但不替代要求的一人批准。新增可信成员由管理员授予合适权限，不共享账号或令牌。
 
