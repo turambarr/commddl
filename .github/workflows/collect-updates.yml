@@ -1,7 +1,7 @@
-name: Collect official CommDDL updates
+name: Copilot structured official updates
 on:
   schedule:
-    - cron: '17 5,11,17,23 * * *'
+    - cron: '17 5 1,15 * *'
   workflow_dispatch:
     inputs:
       ids:
@@ -18,6 +18,11 @@ on:
         required: true
         default: false
         type: boolean
+      run_copilot:
+        description: 'Invoke Copilot to produce evidence-bound structured candidates'
+        required: true
+        default: false
+        type: boolean
 permissions:
   contents: read
 concurrency:
@@ -27,7 +32,7 @@ jobs:
   collect:
     # Missing repository variables evaluate as empty/false. Scheduled runs are
     # opt-in; workflow_dispatch remains available for a controlled dry-run.
-    if: github.ref == 'refs/heads/main' && (github.event_name != 'schedule' || vars.UPDATE_AUTOMATION_ENABLED == 'true')
+    if: github.ref == 'refs/heads/main' && (github.event_name == 'workflow_dispatch' || (vars.UPDATE_AUTOMATION_ENABLED == 'true' && vars.COPILOT_COLLECTION_ENABLED == 'true'))
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -45,6 +50,7 @@ jobs:
           UPDATE_INTERNAL_HMAC_SECRET: ${{ secrets.UPDATE_INTERNAL_HMAC_SECRET }}
         run: node scripts/updates/service-client.cjs register-sources
       - name: Select due sources
+        id: due
         if: github.event_name == 'schedule' || (inputs.ids == '' && inputs.retry_failed != true)
         env:
           UPDATE_ADMIN_API_URL: ${{ vars.UPDATE_ADMIN_API_URL }}
@@ -71,16 +77,55 @@ jobs:
         env:
           SELECTED_IDS: ${{ inputs.ids }}
         run: node scripts/updates/collector.cjs --ids "$SELECTED_IDS" --baselines /tmp/commddl-due.json --out /tmp/commddl-candidates.json
-      - name: Save and notify review batch
-        if: github.event_name == 'schedule' || inputs.dry_run == false
+      - name: Initialize final candidate file
+        id: candidate-count
+        run: |
+          cp /tmp/commddl-candidates.json /tmp/commddl-final-candidates.json
+          node -e "const x=require('/tmp/commddl-candidates.json');console.log('count='+((x.items||[]).length))" >> "$GITHUB_OUTPUT"
+      - name: Install GitHub Copilot CLI
+        if: steps.candidate-count.outputs.count != '0' && (github.event_name == 'schedule' || inputs.run_copilot == true)
+        run: npm install --global @github/copilot
+      - name: Structure official source evidence with Copilot
+        id: copilot
+        if: steps.candidate-count.outputs.count != '0' && (github.event_name == 'schedule' || inputs.run_copilot == true)
+        continue-on-error: true
+        env:
+          COPILOT_GITHUB_TOKEN: ${{ secrets.COPILOT_GITHUB_TOKEN }}
+        run: |
+          test -n "$COPILOT_GITHUB_TOKEN" || { echo 'COPILOT_GITHUB_TOKEN is not configured.' >&2; exit 1; }
+          rm -f .commddl-copilot-output.json
+          copilot -p "$(cat scripts/updates/copilot-structure-prompt.md)" \
+            --attachment /tmp/commddl-candidates.json \
+            --allow-tool='write(.commddl-copilot-output.json)' \
+            --no-ask-user -s
+          test -s .commddl-copilot-output.json
+      - name: Validate Copilot evidence and merge structured candidates
+        id: merge-copilot
+        if: steps.candidate-count.outputs.count != '0' && (github.event_name == 'schedule' || inputs.run_copilot == true)
+        continue-on-error: true
+        run: node scripts/updates/merge-copilot-structure.cjs --source /tmp/commddl-candidates.json --copilot .commddl-copilot-output.json --out /tmp/commddl-final-candidates.json
+      - name: Save candidate batch for admin review
+        if: (github.event_name == 'schedule' || (inputs.run_copilot == true && inputs.dry_run == false)) && steps.copilot.outcome != 'failure' && steps.merge-copilot.outcome != 'failure'
         env:
           UPDATE_ADMIN_API_URL: ${{ vars.UPDATE_ADMIN_API_URL }}
           UPDATE_INTERNAL_HMAC_SECRET: ${{ secrets.UPDATE_INTERNAL_HMAC_SECRET }}
-        run: node scripts/updates/service-client.cjs submit --file /tmp/commddl-candidates.json
+        run: node scripts/updates/service-client.cjs submit --file /tmp/commddl-final-candidates.json
+      - name: Preserve candidates when Copilot fails
+        if: steps.candidate-count.outputs.count != '0' && (steps.copilot.outcome == 'failure' || steps.merge-copilot.outcome == 'failure') && (github.event_name == 'schedule' || (inputs.run_copilot == true && inputs.dry_run == false))
+        env:
+          UPDATE_ADMIN_API_URL: ${{ vars.UPDATE_ADMIN_API_URL }}
+          UPDATE_INTERNAL_HMAC_SECRET: ${{ secrets.UPDATE_INTERNAL_HMAC_SECRET }}
+        run: |
+          node scripts/updates/mark-copilot-failure.cjs --source /tmp/commddl-candidates.json --out /tmp/commddl-final-candidates.json
+          node scripts/updates/service-client.cjs submit --file /tmp/commddl-final-candidates.json
+          exit 1
       - uses: actions/upload-artifact@v4
         if: always()
         with:
           name: commddl-collection-${{ github.run_id }}
-          path: /tmp/commddl-candidates.json
+          path: |
+            /tmp/commddl-candidates.json
+            /tmp/commddl-final-candidates.json
+            .commddl-copilot-output.json
           if-no-files-found: ignore
           retention-days: 14
