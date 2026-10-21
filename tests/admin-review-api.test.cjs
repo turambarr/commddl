@@ -23,7 +23,7 @@ test('migration 0003 upgrades an existing review batch without losing its review
   assert.equal(row.status,'awaiting-review');assert.equal(row.final_sha,sha);assert.equal(row.notification_sha,sha);assert.equal(row.reviewer_login,'arofish');assert.equal(row.approved_sha,sha);assert.equal(row.merged_sha,null);assert.equal(row.deployment_status,'pending');
  }finally{sqlite.close();}
 });
-function candidate(){return {items:[{entity:{id:'test-call',kind:'conference'},changes:[{sectionId:'sec-1',type:'content-changed',old:{heading:'Scope'},next:{sectionId:'sec-1',heading:'Scope',sourceUrl:'https://example.org',blocks:[{type:'paragraph',text:'Official text'}]}}]}]};}
+function candidate(){return {items:[{entity:{id:'test-call',kind:'conference'},structuredCandidate:{schemaVersion:'commddl.copilot-structure.v1',status:'ready',summary:'官网信息已结构化。'},changes:[{sectionId:'sec-1',type:'content-added',heading:'Scope',displayHeadingZh:'投稿范围',categoryLabelZh:'主题',old:{heading:'Scope'},next:{sectionId:'sec-1',heading:'Scope',displayHeadingZh:'投稿范围',categoryLabelZh:'主题',sourceUrl:'https://example.org',blocks:[{type:'paragraph',text:'官网范围摘要。'}],evidence:[{sourceUrl:'https://example.org',heading:'Scope',quote:'Official text.'}]}}]}]};}
 async function setup(t,{status='awaiting-review',publish=false,final=false,login='test-maintainer',permission='write',maintainers='test-maintainer',reviewOverride=null,mergeReject=false,pullFiles=[{filename:'README.md',status:'modified',additions:1,deletions:1,patch:'- old\n+ new'}]}={}){
  const DB=d1(),time=new Date().toISOString(),payload=candidate(),sha='a'.repeat(40),calls=[];
  DB.prepare('INSERT INTO projects(id,github_owner,github_repo,created_at) VALUES(?,?,?,?)').bind(project,owner,repo,time).run();
@@ -100,6 +100,27 @@ test('failed PR build releases the source, resets its stale baseline, and allows
  const payload=candidate(),resubmitted=await internal(context,'/internal/update-batches',{id:'batch-1',contentHash:'hash',baseRevision:'c'.repeat(40),status:'fetched',items:payload.items.map(item=>({...item,status:'fetched',pages:[]}))}),body=await resubmitted.json();assert.equal(resubmitted.status,201);assert.equal(body.status,'awaiting-review');assert.equal(body.version,2);
 });
 
+
+test('Copilot can create an auditable new version of an unreviewed saved batch without unlocking its source',async t=>{
+ const context=await setup(t),payload=candidate();payload.id='batch-1';payload.items[0].structuredCandidate={status:'ready',summary:'官网信息已结构化。'};
+ const response=await internal(context,'/internal/update-batches/batch-1/restructured',{expectedVersion:1,candidate:payload}),body=await response.json();assert.equal(response.status,201);assert.equal(body.version,2);assert.equal(body.status,'awaiting-review');
+ const rows=context.DB.prepare('SELECT version,status FROM update_batches WHERE id=? ORDER BY version').bind('batch-1').all().results;assert.deepEqual(rows.map(row=>row.version),[1,2]);assert.equal(context.DB.prepare('SELECT pending_batch_id FROM source_snapshots WHERE entity_id=?').bind('test-call').first().pending_batch_id,'batch-1');assert.equal(context.DB.prepare("SELECT COUNT(*) count FROM audit_log WHERE action='batch.restructured'").first().count,1);
+});
+
+test('Copilot reprocessing rejects stale versions, existing decisions, and PR-bound batches',async t=>{
+ const context=await setup(t),payload=candidate();payload.id='batch-1';
+ const stale=await internal(context,'/internal/update-batches/batch-1/restructured',{expectedVersion:0,candidate:payload});assert.equal(stale.status,409);
+ context.DB.prepare('UPDATE update_batches SET decisions_json=? WHERE id=? AND version=1').bind('{"test-call":{"sec-1":{"action":"reject"}}}','batch-1').run();
+ const decided=await internal(context,'/internal/update-batches/batch-1/restructured',{expectedVersion:1,candidate:payload});assert.equal(decided.status,409);
+ context.DB.prepare("UPDATE update_batches SET decisions_json='{}',pr_number=17,final_sha=? WHERE id=? AND version=1").bind('a'.repeat(40),'batch-1').run();
+ const bound=await internal(context,'/internal/update-batches/batch-1/restructured',{expectedVersion:1,candidate:payload});assert.equal(bound.status,409);
+});
+
+test('legacy raw collector differences can be inspected but cannot be accepted into a data PR',async t=>{
+ const context=await setup(t),payload=candidate();delete payload.items[0].structuredCandidate;for(const change of payload.items[0].changes){delete change.displayHeadingZh;delete change.categoryLabelZh;delete change.next.displayHeadingZh;delete change.next.categoryLabelZh;delete change.next.evidence;}
+ context.DB.prepare('UPDATE update_batches SET payload_json=? WHERE id=? AND version=1').bind(JSON.stringify(payload),'batch-1').run();
+ const response=await context.api('PUT','/api/batches/batch-1/decisions',{decisions:{'test-call':{'sec-1':{action:'accept'}}}});assert.equal(response.status,409);assert.equal((await response.json()).error,'no-reviewable-changes');assert.equal(context.DB.prepare('SELECT COUNT(*) count FROM update_batches WHERE id=?').bind('batch-1').first().count,1);assert.equal(context.DB.prepare('SELECT pending_batch_id FROM source_snapshots WHERE entity_id=?').bind('test-call').first().pending_batch_id,'batch-1');
+});
 
 test('a candidate remains stored and visible with mail entirely unconfigured',async t=>{
  const context=await setup(t),payload=candidate();

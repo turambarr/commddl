@@ -53,15 +53,15 @@ jobs:
           base: main
           branch: codex/official-updates-${{ github.event.client_payload.batchId }}-v${{ github.event.client_payload.version }}
           delete-branch: true
-          commit-message: 'data: apply reviewed official updates'
-          title: 'Review official CommDDL updates: ${{ github.event.client_payload.batchId }}'
+          commit-message: 'data: 应用已审阅的官网更新'
+          title: '审阅 CommDDL 官网更新：${{ github.event.client_payload.batchId }}'
           body: |
-            This PR applies the decisions saved in the CommDDL admin review page.
+            本 PR 根据 CommDDL 管理后台保存的审阅决定更新正式数据。
 
-            Batch: `${{ github.event.client_payload.batchId }}`
-            Version: `${{ github.event.client_payload.version }}`
+            批次： `${{ github.event.client_payload.batchId }}`
+            版本：`${{ github.event.client_payload.version }}`
 
-            The public data build and catalog validation completed in this workflow.
+            此工作流已完成公开目录构建和数据校验。最终合并仍需人工审核并遵循仓库保护规则。
           add-paths: data/**
       - name: Record final PR revision and notify reviewers
         if: steps.cpr.outputs.pull-request-number != ''

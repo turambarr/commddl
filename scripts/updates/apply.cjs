@@ -6,7 +6,8 @@ const YAML=require('yaml');
 const {loadCatalog,sourcePath}=require('../catalog.cjs');
 const {validateCatalog}=require('../validate.cjs');
 const ROOT=path.join(__dirname,'../..');
-const keys=['sectionId','parentId','heading','headingLevel','order','category','sourceUrl','sourceAnchor','blocks','structuredValue','evidence','uncertainty','sourceHeadingPath'];
+const keys=['sectionId','parentId','heading','displayHeadingZh','headingLevel','order','category','categoryLabelZh','sourceUrl','sourceAnchor','blocks','structuredValue','evidence','uncertainty','sourceHeadingPath'];
+function reviewableChanges(item){return (item.changes||[]).filter(change=>change.type==='node-date-changed'||(['ready','uncertain'].includes(item.structuredCandidate?.status)&&Array.isArray(change.next?.evidence)&&change.next.evidence.length>0&&Boolean(change.displayHeadingZh||change.next.displayHeadingZh)&&Boolean(change.categoryLabelZh||change.next.categoryLabelZh)));}
 function applyNodeDateChange(call,change,decision,recordedAt=new Date().toISOString()){
  const nodeId=change.nodeId;if(!nodeId)throw new Error('日期候选缺少稳定 nodeId。');
  const node=(call.nodes||[]).find(item=>item.id===nodeId);if(!node)throw new Error(`${call.id}: 找不到日期节点 ${nodeId}。`);
@@ -34,8 +35,9 @@ function main(){
  if(!batch.baseRevision)throw new Error('候选未绑定基线 SHA，拒绝生成源数据补丁。');
  const head=execFileSync('git',['rev-parse','HEAD'],{cwd:ROOT,encoding:'utf8'}).trim();if(head!==batch.baseRevision)throw new Error(`基线已变化：候选 ${batch.baseRevision}，当前 ${head}。请重新采集并审阅。`);
  const catalog=loadCatalog(ROOT),entities=new Map([...catalog.venues,...catalog.calls].map(item=>[item.id,item])),updates=new Map(),verifiedAt=new Date().toISOString().slice(0,10);
- for(const item of batch.items||[]){const id=item.entity?.id,entity=entities.get(id);if(!entity)throw new Error(`未知维护实体：${id}`);const decisionMap=decisions[id]||decisions;
-  for(const change of item.changes||[]){const decision=decisionMap[change.sectionId];if(!decision||decision.action==='pending'||decision.action==='reject')continue;if(!['accept','edit'].includes(decision.action))throw new Error(`${change.sectionId}: 决策状态无效。`);
+ for(const item of batch.items||[]){const id=item.entity?.id,entity=entities.get(id);if(!entity)throw new Error(`未知维护实体：${id}`);const decisionMap=decisions[id]||decisions,reviewable=reviewableChanges(item),reviewableIds=new Set(reviewable.map(change=>change.sectionId));
+  for(const change of item.changes||[])if(decisionMap[change.sectionId]&&!reviewableIds.has(change.sectionId))throw new Error(`${change.sectionId}: 未经 Copilot 证据校验的原始差异不能应用；请重新整理候选。`);
+  for(const change of reviewable){const decision=decisionMap[change.sectionId];if(!decision||decision.action==='pending'||decision.action==='reject')continue;if(!['accept','edit'].includes(decision.action))throw new Error(`${change.sectionId}: 决策状态无效。`);
    const source=decision.action==='edit'?decision.section:change.next;if(!source&&change.type!=='possibly-removed'&&change.type!=='node-date-changed')throw new Error(`${change.sectionId}: 缺少可应用的官网分段。`);
    const file=path.join(ROOT,sourcePath(entity));if(!updates.has(file)){const doc=YAML.parseDocument(fs.readFileSync(file,'utf8'),{version:'1.2',schema:'core',uniqueKeys:true,stringKeys:true,merge:false});if(doc.errors.length)throw new Error(`${id}: YAML 解析失败：${doc.errors.map(error=>error.message).join('; ')}`);const data=doc.toJS({maxAliasCount:0});updates.set(file,{doc,data,sections:Array.isArray(data.officialSections)?data.officialSections:[],sectionsChanged:false});}
    const entry=updates.get(file);if(change.type==='node-date-changed'){
@@ -62,4 +64,4 @@ function main(){
  console.log(`已应用 ${updates.size} 个 YAML 文件；完整目录结构检查通过。请运行 check、test 和 build 后创建 PR。`);
 }
 if(require.main===module){try{main();}catch(error){console.error(error.message);process.exitCode=1;}}
-module.exports={applyNodeDateChange};
+module.exports={applyNodeDateChange,reviewableChanges};
