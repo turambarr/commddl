@@ -35,7 +35,10 @@ function main(){
    const evidence=observation.evidence.map(entry=>{
     if(!entry||typeof entry.sourceUrl!=='string'||typeof entry.quote!=='string'||!entry.quote.trim()||entry.quote.length>1200)throw new Error(`${entityId}/${observation.title}: 证据必须包含来源 URL 和不超过 1200 字的原文引句。`);
     const source=sourceMap.get(entry.sourceUrl);if(!source||!source.text.includes(entry.quote))throw new Error(`${entityId}/${observation.title}: 引句不匹配已采集的官网正文或来源链接。`);
-    const sourceSection=source.sections.find(section=>(!entry.heading||section.heading===entry.heading)&&section.text.includes(entry.quote));if(!sourceSection)throw new Error(`${entityId}/${observation.title}: 引句与所列官网标题不属于同一结构分段。`);
+    // Copilot may cite a section's parent heading while quoting a child
+    // section. Keep the evidence bound to the exact quoted section, but accept
+    // any exact heading on that section's verified ancestor path.
+    const sourceSection=source.sections.find(section=>(!entry.heading||section.sourceHeadingPath.includes(entry.heading))&&section.text.includes(entry.quote));if(!sourceSection)throw new Error(`${entityId}/${observation.title}: 引句与所列官网标题不属于同一结构分段。`);
     const pathText=sourceSection.sourceHeadingPath.join(' / ');if(sourceSection.sourceHeadingPath.some(heading=>noiseHeading.test(String(heading||'').trim()))||noiseHeading.test(String(observation.title||'').trim()))throw new Error(`${entityId}/${observation.title}: 登录、导航或账户辅助内容不能作为正式候选。`);
     return {sourceUrl:entry.sourceUrl,heading:sourceSection.heading,headingLevel:sourceSection.headingLevel||null,sourceAnchor:sourceSection.sourceAnchor||null,sourceHeadingPath:sourceSection.sourceHeadingPath,quote:entry.quote};
    });
