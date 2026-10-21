@@ -29,7 +29,7 @@ function main(){
  for(const [entityId,item] of baseById){
   const sourceMap=pageEvidence(item),result=aiById.get(entityId),observations=Array.isArray(result.observations)?result.observations:[];
   if(!['ready','uncertain','insufficient-evidence'].includes(result.status)||!hasChinese(result.summary)||!Array.isArray(result.limitations||[])||(result.limitations||[]).some(value=>!hasChinese(String(value))))throw new Error(`${entityId}: 状态、简体中文摘要或 limitations 无效。`);
-  const checked=[];
+  const checked=[],verifiedAt=new Date().toISOString().slice(0,10);
   for(const observation of observations){
    if(!observation||typeof observation.category!=='string'||!observation.category.trim()||typeof observation.title!=='string'||!observation.title.trim()||!hasChinese(observation.categoryLabelZh)||!hasChinese(observation.titleZh)||!hasChinese(observation.summary)||!observation.uncertainty||!['low','medium','high'].includes(observation.uncertainty.level)||!hasChinese(observation.uncertainty.reason)||!Array.isArray(observation.evidence)||!observation.evidence.length)throw new Error(`${entityId}: 结构化观察必须包含简体中文类别、标题、摘要、不确定性和来源证据。`);
    const evidence=observation.evidence.map(entry=>{
@@ -43,11 +43,11 @@ function main(){
     return {sourceUrl:entry.sourceUrl,heading:sourceSection.heading,headingLevel:sourceSection.headingLevel||null,sourceAnchor:sourceSection.sourceAnchor||null,sourceHeadingPath:sourceSection.sourceHeadingPath,quote:entry.quote};
    });
    const serialized=JSON.stringify(observation.value===undefined?null:observation.value);if(serialized.length>12000)throw new Error(`${entityId}/${observation.title}: structured value 超过 12 KB。`);
-   checked.push({...observation,evidence});
+   checked.push({...observation,evidence,verifiedAt});
   }
   if(result.status==='ready'&&observations.length===0)throw new Error(`${entityId}: ready 状态至少应含一条有证据的观察。`);
   if(result.status==='insufficient-evidence'&&observations.length)throw new Error(`${entityId}: 证据不足时 observations 必须为空。`);
-  item.structuredCandidate={schemaVersion:ai.schemaVersion,status:result.status,summary:result.summary,observations:checked,limitations:(result.limitations||[]).map(String)};
+  item.structuredCandidate={schemaVersion:ai.schemaVersion,status:result.status,summary:result.summary,checkedAt:verifiedAt,observations:checked,limitations:(result.limitations||[]).map(String)};
   const entity=entities.get(entityId);if(!entity)throw new Error(`未知目录实体：${entityId}`);
   const sourceChanges=item.changes||[];item.sourceChanges=sourceChanges;
   // Date nodes keep their established parser and stable IDs. General page
@@ -55,9 +55,9 @@ function main(){
   item.changes=sourceChanges.filter(change=>change.type==='node-date-changed');
   for(const observation of checked){
    const sectionId=`copilot-${slug(observation.category)}-${crypto.createHash('sha256').update(`${observation.category}\n${observation.title}`).digest('hex').slice(0,10)}`;
-   const primaryEvidence=observation.evidence[0],section={sectionId,heading:observation.title,displayHeadingZh:observation.titleZh,category:observation.category,categoryLabelZh:observation.categoryLabelZh,sourceUrl:primaryEvidence.sourceUrl,headingLevel:primaryEvidence.headingLevel||undefined,sourceAnchor:primaryEvidence.sourceAnchor||undefined,sourceHeadingPath:primaryEvidence.sourceHeadingPath,blocks:[{type:'paragraph',text:observation.summary}],...(observation.value===undefined?{}:{structuredValue:observation.value}),evidence:observation.evidence,uncertainty:observation.uncertainty};
+   const primaryEvidence=observation.evidence[0],section={sectionId,heading:observation.title,displayHeadingZh:observation.titleZh,category:observation.category,categoryLabelZh:observation.categoryLabelZh,sourceUrl:primaryEvidence.sourceUrl,headingLevel:primaryEvidence.headingLevel||undefined,sourceAnchor:primaryEvidence.sourceAnchor||undefined,sourceHeadingPath:primaryEvidence.sourceHeadingPath,verifiedAt,blocks:[{type:'paragraph',text:observation.summary}],...(observation.value===undefined?{}:{structuredValue:observation.value}),evidence:observation.evidence,uncertainty:observation.uncertainty};
    const old=(entity.officialSections||[]).find(entry=>entry.sectionId===sectionId);
-   if(old&&JSON.stringify({...old,verifiedAt:undefined})===JSON.stringify(section))continue;
+   if(old&&JSON.stringify({...old,verifiedAt:undefined})===JSON.stringify({...section,verifiedAt:undefined}))continue;
    if(item.changes.some(change=>change.sectionId===sectionId))continue;
    item.changes.push({type:old?'content-changed':'content-added',sectionId,heading:section.heading,displayHeadingZh:section.displayHeadingZh,categoryLabelZh:section.categoryLabelZh,sourceUrl:section.sourceUrl,...(old?{old}:{}),next:section});
   }
