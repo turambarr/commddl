@@ -11,9 +11,9 @@
 | D1 | `commddl-admin`，ID `1f9c42d3-4148-4ade-92e4-c76dcb77f689` | Cloudflare D1 → 数据库 → Migrations，核对 `0001`、`0002`、`0003` 各一条；不要重跑旧迁移 |
 | 既往 Worker 部署记录 | 用户提供过版本 `01b97ec2-875a-4a19-958e-2f40d8addaf1` 与 `1a590082-32a5-4f37-b6e4-1d9add2cb6ae` | 两个版本均早于当前 `main` 的部分代码；不能据此称当前功能已部署 |
 | App 私钥 | 所有者报告已保存为 `UPDATE_GITHUB_APP_PRIVATE_KEY` | 不读取、不复制、不重新生成。仅检查成功的 App-token workflow 结果 |
-| OFC 来源 | 曾成功抓取官网结构并保存原始候选 `updates-2026-10-21-23f4b82855` v1 | 管理后台确认当前批次版本、决定和通知状态 |
+| OFC 来源 | 曾成功抓取官网结构并保存原始候选 `updates-2026-10-21-23f4b82855` v1；Chrome 只读核验为 `notice-incomplete` | 旧 v1 含登录/账户提示与营销内容；PR #9 合并部署后，先用 `retry_batch_id` 复用证据生成 v2，再由管理员审阅 |
 | Copilot 真实调用 | 曾有一次 workflow 运行，但 CLI 在发起模型请求前因 JSON attachment 类型拒绝而失败 | [Actions run #5](https://github.com/turambarr/commddl/actions/runs/39588240304)。此次不能记为 Copilot 成功；再次真实调用需单独授权 |
-| 邮件 | 之前观察到无发件配置、启用收件邮箱为 0 | Worker `/api/session` 的 `mailReady` 和 `enabledRecipients`，再由用户通过后台添加/验证收件人 |
+| 邮件 | 2026-10-21 Chrome 生产后台只读状态为邮件待配置、启用收件邮箱 0 | 后台 `/api/session` 显示 `mailReady=false`、`enabledRecipients=0`；保持候选采集与审阅可用 |
 | 运行开关 | schedule 与发布按交接要求保持关闭 | 实际值须在下表指定平台逐项核对；不能用本地默认值推断线上值 |
 
 身份权限目标：所有者 `turambarr` 必须实时拥有仓库 `admin`；维护者 `arofish` 必须由所有者明确列入名单，且 GitHub 实时权限至少为 `write`。有写权限本身不会自动成为后台管理员。撤销仓库权限或移出名单后，下次受保护请求应立即拒绝。

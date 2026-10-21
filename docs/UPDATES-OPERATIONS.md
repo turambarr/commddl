@@ -10,7 +10,7 @@
 - `UPDATE_AUTOMATION_ENABLED=false`、`COPILOT_COLLECTION_ENABLED=false`、`PUBLISH_ENABLED=false`。半月 schedule 和网页发布继续关闭。
 - 已授权的唯一一次 Copilot workflow 调用失败在模型请求前：GitHub Copilot CLI 将 JSON 作为 `--attachment` 参数时拒绝该文件类型。官方 OFC 页面采集成功，并保存了原始候选 `updates-2026-10-21-23f4b82855` v1。Copilot 没有生成经验证的结构化结果。
 - 当时邮件提供商未配置、启用收件邮箱数为 0。邮件失败不能阻止候选入库、后台查看、保存决定或重试提醒。真实邮件闭环尚未完成。
-- 运行记录：[失败的 Copilot workflow #5](https://github.com/turambarr/commddl/actions/runs/39588240304)；OFC 候选页面和后台记录需用有权限账号核验。此候选的当前版本、决定状态和通知状态应以 Worker 返回为准。
+- 运行记录：[失败的 Copilot workflow #5](https://github.com/turambarr/commddl/actions/runs/39588240304)。2026-10-21 在 Chrome 对生产后台进行只读核验：`turambarr` 会话有效，启用收件人 0、邮件待配置；OFC 候选仍为 v1 `notice-incomplete`。展开内容出现登录/账户帮助与营销段落，说明旧批次不能直接作为正式差异接受。PR #9 加入服务端和 YAML 应用层门禁；合并部署后可对该批次复用原官网证据重新整理为同 ID 新版本。
 
 ## 数据流
 
@@ -29,7 +29,7 @@
 ## 失败处理
 
 - 页面采集失败：查看 Actions artifact 与 Worker source snapshot；按失败队列重试，不用失败结果覆盖上一条成功基线。
-- Copilot 失败或输出校验不通过：查看 workflow 日志和保留的 artifact；候选会被明确标记为未结构化。确认解决问题后按上节重新整理原批次。
+- Copilot 失败或输出校验不通过：查看 workflow 日志和保留的 artifact；原始差异只用于追溯，API 和正式数据应用器都会拒绝直接接受未经结构化校验的内容。确认解决问题后按上节重新整理原批次。
 - 通知失败：后台重试邮件；不重跑来源采集，也不把邮件状态当作审批结果。
 - PR 构建失败：workflow 将可恢复的构建批次标记失败并释放来源锁；确认后可重采。
 - PR SHA 或 diff 改变：旧审核不再适用。重新加载最终 PR 差异，并对最新 SHA 审阅。

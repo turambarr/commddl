@@ -51,6 +51,7 @@ async function classifyPullRequest(row,env,token){
  }catch{return {manual:true,reason:'diff-unavailable'};}
 }
 function mailReady(env){return env.MAIL_PROVIDER==='ses'?Boolean(env.AWS_SES_REGION&&env.AWS_SES_ACCESS_KEY_ID&&env.AWS_SES_SECRET_ACCESS_KEY&&env.MAIL_FROM):Boolean(env.RESEND_API_KEY&&env.MAIL_FROM);}
+function reviewableChanges(item){return (item.changes||[]).filter(change=>change.type==='node-date-changed'||(['ready','uncertain'].includes(item.structuredCandidate?.status)&&Array.isArray(change.next?.evidence)&&change.next.evidence.length>0&&Boolean(change.displayHeadingZh||change.next.displayHeadingZh)&&Boolean(change.categoryLabelZh||change.next.categoryLabelZh)));}
 const utf8=value=>new TextEncoder().encode(value);
 async function hmacBytes(key,value){const imported=await crypto.subtle.importKey('raw',key,{name:'HMAC',hash:'SHA-256'},false,['sign']);return new Uint8Array(await crypto.subtle.sign('HMAC',imported,utf8(value)));}
 async function sendSesMail(env,{to,subject,text,html,idempotencyKey}){
@@ -97,13 +98,13 @@ async function batchRoutes(request,env,session){const parts=new URL(request.url)
  const row=await env.DB.prepare('SELECT * FROM update_batches WHERE id=? AND project_id=? ORDER BY version DESC LIMIT 1').bind(id,pid).first();if(!row)return fail(404,'batch-not-found');if(request.method==='GET'&&parts[3]==='classification')return json(await classifyPullRequest(row,env,session.token));if(request.method==='GET')return json({...row,payload:JSON.parse(row.payload_json),decisions:JSON.parse(row.decisions_json)});
  if(request.method==='PUT'&&parts[3]==='decisions'){
   if(row.status!=='awaiting-review')return fail(409,'batch-not-reviewable','当前版本暂不能保存发布决策。');const body=await parseBody(request);if(!body.decisions||typeof body.decisions!=='object')return fail(400,'invalid-decisions');
-  const items=(JSON.parse(row.payload_json).items||[]).filter(item=>(item.changes||[]).length),expected=new Map(items.map(item=>[item.entity.id,new Set(item.changes.map(change=>change.sectionId))]));
+  const items=(JSON.parse(row.payload_json).items||[]).map(item=>({...item,reviewableChanges:reviewableChanges(item)})).filter(item=>item.reviewableChanges.length),expected=new Map(items.map(item=>[item.entity.id,new Set(item.reviewableChanges.map(change=>change.sectionId))]));
   if(!expected.size)return fail(409,'no-reviewable-changes','本批没有可审阅的候选变更；失败来源可通过重试采集恢复。');
   if(Object.keys(body.decisions).length!==expected.size||Object.keys(body.decisions).some(entityId=>!expected.has(entityId)))return fail(400,'incomplete-decisions','请为每项候选明确选择接受、修正或拒绝。');
   for(const [entityId,sectionIds] of expected){const decisions=body.decisions[entityId];if(!decisions||typeof decisions!=='object'||Object.keys(decisions).length!==sectionIds.size||Object.keys(decisions).some(sectionId=>!sectionIds.has(sectionId)))return fail(400,'incomplete-decisions','请为每项候选明确选择接受、修正或拒绝。');}
   const decisionEntries=items.flatMap(item=>Object.entries(body.decisions[item.entity.id]).map(([sectionId,decision])=>({item,sectionId,decision}))),allDecisions=decisionEntries.map(entry=>entry.decision);
   for(const decision of allDecisions)if(!['accept','reject','edit'].includes(decision.action))return fail(400,'invalid-decision-action');
-  if(decisionEntries.some(({item,sectionId,decision})=>decision.action==='edit'&&((item.changes||[]).find(change=>change.sectionId===sectionId)?.type==='node-date-changed'?(!validISODate(decision.date)):(!decision.section||!Array.isArray(decision.section.blocks)))))return fail(400,'invalid-correction','修正项缺少有效的结构化内容或日期。');
+  if(decisionEntries.some(({item,sectionId,decision})=>decision.action==='edit'&&(item.reviewableChanges.find(change=>change.sectionId===sectionId)?.type==='node-date-changed'?(!validISODate(decision.date)):(!decision.section||!Array.isArray(decision.section.blocks)))))return fail(400,'invalid-correction','修正项缺少有效的结构化内容或日期。');
   const version=row.version+1,time=now();
   if(allDecisions.every(decision=>decision.action==='reject')){
    await env.DB.prepare("INSERT INTO update_batches(id,project_id,version,status,base_sha,content_hash,payload_json,decisions_json,notification_version,notification_status,created_at,updated_at) VALUES(?,?,?,?,?,?,?,?,?,?,?,?)").bind(row.id,pid,version,'rejected',row.base_sha,row.content_hash,row.payload_json,JSON.stringify(body.decisions),version,'complete',time,time).run();
