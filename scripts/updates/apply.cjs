@@ -6,7 +6,7 @@ const YAML=require('yaml');
 const {loadCatalog,sourcePath}=require('../catalog.cjs');
 const {validateCatalog}=require('../validate.cjs');
 const ROOT=path.join(__dirname,'../..');
-const keys=['sectionId','parentId','heading','headingLevel','order','category','sourceUrl','sourceAnchor','blocks'];
+const keys=['sectionId','parentId','heading','headingLevel','order','category','sourceUrl','sourceAnchor','blocks','structuredValue','evidence','uncertainty','sourceHeadingPath'];
 function applyNodeDateChange(call,change,decision,recordedAt=new Date().toISOString()){
  const nodeId=change.nodeId;if(!nodeId)throw new Error('日期候选缺少稳定 nodeId。');
  const node=(call.nodes||[]).find(item=>item.id===nodeId);if(!node)throw new Error(`${call.id}: 找不到日期节点 ${nodeId}。`);

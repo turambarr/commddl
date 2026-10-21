@@ -25,6 +25,14 @@ test('public catalog contains positive properties while preserving the full main
  assert.equal(publicData.venues.length,raw.venues.length);
 });
 
+
+test('public official sections retain structured values, evidence, and uncertainty',()=>{
+ const raw=structuredClone(maintenance),v=raw.venues.find(v=>v.kind==='journal');
+ v.officialSections=[{sectionId:'copilot-aims',heading:'Aims and Scope',sourceUrl:'https://publisher.example/about',blocks:[{type:'paragraph',text:'Summary'}],structuredValue:{scope:['communications','networking']},evidence:[{sourceUrl:'https://publisher.example/about',heading:'Aims and Scope',quote:'Official evidence sentence.'}],uncertainty:{level:'medium',reason:'The page does not define coverage limits.'}}];
+ const published=makePublicCatalog(raw).venues.find(x=>x.id===v.id).officialSections[0];
+ assert.deepEqual(published.structuredValue,{scope:['communications','networking']});assert.equal(published.evidence[0].quote,'Official evidence sentence.');assert.equal(published.uncertainty.level,'medium');
+});
+
 test('unpublished calls migrate favorites to the parent and unknown secondary nodes stay in maintenance',()=>{
  const raw=structuredClone(maintenance),v=raw.venues[0];
  const primary={id:'paper',label:'全文提交',type:'paper',primary:true,precision:'date',date:'2027-01-01',original:'Jan 1',revision:2};
