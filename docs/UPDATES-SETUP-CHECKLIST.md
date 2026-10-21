@@ -16,7 +16,7 @@
 | 邮件 | 2026-10-21 Chrome 生产后台只读状态为邮件待配置、启用收件邮箱 0 | 后台 `/api/session` 显示 `mailReady=false`、`enabledRecipients=0`；保持候选采集与审阅可用 |
 | 运行开关 | schedule 与发布按交接要求保持关闭 | 实际值须在下表指定平台逐项核对；不能用本地默认值推断线上值 |
 
-身份权限目标：所有者 `turambarr` 必须实时拥有仓库 `admin`；维护者 `arofish` 必须由所有者明确列入名单，且 GitHub 实时权限至少为 `write`。有写权限本身不会自动成为后台管理员。撤销仓库权限或移出名单后，下次受保护请求应立即拒绝。
+身份权限目标：所有者 `turambarr` 必须实时拥有仓库 `admin`；维护者必须由所有者明确列入名单，且 GitHub 实时权限至少为 `write`。`arofish` 与 `wy-02` 已由所有者授权；截至 2026-10-21，GitHub collaborator permission API 返回 `wy-02` 对目标仓库为 `write`。有写权限本身不会自动成为后台管理员。撤销仓库权限或移出名单后，下次受保护请求应立即拒绝。
 
 ## 2. 开关与保存位置
 
@@ -40,7 +40,7 @@
 |---|---|
 | `GITHUB_OWNER` | `turambarr` |
 | `GITHUB_REPO` | `commddl` |
-| `AUTHORIZED_MAINTAINERS` | 所有者批准的 GitHub login 列表；当前目标为 `arofish` |
+| `AUTHORIZED_MAINTAINERS` | 所有者批准的 GitHub login 列表；当前目标为 `arofish,wy-02` |
 | `ADMIN_ORIGIN` | Worker HTTPS 根地址，不带路径或末尾斜杠 |
 | `GITHUB_CLIENT_ID` | OAuth App Client ID |
 | `PUBLISH_ENABLED` | `false`，直至独立验收 |
@@ -77,7 +77,7 @@ Cloudflare Token 只在所有者本机隐藏输入，用于核验或部署。其
 - Homepage URL：`https://commddl-admin.1319630151.workers.dev`
 - Authorization callback URL：`https://commddl-admin.1319630151.workers.dev/auth/callback`
 - OAuth Scope 由应用使用 `read:user public_repo`；不要扩大到全仓库 `repo`。
-- 登录后访问 `https://commddl-admin.1319630151.workers.dev/api/session`，确认 `login`、`project`、`mailReady` 与 `enabledRecipients`。分别核验 `turambarr` 和 `arofish`；不要把 session token 或 OAuth Secret 输出到日志。
+- 登录后访问 `https://commddl-admin.1319630151.workers.dev/api/session`，确认 `login`、`project`、`mailReady` 与 `enabledRecipients`。分别核验 `turambarr`、`arofish` 和 `wy-02`；不要把 session token 或 OAuth Secret 输出到日志。
 
 ### Actions Variables 与 Secrets
 
