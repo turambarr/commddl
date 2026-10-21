@@ -11,7 +11,8 @@ const {compareSections}=require('./compare.cjs');
 const ROOT=path.join(__dirname,'../..');
 const POLICY=JSON.parse(fs.readFileSync(path.join(__dirname,'policy.json'),'utf8'));
 const htmlHash=text=>crypto.createHash('sha256').update(text).digest('hex');
-const LINK_RE=/(about|aims|scope|topic|cfp|call.for|submission|author|paper|publication|important.date|guideline|投稿|征稿|主题|范围|作者|日期)/i;
+const LINK_RE=/(aims|scope|topic|subject|research.area|theme|cfp|call.for|submission|author|paper|publication|important.date|deadline|guideline|投稿|征稿|主题|范围|作者|日期|领域)/i;
+const LINK_NOISE=/(?:^|\/)(?:account|login|register|sign[-_]?up|contact|news|press|media|hotel|travel|sponsor|sponsorship|archive|archives|membership|donate)(?:\/|$)/i;
 function parseDeadlineDate(value){const text=String(value||'').trim();let match=text.match(/\b(20\d{2})[-/.](\d{1,2})[-/.](\d{1,2})\b/);if(match)return `${match[1]}-${match[2].padStart(2,'0')}-${match[3].padStart(2,'0')}`;const parsed=Date.parse(`${text} UTC`);if(!Number.isFinite(parsed))return null;const date=new Date(parsed),year=date.getUTCFullYear();return year>=2020&&year<=2100?date.toISOString().slice(0,10):null;}
 function normalizeBaselines(value){return value?.baselines&&typeof value.baselines==='object'?value.baselines:value||{};}
 function retryDelayHours(retryCount,retryAfterSeconds=0){return Math.max(Math.min(48,2**Math.min(Math.max(0,Number(retryCount)||0),6)),Math.max(0,Number(retryAfterSeconds)||0)/3600);}
@@ -54,7 +55,7 @@ function parseArgs(args){const out={ids:[],dryRun:false,limit:POLICY.batchLimit}
 function seedsFor(item,venue){return [...new Set([item.url,item.sourceUrl,item.authorGuideUrl,item.cfpUrl,...(!item.venueId?[venue.url,venue.sourceUrl,venue.authorGuideUrl,venue.cfpUrl]:[])].filter(value=>typeof value==='string'&&/^https:\/\//i.test(value)))];}
 function discoveredLinks(html,baseUrl){
  const $=cheerio.load(html),base=new URL(baseUrl),links=[];
- $('a[href]').each((_,el)=>{const href=$(el).attr('href'),label=$(el).text().replace(/\s+/g,' ').trim();if(!href||!LINK_RE.test(`${label} ${href}`))return;try{const url=new URL(href,base);if(url.protocol==='https:'&&url.hostname===base.hostname&&!/\.(pdf|zip|ics|png|jpe?g|svg|css|js)(?:$|\?)/i.test(url.pathname))links.push({url:url.href,label});}catch{}});
+ $('a[href]').each((_,el)=>{const href=$(el).attr('href'),label=$(el).text().replace(/\s+/g,' ').trim();if(!href||!LINK_RE.test(`${label} ${href}`))return;try{const url=new URL(href,base);if(url.protocol==='https:'&&url.hostname===base.hostname&&!LINK_NOISE.test(url.pathname)&&!/(?:^|\/)about(?:\/|$)/i.test(url.pathname)&&!/\.(pdf|zip|ics|png|jpe?g|svg|css|js)(?:$|\?)/i.test(url.pathname))links.push({url:url.href,label});}catch{}});
  return [...new Map(links.map(item=>[item.url,item])).values()];
 }
 async function collectEntity(item,venue,baseline=[],retryCount=0){
@@ -104,4 +105,4 @@ async function main(){
  process.stdout.write(JSON.stringify(output,null,2)+'\n');
 }
 if(require.main===module)main().catch(error=>{console.error(error.message);process.exitCode=1;});
-module.exports={collectEntity,dateChanges,parseDeadlineDate,normalizeBaselines,retryDelayHours};
+module.exports={collectEntity,dateChanges,parseDeadlineDate,normalizeBaselines,retryDelayHours,discoveredLinks};
