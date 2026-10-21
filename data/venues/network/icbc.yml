@@ -8,16 +8,16 @@ nameEn: IEEE International Conference on Blockchain and Cryptocurrency
 aliases: []
 topics:
   - security
-  - protocols
+  - computing-systems
 areas:
   - network
-topicReviewedAt: 2026-10-18
+topicReviewedAt: 2026-10-21
 url: http://www.ieee-icbc.org/
 sourceUrl: https://www.comsoc.org/conferences-events/portfolio-conferences-events
 verifiedAt: 2026-10-18
 verification: verified
 catalogStatus: current
-summary: 覆盖通信与网络安全、网络协议与体系结构相关研究。
+summary: 通信与网络安全；并行分布式计算与计算系统相关研究。
 publicationType: 学术会议系列
 articleTypes:
   - 会议论文

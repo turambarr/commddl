@@ -7,9 +7,9 @@ titleEn: International Conference on Indoor Positioning and Indoor Navigation
 year: 2026
 kind: conference
 areas:
-  - space
   - signal
   - wireless
+  - iot
 topics:
   - navigation-pnt
   - estimation-sync
@@ -73,3 +73,4 @@ history:
     to: 2026-08-31
     sourceUrl: https://ipin-conference.org/2026/
     checkedAt: 2026-10-18
+topicReviewedAt: 2026-10-21

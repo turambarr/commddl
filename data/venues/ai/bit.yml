@@ -14,7 +14,8 @@ secondaryAreas: []
 areas:
   - ai
 topics:
-  - ai-communications
+  - human-computer
+  - information-systems
 url: https://portal.issn.org/resource/ISSN/0144-929X
 urlKind: registry
 sourceUrl: https://api.crossref.org/journals/0144-929X
@@ -188,6 +189,7 @@ indexing:
   eissn: 1362-3001
   page: 125
   note: 读取Edition明确索引列，非从分区推定；为2024数据/2025年6月快照，不冒充2026实时索引状态。
-topicReviewedAt: 2026-10-19
+topicReviewedAt: 2026-10-21
 scopeReviewedAt: 2026-10-19
 ratingReviewedAt: 2026-10-19
+summary: 人机交互与用户体验；信息检索、数据管理与信息系统相关研究。

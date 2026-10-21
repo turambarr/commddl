@@ -40,6 +40,29 @@ test('topic URL selections reject unknown IDs, remove duplicates and respect dir
   assert.deepEqual(C.cleanTopics(['isac','isac','unknown','fiber'],data.topics),['isac','fiber']);
   assert.deepEqual(C.cleanTopics(['isac','fiber'],data.topics,'optical'),['fiber']);
 });
+test('official subject corrections distinguish language semantics, cryptography and optical sensing',()=>{
+  const has=(topic,id)=>C.filterVenues(data.venues,{topics:[topic]}).some(v=>v.id===id);
+  assert(has('language-processing','emnlp'));assert(!has('semantic-task','emnlp'));
+  assert(has('security','tdsc'));assert(!has('information-theory','tdsc'));
+  assert(has('cryptography','crypto'));assert(!has('channel-coding','crypto'));
+  assert(has('optical-sensing','photonic-sensors'));assert(!has('isac','photonic-sensors'));
+  assert(has('circuits-devices','jssc'));assert(!has('microwave','jssc'));
+});
+test('scope corrections remain compatible with indexing, primary direction and CFP filtering',()=>{
+  const journals=C.filterVenues(data.venues,{venueKind:'journal',area:'rf',primaryOnly:true,index:'SCIE',topics:['circuits-devices']});
+  assert(journals.some(v=>v.id==='jssc'));assert(journals.every(v=>v.primaryArea==='rf'));
+  const indoor=C.filterVenues(data.venues,{area:'space',primaryOnly:true,query:'J-ISPIN'});
+  assert.equal(indoor.length,0);
+  const optical=data.calls.find(c=>c.id==='wcm-underwater-optical-2026');
+  assert.equal(C.filterCalls([optical],data.venues,{topics:['ai-communications'],showPast:true},NOW).length,1);
+  assert.equal(C.filterCalls([optical],data.venues,{topics:['satellite-ntn'],showPast:true},NOW).length,0);
+});
+test('topic search aliases do not conflate MIMO with RIS or satellites with UAVs',()=>{
+  const samples=[{id:'mimo-only',topics:['mimo'],areas:['wireless'],primaryArea:'wireless',short:'Sample',nameEn:'Sample'},
+    {id:'sat-only',topics:['satellite-ntn'],areas:['space'],primaryArea:'space',short:'Sample',nameEn:'Sample'}];
+  assert.equal(C.filterVenues(samples,{query:'RIS',taxonomy:data.topics}).length,0);
+  assert.equal(C.filterVenues(samples,{query:'无人机',taxonomy:data.topics}).length,0);
+});
 test('all venues and calls use known subjects, every subject has a directory entry',()=>{
   const ids=new Set(data.topics.map(t=>t.id));
   for(const item of [...data.venues,...data.calls])assert(item.topics.length&&item.topics.every(t=>ids.has(t)),item.id);

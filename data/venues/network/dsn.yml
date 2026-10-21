@@ -11,9 +11,8 @@ areas:
 primaryArea: network
 secondaryAreas: []
 topics:
-  - protocols
-  - mobile-systems
   - security
+  - computing-systems
 url: https://dsn2026.github.io/
 sourceUrl: https://dsn2026.github.io/
 sourceType: official
@@ -186,6 +185,7 @@ evaluations:
     page: 21
     note: 按完整英文名称核对 CCF2026 目录 PDF 第 21 页。该等级属于 2026 年版本；保存公开副本来源属性。
 submissionMode: 查看当届征稿
-topicReviewedAt: 2026-10-19
+topicReviewedAt: 2026-10-21
 scopeReviewedAt: 2026-10-19
 ratingReviewedAt: 2026-10-19
+summary: 通信与网络安全；并行分布式计算与计算系统相关研究。

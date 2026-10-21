@@ -12,6 +12,9 @@ topics:
   - protocols
   - measurement
   - network-management
+  - edge-cloud
+  - ai-communications
+  - security
 tags: []
 summary: 网络系统、数据中心与互联网，包含早期研究短文。
 sourceUrl: https://conferences.sigcomm.org/events/apnet2026/cfp.php
@@ -57,3 +60,4 @@ eventDates: 2026-08-06 / 2026-08-07
 publication: null
 history: []
 sourceType: official
+topicReviewedAt: 2026-10-21

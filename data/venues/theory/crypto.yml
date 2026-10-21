@@ -13,10 +13,8 @@ primaryArea: theory
 secondaryAreas:
   - network
 topics:
-  - information-theory
-  - channel-coding
-  - security
   - cryptography
+  - security
 url: https://crypto.iacr.org/2027/
 sourceUrl: https://crypto.iacr.org/2027/
 sourceType: official
@@ -100,6 +98,7 @@ evaluations:
     page: 20
     note: 按完整英文名称核对 CCF2026 目录 PDF 第 20 页。该等级属于 2026 年版本；保存公开副本来源属性。
 submissionMode: 查看当届征稿
-topicReviewedAt: 2026-10-19
+topicReviewedAt: 2026-10-21
 scopeReviewedAt: 2026-10-19
 ratingReviewedAt: 2026-10-19
+summary: 密码学与信息安全理论；通信与网络安全相关研究。

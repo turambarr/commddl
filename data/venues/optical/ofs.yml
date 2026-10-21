@@ -9,13 +9,16 @@ aliases: []
 areas:
   - optical
   - iot
+  - signal
 primaryArea: optical
 secondaryAreas:
   - iot
+  - signal
 topics:
+  - optical-sensing
   - photonics
-  - fiber
-  - optical-networks
+  - iot-sensing
+  - instrumentation
 url: https://ofs30.org/
 sourceUrl: https://ofs30.org/
 sourceType: official
@@ -57,6 +60,7 @@ evaluations:
     value: null
     note: 按正式全名与已核实别名对照ICORE2026官方987条完整库未列，不等于低等级；未按同简称的其他会议赋级。
 submissionMode: 查看当届征稿
-topicReviewedAt: 2026-10-19
+topicReviewedAt: 2026-10-21
 scopeReviewedAt: 2026-10-19
 ratingReviewedAt: 2026-10-19
+summary: 光学传感与测量；光子器件与集成光学；传感器与物联网相关研究。

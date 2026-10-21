@@ -20,15 +20,16 @@ areas:
   - signal
   - rf
 topics:
+  - signal-methods
+  - circuits-devices
   - estimation-sync
-  - arrays
-  - microwave
-topicReviewedAt: 2026-10-19
+  - machine-learning
+topicReviewedAt: 2026-10-21
 publicationType: 研究型期刊
 articleTypes:
   - 研究论文
 submissionMode: 由官网作者入口按常规栏目/专题要求投稿
-summary: ""
+summary: "信号处理理论与实现；电路、电子器件与微纳系统；检测、估计与同步相关研究。"
 assessments: []
 evaluations:
   - system: jcr

@@ -8,11 +8,13 @@ nameEn: "IEEE Transactions on Circuits and Systems II: Express Briefs"
 aliases: []
 areas:
   - rf
+  - signal
 url: https://ieee-cas.org/publication/TCAS-II
 topics:
-  - microwave
-topicReviewedAt: 2026-10-18
-summary: 主要面向射频、微波与电路、调制、波形与物理层相关研究。
+  - circuits-devices
+  - signal-methods
+topicReviewedAt: 2026-10-21
+summary: 电路与系统理论、设计、实现及信号处理应用的简短成果。
 publicationType: 快报期刊
 articleTypes:
   - 快报
@@ -127,4 +129,5 @@ catalogScope: communications
 scopeReviewedAt: 2026-10-18
 scopeNote: 天线、射频与电磁通信硬件载体；通信相关信号处理及感知研究载体
 primaryArea: rf
-secondaryAreas: []
+secondaryAreas:
+  - signal

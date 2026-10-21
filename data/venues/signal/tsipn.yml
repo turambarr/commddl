@@ -9,9 +9,9 @@ aliases: []
 areas:
   - signal
   - network
-  - theory
+  - ai
 url: https://signalprocessingsociety.org/publications-resources/ieee-transactions-signal-and-information-processing-over-networks
-summary: 网络中的信号和信息处理。
+summary: 网络结构数据及分布式滤波、检测、估计、自适应与学习。
 publicationType: 研究型期刊
 articleTypes:
   - 研究论文
@@ -23,10 +23,10 @@ assessments: []
 indexStatus: SCIE
 metricNote: 最新 SCIE 收录、JCR 和中科院分区尚未核验；请分别查看有年份的可靠依据。
 topics:
-  - protocols
-  - arrays
+  - signal-methods
+  - estimation-sync
   - distributed-learning
-topicReviewedAt: 2026-10-18
+topicReviewedAt: 2026-10-21
 authorGuideUrl: https://signalprocessingsociety.org/publications-resources/information-authors
 catalogStatus: current
 indexing:
@@ -136,4 +136,4 @@ scopeNote: 通信相关信号处理及感知研究载体；通信网络与移动
 primaryArea: signal
 secondaryAreas:
   - network
-  - theory
+  - ai

@@ -19,16 +19,18 @@ catalogScope: communications
 areas:
   - signal
   - rf
+  - ai
 topics:
-  - estimation-sync
+  - signal-methods
+  - circuits-devices
+  - machine-learning
   - imaging
-  - arrays
-topicReviewedAt: 2026-10-19
+topicReviewedAt: 2026-10-21
 publicationType: 研究型期刊
 articleTypes:
   - 研究论文
 submissionMode: 由官网作者入口按常规栏目/专题要求投稿
-summary: ""
+summary: "信号处理理论与实现；电路、电子器件与微纳系统；机器学习与模式识别相关研究。"
 assessments: []
 evaluations:
   - system: jcr
@@ -151,3 +153,4 @@ ratingReviewedAt: 2026-10-19
 primaryArea: signal
 secondaryAreas:
   - rf
+  - ai

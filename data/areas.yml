@@ -3,7 +3,7 @@
   short: 无线
   code: WC
 - id: signal
-  label: 信号处理与通感
+  label: 信号处理、感知与控制
   short: 信号
   code: SP
 - id: theory
@@ -15,15 +15,15 @@
   short: 网络
   code: NET
 - id: optical
-  label: 光通信与光网络
+  label: 光通信与光子学
   short: 光学
   code: OPT
 - id: rf
-  label: 天线射频与电磁
+  label: 电磁、射频与电子技术
   short: 射频
   code: EM
 - id: space
-  label: 卫星与空天地通信
+  label: 空天地通信与导航
   short: 卫星
   code: SAT
 - id: iot
@@ -31,6 +31,6 @@
   short: 物联
   code: IoT
 - id: ai
-  label: 智能通信与网络
+  label: 人工智能与信息处理
   short: 智能
   code: AI

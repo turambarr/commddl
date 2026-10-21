@@ -17,6 +17,7 @@ areas:
 topics:
   - iot-sensing
   - mobile-systems
+  - human-computer
 publicationType: 学术会议系列
 articleTypes:
   - 会议论文
@@ -50,3 +51,5 @@ evaluations:
 scopeReviewedAt: 2026-10-20
 scopeNote: 按学会、出版和独立目录记录核对身份并人工归入通信相关方向；保留原始来源年份。
 identityNote: 核对正式会议名称与学术交流记录，出版和荐稿形式按当届资料单独记录。
+topicReviewedAt: 2026-10-21
+summary: 传感器与物联网；移动计算与无线系统；人机交互与用户体验相关研究。

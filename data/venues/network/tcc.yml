@@ -9,13 +9,14 @@ aliases: []
 issn: 2168-7161
 eissn: null
 primaryArea: network
-secondaryAreas:
-  - ai
+secondaryAreas: []
 areas:
   - network
-  - ai
 topics:
-  - protocols
+  - edge-cloud
+  - computing-systems
+  - network-management
+  - security
 url: https://ieeexplore.ieee.org/servlet/opac?punumber=6245519
 urlKind: publisher
 sourceUrl: https://open.ieee.org/wp-content/uploads/IEEE-Title-List-September-2026.pdf
@@ -174,6 +175,7 @@ indexing:
   year: 2026
   snapshotDate: 2026-09-15
   note: 出版社索引列的明确记录，忽略N/A占位符后以有效ISSN或正式全称唯一对应。
-topicReviewedAt: 2026-10-19
+topicReviewedAt: 2026-10-21
 scopeReviewedAt: 2026-10-19
 ratingReviewedAt: 2026-10-19
+summary: 边缘计算与云网络；并行分布式计算与计算系统；网络管理与虚拟化相关研究。

@@ -11,7 +11,7 @@ areas:
   - ai
   - network
 url: https://signalprocessingsociety.org/publications-resources/ieee-transactions-multimedia
-summary: 多媒体信号与系统。
+summary: 图像、视频与计算成像；信源编码与压缩；语音、音频与声学相关研究。
 publicationType: 研究型期刊
 articleTypes:
   - 研究论文
@@ -25,8 +25,9 @@ metricNote: 最新 SCIE 收录、JCR 和中科院分区尚未核验；请分别�
 topics:
   - imaging
   - source-coding
-  - edge-cloud
-topicReviewedAt: 2026-10-18
+  - speech
+  - signal-methods
+topicReviewedAt: 2026-10-21
 authorGuideUrl: https://signalprocessingsociety.org/publications-resources/information-authors
 catalogStatus: current
 indexing:

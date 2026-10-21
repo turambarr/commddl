@@ -9,12 +9,15 @@ aliases: []
 issn: 1057-7157
 eissn: 1941-0158
 primaryArea: rf
-secondaryAreas: []
+secondaryAreas:
+  - iot
 areas:
   - rf
+  - iot
 topics:
-  - microwave
-url: https://ieeexplore.ieee.org/servlet/opac?punumber=84
+  - circuits-devices
+  - instrumentation
+url: https://eds.ieee.org/publications/journal-of-microelectromechanical-systems
 urlKind: publisher
 sourceUrl: https://open.ieee.org/wp-content/uploads/IEEE-Title-List-September-2026.pdf
 sourceType: publisher
@@ -168,6 +171,7 @@ indexing:
   year: 2026
   snapshotDate: 2026-09-15
   note: 出版社索引列的明确记录，忽略N/A占位符后以有效ISSN或正式全称唯一对应。
-topicReviewedAt: 2026-10-19
+topicReviewedAt: 2026-10-21
 scopeReviewedAt: 2026-10-19
 ratingReviewedAt: 2026-10-19
+summary: 电路、电子器件与微纳系统；测量、仪器与频率控制相关研究。

@@ -7,15 +7,22 @@ nameEn: Wireless On-demand Network Systems and Services Conference
 nameZh: 无线按需网络系统与服务会议
 aliases: []
 areas:
+  - network
   - wireless
-  - network
-primaryArea: wireless
+  - iot
+primaryArea: network
 secondaryAreas:
-  - network
+  - wireless
+  - iot
 topics:
-  - physical
-  - mimo
-  - resources
+  - protocols
+  - mobile-systems
+  - edge-cloud
+  - network-management
+  - ai-communications
+  - distributed-learning
+  - isac
+  - security
 url: https://2026.wons-conference.org/
 sourceUrl: https://2026.wons-conference.org/
 sourceType: official
@@ -57,6 +64,7 @@ evaluations:
     value: null
     note: 按正式全名与已核实别名对照ICORE2026官方987条完整库未列，不等于低等级；未按同简称的其他会议赋级。
 submissionMode: 查看当届征稿
-topicReviewedAt: 2026-10-19
+topicReviewedAt: 2026-10-21
 scopeReviewedAt: 2026-10-19
 ratingReviewedAt: 2026-10-19
+summary: 无线按需网络与服务，涵盖移动网络、协议、边缘计算与网络智能。

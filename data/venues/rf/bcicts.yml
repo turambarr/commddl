@@ -10,10 +10,12 @@ aliases:
 areas:
   - rf
 topics:
+  - circuits-devices
   - microwave
   - thz
+  - electronic-materials
 url: https://bcicts.org/
-summary: 高频半导体工艺、射频与毫米波集成电路。
+summary: 电路、电子器件与微纳系统；射频、微波与电路；毫米波与太赫兹相关研究。
 publicationType: 会议系列
 articleTypes:
   - 研究论文
@@ -57,7 +59,7 @@ evaluations:
 catalogScope: communications
 catalogStatus: current
 scopeReviewedAt: 2026-10-19
-topicReviewedAt: 2026-10-19
+topicReviewedAt: 2026-10-21
 deadlineReviewedAt: 2026-10-19
 ratingReviewedAt: 2026-10-19
 primaryArea: rf

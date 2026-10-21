@@ -13,20 +13,17 @@ verifiedAt: 2026-10-18
 catalogStatus: current
 areas:
   - signal
-  - wireless
 topics:
+  - signal-methods
   - estimation-sync
-  - arrays
-  - radar
-  - physical
-topicReviewedAt: 2026-10-18
+topicReviewedAt: 2026-10-21
 aliases:
   - EURASIP Journal on Advances in Signal Processing
 publicationType: 研究型期刊
 articleTypes:
   - 研究论文
 submissionMode: 作者指南
-summary: 原EURASIP同名期刊，自2026年1月1日起更名；保留旧称检索。
+summary: 信号处理理论与实现；检测、估计与同步相关研究。
 assessments: []
 evaluations:
   - system: jcr
@@ -114,5 +111,4 @@ catalogScope: communications
 scopeReviewedAt: 2026-10-18
 scopeNote: 通信及相关交叉领域
 primaryArea: signal
-secondaryAreas:
-  - wireless
+secondaryAreas: []

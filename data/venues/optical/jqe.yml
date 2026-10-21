@@ -12,8 +12,9 @@ areas:
 url: https://ieeephotonics.org/publications/journal-of-quantum-electronics/
 topics:
   - photonics
-topicReviewedAt: 2026-10-18
-summary: 光子学与量子电子学中的理论、器件及实验研究；刊名中的量子电子学不等同于量子通信。
+  - quantum
+topicReviewedAt: 2026-10-21
+summary: 光与物质相互作用、光子器件和系统，以及涉及光子控制的量子信息。
 publicationType: 研究型期刊
 articleTypes:
   - 研究论文

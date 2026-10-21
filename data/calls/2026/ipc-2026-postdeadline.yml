@@ -8,9 +8,8 @@ year: 2026
 kind: conference
 areas:
   - optical
-  - signal
-  - network
 topics:
+  - photonics
   - fiber
   - optical-networks
 tags: []
@@ -44,3 +43,4 @@ history: []
 track: postdeadline
 submissionOpens: 2026-09-21
 eventSourceUrl: https://ieee-ipc.org/
+topicReviewedAt: 2026-10-21

@@ -5,9 +5,9 @@ short: IPIN
 nameEn: International Conference on Indoor Positioning and Indoor Navigation
 nameZh: 室内定位与室内导航国际会议
 areas:
-  - iot
   - signal
   - wireless
+  - iot
 topics:
   - navigation-pnt
   - estimation-sync
@@ -21,14 +21,14 @@ catalogStatus: current
 verifiedAt: 2026-10-18
 verification: verified
 checkedAt: 2026-10-18
-summary: 官方PDF列明论文征稿、2026年10月5—8日会期与延长截止4月26日。本项为会议，J-ISPIN期刊分区另列。
+summary: 室内定位与室内导航的算法、系统和应用。
 publicationType: 会议系列
 articleTypes:
   - 研究论文
 submissionMode: 查看具体届次
 assessments: []
 catalogScope: communications
-topicReviewedAt: 2026-10-18
+topicReviewedAt: 2026-10-21
 scopeReviewedAt: 2026-10-18
 scopeNote: 通信及相关交叉领域
 evaluations:
@@ -89,7 +89,7 @@ evaluations:
     sourceRecordId: "2244"
 ratingReviewedAt: 2026-10-18
 deadlineReviewedAt: 2026-10-18
-primaryArea: iot
+primaryArea: signal
 secondaryAreas:
-  - signal
   - wireless
+  - iot

@@ -11,7 +11,7 @@ areas:
   - network
   - ai
 url: https://www.ieee-cloudnet.org/
-summary: 云网络与数据中心互联。
+summary: 边缘计算与云网络；网络管理与虚拟化；网络协议与体系结构相关研究。
 publicationType: 会议系列
 articleTypes:
   - 研究论文
@@ -23,7 +23,9 @@ assessments: []
 topics:
   - edge-cloud
   - network-management
-topicReviewedAt: 2026-10-18
+  - protocols
+  - ai-communications
+topicReviewedAt: 2026-10-21
 catalogStatus: current
 evaluations:
   - system: ccf
