@@ -7,7 +7,7 @@
     "build": "node scripts/build.cjs",
     "extract:official": "node scripts/extract-official-sections.cjs",
     "check": "node scripts/validate.cjs",
-    "test": "node --test tests/core.test.cjs tests/public-catalog.test.cjs tests/catalog.test.cjs tests/updates.test.cjs tests/admin-review-api.test.cjs tests/date-update.integration.test.cjs tests/final-notice-check.test.cjs tests/copilot-structure.test.cjs",
+    "test": "node --test tests/core.test.cjs tests/public-catalog.test.cjs tests/catalog.test.cjs tests/updates.test.cjs tests/admin-review-api.test.cjs tests/date-update.integration.test.cjs tests/final-notice-check.test.cjs tests/copilot-structure.test.cjs tests/prepare-copilot-input.test.cjs tests/service-client.test.cjs",
     "serve": "node scripts/serve.cjs",
     "compile": "node scripts/catalog.cjs",
     "update:collect": "node scripts/updates/collector.cjs",

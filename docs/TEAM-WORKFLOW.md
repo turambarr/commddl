@@ -57,13 +57,13 @@ git diff --check
 | Do not allow bypassing（不允许绕过） | 包括管理员；不要给 Agent 或发布应用设置绕过权限 |
 | Allow force pushes / deletions（允许强推／删除） | 均关闭 |
 
-实际检查名称以 PR 的 Checks（检查）页面为准。当前源码中有两项校验工作和一个最终通知 check run，不要把只在合并后运行的 `deploy`（部署）设为合并前必需检查。`CommDDL final notice` 对没有批次绑定的普通 PR 为 `neutral`，对候选 PR 只有最终 SHA 已完成通知才为 `success`。由 `COMMDDL_FINAL_NOTICE_CHECK_ENABLED` 单独控制此检查；先将工作流合入 `main`、迁移并部署 Worker，再启用并验证，然后所有者才把它加入规则。`COMMDDL_RECONCILIATION_ENABLED` 另行控制人工合并和 Pages 回调，只能在必需检查启用后打开。
+实际检查名称以 PR 的 Checks（检查）页面为准。当前源码中有两项校验工作和一个最终通知 check run，不要把只在合并后运行的 `deploy`（部署）设为合并前必需检查。`CommDDL final notice` 对没有批次绑定的普通 PR 为 `neutral`，对候选 PR 只有 Worker 确认候选绑定到该最终 SHA 才为 `success`；此检查不代表提醒邮件已送达。由 `COMMDDL_FINAL_NOTICE_CHECK_ENABLED` 单独控制此检查；先将工作流合入 `main`、迁移并部署 Worker，再启用并验证，然后所有者才把它加入规则。`COMMDDL_RECONCILIATION_ENABLED` 另行控制人工合并和 Pages 回调，只能在必需检查启用后打开。
 
 | 工作流 | 检查名称 |
 |---|---|
 | Validate and deploy CommDDL（校验并部署 CommDDL） | `build` |
 | CommDDL review gate（CommDDL 审核检查） | `catalog, tests, and generated site` |
-| CommDDL final notice（最终通知检查） | `CommDDL final notice`；普通无候选 PR 为 neutral，自动候选必须先完成绑定最终 SHA 的通知 |
+| CommDDL final notice（最终通知检查） | `CommDDL final notice`；普通无候选 PR 为 neutral，自动候选必须先绑定到最终 SHA；该检查不代表邮件已送达 |
 
 如果暂时只有一名有写权限的维护者，可先要求 PR 和检查通过，加入第二人后再设一人审批。已有多人协作时，优先开启一人审批，成员互相审核。
 
@@ -82,7 +82,7 @@ GitHub 官方说明：[分支保护](https://docs.github.com/en/repositories/con
 
 这里的协作者按仓库权限判断；GitHub Contributors（贡献者列表）中的提交记录本身不授予写入或有效审批权限。普通外部贡献者仍可评论或提交审核意见，但不替代要求的一人批准。新增可信成员由管理员授予合适权限，不共享账号或令牌。
 
-PR 的作者不能批准自己的 PR；包括仓库所有者和 Agent 使用的登录账号。作者提交后，由另一位有写权限的协作者选择 Approve（批准），再由有权限的维护者合并。Agent 默认不代替人工批准或合并。临时准备的所有者审核例外已撤销，不保留管理员单独绕过审批的规则。
+PR 作者不能批准自己的代码 PR；需要另一位合格协作者在 GitHub 审核代码并按规则合并。正式数据 PR 可由已登录的后台管理员先审阅 GitHub 返回的最终差异，再明确点击“批准并按仓库规则上线”；Worker 以该管理员的 GitHub 身份对绑定的最终 SHA 提交审核并请求标准合并。GitHub 分支保护继续强制审批人数、required checks 和合并规则，Worker 不绕过保护。开发 Agent 不代替人类确认候选或点击最终批准/合并。
 
 ## 给 Agent 的任务开场
 

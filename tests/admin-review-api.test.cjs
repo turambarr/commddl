@@ -101,6 +101,21 @@ test('failed PR build releases the source, resets its stale baseline, and allows
 });
 
 
+test('Copilot can create an auditable new version of an unreviewed saved batch without unlocking its source',async t=>{
+ const context=await setup(t),payload=candidate();payload.id='batch-1';payload.items[0].structuredCandidate={status:'ready',summary:'官网信息已结构化。'};
+ const response=await internal(context,'/internal/update-batches/batch-1/restructured',{expectedVersion:1,candidate:payload}),body=await response.json();assert.equal(response.status,201);assert.equal(body.version,2);assert.equal(body.status,'awaiting-review');
+ const rows=context.DB.prepare('SELECT version,status FROM update_batches WHERE id=? ORDER BY version').bind('batch-1').all().results;assert.deepEqual(rows.map(row=>row.version),[1,2]);assert.equal(context.DB.prepare('SELECT pending_batch_id FROM source_snapshots WHERE entity_id=?').bind('test-call').first().pending_batch_id,'batch-1');assert.equal(context.DB.prepare("SELECT COUNT(*) count FROM audit_log WHERE action='batch.restructured'").first().count,1);
+});
+
+test('Copilot reprocessing rejects stale versions, existing decisions, and PR-bound batches',async t=>{
+ const context=await setup(t),payload=candidate();payload.id='batch-1';
+ const stale=await internal(context,'/internal/update-batches/batch-1/restructured',{expectedVersion:0,candidate:payload});assert.equal(stale.status,409);
+ context.DB.prepare('UPDATE update_batches SET decisions_json=? WHERE id=? AND version=1').bind('{"test-call":{"sec-1":{"action":"reject"}}}','batch-1').run();
+ const decided=await internal(context,'/internal/update-batches/batch-1/restructured',{expectedVersion:1,candidate:payload});assert.equal(decided.status,409);
+ context.DB.prepare("UPDATE update_batches SET decisions_json='{}',pr_number=17,final_sha=? WHERE id=? AND version=1").bind('a'.repeat(40),'batch-1').run();
+ const bound=await internal(context,'/internal/update-batches/batch-1/restructured',{expectedVersion:1,candidate:payload});assert.equal(bound.status,409);
+});
+
 test('a candidate remains stored and visible with mail entirely unconfigured',async t=>{
  const context=await setup(t),payload=candidate();
  const created=await internal(context,'/internal/update-batches',{id:'mail-optional',contentHash:'mail-optional-hash',baseRevision:'b'.repeat(40),items:payload.items.map(item=>({...item,status:'fetched',pages:[]}))});assert.equal(created.status,201);assert.equal((await created.json()).status,'awaiting-review');

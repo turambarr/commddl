@@ -5,7 +5,7 @@ const contributionURL=(data,item)=>`${data.meta.repository}/blob/main/${sourcePa
 const pick=(value,keys)=>Object.fromEntries(keys.filter(key=>value[key]!==undefined).map(key=>[key,value[key]]));
 const positive=e=>e&&['verified','reported'].includes(e.status)&&e.value;
 const evidenceKeys=['system','value','status','year','releaseYear','edition','snapshotDate','sourceUrl','sourceFileUrl','sourcePageUrl','sourceTitle','sourceType','sourceAuthority','verifiedAt','reviewedAt','category','categories','minorCategories','appliesToName','issn','eissn','page','sheet','row','top','coverage','officialUrl'];
-const sectionKeys=['sectionId','parentId','heading','headingLevel','order','category','sourceUrl','sourceAnchor','content','items','blocks','structuredValue','evidence','uncertainty','sourceHeadingPath'];
+const sectionKeys=['sectionId','parentId','heading','displayHeadingZh','headingLevel','order','category','categoryLabelZh','sourceUrl','sourceAnchor','content','items','blocks','structuredValue','evidence','uncertainty','sourceHeadingPath'];
 function publicBlock(block){
  if(!block||!['paragraph','list','table','links'].includes(block.type))return null;
  if(block.type==='paragraph')return pick(block,['type','text']);
