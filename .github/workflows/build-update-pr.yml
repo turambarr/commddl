@@ -33,6 +33,8 @@ jobs:
         run: node -e "const m=require('/tmp/commddl-review/metadata.json');if(m.version!==Number(process.env.BATCH_VERSION)||m.status!=='building-pr')process.exit(1)"
       - name: Apply reviewed source changes
         run: node scripts/updates/apply.cjs --batch /tmp/commddl-review/candidate.json --decisions /tmp/commddl-review/decisions.json
+      - name: Verify the exact data PR boundary
+        run: node scripts/updates/verify-data-pr-paths.cjs
       - run: npm run check
       - run: npm test
       - run: npm run build
@@ -61,8 +63,12 @@ jobs:
             批次： `${{ github.event.client_payload.batchId }}`
             版本：`${{ github.event.client_payload.version }}`
 
-            此工作流已完成公开目录构建和数据校验。最终合并仍需人工审核并遵循仓库保护规则。
-          add-paths: data/**
+            管理员在后台核对本 PR 的最终文件和 SHA 后，只需点击一次“批准并发布这些更新”。后台会以该登录管理员身份提交绑定此 SHA 的 GitHub review，再调用标准合并 API；仓库必需检查和审批保护仍然生效。
+
+            此自动数据 PR 只允许修改已审阅实体对应的既有 `data/venues/**/*.yml` 或 `data/calls/**/*.yml` 文件；代码、配置、工作流和目录身份变更应另行提交开发 PR。
+          add-paths: |
+            data/venues/**/*.yml
+            data/calls/**/*.yml
       - name: Record final PR revision and notify reviewers
         if: steps.cpr.outputs.pull-request-number != ''
         env:

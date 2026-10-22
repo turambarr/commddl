@@ -4,7 +4,15 @@ const fs=require('node:fs');
 const os=require('node:os');
 const path=require('node:path');
 const {spawnSync,execFileSync}=require('node:child_process');
+const {scopedDecisions}=require('../scripts/updates/apply.cjs');
 const root=path.join(__dirname,'..');
+
+test('multi-object decisions stay scoped when another entity has no reviewable fact',()=>{
+ const decisions={'journal-a':{'fact-1':{action:'accept'}}};
+ assert.deepEqual(scopedDecisions(decisions,'journal-a',2),decisions['journal-a']);
+ assert.deepEqual(scopedDecisions(decisions,'journal-b',2),{});
+ assert.deepEqual(scopedDecisions(decisions,'journal-a',1),decisions['journal-a']);
+});
 
 test('formal YAML apply rejects accepted legacy raw differences',()=>{
  const temp=fs.mkdtempSync(path.join(os.tmpdir(),'commddl-raw-apply-'));
