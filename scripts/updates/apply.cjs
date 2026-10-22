@@ -19,6 +19,7 @@ function assertPlainDataPath(root,entity){
  return {file,relative};
 }
 function reviewableChanges(item){return (item.changes||[]).filter(change=>change.type==='node-date-changed'||(['ready','uncertain'].includes(item.structuredCandidate?.status)&&Array.isArray(change.next?.evidence)&&change.next.evidence.length>0&&Boolean(change.displayHeadingZh||change.next.displayHeadingZh)&&Boolean(change.categoryLabelZh||change.next.categoryLabelZh)));}
+function scopedDecisions(decisions,id,itemCount){if(decisions&&Object.hasOwn(decisions,id)&&decisions[id]&&typeof decisions[id]==='object')return decisions[id];return itemCount===1?decisions||{}:{};}
 function applyNodeDateChange(call,change,decision,recordedAt=new Date().toISOString()){
  const nodeId=change.nodeId;if(!nodeId)throw new Error('日期候选缺少稳定 nodeId。');
  const node=(call.nodes||[]).find(item=>item.id===nodeId);if(!node)throw new Error(`${call.id}: 找不到日期节点 ${nodeId}。`);
@@ -55,7 +56,7 @@ function main(){
  if(!Array.isArray(items)||items.length>MAX_ENTITIES)throw new Error(`一次最多处理 ${MAX_ENTITIES} 个既有实体。`);
  const seenEntities=new Set();let totalBytes=0;
  for(const item of items){const id=item.entity?.id,entity=assertCandidateIdentity(item.entity,entities);if(seenEntities.has(id))throw new Error(`候选重复包含实体 ${id}。`);seenEntities.add(id);
-  const decisionMap=decisions[id]||decisions,reviewable=reviewableChanges(item),reviewableIds=new Set(reviewable.map(change=>change.sectionId));
+  const decisionMap=scopedDecisions(decisions,id,items.length),reviewable=reviewableChanges(item),reviewableIds=new Set(reviewable.map(change=>change.sectionId));
   for(const sectionId of Object.keys(decisionMap))if(!reviewableIds.has(sectionId)){if((item.changes||[]).some(change=>change.sectionId===sectionId))throw new Error(`${sectionId}: 未经 Copilot 证据校验的原始差异不能应用；请重新整理候选。`);throw new Error(`${id}: 决策引用了本批次中不存在的事实。`);}
   for(const change of item.changes||[])if(decisionMap[change.sectionId]&&!reviewableIds.has(change.sectionId))throw new Error(`${change.sectionId}: 未经 Copilot 证据校验的原始差异不能应用；请重新整理候选。`);
   for(const change of reviewable){const decision=decisionMap[change.sectionId];if(!decision||decision.action==='pending'||decision.action==='reject')continue;if(!['accept','edit'].includes(decision.action))throw new Error(`${change.sectionId}: 决策状态无效。`);
@@ -88,4 +89,4 @@ function main(){
  console.log(`已应用 ${updates.size} 个 YAML 文件；完整目录结构检查通过。请运行 check、test 和 build 后创建 PR。`);
 }
 if(require.main===module){try{main();}catch(error){console.error(error.message);process.exitCode=1;}}
-module.exports={applyNodeDateChange,reviewableChanges,assertPlainDataPath,stableSection};
+module.exports={applyNodeDateChange,reviewableChanges,assertPlainDataPath,stableSection,scopedDecisions};
