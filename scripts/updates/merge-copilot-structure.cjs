@@ -20,6 +20,21 @@ function pageEvidence(item){
  return sources;
 }
 function slug(value){const clean=String(value||'info').toLowerCase().replace(/[^a-z0-9]+/g,'-').replace(/^-|-$/g,'').slice(0,40)||'info';return clean;}
+function sameOfficialFact(left,right){
+ const leftValue=JSON.stringify(left?.structuredValue??null),rightValue=JSON.stringify(right?.structuredValue??null);
+ if(leftValue!=='null'&&leftValue===rightValue&&left?.sourceUrl===right?.evidence?.[0]?.sourceUrl)return true;
+ const normalize=value=>String(value||'').normalize('NFKC').toLocaleLowerCase('en').replace(/[\s\p{P}\p{S}]+/gu,'');
+ return (left?.evidence||[]).some(a=>(right?.evidence||[]).some(b=>a.sourceUrl===b.sourceUrl&&normalize(a.quote).length>=24&&normalize(a.quote)===normalize(b.quote)));
+}
+function stableSectionId(entity,category,evidence){
+ const officialPath=(evidence.sourceHeadingPath||[evidence.heading||'']).map(value=>String(value).normalize('NFKC').trim().toLocaleLowerCase('en')).join('\n');
+ const identity=`${category}\n${evidence.sourceUrl}\n${evidence.sourceAnchor||''}\n${officialPath}`;
+ const existing=(entity.officialSections||[]).filter(section=>section.category===category&&section.sourceUrl===evidence.sourceUrl&&((evidence.sourceAnchor&&section.sourceAnchor===evidence.sourceAnchor)||((section.sourceHeadingPath||[]).map(value=>String(value).normalize('NFKC').trim().toLocaleLowerCase('en')).join('\n')===officialPath)));
+ if(existing.length===1)return existing[0].sectionId;
+ const duplicate=(entity.officialSections||[]).find(section=>section.category===category&&sameOfficialFact(section,{evidence:[evidence]}));
+ if(duplicate)return duplicate.sectionId;
+ return `copilot-${slug(category)}-${crypto.createHash('sha256').update(identity).digest('hex').slice(0,12)}`;
+}
 function main(){
  const input=args(process.argv.slice(2)),candidate=JSON.parse(fs.readFileSync(path.resolve(input.source),'utf8')),ai=JSON.parse(fs.readFileSync(path.resolve(input.copilot),'utf8'));
  if(ai.schemaVersion!=='commddl.copilot-structure.v1'||!Array.isArray(ai.items))throw new Error('Copilot 输出 schemaVersion 或 items 不符合要求。');
@@ -54,8 +69,7 @@ function main(){
   // changes are rebuilt only from evidence-validated Copilot observations.
   item.changes=sourceChanges.filter(change=>change.type==='node-date-changed');
   for(const observation of checked){
-   const sectionId=`copilot-${slug(observation.category)}-${crypto.createHash('sha256').update(`${observation.category}\n${observation.title}`).digest('hex').slice(0,10)}`;
-   const primaryEvidence=observation.evidence[0],section={sectionId,heading:observation.title,displayHeadingZh:observation.titleZh,category:observation.category,categoryLabelZh:observation.categoryLabelZh,sourceUrl:primaryEvidence.sourceUrl,headingLevel:primaryEvidence.headingLevel||undefined,sourceAnchor:primaryEvidence.sourceAnchor||undefined,sourceHeadingPath:primaryEvidence.sourceHeadingPath,verifiedAt,blocks:[{type:'paragraph',text:observation.summary}],...(observation.value===undefined?{}:{structuredValue:observation.value}),evidence:observation.evidence,uncertainty:observation.uncertainty};
+   const primaryEvidence=observation.evidence[0],sectionId=stableSectionId(entity,observation.category,primaryEvidence),section={sectionId,heading:observation.title,displayHeadingZh:observation.titleZh,category:observation.category,categoryLabelZh:observation.categoryLabelZh,sourceUrl:primaryEvidence.sourceUrl,headingLevel:primaryEvidence.headingLevel||undefined,sourceAnchor:primaryEvidence.sourceAnchor||undefined,sourceHeadingPath:primaryEvidence.sourceHeadingPath,verifiedAt,blocks:[{type:'paragraph',text:observation.summary}],...(observation.value===undefined?{}:{structuredValue:observation.value}),evidence:observation.evidence,uncertainty:observation.uncertainty};
    const old=(entity.officialSections||[]).find(entry=>entry.sectionId===sectionId);
    if(old&&JSON.stringify({...old,verifiedAt:undefined})===JSON.stringify({...section,verifiedAt:undefined}))continue;
    if(item.changes.some(change=>change.sectionId===sectionId))continue;
@@ -66,4 +80,4 @@ function main(){
  fs.mkdirSync(path.dirname(path.resolve(input.out)),{recursive:true});fs.writeFileSync(path.resolve(input.out),JSON.stringify(candidate,null,2)+'\n');console.log(`已验证 ${ai.items.length} 个实体的简体中文结构化结果和官网原文引句。`);
 }
 if(require.main===module){try{main();}catch(error){console.error(error.message);process.exitCode=1;}}
-module.exports={pageEvidence,hasChinese,main};
+module.exports={pageEvidence,hasChinese,stableSectionId,main};

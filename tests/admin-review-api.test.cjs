@@ -23,16 +23,16 @@ test('migration 0003 upgrades an existing review batch without losing its review
   assert.equal(row.status,'awaiting-review');assert.equal(row.final_sha,sha);assert.equal(row.notification_sha,sha);assert.equal(row.reviewer_login,'arofish');assert.equal(row.approved_sha,sha);assert.equal(row.merged_sha,null);assert.equal(row.deployment_status,'pending');
  }finally{sqlite.close();}
 });
-function candidate(){return {items:[{entity:{id:'test-call',kind:'conference'},structuredCandidate:{schemaVersion:'commddl.copilot-structure.v1',status:'ready',summary:'官网信息已结构化。'},changes:[{sectionId:'sec-1',type:'content-added',heading:'Scope',displayHeadingZh:'投稿范围',categoryLabelZh:'主题',old:{heading:'Scope'},next:{sectionId:'sec-1',heading:'Scope',displayHeadingZh:'投稿范围',categoryLabelZh:'主题',sourceUrl:'https://example.org',blocks:[{type:'paragraph',text:'官网范围摘要。'}],evidence:[{sourceUrl:'https://example.org',heading:'Scope',quote:'Official text.'}]}}]}]};}
-async function setup(t,{status='awaiting-review',publish=false,final=false,login='test-maintainer',permission='write',maintainers='test-maintainer',reviewOverride=null,mergeReject=false,pullFiles=[{filename:'README.md',status:'modified',additions:1,deletions:1,patch:'- old\n+ new'}]}={}){
+function candidate(){return {items:[{entity:{id:'test-call',kind:'conference',recordType:'call',venueId:'test-venue',sourceFile:'data/calls/2027/test-call.yml'},structuredCandidate:{schemaVersion:'commddl.copilot-structure.v1',status:'ready',summary:'官网信息已结构化。'},changes:[{sectionId:'sec-1',type:'content-added',heading:'Scope',displayHeadingZh:'投稿范围',categoryLabelZh:'主题',old:{heading:'Scope'},next:{sectionId:'sec-1',heading:'Scope',displayHeadingZh:'投稿范围',categoryLabelZh:'主题',sourceUrl:'https://example.org',blocks:[{type:'paragraph',text:'官网范围摘要。'}],evidence:[{sourceUrl:'https://example.org',heading:'Scope',quote:'Official text.'}]}}]}]};}
+async function setup(t,{status='awaiting-review',publish=false,final=false,login='test-maintainer',permission='write',maintainers='test-maintainer',reviewOverride=null,existingReviews=[],mergeReject=false,prAuthor='commddl-updates[bot]',pullFiles=[{filename:'data/calls/2027/test-call.yml',status:'modified',additions:1,deletions:1,patch:'- old\n+ new'}]}={}){
  const DB=d1(),time=new Date().toISOString(),payload=candidate(),sha='a'.repeat(40),calls=[];
  DB.prepare('INSERT INTO projects(id,github_owner,github_repo,created_at) VALUES(?,?,?,?)').bind(project,owner,repo,time).run();
- DB.prepare('INSERT INTO update_batches(id,project_id,version,status,base_sha,content_hash,payload_json,decisions_json,final_sha,pr_number,pr_url,notification_version,notification_status,notification_sha,created_at,updated_at) VALUES(?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)').bind('batch-1',project,1,status,'b'.repeat(40),'hash',JSON.stringify(payload),'{}',final?sha:null,final?17:null,final?'https://github.com/turambarr/commddl/pull/17':null,1,'complete',final?sha:null,time,time).run();
+ DB.prepare('INSERT INTO update_batches(id,project_id,version,status,base_sha,content_hash,payload_json,decisions_json,final_sha,pr_number,pr_url,notification_version,notification_status,notification_sha,created_at,updated_at) VALUES(?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)').bind('batch-1',project,1,status,'b'.repeat(40),'hash',JSON.stringify(payload),final?JSON.stringify({'test-call':{'sec-1':{action:'accept'}}}):'{}',final?sha:null,final?17:null,final?'https://github.com/turambarr/commddl/pull/17':null,1,'complete',final?sha:null,time,time).run();
  DB.prepare('INSERT INTO source_snapshots(project_id,entity_id,pending_batch_id,updated_at) VALUES(?,?,?,?)').bind(project,'test-call','batch-1',time).run();
  const env={DB,GITHUB_OWNER:owner,GITHUB_REPO:repo,AUTHORIZED_MAINTAINERS:maintainers,ADMIN_ORIGIN:origin,GITHUB_CLIENT_ID:'fake-client',GITHUB_CLIENT_SECRET:'fake-secret',SESSION_SECRET:'test-session-secret',INTERNAL_HMAC_SECRET:'test-internal-secret',PUBLISH_ENABLED:publish?'true':'false'};
  let currentPermission=permission;
  const originalFetch=global.fetch;
- global.fetch=async(input,options={})=>{const url=String(input);calls.push({url,options});if(url==='https://github.com/login/oauth/access_token')return Response.json({access_token:'test-token'});if(url==='https://api.github.com/user')return Response.json({login});if(url.includes('/collaborators/')&&url.endsWith('/permission'))return Response.json({permission:currentPermission});if(url==='https://api.resend.com/emails')return Response.json({message:'simulated mail failure'},{status:503});if(url.startsWith('https://email.')&&url.includes('.amazonaws.com/v2/email/outbound-emails'))return Response.json({MessageId:'ses-message-1'});if(url.endsWith('/dispatches'))return new Response(null,{status:204});if(url.endsWith('/pulls/17/files?per_page=100&page=1')){if(pullFiles===null)throw new Error('temporary GitHub API failure');return Response.json(pullFiles);}if(url.endsWith('/pulls/17'))return Response.json({head:{sha:'a'.repeat(40)},state:'open'});if(url.endsWith('/check-runs'))return Response.json({check_runs:['build','catalog, tests, and generated site','CommDDL final notice'].map(name=>({name,status:'completed',conclusion:'success'}))});if(url.endsWith('/reviews'))return Response.json(reviewOverride||{id:123,user:{login},commit_id:'a'.repeat(40),state:'APPROVED'});if(url.endsWith('/merge')){if(mergeReject)return Response.json({message:'Protected branch requires another check.'},{status:405});return Response.json({merged:true,sha:'a'.repeat(40)});}throw new Error(`Unexpected network call ${url}`)};
+ global.fetch=async(input,options={})=>{const url=String(input);calls.push({url,options});if(url==='https://github.com/login/oauth/access_token')return Response.json({access_token:'test-token'});if(url==='https://api.github.com/user')return Response.json({login});if(url.includes('/collaborators/')&&url.endsWith('/permission'))return Response.json({permission:currentPermission});if(url==='https://api.resend.com/emails')return Response.json({message:'simulated mail failure'},{status:503});if(url.startsWith('https://email.')&&url.includes('.amazonaws.com/v2/email/outbound-emails'))return Response.json({MessageId:'ses-message-1'});if(url.endsWith('/dispatches'))return new Response(null,{status:204});if(url.endsWith('/pulls/17/files?per_page=100&page=1')){if(pullFiles===null)throw new Error('temporary GitHub API failure');return Response.json(pullFiles);}if(url.endsWith('/pulls/17'))return Response.json({head:{sha:'a'.repeat(40)},state:'open',user:{login:prAuthor}});if(url.endsWith('/check-runs'))return Response.json({check_runs:['build','catalog, tests, and generated site','CommDDL final notice'].map(name=>({name,status:'completed',conclusion:'success'}))});if(url.endsWith('/reviews'))return options.method==='POST'?Response.json(reviewOverride||{id:123,user:{login},commit_id:'a'.repeat(40),state:'APPROVED'}):Response.json(existingReviews);if(url.endsWith('/merge')){if(mergeReject)return Response.json({message:'Protected branch requires another check.'},{status:405});return Response.json({merged:true,sha:'a'.repeat(40)});}throw new Error(`Unexpected network call ${url}`)};
  t.after(()=>{global.fetch=originalFetch;DB.sqlite.close()});
  const worker=(await workerPromise).default;
  const start=await worker.fetch(new Request(`${origin}/auth/github`),env),stateCookie=start.headers.get('set-cookie').split(';')[0],state=stateCookie.split('=')[1];
@@ -47,6 +47,16 @@ test('review API stores an accepted choice and dispatches its version',async t=>
  const {api,DB,calls}=await setup(t),response=await api('PUT','/api/batches/batch-1/decisions',{decisions:{'test-call':{'sec-1':{action:'accept'}}}}),body=await response.json();
  assert.equal(response.status,201);assert.equal(body.status,'building-pr');
  const row=DB.prepare('SELECT decisions_json,status FROM update_batches WHERE id=? AND version=2').bind('batch-1').first();assert.equal(row.status,'building-pr');assert.deepEqual(JSON.parse(row.decisions_json),{'test-call':{'sec-1':{action:'accept'}}});assert(calls.some(call=>call.url.endsWith('/dispatches')));
+});
+
+test('object-level review drafts persist without opening a PR or advancing the batch',async t=>{
+ const context=await setup(t),response=await context.api('PUT','/api/batches/batch-1/draft-decisions',{decisions:{'test-call':{'sec-1':{action:'accept'}}}}),row=context.DB.prepare('SELECT version,status,decisions_json FROM update_batches WHERE id=? AND version=1').bind('batch-1').first();
+ assert.equal(response.status,200);assert.equal(row.version,1);assert.equal(row.status,'awaiting-review');assert.deepEqual(JSON.parse(row.decisions_json),{'test-call':{'sec-1':{action:'accept'}}});assert(!context.calls.some(call=>call.url.endsWith('/dispatches')));
+});
+
+test('object-level correction cannot rewrite the stable section id, source, or evidence',async t=>{
+ const context=await setup(t),section=structuredClone(candidate().items[0].changes[0].next);section.sourceUrl='https://attacker.example/';
+ const response=await context.api('PUT','/api/batches/batch-1/draft-decisions',{decisions:{'test-call':{'sec-1':{action:'edit',section}}}});assert.equal(response.status,400);assert.equal((await response.json()).error,'invalid-correction');
 });
 
 test('explicitly authorized collaborator with live write permission can use the API',async t=>{
@@ -70,7 +80,7 @@ test('repository owner retains access through verified GitHub admin permission',
 });
 
 test('review API stores a structured correction and dispatches it',async t=>{
- const {api,DB}=await setup(t),section={sectionId:'sec-1',heading:'Scope',sourceUrl:'https://example.org',blocks:[{type:'paragraph',text:'Corrected official text'}]},response=await api('PUT','/api/batches/batch-1/decisions',{decisions:{'test-call':{'sec-1':{action:'edit',section}}}});
+ const {api,DB}=await setup(t),section=structuredClone(candidate().items[0].changes[0].next);section.blocks[0].text='Corrected official text';const response=await api('PUT','/api/batches/batch-1/decisions',{decisions:{'test-call':{'sec-1':{action:'edit',section}}}});
  assert.equal(response.status,201);const row=DB.prepare('SELECT decisions_json FROM update_batches WHERE id=? AND version=2').bind('batch-1').first();assert.equal(JSON.parse(row.decisions_json)['test-call']['sec-1'].section.blocks[0].text,'Corrected official text');
 });
 
@@ -129,8 +139,8 @@ test('a candidate remains stored and visible with mail entirely unconfigured',as
 });
 
 test('changed final PR files invalidate the diff digest before approval',async t=>{
- const context=await setup(t,{publish:true,final:true}),first=await context.api('GET','/api/batches/batch-1/classification'),diff=await first.json();context.setPullFiles([{filename:'README.md',status:'modified',additions:2,deletions:1,patch:'- old\n+ changed after review'}]);
- const result=await context.api('POST','/api/batches/batch-1/approve-publish',{finalSha:'a'.repeat(40),reviewedDiffDigest:diff.diffDigest});assert.equal(result.status,409);assert.equal((await result.json()).error,'final-diff-not-reviewed');assert(!context.calls.some(call=>call.url.endsWith('/reviews')||call.url.endsWith('/merge')));
+ const context=await setup(t,{publish:true,final:true}),first=await context.api('GET','/api/batches/batch-1/classification'),diff=await first.json();context.setPullFiles([{filename:'data/calls/2027/test-call.yml',status:'modified',additions:2,deletions:1,patch:'- old\n+ changed after review'}]);
+ const result=await context.api('POST','/api/batches/batch-1/approve-publish',{finalSha:'a'.repeat(40),reviewedDiffDigest:diff.diffDigest});assert.equal(result.status,409);assert.equal((await result.json()).error,'final-diff-not-reviewed');assert(!context.calls.some(call=>(call.url.endsWith('/reviews')&&call.options.method==='POST')||call.url.endsWith('/merge')));
 });
 
 test('GitHub branch protection rejection leaves publication uncommitted and auditable',async t=>{
@@ -145,11 +155,22 @@ test('publish API is closed by default and requires the configured required chec
 });
 
 test('a formal call-data diff is displayed from final GitHub PR files and can be approved by the logged-in human',async t=>{
- const context=await setup(t,{publish:true,final:true,pullFiles:[{filename:'data/calls/ofc-2027-main.yml',status:'modified',patch:'- deadline: 2027-10-01\n+ deadline: 2027-10-08'}]});
- // Candidate metadata is deliberately misleading; release classification uses the final PR file list.
- const payload={items:[{entity:{id:'test-call'},changes:[{type:'content-changed',sectionId:'body'}]}]};context.DB.prepare('UPDATE update_batches SET payload_json=? WHERE id=? AND version=1').bind(JSON.stringify(payload),'batch-1').run();
- const classification=await context.api('GET','/api/batches/batch-1/classification'),classified=await classification.json();assert.equal(classified.manual,true);assert.equal(classified.reason,'final-diff-loaded');
- const result=await approve(context),body=await result.json();assert.equal(result.status,200);assert.equal(body.merged,true);assert(context.calls.some(call=>call.url.endsWith('/reviews')));assert(context.calls.some(call=>call.url.endsWith('/merge')));
+ const context=await setup(t,{publish:true,final:true,pullFiles:[{filename:'data/calls/2027/test-call.yml',status:'modified',patch:'- deadline: 2027-10-01\n+ deadline: 2027-10-08'}]});
+ const classification=await context.api('GET','/api/batches/batch-1/classification'),classified=await classification.json();assert.equal(classified.manual,true);assert.equal(classified.reviewable,true);assert.equal(classified.reason,'final-diff-loaded');
+ const result=await approve(context),body=await result.json();assert.equal(result.status,200);assert.equal(body.merged,true);assert(context.calls.some(call=>call.url.endsWith('/reviews')&&call.options.method==='POST'));assert(context.calls.some(call=>call.url.endsWith('/merge')));
+});
+
+test('a second maintainer can add the required human review and an existing approval is not duplicated',async t=>{
+ const existingReviews=[{id:122,user:{login:'arofish'},commit_id:'a'.repeat(40),state:'APPROVED'}],context=await setup(t,{publish:true,final:true,existingReviews}),response=await approve(context);assert.equal(response.status,200);assert(context.calls.some(call=>call.url.endsWith('/reviews')&&call.options.method==='POST'));
+ const alreadyApproved=await setup(t,{publish:true,final:true,existingReviews:[{id:123,user:{login:'test-maintainer'},commit_id:'a'.repeat(40),state:'APPROVED'}]}),again=await approve(alreadyApproved);assert.equal(again.status,200);assert(!alreadyApproved.calls.some(call=>call.url.endsWith('/reviews')&&call.options.method==='POST'));
+});
+
+test('data PR with config or workflow file fails closed before human approval',async t=>{
+ const context=await setup(t,{publish:true,final:true,pullFiles:[{filename:'services/admin/wrangler.toml',status:'modified',patch:'- old\n+ changed'}]}),result=await context.api('GET','/api/batches/batch-1/classification'),body=await result.json();assert.equal(body.reviewable,false);assert.equal(body.reason,'data-file-outside-allowlist');const response=await approve(context);assert.equal(response.status,409);assert(!context.calls.some(call=>(call.url.endsWith('/reviews')&&call.options.method==='POST')||call.url.endsWith('/merge')));
+});
+
+test('data PR author cannot be the logged-in approving maintainer',async t=>{
+ const context=await setup(t,{publish:true,final:true,login:'test-maintainer',prAuthor:'test-maintainer'}),response=await approve(context);assert.equal(response.status,403);assert.equal((await response.json()).error,'pull-request-author-cannot-approve');assert(!context.calls.some(call=>(call.url.endsWith('/reviews')&&call.options.method==='POST')||call.url.endsWith('/merge')));
 });
 
 test('incomplete or unclassifiable final PR diffs fail closed to human review',async t=>{
@@ -172,7 +193,7 @@ test('GitHub reviewer identity, approval state, and commit SHA must match before
 
 test('publish approval is bound to the final page SHA and remains available when email delivery is incomplete',async t=>{
  const stale=await setup(t,{publish:true,final:true}),staleResponse=await stale.api('POST','/api/batches/batch-1/approve-publish',{finalSha:'c'.repeat(40),reviewedDiffDigest:'invalid'});
- assert.equal(staleResponse.status,409);assert.equal((await staleResponse.json()).error,'stale-final-version');assert(!stale.calls.some(call=>call.url.endsWith('/reviews')||call.url.endsWith('/merge')));
+ assert.equal(staleResponse.status,409);assert.equal((await staleResponse.json()).error,'stale-final-version');assert(!stale.calls.some(call=>(call.url.endsWith('/reviews')&&call.options.method==='POST')||call.url.endsWith('/merge')));
  const unnotified=await setup(t,{publish:true,final:true});unnotified.DB.prepare('UPDATE update_batches SET notification_sha=? WHERE id=? AND version=1').bind('c'.repeat(40),'batch-1').run();
  const unnotifiedResponse=await approve(unnotified);assert.equal(unnotifiedResponse.status,200);assert(unnotified.calls.some(call=>call.url.endsWith('/merge')));
 });

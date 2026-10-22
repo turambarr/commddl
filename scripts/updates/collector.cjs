@@ -4,7 +4,7 @@ const crypto=require('node:crypto');
 const {execFileSync}=require('node:child_process');
 const cheerio=require('cheerio');
 const C=require('../../assets/core.js');
-const {loadCatalog}=require('../catalog.cjs');
+const {loadCatalog,sourcePath}=require('../catalog.cjs');
 const {fetchHTML}=require('./fetch.cjs');
 const {extractDocument}=require('./extract.cjs');
 const {compareSections}=require('./compare.cjs');
@@ -15,6 +15,9 @@ const LINK_RE=/(aims|scope|topic|subject|research.area|theme|cfp|call.for|submis
 const LINK_NOISE=/(?:^|\/)(?:account|login|register|sign[-_]?up|contact|news|press|media|hotel|travel|sponsor|sponsorship|archive|archives|membership|donate)(?:\/|$)/i;
 function parseDeadlineDate(value){const text=String(value||'').trim();let match=text.match(/\b(20\d{2})[-/.](\d{1,2})[-/.](\d{1,2})\b/);if(match)return `${match[1]}-${match[2].padStart(2,'0')}-${match[3].padStart(2,'0')}`;const parsed=Date.parse(`${text} UTC`);if(!Number.isFinite(parsed))return null;const date=new Date(parsed),year=date.getUTCFullYear();return year>=2020&&year<=2100?date.toISOString().slice(0,10):null;}
 function normalizeBaselines(value){return value?.baselines&&typeof value.baselines==='object'?value.baselines:value||{};}
+function summarizeRun(items,{mode,requestedCount=items.length,requestedIds=[]}={}){
+ return {mode,requestedIds,coverageScope:mode==='due-source-scan'?'currently due registered sources only':mode==='reuse-evidence'?'stored official evidence only; no new fetch':'explicitly requested sample only',counts:{requested:requestedCount,checked:items.filter(item=>item.status==='fetched'||item.status==='partial').length,changed:items.filter(item=>(item.changes||[]).length>0&&item.status!=='failed').length,noChange:items.filter(item=>!(item.changes||[]).length&&item.status==='fetched').length,failed:items.filter(item=>item.status==='failed').length,partial:items.filter(item=>item.status==='partial').length,notChecked:Math.max(0,requestedCount-items.length),reusedEvidence:items.filter(item=>item.reusedEvidencePages>0).length}};
+}
 function retryDelayHours(retryCount,retryAfterSeconds=0){return Math.max(Math.min(48,2**Math.min(Math.max(0,Number(retryCount)||0),6)),Math.max(0,Number(retryAfterSeconds)||0)/3600);}
 function dateChanges(item,sections){
  if(!item.venueId)return [];
@@ -59,12 +62,12 @@ function discoveredLinks(html,baseUrl){
  return [...new Map(links.map(item=>[item.url,item])).values()];
 }
 async function collectEntity(item,venue,baseline=[],retryCount=0){
- const baselinePages=Array.isArray(baseline)?[]:(baseline.pages||[]),baselineSections=Array.isArray(baseline)?baseline:baselinePages.flatMap(page=>page.sections||[]);
+ const baselinePages=Array.isArray(baseline)?[]:(baseline.pages||[]),baselineSections=Array.isArray(baseline)?baseline:baselinePages.flatMap(page=>page.sections||[]);let reusedPages=0;
  const entityId=item.id,queue=seedsFor(item,venue).map(url=>({url,depth:0,discoveredBy:null})),seen=new Set(),pages=[],failures=[],unreadLinks=[];
  while(queue.length&&pages.length<POLICY.pageBudget){
   const item=queue.shift();if(seen.has(item.url))continue;seen.add(item.url);
   try{
-   const previous=baselinePages.find(page=>page.requestedUrl===item.url||page.url===item.url),response=await fetchHTML(item.url,{etag:previous?.etag,lastModified:previous?.lastModified});if(response.notModified){if(previous)pages.push(previous);continue;}
+   const previous=baselinePages.find(page=>page.requestedUrl===item.url||page.url===item.url),response=await fetchHTML(item.url,{etag:previous?.etag,lastModified:previous?.lastModified});if(response.notModified){if(previous){pages.push(previous);reusedPages++;}continue;}
    const extracted=extractDocument(response.html,response.url);
    const page={url:response.url,requestedUrl:item.url,depth:item.depth,discoveredBy:item.discoveredBy,etag:response.etag,lastModified:response.lastModified,sourceHash:htmlHash(response.html),contentHash:extracted.contentHash,sections:extracted.sections,headings:extracted.headings};
    pages.push(page);
@@ -79,7 +82,9 @@ async function collectEntity(item,venue,baseline=[],retryCount=0){
  const priorAttempts=retryCount;
  const retryAfter=Math.max(0,...failures.map(failure=>failure.retryAfterSeconds||0));
  const status=pages.length?(failures.length?'partial':'fetched'):'failed',delayHours=failures.length?retryDelayHours(priorAttempts,retryAfter):intervalHours;
- return {entity:{id:entityId,kind:item.kind,recordType:item.venueId?'call':'venue',venueId:item.venueId||null},fetchedAt,nextCheckAt:new Date(Date.now()+delayHours*3600000).toISOString(),status,sourceHash:htmlHash(pages.map(page=>page.sourceHash).join('\n')),pages,sections,changes,failures,unreadLinks,gaps:pages.length?[]:['no-page-read']};
+ const recordType=item.venueId?'call':'venue',displayNameZh=item.venueId?(item.title||item.titleZh||item.id):(item.nameZh||item.short||item.id),displayNameEn=item.venueId?(item.titleEn||venue?.nameEn||''):(item.nameEn||''),entity={id:entityId,kind:item.kind,recordType,venueId:item.venueId||null,displayNameZh,displayNameEn,acronym:item.short||venue?.short||'',year:item.year||null,edition:item.venueId?item.title||item.titleEn||'':'',url:item.url||item.sourceUrl||null,sourceFile:sourcePath(item)};
+ if(item.venueId&&venue)entity.parent={id:venue.id,nameZh:venue.nameZh||venue.short||venue.id,nameEn:venue.nameEn||'',acronym:venue.short||''};
+ return {entity,fetchedAt,nextCheckAt:new Date(Date.now()+delayHours*3600000).toISOString(),status,sourceHash:htmlHash(pages.map(page=>page.sourceHash).join('\n')),pages,sections,changes,failures,unreadLinks,gaps:pages.length?[]:['no-page-read'],reusedEvidencePages:reusedPages};
 }
 async function main(){
  const args=parseArgs(process.argv.slice(2)),data=loadCatalog(ROOT),entities=new Map([...data.venues,...data.calls].map(item=>[item.id,item]));
@@ -87,7 +92,7 @@ async function main(){
  if(args.due){
   if(!args.baselines)throw new Error('--due 需要 --baselines <due.json>，其中包含服务端返回的到期 ids 与 baselines。');
   const due=JSON.parse(fs.readFileSync(args.baselines,'utf8'));
-  targets=(due.ids||[]).slice(0,args.limit).map(id=>{const entity=entities.get(id);if(!entity)throw new Error(`未知维护实体：${id}`);return entity;});
+  targets=(due.ids||[]).map(id=>{const entity=entities.get(id);if(!entity)throw new Error(`未知维护实体：${id}`);return entity;});
  }
  if(!args.ids.length&&!args.due)throw new Error('需指定 --ids <venue-id[,id...]> 或 --due。');
  const baselineFile=args.baselines?JSON.parse(fs.readFileSync(args.baselines,'utf8')):{};
@@ -102,7 +107,8 @@ async function main(){
   output.items.push(...collected);
  }
  if(args.out){const target=path.resolve(args.out);fs.mkdirSync(path.dirname(target),{recursive:true});fs.writeFileSync(target,JSON.stringify(output,null,2)+'\n');}
+ output.run=summarizeRun(output.items,{mode:args.due?'due-source-scan':'manual-sample',requestedCount:targets.length,requestedIds:targets.map(item=>item.id)});
  process.stdout.write(JSON.stringify(output,null,2)+'\n');
 }
 if(require.main===module)main().catch(error=>{console.error(error.message);process.exitCode=1;});
-module.exports={collectEntity,dateChanges,parseDeadlineDate,normalizeBaselines,retryDelayHours,discoveredLinks};
+module.exports={collectEntity,dateChanges,parseDeadlineDate,normalizeBaselines,retryDelayHours,discoveredLinks,summarizeRun};
