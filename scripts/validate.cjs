@@ -26,6 +26,17 @@ for(const topic of data.topics || []){
   requireThat(/^[a-z0-9-]+$/.test(topic.id)&&!topicIds.has(topic.id),`Duplicate/invalid topic: ${topic.id}`);topicIds.add(topic.id);
   requireThat(topic.label&&topic.areas?.length&&topic.areas.every(a=>areas.has(a)),`${topic.id}: invalid topic parent areas`);
   requireThat(Array.isArray(topic.aliases),`${topic.id}: missing search aliases`);
+  if(topic.terms!==undefined){
+    requireThat(Array.isArray(topic.terms),`${topic.id}: technical terms must be a list`);
+    const shorts=new Set();
+    for(const term of Array.isArray(topic.terms)?topic.terms:[]){
+      requireThat(typeof term.short==='string'&&/^[A-Za-z][A-Za-z0-9 -]{1,31}$/.test(term.short)&&!shorts.has(term.short.toLowerCase()),`${topic.id}: invalid/duplicate technical abbreviation`);
+      shorts.add(String(term.short).toLowerCase());
+      requireThat(typeof term.label==='string'&&term.label.trim()&&typeof term.nameEn==='string'&&term.nameEn.trim(),`${topic.id}/${term.short}: missing Chinese meaning or English name`);
+      requireThat(url(term.sourceUrl)&&C.validDate(term.verifiedAt),`${topic.id}/${term.short}: missing term source or verification date`);
+      requireThat(term.aliases===undefined||Array.isArray(term.aliases)&&term.aliases.every(alias=>typeof alias==='string'&&alias.trim()),`${topic.id}/${term.short}: invalid term aliases`);
+    }
+  }
 }
 requireThat(topicIds.size>0,'Missing topic taxonomy');
 for(const item of [...data.venues,...data.calls]){
