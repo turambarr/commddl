@@ -210,21 +210,20 @@ let base;
       await open('#journals?q=TWC&ranks=cas%3A4');assert.equal(await count(),0);
       assert(await evaluate(`document.querySelector('#approximate-results').hidden && document.querySelector('#search').value==='TWC'`));
     });
-    await test('PNT 和机会信号缩写显示中文释义，取消主题同步清空搜索',async()=>{
+    await test('缩写可对应主题，主题按钮与卡片仅显示原有名称',async()=>{
       await open('#journals?q=SOP');
       assert((await count())>0);const sopIds=await rowIds();
-      assert(await evaluate(`document.querySelector('#search-hint').textContent.includes('SOP（机会信号）') && !!document.querySelector('[data-filter-value="navigation-pnt"]')`));
+      assert(await evaluate(`!!document.querySelector('[data-filter-value="navigation-pnt"]') && !document.querySelector('[data-term-guide], .topic-acronyms, .topic-chip[title], .topic-tag[title]')`));
       await open('#journals?q=PNT');assert.deepEqual(await rowIds(),sopIds);
-      assert(await evaluate(`document.querySelector('#search-hint').textContent.includes('PNT（定位、导航与授时）')`));
+      assert(await evaluate(`document.querySelector('#search-hint').textContent==='搜索已识别：定位、导航与授时' && document.querySelector('[data-topic="navigation-pnt"]').textContent.replace(/\\d+$/,'')==='定位、导航与授时'`));
       await click('[data-filter-kind="topic"][data-filter-value="navigation-pnt"]');assert.equal(await count(),325);
     });
-    await test('技术缩写说明可展开并按主题筛选，来源链接完整',async()=>{
-      await open('#journals');await click('[data-term-guide] summary');
-      assert(await evaluate(`document.querySelector('[data-term-guide]').open && document.querySelector('.term-guide-list').textContent.includes('Signals of Opportunity') && [...document.querySelectorAll('.term-guide-row a')].every(a=>a.href.startsWith('https://'))`));
-      await click('.term-guide-row [data-topic="navigation-pnt"]');
-      assert((await count())>0&&await count()<325);
-      assert(await evaluate(`document.querySelector('[data-term-guide]').open && !!document.querySelector('[data-filter-value="navigation-pnt"]')`));
-      await click('[data-term-guide] summary');
+    await test('技术缩写和中英文全称与直接选择主题的结果一致',async()=>{
+      await open('#journals?topics=navigation-pnt');const expected=await rowIds();assert(expected.length>0);
+      for(const query of ['GNSS','Signals of Opportunity','机会信号定位']){
+        await open('#journals?q='+encodeURIComponent(query));assert.deepEqual(await rowIds(),expected);
+        assert(await evaluate(`!document.querySelector('[data-term-guide], .topic-acronyms')`));
+      }
     });
     await test('明确名称优先排序，手选名称或日期排序及分享参数保持有效',async()=>{
       await open('#journals?q=TWC');assert.equal(await evaluate(`document.querySelector('#sort').value`),'auto');
@@ -250,10 +249,10 @@ let base;
       await click('[data-filter-kind="index"][data-filter-value="SCIE"]');
       assert.equal(await count(),105);assert(await evaluate(`!document.querySelector('[data-filter-kind="index"]')`));
     });
-    await test('手机可点击近似建议与技术缩写说明，页面无横向溢出',async()=>{
+    await test('手机缩写检索与近似建议可用，主题保持简洁且无横向溢出',async()=>{
       await open('#journals?q=SCI%20%E4%B8%80%E5%8C%BA%20wirelss');await click('[data-search-correction]');assert((await rowIds()).includes('twc'));
-      await open('#journals?q=PNT');await click('[data-term-guide] summary');
-      assert(await evaluate(`document.querySelector('[data-term-guide]').open && document.documentElement.scrollWidth<=innerWidth`));
+      await open('#journals?q=PNT');assert((await count())>0);
+      assert(await evaluate(`!document.querySelector('[data-term-guide], .topic-acronyms') && document.querySelector('[data-topic="navigation-pnt"]').textContent.replace(/\\d+$/,'')==='定位、导航与授时' && document.documentElement.scrollWidth<=innerWidth`));
     });
     assert.deepEqual(errors,[],'浏览器不应有未处理异常');
     console.log(JSON.stringify({passed:results.length,browserErrors:errors.length,tests:results},null,2));

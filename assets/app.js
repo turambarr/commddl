@@ -32,9 +32,7 @@
   const venues = new Map(D.venues.map(v => [v.id, v]));
   const areaLabels = new Map(D.areas.map(a => [a.id, a.label]));
   const topicLabels = new Map(D.topics.map(t => [t.id, t.label]));
-  let topicsExpanded = false, attributesExpanded = false, termGuideOpen = false;
-  const technicalTerms=D.topics.flatMap(topic=>(topic.terms||[]).map(term=>({...term,topicId:topic.id,topicLabel:topic.label})));
-  const topicDescription=id=>technicalTerms.filter(term=>term.topicId===id).map(term=>term.short+'（'+term.label+'）').join('；');
+  let topicsExpanded = false, attributesExpanded = false;
   const callLabel = call => call.submissionCategory==='demo'?'演示论文':call.inheritsVenueEvaluation===false&&call.kind==='conference'?'独立分会':kindLabels[call.kind];
   const kindLabels = {all:'全部',conference:'会议主会',special:'期刊专题',workshop:'附属研讨会',series:'持续栏目',journal:'期刊'};
   const pageNames = {deadlines:'截稿日历',conferences:'会议目录',journals:'期刊目录',favorites:'我的关注',about:'来源与维护说明'};
@@ -140,7 +138,7 @@
   }
   function favoriteButton(key, name) { return `<button class="bookmark-button ${favorites.has(key)?'saved':''}" data-favorite="${esc(key)}" aria-label="${favorites.has(key)?'取消关注':'关注'} ${esc(name)}" aria-pressed="${favorites.has(key)}">${icon('bookmark')}</button>`; }
   const areaTags = ids => [...new Set(ids)].slice(0,3).map(id=>`<span class="tag">${esc(areaLabels.get(id)||id)}</span>`).join('');
-  const topicTags = (ids, limit = 3) => [...selectedTopicIds.filter(id=>(ids||[]).includes(id)),...(ids||[]).filter(id=>!selectedTopicIds.includes(id))].slice(0,limit).map(id => `<span class="tag topic-tag" title="${esc(topicDescription(id))}">${esc(topicLabels.get(id)||id)}</span>`).join('');
+  const topicTags = (ids, limit = 3) => [...selectedTopicIds.filter(id=>(ids||[]).includes(id)),...(ids||[]).filter(id=>!selectedTopicIds.includes(id))].slice(0,limit).map(id => `<span class="tag topic-tag">${esc(topicLabels.get(id)||id)}</span>`).join('');
   const historicalTags = v => C.isBuptImportant(v) ? '<span class="tag bupt-tag" title="北邮2018年信息与通信工程学科重要会议表；详情可查原始文件">BUPT重要</span>' : '';
   const evaluationLabels={jcr:'JCR',cas:'中科院',xinrui:'新锐分区',ccf:'CCF',core:'CORE / ICORE',cie:'电子学会',cic:'通信学会'};
   const statusLabels={verified:'已核验',reported:'转录／副本'};
@@ -237,11 +235,6 @@
   function filterVenues() {
     return C.filterVenues(D.venues,{...state,taxonomy:D.topics,calls:D.calls,venueKind:directoryKind(),favoriteOnly:state.view==='favorites',favorites:[...favorites]});
   }
-  function termGuide(topics) {
-    const terms=technicalTerms.filter(term=>topics.some(topic=>topic.id===term.topicId));
-    if(!terms.length)return '';
-    return `<details class="term-guide" data-term-guide${termGuideOpen?' open':''}><summary>技术缩写与主题 <span>${terms.length} 项</span></summary><p>按技术名称或缩写找主题。选择右侧主题后，可继续叠加分区和日期条件。</p><div class="term-guide-list">${terms.map(term=>`<div class="term-guide-row"><div><strong>${esc(term.short)}</strong> · ${esc(term.label)}<small lang="en">${esc(term.nameEn)}</small><a href="${safeURL(term.sourceUrl)}" target="_blank" rel="noopener noreferrer">术语来源 ↗</a></div><button class="topic-text-button" data-topic="${term.topicId}" aria-pressed="${effectiveFilters().topics.includes(term.topicId)}">${esc(term.topicLabel)} →</button></div>`).join('')}</div></details>`;
-  }
   function renderTopics() {
     const effective=effectiveFilters(),selected=effective.topics;
     $('topic-panel').classList.toggle('topics-compact',!topicsExpanded);
@@ -253,7 +246,7 @@
     const counts=new Map(D.topics.map(t=>[t.id,calls.filter(c=>(c.topics||venues.get(c.venueId).topics).includes(t.id)).length+list.filter(v=>v.topics.includes(t.id)).length]));
     const available=D.topics.filter(t=>!effective.areas.length||t.areas.some(id=>effective.areas.includes(id))||counts.get(t.id)>0||selected.includes(t.id));
     const visible=topicsExpanded?available:available.filter(t=>selected.includes(t.id)||featured.includes(t.id)&&counts.get(t.id)>0);
-    $('topic-panel').innerHTML=`<div class="topic-heading"><div><strong>研究主题</strong><span>${effective.areas.length?esc(effective.areas.map(id=>areaLabels.get(id)).join(' / '))+' · ':''}${available.length} 个主题 · 多选匹配任一项</span></div><div>${selected.length?'<button data-clear="topics" class="topic-text-button">清除主题</button>':''}<button data-topic-expand="toggle" class="topic-text-button" aria-expanded="${topicsExpanded}">${topicsExpanded?'收起主题':'展开全部主题'} ${topicsExpanded?'↑':'↓'}</button></div></div><div class="topic-chips" role="group" aria-label="具体研究主题，多选匹配任一项">${visible.map(t=>`<button class="topic-chip ${selected.includes(t.id)?'selected':''}" data-topic="${t.id}" aria-pressed="${selected.includes(t.id)}" title="${esc(topicDescription(t.id))}">${esc(t.label)}${t.terms?.length?`<small class="topic-acronyms">${esc(t.terms.slice(0,3).map(term=>term.short).join(' · '))}</small>`:''}<span>${counts.get(t.id)}</span></button>`).join('')}</div>`+termGuide(available);
+    $('topic-panel').innerHTML=`<div class="topic-heading"><div><strong>研究主题</strong><span>${effective.areas.length?esc(effective.areas.map(id=>areaLabels.get(id)).join(' / '))+' · ':''}${available.length} 个主题 · 多选匹配任一项</span></div><div>${selected.length?'<button data-clear="topics" class="topic-text-button">清除主题</button>':''}<button data-topic-expand="toggle" class="topic-text-button" aria-expanded="${topicsExpanded}">${topicsExpanded?'收起主题':'展开全部主题'} ${topicsExpanded?'↑':'↓'}</button></div></div><div class="topic-chips" role="group" aria-label="具体研究主题，多选匹配任一项">${visible.map(t=>`<button class="topic-chip ${selected.includes(t.id)?'selected':''}" data-topic="${t.id}" aria-pressed="${selected.includes(t.id)}">${esc(t.label)}<span>${counts.get(t.id)}</span></button>`).join('')}</div>`;
   }
   const indexLabels={'':'全部',SCIE:'SCI / SCIE',ESCI:'ESCI',EI:'EI',CSCD:'CSCD',Scopus:'Scopus','北大核心':'北大核心',CSTPCD:'科技核心'};
   function facetCount(overrides,queryKind,queryValue) {
@@ -271,8 +264,7 @@
     $('attribute-panel').innerHTML=`<div class="attribute-heading"><strong>收录与分区筛选</strong><button class="topic-text-button" data-attribute-expand="toggle" aria-expanded="${attributesExpanded}">${attributesExpanded?'收起筛选 ↑':'展开筛选 ↓'}</button><span>同一体系多选匹配任一项，不同条件同时满足</span><button class="topic-text-button" data-reset="all">清除全部</button><button class="topic-text-button" data-share-filters="copy">分享筛选</button></div>`+indexes+systems.map(sys=>{const other=effective.grades.filter(r=>!r.startsWith(sys+':'));return `<div class="attribute-row" role="group" aria-label="${labels[sys]} 等级"><span>${labels[sys]}</span><button class="rank-chip ${!effective.grades.some(r=>r.startsWith(sys+':'))?'selected':''}" data-rank-reset="${sys}" aria-pressed="${!effective.grades.some(r=>r.startsWith(sys+':'))}">全部</button>${values[sys].map(value=>{const key=sys+':'+value,label=['cas','xinrui'].includes(sys)?value+'区':value;return `<button class="rank-chip ${effective.grades.includes(key)?'selected':''}" data-rank="${key}" aria-pressed="${effective.grades.includes(key)}">${esc(label)}<small>${facetCount({grades:[...other,key]},'grade',sys)}</small></button>`;}).join('')}</div>`;}).join('')+`<p class="filter-explainer">SCI 对应 SCIE（科学引文索引扩展版），ESCI（新兴来源引文索引）单列；未指定体系的一区指中科院大类；新锐分区单列，Q1 指 JCR（期刊引证报告）分区。索引可重叠，数量按已录入证据统计；版本与来源见详情。${isVenueView()?'':' 此页筛选有截止记录的活动；完整期刊请点“SCI 期刊”。'}</p>`;
     $('quick-filters').hidden=kind==='conference';
     const parsed=queryInfo();
-    const termHints=technicalTerms.filter(term=>parsed.tokens.some(token=>token.kind==='topic'&&token.value===term.topicId&&[term.short,term.label,term.nameEn,...(term.aliases||[])].some(name=>name.toLowerCase()===parsed.normalized.slice(token.start,token.end).toLowerCase()))).map(term=>term.short+'（'+term.label+'）→ '+term.topicLabel);
-    $('search-hint').textContent=parsed.labels.length?'搜索已识别：'+parsed.labels.join(' + ')+(parsed.text?'；关键词：'+parsed.text:'')+(termHints.length?'；'+termHints.join('；'):''):'可搜索刊名、技术缩写 PNT / ISAC / RIS，或 SCI 一区、JCR Q1、CCF A。';
+    $('search-hint').textContent=parsed.labels.length?'搜索已识别：'+parsed.labels.join(' + ')+(parsed.text?'；关键词：'+parsed.text:''):'可搜索简称、中文主题，也可输入 SCI 一区、新锐一区、SCI Q1、中文核心、CCF A、BUPT重要。';
   }
   function renderActiveFilters() {
     const effective=effectiveFilters(),items=[];
@@ -456,7 +448,6 @@
     else if(b.dataset.reset){state.query='';state.area='';state.primaryOnly=false;state.topics=[];state.window='';state.daysFrom='';state.daysTo='';state.showUndated=false;state.showPast=false;state.historical=false;state.includeArchived=false;state.grades=[];state.grade='';state.catalogStatus='';state.index='';state.kind='all';state.journalType='all';syncHash();render();}
     else if(b.dataset.month){if(b.dataset.month==='today')state.month=C.dateInZone(Date.now(),state.zone).slice(0,7);else{const[y,m]=state.month.split('-').map(Number);state.month=new Date(Date.UTC(y,m-1+Number(b.dataset.month),1)).toISOString().slice(0,7);}syncHash();renderCalendar();}
   });
-  document.addEventListener('toggle',event=>{if(event.target.matches?.('[data-term-guide]')&&event.target.isConnected)termGuideOpen=event.target.open;},true);
   function scheduleSearch() {clearTimeout(searchTimer);searchTimer=setTimeout(()=>{searchTimer=null;syncHash();render();},120);}
   $('search').addEventListener('compositionstart',()=>{composing=true;clearTimeout(searchTimer);});
   $('search').addEventListener('compositionend',e=>{composing=false;state.query=e.target.value;scheduleSearch();});
