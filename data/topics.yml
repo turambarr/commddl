@@ -1,4 +1,10 @@
 - id: physical
+  terms:
+    - short: OFDM
+      label: 正交频分复用
+      nameEn: "Orthogonal Frequency Division Multiplexing"
+      sourceUrl: https://www.etsi.org/deliver/etsi_tr/121900_121999/121905/18.00.00_60/tr_121905v180000p.pdf
+      verifiedAt: '2026-10-23'
   label: 调制、波形与物理层
   areas:
     - wireless
@@ -7,6 +13,16 @@
     - PHY OFDM 多载波
     - ofdm_modulation
 - id: mimo
+  terms:
+    - short: MIMO
+      label: 多输入多输出
+      nameEn: "Multiple Input Multiple Output"
+      aliases:
+        - "多天线"
+        - "波束赋形"
+        - "波束成形"
+      sourceUrl: https://www.etsi.org/deliver/etsi_tr/121900_121999/121905/18.00.00_60/tr_121905v180000p.pdf
+      verifiedAt: '2026-10-23'
   label: 多天线与波束成形
   areas:
     - wireless
@@ -16,6 +32,12 @@
     - MIMO beamforming 多天线 波束成形
     - mimo_beamforming
 - id: access
+  terms:
+    - short: NOMA
+      label: 非正交多址接入
+      nameEn: "Non-Orthogonal Multiple Access"
+      sourceUrl: https://www.comsoc.org/publications/best-readings/non-orthogonal-multiple-access
+      verifiedAt: '2026-10-23'
   label: 多址接入与短包通信
   areas:
     - wireless
@@ -63,6 +85,12 @@
     - source coding compression
     - source_coding
 - id: quantum
+  terms:
+    - short: QKD
+      label: 量子密钥分发
+      nameEn: "Quantum Key Distribution"
+      sourceUrl: https://www.etsi.org/technologies/next-generation-technologies/
+      verifiedAt: '2026-10-23'
   label: 量子通信与量子信息
   areas:
     - theory
@@ -87,6 +115,15 @@
     - array multichannel DOA 到达角
     - array_processing
 - id: isac
+  terms:
+    - short: ISAC
+      label: 通感一体化
+      nameEn: "Integrated Sensing and Communication"
+      aliases:
+        - "Integrated Sensing and Communications"
+        - "联合通信感知"
+      sourceUrl: https://ieeexplore.ieee.org/document/10243495/
+      verifiedAt: '2026-10-23'
   label: 通感一体化
   areas:
     - signal
@@ -143,6 +180,21 @@
   aliases:
     - measurement performance QoS 服务质量
 - id: network-management
+  terms:
+    - short: SDN
+      label: 软件定义网络
+      nameEn: "Software Defined Networking"
+      aliases:
+        - "Software-Defined Networking"
+      sourceUrl: https://www.etsi.org/technologies/689-network-functions-virtualisation?tmpl=component
+      verifiedAt: '2026-10-23'
+    - short: NFV
+      label: 网络功能虚拟化
+      nameEn: "Network Functions Virtualisation"
+      aliases:
+        - "Network Function Virtualization"
+      sourceUrl: https://www.etsi.org/technologies/689-network-functions-virtualisation?tmpl=component
+      verifiedAt: '2026-10-23'
   label: 网络管理与虚拟化
   areas:
     - network
@@ -160,6 +212,15 @@
     - security privacy secrecy 隐私 物理层安全
     - network_security
 - id: edge-cloud
+  terms:
+    - short: MEC
+      label: 多接入边缘计算
+      nameEn: "Multi-access Edge Computing"
+      aliases:
+        - "Mobile Edge Computing"
+        - "移动边缘计算"
+      sourceUrl: https://www.etsi.org/technical-groups/mec/?id=1865
+      verifiedAt: '2026-10-23'
   label: 边缘计算与云网络
   areas:
     - network
@@ -184,6 +245,17 @@
     - optical networks interconnect
     - optical_networking
 - id: optical-wireless
+  terms:
+    - short: FSO
+      label: 自由空间光通信
+      nameEn: "Free-Space Optical Communication"
+      sourceUrl: https://ieeexplore.ieee.org/document/9993996/
+      verifiedAt: '2026-10-23'
+    - short: VLC
+      label: 可见光通信
+      nameEn: "Visible Light Communication"
+      sourceUrl: https://ieeexplore.ieee.org/document/9993996/
+      verifiedAt: '2026-10-23'
   label: 无线光与可见光通信
   areas:
     - optical
@@ -215,6 +287,20 @@
     - RF microwave circuits 集成电路
     - rf_microwave
 - id: thz
+  terms:
+    - short: THz
+      label: 太赫兹
+      nameEn: "Terahertz"
+      sourceUrl: https://ieeexplore.ieee.org/document/10243495/
+      verifiedAt: '2026-10-23'
+    - short: mmWave
+      label: 毫米波
+      nameEn: "Millimeter Wave"
+      aliases:
+        - "Millimetre Wave"
+        - "毫米波通信"
+      sourceUrl: https://ieeexplore.ieee.org/document/10243495/
+      verifiedAt: '2026-10-23'
   label: 毫米波与太赫兹
   areas:
     - rf
@@ -224,6 +310,14 @@
     - THz terahertz mmWave
     - mmwave_thz_comm
 - id: satellite-ntn
+  terms:
+    - short: NTN
+      label: 非地面网络
+      nameEn: "Non-Terrestrial Networks"
+      aliases:
+        - "Non-Terrestrial Network"
+      sourceUrl: https://portal.3gpp.org/desktopmodules/Specifications/SpecificationDetails.aspx?specificationId=3926
+      verifiedAt: '2026-10-23'
   label: 卫星通信与非地面网络
   areas:
     - space
@@ -233,6 +327,43 @@
     - satellite NTN LEO 低轨 空天地
     - sagin_ntn
 - id: navigation-pnt
+  terms:
+    - short: PNT
+      label: 定位、导航与授时
+      nameEn: "Positioning, Navigation and Timing"
+      aliases:
+        - "定位导航授时"
+        - "定位导航与授时"
+      sourceUrl: https://www.nasa.gov/directorates/somd/space-communications-navigation-program/navigation/
+      verifiedAt: '2026-10-23'
+    - short: GNSS
+      label: 全球导航卫星系统
+      nameEn: "Global Navigation Satellite System"
+      sourceUrl: https://earth.gsfc.nasa.gov/geo/networks/sgp/techniques/gnss
+      verifiedAt: '2026-10-23'
+    - short: GPS
+      label: 全球定位系统
+      nameEn: "Global Positioning System"
+      sourceUrl: https://www.faa.gov/about/office_org/headquarters_offices/ato/service_units/techops/navservices/gnss/gps/howitworks
+      verifiedAt: '2026-10-23'
+    - short: SOP
+      label: 机会信号
+      nameEn: "Signals of Opportunity"
+      aliases:
+        - "SoOP"
+        - "Signal of Opportunity"
+        - "机会信号定位"
+        - "机会信号导航"
+        - "机会信号定位导航授时"
+      sourceUrl: https://www.ion.org/publications/abstract.cfm?articleID=14652
+      verifiedAt: '2026-10-23'
+    - short: INS
+      label: 惯性导航系统
+      nameEn: "Inertial Navigation System"
+      aliases:
+        - "惯性导航"
+      sourceUrl: https://www.ion.org/publications/abstract.cfm?articleID=14652
+      verifiedAt: '2026-10-23'
   label: 定位、导航与授时
   areas:
     - space
@@ -249,6 +380,12 @@
   aliases:
     - aerospace avionics
 - id: iot-sensing
+  terms:
+    - short: IoT
+      label: 物联网
+      nameEn: "Internet of Things"
+      sourceUrl: https://www.etsi.org/deliver/etsi_tr/121900_121999/121905/18.00.00_60/tr_121905v180000p.pdf
+      verifiedAt: '2026-10-23'
   label: 传感器与物联网
   areas:
     - iot
@@ -259,6 +396,14 @@
     - wsn_iot_protocols
     - wireless_sensing
 - id: vehicular
+  terms:
+    - short: V2X
+      label: 车联网通信
+      nameEn: "Vehicle-to-Everything"
+      aliases:
+        - "车用无线通信"
+      sourceUrl: https://www.etsi.org/deliver/etsi_tr/121900_121999/121905/18.00.00_60/tr_121905v180000p.pdf
+      verifiedAt: '2026-10-23'
   label: 车联网与移动载体
   areas:
     - iot
@@ -288,6 +433,12 @@
     - ai_phy_mac
     - cognitive_green
 - id: distributed-learning
+  terms:
+    - short: FL
+      label: 联邦学习
+      nameEn: "Federated Learning"
+      sourceUrl: https://www.comsoc.org/publications/journals/ieee-tnse/cfp/federated-machine-learning-and-unlearning-privacy-preserving
+      verifiedAt: '2026-10-23'
   label: 分布式学习与协同推理
   areas:
     - ai
@@ -306,6 +457,20 @@
     - semantic task oriented communication
     - semantic_comm
 - id: ris
+  terms:
+    - short: RIS
+      label: 可重构智能表面
+      nameEn: "Reconfigurable Intelligent Surface"
+      aliases:
+        - "智能超表面"
+        - "可重构智能超表面"
+      sourceUrl: https://ieeexplore.ieee.org/document/10243495/
+      verifiedAt: '2026-10-23'
+    - short: IRS
+      label: 智能反射面
+      nameEn: "Intelligent Reflecting Surface"
+      sourceUrl: https://www.comsoc.org/publications/journals/ieee-ojcoms/cfp/emerging-technologies-enhanced-cooperative-integrated-sensing
+      verifiedAt: '2026-10-23'
   label: 智能超表面与可重构传播
   areas:
     - wireless
@@ -355,6 +520,12 @@
     - EMC
     - SIPI
 - id: uav
+  terms:
+    - short: UAV
+      label: 无人机
+      nameEn: "Unmanned Aerial Vehicle"
+      sourceUrl: https://www.etsi.org/deliver/etsi_tr/121900_121999/121905/18.00.00_60/tr_121905v180000p.pdf
+      verifiedAt: '2026-10-23'
   label: 无人机通信与低空网络
   areas:
     - space
