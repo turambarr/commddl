@@ -25,3 +25,9 @@ test('editing remains collapsed until requested and final approval is SHA/diff b
  assert.match(app,/reviewedDiffDigest: b\.dataset\.diffDigest|reviewedDiffDigest:b\.dataset\.diffDigest/);
  assert.match(app,/finalSha: b\.dataset\.sha|finalSha:b\.dataset\.sha/);
 });
+
+test('partial review can be submitted and unselected candidates default to rejection',()=>{
+ assert.match(app,/未明确接受的候选默认拒绝/);
+ assert.match(app,/提交取舍并自动生成数据 PR/);
+ assert.doesNotMatch(app,/data-prepare="\$\{escapeHTML\(id\)\}" \$\{doneCount!==allCount\?['"]disabled/);
+});

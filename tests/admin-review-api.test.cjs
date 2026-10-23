@@ -96,6 +96,17 @@ test('review API records an individual rejection alongside accepted choices',asy
  const response=await api('PUT','/api/batches/batch-1/decisions',{decisions:{'test-call':{'sec-1':{action:'accept'},'sec-2':{action:'reject'}}}});assert.equal(response.status,201);const row=DB.prepare('SELECT decisions_json FROM update_batches WHERE id=? AND version=2').bind('batch-1').first();assert.equal(JSON.parse(row.decisions_json)['test-call']['sec-2'].action,'reject');
 });
 
+test('partial choices generate a data PR and default every unspecified fact to rejection',async t=>{
+ const {api,DB,calls}=await setup(t),payload=candidate();payload.items[0].changes.push({...payload.items[0].changes[0],sectionId:'sec-2'});DB.prepare('UPDATE update_batches SET payload_json=? WHERE id=? AND version=1').bind(JSON.stringify(payload),'batch-1').run();
+ const response=await api('PUT','/api/batches/batch-1/decisions',{decisions:{'test-call':{'sec-1':{action:'accept'}}}}),body=await response.json();assert.equal(response.status,201);assert.equal(body.status,'building-pr');assert.equal(body.defaultRejected,1);assert.match(body.message,/1 项未选择候选按拒绝处理/);
+ const row=DB.prepare('SELECT status,decisions_json FROM update_batches WHERE id=? AND version=2').bind('batch-1').first(),decisions=JSON.parse(row.decisions_json);assert.equal(row.status,'building-pr');assert.equal(decisions['test-call']['sec-1'].action,'accept');assert.deepEqual(decisions['test-call']['sec-2'],{action:'reject',defaulted:true});assert(calls.some(call=>call.url.endsWith('/dispatches')));
+});
+
+test('an empty choice submission defaults all facts to rejection and unlocks without creating a PR',async t=>{
+ const {api,DB,calls}=await setup(t),response=await api('PUT','/api/batches/batch-1/decisions',{decisions:{}}),body=await response.json();assert.equal(response.status,201);assert.equal(body.status,'rejected');assert.match(body.message,/未选择项已按拒绝处理/);assert(!calls.some(call=>call.url.endsWith('/dispatches')));
+ assert.deepEqual(JSON.parse(DB.prepare('SELECT decisions_json FROM update_batches WHERE id=? AND version=2').bind('batch-1').first().decisions_json),{'test-call':{'sec-1':{action:'reject',defaulted:true}}});
+});
+
 test('all-rejected review is recorded, unlocks its source, and does not dispatch a PR',async t=>{
  const {api,DB,calls}=await setup(t),response=await api('PUT','/api/batches/batch-1/decisions',{decisions:{'test-call':{'sec-1':{action:'reject'}}}}),body=await response.json();
  assert.equal(response.status,201);assert.equal(body.status,'rejected');assert(!calls.some(call=>call.url.endsWith('/dispatches')));
