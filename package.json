@@ -7,7 +7,7 @@
     "build": "node scripts/build.cjs",
     "extract:official": "node scripts/extract-official-sections.cjs",
     "check": "node scripts/validate.cjs",
-    "test": "node --test tests/publishers.test.cjs tests/core.test.cjs tests/search.test.cjs tests/public-catalog.test.cjs tests/catalog.test.cjs tests/updates.test.cjs tests/updates-identity.test.cjs tests/admin-review-api.test.cjs tests/admin-review-ui.test.cjs tests/date-update.integration.test.cjs tests/updates-apply.test.cjs tests/updates-pr-boundary.test.cjs tests/final-notice-check.test.cjs tests/copilot-structure.test.cjs tests/prepare-copilot-input.test.cjs tests/service-client.test.cjs tests/watchlist.test.cjs",
+    "test": "node --test tests/standalone.test.cjs tests/publishers.test.cjs tests/core.test.cjs tests/search.test.cjs tests/public-catalog.test.cjs tests/catalog.test.cjs tests/updates.test.cjs tests/updates-identity.test.cjs tests/admin-review-api.test.cjs tests/admin-review-ui.test.cjs tests/date-update.integration.test.cjs tests/updates-apply.test.cjs tests/updates-pr-boundary.test.cjs tests/final-notice-check.test.cjs tests/copilot-structure.test.cjs tests/prepare-copilot-input.test.cjs tests/service-client.test.cjs tests/watchlist.test.cjs",
     "serve": "node scripts/serve.cjs",
     "compile": "node scripts/catalog.cjs",
     "update:collect": "node scripts/updates/collector.cjs",
