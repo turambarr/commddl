@@ -1,7 +1,5 @@
 name: Copilot structured official updates
 on:
-  schedule:
-    - cron: '17 5 1,15 * *'
   workflow_dispatch:
     inputs:
       ids:
@@ -14,7 +12,7 @@ on:
         default: true
         type: boolean
       retry_failed:
-        description: 'Retry failed sources instead of the normal due queue'
+        description: 'Retry failures from scan_run_id; without it, use the legacy failed-source queue'
         required: true
         default: false
         type: boolean
@@ -27,6 +25,15 @@ on:
         description: 'Reprocess a saved, unreviewed candidate without recollecting sources'
         required: false
         type: string
+      scan_run_id:
+        description: 'Resume the next page of an existing frozen watchlist round'
+        required: false
+        type: string
+      send_notifications:
+        description: 'Send email reminders after candidate storage (leave off during rollout)'
+        required: true
+        default: false
+        type: boolean
 permissions:
   contents: read
 concurrency:
@@ -61,21 +68,39 @@ jobs:
           test "$RUN_COPILOT" = true && test "$DRY_RUN" = false && test -z "$SELECTED_IDS" || { echo 'Saved-candidate retry requires run_copilot=true, dry_run=false, and no ids input.' >&2; exit 1; }
           node scripts/updates/service-client.cjs export-batch --id "$RETRY_BATCH_ID" --directory /tmp/commddl-retry
           node -e "const m=require('/tmp/commddl-retry/metadata.json'),d=require('/tmp/commddl-retry/decisions.json'),p=require('/tmp/commddl-retry/candidate.json');if(!['awaiting-review','notice-incomplete'].includes(m.status)||m.prNumber||m.finalSha||Object.keys(d||{}).length||!p.items?.length)throw Error('Batch has a decision, PR, final SHA, or is no longer awaiting review');p.id=m.id;p.run={mode:'reuse-evidence',requestedIds:p.items.map(i=>i.entity.id),coverageScope:'已保存批次中的官网证据；本次仅重新整理，未重新抓取',counts:{requested:p.items.length,checked:0,changed:0,noChange:0,failed:0,partial:0,notChecked:0,reusedEvidence:p.items.length}};require('fs').writeFileSync('/tmp/commddl-candidates.json',JSON.stringify(p,null,2)+'\\n');require('fs').appendFileSync(process.env.GITHUB_OUTPUT,'version='+m.version+'\\ncount='+p.items.length+'\\n')"
-      - name: Register catalog sources
-        if: github.event_name == 'schedule'
+      - name: Sync catalog registry
+        if: inputs.retry_batch_id == '' && (github.event_name == 'schedule' || (inputs.ids == '' && inputs.retry_failed != true))
         env:
           UPDATE_ADMIN_API_URL: ${{ vars.UPDATE_ADMIN_API_URL }}
           UPDATE_INTERNAL_HMAC_SECRET: ${{ secrets.UPDATE_INTERNAL_HMAC_SECRET }}
         run: node scripts/updates/service-client.cjs register-sources
-      - name: Select due sources
+      - name: Freeze enabled watchlist for this round
+        id: start-scan
+        if: inputs.retry_batch_id == '' && inputs.ids == '' && inputs.retry_failed != true && inputs.scan_run_id == ''
+        env:
+          UPDATE_ADMIN_API_URL: ${{ vars.UPDATE_ADMIN_API_URL }}
+          UPDATE_INTERNAL_HMAC_SECRET: ${{ secrets.UPDATE_INTERNAL_HMAC_SECRET }}
+        run: node scripts/updates/service-client.cjs start-scan-run
+      - name: Select next frozen watchlist page
+        id: scan-page
+        if: inputs.retry_batch_id == '' && inputs.ids == '' && (inputs.scan_run_id != '' || (inputs.retry_failed != true && steps.start-scan.outcome == 'success'))
+        env:
+          UPDATE_ADMIN_API_URL: ${{ vars.UPDATE_ADMIN_API_URL }}
+          UPDATE_INTERNAL_HMAC_SECRET: ${{ secrets.UPDATE_INTERNAL_HMAC_SECRET }}
+          SCAN_RUN_ID: ${{ steps.start-scan.outputs.scan_run_id || inputs.scan_run_id }}
+          RETRY_FAILED: ${{ inputs.retry_failed }}
+        run: |
+          if [ "$RETRY_FAILED" = "true" ] && [ -n "$SCAN_RUN_ID" ]; then RETRY_ARG=--retry-failed; else RETRY_ARG=; fi
+          node scripts/updates/service-client.cjs get-scan-run-page --id "$SCAN_RUN_ID" --output /tmp/commddl-due.json --limit 20 $RETRY_ARG
+      - name: Select legacy due sources
         id: due
-        if: inputs.retry_batch_id == '' && (github.event_name == 'schedule' || (inputs.ids == '' && inputs.retry_failed != true))
+        if: inputs.retry_batch_id == '' && inputs.scan_run_id == '' && steps.start-scan.outcome != 'success' && inputs.ids == '' && inputs.retry_failed != true && github.event_name == 'workflow_dispatch'
         env:
           UPDATE_ADMIN_API_URL: ${{ vars.UPDATE_ADMIN_API_URL }}
           UPDATE_INTERNAL_HMAC_SECRET: ${{ secrets.UPDATE_INTERNAL_HMAC_SECRET }}
         run: node scripts/updates/service-client.cjs get-due --output /tmp/commddl-due.json
       - name: Select failed sources for retry
-        if: inputs.retry_batch_id == '' && github.event_name == 'workflow_dispatch' && inputs.ids == '' && inputs.retry_failed == true
+        if: inputs.retry_batch_id == '' && inputs.scan_run_id == '' && github.event_name == 'workflow_dispatch' && inputs.ids == '' && inputs.retry_failed == true
         env:
           UPDATE_ADMIN_API_URL: ${{ vars.UPDATE_ADMIN_API_URL }}
           UPDATE_INTERNAL_HMAC_SECRET: ${{ secrets.UPDATE_INTERNAL_HMAC_SECRET }}
@@ -89,8 +114,15 @@ jobs:
         run: node scripts/updates/service-client.cjs get-baselines --ids "$SELECTED_IDS" --output /tmp/commddl-due.json
       - name: Collect due sources
         id: collect-due
-        if: inputs.retry_batch_id == '' && (github.event_name == 'schedule' || inputs.ids == '')
+        if: inputs.retry_batch_id == '' && inputs.scan_run_id == '' && steps.start-scan.outcome != 'success' && github.event_name == 'workflow_dispatch' && inputs.ids == '' && inputs.retry_failed != true
         run: node scripts/updates/collector.cjs --due --baselines /tmp/commddl-due.json --out /tmp/commddl-candidates.json
+      - name: Collect next frozen watchlist page
+        id: collect-scan
+        if: inputs.retry_batch_id == '' && inputs.ids == '' && steps.scan-page.outputs.scan_count != '0'
+        env:
+          SELECTED_IDS: ${{ steps.scan-page.outputs.scan_ids }}
+          SCAN_RUN_ID: ${{ steps.start-scan.outputs.scan_run_id || inputs.scan_run_id }}
+        run: node scripts/updates/collector.cjs --ids "$SELECTED_IDS" --baselines /tmp/commddl-due.json --watch-entries /tmp/commddl-due.json --scan-run "$SCAN_RUN_ID" --out /tmp/commddl-candidates.json
       - name: Collect selected sources
         id: collect-selected
         if: inputs.retry_batch_id == '' && github.event_name == 'workflow_dispatch' && inputs.ids != ''
@@ -101,8 +133,17 @@ jobs:
         id: candidate-count
         if: inputs.retry_batch_id == ''
         run: |
+          test -s /tmp/commddl-candidates.json || printf '{"items":[],"run":{"counts":{"checked":0,"changed":0,"noChange":0,"failed":0,"notChecked":0}}}\n' > /tmp/commddl-candidates.json
           cp /tmp/commddl-candidates.json /tmp/commddl-final-candidates.json
-          node -e "const x=require('/tmp/commddl-candidates.json');console.log('count='+((x.items||[]).length))" >> "$GITHUB_OUTPUT"
+          node -e "const x=require('/tmp/commddl-candidates.json'),items=x.items||[];console.log('count='+items.filter(i=>i.changes?.length||i.sourceChanges?.length).length);console.log('scanned='+items.length)" >> "$GITHUB_OUTPUT"
+      - name: Record this page in the frozen run
+        id: record-scan
+        if: inputs.retry_batch_id == '' && (inputs.scan_run_id != '' || steps.start-scan.outcome == 'success') && steps.scan-page.outputs.scan_count != '0'
+        env:
+          UPDATE_ADMIN_API_URL: ${{ vars.UPDATE_ADMIN_API_URL }}
+          UPDATE_INTERNAL_HMAC_SECRET: ${{ secrets.UPDATE_INTERNAL_HMAC_SECRET }}
+          SCAN_RUN_ID: ${{ steps.start-scan.outputs.scan_run_id || inputs.scan_run_id }}
+        run: node scripts/updates/service-client.cjs record-scan-results --id "$SCAN_RUN_ID" --file /tmp/commddl-candidates.json
       - name: Install GitHub Copilot CLI
         if: (steps.candidate-count.outputs.count != '0' || steps.validate-retry.outcome == 'success') && (github.event_name == 'schedule' || inputs.run_copilot == true)
         env:
@@ -112,7 +153,7 @@ jobs:
           copilot --version
       - name: Prepare Copilot plain-text input
         if: (steps.candidate-count.outputs.count != '0' || steps.validate-retry.outcome == 'success') && (github.event_name == 'schedule' || inputs.run_copilot == true)
-        run: node scripts/updates/prepare-copilot-input.cjs --prompt scripts/updates/copilot-structure-prompt.md --source /tmp/commddl-candidates.json --out /tmp/commddl-copilot-input.txt
+        run: node scripts/updates/prepare-copilot-input.cjs --prompt scripts/updates/copilot-structure-prompt.md --source /tmp/commddl-candidates.json --changes-only --out /tmp/commddl-copilot-input.txt
       - name: Structure official source evidence with Copilot
         id: copilot
         if: (steps.candidate-count.outputs.count != '0' || steps.validate-retry.outcome == 'success') && (github.event_name == 'schedule' || inputs.run_copilot == true)
@@ -133,7 +174,8 @@ jobs:
         env:
           UPDATE_ADMIN_API_URL: ${{ vars.UPDATE_ADMIN_API_URL }}
           UPDATE_INTERNAL_HMAC_SECRET: ${{ secrets.UPDATE_INTERNAL_HMAC_SECRET }}
-        run: node scripts/updates/service-client.cjs submit --file /tmp/commddl-final-candidates.json
+        run: |
+          if [ "${{ inputs.send_notifications }}" = "true" ]; then node scripts/updates/service-client.cjs submit --file /tmp/commddl-final-candidates.json; else node scripts/updates/service-client.cjs submit --file /tmp/commddl-final-candidates.json --no-notify; fi
       - name: Save structured retry version
         id: save-retry
         if: inputs.retry_batch_id != '' && steps.copilot.outcome == 'success' && steps.merge-copilot.outcome == 'success'
@@ -142,7 +184,7 @@ jobs:
           UPDATE_INTERNAL_HMAC_SECRET: ${{ secrets.UPDATE_INTERNAL_HMAC_SECRET }}
           RETRY_BATCH_ID: ${{ inputs.retry_batch_id }}
           EXPECTED_VERSION: ${{ steps.validate-retry.outputs.version }}
-        run: node scripts/updates/service-client.cjs restructure-batch --id "$RETRY_BATCH_ID" --expected-version "$EXPECTED_VERSION" --file /tmp/commddl-final-candidates.json
+        run: node scripts/updates/service-client.cjs restructure-batch --id "$RETRY_BATCH_ID" --expected-version "$EXPECTED_VERSION" --file /tmp/commddl-final-candidates.json --no-notify
       - name: Preserve candidates when Copilot fails
         id: fallback-save
         if: always() && inputs.retry_batch_id == '' && steps.candidate-count.outputs.count != '0' && (steps.copilot.outcome == 'failure' || steps.merge-copilot.outcome == 'failure') && (github.event_name == 'schedule' || (inputs.run_copilot == true && inputs.dry_run == false))
@@ -151,7 +193,7 @@ jobs:
           UPDATE_INTERNAL_HMAC_SECRET: ${{ secrets.UPDATE_INTERNAL_HMAC_SECRET }}
         run: |
           node scripts/updates/mark-copilot-failure.cjs --source /tmp/commddl-candidates.json --out /tmp/commddl-final-candidates.json
-          node scripts/updates/service-client.cjs submit --file /tmp/commddl-final-candidates.json
+          node scripts/updates/service-client.cjs submit --file /tmp/commddl-final-candidates.json --no-notify
           exit 1
       - name: Summarize collection and review readiness
         if: always()
@@ -166,6 +208,15 @@ jobs:
           COLLECT_DUE_RESULT: ${{ steps.collect-due.outcome || 'skipped' }}
           COLLECT_SELECTED_RESULT: ${{ steps.collect-selected.outcome || 'skipped' }}
           RETRY_RESULT: ${{ steps.validate-retry.outcome || 'skipped' }}
+          SCAN_RUN_ID: ${{ steps.start-scan.outputs.scan_run_id || inputs.scan_run_id }}
+          SCAN_RESULT: ${{ steps.collect-scan.outcome || 'skipped' }}
+          SCAN_STATUS: ${{ steps.record-scan.outputs.scan_status || 'not-recorded' }}
+          SCAN_CHANGED: ${{ steps.record-scan.outputs.scan_changed || '0' }}
+          SCAN_DISCOVERED: ${{ steps.record-scan.outputs.scan_discovered || '0' }}
+          SCAN_NO_CHANGE: ${{ steps.record-scan.outputs.scan_no_change || '0' }}
+          SCAN_FAILED: ${{ steps.record-scan.outputs.scan_failed || '0' }}
+          SCAN_PARTIAL: ${{ steps.record-scan.outputs.scan_partial || '0' }}
+          SCAN_NOT_CHECKED: ${{ steps.record-scan.outputs.scan_not_checked || '0' }}
         run: |
           if [ -n "$RETRY_BATCH_ID" ]; then COLLECTION_RESULT="复用已保存批次 $RETRY_BATCH_ID（$RETRY_RESULT）"; else COLLECTION_RESULT="采集：due=$COLLECT_DUE_RESULT，指定来源=$COLLECT_SELECTED_RESULT"; fi
           {
@@ -174,6 +225,7 @@ jobs:
             echo "- Copilot 结构化：$COPILOT_RESULT"
             echo "- 证据校验：$VALIDATION_RESULT"
             echo "- 候选保存步骤：$SAVE_RESULT"
+            echo "- 关注清单轮次：${SCAN_RUN_ID:-未使用}；本页采集：$SCAN_RESULT；状态=$SCAN_STATUS，有变化=$SCAN_CHANGED，新发现=$SCAN_DISCOVERED，无变化=$SCAN_NO_CHANGE，失败=$SCAN_FAILED，部分=$SCAN_PARTIAL，未检查=$SCAN_NOT_CHECKED。每页最多 20 个对象，未完成时可用同一轮次 ID 续跑。"
             echo "- 批次：${BATCH_ID:-未新建} ${BATCH_VERSION:+v$BATCH_VERSION}"
             echo "- 邮件提醒：$NOTIFICATION_RESULT（失败不撤销候选，可在后台重试）"
           } >> "$GITHUB_STEP_SUMMARY"
@@ -184,6 +236,7 @@ jobs:
           path: |
             /tmp/commddl-candidates.json
             /tmp/commddl-final-candidates.json
+            /tmp/commddl-due.json
             .commddl-copilot-output.json
           if-no-files-found: ignore
           retention-days: 14
