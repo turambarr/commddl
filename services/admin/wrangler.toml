@@ -15,7 +15,7 @@ GITHUB_REPO = "commddl"
 AUTHORIZED_MAINTAINERS = "arofish,wy-02"
 ADMIN_ORIGIN = "https://commddl-admin.1319630151.workers.dev"
 GITHUB_CLIENT_ID = "Ov23li6eOpFq0BEPCjjg"
-PUBLISH_ENABLED = "false"
+PUBLISH_ENABLED = "true"
 
 [[d1_databases]]
 binding = "DB"
