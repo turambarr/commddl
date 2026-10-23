@@ -4,7 +4,7 @@
 
 ## 当前状态
 
-- 关注清单、冻结巡检轮次、每页最多 20 项、对象级结果和失败续跑已在本地隔离分支实现；新增 D1 迁移为 `0004_watchlist_scan_runs.sql`。本轮没有应用生产迁移、部署 Worker 或启用定时任务。 模拟情景与候选结构示例见 [关注清单模拟预览](WATCHLIST-SCAN-SIMULATED-PREVIEW-2026-10-23.md)。
+- 关注清单、冻结巡检轮次、每页最多 20 项、对象级结果和失败续跑已在本地隔离分支实现；新增 D1 迁移为 `0004_watchlist_scan_runs.sql`。本轮没有应用生产迁移、部署 Worker 或启用定时任务。模拟情景与候选结构示例见 [关注清单模拟预览](WATCHLIST-SCAN-SIMULATED-PREVIEW-2026-10-23.md)。
 - 关注清单是管理员显式维护的子集；目录注册只供搜索，不会自动变成监控对象。用户尚未确认格式和正式关注范围，不能开始全清单 Copilot 调用。
 - 最近一次真实 Copilot 样本见 [Actions run #39891980611](https://github.com/turambarr/commddl/actions/runs/39891980611)：仅 OFC 2027，`dry_run=true`，生成 8 条结构化预览 artifact；没有保存后台候选，也没有发送邮件。它是格式样本，不是本轮关注清单检查。
 - 按 2026-10-22 的配置清单记录，`PUBLISH_ENABLED=true`，`UPDATE_AUTOMATION_ENABLED=false`、`COPILOT_COLLECTION_ENABLED=false`；部署前应在平台再次核验实时值。本轮未修改平台开关。
@@ -28,9 +28,9 @@
 
 ## 调度口径
 
-唯一预期频率为每月 1 日与 15 日 UTC 05:17（北京时间 13:17），见 `.github/workflows/collect-updates.yml` 与 `scripts/updates/policy.json`。每轮按冻结清单分页，不等同于只处理一页。`UPDATE_AUTOMATION_ENABLED` 与 `COPILOT_COLLECTION_ENABLED` 必须分别精确设为 `true` 才允许无人值守采集；目前仍关闭。发布开关独立管理。
+预定频率为每月 1 日与 15 日 UTC 05:17（北京时间 13:17），记录在 `scripts/updates/policy.json`；GitHub Actions 的 schedule 事件目前已移除，`scheduleEnabled` 为 `false`，只能人工触发。启用前仍需完成格式确认、真实小范围闭环与整轮自动续跑能力；运行开关 `UPDATE_AUTOMATION_ENABLED`、`COPILOT_COLLECTION_ENABLED` 也保持关闭。发布开关独立管理。
 
-调度启用前要完成格式确认、关注范围确认、真实小范围闭环和失败恢复验收，并为每轮明确 Copilot 最大调用量。到达调用/运行限制时保存 checkpoint，不能把剩余对象报告为已检查。日常 schedule 未获单独授权前保持关闭。
+重新加入 schedule 前要完成格式确认、关注范围确认、真实小范围闭环、整轮续跑和失败恢复验收，并为每轮明确 Copilot 最大调用量。到达调用/运行限制时保存 checkpoint，不能把剩余对象报告为已检查。未获单独授权前保持关闭。
 
 ## 本地验证与外部待验证
 

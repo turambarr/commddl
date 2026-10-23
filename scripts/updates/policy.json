@@ -1,5 +1,6 @@
 {
   "schedule": "17 5 1,15 * *",
+  "scheduleEnabled": false,
   "batchLimit": 20,
   "globalConcurrency": 3,
   "pageBudget": 6,
