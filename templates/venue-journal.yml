@@ -5,6 +5,10 @@ short: 替换简称
 nameEn: Replace with official full name
 nameZh: 替换中文名称
 aliases: []
+# 仅录入有官方依据的出版关系；联合出版可填多项，空列表表示待核实。
+publishers: []
+# 主办机构与出版商分别核实，不从出版商推断。
+societies: []
 primaryArea: wireless
 secondaryAreas: []
 areas:

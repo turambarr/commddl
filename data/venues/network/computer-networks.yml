@@ -6,6 +6,13 @@ short: Computer Networks
 nameZh: 计算机网络
 nameEn: Computer Networks
 aliases: []
+publishers:
+  - id: elsevier
+    name: Elsevier
+    nameZh: 爱思唯尔
+    aliases: [爱斯维尔]
+    sourceUrl: https://shop.elsevier.com/journals/computer-networks/1389-1286
+    verifiedAt: 2026-10-23
 areas:
   - network
   - wireless
