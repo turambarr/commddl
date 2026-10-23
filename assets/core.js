@@ -66,11 +66,12 @@
     }
     return { code: node.precision === 'instant' ? 'upcoming' : 'date', days };
   }
-  const normal = value => String(value || '').normalize('NFKC').toLowerCase().replace(/[\s\-–_]/g, '');
+  const normal = value => String(value || '').normalize('NFKC').toLowerCase().replace(/通讯/g,'通信').replace(/波束赋形/g,'波束成形').replace(/[\s\-–_]/g, '');
+  const searchWords = query => [...String(query || '').matchAll(/"([^"]+)"|'([^']+)'|([^\s,，;；]+)/g)].map(m=>({text:m[1]||m[2]||m[3],quoted:m[1]!==undefined||m[2]!==undefined}));
   function searchMatches(query, ...fields) {
-    const words = [...String(query || '').matchAll(/"([^"]+)"|'([^']+)'|([^\s,，;；]+)/g)].map(m => m[1] || m[2] || m[3]);
+    const words = searchWords(query);
     const texts = fields.flat(Infinity).filter(Boolean).map(normal);
-    return words.every(word => texts.some(text => text.includes(normal(word))));
+    return words.every(word => texts.some(text => text.includes(normal(word.text))));
   }
   function cleanTopics(ids, topics, area = '') {
     // Parent areas organize the picker; they must not invalidate a cross-area selection.
@@ -81,7 +82,7 @@
     return !selected?.length || selected.some(id => (ids || []).includes(id));
   }
   function topicSearch(ids, taxonomy = []) {
-    return taxonomy.filter(t => (ids || []).includes(t.id)).flatMap(t => [t.label, t.aliases]);
+    return taxonomy.filter(t => (ids || []).includes(t.id)).flatMap(t => [t.label, t.aliases, (t.terms||[]).flatMap(term=>[term.short,term.label,term.nameEn,term.aliases||[]])]);
   }
   function deadlineRange(filters = {}) {
     if (filters.window === 'custom') {
@@ -137,10 +138,10 @@
     return indexingStatus(venue)===index;
   }
   const areaSearch = {
-    wireless:['无线通信','无线'], signal:['信号处理、感知与控制','信号处理'],
+    wireless:['无线通信','无线通讯','无线'], signal:['信号处理、感知与控制','信号处理'],
     theory:['信息论与编码','信息论'], network:['网络与移动系统','计算机网络'],
     optical:['光通信与光子学','光通信'], rf:['电磁、射频与电子技术','射频','电磁'],
-    space:['空天地通信与导航','空天地通信','卫星通信'], iot:['物联网与车联网','物联网','车联网'],
+    space:['空天地通信与导航','空天地通信','卫星通信','卫星通讯'], iot:['物联网与车联网','物联网','车联网'],
     ai:['人工智能与信息处理','人工智能']
   };
   const areaNames = Object.fromEntries(Object.entries(areaSearch).map(([id, names]) => [id, names[0]]));
@@ -177,6 +178,7 @@
     for(const topic of taxonomy){
       add(topic.label,'topic',topic.id,topic.label);
       for(const alias of topic.aliases||[])for(const word of alias.split(/\s+/))if(!broad.has(word)&&(/^[\u3400-\u9fff]{2,}$/.test(word)||/^[A-Z][A-Z0-9-]{1,}$/.test(word)))add(word,'topic',topic.id,topic.label);
+      for(const term of topic.terms||[])for(const phrase of [term.short,term.label,term.nameEn,...(term.aliases||[])])if(phrase&&!broad.has(phrase))add(phrase,'topic',topic.id,topic.label);
     }
     const selectedAreas=[],selectedTopics=[];
     for(const item of [...phrases.values()].filter(x=>!x.ambiguous).sort((a,b)=>b.phrase.length-a.phrase.length)){
@@ -209,6 +211,80 @@
   function venueIdentifiers(venue) {
     const records=[venue.indexing,...(venue.evaluations||[])].filter(e=>['verified','reported'].includes(e?.status));
     return [venue.issn,venue.eissn,...records.flatMap(e=>[e.issn,e.eissn])];
+  }
+  function searchDocument(venue, taxonomy, call) {
+    const names=[venue.short,venue.nameEn,venue.nameZh,...(venue.aliases||[]),...(call?[call.title,call.titleEn]:[])].filter(Boolean);
+    return {short:venue.short,names,aliases:venue.aliases||[],topics:topicSearch(call?.topics||venue.topics,taxonomy),other:[venueIdentifiers(venue),call?.tags,call?.summary,call?null:venue.summary]};
+  }
+  function relevance(query, doc) {
+    if(!query.trim())return 0;
+    const text=normal(searchWords(query).map(w=>w.text).join(' '));
+    if(normal(doc.short)===text)return 0;
+    if(doc.names.slice(1,3).some(name=>normal(name)===text))return 1;
+    if(doc.aliases.some(name=>normal(name)===text))return 2;
+    return searchWords(query).reduce((score,word)=>{
+      const text=normal(word.text);
+      if(normal(doc.short)===text)return score;
+      if(doc.names.some(name=>normal(name).startsWith(text)))return score+3;
+      if(doc.names.some(name=>normal(name).includes(text)))return score+4;
+      if(searchMatches(word.text,doc.topics))return score+6;
+      return score+8;
+    },3);
+  }
+  // Bounded Damerau-Levenshtein distance also handles adjacent letter swaps.
+  function spellingDistance(a,b,limit) {
+    if(Math.abs(a.length-b.length)>limit)return limit+1;
+    let previous=Array.from({length:b.length+1},(_,i)=>i),beforePrevious;
+    for(let i=1;i<=a.length;i++){
+      const row=[i];
+      for(let j=1;j<=b.length;j++){
+        row[j]=Math.min(row[j-1]+1,previous[j]+1,previous[j-1]+(a[i-1]===b[j-1]?0:1));
+        if(i>1&&j>1&&a[i-1]===b[j-2]&&a[i-2]===b[j-1])row[j]=Math.min(row[j],beforePrevious[j-2]+1);
+      }
+      if(Math.min(...row)>limit)return limit+1;
+      beforePrevious=previous;previous=row;
+    }
+    return previous[b.length];
+  }
+  function approximateMatch(query,doc,knownShorts) {
+    const words=searchWords(query),changes=[];
+    if(!words.length||words.length>16)return null;
+    const vocabulary=[...new Set(doc.names.flatMap(name=>name.match(/[A-Za-z]+/g)||[]))];
+    for(const word of words){
+      if(searchMatches(word.quoted?'"'+word.text+'"':word.text,doc.names,doc.topics,doc.other))continue;
+      const input=normal(word.text);
+      if(word.quoted||! /^[a-z]{3,64}$/.test(input)||knownShorts.has(input))return null;
+      const short=input.length<5,limit=input.length>=9?2:1;
+      const candidates=short?[doc.short,...doc.aliases].filter(s=>/^[A-Z]{3,4}$/.test(s)):vocabulary.filter(s=>s.length>=5);
+      const best=candidates.map(text=>({text,distance:spellingDistance(input,normal(text),limit)})).filter(x=>x.distance<=limit).sort((a,b)=>a.distance-b.distance||a.text.localeCompare(b.text))[0];
+      if(!best)return null;
+      changes.push({from:word.text,to:best.text,distance:best.distance});
+    }
+    if(!changes.length||changes.reduce((sum,c)=>sum+c.distance,0)>2)return null;
+    const letters=text=>[...normal(text)].sort().join('');
+    return {changes,score:changes.reduce((sum,c)=>sum+c.distance+(c.from.length<5&&letters(c.from)!==letters(c.to)?0.25:0),0)};
+  }
+  function suggestions(rows,query,documentFor,venues,limit=6) {
+    const knownShorts=new Set(venues.flatMap(v=>[v.short,...(v.aliases||[])]).filter(s=>/^[a-z0-9-]{2,12}$/i.test(s)).map(normal));
+    return rows.map(item=>({item,match:approximateMatch(query,documentFor(item),knownShorts)})).filter(row=>row.match).sort((a,b)=>a.match.score-b.match.score||relevance(query,documentFor(a.item))-relevance(query,documentFor(b.item))||a.item.id.localeCompare(b.item.id)).slice(0,limit);
+  }
+  function suggestVenues(venues,filters={}) {
+    const parsed=parseVenueQuery(filters.query,filters.taxonomy);
+    if(!parsed.text.trim())return [];
+    return suggestions(filterVenues(venues,{...filters,searchCandidates:true,sort:'name'}),parsed.text,v=>searchDocument(v,filters.taxonomy),venues);
+  }
+  function suggestCalls(calls,venues,filters={},now=Date.now()) {
+    const parsed=parseVenueQuery(filters.query,filters.taxonomy),byId=new Map(venues.map(v=>[v.id,v]));
+    if(!parsed.text.trim())return [];
+    return suggestions(filterCalls(calls,venues,{...filters,searchCandidates:true,sort:'name'},now),parsed.text,c=>searchDocument(byId.get(c.venueId),filters.taxonomy,c),venues);
+  }
+  function replaceSearchWord(query,from,to,taxonomy=[]) {
+    const parsed=parseVenueQuery(query,taxonomy);
+    return String(query).replace(/"[^"]*"|'[^']*'|[^\s,，;；]+/g,(word,start)=>{
+      const offset=String(query).slice(0,start).normalize('NFKC').length,end=offset+word.normalize('NFKC').length;
+      if(word.startsWith('"')||word.startsWith("'")||parsed.tokens.some(token=>offset<token.end&&end>token.start))return word;
+      return normal(word)===normal(from)?to:word;
+    });
   }
   function cleanGrades(values, kind) {
     const choices={jcr:['Q1','Q2','Q3','Q4','N'],cas:['1','2','3','4','N'],xinrui:['1','2','3','4'],ccf:['A','B','C','N'],core:['A*','A','B','C','N'],cie:['T1','T2','T3'],cic:['T1','T2','T3']};
@@ -252,8 +328,8 @@
       (!filters.historical || isBuptImportant(v)) &&
       (!filters.favoriteOnly || favorites.has('venue:' + v.id)) &&
       (!filters.journalType || filters.journalType === 'all' || v.publicationType === filters.journalType) &&
-      searchMatches(parsed.text, v.short, v.nameEn, v.nameZh, v.aliases, venueIdentifiers(v), v.summary, topicSearch(v.topics, filters.taxonomy))
-    ).sort((a,b) => {if(filters.calls&&filters.sort!=='name'){const x=venueDeadlineOrder(a,filters.calls,now,filters.zone,filters),y=venueDeadlineOrder(b,filters.calls,now,filters.zone,filters);const order=x[0]-y[0]||(x[0]===2?y[1].localeCompare(x[1]):x[1].localeCompare(y[1]));if(order)return order;}return (filters.sort === 'name' ? 0 : ({current:0,'needs-review':1,'historical-only':2}[a.catalogStatus] - {current:0,'needs-review':1,'historical-only':2}[b.catalogStatus])) || a.short.localeCompare(b.short);});
+      (filters.searchCandidates||searchMatches(parsed.text, v.short, v.nameEn, v.nameZh, v.aliases, venueIdentifiers(v), v.summary, topicSearch(v.topics, filters.taxonomy)))
+    ).sort((a,b) => {if(parsed.text&&(!filters.sort||filters.sort==='auto')){const order=relevance(parsed.text,searchDocument(a,filters.taxonomy))-relevance(parsed.text,searchDocument(b,filters.taxonomy));if(order)return order;}if(filters.calls&&filters.sort!=='name'){const x=venueDeadlineOrder(a,filters.calls,now,filters.zone,filters),y=venueDeadlineOrder(b,filters.calls,now,filters.zone,filters);const order=x[0]-y[0]||(x[0]===2?y[1].localeCompare(x[1]):x[1].localeCompare(y[1]));if(order)return order;}return (filters.sort === 'name' ? 0 : ({current:0,'needs-review':1,'historical-only':2}[a.catalogStatus] - {current:0,'needs-review':1,'historical-only':2}[b.catalogStatus])) || a.short.localeCompare(b.short);});
   }
   function filterCalls(calls, venues, filters, now = Date.now()) {
     filters=resolveFilters(filters);
@@ -276,11 +352,12 @@
       if ((filters.historical||parsed.buptImportant) && (!inheritsConferenceList(call) || !isBuptImportant(v))) return false;
       if (filters.favoriteOnly && !favorites.has('call:' + call.id) && !favorites.has('venue:' + v.id)) return false;
       if (!deadlineMatches(call,filters,now,filters.zone)) return false;
-      return searchMatches(parsed.text, call.title, call.titleEn, call.tags, call.summary, v.short, v.nameEn, v.nameZh, v.aliases, venueIdentifiers(v), topicSearch(topics, filters.taxonomy));
+      return filters.searchCandidates||searchMatches(parsed.text, call.title, call.titleEn, call.tags, call.summary, v.short, v.nameEn, v.nameZh, v.aliases, venueIdentifiers(v), topicSearch(topics, filters.taxonomy));
     }).sort((a, b) => {
       const aDate = calendarDate(primaryNode(a), filters.zone) || '9999';
       const bDate = calendarDate(primaryNode(b), filters.zone) || '9999';
       if (filters.sort === 'name') return byId.get(a.venueId).short.localeCompare(byId.get(b.venueId).short);
+      if(parsed.text&&(!filters.sort||filters.sort==='auto')){const order=relevance(parsed.text,searchDocument(byId.get(a.venueId),filters.taxonomy,a))-relevance(parsed.text,searchDocument(byId.get(b.venueId),filters.taxonomy,b));if(order)return order;}
       return aDate.localeCompare(bDate) || a.id.localeCompare(b.id);
     });
   }
@@ -337,5 +414,5 @@
     const allowed = new Set([...data.calls.map(c => 'call:' + c.id), ...data.venues.map(v => 'venue:' + v.id)]);
     return [...new Set(value.items.filter(x=>typeof x==='string').map(x=>{if(Object.hasOwn(data.favoriteAliases||{},x))return data.favoriteAliases[x];if(x.startsWith('call:')&&Object.hasOwn(data.callAliases||{},x.slice(5)))return 'call:'+data.callAliases[x.slice(5)];return x;}).filter(x=>allowed.has(x)))];
   }
-  return { validDate, dateInZone, parseInstant, countdown, primaryNode, calendarDate, stateOf, deadlineRange, deadlineMatches, isBuptImportant, inheritsConferenceList, venueActivity, indexMatches, parseVenueQuery, removeQueryTerms, resolveFilters, searchMatches, cleanTopics, topicMatches, indexingStatus, cleanGrades, isRankEvidence, displayEvaluations, evaluationMatches, filterVenues, filterCalls, escapeICS, foldLine, eligibleNodes, createICS, cleanFavorites };
+  return { validDate, dateInZone, parseInstant, countdown, primaryNode, calendarDate, stateOf, deadlineRange, deadlineMatches, isBuptImportant, inheritsConferenceList, venueActivity, indexMatches, parseVenueQuery, removeQueryTerms, resolveFilters, searchMatches, replaceSearchWord, suggestVenues, suggestCalls, cleanTopics, topicMatches, indexingStatus, cleanGrades, isRankEvidence, displayEvaluations, evaluationMatches, filterVenues, filterCalls, escapeICS, foldLine, eligibleNodes, createICS, cleanFavorites };
 });

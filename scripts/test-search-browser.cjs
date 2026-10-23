@@ -45,7 +45,7 @@ async function wait(expression){
 const quoted=JSON.stringify;
 async function open(hash){
   await command('Page.navigate',{url:base+'/'+hash});
-  await wait(`document.readyState==='complete' && typeof COMMDDL_DATA!=='undefined' && location.hash===${quoted(hash)} && document.querySelector('#results article, #results .empty-state')`);
+  await wait(`document.readyState==='complete' && typeof COMMDDL_DATA!=='undefined' && location.hash===${quoted(hash)} && document.querySelector('#results article, #results .empty-state, #results .no-exact-match')`);
 }
 async function click(selector){
   if(await evaluate(`Boolean(document.querySelector(${quoted(selector)})?.matches('.rank-chip') && document.querySelector('#attribute-panel').classList.contains('attributes-folded'))`))await click('[data-attribute-expand]');
@@ -195,6 +195,51 @@ let base;
       await open('#journals?q=TWC');await click('[data-favorite="venue:twc"]');
       await open('#favorites?within=custom');assert((await rowIds()).includes('twc'));
     });
+    await test('拼写近似结果独立显示，改词按钮保留 SCI 和一区',async()=>{
+      await open('#journals?q=SCI%20%E4%B8%80%E5%8C%BA%20wirelss');
+      assert.equal(await count(),0);
+      assert(await evaluate(`document.querySelector('#approximate-results [data-venue-card="twc"]')!==null && !document.querySelector('#approximate-results').hidden`));
+      assert(await evaluate(`document.querySelector('#results-title').textContent.includes('准确匹配 0 项 · 近似 1 项')`));
+      assert(await evaluate(`document.querySelector('#search').value==='SCI 一区 wirelss'`));
+      await click('[data-search-correction]');assert((await rowIds()).includes('twc'));
+      assert(await evaluate(`document.querySelector('#search').value==='SCI 一区 Wireless' && CommCore.parseVenueQuery(document.querySelector('#search').value,COMMDDL_DATA.topics).grades.includes('cas:1') && document.querySelector('#approximate-results').hidden`));
+    });
+    await test('短简称纠错提供候选，正确简称在分区不符时不被替换',async()=>{
+      await open('#journals?q=TCW');assert.equal(await count(),0);
+      assert.equal(await evaluate(`document.querySelector('#approximate-results [data-venue-card]').dataset.venueCard`),'twc');
+      await open('#journals?q=TWC&ranks=cas%3A4');assert.equal(await count(),0);
+      assert(await evaluate(`document.querySelector('#approximate-results').hidden && document.querySelector('#search').value==='TWC'`));
+    });
+    await test('PNT 和机会信号缩写显示中文释义，取消主题同步清空搜索',async()=>{
+      await open('#journals?q=SOP');
+      assert((await count())>0);const sopIds=await rowIds();
+      assert(await evaluate(`document.querySelector('#search-hint').textContent.includes('SOP（机会信号）') && !!document.querySelector('[data-filter-value="navigation-pnt"]')`));
+      await open('#journals?q=PNT');assert.deepEqual(await rowIds(),sopIds);
+      assert(await evaluate(`document.querySelector('#search-hint').textContent.includes('PNT（定位、导航与授时）')`));
+      await click('[data-filter-kind="topic"][data-filter-value="navigation-pnt"]');assert.equal(await count(),325);
+    });
+    await test('技术缩写说明可展开并按主题筛选，来源链接完整',async()=>{
+      await open('#journals');await click('[data-term-guide] summary');
+      assert(await evaluate(`document.querySelector('[data-term-guide]').open && document.querySelector('.term-guide-list').textContent.includes('Signals of Opportunity') && [...document.querySelectorAll('.term-guide-row a')].every(a=>a.href.startsWith('https://'))`));
+      await click('.term-guide-row [data-topic="navigation-pnt"]');
+      assert((await count())>0&&await count()<325);
+      assert(await evaluate(`document.querySelector('[data-term-guide]').open && !!document.querySelector('[data-filter-value="navigation-pnt"]')`));
+      await click('[data-term-guide] summary');
+    });
+    await test('明确名称优先排序，手选名称或日期排序及分享参数保持有效',async()=>{
+      await open('#journals?q=TWC');assert.equal(await evaluate(`document.querySelector('#sort').value`),'auto');
+      assert.equal(await evaluate(`document.querySelector('#results [data-venue-card]').dataset.venueCard`),'twc');
+      await setValue('#sort','name');assert(await evaluate(`new URLSearchParams(location.hash.split('?')[1]).get('sort')==='name'`));
+      await setValue('#sort','deadline');assert(await evaluate(`new URLSearchParams(location.hash.split('?')[1]).get('sort')==='deadline'`));
+      await setValue('#sort','auto');assert(await evaluate(`!new URLSearchParams(location.hash.split('?')[1]).has('sort')`));
+    });
+    await test('近似会议征稿保留截止范围，选择后进入月历显示对应活动',async()=>{
+      await open('#deadlines?q=Commnications&within=custom&from=30&to=40');
+      assert(await evaluate(`document.querySelector('#approximate-results [data-call-card]')!==null`));
+      assert(await evaluate(`(()=>{const allowed=new Set(CommCore.filterCalls(COMMDDL_DATA.calls,COMMDDL_DATA.venues,{window:'custom',daysFrom:'30',daysTo:'40'}).map(c=>c.id));return [...document.querySelectorAll('#approximate-results [data-call-card]')].every(el=>allowed.has(el.dataset.callCard));})()`));
+      await click('[data-search-correction]');assert((await count())>0);
+      await click('#calendar-view');assert(await evaluate(`document.querySelector('.calendar-event')!==null`));
+    });
     await test('手机操作：方向选择后关闭导航，筛选和清除按钮可点击',async()=>{
       await command('Emulation.setDeviceMetricsOverride',{width:390,height:844,deviceScaleFactor:1,mobile:true});
       await open('#journals?q=SCI');await command('Page.reload');await wait(`document.readyState==='complete' && document.querySelector('#results article')`);
@@ -204,6 +249,11 @@ let base;
       assert(await evaluate(`!document.querySelector('#sidebar').classList.contains('open') && document.documentElement.scrollWidth<=innerWidth`));
       await click('[data-filter-kind="index"][data-filter-value="SCIE"]');
       assert.equal(await count(),105);assert(await evaluate(`!document.querySelector('[data-filter-kind="index"]')`));
+    });
+    await test('手机可点击近似建议与技术缩写说明，页面无横向溢出',async()=>{
+      await open('#journals?q=SCI%20%E4%B8%80%E5%8C%BA%20wirelss');await click('[data-search-correction]');assert((await rowIds()).includes('twc'));
+      await open('#journals?q=PNT');await click('[data-term-guide] summary');
+      assert(await evaluate(`document.querySelector('[data-term-guide]').open && document.documentElement.scrollWidth<=innerWidth`));
     });
     assert.deepEqual(errors,[],'浏览器不应有未处理异常');
     console.log(JSON.stringify({passed:results.length,browserErrors:errors.length,tests:results},null,2));

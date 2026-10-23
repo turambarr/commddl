@@ -52,3 +52,81 @@ test('a directory date window must match the actual CFP topics, not only the par
   assert.equal(C.venueActivity(journal,[call],now,'Asia/Shanghai',{...filters,window:''}),null);
   assert.equal(C.filterVenues([journal],{...filters,query:'SCI 多天线'}).length,1);
 });
+
+test('curated Chinese equivalents and incomplete English names find the same venues',()=>{
+  assert.deepEqual(ids(find({query:'无线通讯'})),ids(find({query:'无线通信'})));
+  assert.deepEqual(ids(find({query:'波束赋形'})),ids(find({topics:['mimo']})));
+  assert(find({query:'Wireless Commun'}).some(v=>v.id==='twc'));
+});
+test('technical abbreviations, full names and Chinese phrases map to explicit topics',()=>{
+  for(const [topic,queries] of [
+    ['navigation-pnt',['PNT','GNSS','SOP','SoOP','机会信号定位','机会信号定位导航授时','Signals of Opportunity','Positioning, Navigation and Timing']],
+    ['isac',['ISAC','Integrated Sensing and Communication']],
+    ['ris',['RIS','IRS','智能反射面','Reconfigurable Intelligent Surface']],
+    ['edge-cloud',['MEC','Multi-access Edge Computing','移动边缘计算']],
+    ['distributed-learning',['FL','Federated Learning']]
+  ])for(const query of queries){
+    assert.deepEqual(C.parseVenueQuery(query,data.topics).topics,[topic],query);
+    assert.deepEqual(ids(find({query})),ids(find({topics:[topic]})),query);
+  }
+  assert.equal(data.topics.find(t=>t.id==='navigation-pnt').terms.find(t=>t.short==='PNT').label,'定位、导航与授时');
+  assert.equal(C.parseVenueQuery('GNSSion SOPers',data.topics).topics.length,0);
+});
+test('English spelling mistakes and letter swaps produce separate correctable suggestions',()=>{
+  for(const query of ['wirelesss','wirelss','wrieless','commmunications']){
+    const rows=C.suggestVenues(data.venues,{query,venueKind:'journal',taxonomy:data.topics});
+    assert(rows.length>0,query);assert(rows.length<=6);
+    for(const {item,match}of rows){
+      let corrected=query;for(const change of match.changes)corrected=C.replaceSearchWord(corrected,change.from,change.to,data.topics);
+      assert(find({query:corrected}).some(v=>v.id===item.id),item.id+' '+corrected);
+      assert(!find({query}).some(v=>v.id===item.id));
+    }
+  }
+  assert.equal(C.suggestVenues(data.venues,{query:'TCW',venueKind:'journal',taxonomy:data.topics})[0].item.id,'twc');
+  assert.equal(C.suggestVenues(data.venues,{query:'TWC',taxonomy:data.topics}).length,0);
+});
+test('near matches preserve indexing, ranks, topics, venue kind and archive scope',()=>{
+  const filters={query:'SCI 一区 wirelss',venueKind:'journal',taxonomy:data.topics,topics:['mimo']};
+  const allowed=new Set(ids(find({...filters,query:'SCI 一区'})));
+  const suggestions=C.suggestVenues(data.venues,filters);assert(suggestions.length);
+  assert(suggestions.every(row=>allowed.has(row.item.id)));
+  assert.equal(C.suggestVenues(data.venues,{...filters,topics:['cryptography']}).length,0);
+  assert.equal(C.suggestVenues(data.venues,{query:'1536-1277',taxonomy:data.topics}).length,0);
+  assert.equal(C.suggestVenues(data.venues,{query:'"wireles"',taxonomy:data.topics}).length,0);
+  assert.equal(C.suggestVenues(data.venues,{query:'无线通迅',taxonomy:data.topics}).length,0);
+});
+test('correcting a typo preserves structured conditions, quoted literals and surrounding text',()=>{
+  const query='SCI，中科院一区 wireles "wireles" RIS';
+  const corrected=C.replaceSearchWord(query,'wireles','Wireless',data.topics);
+  assert.equal(corrected,'SCI，中科院一区 Wireless "wireles" RIS');
+  assert.deepEqual(C.parseVenueQuery(corrected,data.topics).grades,['cas:1']);
+  assert.deepEqual(C.parseVenueQuery(corrected,data.topics).topics,['ris']);
+  assert.equal(C.replaceSearchWord('SCI PNT','PNT','GPS',data.topics),'SCI PNT');
+});
+test('exact venue names precede summary-only matches while explicit sorts are respected',()=>{
+  const base={kind:'journal',areas:['wireless'],topics:['mimo'],catalogStatus:'current'};
+  const rows=[{...base,id:'summary',short:'AAA',nameEn:'Another Journal',summary:'TWC related work'},
+    {...base,id:'twc',short:'TWC',nameEn:'Wireless Communications',summary:''}];
+  assert.deepEqual(C.filterVenues(rows,{query:'TWC',sort:'auto'}).map(v=>v.id),['twc','summary']);
+  assert.deepEqual(C.filterVenues(rows,{query:'TWC',sort:'name'}).map(v=>v.id),['summary','twc']);
+  assert.equal(find({query:'MWCL'})[0].id,'mwtl');
+});
+test('suggestions respect concrete deadline windows and a CFP own topic selection',()=>{
+  const now=Date.parse('2026-10-23T00:00:00+08:00');
+  const call={...data.calls.find(c=>c.id==='jsac-flexible-2026'),topics:['mimo'],nodes:[{id:'paper',type:'paper',primary:true,precision:'date',date:'2026-11-27'}]};
+  const dated={query:'SCI Commnications',taxonomy:data.topics,window:'custom',daysFrom:'30',daysTo:'40',calls:[call],now};
+  assert.equal(C.suggestCalls([call],data.venues,{...dated,topics:['mimo']},now).length,1);
+  assert.equal(C.suggestCalls([call],data.venues,{...dated,topics:['optical-networks']},now).length,0);
+  const matches=C.suggestVenues(data.venues,dated);assert.deepEqual(matches.map(row=>row.item.id),['jsac']);
+  assert.equal(C.suggestVenues(data.venues,{...dated,topics:['optical-networks']}).length,0);
+  assert.equal(C.suggestVenues(data.venues,{...dated,daysFrom:'40',daysTo:'30'}).length,0);
+});
+test('a known short name filtered out by a grade is never changed into another venue',()=>{
+  assert.equal(find({query:'TWC',grades:['cas:4']}).length,0);
+  assert.equal(C.suggestVenues(data.venues,{query:'TWC',grades:['cas:4'],taxonomy:data.topics}).length,0);
+  assert.equal(C.suggestVenues(data.venues,{query:'TCW',favoriteOnly:true,favorites:['venue:twc'],taxonomy:data.topics}).length,1);
+  assert.equal(C.suggestVenues(data.venues,{query:'TCW',favoriteOnly:true,favorites:[],taxonomy:data.topics}).length,0);
+});
+test('long or quoted queries do not enable unbounded spelling comparisons',()=>{
+  for(const query of ['x'.repeat(1000),Array(20).fill('wirelss').join(' '),'"wirelss"','SCI Q5 1536-1277'])assert.equal(C.suggestVenues(data.venues,{query,taxonomy:data.topics}).length,0);
+});
