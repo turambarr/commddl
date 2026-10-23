@@ -1,6 +1,6 @@
 const {test}=require('node:test');
 const assert=require('node:assert/strict');
-const {submitCandidate,restructureBatch}=require('../scripts/updates/service-client.cjs');
+const {submitCandidate,restructureBatch,getScanRunPage}=require('../scripts/updates/service-client.cjs');
 
 function candidate(){return {items:[{entity:{id:'ofc-2027-main',kind:'conference'},status:'fetched',sourceHash:'abc',pages:[],changes:[{type:'content-added',sectionId:'scope'}]}]};}
 test('saved candidate remains successful and exposes retryable email status when notification fails',async()=>{
@@ -13,6 +13,10 @@ test('saved batch restructuring creates a version even when reminder delivery fa
 });
 
 test('duplicate content does not create another candidate or send another reminder',async()=>{let notifyCalls=0;const result=await submitCandidate(candidate(),{callFn:async(method,path)=>{if(path==='/internal/sources/snapshots')return {saved:1};if(path==='/internal/update-batches')return {id:'existing',version:3,status:'awaiting-review',duplicate:true,notification_status:'incomplete'};if(path.endsWith('/notify'))notifyCalls++;throw new Error(path);},log:()=>{},warn:()=>{}});assert.equal(result.duplicate,true);assert.equal(result.id,'existing');assert.equal(notifyCalls,0);});
+
+test('watchlist continuation requests at most 20 items and retries only failed scan items when requested',async()=>{const requests=[];const response={runId:'run-1',listVersion:'v1',total:25,items:[{id:'failed-call',baseline:[],scopeKind:'call',officialUrl:'https://example.org/cfp'}]};const page=await getScanRunPage('run-1',{limit:80,retryFailed:true,callFn:async(method,url)=>{requests.push({method,url});return response;}});assert.match(requests[0].url,/limit=20/);assert.match(requests[0].url,/retry_failed=1/);assert.deepEqual(page.ids,['failed-call']);assert.equal(page.scanRun.total,25);});
+
+test('failure-only and unchanged scan pages persist but create no review batch and send no email',async()=>{let batchCalls=0,noticeCalls=0,snapshotCalls=0;const callFn=async(method,path)=>{if(path==='/internal/sources/snapshots'){snapshotCalls++;return {saved:2};}if(path==='/internal/update-batches'){batchCalls++;return {id:'unexpected'};}if(path.endsWith('/notify')){noticeCalls++;return {complete:true};}throw new Error(path);};const failed=await submitCandidate({items:[{entity:{id:'fetch-failed'},status:'failed',failures:[{message:'simulated'}]}]},{callFn,sendNotifications:false,log:()=>{}}),unchanged=await submitCandidate({items:[{entity:{id:'same'},status:'fetched',changes:[]}]},{callFn,sendNotifications:false,log:()=>{}});assert.equal(failed.stored,false);assert.equal(unchanged.stored,false);assert.equal(snapshotCalls,2);assert.equal(batchCalls,0);assert.equal(noticeCalls,0);});
 
 test('Copilot failure fallback keeps raw differences audit-only and retains date nodes',()=>{
  const fs=require('node:fs'),os=require('node:os'),path=require('node:path'),{spawnSync}=require('node:child_process');const dir=fs.mkdtempSync(path.join(os.tmpdir(),'commddl-copilot-fallback-'));

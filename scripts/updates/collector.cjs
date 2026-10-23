@@ -54,16 +54,30 @@ function dateChanges(item,sections){
  }
  return found;
 }
-function parseArgs(args){const out={ids:[],dryRun:false,limit:POLICY.batchLimit};for(let i=0;i<args.length;i++){if(args[i]==='--ids')out.ids=args[++i].split(',').filter(Boolean);else if(args[i]==='--due')out.due=true;else if(args[i]==='--dry-run')out.dryRun=true;else if(args[i]==='--out')out.out=args[++i];else if(args[i]==='--baselines')out.baselines=args[++i];else if(args[i]==='--limit')out.limit=Math.min(POLICY.batchLimit,Math.max(1,Number(args[++i])||POLICY.batchLimit));}return out;}
-function seedsFor(item,venue){return [...new Set([item.url,item.sourceUrl,item.authorGuideUrl,item.cfpUrl,...(!item.venueId?[venue.url,venue.sourceUrl,venue.authorGuideUrl,venue.cfpUrl]:[])].filter(value=>typeof value==='string'&&/^https:\/\//i.test(value)))];}
+function parseArgs(args){const out={ids:[],dryRun:false,limit:POLICY.batchLimit};for(let i=0;i<args.length;i++){if(args[i]==='--ids')out.ids=args[++i].split(',').filter(Boolean);else if(args[i]==='--due')out.due=true;else if(args[i]==='--dry-run')out.dryRun=true;else if(args[i]==='--out')out.out=args[++i];else if(args[i]==='--baselines')out.baselines=args[++i];else if(args[i]==='--watch-entries')out.watchEntries=args[++i];else if(args[i]==='--scan-run')out.scanRun=args[++i];else if(args[i]==='--limit')out.limit=Math.min(POLICY.batchLimit,Math.max(1,Number(args[++i])||POLICY.batchLimit));}return out;}
+function seedsFor(item,venue,watch={}){return [...new Set([watch.officialUrl,item.url,item.sourceUrl,item.authorGuideUrl,item.cfpUrl,...(!item.venueId?[venue.url,venue.sourceUrl,venue.authorGuideUrl,venue.cfpUrl]:[])].filter(value=>typeof value==='string'&&/^https:\/\//i.test(value)))];}
 function discoveredLinks(html,baseUrl){
  const $=cheerio.load(html),base=new URL(baseUrl),links=[];
  $('a[href]').each((_,el)=>{const href=$(el).attr('href'),label=$(el).text().replace(/\s+/g,' ').trim();if(!href||!LINK_RE.test(`${label} ${href}`))return;try{const url=new URL(href,base);if(url.protocol==='https:'&&url.hostname===base.hostname&&!LINK_NOISE.test(url.pathname)&&!/(?:^|\/)about(?:\/|$)/i.test(url.pathname)&&!/\.(pdf|zip|ics|png|jpe?g|svg|css|js)(?:$|\?)/i.test(url.pathname))links.push({url:url.href,label});}catch{}});
  return [...new Map(links.map(item=>[item.url,item])).values()];
 }
-async function collectEntity(item,venue,baseline=[],retryCount=0){
+function discoverCallLinks(pages,watch={}){
+ if(watch.scopeKind!=='venue'||watch.applicability?.includeNewCalls!==true)return [];
+ const applicability=watch.applicability||{},branches=Array.isArray(applicability.includeBranches)?applicability.includeBranches.map(value=>String(value).toLowerCase()):[];
+ const found=[];
+ for(const page of pages){const discoveredBy=page.discoveredBy;if(!discoveredBy||!/(?:call\s+for\s+papers|\bCFP\b|special\s+(?:issue|section)|征稿|专题|届次)/i.test(`${discoveredBy.label||''} ${page.requestedUrl||page.url}`))continue;
+  const haystack=`${discoveredBy.label||''} ${page.requestedUrl||page.url}`,yearMatch=haystack.match(/\b(20\d{2})\b/),year=yearMatch?Number(yearMatch[1]):null,min=Number(applicability.yearFrom)||null,max=Number(applicability.yearTo)||null;
+  if(year!==null&&((min&&year<min)||(max&&year>max)))continue;
+  if(branches.length&&!branches.some(branch=>haystack.toLowerCase().includes(branch)))continue;
+  const targetUrl=page.url||page.requestedUrl;if(!targetUrl)continue;
+  const identity=crypto.createHash('sha256').update(`${watch.id||''}\n${targetUrl}`).digest('hex').slice(0,16);
+  found.push({discoveryId:`discovery-${identity}`,parentId:watch.id||null,title:String(discoveredBy.label||targetUrl).slice(0,300),year,sourceUrl:discoveredBy.url||null,targetUrl,status:'awaiting-identity-review'});
+ }
+ return [...new Map(found.map(entry=>[entry.targetUrl,entry])).values()];
+}
+async function collectEntity(item,venue,baseline=[],retryCount=0,watch={}){
  const baselinePages=Array.isArray(baseline)?[]:(baseline.pages||[]),baselineSections=Array.isArray(baseline)?baseline:baselinePages.flatMap(page=>page.sections||[]);let reusedPages=0;
- const entityId=item.id,queue=seedsFor(item,venue).map(url=>({url,depth:0,discoveredBy:null})),seen=new Set(),pages=[],failures=[],unreadLinks=[];
+ const entityId=item.id,queue=seedsFor(item,venue,watch).map(url=>({url,depth:0,discoveredBy:null})),seen=new Set(),pages=[],failures=[],unreadLinks=[];
  while(queue.length&&pages.length<POLICY.pageBudget){
   const item=queue.shift();if(seen.has(item.url))continue;seen.add(item.url);
   try{
@@ -84,7 +98,9 @@ async function collectEntity(item,venue,baseline=[],retryCount=0){
  const status=pages.length?(failures.length?'partial':'fetched'):'failed',delayHours=failures.length?retryDelayHours(priorAttempts,retryAfter):intervalHours;
  const recordType=item.venueId?'call':'venue',displayNameZh=item.venueId?(item.title||item.titleZh||item.id):(item.nameZh||item.short||item.id),displayNameEn=item.venueId?(item.titleEn||venue?.nameEn||''):(item.nameEn||''),entity={id:entityId,kind:item.kind,recordType,venueId:item.venueId||null,displayNameZh,displayNameEn,acronym:item.short||venue?.short||'',year:item.year||null,edition:item.venueId?item.title||item.titleEn||'':'',url:item.url||item.sourceUrl||null,sourceFile:sourcePath(item)};
  if(item.venueId&&venue)entity.parent={id:venue.id,nameZh:venue.nameZh||venue.short||venue.id,nameEn:venue.nameEn||'',acronym:venue.short||''};
- return {entity,fetchedAt,nextCheckAt:new Date(Date.now()+delayHours*3600000).toISOString(),status,sourceHash:htmlHash(pages.map(page=>page.sourceHash).join('\n')),pages,sections,changes,failures,unreadLinks,gaps:pages.length?[]:['no-page-read'],reusedEvidencePages:reusedPages};
+  if(watch?.scopeKind)entity.watchScope={kind:watch.scopeKind,watchId:watch.watchId||watch.id,discoveredUnder:watch.discoveredUnder||null,scope:watch.scope||{},applicability:watch.applicability||{}};
+ const deadlineReview=primary&&deadline?{status:days<0?'past':'not-past',date:deadline,daysRelative:days}:null,discoveryCandidates=discoverCallLinks(pages,watch);
+ return {entity,fetchedAt,nextCheckAt:new Date(Date.now()+delayHours*3600000).toISOString(),status,sourceHash:htmlHash(pages.map(page=>page.sourceHash).join('\n')),pages,sections,changes,failures,unreadLinks,gaps:pages.length?[]:['no-page-read'],reusedEvidencePages:reusedPages,deadlineReview,discoveryCandidates};
 }
 async function main(){
  const args=parseArgs(process.argv.slice(2)),data=loadCatalog(ROOT),entities=new Map([...data.venues,...data.calls].map(item=>[item.id,item]));
@@ -95,7 +111,7 @@ async function main(){
   targets=(due.ids||[]).map(id=>{const entity=entities.get(id);if(!entity)throw new Error(`未知维护实体：${id}`);return entity;});
  }
  if(!args.ids.length&&!args.due)throw new Error('需指定 --ids <venue-id[,id...]> 或 --due。');
- const baselineFile=args.baselines?JSON.parse(fs.readFileSync(args.baselines,'utf8')):{};
+ const baselineFile=args.baselines?JSON.parse(fs.readFileSync(args.baselines,'utf8')):{},watchFile=args.watchEntries?JSON.parse(fs.readFileSync(args.watchEntries,'utf8')):{},watchEntries=Array.isArray(watchFile)?watchFile:(watchFile.watchEntries||[]),watchById=new Map(watchEntries.map(entry=>[entry.id,entry]));
  // Both the internal API wrapper ({ids, baselines, snapshots}) and a legacy
  // flat {entityId: baseline} map are accepted for manual and scheduled runs.
  const baselines=normalizeBaselines(baselineFile);
@@ -103,12 +119,12 @@ async function main(){
  const selected=targets.slice(0,args.limit);
  for(let i=0;i<selected.length;i+=POLICY.globalConcurrency){
   const group=selected.slice(i,i+POLICY.globalConcurrency);
-  const collected=await Promise.all(group.map(item=>{const venue=item.venueId?data.venues.find(v=>v.id===item.venueId):item,retryCount=baselineFile.snapshots?.find(snapshot=>snapshot.entity_id===item.id)?.retry_count||0;return collectEntity(item,venue,baselines[item.id]||[],retryCount);}));
+  const collected=await Promise.all(group.map(item=>{const venue=item.venueId?data.venues.find(v=>v.id===item.venueId):item,retryCount=baselineFile.snapshots?.find(snapshot=>snapshot.entity_id===item.id)?.retry_count||0;return collectEntity(item,venue,baselines[item.id]||[],retryCount,watchById.get(item.id)||{});}));
   output.items.push(...collected);
  }
  if(args.out){const target=path.resolve(args.out);fs.mkdirSync(path.dirname(target),{recursive:true});fs.writeFileSync(target,JSON.stringify(output,null,2)+'\n');}
- output.run=summarizeRun(output.items,{mode:args.due?'due-source-scan':'manual-sample',requestedCount:targets.length,requestedIds:targets.map(item=>item.id)});
+ output.run=summarizeRun(output.items,{mode:args.scanRun?'watchlist-scan':args.due?'due-source-scan':'manual-sample',requestedCount:targets.length,requestedIds:targets.map(item=>item.id)});if(args.scanRun)output.run.scanRunId=args.scanRun;
  process.stdout.write(JSON.stringify(output,null,2)+'\n');
 }
 if(require.main===module)main().catch(error=>{console.error(error.message);process.exitCode=1;});
-module.exports={collectEntity,dateChanges,parseDeadlineDate,normalizeBaselines,retryDelayHours,discoveredLinks,summarizeRun};
+module.exports={collectEntity,dateChanges,parseDeadlineDate,normalizeBaselines,retryDelayHours,discoveredLinks,discoverCallLinks,summarizeRun,seedsFor};

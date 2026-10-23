@@ -4,7 +4,7 @@ const fs=require('node:fs');
 const os=require('node:os');
 const path=require('node:path');
 const {prepare}=require('../scripts/updates/prepare-copilot-input.cjs');
-const {discoveredLinks}=require('../scripts/updates/collector.cjs');
+const {discoveredLinks,discoverCallLinks}=require('../scripts/updates/collector.cjs');
 
 test('Copilot input embeds collected JSON as bounded plain text',()=>{
  const dir=fs.mkdtempSync(path.join(os.tmpdir(),'commddl-copilot-input-'));
@@ -33,7 +33,17 @@ test('Copilot receives topical official sections only, with ancestor headings as
  }finally{fs.rmSync(dir,{recursive:true,force:true});}
 });
 
+test('changes-only mode excludes unchanged and failed-only objects from Copilot input',()=>{
+ const dir=fs.mkdtempSync(path.join(os.tmpdir(),'commddl-copilot-changes-only-'));
+ try{const prompt=path.join(dir,'prompt.md'),source=path.join(dir,'source.json'),out=path.join(dir,'input.txt');fs.writeFileSync(prompt,'Use official evidence.');fs.writeFileSync(source,JSON.stringify({items:[{entity:{id:'changed'},changes:[{type:'content-changed'}],pages:[]},{entity:{id:'unchanged'},changes:[],pages:[]},{entity:{id:'failed'},failures:[{message:'offline'}],pages:[]}]}));const result=prepare(['--prompt',prompt,'--source',source,'--out',out,'--changes-only']);const input=fs.readFileSync(out,'utf8');assert.equal(result.entities,1);assert.equal(result.omitted,2);assert.match(input,/changed/);assert.doesNotMatch(input,/unchanged|failed/);
+ }finally{fs.rmSync(dir,{recursive:true,force:true});}
+});
+
 test('collector follows focused submission and topic links but ignores generic about, login, news, and contact pages',()=>{
  const html='<a href="/about/">About</a><a href="/submit-a-paper/topic-categories/">Topic Categories</a><a href="/account/login?returnUrl=%2Ftopics">Topics login</a><a href="/news/cfp-update">CFP news</a><a href="/contact/">Contact</a><a href="/author-timeline/">Author Timeline</a>';
  assert.deepEqual(discoveredLinks(html,'https://example.org/submit/').map(link=>link.url),['https://example.org/submit-a-paper/topic-categories/','https://example.org/author-timeline/']);
+});
+
+test('venue follow-up reports potential new call pages with stable IDs and configured scope filters',()=>{
+ const pages=[{url:'https://example.org/2028/main-cfp',requestedUrl:'https://example.org/2028/main-cfp',discoveredBy:{url:'https://example.org/',label:'2028 Main Call for Papers'}},{url:'https://example.org/2028/workshop',requestedUrl:'https://example.org/2028/workshop',discoveredBy:{url:'https://example.org/',label:'2028 Workshop CFP'}},{url:'https://example.org/2029/main',requestedUrl:'https://example.org/2029/main',discoveredBy:{url:'https://example.org/',label:'2029 Main Call for Papers'}},{url:'https://example.org/2028/about',requestedUrl:'https://example.org/2028/about',discoveredBy:{url:'https://example.org/',label:'2028 About'}}],watch={id:'sample-conf',scopeKind:'venue',applicability:{includeNewCalls:true,yearFrom:2028,yearTo:2028,includeBranches:['main']}};const result=discoverCallLinks(pages,watch);assert.equal(result.length,1);assert.equal(result[0].title,'2028 Main Call for Papers');assert.equal(result[0].year,2028);assert.equal(result[0].status,'awaiting-identity-review');assert.match(result[0].discoveryId,/^discovery-[a-f0-9]{16}$/);assert.deepEqual(discoverCallLinks(pages,{...watch,applicability:{includeNewCalls:false}}),[]);
 });

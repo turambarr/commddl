@@ -38,11 +38,12 @@ function stableSectionId(entity,category,evidence){
 function main(){
  const input=args(process.argv.slice(2)),candidate=JSON.parse(fs.readFileSync(path.resolve(input.source),'utf8')),ai=JSON.parse(fs.readFileSync(path.resolve(input.copilot),'utf8'));
  if(ai.schemaVersion!=='commddl.copilot-structure.v1'||!Array.isArray(ai.items))throw new Error('Copilot 输出 schemaVersion 或 items 不符合要求。');
- const baseById=new Map((candidate.items||[]).map(item=>[item.entity?.id,item])),aiById=new Map(ai.items.map(item=>[item.entityId,item.entityId&&item]));
- if(!baseById.size||aiById.size!==baseById.size||[...baseById.keys()].some(id=>!aiById.has(id)))throw new Error('Copilot 必须逐一返回每个采集实体，不能遗漏或增加 ID。');
+ const baseById=new Map((candidate.items||[]).map(item=>[item.entity?.id,item])),aiById=new Map(ai.items.map(item=>[item.entityId,item.entityId&&item])),expected=[...baseById.values()].filter(item=>item.changes?.length||item.sourceChanges?.length||item.discoveryCandidates?.length).map(item=>item.entity.id);
+ if(!expected.length||aiById.size!==expected.length||expected.some(id=>!aiById.has(id))||[...aiById.keys()].some(id=>!baseById.has(id)))throw new Error('Copilot 只能整理有实质变化或新对象发现的采集实体；不能遗漏或增加候选 ID。');
  const catalog=loadCatalog(ROOT),entities=new Map([...catalog.venues,...catalog.calls].map(entity=>[entity.id,entity]));
  for(const [entityId,item] of baseById){
-  const sourceMap=pageEvidence(item),result=aiById.get(entityId),observations=Array.isArray(result.observations)?result.observations:[];
+  const result=aiById.get(entityId);if(!result)continue;
+  const sourceMap=pageEvidence(item),observations=Array.isArray(result.observations)?result.observations:[];
   if(!['ready','uncertain','insufficient-evidence'].includes(result.status)||!hasChinese(result.summary)||!Array.isArray(result.limitations||[])||(result.limitations||[]).some(value=>!hasChinese(String(value))))throw new Error(`${entityId}: 状态、简体中文摘要或 limitations 无效。`);
   const checked=[],verifiedAt=new Date().toISOString().slice(0,10);
   for(const observation of observations){
