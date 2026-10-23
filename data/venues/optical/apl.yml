@@ -143,3 +143,19 @@ indexing:
 topicReviewedAt: 2026-10-19
 scopeReviewedAt: 2026-10-19
 ratingReviewedAt: 2026-10-19
+publishers:
+  - id: aip
+    name: AIP Publishing
+    nameZh: 美国物理联合会出版社
+    aliases:
+      - American Institute of Physics
+    status: reported
+    sourceType: crossref
+    sourceUrl: https://api.crossref.org/journals/0003-6951
+    verifiedAt: 2026-10-23
+    sourceTitle: Applied Physics Letters
+    sourcePublisher: American Institute of Physics
+    issn:
+      - 0003-6951
+      - 1077-3118
+    note: 按 ISSN 与刊名核对的 Crossref 注册出版商记录；可能保留历史出版信息，不等同主办单位、所有权或托管平台。

@@ -179,3 +179,18 @@ topicReviewedAt: 2026-10-21
 scopeReviewedAt: 2026-10-19
 ratingReviewedAt: 2026-10-19
 summary: 边缘计算与云网络；并行分布式计算与计算系统；网络管理与虚拟化相关研究。
+publishers:
+  - id: ieee
+    name: IEEE
+    nameZh: 电气与电子工程师协会
+    aliases:
+      - Institute of Electrical and Electronics Engineers
+    status: reported
+    sourceType: crossref
+    sourceUrl: https://api.crossref.org/journals/2168-7161
+    verifiedAt: 2026-10-23
+    sourceTitle: IEEE Transactions on Cloud Computing
+    sourcePublisher: Institute of Electrical and Electronics Engineers
+    issn:
+      - 2168-7161
+    note: 按 ISSN 与刊名核对的 Crossref 注册出版商记录；可能保留历史出版信息，不等同主办单位、所有权或托管平台。

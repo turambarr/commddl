@@ -179,4 +179,4 @@ Official pages are parsed into candidates by `npm run update:collect -- --ids <v
 
 The compatibility command `npm run extract:official -- <id,...>` now creates a preview candidate only. Its former `--apply` mode is intentionally disabled so that a scrape cannot mark content verified or bypass review.
 
-出版商与主办机构使用独立的可选列表 publishers / societies，逐项保留官方来源和核验日期；字段与筛选规则见 [出版商说明](../docs/PUBLISHERS.md)。
+出版商与主办机构使用独立的可选列表 publishers / societies，逐项保留来源、核对日期与证据状态（官网核实 / 资料记载）；字段与筛选规则见 [出版商说明](../docs/PUBLISHERS.md)。

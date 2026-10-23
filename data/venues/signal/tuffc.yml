@@ -155,3 +155,20 @@ topicReviewedAt: 2026-10-21
 scopeReviewedAt: 2026-10-19
 ratingReviewedAt: 2026-10-19
 summary: 超声、压电材料与器件、换能器、传感及频率控制。
+publishers:
+  - id: ieee
+    name: IEEE
+    nameZh: 电气与电子工程师协会
+    aliases:
+      - Institute of Electrical and Electronics Engineers
+    status: reported
+    sourceType: crossref
+    sourceUrl: https://api.crossref.org/journals/0885-3010
+    verifiedAt: 2026-10-23
+    sourceTitle: IEEE Transactions on Ultrasonics Ferroelectrics and Frequency Control
+    sourcePublisher: Institute of Electrical and Electronics Engineers
+    issn:
+      - 0885-3010
+      - 0885-3010
+      - 1525-8955
+    note: 按 ISSN 与刊名核对的 Crossref 注册出版商记录；可能保留历史出版信息，不等同主办单位、所有权或托管平台。

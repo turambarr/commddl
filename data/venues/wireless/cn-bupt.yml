@@ -166,3 +166,11 @@ primaryArea: wireless
 secondaryAreas:
   - network
   - optical
+publishers:
+  - status: reported
+    sourceType: secondary
+    id: bupt
+    name: 北京邮电大学
+    sourceUrl: https://grad.qdu.edu.cn/__local/9/5F/7E/9087BCA95795BB33C01F16614E0_AF035BE9_6CEB14.pdf?e=.pdf
+    verifiedAt: 2026-10-23
+    note: 按公开资料的出版商字段记载，尚待以最新期刊版权页复核；不代表主办关系或所有权。

@@ -145,3 +145,18 @@ indexing:
 topicReviewedAt: 2026-10-19
 scopeReviewedAt: 2026-10-19
 ratingReviewedAt: 2026-10-19
+publishers:
+  - id: polish-academy-of-sciences-chancellery
+    name: Polish Academy of Sciences Chancellery
+    status: reported
+    sourceType: crossref
+    sourceUrl: https://api.crossref.org/journals/2081-8491
+    verifiedAt: 2026-10-23
+    sourceTitle: International Journal of Electronics and Telecommunications
+    sourcePublisher: Polish Academy of Sciences Chancellery
+    issn:
+      - 0867-6747
+      - 0867-6747
+      - 2081-8491
+      - 2300-1933
+    note: 按 ISSN 与刊名核对的 Crossref 注册出版商记录；可能保留历史出版信息，不等同主办单位、所有权或托管平台。

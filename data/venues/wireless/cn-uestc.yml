@@ -162,3 +162,11 @@ primaryArea: wireless
 secondaryAreas:
   - rf
   - signal
+publishers:
+  - status: reported
+    sourceType: secondary
+    id: uestc
+    name: 电子科技大学
+    sourceUrl: https://www.nwpu.edu.cn/__local/8/D6/89/FC29C925622BADB3D77B3FF2121_B1331D95_2F2452.pdf?e=.pdf
+    verifiedAt: 2026-10-23
+    note: 按公开资料的出版商字段记载，尚待以最新期刊版权页复核；不代表主办关系或所有权。

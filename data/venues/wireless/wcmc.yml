@@ -134,3 +134,19 @@ publicationNote: 出版档案：出版方公告于2024年9月停止出版。
 topicReviewedAt: 2026-10-19
 scopeReviewedAt: 2026-10-19
 ratingReviewedAt: 2026-10-19
+publishers:
+  - id: hindawi
+    name: Hindawi
+    aliases:
+      - Hindawi Limited
+      - Wiley / Hindawi
+    status: reported
+    sourceType: crossref
+    sourceUrl: https://api.crossref.org/journals/1530-8677
+    verifiedAt: 2026-10-23
+    sourceTitle: Wireless Communications and Mobile Computing
+    sourcePublisher: Hindawi Limited
+    issn:
+      - 1530-8669
+      - 1530-8677
+    note: 按 ISSN 与刊名核对的 Crossref 注册出版商记录；可能保留历史出版信息，不等同主办单位、所有权或托管平台。

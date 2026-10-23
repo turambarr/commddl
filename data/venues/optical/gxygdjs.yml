@@ -103,3 +103,11 @@ indexing:
 topicReviewedAt: 2026-10-19
 scopeReviewedAt: 2026-10-19
 ratingReviewedAt: 2026-10-19
+publishers:
+  - status: reported
+    sourceType: secondary
+    id: gxygdjs-publisher
+    name: 《光学与光电技术》编辑部
+    sourceUrl: https://caod.oriprobe.com/journals/gxygdjs/Optics___Optoelectronic_Technology.htm
+    verifiedAt: 2026-10-23
+    note: 按公开资料的出版商字段记载，尚待以最新期刊版权页复核；不代表主办关系或所有权。

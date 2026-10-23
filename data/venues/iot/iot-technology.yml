@@ -98,3 +98,11 @@ evaluations:
     note: 按正式ISSN和中文刊名核对2021原始分级。
 assessments: []
 otherIndexes: []
+publishers:
+  - status: reported
+    sourceType: registry
+    id: shaanxi-electronics
+    name: 陕西电子杂志社
+    sourceUrl: https://www.nlc.cn/web/yejiefuwu/newtsgj/newissn/cxissn/2011zxsj/2011aqkmcx/20160104_112098.shtml
+    verifiedAt: 2026-10-23
+    note: 按公开资料的出版商字段记载，尚待以最新期刊版权页复核；不代表主办关系或所有权。

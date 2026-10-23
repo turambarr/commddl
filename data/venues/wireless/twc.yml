@@ -10,7 +10,8 @@ publishers:
   - id: ieee
     name: IEEE
     nameZh: 电气与电子工程师协会
-    aliases: [Institute of Electrical and Electronics Engineers]
+    aliases:
+      - Institute of Electrical and Electronics Engineers
     sourceUrl: https://www.comsoc.org/publications/journals/ieee-twc
     verifiedAt: 2026-10-23
 areas:

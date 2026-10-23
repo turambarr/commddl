@@ -1,26 +1,22 @@
 # 期刊出版商
 
-期刊卡片显示出版商，详情列出出版商和主办学会／机构的独立来源、核验日期。未录入出版商的旧数据保持兼容，显示“待核实”；该标签表示资料尚未补齐。
+已为 326 本期刊中的 319 本补入出版单位名称，逐刊来源、状态与未决问题见 [核查清单](PUBLISHER-AUDIT-2026-10-23.md) 和 [结构化记录](publisher-audit-2026-10-23.json)。本批次核对日期为 2026-10-23；资料来源年代另见 note。
 
-展开属性筛选可选择出版商，与主题、方向、索引、分区、日期范围同时生效。联合出版期刊匹配任一出版商。搜索支持记录中的英文名、中文名和别名；期刊专题继承母刊的出版关系。筛选地址使用 `publisher` 参数，例如 `#journals?publisher=ieee`，支持分享、刷新、单项清除及清除全部。切换会议目录会移除出版商条件。
+卡片展示出版商名称；注册或参考资料记录附“资料记载”，详情分别标明官方、Crossref、登记/书目、公开参考资料，并显示原始出版项、核对日期及限制。未取得明确依据的 7 本仍显示待核实。出版商筛选、别名搜索、专题继承和可分享地址均适用于已录入记录；主办机构独立存储，不混入出版商筛选。
 
 ## 数据格式
 
-在期刊 YAML 增加可选列表 `publishers`；主办学会／机构写入独立的 `societies` 列表。每项格式相同：
+期刊 YAML 使用可选 publishers / societies 列表，每项包含稳定小写 id、name、sourceUrl、verifiedAt。nameZh、aliases 可选；联合出版使用多个条目。unknown 为筛选保留值。
 
-```yaml
-publishers:
-  - id: elsevier
-    name: Elsevier
-    nameZh: 爱思唯尔
-    aliases: [爱斯维尔]
-    sourceUrl: https://shop.elsevier.com/journals/computer-networks/1389-1286
-    verifiedAt: 2026-10-23
-societies: []
-```
+新增可选证据字段：
 
-`id` 为稳定小写编号（如 `ieee`、`elsevier`、`mdpi`），同一机构跨期刊使用相同编号与名称；`unknown` 是界面保留值。`name`、官方 `sourceUrl` 和有效日期 `verifiedAt` 必填；`nameZh`、`aliases` 可选。联合出版逐项填写。没有官方依据时省略或留空，不从刊名、平台域名、分区、赞助关系推断。主办机构不会自动加入出版商搜索或筛选。
+- status：verified（官方依据核实）或 reported（资料记载）；旧数据省略时保留原有含义。
+- sourceType：official、crossref、registry、secondary。
+- sourceTitle / sourcePublisher / issn：保留原始刊名、出版项及 ISSN，供逐项复核。
+- note：证据限制、历史年代、名称规范化或不同资料之间的口径差异。reported 必须具有来源类型和非空说明。
 
-本次为已有 TWC 和 Computer Networks 补录官方出版关系，未批量推断其余期刊。MDPI 可按相同格式录入；当前目录没有经本次核实的 MDPI 条目，因此筛选器仅列出实际已录入的机构。
+verifiedAt 表示本批次核对来源的日期，不能解释为出版社从该日开始拥有期刊。reported 的日期只表示核对记录，不能提升为官方核实。
 
-工程入口：`assets/core.js` 处理搜索和筛选；`assets/app.js` 处理卡片、详情和地址状态；`scripts/validate.cjs` 校验关系证据；`scripts/public-catalog.cjs` 输出公开字段；`tests/publishers.test.cjs` 验证联合出版、缺省数据、专题继承及隐私字段边界。
+Crossref 的注册出版商字段可能过时，也不证明所有权；仅有主办、赞助、托管信息时不能直接推断出版单位。官方证据可覆盖注册记录，例如 IET 旗下期刊由 Wiley 出版、IET 拥有和管理，分别记入 publishers 和 societies；MDPI Photonics 已按官网补录。中文期刊编辑部或杂志社可作为出版单位，须有具体出处。
+
+工程入口：assets/core.js 负责搜索筛选；assets/app.js 展示名称和证据；scripts/validate.cjs 校验字段；scripts/public-catalog.cjs 保留公开证据，排除内部字段。测试覆盖联合出版、缺省数据、专题继承、证据状态、公开字段以及本批次覆盖与已知例外。

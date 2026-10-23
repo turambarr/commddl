@@ -163,3 +163,25 @@ otherIndexes:
 primaryArea: signal
 secondaryAreas:
   - wireless
+publishers:
+  - id: wiley
+    name: Wiley
+    nameZh: 威立
+    aliases:
+      - John Wiley & Sons
+      - 威利
+    status: verified
+    sourceType: official
+    sourceUrl: https://www.theiet.org/publishing/publishing-with-the-iet/publishing-with-iet-journals/faqs
+    verifiedAt: 2026-10-23
+    note: IET 官方 FAQ 明示：期刊由 IET 拥有和管理，Wiley 为出版商；Crossref 中的旧 IET 记录不用于推断当前出版商。
+societies:
+  - id: iet
+    name: IET
+    nameZh: 英国工程技术学会
+    aliases:
+      - Institution of Engineering and Technology (IET)
+    sourceUrl: https://www.theiet.org/publishing/publishing-with-the-iet/publishing-with-iet-journals/faqs
+    verifiedAt: 2026-10-23
+    status: verified
+    sourceType: official

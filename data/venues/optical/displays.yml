@@ -158,3 +158,18 @@ indexing:
 topicReviewedAt: 2026-10-19
 scopeReviewedAt: 2026-10-19
 ratingReviewedAt: 2026-10-19
+publishers:
+  - id: elsevier
+    name: Elsevier
+    nameZh: 爱思唯尔
+    aliases:
+      - 爱斯维尔
+    status: reported
+    sourceType: crossref
+    sourceUrl: https://api.crossref.org/journals/0141-9382
+    verifiedAt: 2026-10-23
+    sourceTitle: Displays
+    sourcePublisher: Elsevier
+    issn:
+      - 0141-9382
+    note: 按 ISSN 与刊名核对的 Crossref 注册出版商记录；可能保留历史出版信息，不等同主办单位、所有权或托管平台。

@@ -153,3 +153,18 @@ indexing:
 topicReviewedAt: 2026-10-19
 scopeReviewedAt: 2026-10-19
 ratingReviewedAt: 2026-10-19
+publishers:
+  - id: iop
+    name: IOP Publishing
+    nameZh: 英国物理学会出版社
+    aliases: []
+    status: reported
+    sourceType: crossref
+    sourceUrl: https://api.crossref.org/journals/0268-1242
+    verifiedAt: 2026-10-23
+    sourceTitle: Semiconductor Science and Technology
+    sourcePublisher: IOP Publishing
+    issn:
+      - 0268-1242
+      - 1361-6641
+    note: 按 ISSN 与刊名核对的 Crossref 注册出版商记录；可能保留历史出版信息，不等同主办单位、所有权或托管平台。

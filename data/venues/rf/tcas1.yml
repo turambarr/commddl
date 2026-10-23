@@ -145,3 +145,19 @@ scopeNote: 天线、射频与电磁通信硬件载体；通信相关信号处理
 primaryArea: rf
 secondaryAreas:
   - signal
+publishers:
+  - id: ieee
+    name: IEEE
+    nameZh: 电气与电子工程师协会
+    aliases:
+      - Institute of Electrical and Electronics Engineers
+    status: reported
+    sourceType: crossref
+    sourceUrl: https://api.crossref.org/journals/1549-8328
+    verifiedAt: 2026-10-23
+    sourceTitle: IEEE Transactions on Circuits and Systems I Regular Papers
+    sourcePublisher: Institute of Electrical and Electronics Engineers
+    issn:
+      - 1549-8328
+      - 1558-0806
+    note: 按 ISSN 与刊名核对的 Crossref 注册出版商记录；可能保留历史出版信息，不等同主办单位、所有权或托管平台。

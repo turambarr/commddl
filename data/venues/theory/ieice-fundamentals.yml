@@ -164,3 +164,19 @@ submissionSourceUrl: https://www.ieice.org/eng/shiori/page2_ess.html
 ratingReviewedAt: 2026-10-19
 primaryArea: theory
 secondaryAreas: []
+publishers:
+  - id: ieice
+    name: IEICE
+    nameZh: 日本电子信息通信学会
+    aliases:
+      - Institute of Electronics, Information and Communications Engineers
+    status: reported
+    sourceType: crossref
+    sourceUrl: https://api.crossref.org/journals/0916-8508
+    verifiedAt: 2026-10-23
+    sourceTitle: IEICE Transactions on Fundamentals of Electronics Communications and Computer Sciences
+    sourcePublisher: Institute of Electronics, Information and Communications Engineers
+    issn:
+      - 0916-8508
+      - 1745-1337
+    note: 按 ISSN 与刊名核对的 Crossref 注册出版商记录；可能保留历史出版信息，不等同主办单位、所有权或托管平台。

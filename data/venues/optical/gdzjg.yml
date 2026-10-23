@@ -114,3 +114,10 @@ indexing:
 topicReviewedAt: 2026-10-19
 scopeReviewedAt: 2026-10-19
 ratingReviewedAt: 2026-10-19
+publishers:
+  - status: verified
+    sourceType: official
+    id: gdzjg-editorial
+    name: 《光电子·激光》编辑部
+    sourceUrl: https://xkbjb.tjut.edu.cn/gdz_jg.htm
+    verifiedAt: 2026-10-23

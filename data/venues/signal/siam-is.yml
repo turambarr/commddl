@@ -202,3 +202,19 @@ indexing:
 topicReviewedAt: 2026-10-19
 scopeReviewedAt: 2026-10-19
 ratingReviewedAt: 2026-10-19
+publishers:
+  - id: siam
+    name: SIAM
+    nameZh: 美国工业与应用数学学会
+    aliases:
+      - Society for Industrial and Applied Mathematics
+    status: reported
+    sourceType: crossref
+    sourceUrl: https://api.crossref.org/journals/1936-4954
+    verifiedAt: 2026-10-23
+    sourceTitle: SIAM Journal on Imaging Sciences
+    sourcePublisher: Society for Industrial and Applied Mathematics
+    issn:
+      - 1936-4954
+      - 1936-4954
+    note: 按 ISSN 与刊名核对的 Crossref 注册出版商记录；可能保留历史出版信息，不等同主办单位、所有权或托管平台。

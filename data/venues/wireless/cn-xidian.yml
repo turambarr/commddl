@@ -162,3 +162,11 @@ primaryArea: wireless
 secondaryAreas:
   - signal
   - rf
+publishers:
+  - status: reported
+    sourceType: secondary
+    id: science-press
+    name: 科学出版社
+    sourceUrl: https://www.nwpu.edu.cn/__local/8/D6/89/FC29C925622BADB3D77B3FF2121_B1331D95_2F2452.pdf?e=.pdf
+    note: 2012年大学资料所列历史出版项；当前出版主体仍待以最新版权页复核。已排除 ISSN 检索中刊名不符的 Crossref 结果。
+    verifiedAt: 2026-10-23

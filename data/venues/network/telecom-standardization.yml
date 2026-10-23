@@ -98,3 +98,11 @@ evaluations:
     note: 按正式ISSN和中文刊名核对2021原始分级。
 assessments: []
 otherIndexes: []
+publishers:
+  - status: reported
+    sourceType: secondary
+    id: telecom-standardization-editorial
+    name: 《电信工程技术与标准化》编辑部
+    sourceUrl: https://jlippc.org.cn/public/storage/upload/files/zldh/2021/21%20%E5%90%89%E6%9E%97%E7%9C%815G%E6%97%A0%E7%BA%BF%E9%80%9A%E4%BF%A1%E6%8A%80%E6%9C%AF%E4%B8%93%E5%88%A9%E5%AF%BC%E8%88%AA.pdf
+    note: 公开机构报告载明期刊出版业务及编辑部；业务许可日期仅为该报告的历史记载。
+    verifiedAt: 2026-10-23

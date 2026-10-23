@@ -168,3 +168,19 @@ topicReviewedAt: 2026-10-21
 scopeReviewedAt: 2026-10-19
 ratingReviewedAt: 2026-10-19
 summary: 生物医学信号、器件与系统；电路、电子器件与微纳系统；传感器与物联网相关研究。
+publishers:
+  - id: ieee
+    name: IEEE
+    nameZh: 电气与电子工程师协会
+    aliases:
+      - Institute of Electrical and Electronics Engineers
+    status: reported
+    sourceType: crossref
+    sourceUrl: https://api.crossref.org/journals/1932-4545
+    verifiedAt: 2026-10-23
+    sourceTitle: IEEE Transactions on Biomedical Circuits and Systems
+    sourcePublisher: Institute of Electrical and Electronics Engineers
+    issn:
+      - 1932-4545
+      - 1940-9990
+    note: 按 ISSN 与刊名核对的 Crossref 注册出版商记录；可能保留历史出版信息，不等同主办单位、所有权或托管平台。

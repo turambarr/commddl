@@ -140,3 +140,11 @@ primaryArea: space
 secondaryAreas:
   - signal
   - rf
+publishers:
+  - status: reported
+    sourceType: secondary
+    id: cn-systems-publisher
+    name: 《系统工程与电子技术》编辑部
+    sourceUrl: https://caod.oriprobe.com/journals/xtgcydzjs/Systems_Engineering_and_Electronics.htm
+    verifiedAt: 2026-10-23
+    note: 按公开资料的出版商字段记载，尚待以最新期刊版权页复核；不代表主办关系或所有权。

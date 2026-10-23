@@ -98,3 +98,11 @@ evaluations:
     note: 按正式ISSN和中文刊名核对2021原始分级。
 assessments: []
 otherIndexes: []
+publishers:
+  - status: reported
+    sourceType: secondary
+    id: postal-telecom-design-editorial
+    name: 《邮电设计技术》编辑部
+    sourceUrl: https://library.ttcdw.com/dev/upload/webUploader/202307/168941744694d2fe6a3327862f.pdf
+    note: 公开保存的2022年第9期期刊版权页。
+    verifiedAt: 2026-10-23

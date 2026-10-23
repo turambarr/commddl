@@ -129,3 +129,20 @@ primaryArea: wireless
 secondaryAreas:
   - network
   - iot
+publishers:
+  - id: ieee
+    name: IEEE
+    nameZh: 电气与电子工程师协会
+    aliases:
+      - Institute of Electrical and Electronics Engineers
+    status: reported
+    sourceType: crossref
+    sourceUrl: https://api.crossref.org/journals/1553-877X
+    verifiedAt: 2026-10-23
+    sourceTitle: IEEE Communications Surveys & Tutorials
+    sourcePublisher: Institute of Electrical and Electronics Engineers
+    issn:
+      - 1553-877X
+      - 1553-877X
+      - 2373-745X
+    note: 按 ISSN 与刊名核对的 Crossref 注册出版商记录；可能保留历史出版信息，不等同主办单位、所有权或托管平台。

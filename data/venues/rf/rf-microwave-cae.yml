@@ -120,3 +120,19 @@ scopeReviewedAt: 2026-10-18
 scopeNote: 通信及相关交叉领域
 primaryArea: rf
 secondaryAreas: []
+publishers:
+  - id: hindawi
+    name: Hindawi
+    aliases:
+      - Hindawi Limited
+      - Wiley / Hindawi
+    status: reported
+    sourceType: crossref
+    sourceUrl: https://api.crossref.org/journals/1096-4290
+    verifiedAt: 2026-10-23
+    sourceTitle: International Journal of RF and Microwave Computer-Aided Engineering
+    sourcePublisher: Hindawi Limited
+    issn:
+      - 1096-4290
+      - 1099-047X
+    note: 按 ISSN 与刊名核对的 Crossref 注册出版商记录；可能保留历史出版信息，不等同主办单位、所有权或托管平台。

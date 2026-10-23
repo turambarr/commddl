@@ -103,3 +103,12 @@ indexing:
 topicReviewedAt: 2026-10-19
 scopeReviewedAt: 2026-10-19
 ratingReviewedAt: 2026-10-19
+publishers:
+  - status: reported
+    sourceType: secondary
+    id: northeast-electronics
+    name: 东北电子技术研究所
+    sourceUrl: https://sportpedagogy.org.ua/fullpdf/ICJML_2009.pdf
+    sourcePublisher: Northeast Research Institute of Electronics Technology
+    note: Index Copernicus 2009期刊名录转录的出版项；历史资料，待核对当前版权页。
+    verifiedAt: 2026-10-23

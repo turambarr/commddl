@@ -162,3 +162,23 @@ identifierSourceYear: 2024
 ratingReviewedAt: 2026-10-19
 primaryArea: signal
 secondaryAreas: []
+publishers:
+  - id: springer-nature
+    name: Springer Nature
+    nameZh: 施普林格·自然
+    aliases:
+      - Springer-Verlag
+      - Springer
+      - SpringerOpen
+      - BMC
+      - Nature
+    status: reported
+    sourceType: crossref
+    sourceUrl: https://api.crossref.org/journals/1573-0824
+    verifiedAt: 2026-10-23
+    sourceTitle: Multidimensional Systems and Signal Processing
+    sourcePublisher: Springer-Verlag
+    issn:
+      - 0923-6082
+      - 1573-0824
+    note: 按 ISSN 与刊名核对的 Crossref 注册出版商记录；可能保留历史出版信息，不等同主办单位、所有权或托管平台。

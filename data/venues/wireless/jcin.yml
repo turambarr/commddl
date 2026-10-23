@@ -149,3 +149,13 @@ primaryArea: wireless
 secondaryAreas:
   - network
   - ai
+publishers:
+  - status: verified
+    sourceType: official
+    id: bjxintong
+    name: 北京信通传媒有限责任公司
+    aliases:
+      - China InfoCom Media Group
+    sourceUrl: https://www.bjxintong.com.cn/about/?bid=10149
+    note: 按出版机构官网的出版发行清单核对；不将 IEEE Xplore 托管等同出版主体。
+    verifiedAt: 2026-10-23

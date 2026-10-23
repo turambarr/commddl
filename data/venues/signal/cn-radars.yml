@@ -156,3 +156,19 @@ primaryArea: signal
 secondaryAreas:
   - rf
   - space
+publishers:
+  - id: science-press
+    name: 科学出版社
+    aliases:
+      - China Science Publishing & Media Ltd.
+      - 中国科技出版传媒股份有限公司
+      - Science Press
+    status: reported
+    sourceType: crossref
+    sourceUrl: https://api.crossref.org/journals/2095-283X
+    verifiedAt: 2026-10-23
+    sourceTitle: JOURNAL OF RADARS
+    sourcePublisher: China Science Publishing & Media Ltd.
+    issn:
+      - 2095-283X
+    note: 按 ISSN 与刊名核对的 Crossref 注册出版商记录；可能保留历史出版信息，不等同主办单位、所有权或托管平台。
