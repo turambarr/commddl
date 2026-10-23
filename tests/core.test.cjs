@@ -36,9 +36,9 @@ test('specific special issues do not inherit unrelated parent-journal subjects o
   assert.equal(C.filterCalls([call],data.venues,{area:'optical'},NOW).length,0);
   assert.equal(C.filterCalls([call],data.venues,{topics:['isac']},NOW).length,1);
 });
-test('topic URL selections reject unknown IDs, remove duplicates and respect direction changes',()=>{
+test('topic URL selections reject unknown IDs but preserve cross-area selections',()=>{
   assert.deepEqual(C.cleanTopics(['isac','isac','unknown','fiber'],data.topics),['isac','fiber']);
-  assert.deepEqual(C.cleanTopics(['isac','fiber'],data.topics,'optical'),['fiber']);
+  assert.deepEqual(C.cleanTopics(['isac','fiber'],data.topics,'optical'),['isac','fiber']);
 });
 test('official subject corrections distinguish language semantics, cryptography and optical sensing',()=>{
   const has=(topic,id)=>C.filterVenues(data.venues,{topics:[topic]}).some(v=>v.id===id);
@@ -181,7 +181,7 @@ test('SCI attribute searches equal explicit SCIE filters and never match ESCI by
 });
 test('Chinese quartiles and JCR quartiles are parsed into separate evidence-backed systems',()=>{
   const parsed=C.parseVenueQuery('SCI一区 无线');
-  assert.deepEqual(parsed.indexes,['SCIE']);assert.deepEqual(parsed.grades,['cas:1']);assert.equal(parsed.text,'无线');
+  assert.deepEqual(parsed.indexes,['SCIE']);assert.deepEqual(parsed.grades,['cas:1']);assert.deepEqual(parsed.areas,['wireless']);assert.equal(parsed.text,'');
   assert.deepEqual(C.parseVenueQuery('SCI JCR Q1').grades,['jcr:Q1']);
   const explicit=C.filterVenues(data.venues,{index:'SCIE',grades:['cas:1'],query:'无线',taxonomy:data.topics}).map(v=>v.id).sort();
   assert(explicit.length);assert.deepEqual(C.filterVenues(data.venues,{query:'SCI一区 无线',taxonomy:data.topics}).map(v=>v.id).sort(),explicit);
@@ -257,7 +257,7 @@ test('venue ranges find any matching round and display that exact round, includi
 });
 test('XinRui searches do not become CAS filters, and rankings remain independent',()=>{
  assert.deepEqual(C.parseVenueQuery('SCI 新锐一区 无线').grades,['xinrui:1']);
- assert.equal(C.parseVenueQuery('SCI 新锐一区 无线').text,'无线');
+ assert.deepEqual(C.parseVenueQuery('SCI 新锐一区 无线').areas,['wireless']);
  assert.deepEqual(C.parseVenueQuery('新锐分区 2区 中科院一区').grades,['xinrui:2','cas:1']);
  assert.deepEqual(C.cleanGrades(['xinrui:1','xinrui:5'],'journal'),['xinrui:1']);
  assert.deepEqual(C.cleanGrades(['xinrui:1'],'conference'),[]);
