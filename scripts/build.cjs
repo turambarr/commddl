@@ -22,10 +22,11 @@ fs.mkdirSync(path.join(root,'dist','data'),{recursive:true});
 fs.writeFileSync(path.join(root,'dist','data','catalog.json'),JSON.stringify(data,null,2)+'\n');
 for(const name of ['index.html','assets','calendars','.nojekyll'])fs.cpSync(path.join(root,name),path.join(root,'dist',name),{recursive:true});
 let html=fs.readFileSync(path.join(root,'index.html'),'utf8').replace('<head>','<head>\n  <meta name="commddl-mode" content="standalone">');
-html=html.replace(/<link rel="stylesheet" href="assets\/styles\.css(?:\?[^"]*)?">/,'<style>\n'+fs.readFileSync(path.join(root,'assets/styles.css'),'utf8')+'\n</style>');
+html=html.replace(/<link rel="stylesheet" href="assets\/styles\.css(?:\?[^"]*)?">/,()=>'<style>\n'+fs.readFileSync(path.join(root,'assets/styles.css'),'utf8')+'\n</style>');
 const favicon=fs.readFileSync(path.join(root,'assets/favicon.svg'),'utf8');
 html=html.replace('href="assets/favicon.svg"','href="data:image/svg+xml,'+encodeURIComponent(favicon)+'"');
-for(const name of ['data','core','app'])html=html.replace(new RegExp('<script src="assets/'+name+'\\.js(?:\\?[^"]*)?"></script>'),'<script>\n'+fs.readFileSync(path.join(root,'assets',name+'.js'),'utf8').replace(/<\/script/gi,'<\\/script')+'\n</script>');
+// A callback inserts source literally: replacement strings interpret $&, $` and $'.
+for(const name of ['data','core','app'])html=html.replace(new RegExp('<script src="assets/'+name+'\\.js(?:\\?[^"]*)?"></script>'),()=>'<script>\n'+fs.readFileSync(path.join(root,'assets',name+'.js'),'utf8').replace(/<\/script/gi,'<\\/script')+'\n</script>');
 fs.mkdirSync(path.join(root,'release'),{recursive:true});
 fs.writeFileSync(path.join(root,'release/CommDDL.html'),html);
 console.log('已生成 dist/ 静态站与 release/CommDDL.html 单文件版本。');

@@ -133,3 +133,21 @@ scopeNote: 通信及相关交叉领域
 primaryArea: wireless
 secondaryAreas:
   - network
+publishers:
+  - id: wiley
+    name: Wiley
+    nameZh: 威立
+    aliases:
+      - Wiley (John Wiley & Sons)
+      - John Wiley & Sons
+      - 威利
+    status: reported
+    sourceType: crossref
+    sourceUrl: https://api.crossref.org/journals/1074-5351
+    verifiedAt: 2026-10-23
+    sourceTitle: International Journal of Communication Systems
+    sourcePublisher: Wiley (John Wiley & Sons)
+    issn:
+      - 1074-5351
+      - 1099-1131
+    note: 按 ISSN 与刊名核对的 Crossref 注册出版商记录；可能保留历史出版信息，不等同主办单位、所有权或托管平台。

@@ -193,3 +193,19 @@ topicReviewedAt: 2026-10-21
 scopeReviewedAt: 2026-10-19
 ratingReviewedAt: 2026-10-19
 summary: 图像、视频与计算成像；语音、音频与声学；信源编码与压缩相关研究。
+publishers:
+  - id: acm
+    name: ACM
+    nameZh: 美国计算机学会
+    aliases:
+      - Association for Computing Machinery
+    status: reported
+    sourceType: crossref
+    sourceUrl: https://api.crossref.org/journals/1551-6857
+    verifiedAt: 2026-10-23
+    sourceTitle: ACM Transactions on Multimedia Computing Communications and Applications
+    sourcePublisher: Association for Computing Machinery
+    issn:
+      - 1551-6857
+      - 1551-6865
+    note: 按 ISSN 与刊名核对的 Crossref 注册出版商记录；可能保留历史出版信息，不等同主办单位、所有权或托管平台。

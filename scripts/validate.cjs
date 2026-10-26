@@ -54,6 +54,19 @@ for(const v of data.venues){
   requireThat(v.short&&v.nameZh&&v.nameEn,`${v.id}: missing identity fields`);
   requireThat(Array.isArray(v.articleTypes)&&v.articleTypes.length,`${v.id}: missing article types`);
   validateSections(v);
+  for(const field of ['publishers','societies'])if(v[field]!==undefined){
+    requireThat(v.kind==='journal'&&Array.isArray(v[field]),`${v.id}: ${field} must be a journal organization list`);
+    const seen=new Set();
+    for(const org of Array.isArray(v[field])?v[field]:[]){
+      requireThat(org&&/^[a-z0-9]+(?:-[a-z0-9]+)*$/.test(org.id)&&org.id!=='unknown'&&!seen.has(org.id)&&typeof org.name==='string'&&org.name.trim()&&url(org.sourceUrl)&&C.validDate(org.verifiedAt),`${v.id}: invalid/duplicate ${field} organization or missing evidence`);
+      if(org){seen.add(org.id);requireThat(org.nameZh===undefined||typeof org.nameZh==='string'&&org.nameZh.trim(),`${v.id}: invalid organization Chinese name`);requireThat(org.aliases===undefined||Array.isArray(org.aliases)&&org.aliases.every(a=>typeof a==='string'&&a.trim()),`${v.id}: invalid organization aliases`);
+       requireThat(org.status===undefined||['verified','reported'].includes(org.status),`${v.id}: invalid organization evidence status`);
+       requireThat(org.sourceType===undefined||['official','crossref','registry','secondary'].includes(org.sourceType),`${v.id}: invalid organization source type`);
+       requireThat(org.status!=='reported'||org.sourceType&&typeof org.note==='string'&&org.note.trim(),`${v.id}: reported organizations require a source type and qualification`);
+       requireThat(org.issn===undefined||Array.isArray(org.issn)&&org.issn.every(x=>/^\d{4}-\d{3}[\dX]$/.test(x)),`${v.id}: invalid organization evidence ISSN`);
+      }
+    }
+  }
   requireThat(['current','needs-review','historical-only'].includes(v.catalogStatus),`${v.id}: invalid catalog status`);
   requireThat(!v.catalogScope||['communications','archive'].includes(v.catalogScope),`${v.id}: invalid catalog scope`);
   if(v.kind==='journal'){

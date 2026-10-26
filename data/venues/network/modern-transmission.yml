@@ -98,3 +98,11 @@ evaluations:
     note: 按正式ISSN和中文刊名核对2021原始分级。
 assessments: []
 otherIndexes: []
+publishers:
+  - status: reported
+    sourceType: secondary
+    id: modern-transmission-publisher
+    name: 四川现代传输杂志社有限公司
+    sourceUrl: https://www.eshukan.com/displayj.aspx?jid=5520
+    verifiedAt: 2026-10-23
+    note: 按公开资料的出版商字段记载，尚待以最新期刊版权页复核；不代表主办关系或所有权。

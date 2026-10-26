@@ -138,3 +138,11 @@ ratingReviewedAt: 2026-10-19
 primaryArea: rf
 secondaryAreas:
   - wireless
+publishers:
+  - status: reported
+    sourceType: registry
+    id: cn-terahertz-editorial
+    name: 《太赫兹科学与电子信息学报》编辑部
+    sourceUrl: https://www.nlc.cn/web/yejiefuwu/newtsgj/newissn/cxissn/2011zxsj/2011aissnh/20160104_112024.shtml
+    verifiedAt: 2026-10-23
+    note: 按公开资料的出版商字段记载，尚待以最新期刊版权页复核；不代表主办关系或所有权。

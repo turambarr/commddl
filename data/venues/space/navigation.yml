@@ -125,3 +125,18 @@ scopeNote: 空天地通信、定位与授时交叉载体；通信相关信号处
 primaryArea: space
 secondaryAreas:
   - signal
+publishers:
+  - id: ion
+    name: Institute of Navigation
+    nameZh: 美国导航学会
+    aliases: []
+    status: reported
+    sourceType: crossref
+    sourceUrl: https://api.crossref.org/journals/0028-1522
+    verifiedAt: 2026-10-23
+    sourceTitle: NAVIGATION Journal of the Institute of Navigation
+    sourcePublisher: Institute of Navigation
+    issn:
+      - 0028-1522
+      - 2161-4296
+    note: 按 ISSN 与刊名核对的 Crossref 注册出版商记录；可能保留历史出版信息，不等同主办单位、所有权或托管平台。

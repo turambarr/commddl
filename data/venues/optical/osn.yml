@@ -128,3 +128,18 @@ scopeNote: 通信及相关交叉领域
 primaryArea: optical
 secondaryAreas:
   - network
+publishers:
+  - id: elsevier
+    name: Elsevier
+    nameZh: 爱思唯尔
+    aliases:
+      - 爱斯维尔
+    status: reported
+    sourceType: crossref
+    sourceUrl: https://api.crossref.org/journals/1573-4277
+    verifiedAt: 2026-10-23
+    sourceTitle: Optical Switching and Networking
+    sourcePublisher: Elsevier
+    issn:
+      - 1573-4277
+    note: 按 ISSN 与刊名核对的 Crossref 注册出版商记录；可能保留历史出版信息，不等同主办单位、所有权或托管平台。

@@ -138,3 +138,10 @@ ratingReviewedAt: 2026-10-19
 primaryArea: wireless
 secondaryAreas:
   - network
+publishers:
+  - status: verified
+    sourceType: official
+    id: anhui-science
+    name: 安徽科学技术出版社
+    sourceUrl: https://tech.zte.com.cn/about.html
+    verifiedAt: 2026-10-23

@@ -174,3 +174,19 @@ topicReviewedAt: 2026-10-21
 scopeReviewedAt: 2026-10-19
 ratingReviewedAt: 2026-10-19
 summary: 电路、电子器件与微纳系统；电子与光电材料；测量、仪器与频率控制相关研究。
+publishers:
+  - id: ieee
+    name: IEEE
+    nameZh: 电气与电子工程师协会
+    aliases:
+      - Institute of Electrical and Electronics Engineers
+    status: reported
+    sourceType: crossref
+    sourceUrl: https://api.crossref.org/journals/0894-6507
+    verifiedAt: 2026-10-23
+    sourceTitle: IEEE Transactions on Semiconductor Manufacturing
+    sourcePublisher: Institute of Electrical and Electronics Engineers
+    issn:
+      - 0894-6507
+      - 1558-2345
+    note: 按 ISSN 与刊名核对的 Crossref 注册出版商记录；可能保留历史出版信息，不等同主办单位、所有权或托管平台。

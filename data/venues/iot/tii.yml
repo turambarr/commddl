@@ -189,3 +189,19 @@ topicReviewedAt: 2026-10-21
 scopeReviewedAt: 2026-10-19
 ratingReviewedAt: 2026-10-19
 summary: 工业通信与控制网络；控制、自动化与系统工程；传感器与物联网相关研究。
+publishers:
+  - id: ieee
+    name: IEEE
+    nameZh: 电气与电子工程师协会
+    aliases:
+      - Institute of Electrical and Electronics Engineers
+    status: reported
+    sourceType: crossref
+    sourceUrl: https://api.crossref.org/journals/1941-0050
+    verifiedAt: 2026-10-23
+    sourceTitle: IEEE Transactions on Industrial Informatics
+    sourcePublisher: Institute of Electrical and Electronics Engineers
+    issn:
+      - 1551-3203
+      - 1941-0050
+    note: 按 ISSN 与刊名核对的 Crossref 注册出版商记录；可能保留历史出版信息，不等同主办单位、所有权或托管平台。

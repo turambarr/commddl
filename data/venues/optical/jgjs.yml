@@ -114,3 +114,10 @@ indexing:
 topicReviewedAt: 2026-10-19
 scopeReviewedAt: 2026-10-19
 ratingReviewedAt: 2026-10-19
+publishers:
+  - status: verified
+    sourceType: official
+    id: jgjs-editorial
+    name: 《激光技术》编辑部
+    sourceUrl: https://www.jgjs.net.cn/fileJGJS/journal/article/jgjs/2025/6/a4ce18a9-db68-4554-b35d-0d1d41490353.pdf
+    verifiedAt: 2026-10-23

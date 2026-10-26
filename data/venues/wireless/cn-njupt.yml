@@ -155,3 +155,10 @@ ratingReviewedAt: 2026-10-19
 primaryArea: wireless
 secondaryAreas:
   - network
+publishers:
+  - status: verified
+    sourceType: official
+    id: njupt-journals
+    name: 南京邮电大学期刊社
+    sourceUrl: https://qks.njupt.edu.cn/6348/list.htm
+    verifiedAt: 2026-10-23

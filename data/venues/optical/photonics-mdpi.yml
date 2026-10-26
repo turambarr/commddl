@@ -143,3 +143,10 @@ indexing:
 topicReviewedAt: 2026-10-19
 scopeReviewedAt: 2026-10-19
 ratingReviewedAt: 2026-10-19
+publishers:
+  - status: verified
+    sourceType: official
+    id: mdpi
+    name: MDPI
+    sourceUrl: https://www.mdpi.com/journal/photonics/imprint
+    verifiedAt: 2026-10-23

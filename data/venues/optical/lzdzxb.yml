@@ -116,3 +116,11 @@ indexing:
 topicReviewedAt: 2026-10-19
 scopeReviewedAt: 2026-10-19
 ratingReviewedAt: 2026-10-19
+publishers:
+  - status: reported
+    sourceType: registry
+    id: lzdzxb-editorial
+    name: 《量子电子学报》编辑部
+    sourceUrl: https://search.worldcat.org/title/Chinese-journal-of-quantum-electronics/oclc/45293994
+    note: WorldCat 书目出版项记载；不同版本曾列科学出版社，需以当前版权页确认关系。
+    verifiedAt: 2026-10-23

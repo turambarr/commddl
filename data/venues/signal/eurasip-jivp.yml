@@ -150,3 +150,24 @@ indexing:
 topicReviewedAt: 2026-10-19
 scopeReviewedAt: 2026-10-19
 ratingReviewedAt: 2026-10-19
+publishers:
+  - id: springer-nature
+    name: Springer Nature
+    nameZh: 施普林格·自然
+    aliases:
+      - Springer (Biomed Central Ltd.)
+      - Springer
+      - Springer-Verlag
+      - SpringerOpen
+      - BMC
+      - Nature
+    status: reported
+    sourceType: crossref
+    sourceUrl: https://api.crossref.org/journals/1687-5176
+    verifiedAt: 2026-10-23
+    sourceTitle: EURASIP Journal on Image and Video Processing
+    sourcePublisher: Springer (Biomed Central Ltd.)
+    issn:
+      - 1687-5176
+      - 1687-5281
+    note: 按 ISSN 与刊名核对的 Crossref 注册出版商记录；可能保留历史出版信息，不等同主办单位、所有权或托管平台。

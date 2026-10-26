@@ -142,3 +142,11 @@ identityNote: 国家科技期刊平台检索正文确认中文本刊身份与CSC
 primaryArea: signal
 secondaryAreas:
   - wireless
+publishers:
+  - status: reported
+    sourceType: secondary
+    id: cie-signal-processing
+    name: 中国电子学会信号处理专业委员会
+    sourceUrl: https://www.qk51.com/article/show/id/26603
+    note: 公开征稿信息记载的编辑出版机构；非官网信息，待以最新版权页复核。
+    verifiedAt: 2026-10-23

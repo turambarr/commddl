@@ -150,3 +150,12 @@ primaryArea: wireless
 secondaryAreas:
   - network
   - signal
+publishers:
+  - status: verified
+    sourceType: official
+    id: bjxintong
+    name: 北京信通传媒有限责任公司
+    aliases:
+      - China InfoCom Media Group
+    sourceUrl: https://www.bjxintong.com.cn/about/?bid=10149
+    verifiedAt: 2026-10-23

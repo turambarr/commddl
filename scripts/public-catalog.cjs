@@ -16,6 +16,7 @@ function publicBlock(block){
 }
 const publicSections=sections=>Array.isArray(sections)?sections.map(section=>({...pick(section,sectionKeys),blocks:Array.isArray(section.blocks)?section.blocks.map(publicBlock).filter(Boolean):undefined})):undefined;
 const venueKeys=['id','kind','short','nameZh','nameEn','issn','eissn','aliases','areas','topics','summary','publicationType','articleTypes','submissionMode','url','sourceUrl','sourceType','verifiedAt','identityReviewedAt','authorGuideUrl','cfpUrl','primaryArea','secondaryAreas','urlKind','identitySourceYear','catalogScope','invitationOnly','publicationNote','officialSections'];
+const organizationKeys=['id','name','nameZh','aliases','sourceUrl','verifiedAt','status','sourceType','sourceTitle','sourcePublisher','issn','note'];
 const callKeys=['id','venueId','title','titleEn','year','kind','areas','topics','tags','summary','sourceUrl','url','sourceType','verification','verifiedAt','updatedAt','status','location','eventStart','eventEnd','eventDates','sourceTimezone','submissionCategory','inheritsVenueEvaluation','officialSections'];
 const nodeKeys=['id','label','type','primary','precision','date','instant','timezone','original','revision','sourceUrl','updatedAt','requires'];
 function makePublicCatalog(data){
@@ -25,6 +26,7 @@ function makePublicCatalog(data){
  result.sources=data.sources.filter(s=>s.url).map(s=>pick(s,['title','url','verifiedAt']));
  for(const v of data.venues){
   const published=pick(v,venueKeys);
+  for(const field of ['publishers','societies'])if(v[field])published[field]=v[field].map(org=>pick(org,organizationKeys));
   if(published.officialSections)published.officialSections=publicSections(published.officialSections);
   published.contributionUrl=contributionURL(data,v);
   if(v.invitationOnly)published.submissionMode=v.submissionMode||'邀请投稿';

@@ -98,3 +98,12 @@ evaluations:
     note: 按正式ISSN和中文刊名核对2021原始分级。
 assessments: []
 otherIndexes: []
+publishers:
+  - status: reported
+    sourceType: registry
+    id: cetc-54
+    name: 中国电子科技集团公司第五十四研究所
+    sourceUrl: https://about.ebsco.com/m/ee/Marketing/titleLists/tnh-coverage.pdf
+    sourcePublisher: 54th Research Institute of CETC
+    note: EBSCO 收录清单出版商栏记载；与编辑部作为出版单位的部分旧书目口径不同，保留来源原文，待以当前版权页确认正式出版主体。
+    verifiedAt: 2026-10-23

@@ -165,3 +165,20 @@ topicReviewedAt: 2026-10-21
 scopeReviewedAt: 2026-10-19
 ratingReviewedAt: 2026-10-19
 summary: 图像、视频与计算成像；机器学习与模式识别相关研究。
+publishers:
+  - id: ieee
+    name: IEEE
+    nameZh: 电气与电子工程师协会
+    aliases:
+      - Institute of Electrical and Electronics Engineers
+    status: reported
+    sourceType: crossref
+    sourceUrl: https://api.crossref.org/journals/0162-8828
+    verifiedAt: 2026-10-23
+    sourceTitle: IEEE Transactions on Pattern Analysis and Machine Intelligence
+    sourcePublisher: Institute of Electrical and Electronics Engineers
+    issn:
+      - 0162-8828
+      - 2160-9292
+      - 1939-3539
+    note: 按 ISSN 与刊名核对的 Crossref 注册出版商记录；可能保留历史出版信息，不等同主办单位、所有权或托管平台。

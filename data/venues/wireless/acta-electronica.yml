@@ -152,3 +152,11 @@ primaryArea: wireless
 secondaryAreas:
   - signal
   - rf
+publishers:
+  - status: reported
+    sourceType: secondary
+    id: acta-electronica-editorial
+    name: 电子学报杂志编辑部
+    sourceUrl: https://grad.qdu.edu.cn/__local/9/5F/7E/9087BCA95795BB33C01F16614E0_AF035BE9_6CEB14.pdf?e=.pdf
+    note: 高校公开参考目录记载，仍需以最新期刊版权页复核。
+    verifiedAt: 2026-10-23

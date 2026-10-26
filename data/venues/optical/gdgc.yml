@@ -114,3 +114,10 @@ indexing:
 topicReviewedAt: 2026-10-19
 scopeReviewedAt: 2026-10-19
 ratingReviewedAt: 2026-10-19
+publishers:
+  - status: verified
+    sourceType: official
+    id: ioe-journals
+    name: 中国科学院光电技术研究所光电期刊集群编辑部
+    sourceUrl: https://ioe.cas.cn/xsqk/bjb/202503/t20250328_7571583.html
+    verifiedAt: 2026-10-23

@@ -6,6 +6,14 @@ short: TWC
 nameZh: IEEE 无线通信汇刊
 nameEn: IEEE Transactions on Wireless Communications
 aliases: []
+publishers:
+  - id: ieee
+    name: IEEE
+    nameZh: 电气与电子工程师协会
+    aliases:
+      - Institute of Electrical and Electronics Engineers
+    sourceUrl: https://www.comsoc.org/publications/journals/ieee-twc
+    verifiedAt: 2026-10-23
 areas:
   - wireless
   - signal

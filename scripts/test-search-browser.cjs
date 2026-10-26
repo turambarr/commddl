@@ -254,6 +254,28 @@ let base;
       await open('#journals?q=PNT');assert((await count())>0);
       assert(await evaluate(`!document.querySelector('[data-term-guide], .topic-acronyms') && document.querySelector('[data-topic="navigation-pnt"]').textContent.replace(/\\d+$/,'')==='定位、导航与授时' && document.documentElement.scrollWidth<=innerWidth`));
     });
+    await test('出版商筛选、来源详情、分享刷新、清除与手机布局',async()=>{
+      await open('#journals?publisher=elsevier');
+      assert((await rowIds()).includes('computer-networks'));
+      assert(await evaluate(`Array.from(document.querySelectorAll('#results .publisher-tags')).every(el=>el.textContent.includes('Elsevier'))`));
+      assert(await evaluate(`document.querySelector('.publisher-tags').textContent.includes('Elsevier')`));
+      await command('Page.reload');await wait(`document.querySelector('#results [data-venue-card="computer-networks"]')`);
+      await click('[data-detail="venue:computer-networks"]');
+      assert(await evaluate(`document.querySelector('dialog[open]').textContent.includes('核验于 2026-10-23')`));
+      await evaluate(`document.querySelector('dialog[open]').close()`);
+      if(await evaluate(`document.querySelector('#attribute-panel').classList.contains('attributes-folded')`))await click('[data-attribute-expand]');
+      await setValue('#publisher-filter','ieee');
+      assert((await rowIds()).includes('twc'));
+      assert(await evaluate(`Array.from(document.querySelectorAll('#results .publisher-tags')).every(el=>el.textContent.includes('IEEE'))`));
+      assert(await evaluate(`location.hash.includes('publisher=ieee') && document.documentElement.scrollWidth<=innerWidth`));
+      await click('[data-clear="publisher"]');assert((await count())>1);
+      await setValue('#publisher-filter','unknown');
+      assert(!(await rowIds()).includes('twc'));
+      await click('[data-reset="all"]');assert(await evaluate(`!location.hash.includes('publisher=')`));
+      await open('#journals?q='+encodeURIComponent('爱斯维尔'));assert((await rowIds()).includes('computer-networks'));
+      await open('#journals?publisher=ieee');await click('#mobile-menu');await click('[data-view="conferences"]');
+      assert(await evaluate(`!location.hash.includes('publisher=')`));
+    });
     assert.deepEqual(errors,[],'浏览器不应有未处理异常');
     console.log(JSON.stringify({passed:results.length,browserErrors:errors.length,tests:results},null,2));
   }finally{

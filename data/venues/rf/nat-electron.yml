@@ -145,3 +145,23 @@ topicReviewedAt: 2026-10-21
 scopeReviewedAt: 2026-10-19
 ratingReviewedAt: 2026-10-19
 summary: 电路、电子器件与微纳系统；电子与光电材料；传感器与物联网相关研究。
+publishers:
+  - id: springer-nature
+    name: Springer Nature
+    nameZh: 施普林格·自然
+    aliases:
+      - Springer Science and Business Media LLC
+      - Springer
+      - Springer-Verlag
+      - SpringerOpen
+      - BMC
+      - Nature
+    status: reported
+    sourceType: crossref
+    sourceUrl: https://api.crossref.org/journals/2520-1131
+    verifiedAt: 2026-10-23
+    sourceTitle: Nature Electronics
+    sourcePublisher: Springer Science and Business Media LLC
+    issn:
+      - 2520-1131
+    note: 按 ISSN 与刊名核对的 Crossref 注册出版商记录；可能保留历史出版信息，不等同主办单位、所有权或托管平台。

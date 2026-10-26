@@ -193,3 +193,20 @@ topicReviewedAt: 2026-10-21
 scopeReviewedAt: 2026-10-19
 ratingReviewedAt: 2026-10-19
 summary: 人机交互与用户体验；信息检索、数据管理与信息系统相关研究。
+publishers:
+  - id: taylor-francis
+    name: Taylor & Francis
+    nameZh: 泰勒与弗朗西斯
+    aliases:
+      - Informa UK (Taylor & Francis)
+      - Taylor and Francis
+    status: reported
+    sourceType: crossref
+    sourceUrl: https://api.crossref.org/journals/0144-929X
+    verifiedAt: 2026-10-23
+    sourceTitle: Behaviour and Information Technology
+    sourcePublisher: Informa UK (Taylor & Francis)
+    issn:
+      - 0144-929X
+      - 1362-3001
+    note: 按 ISSN 与刊名核对的 Crossref 注册出版商记录；可能保留历史出版信息，不等同主办单位、所有权或托管平台。

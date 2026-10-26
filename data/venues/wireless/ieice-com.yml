@@ -161,3 +161,12 @@ ratingReviewedAt: 2026-10-19
 primaryArea: wireless
 secondaryAreas:
   - network
+publishers:
+  - status: verified
+    sourceType: official
+    id: ieice
+    name: IEICE
+    nameZh: 日本电子信息通信学会
+    sourceUrl: https://www.jstage.jst.go.jp/browse/transcom/_pubinfo
+    note: IEEE Xplore 是传播平台；期刊出版商以 J-STAGE 明示的 IEICE 为准。
+    verifiedAt: 2026-10-23

@@ -136,3 +136,19 @@ publicationNote: 邀稿综述/教程，请查看编辑部邀约方式
 ratingReviewedAt: 2026-10-19
 primaryArea: optical
 secondaryAreas: []
+publishers:
+  - id: optica
+    name: Optica Publishing Group
+    nameZh: Optica出版集团
+    aliases:
+      - OSA
+      - 美国光学学会
+    status: reported
+    sourceType: crossref
+    sourceUrl: https://api.crossref.org/journals/1943-8206
+    verifiedAt: 2026-10-23
+    sourceTitle: Advances in Optics and Photonics
+    sourcePublisher: Optica Publishing Group
+    issn:
+      - 1943-8206
+    note: 按 ISSN 与刊名核对的 Crossref 注册出版商记录；可能保留历史出版信息，不等同主办单位、所有权或托管平台。

@@ -182,3 +182,18 @@ primaryArea: rf
 secondaryAreas:
   - space
   - wireless
+publishers:
+  - id: agu
+    name: American Geophysical Union
+    nameZh: 美国地球物理学会
+    aliases: []
+    status: reported
+    sourceType: crossref
+    sourceUrl: https://api.crossref.org/journals/0048-6604
+    verifiedAt: 2026-10-23
+    sourceTitle: Radio Science
+    sourcePublisher: American Geophysical Union
+    issn:
+      - 0048-6604
+      - 1944-799X
+    note: 按 ISSN 与刊名核对的 Crossref 注册出版商记录；可能保留历史出版信息，不等同主办单位、所有权或托管平台。

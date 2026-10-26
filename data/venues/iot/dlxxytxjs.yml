@@ -119,3 +119,11 @@ indexing:
 topicReviewedAt: 2026-10-19
 scopeReviewedAt: 2026-10-19
 ratingReviewedAt: 2026-10-19
+publishers:
+  - status: reported
+    sourceType: secondary
+    id: epri-journals
+    name: 中国电力科学研究院有限公司期刊中心
+    sourceUrl: https://m.sigedu.cn/nd.jsp?id=4348
+    note: 公开招聘资料记载期刊中心编辑出版清单；待以最新版权页确认正式出版单位名称。
+    verifiedAt: 2026-10-23

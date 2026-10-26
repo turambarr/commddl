@@ -140,3 +140,12 @@ ratingReviewedAt: 2026-10-19
 primaryArea: wireless
 secondaryAreas:
   - space
+publishers:
+  - status: reported
+    sourceType: registry
+    id: cn-tele-eng-editorial
+    name: 《电讯技术》编辑部
+    sourceUrl: https://about.ebsco.com/m/ee/Marketing/titleLists/bsh-journals.pdf
+    sourcePublisher: Telecommunication Engineering
+    note: EBSCO title list 的出版商项列 Telecommunication Engineering；编辑部身份见 teleonline.cn。
+    verifiedAt: 2026-10-23

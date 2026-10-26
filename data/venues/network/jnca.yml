@@ -173,3 +173,19 @@ primaryArea: network
 secondaryAreas:
   - iot
   - ai
+publishers:
+  - id: elsevier
+    name: Elsevier
+    nameZh: 爱思唯尔
+    aliases:
+      - 爱斯维尔
+    status: reported
+    sourceType: crossref
+    sourceUrl: https://api.crossref.org/journals/1084-8045
+    verifiedAt: 2026-10-23
+    sourceTitle: Journal of Network and Computer Applications
+    sourcePublisher: Elsevier
+    issn:
+      - 1084-8045
+      - 1095-8592
+    note: 按 ISSN 与刊名核对的 Crossref 注册出版商记录；可能保留历史出版信息，不等同主办单位、所有权或托管平台。

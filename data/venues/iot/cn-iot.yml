@@ -125,3 +125,12 @@ primaryArea: iot
 secondaryAreas:
   - network
   - wireless
+publishers:
+  - status: verified
+    sourceType: official
+    id: bjxintong
+    name: 北京信通传媒有限责任公司
+    aliases:
+      - China InfoCom Media Group
+    sourceUrl: https://www.wlwxb.com.cn/zh/info/15337/
+    verifiedAt: 2026-10-23

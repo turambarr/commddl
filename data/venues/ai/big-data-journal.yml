@@ -98,3 +98,12 @@ evaluations:
     note: 按正式ISSN和中文刊名核对2021原始分级。
 assessments: []
 otherIndexes: []
+publishers:
+  - status: verified
+    sourceType: official
+    id: bjxintong
+    name: 北京信通传媒有限责任公司
+    aliases:
+      - China InfoCom Media Group
+    sourceUrl: https://www.bjxintong.com.cn/about/?bid=10149
+    verifiedAt: 2026-10-23

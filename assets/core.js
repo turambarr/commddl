@@ -212,9 +212,15 @@
     const records=[venue.indexing,...(venue.evaluations||[])].filter(e=>['verified','reported'].includes(e?.status));
     return [venue.issn,venue.eissn,...records.flatMap(e=>[e.issn,e.eissn])];
   }
+  function publisherTerms(venue) {
+    return (venue.publishers||[]).flatMap(p=>[p.id,p.name,p.nameZh,...(p.aliases||[])]);
+  }
+  function publisherMatches(venue, publisher) {
+    return !publisher || (publisher==='unknown' ? venue.kind==='journal'&&!(venue.publishers||[]).length : (venue.publishers||[]).some(p=>p.id===publisher));
+  }
   function searchDocument(venue, taxonomy, call) {
     const names=[venue.short,venue.nameEn,venue.nameZh,...(venue.aliases||[]),...(call?[call.title,call.titleEn]:[])].filter(Boolean);
-    return {short:venue.short,names,aliases:venue.aliases||[],topics:topicSearch(call?.topics||venue.topics,taxonomy),other:[venueIdentifiers(venue),call?.tags,call?.summary,call?null:venue.summary]};
+    return {short:venue.short,names,aliases:venue.aliases||[],topics:topicSearch(call?.topics||venue.topics,taxonomy),other:[publisherTerms(venue),venueIdentifiers(venue),call?.tags,call?.summary,call?null:venue.summary]};
   }
   function relevance(query, doc) {
     if(!query.trim())return 0;
@@ -322,13 +328,13 @@
       (v.catalogScope !== 'archive' || filters.includeArchived || (filters.historical||parsed.buptImportant)&&isBuptImportant(v) || (filters.favoriteOnly && favorites.has('venue:' + v.id))) &&
       (!filters.venueKind || v.kind === filters.venueKind) && evaluationMatches(v, filters.grades?.length ? filters.grades : filters.grade) &&
       (!filters.catalogStatus || v.catalogStatus === filters.catalogStatus) &&
-      indexesMatch(v,filters) &&
+      indexesMatch(v,filters) && publisherMatches(v,filters.publisher) &&
       (range.valid&&(!range.active||!!venueActivity(v,filters.calls,now,filters.zone,filters))) &&
       directionMatches(v.areas,v.primaryArea||v.areas[0],filters) && topicMatches(v.topics, filters.topics) &&
       (!filters.historical || isBuptImportant(v)) &&
       (!filters.favoriteOnly || favorites.has('venue:' + v.id)) &&
       (!filters.journalType || filters.journalType === 'all' || v.publicationType === filters.journalType) &&
-      (filters.searchCandidates||searchMatches(parsed.text, v.short, v.nameEn, v.nameZh, v.aliases, venueIdentifiers(v), v.summary, topicSearch(v.topics, filters.taxonomy)))
+      (filters.searchCandidates||searchMatches(parsed.text, v.short, v.nameEn, v.nameZh, v.aliases, publisherTerms(v), venueIdentifiers(v), v.summary, topicSearch(v.topics, filters.taxonomy)))
     ).sort((a,b) => {if(parsed.text&&(!filters.sort||filters.sort==='auto')){const order=relevance(parsed.text,searchDocument(a,filters.taxonomy))-relevance(parsed.text,searchDocument(b,filters.taxonomy));if(order)return order;}if(filters.calls&&filters.sort!=='name'){const x=venueDeadlineOrder(a,filters.calls,now,filters.zone,filters),y=venueDeadlineOrder(b,filters.calls,now,filters.zone,filters);const order=x[0]-y[0]||(x[0]===2?y[1].localeCompare(x[1]):x[1].localeCompare(y[1]));if(order)return order;}return (filters.sort === 'name' ? 0 : ({current:0,'needs-review':1,'historical-only':2}[a.catalogStatus] - {current:0,'needs-review':1,'historical-only':2}[b.catalogStatus])) || a.short.localeCompare(b.short);});
   }
   function filterCalls(calls, venues, filters, now = Date.now()) {
@@ -340,7 +346,7 @@
       if (!v || (v.catalogScope === 'archive' && !filters.includeArchived && !((filters.historical||parsed.buptImportant)&&isBuptImportant(v)) && !(filters.favoriteOnly && (favorites.has('venue:' + v.id) || favorites.has('call:' + call.id))))) return false;
       const selectedGrades=filters.grades?.length?filters.grades:filters.grade;
       const noInheritedGrade=call.kind==='workshop'||call.inheritsVenueEvaluation===false||['demo','poster','short'].includes(call.submissionCategory);
-      if(!indexesMatch(v,filters)||!evaluationMatches(v,selectedGrades))return false;
+      if(!publisherMatches(v,filters.publisher)||!indexesMatch(v,filters)||!evaluationMatches(v,selectedGrades))return false;
       if(noInheritedGrade&&(parsed.grades.length||selectedGrades?.length))return false;
       const st = stateOf(call, now, filters.zone);
       if(filters.showUndated===false&&!filters.favoriteOnly&&st.code==='pending')return false;
@@ -352,7 +358,7 @@
       if ((filters.historical||parsed.buptImportant) && (!inheritsConferenceList(call) || !isBuptImportant(v))) return false;
       if (filters.favoriteOnly && !favorites.has('call:' + call.id) && !favorites.has('venue:' + v.id)) return false;
       if (!deadlineMatches(call,filters,now,filters.zone)) return false;
-      return filters.searchCandidates||searchMatches(parsed.text, call.title, call.titleEn, call.tags, call.summary, v.short, v.nameEn, v.nameZh, v.aliases, venueIdentifiers(v), topicSearch(topics, filters.taxonomy));
+      return filters.searchCandidates||searchMatches(parsed.text, call.title, call.titleEn, call.tags, call.summary, v.short, v.nameEn, v.nameZh, v.aliases, publisherTerms(v), venueIdentifiers(v), topicSearch(topics, filters.taxonomy));
     }).sort((a, b) => {
       const aDate = calendarDate(primaryNode(a), filters.zone) || '9999';
       const bDate = calendarDate(primaryNode(b), filters.zone) || '9999';
