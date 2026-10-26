@@ -78,6 +78,8 @@ main:has(.deadline-stats){padding-top:24px}main:has(.deadline-stats) .page-headi
 .official-table td{border:1px solid var(--line);padding:7px 9px;vertical-align:top}
 .official-links{padding-left:20px}
 /* Search conditions stay visible and removable on desktop and touch screens. */
+/* Keep the site's labelled clear button instead of the browser's duplicate. */
+#search::-webkit-search-cancel-button{-webkit-appearance:none;appearance:none;display:none}
 .clear-search{flex:none;width:30px;height:30px;padding:0;border:0;border-radius:6px;background:transparent;color:#435f65;font-size:21px;cursor:pointer}
 .clear-search:hover,.clear-search:focus-visible{background:#e6eeee;color:#163f43}
 .search-context{display:flex;align-items:center;flex-wrap:wrap;gap:8px 16px;margin:4px 0 12px;color:#47636b;font-size:12px}
