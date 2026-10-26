@@ -260,7 +260,7 @@
   const publisherOptions=()=>[...new Map(D.venues.flatMap(v=>(v.publishers||[]).map(p=>[p.id,p.name]))).entries()].sort((a,b)=>a[1].localeCompare(b[1]));
   function publisherTags(v) {
     if(v.kind!=='journal')return '';
-    return '<div class="tags publisher-tags">'+((v.publishers||[]).length?v.publishers.map(p=>`<span class="tag">出版商：${esc(p.name)}${p.status==='reported'?'（资料记载）':''}</span>`).join(''):'<span class="tag">出版商：待核实</span>')+'</div>';
+    return '<div class="tags publisher-tags">'+((v.publishers||[]).length?v.publishers.map(p=>`<span class="tag">出版商：${esc(p.name)}</span>`).join(''):'<span class="tag">出版商：待核实</span>')+'</div>';
   }
   function organizationDetails(v) {
     if(v.kind!=='journal')return '';
